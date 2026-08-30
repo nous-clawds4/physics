@@ -34,7 +34,7 @@ Proposition 13: locked data at $O$ do not determine type-(ii) edges. Theorem 19:
 
 A nonempty open set in a Fermi-slice neighborhood is typically a continuum (Theorem 17, `papers/neighborhood-uncountable.md`). Open graph does not grain $\mathrm{Obs}$. It does not finite-support $R$. It does not make $\mathrm{Path}(O_0)$ countable. Theorem 31 (countable out-degree) is a different extra.
 
-**Not claimed.** No open-graph $R$ exists. A full product is open; that map is not the 2008 job.
+**Not claimed.** Empty $R$ is open (the empty subset of $\mathrm{Obs}\times\mathrm{Obs}$ is open in any topology). A full product is open. Neither is the 2008 job. Discrete $R$ on isolated points would need isolated lumps, which Theorem 17 does not supply.
 
 ---
 
@@ -47,7 +47,7 @@ Open-graph $R$ in the Fermi-slice topology (or open out-stars). Extra. Dual of c
 ## 4. Report line
 
 - **Named, not adopted.** Open-graph $R$ in the Fermi-slice product. Live hole is still the law of $R$.
-- **Killed.** Reading Theorem 16 as an open law of $R$. Reading locality as open-graph. Inventing a grain so that open classes are countable. Writing a measure or $\Phi$.
+- **Killed.** Reading Theorem 16 as an open law of $R$. Reading locality as open-graph. Claiming no open-graph $R$ exists. Claiming empty $R$ is not open. Inventing a grain so that open classes are countable. Writing a measure or $\Phi$.
 - **Open.** The law of $R$; whether $R$ has open graph; grain of $\mathrm{Obs}$.
 
 ---
