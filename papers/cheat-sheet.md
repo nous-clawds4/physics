@@ -60,6 +60,7 @@ Two ensembles, one line: $E_\gamma$ hitchhikes with $\gamma_O$ and stays put in 
 - **Thm 27.** $\mathrm{Occ}(O)\setminus\gamma_O$ is lock-side. Nonconstant curvature (or jet coefficient) $\Rightarrow$ continuum of lumps; local homogeneity $\Rightarrow$ Occ may collapse and $S$ may be empty. Restricting type-(ii) targets to it is not $E$-smuggling and does not grain. Named, not adopted. `papers/in-patch-support.md`
 - **Thm 28.** Named lock-side subsets of $S(O)=\mathrm{Occ}(O)\setminus\gamma_O$ (Fermi spatial slice at one $\tau$, Cauchy surface in $P(O)$, integer curvature bins) are one class or a continuum, or smuggle a grain. Not a closed “no countable subset.” `papers/countable-in-patch.md`
 - **Thm 29.** Morse of a curvature scalar is extra. Conjugate locus and cut locus of $p$ are typically continua after $q\mapsto O_q$. Lorentzian cut: geodesic ceases to *maximize* $\tau(p,q)$ (sup). Isolated conjugates along $\sigma_O$ are type (i). `papers/critical-points-in-patch.md`
+- **Thm 30.** Chronological future in $P(O)$, Einstein/vacuum, and energy conditions do not finite-support $R$ without a grain. Named remainder: that well is dry as of this inventory. Not a closed “no constraint exists.” `papers/support-without-grain.md`
 - **Def. 9.** Transition structure on lumps: $(V,R)$ with $V\subseteq\mathrm{Obs}$. A matrix only if $V$ is discrete. Not adopted. `papers/transition-matrix-on-lumps.md`
 
 ---
