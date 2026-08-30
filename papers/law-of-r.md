@@ -6,7 +6,7 @@ What can constrain which type-(ii) edges exist, without a grain, $1/N$, a measur
 
 Companions: `papers/type-ii-adopted.md`, `papers/tree-as-structure.md`, `papers/remainder.md`, `papers/original-two-layer.md`.
 
-**Status.** Proposition 13 already: locked data at $O$ do not determine type-(ii) edges. Theorem 19 strengthens that: $R$ is not a function of $\bigl(j_\infty,u,P(O),\gamma_O,E(O)\bigr)$ together with the Fermi-slice $/O(3)$ topology. The law of $R$ is extra structure, the same kind of remainder as grain. Corpus candidates (2005 random walk, Strayhorn3 transition matrix, ActionPrinciple least-action pattern) are named, not adopted. Anything that uses a grain, $E$-smuggling, or Born is killed as a constraint from the lock.
+**Status.** Proposition 13 already: locked data at $O$ do not determine type-(ii) edges. Theorem 19: none of the *named* lock-side functors (listed data at $O$, open neighborhoods, continuous $f:\mathrm{Obs}\to\mathbb{R}^n$) supply countable type-(ii) successors of lumps. The law of $R$ is extra relative to those. Not a blanket “no map.” Corpus candidates (2005 random walk, Strayhorn3 transition matrix, ActionPrinciple least-action pattern) are named, not adopted. Grain, $E$-smuggling, or Born stay killed as lock-side constraints. Definition 9 stays.
 
 ---
 
@@ -16,15 +16,27 @@ Type-(ii) links are working across-worlds motion on $\mathrm{Obs}=\mathcal{P}/{\
 
 ---
 
-## 1. Proposition 13 already, and a strengthening
+## 1. Proposition 13 already, and named functors
 
 **Proposition 13** (`papers/type-ii-adopted.md`): the lump, the patch $P(O)$, the curvelet $\gamma_O$, and the ensemble $E(O)$ determine at most type-(i) successive pairs. They do not determine a type-(ii) edge $(O,O')$ with $O'$ not on $\gamma_O$. Not renumbered.
 
-**Theorem 19.** There is no map, determined by $\bigl(j_\infty,u,P(O),\gamma_O,E(O)\bigr)$ together with the Fermi-slice topology on $\mathrm{Obs}$ (Theorem 16), that assigns to each $O$ a set of type-(ii) successors that is countable, or finite, or a canonical nonempty proper subset of a neighborhood. The law of $R$ is extra structure.
+**Theorem 19.** None of the named lock-side functors
 
-**Proof.** Proposition 13 disposes of the germ, patch, curvelet, and ensemble. The Fermi-slice topology adds open sets. Theorem 17: every nonempty open $U\ni O$ has $U\setminus\gamma_O$ uncountable, so “successors $=$ a neighborhood” is a continuum, not a finite $N$ and not a countable set. Theorem 18: finitely many continuous functions on a connected open yield one class or a continuum, so “successors $=$ nearby lumps with the same (or nearby) curvature scalars” does not grain. No other locked functor of this data has been named. $\square$
+1. the listed data at $O$: $j_\infty$, $u$, $P(O)$, $\gamma_O$, $E(O)$ (Proposition 13);
+2. nonempty open neighborhoods in the Fermi-slice topology (Theorem 17);
+3. finitely many continuous maps $f:\mathrm{Obs}\to\mathbb{R}^n$ on a nonempty connected open (Theorem 18)
+
+supplies a countable set of type-(ii) successors of lumps. The law of $R$ is extra relative to those functors.
+
+**Proof.** (1) is Proposition 13. (2) Theorem 17: every nonempty open $U\ni O$ has $U\setminus\gamma_O$ uncountable, so “successors $=$ a neighborhood” is a continuum, not a countable set. (3) Theorem 18: finitely many continuous functions on a connected open yield one class or a continuum, so “successors $=$ nearby lumps with the same (or nearby) continuous invariants” does not grain. $\square$
 
 A neighborhood-*constraint* (targets must lie in $U$, plus a further discrete cut) is still extra: the cut is the grain, or something else not locked. It is not a law of $R$ from the topology.
+
+**Not claimed.** There is no map of this data to successor-sets. The empty assignment $\mathrm{succ}(O)=\emptyset$ and the constant assignment $\mathrm{succ}(O)=\{O_{\mathrm{Mink}}\}$ are maps of the data. They are trivial. They do not give a countable typicality set of delayed forks, and they are not a law of $R$. They kill a blanket impossibility.
+
+**Third disjunct dropped.** The previous wording forbade a “canonical nonempty proper subset of a neighborhood.” That is false. Ricci-flat germs in a Fermi ball are selected by the jet (the Einstein condition is a condition on $j_\infty$) and form a nonempty proper subset: nearby non-Einstein germs exist. Weyl $=0$ and Petrov walls similarly. Those subsets remain uncountable (they do not grain). They are why the disjunct fails, not a successor-law.
+
+**Discrete algebraic invariants.** Petrov type and $\dim$ of the Killing algebra are locked functors Theorem 18 does not cover (they are not continuous $\mathbb{R}^n$-valued functions). There are finitely many Petrov types; each type-class in a Fermi ball is still a continuum of lumps. Finite type, continuum fibre: they fail to grain. Not a counterexample to the intended remainder (countable type-(ii) successors still not supplied). Not folded into Theorem 19 as a fourth named functor.
 
 ---
 
@@ -67,7 +79,7 @@ The least-action pattern and the transition matrix, stripped of $1/N$ and of $d$
 
 ## 4. Theorem 19, as remainder
 
-**Theorem 19 (restated).** Nothing already locked — the jet/patch object, hitchhiking, $E(O)$, $\sim_L$, the Fermi-slice topology — determines the type-(ii) relation $R$. The law of $R$ is extra structure, of the same kind as grain.
+**Theorem 19 (restated).** Relative to the named lock-side functors of §1, the type-(ii) relation $R$ is extra structure, of the same kind as grain. Not a claim that no map of the data exists.
 
 Type-(ii) *existence* is working, abandonable. The *law* is not written. $1/N$ is not put in to fill the gap.
 
@@ -76,8 +88,9 @@ Type-(ii) *existence* is working, abandonable. The *law* is not written. $1/N$ i
 ## 5. Report line
 
 - **Already Prop. 13.** Locked data at $O$ do not determine extra edges. Not renumbered.
-- **Proved.** Theorem 19: $R$ is not a function of $\bigl(j_\infty,u,P(O),\gamma_O,E(O)\bigr)$ plus Fermi-slice topology. The law of $R$ is extra structure.
-- **Recorded, not adopted.** Corpus transition matrix / random walk / least-action pattern.
+- **Proved.** Theorem 19: named lock-side functors (data at $O$, open neighborhoods, continuous $f:\mathrm{Obs}\to\mathbb{R}^n$) do not supply countable type-(ii) successors of lumps. Law of $R$ extra relative to those.
+- **Dropped.** Blanket “no map”; the third disjunct (canonical nonempty proper subset of a neighborhood). Ricci-flat / Weyl $=0$ / Petrov walls are why.
+- **Recorded.** Discrete algebraic invariants (Petrov type, $\dim$ Killing) fail to grain; not a counterexample; not a fourth functor in Theorem 19. Corpus transition matrix / random walk / least-action pattern, not adopted. Definition 9 stays.
 - **Killed.** Grain, $E$-smuggling, or Born as a lock-side constraint on $R$. 2007 geodesic-generated tree.
 - **Open.** The law of $R$; whether to abandon type (ii).
 
