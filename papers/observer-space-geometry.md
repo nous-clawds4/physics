@@ -132,7 +132,7 @@ A modelling preference for "Fréchet because jets are Fréchet" does not count u
 
 ### 4.2 Existence and uniqueness of \(P(j_\infty,u)\)
 
-**Open.** The locked equivalence says that, on simply-connected real-analytic patches, \(j_\infty\) determines \(P\) and \(P\) determines \(j_\infty\). That is the identification of the two names. Existence, uniqueness, radius, and maximality of \(P(j_\infty,u)\) as a simply-connected analytic patch are not proved here.
+**First theorem.** The locked equivalence says that, on simply-connected real-analytic patches, \(j_\infty\) determines \(P\) and \(P\) determines \(j_\infty\). Existence of a simply-connected realizing patch, uniqueness of the germ, and uniqueness of the maximal simply-connected continuation as an abstract pointed patch are proved in `papers/analytic-patch-from-jet.md`. Uniqueness as a subset of a completed \(W\), or as a canonical simply-connected open in a fixed chart, is killed there. The object is not rewritten.
 
 **What would count as an answer.** Theorems, in named function spaces, that:
 
