@@ -28,7 +28,7 @@ Proposition 13: locked data at $O$ do not determine type-(ii) edges. Theorem 19:
 
 A continuous selection would typically give a continuum of lumps (Theorems 17--18: `papers/neighborhood-uncountable.md`, `papers/grain-not-from-invariants.md`). A measurable selection still does not grain $\mathrm{Obs}$. Borel images can be continua. It does not finite-support $R$. It does not make $\mathrm{Path}(O_0)$ countable. Theorem 31 (countable out-degree) is a different extra.
 
-**Not claimed.** No measurable selection exists. Empty $R$ has no nonempty-star selection. A constant map to $O_{\mathrm{Mink}}$ is a selection of a singleton star. They are maps and not the 2008 job.
+**Not claimed.** Empty $R$ has no nonempty-star selection. A constant map to a singleton star is a selection. They are maps and not the 2008 job. Do not claim no measurable selection exists.
 
 ---
 
@@ -41,7 +41,7 @@ A Borel (or universally measurable) selection of successors. Extra-on-extra. Dis
 ## 4. Report line
 
 - **Named, not adopted.** A measurable selection of successors. Live hole is still the law of $R$.
-- **Killed.** Reading a Borel graph as a measurable selection. Reading Theorem 16 as a selection. Inventing a grain so selected successors are countable. Writing $\Phi$ or a measure.
+- **Killed.** Reading a Borel graph as a measurable selection. Reading Theorem 16 as a selection. Claiming no measurable selection exists. Inventing a grain so selected successors are countable. Writing $\Phi$ or a measure. Writing a selection theorem as a law of $R$.
 - **Open.** The law of $R$; whether a measurable selection exists; grain of $\mathrm{Obs}$.
 
 ---
