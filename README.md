@@ -10,7 +10,7 @@ The goal of this program is to arrive at a theory of physics with the following 
 - It is hoped that it will be useful in unexpected ways, analogous to GTR enabling GPS navigation or QM enabling the construction of transistors and microchips.
 
 # Ontology
-I expect this single unified theory ought to yield an ontology of the observer as a physical object that exists as a point in a space of all possible observers and whose evolution over proper time can be understood as motion through observer space. We desire a precise mathematical construction of observer space and motion through it with the following characteristics: 
+The general theory ought to yield an ontology of the observer as a physical object that exists as a point in a space of all possible observers and whose evolution over proper time can be understood as motion through observer space. We desire a precise mathematical construction of observer space and motion through it with the following characteristics: 
 - The movement of the observer through this space should be classical, like the motion of a test particle along a geodesic in GTR.
 - Nevertheless, classical evolution of the observer through state space will not be fully determined; see [2] for motivation.
 - The laws of GTR and QM will appear to be valid to the vast majority of observers in state space [3]. For this requirement to make sense and to carry import, the space must admit one and only one reasonable way to define the measure of observers. We believe that countability (of observers) will provide the central argument for this part of the program.
