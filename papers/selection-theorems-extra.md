@@ -18,7 +18,7 @@ Theorem 16 (`papers/obs-as-a-space.md`): Fermi-slice topology exists and is Haus
 
 **Jankov--von Neumann.** Analytic uniformization. Extra-on-extra: it needs a standard Borel (or similar) structure, which is not locked.
 
-**Michael.** A lower hemicontinuous closed-valued map from a paracompact Hausdorff space into a Banach (or Fréchet) space admits a continuous selection. Extra-on-extra: it needs paracompactness and a linear structure on $\mathrm{Obs}$, which are not locked. A continuous selection would typically give a continuum of lumps (Theorems 17--18). That is not a grain and not the 2008 job.
+**Michael.** A lower hemicontinuous closed *convex*-valued map from a paracompact Hausdorff space into a Banach (or Fréchet) space admits a continuous selection. Extra-on-extra: it needs paracompactness and a linear structure on $\mathrm{Obs}$, which are not locked, *and* convex-valued stars, which is a further extra-on-extra (convex subsets of a linear structure that is itself not locked). Closed-valued into Banach does not suffice. Do not write Michael as if closed stars in a Banach $\mathrm{Obs}$ give a continuous selection. A continuous selection would typically give a continuum of lumps (Theorems 17--18). That is not a grain and not the 2008 job.
 
 Closed-graph plus compact-valued plus leftover (1) as a bundle for upper hemicontinuity is already named. It is not a selection theorem and is not a law of $R$.
 
@@ -36,14 +36,14 @@ None of them grains $\mathrm{Obs}$. A measurable or continuous selection can hav
 
 ## 3. Named leftover, not adopted
 
-Kuratowski--Ryll-Nardzewski, Jankov--von Neumann, Michael: extra-on-extra. Not adopted as a law of $R$. Polish / standard Borel / paracompact-linear structure not invented. Not a grain. Paper 1 not rewritten.
+Kuratowski--Ryll-Nardzewski, Jankov--von Neumann, Michael: extra-on-extra. Not adopted as a law of $R$. Polish / standard Borel / paracompact-linear structure not invented. Convex-valued stars a further extra-on-extra, not adopted. Not a grain. Paper 1 not rewritten.
 
 ---
 
 ## 4. Report line
 
 - **Named, not adopted.** Selection-theorem hypotheses as extra-on-extra. Live hole is still the law of $R$.
-- **Killed.** Writing a selection theorem as a law of $R$. Inventing Polish (or standard Borel, or Banach) structure on $\mathrm{Obs}$ to feed one. Inventing a grain so selected successors are countable. $|a|^2$. $\Phi$.
+- **Killed.** Writing a selection theorem as a law of $R$. Inventing Polish (or standard Borel, or Banach) structure on $\mathrm{Obs}$ to feed one. Writing Michael as closed-valued into Banach without convexity. Inventing a grain so selected successors are countable. $|a|^2$. $\Phi$.
 - **Open.** The law of $R$; whether any of these extras is put in; grain of $\mathrm{Obs}$.
 
 ---
