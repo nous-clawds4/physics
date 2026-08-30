@@ -74,6 +74,8 @@ This is equality of maps into \(\mathrm{Obs}\). Hilbert-space amplitude does not
 
 The cut is a premise of the ontology. Grain does not reopen it. Same curve or not is settled as equality of \((j,u)\) at every \(\tau\). How fine the jet is, and when a numerical difference is a physically different disagreement, are separate questions (§4.1, §4.3). They are not a second identity criterion.
 
+That equality is the identity criterion. It is not a theorem that the equality is well-posed independently of coordinates or of frame. Gauge is open. Do not read the formula as settling well-posedness, and do not absorb a Diff/frame quotient into the objects in order to make it well-posed (§4.2, §5).
+
 If the domains differ, compare on the overlap after aligning origins, and treat a proper extension as distinct from its restriction in the usual way for curves: the restriction and the extension are not the same map. Prefixes of an evolution are earlier nodes of the same history, not a second history.
 
 ---
