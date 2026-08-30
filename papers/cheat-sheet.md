@@ -53,9 +53,10 @@ Two ensembles, one line: $E_\gamma$ hitchhikes with $\gamma_O$ and stays put in 
 - **Thm 20.** Walk-count is infinite if a cycle can be pumped. Strayhorn3 both-ways, as walks, is ill-defined. `papers/fusion-and-path-counting.md`
 - **Thm 21.** On a DAG with finitely many walks $p\to q$, $N(p,q)$ is well-defined; fusion adds walks. Unique-tree extra. `papers/fusion-and-path-counting.md`
 - **Thm 22.** Named non-slices (hitchhiker $\tau$, Fermi balls, continuous $f$, grain) fail to make $N(p,\cdot)$ a probability of type-(ii) targets. Not a closed “nothing supplies.” `papers/counting-needs-a-slice.md`
-- **Thm 23.** Hitchhiker $\tau$ does not timestamp type (ii). Extra $W$ from $E(O)$ is $E$-smuggling. In-patch infimal proper time is lock-side, not unique in $(O,O^\prime)$, not a general type-(ii) clock. `papers/type-ii-clock.md`
+- **Thm 23.** Hitchhiker $\tau$ does not timestamp type (ii). Extra $W$ from $E(O)$ is $E$-smuggling. In-patch Lorentzian distance (sup) is lock-side, unique given a fixed $q$; leftover non-uniqueness is only multiple occurrence; not a general type-(ii) clock. `papers/type-ii-clock.md`
 - **Thm 24.** Fermi-slice distance is a continuous scale, not a finite slice or generation. Rounding is a grain. `papers/fermi-distance.md`
 - **Thm 25.** Continuous $y$ on a connected open does not finite-support $R$. Integer $y\in[0,Y]$ is a grain. Least-action-on-support named, not adopted. `papers/least-action-support.md`
+- **Thm 26.** Combinatorial $y$ (edge count, Euler, out-degree) does not finite-support $R$ without a grain or a law of $R$ plus a slice. Compact Lorentzian $\chi=0$ (Poincaré–Hopf) does not select type-(ii) edges. `papers/combinatorial-y.md`
 - **Def. 9.** Transition structure on lumps: $(V,R)$ with $V\subseteq\mathrm{Obs}$. A matrix only if $V$ is discrete. Not adopted. `papers/transition-matrix-on-lumps.md`
 
 ---
