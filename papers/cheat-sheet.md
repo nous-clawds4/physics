@@ -61,6 +61,8 @@ Two ensembles, one line: $E_\gamma$ hitchhikes with $\gamma_O$ and stays put in 
 - **Thm 28.** Named lock-side subsets of $S(O)=\mathrm{Occ}(O)\setminus\gamma_O$ (Fermi spatial slice at one $\tau$, Cauchy surface in $P(O)$, integer curvature bins) are one class or a continuum, or smuggle a grain. Not a closed “no countable subset.” `papers/countable-in-patch.md`
 - **Thm 29.** Morse of a curvature scalar is extra. Conjugate locus and cut locus of $p$ are typically continua after $q\mapsto O_q$. Lorentzian cut: geodesic ceases to *maximize* $\tau(p,q)$ (sup). Isolated conjugates along $\sigma_O$ are type (i). `papers/critical-points-in-patch.md`
 - **Thm 30.** Chronological future in $P(O)$, Einstein/vacuum, and energy conditions do not finite-support $R$ without a grain. Named remainder: that well is dry as of this inventory. Not a closed “no constraint exists.” `papers/support-without-grain.md`
+- **Unique-measure (named).** Conditions under which a unique measure could go through (leftover motion, grain, law of $R$, count/slice/DAG-or-tree, a typicality rule, circularity resolved; or a measure on many $O$). Not adopted. Not $\Phi$. `papers/unique-measure-conditions.md`
+- **Circularity (named remaining lock).** Count first, then typicality, then the measure used to count. Resolvers named, not adopted: combinatorial count first; measure first; self-consistent $\mu$ ($|a|^2$ as $M$ killed); abandon the derivation. `papers/circularity.md`
 - **Def. 9.** Transition structure on lumps: $(V,R)$ with $V\subseteq\mathrm{Obs}$. A matrix only if $V$ is discrete. Not adopted. `papers/transition-matrix-on-lumps.md`
 
 ---
