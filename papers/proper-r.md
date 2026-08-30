@@ -2,49 +2,51 @@
 
 David Strayhorn
 
-Live hole is the law of $R$, not a grain. Theorem 16 (`papers/obs-as-a-space.md`): Fermi-slice topology on $\mathrm{Obs}$ exists (gauge-agnostic descent of $/O(3)$ Fermi charts), Hausdorff. Compact-valued stars (`papers/compact-stars.md`, on main via #57): each out-star relatively compact. Different extra. Do not reopen. Closed-graph (`papers/closed-graph-r.md`, on main): closed stars. Different extra. Measurability (`papers/measurable-r.md`, on main): Borel graph. Different extra. Locality (`papers/local-law-of-r.md`, on main): neighborhood-constraint. Different extra. Properness of $R$ (preimages of compact sets compact; or the projection from the graph to $\mathrm{Obs}$ a proper map; or the set of $O$ whose out-star meets a compact $K$ is compact) is extra, not a grain. Distinct from compact-valued out-stars. Do not adopt. Do not invent a grain. Not $\Phi$. No $|a|^2$. No $L$. No $1/N$. Paper 1 not rewritten.
+Live hole is the law of $R$, not a grain. Theorem 16 (`papers/obs-as-a-space.md`): Fermi-slice topology on $\mathrm{Obs}$ exists (gauge-agnostic descent of $/O(3)$ Fermi charts), Hausdorff. Compact-valued stars (`papers/compact-stars.md`, on main via #57): each out-star relatively compact. Different extra. Do not reopen. Closed-graph (`papers/closed-graph-r.md`, on main): closed stars. Different extra. Measurability (`papers/measurable-r.md`, on main): Borel graph. Different extra. Locality (`papers/local-law-of-r.md`, on main): neighborhood-constraint. Different extra.
+
+Named leftover (1): for compact $K\subset\mathrm{Obs}$, the set $\{O:\mathrm{succ}(O)\cap K\neq\emptyset\}$ is compact. Backward compactness of sources that hit a compact target. Extra, not lock-side. Distinct from compact-valued stars, closed-graph, Borel, and locality. Not a grain. Do not adopt. Do not invent a grain. Not $\Phi$. No $|a|^2$. No $L$. No $1/N$. Paper 1 not rewritten.
 
 Companions: `papers/obs-as-a-space.md` (Theorem 16), `papers/neighborhood-uncountable.md` (Theorem 17), `papers/compact-stars.md`, `papers/closed-graph-r.md`, `papers/measurable-r.md`, `papers/local-law-of-r.md`, `papers/extra-structure.md`.
 
-**Status.** Properness of $R$ in the Fermi-slice topology is extra. Not lock-side (Proposition 13, Theorem 19). Distinct from compact-valued stars (`papers/compact-stars.md`, on main via #57: forward compactness of each out-star). Distinct from closed-graph (`papers/closed-graph-r.md`, on main: closed stars). Distinct from measurability (`papers/measurable-r.md`, on main: Borel graph in the product). Distinct from locality (`papers/local-law-of-r.md`, on main: a neighborhood-constraint on stars). Properness is a backward compactness cut. Extra even without compact-valued stars. Does not grain $\mathrm{Obs}$. Named, not adopted.
+**Status.** Leftover (1) is extra. Not lock-side (Proposition 13, Theorem 19). Distinct from compact-valued stars (`papers/compact-stars.md`, on main via #57: forward compactness of each out-star). Distinct from closed-graph (`papers/closed-graph-r.md`, on main). Distinct from measurability (`papers/measurable-r.md`, on main). Distinct from locality (`papers/local-law-of-r.md`, on main). Does not grain $\mathrm{Obs}$. Named, not adopted.
 
 ---
 
-## 1. What is now stateable
+## 1. The leftover, and what it is not
 
-Theorem 16 (`papers/obs-as-a-space.md`): the Fermi-slice $/O(3)$ quotient is a Hausdorff topology on $\mathrm{Obs}$. Compact sets in that topology are then well-defined. A relation $R$ is proper if preimages of compact sets are compact: for compact $K\subset\mathrm{Obs}$, the set $\{O:\mathrm{succ}(O)\cap K\neq\emptyset\}$ is compact (equivalently: the projection from the graph of $R$ to $\mathrm{Obs}$ is a proper map; equivalently: the set of $O$ whose out-star meets a compact $K$ is compact). This is a well-defined extra rule. It is not written. Do not claim the Fermi-slice topology is locally compact. That is not locked. Name the extra without inventing that structure.
+Theorem 16 (`papers/obs-as-a-space.md`): the Fermi-slice $/O(3)$ quotient is a Hausdorff topology on $\mathrm{Obs}$. Compact sets in that topology are then well-defined. Leftover (1): for compact $K\subset\mathrm{Obs}$, $\{O:\mathrm{succ}(O)\cap K\neq\emptyset\}$ is compact. That is a well-defined extra rule. It is not written. Do not claim the Fermi-slice topology is locally compact. That is not locked.
 
-Compact-valued stars (`papers/compact-stars.md`, on main via #57) are forward compactness of each out-star $\mathrm{succ}(O)=\{O^\prime:(O,O^\prime)\in R\}$. Extra and different. Already named. Not reopened here. Properness is backward: compactness of the set of sources that hit a compact target, not compactness of the stars themselves. Extra even without compact-valued stars.
+This is *not* equivalent to “preimages of compact sets are compact,” and it is *not* equivalent to “the projection from the graph of $R$ to $\mathrm{Obs}$ is a proper map.” Those clauses were stacked as equivalent and they are not.
 
-Closed-graph $R$ (`papers/closed-graph-r.md`, on main) is closed graph in the product, or closed out-stars. Extra and different. Already named. Not reopened here.
+Write $\mathrm{Graph}(R)\subset\mathrm{Obs}\times\mathrm{Obs}$. Then $\pi_2^{-1}(K)=\mathrm{Graph}(R)\cap(\mathrm{Obs}\times K)$ compact is strictly stronger than leftover (1), unless fibers are compact (compact-valued stars: already a different extra) and typically wants a closed graph (already a different extra). $\pi_1$ proper is a different cut again. Closed plus compact-valued plus leftover (1) as a bundle is extra-on-extra. Not adopted. Do not write a selection theorem as a law of $R$.
 
-Measurability (`papers/measurable-r.md`, on main) is Borel (etc.) graph of $R$ in the product. Extra and different. Already named. Not reopened here.
+Compact-valued stars (`papers/compact-stars.md`, on main via #57) are forward compactness of each out-star $\mathrm{succ}(O)=\{O^\prime:(O,O^\prime)\in R\}$. Extra and different. Already named. Not reopened here.
 
-Locality (`papers/local-law-of-r.md`, on main) is a neighborhood-constraint $\mathrm{succ}(O)\subseteq U$ for some Fermi-slice open $U\ni O$. Extra and different. Already named. Not reopened here.
+Closed-graph, measurability, and locality are extra and different. Already named. Not reopened here.
 
 ---
 
-## 2. Properness is not lock-side and is not a grain
+## 2. Not lock-side and not a grain
 
-Proposition 13: locked data at $O$ do not determine type-(ii) edges. Theorem 19: named functors do not supply $R$. Properness of $R$ is therefore extra relative to the lock, same as the law of $R$ itself. Not lock-side.
+Proposition 13: locked data at $O$ do not determine type-(ii) edges. Theorem 19: named functors do not supply $R$. Leftover (1) is therefore extra relative to the lock, same as the law of $R$ itself.
 
-A compact set in a Fermi-slice chart is typically a continuum (Theorem 17, `papers/neighborhood-uncountable.md`). Compact preimages are typically continua. Properness does not grain $\mathrm{Obs}$. It does not finite-support $R$. It does not make $\mathrm{Path}(O_0)$ countable. Theorem 31 (countable out-degree) is a different extra. Compact does not imply countable or finite.
+A compact set in a Fermi-slice chart is typically a continuum (Theorem 17, `papers/neighborhood-uncountable.md`). Compact preimages are typically continua. Compact does not imply countable or finite. Leftover (1) does not grain $\mathrm{Obs}$. It does not finite-support $R$. It does not make $\mathrm{Path}(O_0)$ countable. Theorem 31 (countable out-degree) is a different extra.
 
-**Not claimed.** No proper $R$ exists. Empty $R$ is proper. A singleton pair is proper. They are maps and not the 2008 job. Do not claim no proper $R$ exists.
+**Not claimed.** No such $R$ exists. Empty $R$ is proper in the sense of leftover (1). A singleton pair is. They are maps and not the 2008 job.
 
 ---
 
 ## 3. Named leftover, not adopted
 
-Properness of $R$ in the Fermi-slice topology. Extra. Not a grain. Not lock-side. Not compact-valued stars. Not closed-graph. Not measurability. Not locality. Not adopted. Paper 1 not rewritten.
+Leftover (1): $\{O:\mathrm{succ}(O)\cap K\neq\emptyset\}$ compact for compact $K$. Extra. Not a grain. Not lock-side. Not compact-valued stars. Not closed-graph. Not a proper projection of the graph. Not adopted. Paper 1 not rewritten.
 
 ---
 
 ## 4. Report line
 
-- **Named, not adopted.** Properness of $R$ in the Fermi-slice topology. Live hole is still the law of $R$.
-- **Killed.** Reading Theorem 16 as proper $R$. Reading compact-valued stars as properness. Inventing a grain so that proper classes are countable. Writing a measure or $\Phi$.
-- **Open.** The law of $R$; whether $R$ is proper; grain of $\mathrm{Obs}$.
+- **Named, not adopted.** Leftover (1): backward compactness of sources that hit a compact target. Live hole is still the law of $R$.
+- **Killed.** Stacking leftover (1) as equivalent to a proper projection of the graph. Reading Theorem 16 as leftover (1). Reading compact-valued stars as leftover (1). Inventing a grain so that compact classes are countable. Writing a measure or $\Phi$.
+- **Open.** The law of $R$; whether leftover (1) holds; grain of $\mathrm{Obs}$.
 
 ---
 
