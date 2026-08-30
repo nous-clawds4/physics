@@ -2,7 +2,7 @@
 
 David Strayhorn
 
-One table for the locked objects and the maps between them. It does not change the object. It does not write $\Phi$. Companions: `papers/observer-space-geometry.md`, `papers/analytic-patch-from-jet.md`, `papers/analytic-split.md`, `papers/geodesic-lifts.md`, `papers/ensemble-labels.md`, `papers/typicality-under-the-lock.md`, `papers/patch-edge.md`, `papers/phi-straits.md`, `papers/obs-as-a-set.md`, `papers/tree-as-structure.md`, `papers/type-ii-adopted.md`.
+One table for the locked objects and the maps between them. It does not change the object. It does not write $\Phi$. Companions: `papers/observer-space-geometry.md`, `papers/analytic-patch-from-jet.md`, `papers/analytic-split.md`, `papers/geodesic-lifts.md`, `papers/ensemble-labels.md`, `papers/typicality-under-the-lock.md`, `papers/patch-edge.md`, `papers/phi-straits.md`, `papers/obs-as-a-set.md`, `papers/tree-as-structure.md`, `papers/type-ii-adopted.md`, `papers/law-of-r.md`.
 
 ---
 
@@ -46,6 +46,11 @@ Two ensembles, one line: $E_\gamma$ hitchhikes with $\gamma_O$ and stays put in 
 - **Thm 10.** $\mathrm{Obs}=\mathcal{P}/{\sim_L}$ is a set of lumps. Not raw jets, not $\mathrm{Met}/\mathrm{Diff}$, not $E(O)$. Not a space. `papers/obs-as-a-set.md`
 - **Thm 11.** 2007 across-worlds tree is not a theorem of the geodesic-analytic layer. `papers/original-two-layer.md`
 - **Prop. 13.** Locked data at $O$ do not determine type-(ii) edges. Neighborhood-law for $R$ needs $\mathrm{Obs}$ as a space. `papers/type-ii-adopted.md`
+- **Thm 16.** Fermi-slice topology (Fermi coordinates modulo $O(3)$) descends to a Hausdorff topology on $\mathrm{Obs}$. Formal-Fréchet on all presentations does not. `papers/obs-as-a-space.md`
+- **Thm 17.** Open balls minus $\gamma_O$ are uncountable. Neighborhoods do not give countable type-(ii) successors. `papers/neighborhood-uncountable.md`
+- **Thm 18.** Finitely many continuous functions on a connected open in $\mathrm{Obs}$ yield one class or a continuum. Grain is extra. `papers/grain-not-from-invariants.md`
+- **Thm 19.** $R$ is not a function of $\bigl(j_\infty,u,P(O),\gamma_O,E(O)\bigr)$ plus Fermi-slice topology. The law of $R$ is extra structure. `papers/law-of-r.md`
+- **Def. 9.** Transition structure on lumps: $(V,R)$ with $V\subseteq\mathrm{Obs}$. A matrix only if $V$ is discrete. Not adopted. `papers/transition-matrix-on-lumps.md`
 
 ---
 
@@ -58,5 +63,5 @@ Two ensembles, one line: $E_\gamma$ hitchhikes with $\gamma_O$ and stays put in 
 - **Analytic split.** Two distinct *analytic* curves in $\mathrm{Obs}$ cannot agree on a positive-length initial interval. See `papers/analytic-split.md`.
 - **Typicality under the lock.** No remaining typicality theorem without a new hypothesis that supplies a countable set of distinct evolutions. Unique-measure stays conditional. `papers/typicality-under-the-lock.md`
 - **Straitjacket.** Analytic-curve $\Phi$ cannot delayed-fork. Gauge stays open; no measure on $\mathrm{Obs}$. `papers/phi-straits.md`
-- **Type (ii).** Working across-worlds stand-in: extra links on lumps (2005 / Strayhorn3), abandonable. Not the 2007 geodesic-generated tree. Law for $R$ not written. `papers/type-ii-adopted.md`
+- **Type (ii).** Working across-worlds stand-in: extra links on lumps (2005 / Strayhorn3), abandonable. Not the 2007 geodesic-generated tree. Law of $R$ extra structure (Thm 19). `papers/type-ii-adopted.md`, `papers/law-of-r.md`
 - **Obs as a set.** Lumps, not presentations and not occurrences. Gauge as a *space* stays open. No measure. `papers/obs-as-a-set.md`
