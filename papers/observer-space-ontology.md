@@ -12,7 +12,7 @@ Physics uses the word *observer* constantly and almost never says what one is. T
 
 If distinct such histories can be counted, counting is the unique reasonable measure on the space. No other measure is forced by the ontology. Talk of a typical observer is then well-defined, and it is well-defined without taking the squared modulus of a Hilbert-space amplitude as a primitive.
 
-A known mismatch in many-worlds quantum theory is used only as motivation. If one counts decoherence branches equally, most observers do not see Born-rule frequencies; if one weights branches by \(|\psi|^2\), one has already put the answer into the measure. That circle is kept, not broken. The 2008 illustration of it is not this paper, and it did not state observer space.
+A known mismatch in many-worlds quantum theory is used only as motivation. If one counts decoherence branches equally, most observers do not see Born-rule frequencies; if one weights branches by $|\psi|^2$, one has already put the answer into the measure. That circle is kept, not broken. The 2008 illustration of it is not this paper, and it did not state observer space.
 
 This is not a derivation of the Born rule. It is not Everettian quantum mechanics. It is an ontology: the observer as a point, distinct evolutions individuated before any amplitude, and a unique measure from countability. Quantum mechanics and general relativity are both to be recovered as approximations, valid for the vast majority of observers.
 
@@ -64,23 +64,23 @@ Any familiar observer (a laboratory, a computer, a person) is to be built from t
 
 Observer space is the space of all such objects. A point of observer space is one elementary observer at one instant: one infinite analytic jet, equivalently one simply-connected analytic patch, and one future time direction.
 
-A history is a curve in observer space, parametrized by proper time \(\tau\). Write an observer at \(\tau = 0\) as \(O\), and a continuation as \(O(\tau)\) for \(\tau \ge 0\). Motion through observer space is the evolution of the observer. The motion is classical in the same sense that the motion of a test particle in general relativity is classical: it is a geometric curve, not a superposition, and it is governed by the kind of law that takes a local geometric object and pushes it forward in its own time. The 2008 papers used the geodesic equation for this. This paper states the same qualitative claim and does not write an equation of motion. The precise law is a later job.
+A history is a curve in observer space, parametrized by proper time $\tau$. Write an observer at $\tau = 0$ as $O$, and a continuation as $O(\tau)$ for $\tau \ge 0$. Motion through observer space is the evolution of the observer. The motion is classical in the same sense that the motion of a test particle in general relativity is classical: it is a geometric curve, not a superposition, and it is governed by the kind of law that takes a local geometric object and pushes it forward in its own time. The 2008 papers used the geodesic equation for this. This paper states the same qualitative claim and does not write an equation of motion. The precise law is a later job.
 
 Observer space must contain the not-yet-split states. One local jet, equivalently one simply-connected analytic patch, can still have several global futures available, including extra topologies in the relative ensemble. Those states are points of observer space. The tree does not branch because an ambient four-manifold has two topology labels. It branches when the simply-connected analytic patches disagree.
 
 Two comments, both constraints rather than decorations.
 
-First: the evolution is not unique. From a given observer \(O\), more than one continuation \(O(\tau)\) can exist. That is part of the ontology, not a failure of it. A theory in which every observer has exactly one future has no room for the multiplicity that quantum mechanics, from the inside, looks like. The present paper does not rest that multiplicity on closed timelike curves, wormholes, or any other 2008 costume. It states the multiplicity in classical-like four-geometry and leaves the mechanism open. The billiard-ball analysis of Echeverria, Klinkhammer, and Thorne (1991) is the picture of a lump hitchhiking a trajectory, and an existence proof that classical geometric evolution need not be unique. It is not the mechanism, and it is not the ontology.
+First: the evolution is not unique. From a given observer $O$, more than one continuation $O(\tau)$ can exist. That is part of the ontology, not a failure of it. A theory in which every observer has exactly one future has no room for the multiplicity that quantum mechanics, from the inside, looks like. The present paper does not rest that multiplicity on closed timelike curves, wormholes, or any other 2008 costume. It states the multiplicity in classical-like four-geometry and leaves the mechanism open. The billiard-ball analysis of Echeverria, Klinkhammer, and Thorne (1991) is the picture of a lump hitchhiking a trajectory, and an existence proof that classical geometric evolution need not be unique. It is not the mechanism, and it is not the ontology.
 
 Second: quantum mechanics and general relativity are both approximations, valid for the vast majority of observers in observer space. Neither is the fundamental theory. The usual hope that one of them is exact and the other is a limit is not assumed. The test of the ontology, later, is whether a typical observer sees something that looks like general relativity in one regime and something that looks like quantum mechanics in another. That test is not performed here.
 
-Observer space, so described, is not configuration space with \(|\Psi|^2\) on it. It is not the space of rays of a universal wave function. It is the space of observers.
+Observer space, so described, is not configuration space with $|\Psi|^2$ on it. It is not the space of rays of a universal wave function. It is the space of observers.
 
 ---
 
 ## 4. Distinct evolutions, before any amplitude
 
-The unoccupied claim has a second half. It is not enough to say that the observer is a point. One must say what a *distinct evolution* is, and one must say it without \(|a|^2\).
+The unoccupied claim has a second half. It is not enough to say that the observer is a point. One must say what a *distinct evolution* is, and one must say it without $|a|^2$.
 
 An evolution is a curve in observer space, parametrized by proper time. Two evolutions are the same until the simply-connected analytic patches disagree. They split at the first $\tau$ at which those patches disagree: the first $\tau$ at which the elementary observer can tell which ride it is on. That is a premise. It is not a candidate, and it is not reopened below.
 
@@ -260,4 +260,4 @@ Weidner, M. Unified quantum dynamics: the emergence of the Born rule. arXiv:2504
 
 Weissman, M. B. Emergent measure-dependent probabilities from modified quantum dynamics without state-vector reduction. *Foundations of Physics Letters* 12 (1999) 407–426.
 
-Zurek, W. H. Probabilities from entanglement, Born's rule \(p_k = |\psi_k|^2\) from envariance. *Physical Review A* 71 (2005) 052105.
+Zurek, W. H. Probabilities from entanglement, Born's rule $p_k = |\psi_k|^2$ from envariance. *Physical Review A* 71 (2005) 052105.
