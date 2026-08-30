@@ -30,7 +30,7 @@ Call the space of all possible observers *observer space*. An observer is a poin
 
 None of this derives a probability rule for Hilbert-space branches. None of it is a solution to "the problem of probability of the many-worlds interpretation." Wallace has been explicit that Everettian quantum mechanics, in the sense that concerns the contemporary literature, is quantum theory itself. If the objects here are analytic jets of a metric, equivalently local analytic patches, with a time direction, they are not Everett worlds. A 2008 submission that tried to wear an Everettian costume while pointing at a deeper classical model was rejected for that bait-and-switch. This paper does not repeat it. The classical-like model is the theory, not an extra under Everett.
 
-The rest of the paper states, and does not derive: the observer as the jet/patch pair in observer space; what a distinct evolution is before any amplitude; egalitarianism over those evolutions rather than over decoherence branches; multiplicity in classical-like four-geometry, with quantum mechanics and general relativity both approximations; and a short firewall against the nearest wrong cousins.
+The rest of the paper states, and does not derive: the observer as the jet/patch pair in observer space; what a distinct evolution is before any amplitude; counting over those evolutions rather than over decoherence branches; multiplicity in classical-like four-geometry, with quantum mechanics and general relativity both approximations; and a short firewall against the nearest wrong cousins.
 
 ---
 
@@ -88,7 +88,7 @@ Global topology labels do not get a vote. Extra patches that agree to all orders
 
 The jet is infinite and the metric is analytic. That much of the grain is locked. What remains open for Geometry is the later work of writing the pair well: the relative ensemble, the growth of a macroscopic patch, the law of motion. Same ride or not is already settled by disagreement of the simply-connected analytic patches.
 
-Distinctness of evolutions comes before amplitude. Egalitarianism is over those evolutions, each counting as one. It is not egalitarianism over decoherence branches of a wave function. A decoherence branch is an emergent, coarse object in a Hilbert-space theory. The things being counted here are not those objects. If a later calculation shows that a typical cluster of evolutions looks, from the inside, like a decoherence branch, that will be a theorem or an approximation, not a definition.
+Distinctness of evolutions comes before amplitude. Each distinct evolution counts as one. That is not a count of decoherence branches of a wave function. A decoherence branch is an emergent, coarse object in a Hilbert-space theory. The things being counted here are not those objects. If a later calculation shows that a typical cluster of evolutions looks, from the inside, like a decoherence branch, that will be a theorem or an approximation, not a definition.
 
 Amplitude, if it appears at all, comes later, as something typical observers find themselves using, not as the thing that tells two histories apart.
 
