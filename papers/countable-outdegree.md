@@ -20,7 +20,7 @@ A grain of $\mathrm{Obs}$ (countable $V$) makes every path-set countable, even f
 
 ## 2. Theorem 31
 
-Let $(V,R)$ be a directed graph, $O_0\in V$. Write $\mathrm{succ}(v)=\{v':(v,v')\in R\}$. Let $\mathrm{Path}(O_0)$ be the set of finite walks starting at $O_0$, including the empty walk.
+Let $(V,R)$ be a directed graph, $O_0\in V$. Write $\mathrm{succ}(v)=\{v':(v,v')\in R\}$. Let $\mathrm{Path}(O_0)$ be the set of finite walks starting at $O_0$, including the empty walk. Said out loud: $\mathrm{Path}(O_0)$ is finite walks. A countably branching tree still has a continuum of infinite rays (the infinite binary tree has $2^{\aleph_0}$ rays and only countably many finite walks). 2008 counting is finite walks, not those rays. Typicality of completed evolutions would be extra. Not Theorem 31.
 
 **Theorem 31.**
 
@@ -37,6 +37,8 @@ Let $(V,R)$ be a directed graph, $O_0\in V$. Write $\mathrm{succ}(v)=\{v':(v,v')
 **Not claimed.** This writes a law of $R$. Empty $R$ has out-degree $0$ and $\mathrm{Path}(O_0)$ a singleton; constant $\mathrm{succ}(v)=\{O_{\mathrm{Mink}}\}$ is countable-out-degree. Both are maps. They are not the 2008 job.
 
 **Not claimed.** Countable $\mathrm{Path}(O_0)$ is a typicality *measure*. Circularity remains (`papers/circularity.md`). Unique-measure stays named conditions (`papers/unique-measure-conditions.md`). No $1/N$.
+
+**Relation to Theorem 32.** Branching (some reachable out-degree $\ge 2$) is extra and is not a grain (`papers/branching-extra.md`). Unique-successor $R$ makes $\mathrm{Path}(O_0)$ a single walk of each length.
 
 **Relation to Theorem 22.** Finite out-degree makes the one-step out-neighborhood a finite slice (already named extra in Theorem 22). Countably infinite out-degree still makes $\mathrm{Path}(O_0)$ countable and makes that one-step slice infinite, so path-count still needs a further slice to normalize (Theorem 22). Theorem 31 is the countability of *evolutions*, not a slice.
 
