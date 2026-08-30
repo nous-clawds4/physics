@@ -4,9 +4,9 @@ David Strayhorn
 
 Not a new theorem. What is locked, what is killed, and what would still have to be assumed to do the 2008 typicality job on this object. Do not adopt $\Phi$, $1/N$, a grain, or a measure. Do not reopen the object. Do not rewrite Paper 1.
 
-Inventory matches Theorems 19–27 and Definition 9 on main, with Theorem 23(2b) as restated (Lorentzian distance / supremum).
+Inventory matches Theorems 19–26 and Definition 9 on main, with Theorem 23(2b) as restated (Lorentzian distance / supremum).
 
-**Status.** Under the lock, typicality of branches from one $O$ is empty. Type-(ii) links on $\mathrm{Obs}$ (2005 / Strayhorn3) are working across-worlds motion, abandonable; not the 2007 geodesic-generated tree. Engulfing-in-$P(O)$ is not that leftover. The law of $R$ is extra relative to the named lock-side functors (Theorem 19). Walk-count is well-defined on a DAG and infinite on a pumpable cycle (Theorems 20–21). Named non-slices fail to make path-count a probability (Theorem 22); not a closed “nothing supplies a slice.” Hitchhiker $\tau$ does not timestamp type (ii); extra $W$ is $E$-smuggling; in-patch Lorentzian distance (sup) is lock-side, not unique in $(O,O^\prime)$, not a general type-(ii) clock (Theorem 23, restated: unique given a fixed $q$; leftover non-uniqueness is only multiple occurrence). Fermi-slice distance is a continuous scale (Theorem 24). Continuous $y$ does not finite-support $R$ (Theorem 25). Combinatorial $y$ presupposes a grain or a law of $R$ plus a slice (Theorem 26). In-patch occurrence $S(O)=\mathrm{Occ}(O)\setminus\gamma_O$ is lock-side and typically a continuum; restricting type-(ii) targets to it is a named support constraint, not adopted (Theorem 27). Grain, $1/N$, a measure, and $\Phi$ are not adopted. Definition 9 is named, not adopted.
+**Status.** Under the lock, typicality of branches from one $O$ is empty. Type-(ii) links on $\mathrm{Obs}$ (2005 / Strayhorn3) are working across-worlds motion, abandonable; not the 2007 geodesic-generated tree. Engulfing-in-$P(O)$ is not that leftover. The law of $R$ is extra relative to the named lock-side functors (Theorem 19). Walk-count is well-defined on a DAG and infinite on a pumpable cycle (Theorems 20–21). Named non-slices fail to make path-count a probability (Theorem 22); not a closed “nothing supplies a slice.” Hitchhiker $\tau$ does not timestamp type (ii); extra $W$ is $E$-smuggling; in-patch Lorentzian distance (sup) is lock-side, not unique in $(O,O^\prime)$, not a general type-(ii) clock (Theorem 23, restated: unique given a fixed $q$; leftover non-uniqueness is only multiple occurrence). Fermi-slice distance is a continuous scale (Theorem 24). Continuous $y$ does not finite-support $R$ (Theorem 25). Combinatorial $y$ presupposes a grain or a law of $R$ plus a slice (Theorem 26). Grain, $1/N$, a measure, and $\Phi$ are not adopted. Definition 9 is named, not adopted.
 
 ---
 
@@ -46,7 +46,6 @@ Paper 1’s ontology cut is unchanged.
 - Fermi-slice distance as a lock-side slice or generation (Theorem 24): a continuous scale; rounding is a grain. Not a claim that no metric exists. Theorem 18 controls *values* of $d(O,\cdot)$, not fibers; metric spheres inherit Theorem 17’s continuum except at isolated extrema.
 - Continuous $y$ as a lock-side finite-support of $R$ (Theorem 25). Integer $y\in[0,Y]$ is a grain. $|a|^2$ as $y$. $L$ is not written.
 - Combinatorial $y$ (edge count, Euler, out-degree) as lock-side finite-support of $R$ (Theorem 26): it presupposes a finite diagram (a grain, or a locally finite law of $R$ plus a slice). Compact Lorentzian $\chi=0$ (Poincaré–Hopf) does not select type-(ii) edges; that is not Theorem 5 (Markov no-census).
-- $S(O)=\mathrm{Occ}(O)\setminus\gamma_O$ as a finite typicality set, or $E$-smuggling as an enlargement of in-patch support (Theorem 27). The set is lock-side; the restriction of $R$ to it is extra as a choice and does not grain.
 
 ---
 
@@ -60,7 +59,7 @@ To do that job *here*, one would still have to assume at least:
 2. **Countability.** A grain, or some other hypothesis, that makes the set of type-(ii) paths from one $O$ a nonempty countable typicality set of delayed forks. Grain is extra structure, not adopted. Neighborhoods do not count (Theorem 17). Continuous invariants do not grain (Theorem 18). Named functors of Theorem 19 do not supply that set. $d$-decimal is combinatorial, not physical, and not put in by hand. Engulfing-in-$P(O)$ is not this countability (it is not type (ii)).
 3. **A well-defined count, if path-counting is the typicality rule.** Unique-tree is extra. On a DAG, walk-count $N(p,q)$ is well-defined and fusion adds walks (Theorem 21). On a cycle it is not (Theorem 20). $1/N$ flow is a different extra rule.
 4. **A slice / clock.** Named non-slices fail (Theorem 22). Hitchhiker $\tau$ does not timestamp type (ii) (Theorem 23(1)). Extra $W$ is $E$-smuggling (2a). In-patch Lorentzian distance (sup) is lock-side when $O^\prime$ occurs in $P(O)$, not unique in $(O,O^\prime)$, not general (2b). Fermi-slice distance is a continuous scale (Theorem 24). A locally finite one-step out-neighborhood is a finite slice and comes from a law of $R$ (extra).
-5. **A support filter, if least-action is the constraint.** Named, not adopted: only diagrams that extremize some $y$ appear. Continuous $y$ does not finite-support $R$ (Theorem 25). Combinatorial $y$ presupposes a grain or a law of $R$ plus a slice (Theorem 26). In-patch support $S(O)$ is lock-side as a *set* and extra as a *restriction of $R$*; typically a continuum (Theorem 27). No $L$. Not $\Phi$.
+5. **A support filter, if least-action is the constraint.** Named, not adopted: only diagrams that extremize some $y$ appear. Continuous $y$ does not finite-support $R$ (Theorem 25). Combinatorial $y$ presupposes a grain or a law of $R$ plus a slice (Theorem 26). No $L$. Not $\Phi$.
 6. **Typicality of many $O$, if wanted instead (or after).** A measure on $\mathrm{Obs}$ as a set. Fermi-slice neighborhoods exist (Theorem 16) and do not count (Theorem 17). A measure is not written.
 
 Those are assumptions, not theorems. Unique-measure stays conditional on them. Circularity of “count first, then typicality, then the measure that was used to count” is not resolved here.
@@ -69,7 +68,7 @@ Those are assumptions, not theorems. Unique-measure stays conditional on them. C
 
 ## Named leftover, not adopted
 
-Type-(ii) links on $\mathrm{Obs}$ (2005 / Strayhorn3) as working across-worlds motion, abandonable. Definition 9 named, not adopted. Law of $R$ extra relative to named functors (Theorem 19). Unique-tree extra. $1/N$ extra and not path-count. A slice extra (Theorem 22). Least-action-on-support extra (Theorem 25). Combinatorial $y$ extra (Theorem 26). In-patch support extra as a restriction of $R$ (Theorem 27). In-patch Lorentzian distance (sup) not adopted as a general clock (Theorem 23(2b)). Not the 2007 geodesic-generated tree. Not engulfing-in-$P(O)$. Not a geodesic $\Phi$. Not a grain. Not a measure.
+Type-(ii) links on $\mathrm{Obs}$ (2005 / Strayhorn3) as working across-worlds motion, abandonable. Definition 9 named, not adopted. Law of $R$ extra relative to named functors (Theorem 19). Unique-tree extra. $1/N$ extra and not path-count. A slice extra (Theorem 22). Least-action-on-support extra (Theorem 25). Combinatorial $y$ extra (Theorem 26). In-patch Lorentzian distance (sup) not adopted as a general clock (Theorem 23(2b)). Not the 2007 geodesic-generated tree. Not engulfing-in-$P(O)$. Not a geodesic $\Phi$. Not a grain. Not a measure.
 
 ---
 
@@ -85,9 +84,9 @@ Type-(ii) links on $\mathrm{Obs}$ (2005 / Strayhorn3) as working across-worlds m
 
 ## Report line
 
-- **Locked.** Jet/patch object; $\mathrm{Obs}$ as a set of lumps; hitchhiking stand-in; Theorems 2–11, 16–22, 24–27 and Definition 9 as they stand; Theorem 23 as restated (sup); Paper 1 unchanged.
-- **Killed.** 2008 typicality as a theorem of this layer; 2007 geodesic-generated tree as that theorem; geodesic $\Phi$ to save 2008; engulfing-in-$P(O)$ as leftover motion; neighborhoods as a countable $N$ (Theorem 17); continuous invariants as a grain (Theorem 18); named functors as a law of $R$ (Theorem 19, not a blanket “no map”); walk-count on a cycle (Theorem 20); named candidates as a lock-side slice (Theorem 22); extra $W$ as a lock-side clock (Theorem 23(2a)); Fermi-slice distance as a slice (Theorem 24); continuous $y$ as finite-support of $R$ (Theorem 25); combinatorial $y$ as lock-side finite-support (Theorem 26); $S(O)$ as a finite typicality set (Theorem 27).
-- **Named.** Type-(ii) working, abandonable. Definition 9 not adopted. Theorem 21 DAG walk-count. Theorem 23(2b) in-patch Lorentzian distance (sup), unique given a fixed $q$, not a general clock. Grain, unique-tree, $1/N$, slice, least-action-on-support extra. Theorem 27 in-patch support named, not adopted.
+- **Locked.** Jet/patch object; $\mathrm{Obs}$ as a set of lumps; hitchhiking stand-in; Theorems 2–11, 16–22, 24–26 and Definition 9 as they stand; Theorem 23 as restated (sup); Paper 1 unchanged.
+- **Killed.** 2008 typicality as a theorem of this layer; 2007 geodesic-generated tree as that theorem; geodesic $\Phi$ to save 2008; engulfing-in-$P(O)$ as leftover motion; neighborhoods as a countable $N$ (Theorem 17); continuous invariants as a grain (Theorem 18); named functors as a law of $R$ (Theorem 19, not a blanket “no map”); walk-count on a cycle (Theorem 20); named candidates as a lock-side slice (Theorem 22); extra $W$ as a lock-side clock (Theorem 23(2a)); Fermi-slice distance as a slice (Theorem 24); continuous $y$ as finite-support of $R$ (Theorem 25); combinatorial $y$ as lock-side finite-support (Theorem 26).
+- **Named.** Type-(ii) working, abandonable. Definition 9 not adopted. Theorem 21 DAG walk-count. Theorem 23(2b) in-patch Lorentzian distance (sup), unique given a fixed $q$, not a general clock. Grain, unique-tree, $1/N$, slice, least-action-on-support extra.
 - **Open.** Law for $R$; slice; grain; measure; $\Phi$.
 
 ---
@@ -123,5 +122,3 @@ Strayhorn, D. Fermi-slice distance is a continuous scale. `papers/fermi-distance
 Strayhorn, D. Least action as a constraint on the support of $R$. `papers/least-action-support.md` (PR #31).
 
 Strayhorn, D. Combinatorial $y$ does not finite-support $R$ without a grain. `papers/combinatorial-y.md`.
-
-Strayhorn, D. In-patch occurrence as a support constraint. `papers/in-patch-support.md`.
