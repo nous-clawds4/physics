@@ -68,176 +68,13 @@ Observer space, so described, is not configuration space with \(|\Psi|^2\) on it
 
 The unoccupied claim has a second half. It is not enough to say that the observer is a point. One must say what a *distinct evolution* is, and one must say it without \(|a|^2\).
 
-An evolution is a curve \(O(\tau)\) in observer space. Two evolutions \(O(\tau)\) and \(O'(\tau)\), both starting from a given observer or from observers that have already been identified, are the same evolution if they are the same curve: at every proper time, the metric jet and the time direction agree. They are distinct if there is some proper time at which they disagree.
+An evolution is a curve in observer space, parametrized by proper time. Two evolutions are distinct when they are physically distinct as histories of observers. That distinctness is not a fact about amplitudes. Hilbert-space weight does not make two evolutions the same, and it does not make them different.
 
-That is the individuation. It uses only the object already named. It does not mention a Hilbert space, an amplitude, a decoherence functional, or a branch weight. Two evolutions are not made distinct by having different \(|a|^2\), and they are not made the same by having the same \(|a|^2\). Amplitude does not get a vote.
+A candidate standard of identity is that two evolutions are the same curve just when their metric jets and time directions agree at every proper time. That cut is held. It is not a premise of this paper, and it is not a brief to Geometry.
 
-Egalitarianism in this paper is over those evolutions. Each distinct evolution counts as one. It is not egalitarianism over decoherence branches of a wave function. A decoherence branch is an emergent, coarse object in a Hilbert-space theory. The things being counted here are not those objects. If a later calculation shows that a typical cluster of evolutions looks, from the inside, like a decoherence branch, that will be a theorem or an approximation, not a definition.
+What is not held is the order of concepts. Distinctness of evolutions comes before amplitude. Egalitarianism is over those evolutions, each counting as one. It is not egalitarianism over decoherence branches of a wave function. A decoherence branch is an emergent, coarse object in a Hilbert-space theory. The things being counted here are not those objects. If a later calculation shows that a typical cluster of evolutions looks, from the inside, like a decoherence branch, that will be a theorem or an approximation, not a definition.
 
-The grain at which two jets "disagree" is not settled here. A finite-order jet, an infinite jet, a physically relevant coarse-graining: those are geometric questions. What is settled is the order of concepts. Distinctness comes first. Amplitude, if it appears at all, comes later, as something typical observers find themselves using, not as the thing that tells two histories apart.
-
----
-
-## 5. Why there must be one measure
-
-The program needs a sentence of the following form: the laws of general relativity and of quantum mechanics appear to be valid to the vast majority of observers in observer space.
-
-"Vast majority" is empty unless there is one reasonable way to measure sets of observers, or of evolutions. If two measures disagree on which sets are large, the sentence can be made true or false by a choice of measure. That is not a physical claim. It is a menu.
-
-The same underdetermination is old. Bertrand's paradox is the classroom version: "a random chord of a circle" does not name a unique probability until one says what is being chosen uniformly. Classical statistical mechanics has the same shape. "Equal probability for each microstate" does not pick the Liouville measure if the microstates form a continuum. The 2008 SHPMP referees pressed that point, and they were right about continua. Countability is how this paper answers it, not by pretending the continuum problem was never there.
-
-If the distinct evolutions are countable, the counting measure is forced. It is the unique measure that treats each distinct evolution as one and adds no further structure. Any other measure (a weight, a density, a Hilbert-space modulus squared) is extra ontology. Extra ontology is allowed in a different theory. It is not allowed as a silent choice here.
-
-The claim is conditional, and it should stay conditional. *If* distinct evolutions are countable, *then* counting is the unique reasonable measure. Whether observer space is discrete, or discrete at a physically relevant grain, or only effectively countable after a later limiting procedure, is not decided in this paper. Geometry has that job. What this paper will not do is introduce \(|\psi|^2\) in order to have a measure, and then congratulate itself on recovering \(|\psi|^2\).
-
----
-
-## 6. Countability as the unique measure
-
-Counting, here, is not a rule of credence for an agent who already believes quantum mechanics. It is the measure on the space of objects the ontology named.
-
-Once the objects are distinct evolutions, counting them is the one operation that does not smuggle in a second geometry. A density on observer space would be a field on observer space. A Hilbert-space weight would be a map from evolutions to amplitudes. Either of those is a further physical posit. Counting is not. It is what you do with a collection of distinct things.
-
-That is why countability is not a minor technical preference. It is the difference between having one measure and having many. In a continuum, "uniform" is ambiguous. In a countable set of distinct evolutions, "uniform" is counting, and counting is unique.
-
-Egalitarianism over evolutions then has a precise meaning: the measure of a set of evolutions is the number of distinct evolutions in the set, or the natural density of that set if one is working with infinite collections after a limiting procedure. No amplitude enters the definition.
-
-This is also why the present ontology is not a hidden-variable theory parked under Everett, and not a Bohmian typicality argument. Bohmian typicality uses \(|\Psi|^2\) as the measure on configuration space. The measure here is counting on observer space. The spaces are not the same, and the measures are not the same.
-
----
-
-## 7. The typicality challenge, as motivation only
-
-There is a reason to care about unique measures that does not require agreeing with this ontology in advance. It is the typicality challenge to Born-weight in many-worlds quantum theory, in the sense illustrated in 2008 and not solved there.
-
-The illustration is a sequence of \(M\) spin measurements. Each measurement has two outcomes. After \(M\) measurements there are \(2^M\) worlds if worlds are individuated by outcome sequences. In each world an observer computes the frequency \(p_{\mathrm{up}}\) of spin-up. The theory, using the Born rule, predicted \(m_{\mathrm{up}}\). A probability criterion, loosely, is that most worlds should contain an observer who finds \(p_{\mathrm{up}}\) close to the number the theory told them to expect.
-
-If the worlds are counted equally, and the Born weights are \(m_{\mathrm{up}} = 0.9\), \(m_{\mathrm{down}} = 0.1\), with tolerance \(\delta = 0.1\) and \(M = 100\), then the proportion of worlds in which \(p_{\mathrm{up}}\) falls within \(m_{\mathrm{up}} \pm \delta\) is \(5.58 \times 10^{-8}\) percent. In the other \(99.9999999442\) percent, the observer concludes that the Born rule is false. If instead one counts equally and the theory itself uses equal weights (\(m_{\mathrm{up}} = 1/2\)), about \(96.4\) percent of worlds confirm the theory to that tolerance. As \(M\) grows, the first proportion goes to zero and the second to one. The illustration is Graham's point made numerical: a simple count of the worlds contradicts the Born measure, and the worlds were supposed to be on the same footing.
-
-That is the typicality challenge. Typicality, in that paragraph, means typical with respect to a count of worlds, not typical with respect to \(|\psi|^2\). If one takes \(|\psi|^2\) as the measure, most of the *measure* confirms Born, and the challenge is defined away. The challenge is that the count and the Born-weight disagree, and the ontology of equal reality seemed to recommend the count.
-
-This paper uses the challenge as motivation, not as a derivation. It does not fix many-worlds quantum theory. It does not argue that Everett is false. It does not argue that Deutsch–Wallace decision theory is circular in order to undercut it. It records a fact about measures: if you need "most observers," you must say what you are counting, and you cannot take Hilbert-space amplitude as that count without already having the Born rule in the measure.
-
-The 2008 paper that carried the illustration is Strayhorn, *Annales de la Fondation Louis de Broglie* 33 (2008) 211–220. It is an illustration of the quantitative problem of the many-worlds interpretation, and a motivation for outcome counting. It is not this paper. It does not name observer space. It does not say that an observer is a point in a space of observers. It was also Philica article 27. A companion derivation (Philica 28) was not published in AFLB, survives on the Wayback Machine, and is uncited. The AFLB paper's scholarly citation record is essentially empty: Weidner (2025) cites it as many-worlds outcome counting and files it with Hanson; a 2014 Ph.D. thesis acknowledges it and then sets it aside. That filing is the 2026 referee slot if the present paper sounds like Everettian branch counting. It is not Everettian branch counting.
-
----
-
-## 8. Circularity, kept
-
-A trivial way to "count" so as to recover Born is to let a single experimental result comprise as many outcomes as its Born weight requires. Then the Born measure is a probability because it is proportional to the number of outcomes, and the number of outcomes is the Born measure. The 2008 papers named that circle, and this paper keeps the sentence:
-
-> The Born rule measure is justified as a probability because its value is proportional to the number of microstates associated with an experimental result; but conversely, the number of microstates associated with a result is defined as its Born rule measure.
-
-The things being counted in the present ontology are distinct evolutions of observers, not Hilbert-space microstates. The circle is the same shape. You cannot define the count by the Born weight and then call the count a justification of the Born weight.
-
-This paper does not break the circle. Breaking it would require an independent individuation of distinct evolutions (the job of Section 4, stated, not yet used in a calculation) and then a look at what typical observers see. Even that later look would not be a derivation of the Born rule from Everett, because the objects would not be Everett worlds. The 2008 hope of recovering Born as a coarse-grained approximation is a hope for a later paper. It is not a result here.
-
-Least action is in the same boat. In the 2007–2008 texts, a counting argument was used to suggest that a quantity playing the role of action is minimized. This paper names that suggestion and stops. Least action, if it appears, is the same kind of coarse-grained pattern as the Born rule: something typical observers find in the histories they inhabit, not a primitive of observer space, and not a theorem of this paper.
-
----
-
-## 9. What this is not
-
-One breath: this is not a Hilbert-space measure, not Deutsch–Wallace, not envariance or self-locating uncertainty, and not Gielen and Wise's observer space (a seven-manifold of future-directed unit four-velocities on a given Lorentzian spacetime).
-
-The same point, slower, because the nearest cousins will be the first misreadings.
-
-It is not Stoica's Born-from-counting (arXiv:2209.08621; *Int. J. Theor. Phys.* 64, 117 (2025)). That work is the closest cousin in the literature: probability as a ratio of measures of basis states. The ontic setting is Hilbert space, and \(|\psi|^2\) is already in the density of the continuous basis. Counting there is not individuation of metric-jet evolutions before amplitude.
-
-It is not Saunders's equi-amplitude branch counting, which lives inside Everettian quantum mechanics and is built to agree with Born by the way branches are defined.
-
-It is not Hanson mangled worlds, not Weissman's nonlinear decoherence, and not Weidner's small-signal truncation. Those are dynamical modifications of many-worlds quantum theory so that a world-count tracks \(|\psi|^2\). Weidner (arXiv:2504.06495) cites Strayhorn 2008 in that cluster. This paper is not in that cluster.
-
-It is not Carroll–Sebens self-locating uncertainty, and not Zurek envariance. Those start from the quantum state and its symmetries.
-
-It is not Vaidman's measure of existence. That measure is \(|\alpha|^2\).
-
-It is not relational quantum mechanics. Rovelli's observer is a system relative to which facts are indexed. The observer here is a point of observer space, a geometric object with a time direction. Relative facts, if they appear, would be read off histories; they are not the ontology.
-
-It is not Hadley's four-geons, and not Wheeler's geons-as-particles costume. Those are left on the shelf.
-
-It is not Gielen and Wise (2013). They own the phrase "observer space" as the seven-manifold of future-timelike unit tangent vectors of a Lorentzian spacetime. A point of their space is an instantaneous four-velocity on a spacetime that is already there, or reconstructed as a quotient. A point of the space in this paper is a metric jet plus a time direction, and spacetime is not given in advance. Same words, different object. The firewall is a courtesy as well as a necessity.
-
-It is not Dürr–Goldstein–Zanghì typicality. Quantum equilibrium is \(|\Psi|^2\) on configuration space. Observer space is not configuration space.
-
-It is not the cosmological measure problem. Pocket universes and inflationary measures are a different counting fight.
-
-It is not hidden variables under Everett. The 2008 SHPMP referees read the deeper classical model as Bohm by another name. The present ontology is not a law for particles guided by a wave function. It is a space of observers whose measure is counting.
-
----
-
-## 10. What this paper does not do
-
-It does not derive the Born rule, recover it as a limit, or show that typical observers must see Born frequencies. It does not derive least action. It names both as the same kind of coarse-grained pattern and stops.
-
-It does not specify the order of the jet, the dimension of observer space, a metric or measure on observer space other than counting, or an equation of motion beyond the qualitative claim that motion is classical-like and not unique.
-
-It does not reconstruct a four-manifold from an observer by analytic continuation. It does not assume that "all is geometry" in the 2008 sense of no matter fields. It does not use spin foams, \(\chi\), or four-geons.
-
-It does not produce a novel experimental prediction. The program wants those; this paper is the ontology that would make a later prediction interpretable.
-
-It does not claim that AFLB 2008 already contained observer space. The unoccupied claim is here: the observer as a point in observer space, and distinct evolutions individuated without \(|a|^2\).
-
----
-
-## 11. Closing
-
-The observer is a physical object. It is a point in observer space, a metric jet with a time direction. Its histories are curves. Distinctness of those curves does not wait on an amplitude. If they can be counted, counting is the measure, and it is the only measure the ontology licenses. Typicality talk is then about that count, not about \(|\psi|^2\).
-
-The circle that defines a count by Born weight and then reads Born off the count is still a circle. It is kept. Quantum mechanics and general relativity, if the program works, are what most such observers see. Least action, if it appears, is the same kind of seeing. None of that is shown here.
-
-What is shown is only the starting object. A theory that cannot say what an observer is cannot say what a typical observer sees. This paper says what one is.
-
----
-
-## References
-
-Carroll, S. M. and Sebens, C. T. Many worlds, the Born rule, and self-locating uncertainty. arXiv:1405.7577, 2014.
-
-Dürr, D., Goldstein, S., and Zanghì, N. Quantum equilibrium and the origin of absolute uncertainty. *Journal of Statistical Physics* 67 (1992) 843–907.
-
-Echeverria, F., Klinkhammer, G., and Thorne, K. S. Billiard balls in wormhole spacetimes with closed timelike curves: Classical theory. *Physical Review D* 44 (1991) 1077–1099.
-
-Everett, H. "Relative state" formulation of quantum mechanics. *Reviews of Modern Physics* 29 (1957) 454–462.
-
-Gielen, S. and Wise, D. K. Lifting general relativity to observer space. *Journal of Mathematical Physics* 54 (2013) 052501. arXiv:1210.0019.
-
-Hanson, R. When worlds collide: Quantum probability from observer selection? *Foundations of Physics* 33 (2003) 1129–1150.
-
-Randall, A. F. *An Algorithmic Interpretation of Quantum Probability*. Ph.D. thesis, York University, 2014.
-
-Rovelli, C. Relational quantum mechanics. *International Journal of Theoretical Physics* 35 (1996) 1637–1678.
-
-Saunders, S. Branch-counting in the Everett interpretation of quantum mechanics. *Proceedings of the Royal Society A* 477 (2021) 20210600.
-
-Sebens, C. T. and Carroll, S. M. Self-locating uncertainty and the origin of probability in Everettian quantum mechanics. *British Journal for the Philosophy of Science* 69 (2018) 25–74.
-
-Stoica, O. C. Born rule: quantum probability as classical probability. arXiv:2209.08621. *International Journal of Theoretical Physics* 64 (2025) 117.
-
-Strayhorn, D. An illustration of the quantitative problem of the many worlds interpretation of quantum mechanics and the motivation for outcome counting. *Annales de la Fondation Louis de Broglie* 33 (2008) 211–220. (Also Philica, article 27.)
-
-Vaidman, L. On schizophrenic experiences of the neutron or why we should believe in the many-worlds interpretation of quantum theory. *International Studies in the Philosophy of Science* 12 (1998) 245–266.
-
-Wallace, D. *The Emergent Multiverse: Quantum Theory according to the Everett Interpretation*. Oxford University Press, 2012.
-
-Weidner, M. Unified quantum dynamics: the emergence of the Born rule. arXiv:2504.06495, 2025.
-
-Weissman, M. B. Emergent measure-dependent probabilities from modified quantum dynamics without state-vector reduction. *Foundations of Physics Letters* 12 (1999) 407–426.
-
-Zurek, W. H. Probabilities from entanglement, Born's rule \(p_k = |\psi_k|^2\) from envariance. *Physical Review A* 71 (2005) 052105.
-
----
-
-## Draft notes (not for publication)
-
-- Circularity sentence: kept verbatim from SHPMP 2008 / AFLB2; not broken.
-- AFLB 33 (2008) 211–220 is the illustration (Philica 27), not this paper, and does not name observer space. Philica 28 (derivation) is Wayback-only and uncited. Citation record: Weidner 2025; Randall 2014 PhD acknowledgement. INSPIRE/Scholar cluster empty.
-- Unoccupied claim occupied here: (A) observer = point in observer space; plus individuation of distinct evolutions without \(|a|^2\).
-- Six statements, none derived: point; distinct evolution before amplitude; egalitarian over evolutions not decoherence branches; least action named as same kind of coarse-grained pattern as Born; multiplicity in classical-like 4-geometry with QM and GTR both approximations; one-breath firewall (not Hilbert measure, not DW, not envariance, not Gielen–Wise 7-manifold of 4-velocities). Fuller firewall follows the original not-that list.
-- Ontology open, not claimed: jet order; dimension of observer space; analyticity / reconstruction of a 4-manifold; mechanism of multiplicity (EKT 1991 cited as an example of classical non-uniqueness, not adopted as mechanism); matter fields vs "all is geometry"; equation of motion; whether countability is exact or a grain.
-- 2008 costume left on the shelf: \(\chi\), 4-geon, spin-foam, analytic reconstruction of \(W\) from \(O\).
-- Not an Everett paper. Not a Born derivation. Deeper classical model is the theory.
-- Filename: `papers/observer-space-ontology.md`. New file. Do not touch `old-manuscripts/`.
+The grain at which two jets count as different is a geometric question. A finite-order jet, an infinite jet, a physically relevant coarse-graining: those wait with the held cut. Distinctness comes first. Amplitude, if it appears at all, comes later, as something typical observers find themselves using, not as the thing that tells two histories apart.
 
 ---
 
@@ -265,7 +102,7 @@ Hilbert-space amplitude is not a candidate for that unique measure. Amplitude is
 
 The second claim is conditional, and it should stay conditional. If distinct evolutions are countable, counting is the unique reasonable measure on observer space. The antecedent is not proved here. The consequent is what countability would buy.
 
-Distinct means physically distinct. Two evolutions are distinct when they are not the same curve in observer space: not the same sequence of jets-plus-time-directions, parametrized by proper time. That standard does not mention amplitude. It does not mention decoherence. It does not mention a preferred basis. One does not need $|\psi|^2$ to say that two evolutions are not the same. If one did need $|\psi|^2$ for that, distinctness would already be a Born-weight notion, and counting distinct evolutions would be counting Born weight under another name. The circle in §8 would then be closed at the first step. The whole point of naming an object that is not a Hilbert-space world is that identity of objects is not a Hilbert-space question.
+Distinct means physically distinct, and the distinctness is not a Born-weight notion. One does not need $|\psi|^2$ to say that two evolutions are not the same. If one did need $|\psi|^2$ for that, counting distinct evolutions would be counting Born weight under another name, and the circle in §8 would be closed at the first step. The whole point of naming an object that is not a Hilbert-space world is that identity of objects is not a Hilbert-space question. A precise standard of identity for curves in observer space is held (see §4). Until it is decided, the claim in this section stays conditional on there being some amplitude-free standard that makes the objects countable.
 
 Counting, given distinctness, is the measure that assigns equal weight to equal objects. On a finite set of evolutions, it is the normalized counting measure. On a countably infinite set, it is counting measure itself, used to form ratios along finite initial segments, or along finite collections picked out by a physically relevant grain. This paper does not pretend that the infinite case is trivial. There is no countably additive probability measure on a countably infinite set that gives each point the same positive weight. That is another real fact, and it is not solved by wording. What countability still supplies, even in the infinite case, is a refusal of extra structure: do not weight one evolution differently from another unless the ontology of distinctness has already distinguished them as objects of different kinds. The finite ratios, or the grain at which the collection is finite, inherit that refusal. A measure that assigned $0.9$ to one evolution and $0.1$ to another, with no difference in the objects except the numbers themselves, would be a different theory.
 
@@ -303,7 +140,104 @@ In this paper the things being counted are distinct evolutions of observers, not
 
 That is the entire content of this section, and it is the entire content of the paper's relation to the Born rule. A later job might break the circle by supplying an independent count of distinct evolutions, a count that does not take $|\psi|^2$ as its definition of distinctness, and then looking at what typical observers in that count see. Even that later job would not be a derivation of the Born rule from Everett, because the objects would not be Everett worlds. It would be a calculation inside a different ontology. It might fail. It might find that typical observers, in the counting measure, do not see Born frequencies. This paper does not run that calculation. It does not hint that the next section will. It does not recover the Born rule as a coarse-grained approximation. It does not say that outcome counting gives rise to Born.
 
-Keeping the circle is the point. The 2008 referee took the circle as a reason to reclassify the program: not Everett, and at best a hidden-variable cousin of existing typicality arguments. The referee was right that the circle is a circle, and right that breaking it requires an independent standard of distinctness. The referee's further classification is what this paper refuses. The deeper classical model is the theory, not an optional extra under Everett, and not a hidden-variable dynamics for $|\Psi|^2$ on configuration space. Independent distinctness, if it comes, will be distinctness of evolutions in observer space, not distinctness of Bohmian configurations. Until it comes, the circle stands. The ontology is still worth stating, because without the object there is nothing whose evolutions could be counted independently later.
+Keeping the circle is the point. The 2008 referee took the circle as a reason to reclassify the program: not Everett, and at best a hidden-variable cousin of existing typicality arguments. The referee was right that the circle is a circle, and right that breaking it requires an independent standard of distinctness. The referee's further classification is what this paper refuses. The deeper classical model is the theory, not an optional extra under Everett, and not a hidden-variable dynamics for $|\Psi|^2$ on configuration space. Independent distinctness, if it comes, will be distinctness of evolutions in observer space, not distinctness of Bohmian configurations. The precise identity cut is held. Until a standard is decided, the circle stands. The ontology is still worth stating, because without the object there is nothing whose evolutions could be counted independently later.
 
 The 2008 illustration already contained the trivial scheme that closes the circle on purpose: redefine a single outcome so that it corresponds to a multitude of copies, the number of copies being proportional to $|a_n|^2$. That scheme justifies Born by counting, and defines the count by Born. It is the circle in operational form. The 2008 text called it trivial for that reason. The present paper agrees, and does not adopt it. An independent count would have to say what is physically distinct without setting the number of distinct things equal to Born weight by fiat. That demand is accepted. It is not met here.
 
+## 9. What this is not
+
+One breath: this is not a Hilbert-space measure, not Deutsch–Wallace, not envariance, and not Gielen and Wise's seven-manifold of four-velocities.
+
+The literature already contains several projects that can look, from a distance, like this one. They are not this one. The list is a firewall, not a score sheet. Each item is a different theory, named so that the present ontology is not filed with it.
+
+It is not Stoica. Stoica derives the Born rule from counting, in a setting where the ontic state is Hilbert-space ontic and $|\psi|^2$ is already present in the density of the continuous basis (Stoica, arXiv:2209.08621; *Int. J. Theor. Phys.* 64, 117 (2025)). The slogan "Born from counting" is the closest cousin this paper has. The cousin still lives in Hilbert space. The density that does the counting already knows the Born weight. The present ontology does not take Hilbert space as ontic, and does not put $|\psi|^2$ into the density of observers. Closest cousin; still not this.
+
+It is not Saunders's equi-amplitude branch counting. Saunders counts branches that have been carved so that each unit already carries equal amplitude (Saunders 2021). Born weight is built into the unit. Counting those units is not an independent count of distinct evolutions.
+
+It is not Hanson's mangled worlds (Hanson 2003). Hanson keeps a many-worlds setting and alters which worlds survive, or which memories persist, so that Born frequencies are recovered among the survivors. It is not Weissman, who also works inside a quantum dynamics, modified so that measure-dependent probabilities emerge (Weissman 1999). It is not Weidner (arXiv:2504.06495, 2025), who files Strayhorn 2008 with Hanson as many-worlds world-counting. Weidner is not an ally. If this paper is read as Everettian outcome counting, it will land in that slot. It does not belong there.
+
+It is not Carroll and Sebens on self-locating uncertainty. Their argument (Sebens and Carroll 2018) uses self-locating uncertainty, and a probability rule for it, in an Everettian setting. It is envariance-adjacent in spirit: the weights come from the quantum state and from indifference among copies that the quantum state has already structured. The present ontology has no such copies, and no such state.
+
+It is not Vaidman's measure of existence. Vaidman takes $|\alpha|^2$ as the measure of existence of a world, and takes that measure, not a count of worlds, as what probability tracks (Vaidman 1998). Counting is the thing that position rejects. This paper's measure, if the countability antecedent holds, is a count of different objects.
+
+It is not Rovelli's relational quantum mechanics (Rovelli 1996). RQM treats facts as relative to systems, and keeps textbook quantum kinematics. The observer here is a physical object in a space of observers, not a relative-state bookkeeping device. Relational talk is cheap. The object is not.
+
+It is not Hadley's program, in which closed timelike curves, or 4-geons, are asked to underwrite quantum logic or particle phenomenology (Hadley 1997). Hadley is nearby in one respect: a GR-first instinct, and a willingness to let classical geometry do work that is usually assigned to Hilbert space. The present ontology does not take 4-geons as particles, does not take CTCs as particles, and does not rest non-uniqueness on that mechanism.
+
+It is not Gielen and Wise. They own the phrase "observer space" as the 7-manifold of future-directed unit 4-velocities of a Lorentzian spacetime (Gielen and Wise 2013). That is a precise geometric object, and a serious one. It is a different object. Their observer is a 4-velocity on a given metric. This paper's observer includes the metric jet as part of the specification, and does not inherit a dimension from their 7-manifold. Same words, different theory. The distinction is meant as courtesy, not as a complaint.
+
+It is not the typicality of Dürr, Goldstein, and Zanghì. Their typicality is quantum equilibrium: $|\Psi|^2$ on configuration space, with the empirical distributions of Bohmian mechanics as what typical configurations see (Dürr, Goldstein, and Zanghì 1992). Observer space is not configuration space. The measure, if countability holds, is not $|\Psi|^2$. This is not a hidden-variable theory under Everett, and it is not a hidden-variable theory in the Bohmian sense. The deeper classical model is the theory, not an extra ontology sprinkled onto a wavefunction that remains in charge of the measure.
+
+It is not the cosmological measure problem. Pocket universes, inflationary bubbles, and the various measures written on them are an ongoing underdetermination: many measures, no unique reasonable one. The present claim runs in the opposite direction. Countability, if it holds, is supposed to kill that extra freedom, not to join the menu of inflationary measures.
+
+The 2008 illustration (Strayhorn, *Ann. Fond. Louis de Broglie* 33 (2008) 211–220) is an illustration, not this paper. It supplied the spin-tree numbers in §7. It did not define the observer as a metric jet. It did not claim a unique measure from countability of evolutions in observer space. It can be, and has been, read as a move inside many-worlds quantum theory. This paper is not that move.
+
+It is not Everett. Everett's relative-state formulation is a formulation of quantum mechanics (Everett 1957). Wallace defined Everett as quantum theory itself (Wallace 2012). If worlds in some other paper are 4-manifolds, or jets, they are not Everett worlds. The 2008 SHPMP submission died as a bait-and-switch of that kind: an Everettian title, a deeper classical model in the body, a referee who called the model a hidden-variable program and not an Everettian one. This paper does not repeat that switch. It does not argue against Deutsch and Wallace in order to occupy their problem. It does not present itself as a solution to the problem of probability of the many-worlds interpretation. It is an ontology of a different object, with a measure claim that is conditional on countability, and with a typicality mismatch used only as motive for not taking $|\psi|^2$ as that measure.
+
+---
+
+## 10. What this paper does not do
+
+This paper does not derive the Born rule. It does not recover the Born rule as a coarse-grained approximation. It does not offer an action-principle derivation. It does not say that outcome counting gives rise to Born. Those sentences are prohibitions, not promises. A later paper might ask what typical observers in observer space see. That later paper would still not be a derivation of Born from Everett, because the objects would not be Everett worlds. This paper does not ask the question.
+
+This paper does not write an equation of motion beyond the qualitative one: classical, geodesic-like, not unique. It does not unify general relativity and quantum mechanics. It does not claim that the ontology has changed either theory. The typicality statement in §5 (the laws appear valid to the vast majority of observers) is a demand on the measure, not a recovery of the field equations or of the Schrödinger equation.
+
+This paper does not make an experimental prediction. There is no number, other than the 2008 illustration's numbers, and those numbers are about a spin-measurement tree in many-worlds quantum theory, used as motivation. They are not a prediction of observer-space dynamics.
+
+The precise identity cut for distinct evolutions (same curve iff jet and time direction agree at every proper time) is held, and is not a premise. This paper does not settle the other open items flagged in §§2–4. The order of the jet is open. The dimension of observer space is open. Analyticity is open. Recovery of a 4-manifold is open. The mechanism of non-uniqueness is open, and is not identified with closed timelike curves. Matter fields are open. Those are not hidden assumptions. They are absences.
+
+The 2008 costume is left on the shelf. This paper does not revive $\chi$, 4-geons, spin foam, Wheeler's geons-as-particles picture, or Hadley's CTCs-as-particles picture as current claims. It does not say that all is geometry. It does not use analytic continuation to reconstruct a 4-manifold from the jet. It does not make the observer a 4-ball that determines a whole spacetime. The 2008 footnote's object is retained. The 2008 reconstruction is not.
+
+What remains is the object, the space, the qualitative motion, the uniqueness claim under countability, and a motive for not taking Hilbert-space amplitude as the measure. That is the whole of this paper.
+
+---
+
+## 11. Closing
+
+Physics can live a long time on roles. "Observer" as the person at the bench, as the frame, as the relative state, is good enough for calculation. It is not good enough if one wants to say that most observers see the world as general relativity and quantum mechanics describe it. Most of what? Measured how? Those questions need an object, a space of objects, and one measure.
+
+The ontology is the theory's starting point, not a costume on quantum mechanics. An observer is a jet of the spacetime metric at a point, together with a future time direction. Observer space is the space of all such objects. A history is a curve in that space, parametrized by proper time. Motion is classical in character and not unique. If the distinct evolutions are countable, counting is the unique reasonable measure, because counting is what you do when you refuse to add a further weighting rule. Hilbert-space amplitude is such a further rule, and it cannot be both the definition of the count and the justification of the count. The circle is kept. The objects are not Everett worlds.
+
+Whether distinct evolutions are in fact countable is not settled here. Whether typical observers, counted that way, see Born frequencies is not settled here. Whether general relativity and quantum mechanics appear as the regularities of the vast majority is not settled here. What is settled, if the arguments above hold, is narrower, and prior. There is an object. There is a space. There is a standard of distinctness that does not mention $|\psi|^2$. There is a measure, unique among reasonable measures, if that distinctness cuts the space down to a countable collection. And there is a reason, taken from a mismatch inside many-worlds quantum theory and used only as motive, not to let Hilbert-space amplitude occupy that place.
+
+That is the beginning of the theory, not the end of quantum mechanics.
+
+---
+
+## References
+
+Carroll, S. M. and Sebens, C. T. Many worlds, the Born rule, and self-locating uncertainty. arXiv:1405.7577, 2014.
+
+Dürr, D., Goldstein, S., and Zanghì, N. Quantum equilibrium and the origin of absolute uncertainty. *Journal of Statistical Physics* 67 (1992) 843–907.
+
+Echeverria, F., Klinkhammer, G., and Thorne, K. S. Billiard balls in wormhole spacetimes with closed timelike curves: Classical theory. *Physical Review D* 44 (1991) 1077–1099.
+
+Everett, H. "Relative state" formulation of quantum mechanics. *Reviews of Modern Physics* 29 (1957) 454–462.
+
+Gielen, S. and Wise, D. K. Lifting general relativity to observer space. *Journal of Mathematical Physics* 54 (2013) 052501. arXiv:1210.0019.
+
+Hadley, M. J. The logic of quantum mechanics derived from classical general relativity. *Foundations of Physics Letters* 10 (1997) 43–60.
+
+Hanson, R. When worlds collide: Quantum probability from observer selection? *Foundations of Physics* 33 (2003) 1129–1150.
+
+Randall, A. F. *An Algorithmic Interpretation of Quantum Probability*. Ph.D. thesis, York University, 2014.
+
+Rovelli, C. Relational quantum mechanics. *International Journal of Theoretical Physics* 35 (1996) 1637–1678.
+
+Saunders, S. Branch-counting in the Everett interpretation of quantum mechanics. *Proceedings of the Royal Society A* 477 (2021) 20210600.
+
+Sebens, C. T. and Carroll, S. M. Self-locating uncertainty and the origin of probability in Everettian quantum mechanics. *British Journal for the Philosophy of Science* 69 (2018) 25–74.
+
+Stoica, O. C. Born rule: quantum probability as classical probability. arXiv:2209.08621. *International Journal of Theoretical Physics* 64 (2025) 117.
+
+Strayhorn, D. An illustration of the quantitative problem of the many worlds interpretation of quantum mechanics and the motivation for outcome counting. *Annales de la Fondation Louis de Broglie* 33 (2008) 211–220. (Also Philica, article 27.)
+
+Vaidman, L. On schizophrenic experiences of the neutron or why we should believe in the many-worlds interpretation of quantum theory. *International Studies in the Philosophy of Science* 12 (1998) 245–266.
+
+Wallace, D. *The Emergent Multiverse: Quantum Theory according to the Everett Interpretation*. Oxford University Press, 2012.
+
+Weidner, M. Unified quantum dynamics: the emergence of the Born rule. arXiv:2504.06495, 2025.
+
+Weissman, M. B. Emergent measure-dependent probabilities from modified quantum dynamics without state-vector reduction. *Foundations of Physics Letters* 12 (1999) 407–426.
+
+Zurek, W. H. Probabilities from entanglement, Born's rule \(p_k = |\psi_k|^2\) from envariance. *Physical Review A* 71 (2005) 052105.
