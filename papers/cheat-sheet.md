@@ -66,6 +66,9 @@ Two ensembles, one line: $E_\gamma$ hitchhikes with $\gamma_O$ and stays put in 
 - **Locality of $R$ (named).** Fermi-slice neighborhood-constraint is extra and stateable (Theorem 16). Does not replace Theorem 31. `papers/local-law-of-r.md`
 - **No dead ends / König (named).** No dead ends extra. König: locally finite infinite tree has a ray; those rays may be a continuum. 2008 counts finite walks (Theorem 31). `papers/dead-ends-and-rays.md`
 - **Thm 33.** Uncountable in-degree $\Rightarrow$ uncountable length-$1$ walks into $q$. Countable in-degree is extra, not a grain of $\mathrm{Obs}$. Dual of Theorem 31. Not adopted. `papers/countable-indegree.md`
+- **Acyclicity of $R$ (named).** Extra for finite $N$. Distinct from unique-tree and from Theorem 31 (cycles allowed for the walk-set). Not adopted. `papers/acyclicity-of-r.md`
+- **Finite ancestors (named).** Finite $\mathrm{Anc}(q)$ extra for $N\in\mathbb{N}$. Countable walk-set (Thm 31) may still be infinite. Distinct from a slice. Not a grain of $\mathrm{Obs}$. Not adopted. `papers/finite-ancestors.md`
+- **Markov law of $R$ (named).** Definition 9 is one-step (a graph). A history-dependent law on $\mathrm{Path}$ is extra-on-extra. Not a grain. Not adopted. `papers/markov-law-of-r.md`
 - **Uniformity of $R$ (named).** One relation vs a field of stars. Extra. Does not grain. `papers/uniform-law-of-r.md`
 - **Unique-measure (named).** Conditions under which a unique measure could go through (leftover motion, grain, law of $R$, count/slice/DAG-or-tree, a typicality rule, circularity resolved; or a measure on many $O$). Not adopted. Not $\Phi$. `papers/unique-measure-conditions.md`
 - **Circularity (named remaining lock).** Count first, then typicality, then the measure used to count. Resolvers named, not adopted: combinatorial count first; measure first; self-consistent $\mu$ ($|a|^2$ as $M$ killed); abandon the derivation. `papers/circularity.md`
