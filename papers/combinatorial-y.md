@@ -6,7 +6,7 @@ Can a discrete/combinatorial observable (edge count, Euler characteristic, out-d
 
 Companion: `papers/least-action-support.md` (PR #31).
 
-**Status.** Theorem 26: combinatorial $y$ of a *diagram* presupposes a finite (or locally finite, finitely sliced) graph. That finiteness is a grain, or a law of $R$ plus a slice, both extra. Euler of a compact Lorentzian $W$ is $\chi=0$ (Theorem 5) and does not select type-(ii) edges. Killed as a lock-side finite-support. Named as an extra filter once $R$ is already discrete, not adopted.
+**Status.** Theorem 26: combinatorial $y$ of a *diagram* presupposes a finite (or locally finite, finitely sliced) graph. That finiteness is a grain, or a law of $R$ plus a slice, both extra. Euler of a compact Lorentzian $W$ is $\chi=0$ (Poincaré–Hopf / compact Lorentzian, `papers/ensemble-labels.md`) and does not select type-(ii) edges. Killed as a lock-side finite-support. Named as an extra filter once $R$ is already discrete, not adopted.
 
 ---
 
@@ -27,7 +27,7 @@ These are functions of a graph $(V_0,R_0)$ with $V_0$ finite, or at least locall
 
 A combinatorial $y$ that is well-defined on finite graphs becomes available only after a grain (finite $V$) or after a locally finite law of $R$ plus a finite slice. Both are extra (Theorems 19, 22). Rounding a continuous scale to integers is a grain (Theorems 18, 24, 25).
 
-**Proof.** (1) Fermi-slice open balls minus $\gamma_O$ are uncountable (Theorem 17). Without extra structure, $R$ may attach an uncountable star at $O$; then $\#E$, $\#V$, out-degree, and $\chi$ of the diagram are infinite or undefined, so $\mathrm{argmax}\,y$ is not a finite support. If $R$ is already locally finite, out-degree is a finite integer at each vertex, but comparing those integers across candidates still needs a finite comparison class (a slice). That slice is extra. (2) Compact Lorentzian $4$-manifolds have $\chi=0$ (Theorem 5). That value does not distinguish type-(ii) edges. $P(O)$ is typically noncompact; a compactification is extra. $\square$
+**Proof.** (1) Fermi-slice open balls minus $\gamma_O$ are uncountable (Theorem 17). Without extra structure, $R$ may attach an uncountable star at $O$; then $\#E$, $\#V$, out-degree, and $\chi$ of the diagram are infinite or undefined, so $\mathrm{argmax}\,y$ is not a finite support. If $R$ is already locally finite, out-degree is a finite integer at each vertex, but comparing those integers across candidates still needs a finite comparison class (a slice). That slice is extra. (2) Compact Lorentzian $4$-manifolds have $\chi=0$ (Poincaré–Hopf). That value does not distinguish type-(ii) edges. $P(O)$ is typically noncompact; a compactification is extra. $\square$
 
 **Not claimed.** No combinatorial $y$ of finite graphs exists. Once $V$ is discrete or $R$ is locally finite and sliced, edge count and Euler of the diagram are ordinary graph invariants. Extra filter on an already discrete $R$, not a way to *get* discreteness from the lock.
 
@@ -50,4 +50,4 @@ Strayhorn, D. Least action as a constraint on the support of $R$. `papers/least-
 
 Strayhorn, D. Grain is not a readout of continuous invariants. `papers/grain-not-from-invariants.md`.
 
-Strayhorn, D. The ensemble $E(O)$ as a labeled object. `papers/ensemble-labels.md` (Theorem 5).
+Strayhorn, D. The ensemble $E(O)$ as a labeled object. `papers/ensemble-labels.md` (compact Lorentzian / Poincaré–Hopf paragraph, not Theorem 5).
