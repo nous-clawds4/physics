@@ -16,7 +16,7 @@ Companions: `papers/finite-ancestors.md`, `papers/converse-well-founded-r.md`, `
 
 **Converse well-foundedness.** No infinite ascending chain. Leftover, not this PR. Finite $\mathrm{Desc}(p)$ implies it on walks from $p$. The converse fails. Not reopened.
 
-**Well-foundedness.** Dual descending cut. Leftover, not this PR. Not reopened.
+**Well-foundedness.** Dual descending cut. On main via #71. Not reopened.
 
 **Countable out-degree.** Theorem 31: $\mathrm{Path}(O_0)$ countable, $\mathrm{Desc}(O_0)$ countable. Not finite. Not reopened.
 
@@ -56,7 +56,7 @@ Strayhorn, D. A finite ancestor set is extra. `papers/finite-ancestors.md`.
 
 Strayhorn, D. Converse well-foundedness of $R$ is extra. `papers/converse-well-founded-r.md`. Leftover, not this PR.
 
-Strayhorn, D. Well-foundedness of $R$ is extra. `papers/well-founded-r.md`. Leftover, not this PR.
+Strayhorn, D. Well-foundedness of $R$ is extra. `papers/well-founded-r.md`. On main via #71.
 
 Strayhorn, D. Countable out-degree is not a grain of $\mathrm{Obs}$. `papers/countable-outdegree.md`. Theorem 31.
 
