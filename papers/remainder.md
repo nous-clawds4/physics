@@ -4,7 +4,7 @@ David Strayhorn
 
 Not a new theorem. What is locked, what is killed, and what would still have to be assumed to do the 2008 typicality job on this object. Do not adopt $\Phi$, $1/N$, a grain, or a measure. Do not reopen the object. Do not rewrite Paper 1.
 
-**Status.** Under the lock, typicality of branches from one $O$ is empty. The named leftover motion is type-(ii) links on $\mathrm{Obs}$ (2005 / Strayhorn3), not the 2007 geodesic-generated tree. Engulfing-in-$P(O)$ is not that leftover. None of this is adopted.
+**Status.** Under the lock, typicality of branches from one $O$ is empty. Type-(ii) links on $\mathrm{Obs}$ (2005 / Strayhorn3) are working across-worlds motion, abandonable; not the 2007 geodesic-generated tree. Engulfing-in-$P(O)$ is not that leftover. Grain, $1/N$, a measure, and $\Phi$ are not adopted.
 
 ---
 
