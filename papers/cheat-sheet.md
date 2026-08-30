@@ -2,7 +2,7 @@
 
 David Strayhorn
 
-One table for the locked objects and the maps between them. It does not change the object. It does not write $\Phi$. Companions: `papers/observer-space-geometry.md`, `papers/analytic-patch-from-jet.md`, `papers/analytic-split.md`, `papers/geodesic-lifts.md`, `papers/ensemble-labels.md`, `papers/typicality-under-the-lock.md`, `papers/patch-edge.md`, `papers/phi-straits.md`, `papers/obs-as-a-set.md`.
+One table for the locked objects and the maps between them. It does not change the object. It does not write $\Phi$. Companions: `papers/observer-space-geometry.md`, `papers/analytic-patch-from-jet.md`, `papers/analytic-split.md`, `papers/geodesic-lifts.md`, `papers/ensemble-labels.md`, `papers/typicality-under-the-lock.md`, `papers/patch-edge.md`, `papers/phi-straits.md`, `papers/obs-as-a-set.md`, `papers/tree-as-structure.md`, `papers/type-ii-adopted.md`.
 
 ---
 
@@ -24,6 +24,7 @@ One table for the locked objects and the maps between them. It does not change t
 | Patch lifetime | $\tau_\partial$ | $\sup\{\tau\ge 0:\ \sigma_O\text{ is defined in }P(O)\text{ on }[0,\tau]\}$. May be finite or infinite (Thm 6) | A decoherence time; a guaranteed last time for every germ |
 | Lump equivalence | $\sim_L$ | Germ equivalence of Theorem A: pointed analytic diffeomorphism sending $(p,u)$ to $(p',u')$ and pulling metrics. Two presentations of the same lump | Unpointed $\mathrm{Diff}(M)$; the individuation cut $\sim$ on curves; ensemble labels |
 | Individuation cut | $\gamma\sim\gamma'$ | Elementary objects agree at every $\tau$. Topology labels and amplitude stay out | Equality of $W$’s; equality of ensemble members; $\sim_L$ on presentations |
+| Type-(ii) transition | $R$ | Working across-worlds stand-in: extra edges of a transition structure that are not geodesic lifts. Abandonable. Delayed forks allowed as graph-paths | The 2007 geodesic-generated tree; $1/N$; a locked grain; $\Phi$; a theorem of hitchhiking |
 
 Hard distinction, one line: a path through spacetime is $\sigma$ in some $W$; a path through observer space is $\gamma$ in $\mathrm{Obs}$; the mapping $\pi_W$ goes from the first to the second and is not invertible.
 
@@ -43,6 +44,8 @@ Two ensembles, one line: $E_\gamma$ hitchhikes with $\gamma_O$ and stays put in 
 - **Thm 8.** Under hitchhiking, typicality of branches from one $O$ is empty. `papers/phi-straits.md`
 - **Thm 9.** Any $\Phi$ with real-analytic solution curves $I\to\mathrm{Obs}$ cannot delayed-fork. Analytic $W$+geodesics is one such. Concatenating disagreeing pieces at $\tau_\partial$ is not. $\Phi$ itself is not written. `papers/phi-straits.md`
 - **Thm 10.** $\mathrm{Obs}=\mathcal{P}/{\sim_L}$ is a set of lumps. Not raw jets, not $\mathrm{Met}/\mathrm{Diff}$, not $E(O)$. Not a space. `papers/obs-as-a-set.md`
+- **Thm 11.** 2007 across-worlds tree is not a theorem of the geodesic-analytic layer. `papers/original-two-layer.md`
+- **Prop. 13.** Locked data at $O$ do not determine type-(ii) edges. Neighborhood-law for $R$ needs $\mathrm{Obs}$ as a space. `papers/type-ii-adopted.md`
 
 ---
 
@@ -54,5 +57,6 @@ Two ensembles, one line: $E_\gamma$ hitchhikes with $\gamma_O$ and stays put in 
 - **Ensemble is relative.** Extra topologies are $E(O)$, not extra points of $\mathrm{Obs}$, and they are not folded into $\sim$. $E_\gamma$ members share $\gamma_O$; they are not extra hitchhikers.
 - **Analytic split.** Two distinct *analytic* curves in $\mathrm{Obs}$ cannot agree on a positive-length initial interval. See `papers/analytic-split.md`.
 - **Typicality under the lock.** No remaining typicality theorem without a new hypothesis that supplies a countable set of distinct evolutions. Unique-measure stays conditional. `papers/typicality-under-the-lock.md`
-- **Straitjacket.** Analytic-curve $\Phi$ cannot delayed-fork. Restoring “agree then diverge” is a new motion hypothesis, not adopted. Gauge stays open; no measure on $\mathrm{Obs}$. `papers/phi-straits.md`
+- **Straitjacket.** Analytic-curve $\Phi$ cannot delayed-fork. Gauge stays open; no measure on $\mathrm{Obs}$. `papers/phi-straits.md`
+- **Type (ii).** Working across-worlds stand-in: extra links on lumps (2005 / Strayhorn3), abandonable. Not the 2007 geodesic-generated tree. Law for $R$ not written. `papers/type-ii-adopted.md`
 - **Obs as a set.** Lumps, not presentations and not occurrences. Gauge as a *space* stays open. No measure. `papers/obs-as-a-set.md`
