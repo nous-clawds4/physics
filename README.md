@@ -25,8 +25,8 @@ This did result in 2008 in one peer reviewed publication [4]; however, only a sm
 
 1. How do we arrive at the precise mathematical definition for observer space so that it meets all of the above considerations? What are the basic tools and mathematical disciplines that we should use?
 2. What is the equation of motion of an observer through this space? What will be its justification? Experimental validation, nothing more?
-3. What are the mathematical properties of this space?
-4. What are the hard mathematical questions that will be raised by this program? Does this program lead us to ask mathematical questions that map onto other open mathematical problems (superficially unrelated, but perhaps deeply connected in some meaningful way)?
+3. What are the mathematical properties of this space that we can state with confidence?
+4. What are the open mathematical questions that will be raised by this program? Is this space interesting, mathematically, in and of itself, even in the absence of the ontological motivation to pursue the present program? Does this program lead us to ask mathematical questions that map onto other open mathematical problems in other disciplines (superficially unrelated, but perhaps deeply connected in some meaningful way)?
 5. What would it take to generate interest in, and motivate the pursuit of, this program, short of its completion?
 6. Should the ontology, by itself, be a standalone paper? On its own, might it provide sufficient motivation for pursuit of this program?
 7. Many others are likely pursuing related lines of research. Is there anyone who can be said to be pursuing (more or less exactly) this line of research? If not, then why not?
