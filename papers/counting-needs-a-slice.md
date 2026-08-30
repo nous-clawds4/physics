@@ -8,7 +8,7 @@ Do not adopt a slice, a tree, $1/N$, a grain, a measure, $\Phi$, or Born. Do not
 
 Companion: `papers/fusion-and-path-counting.md`.
 
-**Status.** Theorem 22: $N(p,\cdot)$ does not determine a probability measure on $V$ from the locked object. A slice is extra. Not adopted.
+**Status.** Theorem 22: none of the named candidates is a finite slice of type-(ii) targets on which $N(p,\cdot)$ is a probability. Not a closed “nothing supplies.” A slice is extra. Not adopted.
 
 ---
 
@@ -20,11 +20,20 @@ Let $V_p=\{q\in V:N(p,q)>0\}$. This may be infinite: an infinite arborescence (i
 
 ---
 
-## 2. Theorem 22. No locked slice
+## 2. Theorem 22. Named non-slices
 
-**Theorem 22.** Nothing already locked — the jet/patch object, hitchhiking, $E(O)$, $\sim_L$, the Fermi-slice topology, the named functors of Theorem 19, or a DAG walk-count $N$ — supplies a finite (or summable) slice of $V$ on which $N(p,\cdot)$ is a probability. In particular type-(ii) edges, not being geodesic lifts, do not carry the proper time of $\gamma_O$.
+**Theorem 22.** None of the named candidates
 
-**Proof.** Proper time is defined along $\sigma_O$ in $P(O)$, hence along $\gamma_O$ (type (i)). A type-(ii) edge $(O,O')$ leaves that curvelet by definition. No locked map $\tau:R\to\mathbb{R}$ or generation $g:V\to\mathbb{N}$ has been named. Fermi-slice neighborhoods are uncountable (Theorem 17), so “targets in a small ball” is not a finite slice. Continuous invariants do not grain (Theorem 18). A finite $V$ is a grain, not adopted. $\square$
+1. proper time along $\gamma_O$ (hitchhiker $\tau$);
+2. nonempty open Fermi-slice balls (Theorem 17);
+3. finitely many continuous maps $f:\mathrm{Obs}\to\mathbb{R}^n$ on a nonempty connected open (Theorem 18);
+4. a grain ($d$, or finite $V$ put in by hand)
+
+is a finite (or summable) slice of type-(ii) targets on which $N(p,\cdot)$ is a probability. The law of a slice is extra relative to those.
+
+**Proof.** (1) Hitchhiker $\tau$ is the proper-time parameter of $\sigma_O\subset P(O)$, hence labels lumps *on* $\gamma_O$ (type (i)). A type-(ii) edge leaves that curvelet; those $\tau$-slices are not the type-(ii) targets. (2) Theorem 17: $U\setminus\gamma_O$ is uncountable, so a Fermi ball is not a finite slice. (3) Theorem 18: one class or a continuum, not a nonempty finite typicality set of delayed forks. (4) A grain is extra structure, not a theorem of the jet/patch, and is not adopted. $\square$
+
+**Not claimed.** Nothing supplies a finite slice. The empty set is a finite slice; it is trivial and is not a nonempty typicality set of delayed forks. The one-step out-neighborhood $\{O':(O,O')\in R\}$ of a *locally finite* $R$ is a finite slice. It comes from a law of $R$, which is extra (Theorem 19). Not a lock-side slice.
 
 **Named, not adopted.** A generation $g:V\to\mathbb{N}$ with $R$ only advancing $g$ (a ranked DAG); a Lyapunov function on $\mathrm{Obs}$; a cutoff of walk-length. Each makes $\sum\{N(p,q):g(q)=n\}$ finite on locally finite graphs, and then $N(p,\cdot)$ at level $n$ normalizes. Extra structure. Not a law of $R$.
 
@@ -32,7 +41,8 @@ Let $V_p=\{q\in V:N(p,q)>0\}$. This may be infinite: an infinite arborescence (i
 
 ## 3. Report line
 
-- **Proved.** Theorem 22: path-count is not a probability without a slice; type-(ii) has no locked clock.
+- **Proved.** Theorem 22: named non-slices (hitchhiker $\tau$, Fermi balls, continuous $f$, grain) fail to make $N(p,\cdot)$ a probability of type-(ii) targets.
+- **Not claimed.** A closed “nothing supplies a finite slice.” Locally finite one-step out-neighborhoods are finite slices and come from a law of $R$ (extra).
 - **Named, not adopted.** Generation / Lyapunov / walk-length cutoff.
 - **Killed.** Grain or $|a|^2$ as a lock-side slice.
 - **Open.** Whether to put in a slice; the law of $R$; whether to abandon type (ii).
@@ -46,3 +56,5 @@ Strayhorn, D. Fusion and path-counting. `papers/fusion-and-path-counting.md`.
 Strayhorn, D. The law of $R$ is extra structure. `papers/law-of-r.md`.
 
 Strayhorn, D. Neighborhoods are not a countable $N$. `papers/neighborhood-uncountable.md`.
+
+Strayhorn, D. Grain is not a readout of continuous invariants. `papers/grain-not-from-invariants.md`.
