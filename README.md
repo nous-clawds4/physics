@@ -1,5 +1,5 @@
 # physics
-an attempt to unify QM and GTR into one theory, with QM and GTR each being recovered as approximations to the larger theory
+an attempt by David Strayhorn (@wds4) to unify QM and GTR into one theory, with QM and GTR each being recovered as approximations to the larger theory
 
 # Goal
 The goal of this program is to arrive at a theory of physics with the following characteristics:
@@ -16,7 +16,10 @@ The general theory ought to yield an ontology of the observer as a physical obje
 - The laws of GTR and QM will appear to be valid to the vast majority of observers in state space [3]. For this requirement to make sense and to carry import, the space must admit one and only one reasonable way to define the measure of observers. We believe that countability (of observers) will provide the central argument for this part of the program.
 
 # Documents
-Inside the old-manuscripts directory there is a collection of papers and related documents from circa 2000-2010 that are the products of my attempts to achieve the above goal.
+Inside the old-manuscripts directory there is a collection of papers and related documents from circa 2000-2010 that are the products of my attempts to achieve the above goal. 
+
+# Progress 
+This did result in 2008 in one peer reviewed publication [4]; however, only a small facet of the overall program was contained in that publication. Two other manuscripts were submitted and rejected at around the same time. 
 
 # Some important questions
 
@@ -32,4 +35,6 @@ Inside the old-manuscripts directory there is a collection of papers and related
 
 [2] Fernando Echeverria, Gunnar Klinkhammer, and Kip S. Thorne. Billiard balls in wormhole spacetimes with closed timelike curves: Classical theory. Phys. Rev. D 44, 1077 – Published 15 August, 1991. https://journals.aps.org/prd/abstract/10.1103/PhysRevD.44.1077
 
- [3] This may or may not be true only under certain "reasonable" approximations, e.g. under low energy conditions. This would be analogous to classical mechanics, which is a reasonable approximation to GTR only under conditions of low velocity and low gravity. If it turns out that GTR and/or QM turn out to be reasonable approximations to the more general theory, but only under certain conditions, then this will raise the possibility of novel, unexpected, testable experimental predictions of the new theory.
+[3] This may or may not be true only under certain "reasonable" approximations, e.g. under low energy conditions. This would be analogous to classical mechanics, which is a reasonable approximation to GTR only under conditions of low velocity and low gravity. If it turns out that GTR and/or QM turn out to be reasonable approximations to the more general theory, but only under certain conditions, then this will raise the possibility of novel, unexpected, testable experimental predictions of the new theory.
+
+[4] Strayhorn, David. An illustration of the quantitative problem of the many worlds interpretation of quantum mechanics and the motivation for outcome counting. Annales de la Fondation Louis de Broglie. 2008, Vol 33, Num 3-4, pp 211-220, 10 p ; ref : 13. https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=21630570
