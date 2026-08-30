@@ -23,12 +23,12 @@ Let $(V,R)$ be a directed graph. Write $\mathrm{pred}(q)=\{v:(v,q)\in R\}$.
 **Theorem 33.**
 
 1. If $|\mathrm{pred}(q)|$ is uncountable, the set of length-$1$ walks into $q$ is uncountable, so $N(\cdot,q)$ is not a natural number.
-2. If $|\mathrm{pred}(v)|\le\aleph_0$ at every $v$ that can reach $q$ by a finite walk, and there is no infinite backward chain through those vertices that can be pumped (e.g. a DAG), then the set of finite walks into $q$ is countable.
+2. If $|\mathrm{pred}(v)|\le\aleph_0$ at every $v$ that can reach $q$ by a finite walk, then the set of finite walks into $q$ is countable. No DAG is required. A pumpable cycle makes $N(p,q)$ infinite (Theorem 20), not the set uncountable.
 3. Countable in-degree is a restriction on $R$, not a grain of $\mathrm{Obs}$: $V$ may remain a continuum. Extra relative to Theorems 19–32. Not adopted.
 
-**Proof.** (1) Length-$1$ walks into $q$ are in bijection with $\mathrm{pred}(q)$. (2) Same induction as Theorem 31, run backward from $q$ along $\mathrm{pred}$, on a DAG (or with no pumpable cycle through the predecessors). (3) Take $V=\mathrm{Obs}$ (Theorem 17) and $|\mathrm{pred}(v)|\le 2$. Continuum of lumps, countable in-stars. The lock does not pick those stars (Theorem 19). $\square$
+**Proof.** (1) Length-$1$ walks into $q$ are in bijection with $\mathrm{pred}(q)$. (2) Dual of Theorem 31(1). Let $W_k$ be the walks of length $k$ ending at $q$. $W_0$ is a singleton. Each walk in $W_{k+1}$ is a walk in $W_k$ with a predecessor prepended at its start; if $W_k$ is countable and each such start has countable $\mathrm{pred}$, then $W_{k+1}$ is a countable union of countable sets. Cycles are allowed: they contribute countably many finite concatenations, not a continuum. (3) Take $V=\mathrm{Obs}$ (Theorem 17) and $|\mathrm{pred}(v)|\le 2$. Continuum of lumps, countable in-stars. The lock does not pick those stars (Theorem 19). $\square$
 
-**Relation to Theorem 21.** Finite in-degree plus a finite ancestor set is a *sufficient* condition named in Theorem 21 for $N(p,q)\in\mathbb{N}\cup\{0\}$. That condition is extra. Countable in-degree is weaker and still extra. Fusion adds walks (Theorem 21); it does not grain $\mathrm{Obs}$.
+**Relation to Theorem 21.** $N(p,q)\in\mathbb{N}\cup\{0\}$ needs *finitely many* walks $p\to q$, not merely a countable set of them. A DAG (no pumpable cycle) plus finite in-degree plus a finite ancestor set is a *sufficient* condition named in Theorem 21. That DAG / no-pumpable-cycle hypothesis lives here, not in (2). A pumpable cycle makes $N(p,q)$ infinite (Theorem 20) while the set of finite walks into $q$ stays countable under (2). Fusion adds walks (Theorem 21); it does not grain $\mathrm{Obs}$. Countable in-degree is extra either way.
 
 **Not claimed.** This writes a law of $R$. Empty $R$ has in-degree $0$. Constant $\mathrm{pred}(v)=\{O_{\mathrm{Mink}}\}$ is countable-in-degree. Both are maps. They are not the 2008 job.
 
@@ -44,7 +44,7 @@ Countable (or finite) in-degree of $R$. Extra. Dual of Theorem 31. Not a grain o
 
 ## 4. Report line
 
-- **Proved.** Theorem 33: uncountable in-degree $\Rightarrow$ uncountable length-$1$ incoming walks; countable in-degree $\Rightarrow$ countable finite walks into $q$ on a DAG. Not a grain of $\mathrm{Obs}$.
+- **Proved.** Theorem 33: uncountable in-degree $\Rightarrow$ uncountable length-$1$ incoming walks; countable in-degree $\Rightarrow$ countable finite walks into $q$ (cycles allowed). Not a grain of $\mathrm{Obs}$. DAG / no pumpable cycle is for $N(p,q)\in\mathbb{N}$ (Theorems 20–21), not for countability of the set.
 - **Not claimed.** A law of $R$. A typicality measure.
 - **Named, not adopted.** Countable in-degree as a restriction on $R$.
 - **Killed.** Reading Theorem 21’s finite-in-degree example as lock-side. $|a|^2$. $\Phi$.
