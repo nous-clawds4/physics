@@ -36,7 +36,19 @@ The open lifetime in $P$ is $[0,\tau_\partial)$.
 
 *Infinite.* Let $O$ be the germ of Minkowski space at the origin, $u=\partial_t$. The maximal simply-connected continuation is Minkowski space itself (or an isometric copy). Geodesics are complete: $\tau_\partial=\infty$.
 
-*Finite.* Let $P(O)$ be maximal. If the analytic metric on $P$ is geodesically incomplete in the direction $u$ — the solution of the geodesic ODE leaves every compact subset of $P$ in finite proper time, or the Christoffel symbols blow up — then $\tau_\partial<\infty$. This happens whenever the maximal continuation is a proper open subset of a complete analytic spacetime and $\sigma_O$ aims at that edge (e.g. Minkowski restricted by a natural boundary of a strictly smaller analytic chart, after maximality has been taken in that continuation). Analyticity of $g$ on an open set does not imply geodesic completeness (the geodesic ODE can still run off the domain). $\square$
+*Finite.* Hitchhiking is future-directed, so the example must be future-incomplete after maximality.
+
+Kruskal–Schwarzschild, real-analytic for $r>0$, simply connected ($\mathbb{R}^2\times S^2$). Let $O$ be the germ at a regular point on a future-inextendible infalling radial timelike geodesic, $u$ along that geodesic. Maximality of $P(O)$ includes the coordinate horizon (Kruskal is the analytic extension through $r=2M$). It does not include $r=0$: curvature scalars blow up there, so they have no continuous, hence no real-analytic, limit. The geodesic meets $r=0$ in finite proper time. Thus $\tau_\partial<\infty$.
+
+The cosmological twin, with the singularity in the *future*: spatially flat dust FLRW with a crunch,
+$$
+ds^2=-dt^2+(1-t)^{4/3}(dx^2+dy^2+dz^2),\qquad t<1.
+$$
+The scale factor $(1-t)^{2/3}$ is real-analytic on $(-\infty,1)$. Curvature scalars blow up as $t\to 1^-$. The germ at $(t,x)=(0,0)$ with $u=\partial_t$ has $P(O)$ this spacetime (up to unique pointed isometry). The comoving geodesic has $t=\tau$, so $\tau_\partial=1<\infty$. (Past-bang FLRW with $u$ future is future-complete; it is not this example.)
+
+*Not an example.* A proper open subset of Minkowski (a “restricted Minkowski chart,” or Minkowski cut off by a fictitious edge). Theorem B continues that germ to all of Minkowski, and $\tau_\partial=\infty$. Restricted Minkowski after maximality contradicts maximality.
+
+Analyticity of $g$ on an open set does not imply geodesic completeness: the geodesic ODE can run off $P(O)$ in finite proper time. FLRW and Kruskal are instances, not a classification. $\square$
 
 So: meeting $\partial P$ is possible, not mandatory. If $\tau_\partial=\infty$, there is no boundary story; the interior theorems are the whole hitchhiking story for that $O$.
 
@@ -104,13 +116,15 @@ EKT 1991 remains global classical non-uniqueness in a fixed $W$ with wormholes/C
 ## 6. Report line
 
 - **Proved.** Theorem 6: $\tau_\partial$ may be finite or infinite; both occur. Theorem 7: no $\sim$-split of next germs among $E_\gamma$ members at $\partial P$. If both extend analytically, they share the continuation; if not, there is at most one continuation, or none. Props. 7.2–7.4: quotients do not lengthen past the cover; analytic gluing does not produce a second germ; maximality already ate simply-connected extra.
-- **Killed.** Restoring “agree on a finite interval, then diverge” as disagreeing jets at the patch edge, for analytic geodesic lifts in analytic $W$. The hitchhiker story is dead at the boundary too.
+- **Killed.** Restoring “agree on a finite interval, then diverge” as disagreeing jets at the patch edge, for analytic geodesic lifts in analytic $W$. The hitchhiker story is dead at the boundary too. Restricted Minkowski as a finite-lifetime example (contradicts maximality).
 - **Open.** Which germs meet $\partial P$ in finite time; the nature of that edge.
 - **Not done.** $\Phi$; Born; a replacement count; a complexity bound.
 
 ---
 
 ## References
+
+Hawking, S. W. and Ellis, G. F. R. *The Large Scale Structure of Space-Time.* Cambridge, 1973. (FLRW and Schwarzschild incompleteness.)
 
 Krantz, S. G. and Parks, H. R. *A Primer of Real Analytic Functions.* 2nd ed. Birkhäuser, 2002.
 
