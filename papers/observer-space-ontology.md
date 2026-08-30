@@ -178,6 +178,8 @@ It is not Hadley's program, in which closed timelike curves, or 4-geons, are ask
 
 It is not Gielen and Wise. They own the phrase "observer space" as the 7-manifold of future-directed unit 4-velocities of a Lorentzian spacetime (Gielen and Wise 2013). That is a precise geometric object, and a serious one. It is a different object. Their observer is a 4-velocity on a given metric. This paper's observer is an infinite analytic jet, equivalently a simply-connected analytic patch, with a time direction, and does not inherit a dimension from their 7-manifold. Same words, different theory. The distinction is meant as courtesy, not as a complaint.
 
+It is not Larsson's Quantum Jet Theory (hep-th/0701164 and later). Larsson's observer is an expansion point, or a trajectory. The objects are $p$-jets of fields, not the infinite jet of the metric. There is no counting measure. The physical consequences were left inconclusive (Larsson 2014). Same English word "jet," different object.
+
 It is not the typicality of Dürr, Goldstein, and Zanghì. Their typicality is quantum equilibrium: $|\Psi|^2$ on configuration space, with the empirical distributions of Bohmian mechanics as what typical configurations see (Dürr, Goldstein, and Zanghì 1992). Observer space is not configuration space. The measure, if countability holds, is not $|\Psi|^2$. This is not a hidden-variable theory under Everett, and it is not a hidden-variable theory in the Bohmian sense. The deeper classical model is the theory, not an extra ontology sprinkled onto a wavefunction that remains in charge of the measure.
 
 It is not the cosmological measure problem. Pocket universes, inflationary bubbles, and the various measures written on them are an ongoing underdetermination: many measures, no unique reasonable one. The present claim runs in the opposite direction. Countability, if it holds, is supposed to kill that extra freedom, not to join the menu of inflationary measures.
@@ -231,6 +233,10 @@ Gielen, S. and Wise, D. K. Lifting general relativity to observer space. *Journa
 Hadley, M. J. The logic of quantum mechanics derived from classical general relativity. *Foundations of Physics Letters* 10 (1997) 43–60.
 
 Hanson, R. When worlds collide: Quantum probability from observer selection? *Foundations of Physics* 33 (2003) 1129–1150.
+
+Larsson, T. A. Quantum Jet Theory I: Free fields. arXiv:hep-th/0701164, 2007.
+
+Larsson, T. A. Three principles for quantum gravity. arXiv:1407.6378, 2014.
 
 Randall, A. F. *An Algorithmic Interpretation of Quantum Probability*. Ph.D. thesis, York University, 2014.
 
