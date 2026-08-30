@@ -69,6 +69,11 @@ Two ensembles, one line: $E_\gamma$ hitchhikes with $\gamma_O$ and stays put in 
 - **Acyclicity of $R$ (named).** Extra for finite $N$. Distinct from unique-tree and from Theorem 31 (cycles allowed for the walk-set). Not adopted. `papers/acyclicity-of-r.md`
 - **Finite ancestors (named).** Finite $\mathrm{Anc}(q)$ extra for $N\in\mathbb{N}$. Countable walk-set (Thm 31) may still be infinite. Distinct from a slice. Not a grain of $\mathrm{Obs}$. Not adopted. `papers/finite-ancestors.md`
 - **Markov law of $R$ (named).** Definition 9 is one-step (a graph). A history-dependent law on $\mathrm{Path}$ is extra-on-extra. Not a grain. Not adopted. `papers/markov-law-of-r.md`
+- **Measurability of $R$ (named).** Borel (etc.) graph in the Fermi-slice product. Extra, toward a measure, not a grain. Not adopted. `papers/measurable-r.md`
+- **Closed-graph $R$ (named).** Extra, distinct from locality and Borel. Not a grain. Not adopted. `papers/closed-graph-r.md`
+- **Compact-valued stars (named).** Extra, distinct from closed-graph. Not a grain. Not adopted. Theorem 16: `papers/obs-as-a-space.md`. Theorem 17: `papers/neighborhood-uncountable.md`. `papers/compact-stars.md`
+- **Properness leftover (1) (named).** For compact $K$, $\{O:\mathrm{succ}(O)\cap K\neq\emptyset\}$ is compact. Backward compactness of sources that hit a compact target. Not equivalent to a proper projection of the graph. On main via #58. Not a grain. Not adopted. `papers/proper-r.md`
+- **Open-graph $R$ (named).** Dual of closed-graph. Empty $R$ is open; full product is open; neither is the 2008 job. On main via #59. Not a grain. Not adopted. `papers/open-graph-r.md`
 - **Uniformity of $R$ (named).** One relation vs a field of stars. Extra. Does not grain. `papers/uniform-law-of-r.md`
 - **Unique-measure (named).** Conditions under which a unique measure could go through (leftover motion, grain, law of $R$, count/slice/DAG-or-tree, a typicality rule, circularity resolved; or a measure on many $O$). Not adopted. Not $\Phi$. `papers/unique-measure-conditions.md`
 - **Circularity (named remaining lock).** Count first, then typicality, then the measure used to count. Resolvers named, not adopted: combinatorial count first; measure first; self-consistent $\mu$ ($|a|^2$ as $M$ killed); abandon the derivation. `papers/circularity.md`
