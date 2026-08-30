@@ -4,9 +4,9 @@ David Strayhorn
 
 Live hole is the law of $R$, not a grain. Strayhorn3 wanted no dead ends. König: a locally finite infinite tree has an infinite ray; those rays may be a continuum. 2008 counting is finite walks (Theorem 31). Do not adopt. Do not invent a grain. Not $\Phi$. No $|a|^2$. No $L$. No $1/N$. Paper 1 not rewritten.
 
-Companions: `papers/countable-outdegree.md` (Theorem 31, on main), `papers/fusion-and-path-counting.md` (Corollary 20.1), `papers/law-of-r.md`. Branching (Theorem 32) and Fermi-slice locality are named off this branch and are not required here.
+Companions: `papers/countable-outdegree.md` (Theorem 31), `papers/branching-extra.md` (Theorem 32), `papers/local-law-of-r.md`, `papers/fusion-and-path-counting.md` (Corollary 20.1), `papers/law-of-r.md`.
 
-**Status.** No-dead-ends ($\mathrm{succ}(v)\ne\emptyset$ at reachable $v$) is extra. König supplies existence of an infinite ray given finite out-degree and infinitely many reachable vertices; it does not countable those rays. The infinite binary tree has $2^{\aleph_0}$ rays and countably many finite walks. 2008 counts finite walks. Named, not adopted. Not a grain of $\mathrm{Obs}$.
+**Status.** No-dead-ends ($\mathrm{succ}(v)\ne\emptyset$ at reachable $v$) is extra. König supplies existence of an infinite ray given finite out-degree and infinitely many reachable vertices; it does not make those rays countable. The infinite binary tree has $2^{\aleph_0}$ rays and countably many finite walks. 2008 counts finite walks. Named, not adopted. Not a grain of $\mathrm{Obs}$.
 
 ---
 
