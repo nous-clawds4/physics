@@ -6,7 +6,7 @@ The goal of this program is to arrive at a theory of physics with the following 
 - The general theory of relativity (GTR) and quantum mechanics (QM) should be unified into a single theory in the same sense that electricity and magnetism were unified into electromagnetism.
 - GTR and QM should each be individually recovered as approximations to the more general theory, in the same manner that classical mechanics is an approximation to GTR.[1]
 - This new theory should generate novel, unexpected, and testable experimental predictions, in the same sense that GTR predicted the precession of Mercury's orbit.
-- It should yield a physical interpretation and ontology that is accessible even to the educated and intelligent layperson, in contrast to something like string theory which seemed to strive for accessibility only to experts after long years of immersion.
+- It should yield a physical interpretation and ontology that is accessible even to the educated and intelligent layperson, in contrast to something like string theory which seemed to strive for some combination of incomprehensibility versus accessibility only to experts after long years of immersion.
 - It is hoped that it will be useful in unexpected ways, analogous to GTR enabling GPS navigation or QM enabling the construction of transistors and microchips.
 
 # Ontology
@@ -28,7 +28,7 @@ Inside the old-manuscripts directory there is a collection of papers and related
 6. Should the ontology, by itself, be a standalone paper? On its own, might it provide sufficient motivation for pursuit of this program?
 7. Many others are likely pursuing related lines of research. Is there anyone who can be said to be pursuing (more or less exactly) this line of research? If not, then why not?
 
-[1] An alternate possibility that should be considered: Either GTR or QM, but not both, could make predictions that do not conflict with the predictions of the more general theory, and are therefore cannot be said to be approximations, in the same sense that neither electricity nor magnetism could be said to be "approximations" to the more general theory of electromagnetism.
+[1] An alternate possibility that should be considered: Either GTR or QM, but not both, could make predictions that do not conflict with the predictions of the more general theory, and therefore cannot be said to be approximations, in the same sense that neither electricity nor magnetism could be said to be "approximations" to the more general theory of electromagnetism.
 
 [2] Fernando Echeverria, Gunnar Klinkhammer, and Kip S. Thorne. Billiard balls in wormhole spacetimes with closed timelike curves: Classical theory. Phys. Rev. D 44, 1077 – Published 15 August, 1991. https://journals.aps.org/prd/abstract/10.1103/PhysRevD.44.1077
 
