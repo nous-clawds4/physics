@@ -2,7 +2,7 @@
 
 David Strayhorn
 
-One table for the locked objects and the maps between them. It does not change the object. It does not write $\Phi$. Companions: `papers/observer-space-geometry.md`, `papers/analytic-patch-from-jet.md`, `papers/analytic-split.md`, `papers/geodesic-lifts.md`, `papers/ensemble-labels.md`, `papers/typicality-under-the-lock.md`.
+One table for the locked objects and the maps between them. It does not change the object. It does not write $\Phi$. Companions: `papers/observer-space-geometry.md`, `papers/analytic-patch-from-jet.md`, `papers/analytic-split.md`, `papers/geodesic-lifts.md`, `papers/ensemble-labels.md`, `papers/typicality-under-the-lock.md`, `papers/patch-edge.md`, `papers/phi-straits.md`.
 
 ---
 
@@ -21,6 +21,7 @@ One table for the locked objects and the maps between them. It does not change t
 | Curvelet from $O$ | $\gamma_O$ | The unique geodesic lift of $O$ in $P(O)$ (Prop. 3.2). One $\gamma$, many $W$ in $E_\gamma(O)$ | A star of lifts from one $O$; a delayed fork |
 | Mapping | $\pi_W(\sigma)=\gamma$ | Read the germ of $W$ at $\sigma(\tau)$, plus $\dot\sigma(\tau)$ as $u(\tau)$. Many-to-one | A reconstruction of a unique $W$ from $\gamma$ |
 | Split time | $\tau_*$ | $\inf\{\tau:\gamma(\tau)\ne\gamma'(\tau)\}$ ($\inf\emptyset=\infty$) | A decoherence time; a Born-weighted branch time |
+| Patch lifetime | $\tau_\partial$ | $\sup\{\tau\ge 0:\ \sigma_O\text{ is defined in }P(O)\text{ on }[0,\tau]\}$. May be finite or infinite (Thm 6) | A decoherence time; a guaranteed last time for every germ |
 | Individuation cut | $\gamma\sim\gamma'$ | Elementary objects agree at every $\tau$. Topology labels and amplitude stay out | Equality of $W$’s; equality of ensemble members |
 
 Hard distinction, one line: a path through spacetime is $\sigma$ in some $W$; a path through observer space is $\gamma$ in $\mathrm{Obs}$; the mapping $\pi_W$ goes from the first to the second and is not invertible.
@@ -36,6 +37,10 @@ Two ensembles, one line: $E_\gamma$ hitchhikes with $\gamma_O$ and stays put in 
 - **Prop. 3.2.** From one $O$, unique curvelet $\gamma_O$, not a star of geodesic lifts.
 - **Thm 4.** $E_\gamma$ persists along $\gamma_O$ in $\mathrm{int}\,P(O)$; membership changes by jumps; $E_{\mathrm{pt}}$ can jump off the curvelet. `papers/ensemble-labels.md`
 - **Thm 5.** No complete 4-manifold census (Markov). Compact Lorentzian $\Rightarrow\chi=0$. Countability of $E(O)$ is open.
+- **Thm 6.** Lifetime $\tau_\partial$ in $P(O)$ may be finite or infinite; both occur. `papers/patch-edge.md`
+- **Thm 7.** No $\sim$-split of next germs among $E_\gamma$ members at $\partial P$. Hitchhiker story dead at the boundary too. `papers/patch-edge.md`
+- **Thm 8.** Under hitchhiking, typicality of branches from one $O$ is empty. `papers/phi-straits.md`
+- **Thm 9.** Any $\Phi$ with real-analytic solution curves $I\to\mathrm{Obs}$ cannot delayed-fork. Analytic $W$+geodesics is one such. Concatenating disagreeing pieces at $\tau_\partial$ is not. $\Phi$ itself is not written. `papers/phi-straits.md`
 
 ---
 
@@ -47,3 +52,4 @@ Two ensembles, one line: $E_\gamma$ hitchhikes with $\gamma_O$ and stays put in 
 - **Ensemble is relative.** Extra topologies are $E(O)$, not extra points of $\mathrm{Obs}$, and they are not folded into $\sim$. $E_\gamma$ members share $\gamma_O$; they are not extra hitchhikers.
 - **Analytic split.** Two distinct *analytic* curves in $\mathrm{Obs}$ cannot agree on a positive-length initial interval. See `papers/analytic-split.md`.
 - **Typicality under the lock.** No remaining typicality theorem without a new hypothesis that supplies a countable set of distinct evolutions. Unique-measure stays conditional. `papers/typicality-under-the-lock.md`
+- **Straitjacket.** Analytic-curve $\Phi$ cannot delayed-fork. Restoring “agree then diverge” is a new motion hypothesis, not adopted. Gauge stays open; no measure on $\mathrm{Obs}$. `papers/phi-straits.md`
