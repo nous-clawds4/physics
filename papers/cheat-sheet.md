@@ -2,7 +2,7 @@
 
 David Strayhorn
 
-One table for the locked objects and the maps between them. It does not change the object. It does not write $\Phi$. Companions: `papers/observer-space-geometry.md`, `papers/analytic-patch-from-jet.md`, `papers/analytic-split.md`, `papers/geodesic-lifts.md`, `papers/ensemble-labels.md`, `papers/typicality-under-the-lock.md`, `papers/patch-edge.md`, `papers/phi-straits.md`, `papers/obs-as-a-set.md`, `papers/tree-as-structure.md`, `papers/type-ii-adopted.md`, `papers/law-of-r.md`.
+One table for the locked objects and the maps between them. It does not change the object. It does not write $\Phi$. Companions: `papers/observer-space-geometry.md`, `papers/analytic-patch-from-jet.md`, `papers/analytic-split.md`, `papers/geodesic-lifts.md`, `papers/ensemble-labels.md`, `papers/typicality-under-the-lock.md`, `papers/patch-edge.md`, `papers/phi-straits.md`, `papers/obs-as-a-set.md`, `papers/tree-as-structure.md`, `papers/type-ii-adopted.md`, `papers/law-of-r.md`, `papers/fusion-and-path-counting.md`.
 
 ---
 
@@ -49,7 +49,10 @@ Two ensembles, one line: $E_\gamma$ hitchhikes with $\gamma_O$ and stays put in 
 - **Thm 16.** Fermi-slice topology (Fermi coordinates modulo $O(3)$) descends to a Hausdorff topology on $\mathrm{Obs}$. Formal-Fréchet on all presentations does not. `papers/obs-as-a-space.md`
 - **Thm 17.** Open balls minus $\gamma_O$ are uncountable. Neighborhoods do not give countable type-(ii) successors. `papers/neighborhood-uncountable.md`
 - **Thm 18.** Finitely many continuous functions on a connected open in $\mathrm{Obs}$ yield one class or a continuum. Grain is extra. `papers/grain-not-from-invariants.md`
-- **Thm 19.** Named lock-side functors (data at $O$, open neighborhoods, continuous $f:\mathrm{Obs}\to\mathbb{R}^n$) do not supply countable type-(ii) successors. Law of $R$ extra relative to those. Not a blanket “no map.” `papers/law-of-r.md`
+- **Thm 19.** Named lock-side functors (data at $O$, open neighborhoods, continuous $f:\mathrm{Obs}\to\mathbb{R}^n$) do not supply a nonempty countable typicality set of delayed forks. Law of $R$ extra relative to those. Not a blanket “no map.” `papers/law-of-r.md`
+- **Thm 20.** Walk-count is infinite if a cycle can be pumped. Strayhorn3 both-ways, as walks, is ill-defined. `papers/fusion-and-path-counting.md`
+- **Thm 21.** On a DAG with finitely many walks $p\to q$, $N(p,q)$ is well-defined; fusion adds walks. Unique-tree extra. `papers/fusion-and-path-counting.md`
+- **Thm 22.** Named non-slices (hitchhiker $\tau$, Fermi balls, continuous $f$, grain) fail to make $N(p,\cdot)$ a probability of type-(ii) targets. Not a closed “nothing supplies.” `papers/counting-needs-a-slice.md`
 - **Def. 9.** Transition structure on lumps: $(V,R)$ with $V\subseteq\mathrm{Obs}$. A matrix only if $V$ is discrete. Not adopted. `papers/transition-matrix-on-lumps.md`
 
 ---
