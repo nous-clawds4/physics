@@ -95,6 +95,8 @@ AFLB2’s spin-foam $D_\ell$ is a third, separate model. It is not $\Phi$ and is
 
 Do not adopt it. Do not put $1/N$ in as $M$. Do not put $|a|^2$ in as $M$. Do not derive Born from it.
 
+First principles go back to that tree, not to a geodesic $\Phi$ written to save 2008. Hitchhiking was the restriction that made the tree fail as a theorem of the in-world layer. An analytic-curve geodesic law on $\mathrm{Obs}$ cannot restore footnote 3 (Theorem 9). The corpus leftover is the tree (or the 2005 random walk). Still not adopted in this note.
+
 ---
 
 ## 8. Open
@@ -111,7 +113,7 @@ Do not adopt it. Do not put $1/N$ in as $M$. Do not put $|a|^2$ in as $M$. Do no
 - **Recorded.** 2007 two layers: in-world geodesic, across-worlds $1/N$ tree. Hitchhiking is a later gloss and a restriction of 2007, not a faithful reading. Fn. 3 wanted delayed forks. Least action is a tree pattern; $L$ was never written. 2005 observers are $3$-manifolds; not the locked object. Strayhorn3 $d\to\infty$ is the tree’s continuum slogan, not the in-$W$ parallel-transport sentence.
 - **Proved.** Theorem 11: the 2007 across-worlds tree is not a theorem of the locked geodesic-analytic layer (Theorems 2–8).
 - **Named, not adopted.** Across-worlds tree / 2005 random walk / transition matrix, as the remaining motion hypothesis that matches the corpus.
-- **Killed.** Reading hitchhiking as 2007. Reading fn. 3 delayed forks as theorems of analytic geodesic lifts. Writing $L$ or $1/N$ as locked.
+- **Killed.** Reading hitchhiking as 2007. Reading fn. 3 delayed forks as theorems of analytic geodesic lifts. Writing $L$ or $1/N$ as locked. Writing a geodesic $\Phi$ to save 2008.
 - **Open.** Whether to adopt that remaining hypothesis. $\Phi$; $L$; Born.
 
 ---
