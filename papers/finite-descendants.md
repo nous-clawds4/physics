@@ -2,7 +2,7 @@
 
 David Strayhorn
 
-Live hole is the law of $R$, not a grain. Finite ancestors (`papers/finite-ancestors.md`): $\mathrm{Anc}(q)$ is a finite set, extra for $N\in\mathbb{N}$. Converse well-foundedness (`papers/converse-well-founded-r.md`, leftover, not this PR): no infinite ascending chain. A finite descendant set is a different extra: $\mathrm{Desc}(p)$ is finite, where $\mathrm{Desc}(p)$ is the vertices reachable from $p$ by a finite walk, including $p$. Finite $\mathrm{Anc}$ looks backward. This looks forward. Countable out-degree makes $\mathrm{Desc}(p)$ countable (Theorem 31), not finite. Converse well-foundedness does not imply finite $\mathrm{Desc}$ (infinitely many immediate successors of one $p$, each $R$-maximal). Do not adopt. Do not invent a grain. Not $\Phi$. No $|a|^2$. No $L$. No $1/N$. Paper 1 not rewritten.
+Live hole is the law of $R$, not a grain. Finite ancestors (`papers/finite-ancestors.md`): $\mathrm{Anc}(q)$ is a finite set, extra for $N\in\mathbb{N}$. Converse well-foundedness (`papers/converse-well-founded-r.md`, on main via #73): no infinite ascending chain. A finite descendant set is a different extra: $\mathrm{Desc}(p)$ is finite, where $\mathrm{Desc}(p)$ is the vertices reachable from $p$ by a finite walk, including $p$. Finite $\mathrm{Anc}$ looks backward. This looks forward. Countable out-degree makes $\mathrm{Desc}(p)$ countable (Theorem 31), not finite. Converse well-foundedness does not imply finite $\mathrm{Desc}$ (infinitely many immediate successors of one $p$, each $R$-maximal). Do not adopt. Do not invent a grain. Not $\Phi$. No $|a|^2$. No $L$. No $1/N$. Paper 1 not rewritten.
 
 Companions: `papers/finite-ancestors.md`, `papers/converse-well-founded-r.md`, `papers/well-founded-r.md`, `papers/countable-outdegree.md` (Theorem 31), `papers/dead-ends-and-rays.md`, `papers/type-ii-clock.md` (Theorem 23(1)), `papers/extra-structure.md`.
 
@@ -14,7 +14,7 @@ Companions: `papers/finite-ancestors.md`, `papers/converse-well-founded-r.md`, `
 
 **Finite $\mathrm{Anc}(q)$.** Backward. Extra for $N\in\mathbb{N}$. On main. Not reopened.
 
-**Converse well-foundedness.** No infinite ascending chain. Leftover, not this PR. Finite $\mathrm{Desc}(p)$ implies it on walks from $p$. The converse fails. Not reopened.
+**Converse well-foundedness.** No infinite ascending chain. On main via #73. Finite $\mathrm{Desc}(p)$ implies it on walks from $p$. The converse fails. Not reopened.
 
 **Well-foundedness.** Dual descending cut. On main via #71. Not reopened.
 
@@ -54,7 +54,7 @@ Finite descendant set. Extra. Distinct from finite $\mathrm{Anc}(q)$ and from co
 
 Strayhorn, D. A finite ancestor set is extra. `papers/finite-ancestors.md`.
 
-Strayhorn, D. Converse well-foundedness of $R$ is extra. `papers/converse-well-founded-r.md`. Leftover, not this PR.
+Strayhorn, D. Converse well-foundedness of $R$ is extra. `papers/converse-well-founded-r.md`. On main via #73.
 
 Strayhorn, D. Well-foundedness of $R$ is extra. `papers/well-founded-r.md`. On main via #71.
 
