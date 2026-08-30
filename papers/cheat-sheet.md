@@ -57,6 +57,7 @@ Two ensembles, one line: $E_\gamma$ hitchhikes with $\gamma_O$ and stays put in 
 - **Thm 24.** Fermi-slice distance is a continuous scale, not a finite slice or generation. Rounding is a grain. `papers/fermi-distance.md`
 - **Thm 25.** Continuous $y$ on a connected open does not finite-support $R$. Integer $y\in[0,Y]$ is a grain. Least-action-on-support named, not adopted. `papers/least-action-support.md`
 - **Thm 26.** Combinatorial $y$ (edge count, Euler, out-degree) does not finite-support $R$ without a grain or a law of $R$ plus a slice. Compact Lorentzian $\chi=0$ (Poincaré–Hopf) does not select type-(ii) edges. `papers/combinatorial-y.md`
+- **Thm 27.** $\mathrm{Occ}(O)\setminus\gamma_O$ is lock-side and typically a continuum. Restricting type-(ii) targets to it is not $E$-smuggling and does not grain. Named, not adopted. `papers/in-patch-support.md`
 - **Def. 9.** Transition structure on lumps: $(V,R)$ with $V\subseteq\mathrm{Obs}$. A matrix only if $V$ is discrete. Not adopted. `papers/transition-matrix-on-lumps.md`
 
 ---
