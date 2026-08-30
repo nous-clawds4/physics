@@ -26,13 +26,13 @@ At an instant, an observer is a pair \((j,u)\).
   j \;=\; \bigl( \partial_{\alpha_1\cdots\alpha_m} g_{\mu\nu}(p) \bigr)_{0\le m\le k}.
   \]
 
-  The \(0\)-jet is required to have Lorentzian signature. The value of \(k\) is not fixed here (§3.1).
+  The \(0\)-jet is required to have Lorentzian signature. The value of \(k\) is not fixed here (§4.1).
 
 - \(u\) is a future-directed unit timelike vector relative to that \(0\)-jet: \(g(u,u)=-1\), future-directed in the time orientation that \(u\) itself supplies.
 
 This is the whole of the instantaneous object. It is not a ray in Hilbert space. It is not a four-velocity on a spacetime that has already been given. It is not the infinite jet used as a germ of an entire four-manifold. Analytic continuation from the jet to a reconstructed \((M,g)\) is not used, and is not permitted as a hidden step.
 
-Write \(\mathrm{Obs}_k\) for the set of such pairs at a fixed finite order \(k\). Write \(\mathrm{Obs}\) for observer space in the sense of the ontology: the space of all such objects, at whatever order is eventually chosen, including the possibility that the order is infinite. \(\mathrm{Obs}\) is not identified with any of the \(\mathrm{Obs}_k\) until §3.1 is answered. Dimension of \(\mathrm{Obs}\) is not identified with the number of coordinate components of a \(k\)-jet; that number is coordinate data, and gauge is open (§4).
+Write \(\mathrm{Obs}_k\) for the set of such pairs at a fixed finite order \(k\). Write \(\mathrm{Obs}\) for observer space in the sense of the ontology: the space of all such objects, at whatever order is eventually chosen, including the possibility that the order is infinite. \(\mathrm{Obs}\) is not identified with any of the \(\mathrm{Obs}_k\). The coordinate formula is a presentation of a representative, not a decision that \(\mathrm{Obs}\) is the space of raw jets rather than a Diff/frame quotient. David left that gauge question open. Dimension of \(\mathrm{Obs}\) is not identified with the number of coordinate components of a \(k\)-jet; that number is coordinate data, and §4.2 waits.
 
 Gielen and Wise's observer space is the seven-manifold of future-directed unit four-velocities of a given Lorentzian spacetime. The object here includes the metric jet as part of the point. Same English words, different set.
 
@@ -72,7 +72,7 @@ u_\gamma(\tau)\ne u_{\gamma'}(\tau).
 
 This is equality of maps into \(\mathrm{Obs}\). Hilbert-space amplitude does not appear, and does not get a vote. Weight \(|a|^2\) does not make two evolutions the same, and does not make them different. A decoherence branch is a different kind of object; it is not what \(\sim\) quotients.
 
-The cut is a premise of the ontology. Grain does not reopen it. Same curve or not is settled as equality of \((j,u)\) at every \(\tau\). How fine the jet is, and when a numerical difference is a physically different disagreement, are separate questions (§3.1, §3.3). They are not a second identity criterion.
+The cut is a premise of the ontology. Grain does not reopen it. Same curve or not is settled as equality of \((j,u)\) at every \(\tau\). How fine the jet is, and when a numerical difference is a physically different disagreement, are separate questions (§4.1, §4.3). They are not a second identity criterion.
 
 If the domains differ, compare on the overlap after aligning origins, and treat a proper extension as distinct from its restriction in the usual way for curves: the restriction and the extension are not the same map. Prefixes of an evolution are earlier nodes of the same history, not a second history.
 
@@ -108,7 +108,9 @@ A number written down because ten metric components, or because curvature needs 
 
 **Open.** \(\mathrm{Obs}\) might be finite-dimensional, a countable discrete set, a Banach or Fréchet manifold, an inverse limit of jet spaces, or something that is not a manifold. The number of coordinate components of a \(k\)-jet of \(g_{\mu\nu}\) plus a unit timelike vector is not the dimension of \(\mathrm{Obs}\). That number still includes coordinate and gauge redundancy, which the ontology has not quotiented.
 
-**What would count as an answer.** An identification of \(\mathrm{Obs}\) with a specified mathematical space, forced by the objects as defined in §1--§2, not chosen for convenience. The identification must say whether the space is a set of raw jets or a set of equivalence classes. If it is a set of equivalence classes, that is a change to the objects of §1, and it is not an answer until Ontology (or David) adopts the quotient (§5). A modelling preference for "the smallest manifold that holds the data" does not count.
+**Held.** David left gauge open: raw jets versus a Diff/frame quotient is not decided in this note, and \(\mathrm{Obs}\) is not identified with a specified mathematical space. This item waits.
+
+**What would count as an answer, later.** An identification of \(\mathrm{Obs}\) with a specified mathematical space, forced by the objects as defined in §1--§2, not chosen for convenience. The identification must say whether the space is a set of raw jets or a set of equivalence classes. If it is a set of equivalence classes, that is a change to the objects of §1, and it is not an answer until Ontology (or David) adopts the quotient (§5). A modelling preference for "the smallest manifold that holds the data" does not count. A construction that picks one side of the fork in order to proceed does not count.
 
 ### 4.3 Grain of "disagree"
 
@@ -164,6 +166,8 @@ such that:
 
 Labelling the geodesic equation as the law counts as an answer only if (1)--(5) are checked for it, including (2). Existence of some classical model with non-unique geodesics (EKT 1991) checks that (2) is possible in classical geometry. It does not check (1)--(5) for observer space, and it does not supply \(\Phi\).
 
+A \(\Phi\) that is well-defined only for raw jets, or only on a quotient, does not count while gauge is open. The law must still make sense if a quotient is adopted later, or it must wait with §4.2. Do not write \(\Phi\) on one side of that fork.
+
 ---
 
 ## 5. Flagged: would change the ontology
@@ -182,16 +186,20 @@ No claim in §§1--4 is a recovery of quantum mechanics or of general relativity
 
 ---
 
-## 6. What would have to be true before the next geometric job
+## 6. Hold: home for \(\mathrm{Obs}\)
 
-The next job after this note is not a costume of the Feynman path integral, and it is not a recovery paper. It is one real construction, in this order, unless David changes the order:
+The next geometric job is a mathematical home for \(\mathrm{Obs}\) (§4.2). That job is held. David left gauge open. Do not decide raw jets versus a Diff/frame quotient. Do not identify \(\mathrm{Obs}\) with a specified space. Do not write a \(\Phi\) that only makes sense on one side of that fork.
 
-1. A mathematical home for \(\mathrm{Obs}\) that does not quotient without a flag (§4.2, §5).
+If later work on grain, the tree, or a limiting measure continues while this hold is in force, it must be gauge-agnostic: it must still make sense if a quotient is adopted later, and it must be flagged. Do not silently quotient.
+
+When the hold lifts, the order of real constructions, unless David changes it, remains:
+
+1. A mathematical home for \(\mathrm{Obs}\) (§4.2, §5).
 2. A candidate \(\Phi\), checked against §4.5, or an honest statement that \(\Phi\) is still missing.
 3. The rooted tree of §3, now as the solution set of that \(\Phi\), not as an abstract poset of all maps.
 4. A discretization and a limit, or a proof that countability fails.
 
-Until (1)--(4) exist, counting is the unique reasonable measure only as a conditional. The antecedent is not supplied by this note.
+Until (1)--(4) exist, counting is the unique reasonable measure only as a conditional. The antecedent is not supplied by this note. This note does not start (1).
 
 ---
 
