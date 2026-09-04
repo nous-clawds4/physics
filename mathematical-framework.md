@@ -17,7 +17,7 @@ We begin with the following definitions:
 | Geodesic in spacetime | $\sigma:I\to M$ | A causal geodesic of $M$ parameterized by proper time $\tau$. A path *through spacetime* |
 | Curve in observer space | $\gamma:I\to\mathrm{Obs}$ | $\tau\mapsto j_p^\infty(\tau)$. A path *through observer space* |
 | sibling points | | Consider an observer $O$ with world ensemble $E$ and $W = (M,p_0)$ in $E$. If $O$ exists at multiple distinct points $p_i$ in $M$, with each $p_i$ distinct from $p_0$, each $p_i$ is said to be a *sibling point* to the anchor point, $p_0$. |
-| allowable future states | | Consider two distinct, non-oriented observers $O_i$ and $O_j$. $O_i$ and $O_j$ are considered *connectable*, with $O_j$ an *allowable future state* of $O_i$, if there exists at least one spacetime $M$ such that $O_i$ can evolve into $O_j$ via a geodesic in $M$. More specifically, there exists at least one spacetime $M$, with two points $p_1$ and $p_2$ in $M$, such that the germ at $p_1$ is $O_i$ and the germ at $p_2$ is $O_j$, and there exists at least one finite geodesic $\sigma$ that connects $p_1$ to $p_2$. |
+| allowable future states | | Consider two distinct, non-oriented observers $O_i$ and $O_j$. $O_j$ is considered an *allowable future state* of $O_i$ if there exists at least one spacetime $M$ such that $O_i$ can evolve into $O_j$ via a geodesic in $M$. More specifically, there exists at least one spacetime $M$, with two points $p_1$ and $p_2$ in $M$, such that the germ at $p_1$ is $O_i$ and the germ at $p_2$ is $O_j$, and there exists at least one finite geodesic $\sigma$ that connects $p_1$ to $p_2$. |
 
 ## Problems
 
