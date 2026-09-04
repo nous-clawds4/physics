@@ -36,6 +36,29 @@ We believe $C^\infty$ plus piecewise geodesic lifts is strong: at a switch the t
 
 Alternative rule: the direction can be changed, but only infinitesimally, and any change must be $C^\infty$. This is not our current paradigm, but may be considered if we find that we need the flexibility.
 
+### Branches under Continuous World Switching
+
+Equal probability needs a definite notion of branch. Until that is fixed, the Equal Probability Postulate has nothing to act on.
+
+**Allowed continuation at $O$.** Fix an oriented observer $O^u$ (or a non-oriented $O$ together with a choice of $u$). An *allowed continuation* at $O$ is a germ of a path $\gamma:[0,\varepsilon)\to\mathrm{Obs}$ with $\gamma(0)=O$ such that:
+1. $\gamma$ is $C^\infty$ as a map into $\mathrm{Obs}$ (once a notion of smoothness on path space or on charts is chosen; see tangent-space options in Goals);
+2. $\gamma$ is a piecewise geodesic lift in the sense of Continuous World Switching: on each piece it is the Obs-lift of a causal geodesic in some world, and world switches are allowed at shared germs;
+3. orientation is preserved: $V(\tau)=\mathrm{Lift}(u(\tau))$ does not jump (no Direction Switching).
+
+**Branch set.** Two allowed continuations are *equivalent* if they agree to infinite order in $\tau$ at $0$ (same jet of the Obs-path), or, weaker working option, if they agree after reparameterization on some common initial interval. The *branch set* $B(O)$ (or $B(O^u)$) is the set of equivalence classes of allowed continuations at $O$.
+
+A *branch point* is an $O$ at which $|B(O)|\ge 2$. The Equal Probability Postulate applies only at branch points, and only when $B(O)$ is discrete (finite or countable). It does not assign weight to a continuum of directions.
+
+**What $B(O)$ is not.** $B(O)$ is not the Fermi-slice neighborhood of $O$ (typically a continuum). It is not $E_M(O)$ or $E_W(O)$. It is not a delayed fork of one analytic geodesic lift in a single world (still forbidden by analyticity inside one $M$). A split in $B(O)$ is a split among allowed world-switching continuations in $\mathrm{Obs}$.
+
+**Stress test: EKT billiard.** Let $O_i$ be an early oriented observer for whom red and blue worlds still share germs, and let $O^*$ be a candidate break point where some $M$ leaves the ensemble. Questions to answer before trusting equal weight:
+1. Is $O^*$ a branch point under the definition above? That is, are there at least two inequivalent allowed continuations at $O^*$?
+2. Is $B(O^*)$ finite (e.g. $\{O_{\mathrm{red}}, O_{\mathrm{blue}}\}$), countably infinite, or a continuum?
+3. Does the strong $C^\infty$ matching condition at switches collapse the EKT cartoon to a single continuation, force a discrete split, or leave a continuum?
+4. If $B(O^*)$ is countably infinite, what exhaustion or limit is used so that equal weight still yields well-defined ratios (see Goals)?
+
+Until (1)–(2) are settled for the billiard, do not treat equal probability as producing Born weights in spacetime.
+
 ### Equal Probability Postulate
 
 In addition to the above postulates, we will also add the equal probability postulate: that branch points in Observer space are followed with equal probability. We envision that these branches will be discrete and countable. Finite would be nice, although I suspect they will be (at least in some cases) infinite. For the EPP to be tractable, we would probably require the various infinities to cancel in some manner, something that might relate in some fashion to its countability.
