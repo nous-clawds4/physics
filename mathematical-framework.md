@@ -36,11 +36,23 @@ We believe $C^\infty$ plus piecewise geodesic lifts is strong: at a switch the t
 
 Alternative rule: the direction can be changed, but only infinitesimally, and any change must be $C^\infty$. This is not our current paradigm, but may be considered if we find that we need the flexibility.
 
-### Goal
+### Equal Probability Postulate
 
-Our hope is that we can assume equal probability at branch points in Obs, and from there, we can -- counterintuitively, I might add -- prove that Born rule is an unavoidable result: not in observer space of course, but in spacetime.
+In addition to the above postulates, we will also add the equal probability postulate: that branch points in Observer space are followed with equal probability. 
 
-If we discover that we need to alter these initial postulates, then we will do so, but we will do so consciously and deliberately.
+### Goals
+
+Our hope is that given the above paradigm, we can -- counterintuitively, one might say -- prove that the Born rule is an unavoidable result: not in observer space of course, but in spacetime.
+
+Likewise, we can hope for a second, perhaps even more surprising result, which would be to derive Einstein's field equations. Note that we have deliberately not assumed Einstein's field equations on the spacetime manifolds $M$. Adding those equations by hand to our spacetime manifolds would not be entirely unreasonable, and we might consider doing that if we discover that we must. 
+
+In addition to Born Rule and Einstein field equations, we may hope to derive equations of motion through Observer space. At this point, I have no idea what form those might take. It is worth noting that we have not yet imbued Observer space with a tangent space. We might consider three options: (1) no tangent space — work with path space and $C^\infty\$ curves only; $V=\mathrm{Lift}(u)$ stays informal; (2) Fermi $k$-jets or infinite jets — charts, ordinary or Fréchet tangent spaces; (3) topology only (Fermi-slice) — neighborhoods without $T_O$. We will need to consider what CWS actually needs: matching jets in $\tau$ may need (1) or (2); equal branch weight needs discrete branches more than it needs a tangent space.
+
+### Changes to these postulates
+
+If we discover that we need to alter any of these initial postulates, then we will do so, but we will do so consciously and deliberately.
+
+## Notes
 
 [1] Note: we have not yet imbued $Obs$ with a tangent space. How best to do this is an open question. 
 
