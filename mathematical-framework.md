@@ -18,10 +18,7 @@ We begin with the following definitions:
 | Curve in observer space | $\gamma:I\to\mathrm{Obs}$ | $\tau\mapsto j_p^\infty(\tau)$. A path *through observer space* |
 | sibling points | | Consider an observer $O$ with world ensemble $E$ and $W = (M,p_0)$ in $E$. If $O$ exists at multiple distinct points $p_i$ in $M$, with each $p_i$ distinct from $p_0$, each $p_i$ is said to be a *sibling point* to the anchor point, $p_0$. |
 | compatibility | $O_i \Leftrightarrow O_j$ | Consider two distinct, non-oriented observers $O_i$ and $O_j$. $O_j$ is considered an *allowable future state* of $O_i$ if there exists at least one spacetime $M$ such that $O_i$ can evolve into $O_j$ via a geodesic in $M$. More specifically, there exists at least one spacetime $M$, with two points $p_1$ and $p_2$ in $M$, such that the germ at $p_1$ is $O_i$ and the germ at $p_2$ is $O_j$, and there exists at least one finite geodesic $\sigma$ that connects $p_1$ to $p_2$. If $O_i$ is an allowed future state of $O_j$ and if the reverse is also true, $O_j$ is an allowable future state of $O_i$, then we say $O_i$ and $O_j$ are compatible observers. |
-
-## Problems
-
-Are there any nontrivial $O_i$ and $O_j$ such that $O_j$ is not an allowable future state of $O_j$?
+| $S(M)$ || the set of germs that occur in the manifold $M$|
 
 [1] Note: we have not yet imbued $Obs$ with a tangent space. How best to do this is an open question.
 
