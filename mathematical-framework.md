@@ -20,6 +20,18 @@ We begin with the following definitions:
 | compatibility | $O_i \Leftrightarrow O_j$ | Consider two distinct, non-oriented observers $O_i$ and $O_j$. $O_j$ is considered an *allowable future state* of $O_i$ if there exists at least one spacetime $M$ such that $O_i$ can evolve into $O_j$ via a geodesic in $M$. More specifically, there exists at least one spacetime $M$, with two points $p_1$ and $p_2$ in $M$, such that the germ at $p_1$ is $O_i$ and the germ at $p_2$ is $O_j$, and there exists at least one finite geodesic $\sigma$ that connects $p_1$ to $p_2$. If $O_i$ is an allowed future state of $O_j$ and if the reverse is also true, $O_j$ is an allowable future state of $O_i$, then we say $O_i$ and $O_j$ are compatible observers. |
 | $S(M)$ || the set of germs that occur in the manifold $M$|
 
+## The equations of motion through observer space: Initial Postulates
+
+We considered several sets of postulates for the equations of motion through Obs. The primary tension under consideration is whether world switching is allowed. In a type-(i) paradigm, the answer is no: the observer must stay in one world. In a type-(ii) paradigm, the answer is yes: the observer is allowed to switch worlds. 
+
+The framework we currently favor is a type-(ii) framework, with an added continuity condition, which we call *Continuous World Switching*.
+
+### Continuous World Switching
+
+We allow the traveling observer to switch from one spacetime (one world) to another: the observer can travel an infinitesimal distance from $O_i$ to $O_j$ along a geodesic in one world $W_z$, then from $O_j$ to $O_k$ along a geodesic in a different world, $W_z$. In other words, allowed paths are those that are piecewise geodesic lifts. We require that the path through observer space must be $C-\infty$ and that orientation cannot be changed. (Alternative rule: it can be changed, but only infinitesimally, and any change must be $C-\infty$.)
+
+Our hope is that we can assume equal probability at branch points in Obs, and from there, we can -- counterintuitively, I might add -- prove that Born rule is an unavoidable result: not in observer space of course, but in spacetime.
+
 [1] Note: we have not yet imbued $Obs$ with a tangent space. How best to do this is an open question.
 
 [2] When we wish to compare the Ensembles $E_i$ and $E_j$ of two distinct observers $O_i$ and $O_j$, it will likely be more interesting to compare spacetime ensembles than world ensembles, given that the intersection of world ensembles $E_i$ and $E_j$ will be trivially empty because they are not occupying the same points $p$.
