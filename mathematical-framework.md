@@ -38,7 +38,9 @@ Alternative rule: the direction can be changed, but only infinitesimally, and an
 
 ### Equal Probability Postulate
 
-In addition to the above postulates, we will also add the equal probability postulate: that branch points in Observer space are followed with equal probability. 
+In addition to the above postulates, we will also add the equal probability postulate: that branch points in Observer space are followed with equal probability. We envision that these branches will be discrete and countable. Finite would be nice, although I suspect they will be (at least in some cases) infinite. For the EPP to be tractable, we would probably require the various infinities to cancel in some manner, something that might relate in some fashion to its countability.
+
+Alternative form of the EPP would be that the probability of a branch is proportional to the number of Worlds in the Ensemble associated with the branch. We might even consider that the regular EPP and the alternative EPP will yield the same answer. Although this is mentioned as nothing more than simple speculation at this point. 
 
 ### Goals
 
@@ -46,7 +48,7 @@ Our hope is that given the above paradigm, we can -- counterintuitively, one mig
 
 Likewise, we can hope for a second, perhaps even more surprising result, which would be to derive Einstein's field equations. Note that we have deliberately not assumed Einstein's field equations on the spacetime manifolds $M$. Adding those equations by hand to our spacetime manifolds would not be entirely unreasonable, and we might consider doing that if we discover that we must. 
 
-In addition to Born Rule and Einstein field equations, we may hope to derive equations of motion through Observer space. At this point, I have no idea what form those might take. It is worth noting that we have not yet imbued Observer space with a tangent space. We might consider three options: (1) no tangent space — work with path space and $C^\infty\$ curves only; $V=\mathrm{Lift}(u)$ stays informal; (2) Fermi $k$-jets or infinite jets — charts, ordinary or Fréchet tangent spaces; (3) topology only (Fermi-slice) — neighborhoods without $T_O$. We will need to consider what CWS actually needs: matching jets in $\tau$ may need (1) or (2); equal branch weight needs discrete branches more than it needs a tangent space.
+In addition to Born Rule and Einstein field equations, we may hope to derive equations of motion through Observer space. At this point, I have no idea what form those might take. It is worth noting that we have not yet imbued Observer space with a tangent space. We might consider three options: (1) no tangent space — work with path space and $C^\infty$ curves only; $V=\mathrm{Lift}(u)$ stays informal; (2) Fermi $k$-jets or infinite jets — charts, ordinary or Fréchet tangent spaces; (3) topology only (Fermi-slice) — neighborhoods without $T_O$. We will need to consider what CWS actually needs: matching jets in $\tau$ may need (1) or (2); equal branch weight needs discrete branches more than it needs a tangent space.
 
 ### Changes to these postulates
 
