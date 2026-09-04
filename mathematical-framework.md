@@ -28,9 +28,19 @@ The framework we currently favor is a type-(ii) framework, with an added continu
 
 ### Continuous World Switching
 
-We allow the traveling observer to switch from one spacetime (one world) to another: the observer can travel an infinitesimal distance from $O_i$ to $O_j$ along a geodesic in one world $W_z$, then from $O_j$ to $O_k$ along a geodesic in a different world, $W_z$. In other words, allowed paths are those that are piecewise geodesic lifts. We require that the path through observer space must be $C-\infty$ and that orientation cannot be changed. (Alternative rule: it can be changed, but only infinitesimally, and any change must be $C-\infty$.)
+We allow the traveling observer to switch from one spacetime (one world) to another: the observer can travel an infinitesimal distance from $O_i$ to $O_j$ along a geodesic in one world $W_1$, then from $O_j$ to $O_k$ along a geodesic in a different world, $W_2$. In other words, allowed paths are those that are piecewise geodesic lifts. We require that the path through observer space must be $C^\infty$ and that orientation cannot be changed. 
+
+We believe $C^\infty$ plus piecewise geodesic lifts is strong: at a switch the two lifts must match in Obs to infinite order in $\tau$, not just share a germ. This may force fewer switches than one might initially imagine from EKT.
+
+#### Alternative: Direction Switching
+
+Alternative rule: the direction can be changed, but only infinitesimally, and any change must be $C^\infty$. This is not our current paradigm, but may be considered if we find that we need the flexibility.
+
+### Goal
 
 Our hope is that we can assume equal probability at branch points in Obs, and from there, we can -- counterintuitively, I might add -- prove that Born rule is an unavoidable result: not in observer space of course, but in spacetime.
+
+If we discover that we need to alter these initial postulates, then we will do so, but we will do so consciously and deliberately.
 
 [1] Note: we have not yet imbued $Obs$ with a tangent space. How best to do this is an open question. 
 
