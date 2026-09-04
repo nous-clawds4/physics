@@ -7,7 +7,7 @@ We begin with the following definitions:
 | observer | $O=j_p^\infty$ | Infinite jet of a real-analytic Lorentzian metric $g$ at a point $p$. The observer may also be identified as the *local germ* of the metric at $p$.  |
 | oriented observer | $O^u = (O, u)$ | an observer $O$ paired with a unit vector $u$ that specifies the direction of motion of the observer. |
 | orientation in spacetime | $u$ | the *orientation* of an oriented observer. It is a spacetime vector that lives in $T_pM$ |
-| orientation in observer space | $V = Lift(u)$ | A path $\gamma(\tau)$ on $Obs$ has a tangent $V = \gamma'(\tau)$. That $V$ is the lift of $u$. It is a vector in $T_OObs$. |
+| orientation in observer space | $V = Lift(u)$ | If $Obs$ has a tangent space, then a path $\gamma(\tau)$ on $Obs$ has a tangent $V = \gamma'(\tau)$. That $V$ is the lift of $u$. It is a vector in $T_OObs$. Note: we have not yet imbued $Obs$ with a tangent space. How best to do this is an open question. |
 | Observer space | $\mathrm{Obs}$ | the set of all possible local germs |
 | Spacetime | $M$ | A real-analytic Lorentzian 4-manifold imbued with metric, any global topology, connected but not necessarily simply connected. Distinct spacetimes may have distinct fundamental group. |
 | World | $W = (M, p)$ | a spacetime $M$ plus a point $p$ in $M$ at which the observer is located |
