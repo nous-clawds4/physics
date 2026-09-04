@@ -22,7 +22,7 @@ We begin with the following definitions:
 
 ## The equations of motion through observer space: Initial Postulates
 
-We considered several sets of postulates for the equations of motion through Obs. The primary tension under consideration is whether world switching is allowed. In a type-(i) paradigm, the answer is no: the observer must stay in one world. In a type-(ii) paradigm, the answer is yes: the observer is allowed to switch worlds. 
+We considered several sets of postulates from which to derive the equations of motion through Obs. The primary tension under consideration is whether world switching is allowed. In a type-(i) paradigm, the answer is no: the observer must stay in one world. In a type-(ii) paradigm, the answer is yes: the observer is allowed to switch worlds. 
 
 The framework we currently favor is a type-(ii) framework, with an added continuity condition, which we call *Continuous World Switching*.
 
@@ -32,6 +32,6 @@ We allow the traveling observer to switch from one spacetime (one world) to anot
 
 Our hope is that we can assume equal probability at branch points in Obs, and from there, we can -- counterintuitively, I might add -- prove that Born rule is an unavoidable result: not in observer space of course, but in spacetime.
 
-[1] Note: we have not yet imbued $Obs$ with a tangent space. How best to do this is an open question.
+[1] Note: we have not yet imbued $Obs$ with a tangent space. How best to do this is an open question. 
 
 [2] When we wish to compare the Ensembles $E_i$ and $E_j$ of two distinct observers $O_i$ and $O_j$, it will likely be more interesting to compare spacetime ensembles than world ensembles, given that the intersection of world ensembles $E_i$ and $E_j$ will be trivially empty because they are not occupying the same points $p$.
