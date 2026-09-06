@@ -8,16 +8,16 @@ It is deliberately **not** under `papers/`, which is crowded with in-house notes
 
 | Path | Role |
 |---|---|
-| `versions/` | Numbered drafts (`v0.1-outline.md`, `v0.1.1-outline.md`, …) |
+| `versions/` | Numbered drafts (`v0.1-outline.md`, `v0.1.1-outline.md`, `v0.2-prose.md`, …) |
 | `reviews/` | External and in-house reviews; each file **must** name the version it reviews |
 
 Living working definitions stay in the repo-root file [`mathematical-framework.md`](../../mathematical-framework.md). Update that file as we think; promote into a new `versions/` draft when ready for review.
 
 ## Status
 
-- **Current draft:** [`versions/v0.1.1-outline.md`](versions/v0.1.1-outline.md) (revises v0.1 for Ontology + Literature HOLDs)
-- Prior: [`versions/v0.1-outline.md`](versions/v0.1-outline.md)
-- Reviews of v0.1: [`reviews/v0.1-outline-ontology.md`](reviews/v0.1-outline-ontology.md), [`reviews/v0.1-outline-literature.md`](reviews/v0.1-outline-literature.md)
+- **Current draft:** [`versions/v0.2-prose.md`](versions/v0.2-prose.md) (prose expansion of the PASSed v0.1.1 outline)
+- Prior outlines: [`versions/v0.1.1-outline.md`](versions/v0.1.1-outline.md), [`versions/v0.1-outline.md`](versions/v0.1-outline.md)
+- Reviews of v0.1 / v0.1.1: see [`reviews/`](reviews/)
 - Born rule and Einstein’s field equations are **goals**, not theorems of this version.
 - Do not treat this folder as a claim that either has been derived.
 
