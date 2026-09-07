@@ -10,13 +10,7 @@ Companions: `papers/geodesic-lifts.md`, `papers/patch-edge.md`, `papers/phi-stra
 
 ---
 
-## 0. Package (working, abandonable)
-
-1. **Pieces.** On each open edge of a directed graph, the history is an **analytic-geodesic lift**: the Obs curve is the germ along a timelike geodesic in some real-analytic world $W$, carrying infinite-jet / type-(i) data on that open interval of $\tau$. Prop. 3.2 / Thm 3 apply *on the open edge*.
-2. **Joins.** Across a vertex, require only **finite smoothness $C^k$**, for a fixed finite $k\ge 0$ (or $k\ge 1$ if velocity matching is wanted — see §2). **Not** $C^\infty$ / infinite-order matching. Two different analytic lifts may meet at a vertex without forcing identity by the one-variable identity theorem.
-3. **Skeleton.** A **discrete graph** $(V^*,E^*)$ (grain approach). Vertices $p^*\in V^*$ are points (oriented Obs germs $O^{u*}$) that lie on the edge of **at least one** simply-connected analytic patch among the relevant ensemble. Edges are allowed piecewise-geodesic segments between vertices, each edge carrying one analytic-geodesic piece.
-4. **Deferred.** Limits $k\to\infty$; edge lengths $\to 0$; a maximum admissible $k$; a minimum edge length. Not taken in this note.
-5. **Relation to public v0.3.** Public type-(ii) $R$ remains related background: graph-paths that need not be analytic curves. This package **refines how joins work** (piecewise geodesic + $C^k$) and **supplies a grain-shaped skeleton** (discrete $V^*$). It may later replace or specialize the public launching pad. It does not write a law of which edges exist, does not lock a grain of all of $\mathrm{Obs}$, and does not put $1/N$ on edges.
+**Adopted (working, abandonable) — David 2026-09-07.** Option **F** is the working in-house join law: analytic-geodesic pieces; at vertices, Option **C** at fixed finite $k\ge 1$ plus Option **E** (graph incidence); arms = graph out-star. Reject D as primary; A parked until gauge-as-space; B only inside C. Continuum limits deferred. Public v0.3 type-(ii) $R$ not replaced until a controlled discrete $|B|\ge 2$ example. No $1/N$. Paper 1 untouched. Leftover $R$-property mill not restarted. See `papers/piecewise-geodesic-Ck-graph-ontology.md`.
 
 ---
 
