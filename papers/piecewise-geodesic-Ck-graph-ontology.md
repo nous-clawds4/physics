@@ -12,19 +12,9 @@ Date: 2026-09-07
 
 ---
 
-## 1. Recommended join law: Option F
+**Adopted (working, abandonable) — David 2026-09-07.** This proposal’s Option **F** (and the §2 answers) is the working in-house join law. Geometry menu note: `papers/piecewise-geodesic-Ck-graph.md`. Public v0.3 type-(ii) $R$ remains until a controlled discrete $|B|\ge 2$ example. No $1/N$. Paper 1 untouched. Leftover mill not restarted.
 
-**Accept Geometry’s lean.** At a join vertex $O^{u*}$:
-
-1. Each open edge carries an **analytic-geodesic lift** in some analytic $W$ (type-(i) honesty on pieces).
-2. Incoming and outgoing pieces agree on the **truncated** jet $j^k g$ and on $u$ through order $k$ (**Option C**, fixed finite $k$).
-3. Both edges are incident to the same discrete graph vertex (**Option E**).
-4. **Arms / $B$ equivalence:** distinct outgoing edges in $E^*$ (graph **out-star**), not infinite-order Obs-path jets and not “same $j^{\le k}$ ⇒ same arm.”
-
-**Why F fits the program.**
-
-| Concern | How F answers |
-|---|---|
+---|---|
 | Escape CWS HOLE | Finite $k$; no $C^\infty$ / infinite-order matching at vertices. |
 | Jet / $O^u$ ontology | Elementary object on open edges remains the **infinite** jet + $u$. Truncation is a *join rule*, not a thinning of the object (Geometry’s Borel note). |
 | Relative ensembles / no fold $E$ into $\sim$ | Ensemble labels ride on edges as which $W$ hosts the piece; they are not new vertices. Vertices stay oriented lumps. |
