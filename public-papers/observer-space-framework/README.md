@@ -15,9 +15,9 @@ Living working definitions stay in the repo-root file [`mathematical-framework.m
 
 ## Status
 
-- **Current draft:** [`versions/v0.5-outline.md`](versions/v0.5-outline.md) (Option E residue; $V^*$ continuum honesty; Claude #117 / Geom #118 rewrite — outline first)
-- Prior prose: [`versions/v0.4-prose.md`](versions/v0.4-prose.md) (Claude HOLD #117; Geom ACCEPT #118)
-- Prior outline: [`versions/v0.4-outline.md`](versions/v0.4-outline.md)
+- **Current draft:** [`versions/v0.5-prose.md`](versions/v0.5-prose.md) (Option E residue; $V^\tau$ lock-side slice; Claude #117 / Geom #118 honesty)
+- Prior outline: [`versions/v0.5-outline.md`](versions/v0.5-outline.md) (panel PASS: Geometry #120, Literature #121, Ontology #122)
+- Prior prose: [`versions/v0.4-prose.md`](versions/v0.4-prose.md)
 - Reviews: see [`reviews/`](reviews/)
 - Born rule and Einstein’s field equations are **goals**, not theorems of this version.
 - Do not treat this folder as a claim that either has been derived.
