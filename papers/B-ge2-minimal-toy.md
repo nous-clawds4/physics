@@ -1,14 +1,14 @@
-# Minimal toy: $|B(O^{u*})|=2$ under Option F
+# Minimal toy: $|B_R|=2$ as a digraph fact (retired as $V^*$ demo)
 
 David Strayhorn
 
-Working, abandonable. Constructs the checklist in `papers/Vstar-extend-vs-not.md` §3.3. Not a public v0.3 rewrite. Not Paper 1. No Born. No $1/N$. Leftover $R$-property mill not restarted.
+**Status (v0.5 honesty — Claude #117 / Geometry #118).** This note is **retired as a demonstration that $V^*$ extend-vs-not + Option F yield discrete $|B|\ge 2$ under the public §2 ensemble.** Keep at most as a **digraph fact**: some abstract $(V,R)$ has $|B_R|=2$ under composition reading (C) (continue class + one type-(ii) out). Hand-built in **three** places: (i) ensemble $\{W_{\mathrm{M}},W_{\mathrm{cut}}\}$ chosen so $T_{\mathrm{die}}=\{1\}$ (under public §2, Minkowski deaths fill a continuum); (ii) vertex / $W_{\mathrm{cut}}$ (restricted Minkowski — Thm 6 “Not an example” / killed as finite-lifetime patch after maximality; flat curvelet ⇒ $\gamma(1)$ same Obs lump as root under “same germ = same vertex”); (iii) type-(ii) out named by hand (Prop. 13). Public v0.5 join reading = **Option E residue**, not Option F. No Born. No $1/N$. Leftover mill not restarted. Prefer a non-flat germ if a schematic is rebuilt later.
 
-**Status.** A concrete schematic toy exhibiting discrete $|B(O^{u*})|=2$ under: $V^*$ by extend-vs-not (**with caveats** from `#106` / `Vstar-extend-vs-not.md`); Option F joins (C at finite $k\ge 1$ + E; arms = graph out-star); $E^*$ lean (die = dropout; analytic extenders share one Thm 7 arm). One out is the Thm 7 continuation; the other is an explicit **type-(ii)** edge (Prop. 13 honesty).
-
-Companions: `papers/Vstar-extend-vs-not.md`, `papers/piecewise-geodesic-Ck-graph.md`, `papers/piecewise-geodesic-Ck-graph-ontology.md`, `papers/patch-edge.md` (Thms 6–7), `papers/geodesic-lifts.md` (Prop. 3.2), `papers/type-ii-adopted.md` (Prop. 13), `papers/ensemble-labels.md` (Thm 4).
+**Historical body below** is retained for provenance; do not cite it as clearing the public controlled-example gate or as a $V^*$ discreteness theorem.
 
 ---
+
+# (archived body)
 
 ## 0. $V^*$ caveats (stamped)
 
