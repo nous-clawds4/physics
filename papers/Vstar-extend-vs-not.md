@@ -2,6 +2,8 @@
 
 David Strayhorn
 
+**Banner (v0.6 honesty — Claude #128 row 3).** **Superseded** as a vertex engine: the public framework (v0.5+, `public-papers/observer-space-framework/`) uses the **lock-side $V^\tau$ slice** (isolated critical points, or a named level, of a lock-side scalar along the curvelet), not ensemble-timed extend-vs-not. Under the public §2 ensemble, extend-vs-not marks a continuum of $\tau$ (hole-punching), so the “adopt $V^*$ with caveats” verdict below is withdrawn. Option F, cited below, is also demoted (Option E residue is the working join reading). **Historical body below** is kept for provenance; do not cite it as a discreteness result.
+
 Working pressure-test under adopted Option F (`papers/piecewise-geodesic-Ck-graph.md`, `papers/piecewise-geodesic-Ck-graph-ontology.md`, PR #104). Not a public v0.3 rewrite. Not Paper 1. No Born. No $1/N$. Leftover $R$-property mill not restarted.
 
 **Status.** Formalizes a proposed selection rule for discrete vertices $V^*$ along a hitchhiking curvelet, and an optional lean for outgoing edges $E^*$. Geometry verdicts below: **adopt $V^*$ with caveats**; **adopt the $E^*$ lean as honesty**; **kill $E^*$ lean as a route to $|B|\ge 2$ by itself**.
