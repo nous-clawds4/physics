@@ -1,3 +1,5 @@
+**Banner (v0.6 honesty — Claude #128 §4.4 item 12).** These are informal living notes. **CWS (Continuous World Switching) is no longer favoured**: it is the type-(i) null baseline with a singleton branch set, not the branching law. The public framework in `public-papers/observer-space-framework/` **takes precedence** wherever these notes disagree with it; see its current outline/prose for the working definitions (oriented observer $O^u$ = $u$ modulo germ isotropy; Option E residue; lock-side $V^\tau$ slice).
+
 Mathematically speaking, our goals are to create a precise mathematical description of the observer $O$ and the equations of its evolution through Observer space. 
 
 We begin with the following definitions:

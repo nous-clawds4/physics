@@ -3,6 +3,8 @@
 Ontology
 Date: 2026-09-07
 
+**Banner (v0.6 honesty — Claude #128 row 3).** **Finite $k$ is not the HOLE escape**, and the Option F recommendation below is withdrawn. Truncated-jet matching is vacuous at $k=1$ between distinct lumps, prohibitive at $k\ge2$ for curvature-changing jumps, and cannot create a branching edge. The working public join reading (v0.5+, `public-papers/observer-space-framework/`) is the **Option E residue** (graph incidence plus discontinuous type-(ii) jumps), not “too thin”. **Historical body below** is kept for provenance.
+
 **Responds to:** `papers/piecewise-geodesic-Ck-graph.md` (Geometry, PR #102), §2 menu and §5 opens.
 **Prior:** Public v0.3 prose PASSed (CWS singleton baseline; type-(ii) $R$ pad; Prop. 13 loud). Paper 1 untouched. Leftover $R$-property mill stopped.
 

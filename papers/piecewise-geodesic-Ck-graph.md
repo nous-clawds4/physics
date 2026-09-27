@@ -2,6 +2,8 @@
 
 David Strayhorn
 
+**Banner (v0.6 honesty — Claude #128 row 3).** **Finite $k$ is not the HOLE escape.** Truncated-jet matching is vacuous at $k=1$ between distinct lumps, prohibitive at $k\ge2$ for curvature-changing jumps, and cannot create a branching edge; the CWS singleton comes from the shared oriented germ, uniqueness of the geodesic piece and equivalence at the start, not from matching order. The working public join reading (v0.5+, `public-papers/observer-space-framework/`) is the **Option E residue**: discontinuous type-(ii) jumps plus graph incidence, with analytic-geodesic segments between them. **Historical body below** is kept for provenance.
+
 Working, abandonable. In-house note. Not a public v0.3 rewrite. Not Paper 1. No Born. No $1/N$ by hand. Leftover $R$-property mill not restarted.
 
 **Status.** A hybrid motion package pressed against the CWS singleton HOLE (`reviews/v0.2.1-prose-claude-fable-5.1.md`; Geometry confirm `reviews/v0.2.1-motion-recommendation-geometry.md`) and against Theorem 7 / Prop. 7.3 (`papers/patch-edge.md`). Pieces stay analytic-geodesic; joins are only finite smoothness; the skeleton is a discrete graph (grain approach). Deferred: $k\to\infty$, edge lengths $\to 0$, max $k$, min edge length. For now: some fixed finite $k$, discrete graph. The open question “what is $C^k$ at a join?” is framed as a **menu for Ontology**, not locked here.
