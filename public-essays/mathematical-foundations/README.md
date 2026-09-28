@@ -2,7 +2,7 @@
 
 This essay lays out the mathematical alternatives the observer-space program could use to meet the aims stated in its companion essay, [*Statement of the Problem*](../statement-of-the-problem/). Its stance is strong opinions, weakly held, and it is expected to change often.
 
-**Current version:** [`versions/v0.2.md`](versions/v0.2.md). Prior: [`versions/v0.1.md`](versions/v0.1.md), kept as the reviewed version.
+**Current version:** [`versions/v0.3.md`](versions/v0.3.md) (proposal). Prior: [`versions/v0.2.md`](versions/v0.2.md); [`versions/v0.1.md`](versions/v0.1.md), kept as the reviewed version.
 
 ## Change control
 
