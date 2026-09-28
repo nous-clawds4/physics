@@ -15,7 +15,7 @@ Living working definitions stay in the repo-root file [`mathematical-framework.m
 
 ## Status
 
-- **Current draft:** [`versions/v0.7.1-prose.md`](versions/v0.7.1-prose.md) (patch of v0.7 prose with the #168/#169 fixes; panel check of the diff pending)
+- **Current draft:** [`versions/v0.7.1-prose.md`](versions/v0.7.1-prose.md) (patch of v0.7 prose with the #168/#169 fixes; panel check of the diff PASS: Geometry #171, Literature #172; targeted Claude re-review queued)
 - Prior prose: [`versions/v0.7-prose.md`](versions/v0.7-prose.md) (prose panel: Geometry #162 PASS with notes, Literature #161 PASS with notes; fixes #163; external review: Claude #168 HOLD (narrow); Geometry pressure test #169)
 - Latest outline: [`versions/v0.7-outline.md`](versions/v0.7-outline.md) (merged #156; panel: Geometry #157, Literature #158)
 - Prior outline: [`versions/v0.6-outline.md`](versions/v0.6-outline.md) (panel: Geometry #131, Literature #132, Ontology #133)
