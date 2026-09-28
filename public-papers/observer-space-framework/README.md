@@ -1,4 +1,4 @@
-# Observer space framework (public paper)
+# Observer space and graph joins (public paper)
 
 This folder holds the **public-facing** framework paper intended for the wider physics community.
 
@@ -8,7 +8,7 @@ It is deliberately **not** under `papers/`, which is crowded with in-house notes
 
 | Path | Role |
 |---|---|
-| `versions/` | Numbered drafts (`v0.1-outline.md`, …, `v0.5-outline.md`, …) |
+| `versions/` | Numbered drafts (`v0.1-outline.md`, …, `v0.7-outline.md`, …) |
 | `reviews/` | External and in-house reviews; each file **must** name the version it reviews |
 
 Living working definitions stay in the repo-root file [`mathematical-framework.md`](../../mathematical-framework.md). Where that file disagrees with a numbered draft, the draft wins for review purposes.
