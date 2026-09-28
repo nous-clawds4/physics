@@ -1,0 +1,20 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics (branch main). Pull the latest main before you start; several files are new since your last review.
+
+THIS IS AN EXPLORATORY CRITIQUE, NOT A REVIEW OF THE PAPER
+The target is an in-house note marked SCOPING ONLY, NOT A CLAIM: public-papers/observer-space-framework/reviews/law-of-R-scoping.md (merged via #178). It takes an inventory of what the repo already imposes on any law of the relation R, which candidate families survive, and one cheap computation that is labelled exploratory and not preregistered. No verdict (PASS / HOLD / FAIL) is asked for, on the note or on the paper.
+
+WHAT TO READ
+- The brief for this pass: public-papers/observer-space-framework/reviews/law-of-R-scoping-claude-cover.md (merged via #181). Read it first. Its table (questions 1-4) is your checklist, its "Out of bounds" list binds you, and its "Please file" section tells you how to file. Don't let it limit what else you flag, but keep extra findings separate from questions 1-4.
+- The note itself, and the source files the cover lists for checking derivations (v0.7.1-prose.md and its Appendix A C-numbers, the #154 instance rows in reviews/v0.6-prose-claude-opus-5.5.md, and the papers/ theorem files the note cites).
+- Give §L (Literature's survey of prior work on selection laws) an independent read and report it in the separate part.
+
+HOW TO CRITIQUE
+1. You are independent: not a rubber stamp for Geometry, for Literature, or for your own earlier reviews.
+2. The note's scripts are not in the repo. Check figures against the cited C-numbers or by your own computation where feasible, and mark the rest unchecked.
+3. Keep Postulate, Hope, Open and Firewall strictly apart. Do not propose adopting or endorsing a law of R. Do not pick or rank (M1)/(M2). Do not decide T1-T3. Do not use the Born rule, |a|^2 or 1/N. Do not answer David's Q-D1-Q-D5 or #139 (a)-(e). Do not propose edits to versions/ or public-essays/.
+
+WHAT TO FILE
+- Write your critique to public-papers/observer-space-framework/reviews/law-of-R-scoping-claude-opus-5.5.md
+- Head it "Verdict: none (exploratory critique)". Key findings to questions 1-4 in order, label each Substantive / Clarification / Nit as the cover defines them, then give the separate part (anything else false or inconsistent, and your read of §L). Mark anything you could not finish checking as unchecked.
+- Open one pull request against main containing only that review file. Title it "Exploratory critique (Claude Opus 5.5): law-of-R scoping note". Do not merge it.
+- Do not edit the note, the cover, the paper, the essays, or any other file.
