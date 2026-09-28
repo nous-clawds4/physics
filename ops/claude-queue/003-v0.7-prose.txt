@@ -1,0 +1,38 @@
+You are acting as an independent external referee for a physics-foundations paper in this repository: https://github.com/nous-clawds4/physics (branch main). Pull the latest main before you start; several files are new since your last review.
+
+WHAT TO REVIEW
+- The draft under review: public-papers/observer-space-framework/versions/v0.7-prose.md
+- The brief for this pass (list of changes plus a re-check table): public-papers/observer-space-framework/reviews/v0.7-prose-claude-cover.md. Read it first and use its table as your checklist, but don't let it limit you.
+
+CONTEXT TO READ BEFORE JUDGING
+- Your own previous review, the v0.6 PASS this version builds on: reviews/v0.6-prose-claude-opus-5.5.md (PR #154)
+- The in-house pressure-test of that PASS: reviews/v0.6-claude-154-geometry.md (PR #155). Where #155 differed from #154, v0.7 followed #155.
+- The outline that fixed v0.7's substance: versions/v0.7-outline.md, and its panel reviews reviews/v0.7-outline-geometry.md (#157), reviews/v0.7-outline-literature.md (#158)
+- The in-house panel reviews of v0.7 prose: reviews/v0.7-prose-geometry.md (#162), reviews/v0.7-prose-literature.md (#161)
+- The author's two public essays, as background on intent only. They are not claims the draft makes and not bars it has to clear:
+  - public-essays/statement-of-the-problem/versions/v0.1.md (current; awaiting sign-off). The v0.2–v0.4 files are proposals, not adopted.
+  - public-essays/mathematical-foundations/versions/v0.3.md (T1–T3 and related open questions)
+- Earlier external reviews if useful: reviews/v0.5-prose-claude-opus-5.5.md and older.
+(The reviews/ and versions/ paths above are under public-papers/observer-space-framework/.)
+
+HOW TO REFEREE
+1. You are independent, not a rubber stamp for the in-house panel or for your own previous review. You may reopen any earlier item, including ones you or a prior review cleared, if you think it was cleared wrongly.
+2. The main question: on v0.6 you judged the relocated problem "honestly confined". Does v0.7 clear it, keep it honestly confined, disguise it, or make it fatal? Say which, and why. Pay special attention to whether the (a)-restricted model's transient branching (C33) and the jump-dominance wording (C34) honestly address what you flagged on v0.6.
+3. Test the claims instead of just reading them. Work through at least one concrete named instance for each of: the (a)-restricted Kretschmann model and its transient branching (C33); jump dominance under the rule as stated (C34); C16 as a proof under (H1)–(H7); the throat convention (C37); the hard-gate / Zeno-mass convention (C35); MERW long-path and biregular (C36); the freely falling near-flat lab (C38); and (M1) versus (M2) cost balance including countability under (a). Report what you actually got. If a claim can't be tested as written, say that.
+4. Keep four categories strictly apart and say which one each claim belongs to: Postulate (assumed), Hope (aspiration, not claimed), Open (acknowledged unsolved), Firewall (explicitly not claimed). Flag any sentence that lets a Hope or an Open item read as a result.
+5. Check that no law for the relation R is smuggled in anywhere. None is supposed to exist yet. The throat convention and the Kretschmann rule are unadopted example definitions, not laws.
+6. Check that (M1)/(M2), T1–T3, and the open-call rows stay undecided with costs on both sides. Do not answer David's Q-D1–Q-D5 or the (M1)/(M2) choice.
+7. Briefly (not as the gate): do Foundations tensions T1–T3 look correctly stated to you, and does any one bear on your verdict?
+
+WHAT NOT TO DEMAND
+- Do not demand a derivation of the Born rule or of Einstein's equations. Neither is claimed.
+- Do not ask for a law of R or for a motivated controlled example with |B| >= 2. Those are named as open, not owed.
+- Do not require a choice between (M1) and (M2), or answers to Q-D1–Q-D5 / #139 (a)–(e).
+- Do not HOLD solely for Literature's pre-adoption notes N1–N3 (heading; Problem-note status; v0.2–v0.4 range) or Geometry's optional nits N1–N5, unless you judge one is an honesty or literature error. You may flag them.
+- The presentation tier (length about 13.7k words, folding the changelog, references) is openly deferred. Note anything serious there, but don't make it the gate.
+
+WHAT TO FILE
+- Write your review to public-papers/observer-space-framework/reviews/v0.7-prose-claude-opus-5.5.md
+- Open with a verdict line: PASS, HOLD, or FAIL. Then give a short summary, then item-by-item findings keyed to the cover's re-check table, then any new issues, then (if HOLD or FAIL) the smallest set of changes that would move it to PASS. Mark anything you could not finish checking as unchecked.
+- Open one pull request against main containing only that review file. Title it "External review (Claude Opus 5.5): v0.7-prose <VERDICT>". Do not merge it.
+- Do not edit the draft, the outline, the cover, the essays, or any other file.
