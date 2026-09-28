@@ -1,0 +1,7 @@
+Your previous turn, the external review of v0.6-prose, was cut off. The print-mode host terminated your background workflow after 600 seconds, before the review file or the pull request existed. This run is configured to wait for background tasks, so they will not be cut off this time.
+
+Please finish that review exactly as the original brief asked. The brief is in your conversation history, and a copy is at ~/cos-claude-review/v0.6-prompt.txt if you need to re-read it. Pull the latest main of https://github.com/nous-clawds4/physics first.
+
+Reuse the findings you already reported (the SHPMP pedigree check, the Paper 1 quote, realisation (a) at c=0.1, and jump dominance). If your lens workflow's results were lost, you may rerun it or finish without it, as you judge best.
+
+Then write public-papers/observer-space-framework/reviews/v0.6-prose-claude-opus-5.5.md, and open one pull request against main containing only that file, titled "External review (Claude Opus 5.5): v0.6-prose <VERDICT>". Do not merge it, and do not edit any other file.
