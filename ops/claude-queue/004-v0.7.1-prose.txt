@@ -1,0 +1,33 @@
+You are acting as an independent external referee for a physics-foundations paper in this repository: https://github.com/nous-clawds4/physics (branch main). Pull the latest main before you start; several files are new since your last review.
+
+THIS IS A TARGETED RE-REVIEW, NOT A COLD FULL READ
+Your last review (reviews/v0.7-prose-claude-opus-5.5.md, PR #168) gave v0.7-prose a HOLD (narrow) with two required sentence-level changes. v0.7.1 is a patch of v0.7-prose that makes those changes plus a small set of precision edits. Your job is to judge whether the patch clears your HOLD without introducing new problems.
+
+WHAT TO REVIEW
+- The draft under review: public-papers/observer-space-framework/versions/v0.7.1-prose.md
+- The exact change set: git diff --no-index public-papers/observer-space-framework/versions/v0.7-prose.md public-papers/observer-space-framework/versions/v0.7.1-prose.md, and the header "Changelog (v0.7 → v0.7.1)" in v0.7.1.
+- The brief for this pass: public-papers/observer-space-framework/reviews/v0.7.1-prose-claude-cover.md. Read it first and use its table as your checklist, but don't let it limit you.
+
+CONTEXT TO READ BEFORE JUDGING
+- Your own previous review: reviews/v0.7-prose-claude-opus-5.5.md (#168)
+- The in-house pressure test of that review: reviews/v0.7-prose-claude-pressure-test.md (#169). The patch follows #169 where #169 corrected your text; it says where.
+- The in-house panel checks of the v0.7.1 diff: reviews/v0.7.1-prose-geometry.md (#171), reviews/v0.7.1-prose-literature.md (#172)
+(The reviews/ and versions/ paths above are under public-papers/observer-space-framework/.)
+
+HOW TO REFEREE
+1. You are independent, not a rubber stamp for the in-house panel, for #169, or for your own previous review.
+2. The main question: do the two required changes (the §9 "Both rules as counts at a cut" trade-off with its cost lines, calls-table cells and C13; and the exact EPP1 jump law with the 14,478 stuck count in §4.2, the §9 T3 paragraph and C33) now say something true and neutral? Test them: work the C13 re-anchoring example and check the exact jump law and stuck count, or say plainly what you could not check.
+3. Check each recommended edit you proposed in #168 as applied or declined (#169 declined the T3 circularisation clause), and check the two panel additions: §7's Binomial sentence with its no-stopping supposition, and §7's Wald-identity sentence with its hypotheses and citation.
+4. Treat text outside the diff as already reviewed in #168, unless you judge that the patch makes an untouched sentence false or inconsistent. In that case, say so.
+5. Keep Postulate, Hope, Open and Firewall strictly apart. Check that no law of the relation R is smuggled in, that no Born rule, |a|^2 or 1/N is put in by hand, and that (M1)/(M2), T1–T3 and the open calls stay undecided with costs on both sides. Do not answer David's Q-D1–Q-D5 or make the (M1)/(M2) choice.
+
+WHAT NOT TO DEMAND
+- Do not demand a derivation of the Born rule or of Einstein's equations, a law of R, or a motivated controlled example with |B| >= 2.
+- Do not require a choice between (M1) and (M2), or answers to Q-D1–Q-D5 / #139 (a)–(e).
+- The presentation tier (length about 14.5k words, the changelog folding, the full reference list) is openly deferred. Don't make it the gate.
+
+WHAT TO FILE
+- Write your review to public-papers/observer-space-framework/reviews/v0.7.1-prose-claude-opus-5.5.md
+- Open with a verdict line: PASS, HOLD, or FAIL. Then give a short summary, then item-by-item findings keyed to the cover's table, then any new issues, then (if HOLD or FAIL) the smallest set of changes that would move it to PASS. Mark anything you could not finish checking as unchecked.
+- Open one pull request against main containing only that review file. Title it "External review (Claude Opus 5.5): v0.7.1-prose <VERDICT>". Do not merge it.
+- Do not edit the draft, the cover, the essays, or any other file.
