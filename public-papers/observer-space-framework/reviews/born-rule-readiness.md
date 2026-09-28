@@ -28,7 +28,7 @@ For each approach: (i) the premise that takes it from counting to $|a|^2$ weight
 
 **3. Saunders and Vaidman: branch counting versus self-location.**
 (i) *Saunders:* decoherent histories are regrouped into equal-norm units, and probability is the ratio of unit counts. As a condition, $\mu$ is a ratio of counts of equal-norm units that depends on the state and is continuous in the norm topology. *Vaidman:* between decoherence and observation, an observer is uncertain which branch they are on, and credence follows each branch's postulated "measure of existence" (Vaidman 2012). *Sebens–Carroll* replace the postulate with the condition that credence depends only on the observer's local reduced state, not on changes confined to the environment (Sebens and Carroll 2018).
-(ii) Question-begging: equal-norm units are in effect taken as equiprobable. Saunders raises this objection himself and replies to it (Saunders 2021, §8). On the self-location side, Vaidman's measure is postulated, so self-location explains what the probability *means*, not its values. Whether Sebens–Carroll's locality principle is independently motivated is disputed (no critic source checked for this note).
+(ii) Question-begging: equal-norm units are in effect taken as equiprobable. Saunders raises this objection himself and replies to it (Saunders 2021, §8). On the self-location side, Vaidman's measure is postulated, so self-location explains what the probability *means*, not its values. Whether Sebens–Carroll's locality principle is independently motivated is disputed: Dawid and Friederich (2022) argue that Sebens and Carroll's ESP-QM is not a less general version of the plausible Epistemic Separability Principle and can be motivated only by quantum mechanics' empirical success, Born rule included, so it cannot serve as a premise for deriving the Born rule (see also Kent 2015, who questions whether self-locating uncertainty makes sense in the universal wave function).
 (iii) Saunders (2021), §§7–8.
 
 **4. The measure problem: counting versus weighting.**
@@ -114,8 +114,10 @@ The measure-problem premise can be worked on now; everything else waits on gates
 ## References
 
 - Barnum, H., Caves, C. M., Finkelstein, J., Fuchs, C. A., and Schack, R. (2000). Quantum probability from decision theory? *Proc. R. Soc. Lond. A* 456, 1175–1182.
+- Dawid, R., and Friederich, S. (2022). Epistemic separability and Everettian branches: a critique of Sebens and Carroll. *Brit. J. Phil. Sci.* 73(3), 711–721. doi:10.1093/bjps/axaa002.
 - Deutsch, D. (1999). Quantum theory of probability and decisions. *Proc. R. Soc. Lond. A* 455, 3129–3137.
 - Dizadji-Bahmani, F. (2015). The probability problem in Everettian quantum mechanics persists. *Brit. J. Phil. Sci.* 66(2), 257–283.
+- Kent, A. (2015). Does it make sense to speak of self-locating uncertainty in the universal wave function? Remarks on Sebens and Carroll. *Found. Phys.* 45(2), 211–217. doi:10.1007/s10701-014-9862-5.
 - Saunders, S. (2021). Branch-counting in the Everett interpretation of quantum mechanics. *Proc. R. Soc. A* 477, 20210600.
 - Schlosshauer, M., and Fine, A. (2005). On Zurek's derivation of the Born rule. *Found. Phys.* 35, 197–213.
 - Sebens, C. T., and Carroll, S. M. (2018). Self-locating uncertainty and the origin of probability in Everettian quantum mechanics. *Brit. J. Phil. Sci.* 69(1), 25–74.
