@@ -4,7 +4,7 @@
 
 Author: Geometry
 Date: 2026-09-28
-Scope: runs the "one cheap next test: continuous response" of `reviews/born-rule-readiness.md` §3 (merged in #159, d8f35a2), using that note's setup, outcome, computation and PASS/FAIL criterion as written. None of them was changed after seeing results. No paper or essay edits. No choice of (M1)/(M2) or T1/T2/T3. No law of $R$. No Born rule, $|a|^2$ or $1/N$ anywhere. The Kretschmann rule is used as stated and is **not** adopted. Paper 1's object is untouched, and type (ii) stays abandonable.
+Scope: runs the "one cheap next test: continuous response" of `reviews/born-rule-readiness.md` §3 (merged in #159, d8f35a2), using that note's setup, outcome, computation and PASS/FAIL criterion as written. None of them was changed after seeing results. No paper or essay edits. No choice of (M1)/(M2) or T1/T2/T3. No law of $R$. No Born rule and no $|a|^2$. The only $1/N$ is (M1)'s EPP1 factor $1/|A|$, computed as the named (M1) option alongside (M2), not tuned to anything. The Kretschmann rule is used as stated and is **not** adopted. Paper 1's object is untouched, and type (ii) stays abandonable.
 
 ---
 
@@ -14,11 +14,11 @@ The note's spec was implemented literally. Where it left room, these readings we
 
 1. **"Every bound decision" vs "somewhere".** The PASS clause asks for $|A|=3$ "at every bound decision". The FAIL clause voids the test if $|A|\ne3$ "somewhere". In this tree the two coincide. A history whose jump target is classified plunge, unbound or degenerate leaves the bound sector and takes no further decision, so every decision is a bound decision. $|A|$ was logged at every decision node.
 2. **"Still bound".** The chosen arm's orbit is classified `'bound'` by `kr.classify`. Plunge, unbound and `'degenerate'` all count as not bound. Continuing always stays bound.
-3. **Depth and arrival.** Depth counts decisions. A jump-reached state does not branch (the note's (A)). The history runs along the target orbit's segment to its other turning point, where the next decision is taken. Continuing likewise moves to the other turning point of the current orbit.
+3. **Depth and arrival.** Depth counts decisions. A jump-reached state does not branch (arrival rule (A), as the note uses it). The history runs along the target orbit's segment to its other turning point, where the next decision is taken. Continuing likewise moves to the other turning point of the current orbit.
 4. **(M1).** $w_n^{M1}$ is the sum, over bound depth-$n$ nodes, of $\prod 1/|A|$ along the path, computed as an exact rational.
 5. **(M2).** The cut $C_n$ is the depth-$n$ nodes plus the dead-end leaves at depths $<n$ (v0.6 §7, dead ends kept). A history that jumps to a non-bound orbit at decision $k$ is a leaf at depth $k$. $w_n^{M2}=b_n/|C_n|$, where $b_n$ is the number of bound depth-$n$ nodes. It is also an exact rational.
 6. **Memoisation.** The memo key is the exact turning-point state $(r,E,L)$ plus the remaining depth. This is equivalent to the note's "memoised on the orbit $(r_{\min},r_{\max})$" together with which turning point one is at, and it does not affect results.
-7. **Grid and start.** $r_p=\mathrm{round}(9.00+0.01k,2)$ for $k=0,\dots,200$ and $r_a=20$. Each starting orbit is asserted `'bound'` with turning points $(r_p,20)$. The history starts at periastron.
+7. **Grid and start.** $r_p=\mathrm{round}(9.00+0.01k,2)$ for $k=0,\dots,200$ and $r_a=20$. Each starting orbit is asserted `'bound'` with turning points $(r_p,20)$. The history starts at periastron. The start at periastron is taken as segment-arrived, so it is a decision with three arms.
 8. **Weights are compared exactly**, as `Fraction`s. "Takes at least two values" means two unequal rationals.
 
 Cheap other readings, both reported below:
@@ -35,7 +35,7 @@ The rerun gave identical $w^{M1}$, $w^{M2}$, $b_n$ and $|C_n|$ for all 201 germs
 
 - **3-arm check.** It holds. $|A|=3$ (min 3, max 3) at every one of the 1,663,383 decision nodes across the 201 germs and depths 1–10: 7,934 to 8,677 per germ, equal to $1+\sum_{n<10}b_n$. The test is not voided.
 - **Weights.** Both are constant across the grid for $n=1,2,3$. Both first take two values at $n=4$. For every $n\ge4$, both take several values.
-- **Read.** The note's criterion is: *"PASS: for some $n\le10$, $w_n^{M1}$ or $w_n^{M2}$ takes at least two values across the grid, with $|A|=3$ at every bound decision."* That is met, first at $n=4$, for (M1) and (M2) separately. **Read: PASS.**
+- **Read.** The note's criterion is: *"PASS: for some $n\le10$, $w_n^{M1}$ or $w_n^{M2}$ takes at least two values across the grid, with $|A|=3$ at every bound decision."* That is met, first at $n=4$, for (M1) and (M2) separately. **Read: PASS.** PASS here means only that the two-values condition is met; each response is a step function at finite $n$ (§2.1, §5).
 - **Sampling cross-check.** This is not part of the test. `sim.py 0.1 stated 200000 10 7 cross` at $r_p=10$ gives "still bound after 10 decisions" $=0.2301\pm0.0009$. The exact value is $13569/59049=0.2298$.
 
 ### 2.1 Distinct values, ranges and change counts
@@ -118,7 +118,7 @@ The note says: *"PASS would show that weights are counting at a grain set by $R$
 
 On this instance, then:
 - The germ parameter $r_p$ enters the weights of $X_n$ only through which jump targets land in the bound sector. Every decision has exactly three arms.
-- At each finite $n$, the (M1) response is a step function on the $3^{-n}$ grain. This scan does not show that a continuous limit exists; it shows only that the number of steps grows with $n$.
+- At each finite $n$, both responses are step functions of $r_p$: (M1) on the $3^{-n}$ grain, and (M2) with a germ-dependent denominator $|C_n|$. This scan does not show that a continuous limit exists; it shows only that the number of steps grows with $n$.
 - The scan does not bear on Born, $|a|^2$, interference, any law of $R$, or the choice between (M1) and (M2). The note's gating order (§3, gates 1–6) is unchanged by it.
 
 ## Pins
