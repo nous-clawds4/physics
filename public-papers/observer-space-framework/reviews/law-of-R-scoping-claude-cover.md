@@ -17,10 +17,10 @@ The note takes an inventory. It lists what the repo already imposes on any law o
 **Files for checking derivations:**
 - `public-papers/observer-space-framework/versions/v0.7.1-prose.md`: §§4.2, 5.1–5.4, 7, 9 and Appendix A (C1–C38). These are the C-numbers the note cites.
 - `public-papers/observer-space-framework/reviews/v0.6-prose-claude-opus-5.5.md` §1 (#154's instance rows 1–16, which the note's I-rows cite by row number in their Source column) and `reviews/v0.6-claude-154-geometry.md` §4 (the re-reading of those rows).
-- The `papers/` theorem files the note cites in §§1.2–1.3 and §2: `type-ii-adopted.md` (Prop. 13), `law-of-r.md`, `neighborhood-uncountable.md`, `grain-not-from-invariants.md`, `least-action-support.md`, `combinatorial-y.md`, `in-patch-support.md`, `branching-extra.md`, `fusion-and-path-counting.md`, `type-ii-clock.md`, `uniform-law-of-r.md` through `converse-well-founded-r.md`, `B-ge2-minimal-toy.md` and `abandon-type-ii.md`. Theorems that the note cites by number only (Thms 22, 24, 28–31, 33) can be found through `papers/cheat-sheet.md` and `papers/remainder.md`.
+- The `papers/` theorem files the note cites in §§1.2–1.3 and §2: `type-ii-adopted.md` (Prop. 13), `law-of-r.md`, `neighborhood-uncountable.md`, `grain-not-from-invariants.md`, `least-action-support.md`, `combinatorial-y.md`, `in-patch-support.md`, `branching-extra.md`, `fusion-and-path-counting.md`, `type-ii-clock.md`, the L12 extras files (from `uniform-law-of-r.md` to `dead-ends-and-rays.md` in L12's order, abbreviated in the note's Source column as `uniform-law-of-r.md` … `converse-well-founded-r.md`; indexed in `papers/remainder.md` and `papers/cheat-sheet.md`), `B-ge2-minimal-toy.md` and `abandon-type-ii.md`. Theorems that the note cites by number only (Thms 22, 24, 28–31, 33) can be found through `papers/cheat-sheet.md` and `papers/remainder.md`.
 - Also cited: `reviews/born-rule-readiness.md` (#159), `reviews/born-rule-readiness-scan.md`, and `reviews/v0.7-prose-claude-pressure-test.md` and `reviews/v0.7.1-prose-claude-pressure-test.md` (#169, #176).
 
-**Scripts.** The note's pins are listed with SHA-256 hashes in its "Pins" subsection (§2). The scripts are not in the repo, so you cannot run them. Check figures against the cited C-numbers, or by your own computation where that is feasible, and mark the rest unchecked.
+**Scripts.** The note's pins are listed with SHA-256 hashes in its "Pins" subsection (§2). The scripts are not in the repo, so you cannot run them. Check figures against the cited C-numbers, or by your own computation where that is feasible, and mark the rest unchecked. Most §3 numbers have no C-number: only the $c=0.1$ and $c=0.01$ jump laws and the 14,478 stuck count match C33. Judge question 3's "does not separate" from the §3 table as given (the criterion is stated there); mark the underlying numbers unchecked unless you recompute them from the rule (v0.7.1 §5.4, with the (a) test of §4.2). Literature matched the §3 table to the scripts' outputs, and the eight SHA-256 pins to the script files, on the shared machine (review 5334576055); that is not an independent recomputation.
 
 **Record on #178:**
 - Literature review at `1f1da93`: **HOLD (narrow; wording only)**. The one required fix was the preregistration label on the §3 result.
@@ -59,7 +59,7 @@ You may raise anything else in the note that you think is false or inconsistent.
 File your critique as `public-papers/observer-space-framework/reviews/law-of-R-scoping-claude-opus-5.5.md`, in a PR targeting `main` that contains the review file only. Please:
 - head it "Verdict: none (exploratory critique)", with no PASS / HOLD / FAIL;
 - key your findings to questions 1–4 of this cover's table, in order;
-- label each finding **Substantive** (a derivation, tag, number or family that is wrong or missing, with its source), **Clarification** (a clarification that changes no entry) or **Nit** (wording);
+- label each finding **Substantive** (a derivation, tag, number or family that is wrong or missing, with its source), **Clarification** (changes no entry) or **Nit** (wording);
 - mark anything you could not finish checking as unchecked rather than dropping it.
 
 ## Claim check
