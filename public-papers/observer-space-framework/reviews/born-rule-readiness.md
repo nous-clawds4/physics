@@ -64,7 +64,7 @@ No. None has amplitudes or interference, so none bears on Born; they bear on cou
 - **V\*/Option F (continuum result).** Under the public ensemble, extend-vs-not marks a continuum of vertex times (Minkowski minus a point: lifetimes fill $(0,\infty)$, C24). *Shows:* without a lock-side slice there is no grain, so neither counting nor EPP1 is defined (premise 4 failing at its root). *Does not show:* anything about weights. *Pin:* analytic; nothing to re-run.
 - **$|B|\ge2$ toy** (`papers/B-ge2-minimal-toy.md`, retired to a digraph fact). *Shows:* its two arms (Minkowski continuation; type-(ii) jump to a dust FLRW germ) differ in lock-side invariants ($K=0$ vs $80/27$, P8), so no germ symmetry swaps them, yet EPP1 would weight them equally: the equality is postulated, and envariance has nothing to act on. The arm count itself depends on the isotropy quotient (3 vs 2, C9, P9). *Does not show:* any weight; none is assigned.
 - **20-decision bound computation** (Kretschmann rule as stated, unadopted, without (a)). *Shows:* with $m=2$ jump arms per bound decision the jump share is $2/3$ in expectation (0.6672); at $c=0.1$, 6.58% remain bound after 20 decisions and leavers leave after 5.90 decisions on average; at $c=0.01$, 99.94% (P1, P2). These are branch-count consequences of a regular 3-star, and they move with the rule's constant $c$, not with anything amplitude-like. *Does not show:* Born; it shows jump dominance, which blocks stable records before any Born comparison.
-- **(a)-transient.** *Shows:* $m\le1$, so the jump share is 1/2 while branching lasts (0.5015, 0.4999); one jump at $c=0.1$; 13–14 jumps, chain ≤14, 29,119 orbits and 14,477 stuck at $c=0.01$ (P3–P5); completed histories countable. This bears on the measure: (M1) gives unequal weights $2^{-k}$; (M2) has no uniform countably additive measure. *Does not show:* anything about $|a|^2$.
+- **(a)-transient.** *Shows:* $m\le1$, so the jump share is 1/2 while branching lasts (0.5015, 0.4999); one jump at $c=0.1$; 13–14 jumps, chain ≤14, 29,119 orbits and 14,478 stuck at $c=0.01$ (P3–P5); completed histories countable. This bears on the measure: (M1) gives unequal weights $2^{-k}$; (M2) has no uniform countably additive measure. *Does not show:* anything about $|a|^2$.
 
 ### Pins (all re-run for this note, 2026-09-28)
 
@@ -75,7 +75,7 @@ Python 3.13.5, numpy 2.5.3, scipy 1.18.1, sympy 1.14.0 (venv `/workspace/g128/ve
 | P1 | `g154/sim.py 0.1 stated 200000 20 7 cross` | 7 | jump share 0.6672; bound after 20 decisions 0.0658 (SE 0.0006); leavers' mean 5.902 decisions |
 | P2 | `g154/sim.py 0.01 stated 20000 20 3 cross` | 3 | jump share 0.6669; bound 0.9994 (SE 0.0002) |
 | P3 | `g154/agraph.py 0.1` | none (exact) | 3 reachable orbits; 0 turning points with 2 admissible edges; longest chain 1 |
-| P4 | `g154/agraph.py 0.01` | none (exact) | 29,119 orbits; 0 turning points with 2 edges; 14,477 stuck; longest chain 14 |
+| P4 | `g154/agraph.py 0.01` | none (exact) | 29,119 orbits; 0 turning points with 2 edges; 14,478 stuck (#169; the script's 14,477 is a classifier rounding artefact); longest chain 14 |
 | P5 | `g154/along.py` ($N=20{,}000$ each) | 5 | $c=0.1$: 1 jump in all histories, share 0.5015; $c=0.01$: 13 jumps (3,169) or 14 (16,831), share 0.4999 |
 | P6 | `g154/c16.py` | none (exact) | $a=9.892616$, $b=10.107529$; min derivative 1.098432; image inside $[a,b]$: True |
 | P7 | `born/pins/fg.py` | none (exact) | $w(A)$: base (M1) 1/2, (M2) 1/2; later split (M1) 1/2, (M2) 1/3; same-vertex split (M1) 1/3, (M2) 1/3 |
