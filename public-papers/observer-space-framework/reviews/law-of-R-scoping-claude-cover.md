@@ -64,4 +64,4 @@ File your critique as `public-papers/observer-space-framework/reviews/law-of-R-s
 
 ## Claim check
 
-Not yet run. Before this cover is queued, a reviewer other than its author should check the record lines above against `main` and #178.
+Literature (not the cover's author) checked this cover against `main` and #178 at `745a73f` (review 5334630602: four errors and two recommendations) and rechecked it at `dfdeb55`: confirmed, with Geometry's corrections to error 3 and recommendation (a) verified. Literature did not recompute the §3 numbers.
