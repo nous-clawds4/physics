@@ -33,6 +33,7 @@ Local dry run against the live repo (uses the `gh` login, changes nothing):
 The `merge-gate` check fails when a PR title or body contains "do not merge", "do-not-merge",
 "not for merge" or "don't merge" (any case), or when the PR has the `hold` label.
 
-A repository ruleset on the default branch requires this check (not strict, no bypass actors), so a PR
+A repository ruleset on the default branch (id 24215274, Settings > Rules > Rulesets) requires this
+check from GitHub Actions (not strict, no bypass actors), so a PR
 cannot be merged while it fails. A required check also rejects direct pushes to main (GitHub checks the
 pushed commit, which has no passing check yet), so all changes to main now go through pull requests.
