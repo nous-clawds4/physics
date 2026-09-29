@@ -1,0 +1,44 @@
+name: merge-gate
+
+# Fails when a PR's title or body says it should not be merged, or when the PR
+# has the `hold` label. Remove the phrase or the label and the check re-runs.
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened, labeled, unlabeled]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: merge-gate-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  merge-gate:
+    name: merge-gate
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Check title, body and labels
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+          PR_LABELS: ${{ toJSON(github.event.pull_request.labels.*.name) }}
+        shell: python3 {0}
+        run: |
+          import json, os, re, sys
+          phrases = re.compile(r"do[\s-]+not[\s-]+merge|not\s+for\s+merge|don['\u2019]?t\s+merge", re.I)
+          fail = []
+          for field in ("PR_TITLE", "PR_BODY"):
+              m = phrases.search(os.environ.get(field) or "")
+              if m:
+                  fail.append(f"{field[3:].lower()} contains {m.group(0)!r}")
+          labels = [l.lower() for l in json.loads(os.environ.get("PR_LABELS") or "[]")]
+          if "hold" in labels:
+              fail.append("PR has the 'hold' label")
+          if fail:
+              for f in fail:
+                  print(f"::error title=merge-gate::Blocked: {f}")
+              print("This PR is marked as not ready to merge. Edit the title/body or remove the 'hold' label to re-run this check.")
+              sys.exit(1)
+          print("merge-gate: no hold label and no do-not-merge phrase in title or body.")
