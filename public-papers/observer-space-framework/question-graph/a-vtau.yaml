@@ -10,7 +10,7 @@ status: accepted
 hold: L3   # weakly held (disclosed)
 tag: math-tool
 rationale: >-
-  Introduced in v0.5 (#119, #123), then costed after Claude #128 row 5 and Geometry #129
+  Introduced in v0.5 (#119, #123), then costed after Claude #128 row 2 and Geometry #129
   item 5 (QUALIFY): the slice is empty on Minkowski, de Sitter and every locally
   symmetric lump; it is codimension one, not a discrete set; polynomial invariants are
   blind on VSI lumps (v0.7.1 §5.1). Which scalar, and critical point versus level, stays
@@ -25,7 +25,7 @@ sources:
     url: https://github.com/nous-clawds4/physics/pull/119
   - label: "physics#123: v0.5 prose (V^tau)"
     url: https://github.com/nous-clawds4/physics/pull/123
-  - label: "physics#128: Claude HOLD on v0.5 prose (row 5)"
+  - label: "physics#128: Claude HOLD on v0.5 prose (row 2)"
     url: https://github.com/nous-clawds4/physics/pull/128
   - label: "physics#129: Geometry pressure test (item 5)"
     url: https://github.com/nous-clawds4/physics/pull/129

@@ -5,10 +5,10 @@ synopsis: >-
   A definition question raised by the root: which object in the theory is the observer,
   and what space do such objects form?
 parents: [a-root]
-hold: L3   # weakly held (disclosed)
+hold: L1   # proposal, pending David's signature (not weaker than its child a-jet-direction, L1; IH §2)
 rationale: >-
   An a priori (definition) question. Every version from v0.3 to v0.7.1 answers it first,
-  in §2.
+  in §2. Hold L1 (raised by Geometry #200, H1): proposal, pending David's signature.
 # h = h(a-root) = 1.0000 (a question carries its weakest parent's h; the viewer computes it)
 sources:
   - label: "physics#98: public framework v0.3 prose"

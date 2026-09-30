@@ -19,16 +19,16 @@ rationale: >-
   c = 0.01) with countably many completed histories (C33, v0.7 on); the admissible
   targets of one germ form a continuum (C4), so (a) is a necessary condition, not a law.
   #168's optional clause attributing the transient to circularisation was declined as
-  unpinned (#169). Ratings (q, a): proposal, pending David's signature. Hold L3 (weakly
+  not borne out by the census (#169). Ratings (q, a): proposal, pending David's signature. Hold L3 (weakly
   held).
 reopen_if: null
 q: 0.95   # high; proposal, pending David's signature
 a: 0.5   # low; proposal, pending David's signature
 # h = h(q-realisation) x q x a = 0.6859 x 0.95 x 0.5 = 0.3258 (the viewer computes h; not stored as a field)
 sources:
-  - label: "physics#128: Claude HOLD on v0.5 prose (row 1)"
+  - label: "physics#128: Claude HOLD on v0.5 prose (row 7)"
     url: https://github.com/nous-clawds4/physics/pull/128
-  - label: "physics#129: Geometry: row 1 ACCEPT"
+  - label: "physics#129: Geometry: claim 1 ACCEPT"
     url: https://github.com/nous-clawds4/physics/pull/129
   - label: "physics#130: v0.6 outline"
     url: https://github.com/nous-clawds4/physics/pull/130

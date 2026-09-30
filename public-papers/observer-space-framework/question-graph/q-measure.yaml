@@ -7,7 +7,7 @@ synopsis: >-
 parents: [a-type-ii]
 hold: L3   # weakly held (disclosed)
 rationale: >-
-  Framed as (M1)/(M2) in v0.6 after Claude #128 row 4 and Geometry #129 (Paper 1 measure
+  Framed as (M1)/(M2) in v0.6 after Claude #128 row 5 and Geometry #129 claim 4 (Paper 1 measure
   honesty); scoped symmetrically in v0.7 (#156). The same call appears as T2
   (Mathematical Foundations v0.3), Q-D3, and #139 (b) (v0.7.1 header item 2 and §9
   table: "(b) = T2 and (M1)/(M2)"). Undecided in every version ("This paper does not
@@ -15,7 +15,7 @@ rationale: >-
   not mapped as a node (see gaps).
 # h = h(a-type-ii) = 0.6859 (a question carries its weakest parent's h; the viewer computes it)
 sources:
-  - label: "physics#128: Claude HOLD on v0.5 prose (row 4)"
+  - label: "physics#128: Claude HOLD on v0.5 prose (row 5)"
     url: https://github.com/nous-clawds4/physics/pull/128
   - label: "physics#129: Geometry pressure test (item 4)"
     url: https://github.com/nous-clawds4/physics/pull/129

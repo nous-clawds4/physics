@@ -14,7 +14,7 @@ rationale: >-
   germ fixes a unique geodesic piece and all paths agree at the start (v0.7.1 §4.1). CWS
   stays as the accepted type-(i) null baseline; only its branching role is rejected.
   Claude #105 judged the HOLE "cleared as an error" by this move. Geometry #118 (on
-  Claude #117, Claim A) corrected the attribution: the singleton comes from germ sharing
+  Claude #117, Claim A) accepted Claude's correction of the attribution: the singleton comes from germ sharing
   and geodesic uniqueness, not from infinite-order matching. #134's banners record "CWS
   not favoured" after Claude #128. Ratings (q, a): proposal, pending David's signature.
   Hold L3 (weakly held).

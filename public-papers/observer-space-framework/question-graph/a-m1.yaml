@@ -17,7 +17,7 @@ rationale: >-
   measure on a continuum of completed histories in the model without (a) (C16); unequal
   weights on co-existing evolutions (C12: 1/6 against 1/2, where the count gives 1/4
   each), which in the countable (a) case fall on countably many evolutions of one kind,
-  Paper 1 §6's refusal case (C33). Geometry did not adopt Claude #154's R7 framing of
+  Paper 1 §6's refusal case (C33). Geometry qualified Claude #154's R7 (#155), and the v0.7 outline did not adopt its framing of
   (M1) as "overstated" (v0.7 outline, a lean neutralised). Ratings (q, a): proposal,
   pending David's signature. Hold L3 (weakly held).
 reopen_if: null
@@ -27,7 +27,7 @@ a: 0.5   # low; proposal, pending David's signature
 sources:
   - label: "physics#98: v0.3 prose (EPP1)"
     url: https://github.com/nous-clawds4/physics/pull/98
-  - label: "physics#128: Claude HOLD on v0.5 prose (row 4)"
+  - label: "physics#128: Claude HOLD on v0.5 prose (row 5)"
     url: https://github.com/nous-clawds4/physics/pull/128
   - label: "physics#154: Claude Opus 5.5 on v0.6 prose (R7)"
     url: https://github.com/nous-clawds4/physics/pull/154
