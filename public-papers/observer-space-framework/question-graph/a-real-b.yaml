@@ -10,8 +10,9 @@ hold: L3   # weakly held (disclosed)
 tag: definition
 rationale: >-
   Open; the record takes no side and neither does this node. For (b): it keeps the
-  worked Kretschmann rule as stated, whose outward edges fail (a), and it admits the
-  cross-continuation jumps "a measurement picture would want" (v0.7.1 §4.2). Costs the
+  worked Kretschmann rule as stated, one edge of which at each turning point of the
+  instance fails (a) (outward at the periastron, inward at the apastron), and it admits
+  the cross-continuation jumps "a measurement picture would want" (v0.7.1 §4.2). Costs the
   record attaches to the model without (a): its completed histories form a continuum
   (C16, a proof), and Paper 1 §6 calls a continuum with no grain "a failure of the
   program" unless a grain is supplied; under the rule as stated, typical histories are
