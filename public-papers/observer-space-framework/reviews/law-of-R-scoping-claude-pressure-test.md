@@ -39,17 +39,17 @@ Key: **C** = CONFIRM; **CR** = CONFIRM REWORDED. "P*n*" points to §2.
 | 1.7 | I6 mis-tagged as a convention | CR | v0.7.1 §2: "The quotient is not optional …"; C9. It is an invariance argument in prose, not a theorem file, so the tag names it as that. | P9 |
 | 1.8 | K1: (i) V\*/Option F conflated; (ii) the either/or is a declared constraint | C | (i) Option F = finite-$k$ ($C^k$) join plus graph incidence (`piecewise-geodesic-Ck-graph.md`). Its banner carries K3's "vacuous at $k=1$, prohibitive at $k\ge2$". V\* (`Vstar-extend-vs-not.md`) was a pressure test *under* Option F, and both are demoted. (ii) v0.7.1 §4.2 item 1: "a declared constraint on $R$'s *source* set … named-extra status". | P10, P11 |
 | 1.9 | I7 goes beyond C10 | CR | C10's claim column is itself general ("Type (ii) is discontinuous in oriented observer space, not in Obs"), so the note copied v0.7.1. Claude's reason ("Kretschmann jumps change the lump") does not apply to I7, which is about locally symmetric lumps only. The correct scope: a pair *within one such world* keeps the lump; a cross-world edge (without (a)) need not. | P12 |
-| 1.10 | I10 misdescribes C16 | CR | C16: rule "jump toward 10", where $\{0,1\}^{\mathbb N}$ (continue/jump) injects, under (H1)–(H7). **Declined:** writing Claude's "general principle" into the row. C16 proves one rule, and the generalisation is unproved. | P13 |
+| 1.10 | I10 misdescribes C16 | CR | C16: rule "jump toward 10", where $\{0,1\}^{\mathbb N}$ (continue/jump) injects, under (H1)–(H7). **Not adopted:** Claude's "general principle", offered as C16's generalisation (not as row text); the repo proves only C16's rule, so the row states that. | P13 |
 | 1.11 | I12: add "in a Schwarzschild field" | C | C38 names the idealisation. | P14 |
 | 1.12 | I9 "with finite stars"; K3 wording | C | v0.7.1 §7: "With finite stars, depth-$n$ counts converge …". v0.7.1 §4.2: "prohibitive for curvature-changing" jumps; C27: "only forbids". | P15, P11 |
 | 1.13(a) | L12 source range stops before the last file | C | `dead-ends-and-rays.md` exists and is L12's last item. #181's brief already reads "from `uniform-law-of-r.md` to `dead-ends-and-rays.md`". | P19 |
 | 1.13(b) | "Extra-on-extra" also given to Markov, compact stars, properness, transitivity, asymmetry, totality, selection theorems | CR | Grep of the files. It is given to **selection theorems** and to a **history-dependent law** (`markov-law-of-r.md`). For the others it is given to **bundles** (closed + compact-valued (+ properness); irreflexive + transitive (+ asymmetric); asymmetric + total; totality + countable degrees), not to the single property. **Declined:** Claude's list as stated. | P16–P18 |
-| 1.13(c) | "(#46)"-style labels are PR numbers | C | #46, #54, #55, #57, #58, #59, #63 are all PRs whose titles match the rows. | P18 |
+| 1.13(c) | "(#46)"-style labels are PR numbers | C | #54, #55, #57, #58, #59, #63 are PRs whose titles match the rows. #46 is Theorem 31 (countable out-degree); uniformity is #45 (uniform-law-of-r.md), so P16 corrects "(#46)" to "(#45)". | P16, P18 |
 | 1.14 | Rows found right (I1, I2, I4, I5, I8, I11, I13; K2, K5–K9; L1, L2, L5–L7, L9, L10) | C | No disagreement. L10 gains Thm 22 through P5. | — |
 | 1.15 | K4 $K=80/27$ by hand | C | $a=(1-t)^{2/3}$ at $t=0$: $\dot a/a=-2/3$, $\ddot a/a=-2/9$, so $K=12[(2/9)^2+(2/3)^4]=240/81=80/27$. | — |
 | 2.1 | Missing: slice-sourced lock-side readout maps (class) | C | v0.7.1 §4.3; §5.1 scalar class and "Which member … is a named extra"; K2; note §4 gap. | P20 (F8), P21 |
 | 2.2 | Missing: target-avoiding readouts (option (C)) | C | v0.7.1 §4.2 line 209: "Markov on $O^u$ alone, but it excludes the only worked instance". Rejected for convenience, not by a §1 constraint. | P20 (F9) |
-| 2.3 | Missing: sub-ensemble-timed sources | CR | Named in §5.1, the Firewall and K1. But it **fails** a convention in force: v0.7.1 §2 "timing vote … E-smuggling. It is not used". It is listed as named and failing (like F0), not as "leaves open". | P20 (F10), P21 |
+| 2.3 | Missing: sub-ensemble-timed sources | CR | Named in §5.1, the Firewall and K1. But it **fails** a convention in force: v0.7.1 §2 "timing vote … E-smuggling. It is not used". It is listed as named and failing (alongside F4, the grain-bearing family), not as "leaves open". | P20 (F10), P21 |
 | 2.4 | Missing: history-dependent laws, including final-condition laws | C | `remainder.md` Open: "whether the law is Markov vs history-dependent"; `markov-law-of-r.md` ("extra-on-extra"); strains §9's Obs-local Hope. | P20 (F11), P21 |
 | 3.1 | §3 numbers reproduce | C | Same table as `jtest_out.txt` and `disp_out.txt`, including $D_{10}(0.01)=10.088$ (in) and $9.534$ (out). | — |
 | 3.2 | SEPARATES branch unreachable | C | Verified (§3 below). Ratio $\ge0.819$ for any weights. | P22, P24 |
@@ -60,7 +60,7 @@ Key: **C** = CONFIRM; **CR** = CONFIRM REWORDED. "P*n*" points to §2.
 | Q4 | Fixed-window (J2) test, F2 vs F3 | run | §4: preregistered, run as written. | — |
 | S1 | "What survives" turns on the window; I13 is a target | C | I13's own tag: "a stated target". | P21 |
 | S2 | 1.1 and 1.4 are internal contradictions | C | Removed by P1–P3 and P6; no family's status changes. | — |
-| L-a | CSL couples to number density; CSL and Diósi are diffusions; Penrose gives a time estimate | CR | Wording is corrected. The mass-proportional variants Claude names (Pearle–Squires 1994; Ghirardi–Grassi–Benatti 1995) are **not** added as references here, since the texts were not re-read; for Literature to verify. | P29, P30 |
+| L-a | CSL couples to number density; CSL and Diósi are diffusions; Penrose gives a time estimate | CR | Wording is corrected. The mass-proportional variants Claude names (Pearle–Squires 1994; Ghirardi–Grassi–Benatti 1995) are **not** added as references here, since P29 does not name them (Literature verified both via Crossref in #189). | P29, P30 |
 | L-b | A final-condition law is Markov, time-inhomogeneous (Doob $h$-transform) | C | Standard: $P^h(x\to y)=P(x\to y)h_{n+1}(y)/h_n(x)$ is Markov with an $n$-dependent kernel. §L.5's following sentences already say the rest. | P31 |
 | L-c | Rideout–Sorkin remark and Weidner method unchecked | C (checked; the note stands) | arXiv gr-qc/9904062 contains "we would have to abandon Bell causality if our aim were to reproduce quantum effects from a classical stochastic dynamics". arXiv 2504.06495 adds a small-signal truncation and counts surviving branches. No patch. | — |
 
@@ -231,7 +231,7 @@ OLD:
 uniformity (#46); locality; Markov versus history dependence;
 
 NEW:
-uniformity (#46); locality; Markov versus history dependence (a history-dependent law is "extra-on-extra");
+uniformity (#45); locality; Markov versus history dependence (a history-dependent law is "extra-on-extra");
 ```
 
 **P17 (1.13)**
@@ -251,7 +251,7 @@ OLD:
 acyclicity, finite ancestors; no dead ends |
 
 NEW:
-acyclicity, finite ancestors; no dead ends. Bundles (closed + compact-valued + properness; irreflexive + transitive + asymmetric; asymmetric + total) are "extra-on-extra". Numbers in parentheses are PR numbers |
+acyclicity, finite ancestors; no dead ends. Bundles are "extra-on-extra": closed + compact-valued (+ properness leftover (1)); irreflexive + transitive (+ asymmetric); asymmetric + total (a tournament; a linear order further); total + countable out- and in-degree. Numbers in parentheses are PR numbers |
 ```
 
 **P19 (1.13)**
@@ -273,9 +273,9 @@ OLD:
 NEW:
 | each is a named extra |
 | **F8. Slice-sourced lock-side readout maps** (the class; F1 is one member) | A stated map from $(O^u,a)$ at slice vertices to targets, with the scalar from §5.1's class ($K$, $R$, $R_{ab}R^{ab}$, $R_{ab}u^au^b$, $W$) | lock-side; finite stars possible without a grain (F1); sources discrete per curvelet (K2); I4, I5 apply | (a) and (J1)/(J2) depend on the map (I13); slice blind spots (I7, I11); per-map throat clause (K8); only the Kretschmann member has an instance | the scalar, critical point versus level, the map and its constants (v0.7.1 §4.3, §5.1) |
-| **F9. Target-avoiding readouts** (arrival option (C)) | $R\subseteq V^\tau\times(V\setminus V^\tau)$ | Markov on $O^u$ alone, no arrival flag (v0.7.1 §4.2); alternation automatic, since targets are not vertices | no instance (every Kretschmann target is a turning point, C5); rejected in v0.7.1 §4.2 only for that reason; (a) and (J1)/(J2) open | a map that avoids the slice |
+| **F9. Target-avoiding readouts** (arrival option (C)) | $R\subseteq V^\tau\times(V\setminus V^\tau)$ | Markov on $O^u$ alone, no arrival flag (v0.7.1 §4.2); per-history clause (2) needs no strict alternation, since targets are not vertices; lock-side if the map is | no instance (every Kretschmann target is a turning point, C5); rejected in v0.7.1 §4.2 only for that reason; (a) and (J1)/(J2) open | a map that avoids the slice |
 | **F10. Sub-ensemble-timed sources** (K1's named alternative) | Sources where members of a chosen discrete sub-ensemble of $E_W$ end | K1 by construction | fails a convention in force: a timing vote, "E-smuggling. It is not used" (v0.7.1 §2); no instance; (a) and (J1)/(J2) open | a grain on $E_W$ (v0.7.1 §5.1, Firewall) |
-| **F11. History-dependent laws** (including final-condition laws) | The successor law depends on the path so far, or on a late boundary condition | nothing in §1 excludes it; open in `remainder.md` ("Markov vs history-dependent") | strains v0.7.1 §9's Obs-local Hope (dependence on $(O^u,a)$ and $R$ only) and Problem note 6's memorylessness; no instance; (J1)/(J2) open | a law on $\mathrm{Path}$ ("extra-on-extra", `markov-law-of-r.md`) |
+| **F11. History-dependent laws** (final-condition laws only when not recast as time-inhomogeneous Markov laws, §L.5) | The successor law depends on the path so far, or on a late boundary condition | nothing in §1 excludes it; open in `remainder.md` ("Markov vs history-dependent") | strains v0.7.1 §9's Obs-local Hope (dependence on $(O^u,a)$ and $R$ only) and Problem note 6's memorylessness; no instance; (J1)/(J2) open | a law on $\mathrm{Path}$ ("extra-on-extra", `markov-law-of-r.md`) |
 ```
 
 **P21 (S1, Q2)**
@@ -285,7 +285,7 @@ OLD:
 F1 is excluded as a candidate by I13 (it fails both (J1) and (J2)) and by (a) if Compatibility is kept. It stays useful as a consistency witness for the schema without (a).
 
 NEW:
-F1 is excluded as a candidate by I13 (it fails both (J1) and (J2)) and by (a) if Compatibility is kept. I13's aim is a stated target, not a theorem, so this exclusion, like F2's survival (late windows only), is conditional on that aim and on which windows count as observed. F1 stays useful as a consistency witness for the schema without (a). F8 and F9 are not excluded by §1; F10 fails a convention in force and is listed as named, like F0; F11 is not excluded by §1 but strains the Obs-local Hope.
+F1 is excluded as a candidate by I13 (it fails both (J1) and (J2)) and by (a) if Compatibility is kept. I13's aim is a stated target, not a theorem, so this exclusion, like F2's survival (late windows only), is conditional on that aim and on which windows count as observed. F1 stays useful as a consistency witness for the schema without (a). F8 and F9 are not excluded by §1; F10 fails a convention in force and is listed as named, alongside F4, the grain-bearing family; F11 is not excluded by §1 but strains the Obs-local Hope.
 ```
 
 **P22 (3.2, 3.3)**
@@ -345,7 +345,7 @@ OLD:
 $\approx 90c$–$235c$ radial units, §3
 
 NEW:
-$\approx 93c$–$234c$ radial units over $10^{-4}\le c\le0.1$, §3
+$\approx 93.5c$–$234.2c$ radial units over $10^{-4}\le c\le0.1$, §3
 ```
 
 **P28 (3.3)**
@@ -421,7 +421,7 @@ Figures from `q3check.py`, exact EPP1 law:
 
 **Discipline.**
 1. `/workspace/lawR/q4/q4.py` was written first, with the full spec quoted in its header.
-2. Its SHA-256, `7f230434ef71b8aad91f47d7511e5a7a4d620290fa77ca5fe4066f48defce2a5`, was recorded in `PREREG.txt` with the verbatim criterion and the resolutions A1–A10, **registered 2026-09-29 16:21:36 ET**, before any Q4 computation.
+2. Its SHA-256, `7f230434ef71b8aad91f47d7511e5a7a4d620290fa77ca5fe4066f48defce2a5`, was recorded in `PREREG.txt` with the verbatim criterion and the resolutions A1–A10, **registered 2026-09-29 16:21:36 ET**, before any Q4 run. (`q4.py` was compiled or imported once at 16:21:21 ET, per its `__pycache__` file, which a run as `__main__` does not write. No Q4 output predates 16:21:39.) The order rests on file timestamps on the shared machine. The criterion, grid, window and observable were fixed independently in #182, merged at 16:18:28 ET.
 3. It was run once (run 1, 16:21–16:22 ET, 51 s). The script is byte-identical to the pre-run hash (snapshot `q4_run1_snapshot.py`).
 4. **No bug was found, and nothing was changed after the output.** Criterion, thresholds, grid and observable are as written.
 
@@ -437,7 +437,7 @@ Figures from `q3check.py`, exact EPP1 law:
 - **A9 Rule and classifier.** `kr.target`, THROAT = `cross`, `kr.admissible`, with `c33r.classify_robust` (the corrected classifier) patched in.
 - **A10 Criterion.** Only the unrounded $Q(0.001)/Q(0.01)$ is used.
 
-**Result: SEPARATES.** $Q(0.001)/Q(0.01)=0.157144153$, which is $\le0.2$.
+**Result: SEPARATES.** $Q(0.001)/Q(0.01)=0.157144153$, which is $\le0.2$. SEPARATES is the label fixed in Claude's criterion. On this grid it means the windowed deviation falls at least in proportion to $c$. It does not establish that F3 meets (J2), which needs a stated tolerance (v0.7.1 §7; 3.3 above).
 
 | $c$ | $Q(c)$ | $Q(c)/c$ | $E[\text{jumps in window}]$ (exact) | histories | A2 sensitivity |
 |---|---|---|---|---|---|
@@ -448,7 +448,7 @@ Figures from `q3check.py`, exact EPP1 law:
 
 - **Weights and jump counts are exact rationals; $Q$ is numerical** (A6).
 - **Contingencies.** $m\le1$ at every decision and every target is bound, so A7 and A8 were not triggered. Excluding the decision at $\tau=T$ (A2) moves the ratio by less than $10^{-5}$.
-- **Independent cross-check, run after run 1** (`q4check.py`). It uses the closed-form $d\tau/d\chi$ parametrisation, with no ODE and a separate stack enumeration. It gives the same half period ($212.567000$), the same $Q$ to six digits, the same exact jump expectations and history counts, and a ratio of $0.157144$.
+- **Independent cross-check, run after run 1** (`q4check.py`). It uses the closed-form $d\tau/d\chi$ parametrisation, with no ODE and a separate stack enumeration. It shares `kr.target`, `kr.admissible`, `kr.orbit_EL` and the corrected classifier with `q4.py`, so it checks the trajectories, sups and enumeration, not the rule or the (a) test. It gives the same half period ($212.567000$), the same $Q$ to six digits, the same exact jump expectations and history counts, and a ratio of $0.157144$.
 
 **What it shows (neutrally).**
 - On this orbit and root, over a fixed five-period window, the EPP1-expected sup-norm deviation from the continuation falls roughly in proportion to $c$ as $c$ goes from 0.01 to 0.001: $Q(0.001)/Q(0.01)=0.157$, $Q(0.001)/Q(0.003)=0.360$.
