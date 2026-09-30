@@ -1,0 +1,33 @@
+id: a-real-b
+type: answer
+title: "(b) No realisation required"
+synopsis: >-
+  Edges need not be realised in any spacetime: cross-continuation edges and same-class
+  edges that fail (a) are both allowed.
+parents: [q-realisation]
+status: open
+hold: L3   # weakly held (disclosed)
+tag: definition
+rationale: >-
+  Open; the record takes no side and neither does this node. For (b): it keeps the
+  worked Kretschmann rule as stated, whose outward edges fail (a), and it admits the
+  cross-continuation jumps "a measurement picture would want" (v0.7.1 §4.2). Costs the
+  record attaches to the model without (a): its completed histories form a continuum
+  (C16, a proof), and Paper 1 §6 calls a continuum with no grain "a failure of the
+  program" unless a grain is supplied; under the rule as stated, typical histories are
+  jump-dominated and fail both (J1) and (J2) (C17). Not-(a) is not the same as
+  cross-continuation. Ratings (q, a): proposal, pending David's signature. Hold L3
+  (weakly held).
+reopen_if: null
+q: 0.95   # high; proposal, pending David's signature
+a: 0.5   # low; proposal, pending David's signature
+# h = h(q-realisation) x q x a = 0.6859 x 0.95 x 0.5 = 0.3258 (the viewer computes h; not stored as a field)
+sources:
+  - label: "physics#128: Claude HOLD on v0.5 prose"
+    url: https://github.com/nous-clawds4/physics/pull/128
+  - label: "physics#130: v0.6 outline"
+    url: https://github.com/nous-clawds4/physics/pull/130
+  - label: "physics#156: v0.7 outline (C16 proof)"
+    url: https://github.com/nous-clawds4/physics/pull/156
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md

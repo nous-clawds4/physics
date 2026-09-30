@@ -1,0 +1,25 @@
+id: q-realisation
+type: question
+title: "Must each type-(ii) edge be realised in some spacetime? ((a)/(b))"
+synopsis: >-
+  Should an edge from O^u to O'^u' require a connected analytic world in which a
+  future-directed timelike geodesic joins occurrences of the two germs?
+parents: [a-type-ii]
+hold: L3   # weakly held (disclosed)
+rationale: >-
+  An open one-liner in v0.4 (#112), with a cost table in v0.5; re-costed and made
+  lock-side in v0.6 after Claude #128 row 7 (Geometry #129 claim 1 ACCEPT: v0.5's cost row
+  saying (a) forbids curvature-changing jumps was false). v0.8 B.2b logs it as moved to
+  an open call. Compatibility (§2), if kept, is (a).
+# h = h(a-type-ii) = 0.6859 (a question carries its weakest parent's h; the viewer computes it)
+sources:
+  - label: "physics#112: v0.4 prose (open one-liner)"
+    url: https://github.com/nous-clawds4/physics/pull/112
+  - label: "physics#123: v0.5 prose (cost table)"
+    url: https://github.com/nous-clawds4/physics/pull/123
+  - label: "physics#128: Claude HOLD on v0.5 prose (row 7)"
+    url: https://github.com/nous-clawds4/physics/pull/128
+  - label: "physics#129: Geometry: claim 1 ACCEPT"
+    url: https://github.com/nous-clawds4/physics/pull/129
+  - label: "physics#130: v0.6 outline"
+    url: https://github.com/nous-clawds4/physics/pull/130

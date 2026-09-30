@@ -1,0 +1,34 @@
+id: a-hand-listed
+type: answer
+title: "A hand-listed digraph as the controlled example"
+synopsis: >-
+  Meet the exit gate (a controlled example under an explicit R) with a small graph drawn
+  by hand, for example two vertices with a named type-(ii) out.
+parents: [q-law-of-r]
+status: rejected
+hold: L3   # weakly held (disclosed)
+tag: method
+rationale: >-
+  The losing side of Claude Fable 5.1's HOLD on v0.3 (#105): the new exit gate "is met
+  by a hand-drawn two-vertex graph, so it is not a test". From v0.4 the firewall says
+  the paper does not count a hand-listed digraph as a controlled public example; from
+  v0.5 the public gate asks for a rule that is stated, uniform and motivated. The v0.4
+  toy (papers/B-ge2-minimal-toy.md, #107) was existence-in-form only and is now retired.
+  Since no rule meets the motivation clause, the bar in force is "uniform, not a hand
+  list" (v0.7.1 §1). Ratings (q, a): proposal, pending David's signature. Hold L3
+  (weakly held).
+reopen_if: >-
+  The record gives none; this is a methodological gate. Mapper's proposal: only if
+  whoever holds the public-example gate revises it.
+q: 0.95   # high; proposal, pending David's signature
+a: 0.5   # low; proposal, pending David's signature
+# h = h(q-law-of-r) x q x a = 0.5213 x 0.95 x 0.5 = 0.2476 (the viewer computes h; not stored as a field)
+sources:
+  - label: "physics#105: Claude Fable 5.1 HOLD on v0.3 prose"
+    url: https://github.com/nous-clawds4/physics/pull/105
+  - label: "physics#107: minimal toy"
+    url: https://github.com/nous-clawds4/physics/pull/107
+  - label: "physics#112: v0.4 prose (firewall)"
+    url: https://github.com/nous-clawds4/physics/pull/112
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md

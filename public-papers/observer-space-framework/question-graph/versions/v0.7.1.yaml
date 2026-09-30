@@ -1,0 +1,7 @@
+id: v0.7.1
+title: "Framework paper v0.7.1 (v0.7.1-prose.md)"
+synopsis: >-
+  Same accepted selection. Patch after Claude #168 and Geometry #169: the v0.7 claim
+  that anchoring removes cut dependence at no cost is rejected (a-anchored-count).
+  Source: physics#170; versions/v0.7.1-prose.md.
+selects: [a-root, a-jet-direction, a-world-analytic, a-type-ii, a-option-e, a-vtau, a-alternation]

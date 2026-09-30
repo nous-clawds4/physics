@@ -1,0 +1,7 @@
+id: v0.7
+title: "Framework paper v0.7 (v0.7-prose.md)"
+synopsis: >-
+  Same accepted selection. Changes in open nodes only: the (a)-restriction's transient
+  branching (C33), the (M1)/(M2) cost lines made symmetric, T1-T3 and Q-D1-Q-D5 carried
+  as open calls (#156). Source: physics#160; versions/v0.7-prose.md.
+selects: [a-root, a-jet-direction, a-world-analytic, a-type-ii, a-option-e, a-vtau, a-alternation]

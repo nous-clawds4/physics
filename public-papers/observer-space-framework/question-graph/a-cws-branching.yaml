@@ -1,0 +1,38 @@
+id: a-cws-branching
+type: answer
+title: "Continuous World Switching (type-(i) hitchhiking) as the branching law"
+synopsis: >-
+  Branch by switching worlds at a shared oriented germ along piecewise geodesic lifts,
+  with no jump in observer space.
+parents: [q-branching]
+status: rejected
+hold: L3   # weakly held (disclosed)
+tag: math-tool
+rationale: >-
+  Rejected as the branching law in v0.3 ("CWS demoted", #98). Under CWS and either
+  path-germ equivalence (E1) or (E2) the branch set is a singleton, because the shared
+  germ fixes a unique geodesic piece and all paths agree at the start (v0.7.1 §4.1). CWS
+  stays as the accepted type-(i) null baseline; only its branching role is rejected.
+  Claude #105 judged the HOLE "cleared as an error" by this move. Geometry #118 (on
+  Claude #117, Claim A) accepted Claude's correction of the attribution: the singleton comes from germ sharing
+  and geodesic uniqueness, not from infinite-order matching. #134's banners record "CWS
+  not favoured" after Claude #128. Ratings (q, a): proposal, pending David's signature.
+  Hold L3 (weakly held).
+reopen_if: >-
+  Mapper's proposal, from the proposition's hypotheses: a path-germ equivalence other
+  than (E1)/(E2) that a referee accepts, or a flaw in the CWS-singleton sketch, under
+  which type-(i) motion gives two or more arms.
+q: 0.95   # high; proposal, pending David's signature
+a: 0.5   # low; proposal, pending David's signature
+# h = h(q-branching) x q x a = 0.9025 x 0.95 x 0.5 = 0.4287 (the viewer computes h; not stored as a field)
+sources:
+  - label: "physics#98: v0.3 prose (CWS demoted)"
+    url: https://github.com/nous-clawds4/physics/pull/98
+  - label: "physics#105: Claude Fable 5.1 HOLD on v0.3 prose"
+    url: https://github.com/nous-clawds4/physics/pull/105
+  - label: "physics#118: Geometry on Claude #117 Claims A/B"
+    url: https://github.com/nous-clawds4/physics/pull/118
+  - label: "physics#134: banners: CWS not favoured"
+    url: https://github.com/nous-clawds4/physics/pull/134
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md

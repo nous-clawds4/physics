@@ -1,0 +1,17 @@
+id: q-join-law
+type: question
+title: "What joins a geodesic segment to a type-(ii) edge (the join law)?"
+synopsis: >-
+  Where a history leaves one geodesic piece for another, what must hold: jet matching to
+  some order, or bare graph incidence?
+parents: [a-type-ii]
+hold: L3   # weakly held (disclosed)
+rationale: >-
+  Posed by Geometry's C^k join menu (#102) right after v0.3. Claude #105 had said v0.3
+  never stated how type-(i) motion composes with R-edges.
+# h = h(a-type-ii) = 0.6859 (a question carries its weakest parent's h; the viewer computes it)
+sources:
+  - label: "physics#102: piecewise geodesic C^k graph (join menu)"
+    url: https://github.com/nous-clawds4/physics/pull/102
+  - label: "physics#105: Claude HOLD on v0.3 prose"
+    url: https://github.com/nous-clawds4/physics/pull/105

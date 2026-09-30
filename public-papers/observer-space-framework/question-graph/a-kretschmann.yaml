@@ -1,0 +1,35 @@
+id: a-kretschmann
+type: answer
+title: "The Kretschmann rule on a bound Schwarzschild orbit (unadopted worked model)"
+synopsis: >-
+  A stated, uniform rule read out of the germ at the Kretschmann-scalar vertices of a
+  bound Schwarzschild orbit (the ±εn̂ rule). It is the only worked instance, and it is
+  not adopted.
+parents: [q-law-of-r]
+status: open
+hold: L3   # weakly held (disclosed)
+tag: math-tool
+rationale: >-
+  Open: never adopted ("It adopts no R") and never rejected. First used by Claude in
+  #117; carried into the public paper from v0.6 via #128 and #129 (orbit [10, 20]). It
+  meets the bar in force (stated, uniform) and fails the motivated gate. As stated it
+  models the schema without (a): typical histories are jump-dominated (jumps are 2/3 of
+  decisions in expectation) and it fails (J1) and (J2) (C17, C34). Its (a)-restriction
+  is also a model, with transient branching (C33). The paper uses it as evidence for
+  "not fatal", not as a candidate law. Ratings (q, a): proposal, pending David's
+  signature. Hold L3 (weakly held).
+reopen_if: null
+q: 0.95   # high; proposal, pending David's signature
+a: 0.5   # low; proposal, pending David's signature
+# h = h(q-law-of-r) x q x a = 0.5213 x 0.95 x 0.5 = 0.2476 (the viewer computes h; not stored as a field)
+sources:
+  - label: "physics#117: Claude Fable 5.1 on v0.4 prose (Kretschmann rule)"
+    url: https://github.com/nous-clawds4/physics/pull/117
+  - label: "physics#128: Claude HOLD on v0.5 prose"
+    url: https://github.com/nous-clawds4/physics/pull/128
+  - label: "physics#129: Geometry pressure test (orbit)"
+    url: https://github.com/nous-clawds4/physics/pull/129
+  - label: "physics#130: v0.6 outline"
+    url: https://github.com/nous-clawds4/physics/pull/130
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md

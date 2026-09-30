@@ -1,0 +1,34 @@
+id: a-everett-worlds
+type: answer
+title: "Worlds as Everett worlds (branches of a quantum state), counted as outcomes"
+synopsis: >-
+  Read the alternatives as Everett (decoherence) branches and weight them by counting
+  worlds, as in AFLB 2008's outcome counting.
+parents: [q-what-is-a-world]
+status: rejected
+hold: L3   # weakly held (disclosed)
+tag: definition
+rationale: >-
+  Rejected. Paper 1: "If worlds in some other paper are 4-manifolds, or analytic
+  patches, they are not Everett worlds"; Paper 1 is "not Everettian quantum mechanics".
+  From v0.6 on the framework paper firewalls the world-counting slot: the arms "are
+  oriented observers joined by R, not decoherence branches (Paper 1's own firewall)",
+  and AFLB 2008's generation-regular tree cannot separate the per-vertex rule from the
+  count (v0.7.1 §7 and the §10 neighbour row). The 2008 SHPMP submission argued inside
+  an Everettian frame; the paper cites it for its rules only (v0.7.1 §3). Ratings (q,
+  a): proposal, pending David's signature. Hold L3 (weakly held).
+reopen_if: >-
+  Mapper's proposal; the record gives no reopen condition. If the lock behind Paper 1's
+  firewall is changed by its authority so that the programme's worlds are read as
+  branches of a quantum state, or a map from analytic-patch worlds to such branches is
+  exhibited that the firewall does not exclude.
+q: 0.95   # high; proposal, pending David's signature
+a: 0.5   # low; proposal, pending David's signature
+# h = h(q-what-is-a-world) x q x a = 0.9025 x 0.95 x 0.5 = 0.4287 (the viewer computes h; not stored as a field)
+sources:
+  - label: "Paper 1, papers/observer-space-ontology.md"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/papers/observer-space-ontology.md
+  - label: "physics#135: v0.6 prose §7 (world-counting firewall)"
+    url: https://github.com/nous-clawds4/physics/pull/135
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md

@@ -1,0 +1,42 @@
+id: a-vstar
+type: answer
+title: "V*: vertex times where some compatible world ends (extend-versus-not)"
+synopsis: >-
+  Mark branch times along a curvelet where members of the world ensemble stop being
+  extendible, so vertices come from ensemble events.
+parents: [q-vertex-times]
+status: rejected
+hold: L3   # weakly held (disclosed)
+tag: math-tool
+rationale: >-
+  Pressure-tested under Option F (#106, verdict then "adopt V* with caveats"; toy #107)
+  and public in v0.4 (#112). Rejected after Claude #117 Claim B, accepted by Geometry
+  #118: under §2's ensemble with no inextendibility, extend-versus-not marks a continuum
+  of times (Minkowski space minus one point ends the geodesic at any chosen time, C24),
+  and inextendibility alone does not repair it (conical defect, C25). Choosing vertex
+  times by which ensemble members end would also be a timing vote by the ensemble
+  ("E-smuggling"). Superseded by V^τ (#134 banner, after Claude #128);
+  papers/Vstar-extend-vs-not.md carries "superseded", and the toy was retired as a V*
+  demo. Ratings (q, a): proposal, pending David's signature. Hold L3 (weakly held).
+reopen_if: >-
+  From the record's own escape clause (v0.7.1 §5.1): an explicitly chosen, motivated
+  discrete sub-ensemble of E_W (a grain on E_W), or an ensemble restriction that makes
+  ending times discrete, which inextendibility alone does not do (C25).
+q: 0.95   # high; proposal, pending David's signature
+a: 0.5   # low; proposal, pending David's signature
+# h = h(q-vertex-times) x q x a = 0.6859 x 0.95 x 0.5 = 0.3258 (the viewer computes h; not stored as a field)
+sources:
+  - label: "physics#106: V* extend-vs-not pressure test"
+    url: https://github.com/nous-clawds4/physics/pull/106
+  - label: "physics#107: minimal toy"
+    url: https://github.com/nous-clawds4/physics/pull/107
+  - label: "physics#112: v0.4 prose"
+    url: https://github.com/nous-clawds4/physics/pull/112
+  - label: "physics#117: Claude HOLD on v0.4 prose (Claim B)"
+    url: https://github.com/nous-clawds4/physics/pull/117
+  - label: "physics#118: Geometry: Claim B ACCEPT"
+    url: https://github.com/nous-clawds4/physics/pull/118
+  - label: "physics#134: banner: V* superseded by V^tau"
+    url: https://github.com/nous-clawds4/physics/pull/134
+  - label: "papers/Vstar-extend-vs-not.md"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/papers/Vstar-extend-vs-not.md

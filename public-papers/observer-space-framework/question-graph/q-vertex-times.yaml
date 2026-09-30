@@ -1,0 +1,17 @@
+id: q-vertex-times
+type: question
+title: "When may a history branch (which germs are vertices)?"
+synopsis: >-
+  The per-vertex weight needs discrete branch points along each segment. What selects
+  the candidate branch times along a geodesic?
+parents: [a-type-ii]
+hold: L3   # weakly held (disclosed)
+rationale: >-
+  The hard gate's second clause (branch points discrete in proper time along each
+  segment) was added in v0.4 after Claude #105 §3.1.
+# h = h(a-type-ii) = 0.6859 (a question carries its weakest parent's h; the viewer computes it)
+sources:
+  - label: "physics#105: Claude HOLD on v0.3 prose (§3.1)"
+    url: https://github.com/nous-clawds4/physics/pull/105
+  - label: "physics#112: v0.4 prose (hard gate, two clauses)"
+    url: https://github.com/nous-clawds4/physics/pull/112

@@ -1,0 +1,33 @@
+id: a-jump-bound
+type: answer
+title: "(B) Consecutive jumps, counted under a bound N"
+synopsis: >-
+  Let jumps follow jumps with no segment between, counted with multiplicity up to a
+  fixed bound N.
+parents: [q-composition]
+status: rejected
+hold: L3   # weakly held (disclosed)
+tag: definition
+rationale: >-
+  Offered by Claude #128 as one fix for clause (2). Rejected by Geometry over #128
+  (#129; v0.6 outline): on the instance, chains of edges are infinite, so N would be a
+  law-like number imposed on histories, and making it a property of R would restart the
+  leftover inventory of formal properties of R. T1's "drop (A)" column lists this as the
+  law-like replacement (v0.7.1 §9). Ratings (q, a): proposal, pending David's signature.
+  Hold L3 (weakly held).
+reopen_if: >-
+  From the stated reasons: an R whose edge chains are finite, so that a bound is not
+  law-like, or a way to make the bound a property of R that does not restart the
+  leftover inventory.
+q: 0.95   # high; proposal, pending David's signature
+a: 0.5   # low; proposal, pending David's signature
+# h = h(q-composition) x q x a = 0.6859 x 0.95 x 0.5 = 0.3258 (the viewer computes h; not stored as a field)
+sources:
+  - label: "physics#128: Claude HOLD on v0.5 prose (row 2)"
+    url: https://github.com/nous-clawds4/physics/pull/128
+  - label: "physics#129: Geometry pressure test"
+    url: https://github.com/nous-clawds4/physics/pull/129
+  - label: "physics#130: v0.6 outline (rejected alternatives)"
+    url: https://github.com/nous-clawds4/physics/pull/130
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md

@@ -1,0 +1,29 @@
+id: a-root
+type: answer
+title: "Root: the observer is a physical object inside the theory"
+synopsis: >-
+  The observer is a physical system of the same kind as everything else the theory
+  describes, with no privileged observer matter. Every version of the framework paper
+  serves this goal.
+parents: []
+status: accepted
+hold: L0   # proposal, pending David's signature
+tag: method
+rationale: >-
+  Wording from the IH method doc's physics seed (path-of-42 §7, root at L0) and David's
+  notes (docs/scratch/path-of-42.md: no privileged pieces of matter). The framework
+  paper states the same object: "An observer, in this programme, is a physical object"
+  (v0.7.1 §1). h(root) = 1 by definition, so no q or a is set. Record note: the paper
+  versions never state a root; this sentence is the mapper's. Hold L0: proposal, pending
+  David's signature.
+reopen_if: null
+# h = 1 (root, by definition; no q or a)
+sources:
+  - label: "infinite-harness#7: the Path of 42 method doc (docs/path-of-42.md)"
+    url: https://github.com/nous-clawds4/infinite-harness/pull/7
+  - label: "physics#194: the theory of the observer (docs/scratch/path-of-42.md)"
+    url: https://github.com/nous-clawds4/physics/pull/194
+  - label: "physics#139: Statement of the Problem v0.1"
+    url: https://github.com/nous-clawds4/physics/pull/139
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md

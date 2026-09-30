@@ -1,0 +1,28 @@
+id: q-composition
+type: question
+title: "How do segments and jumps compose along a history?"
+synopsis: >-
+  May a history take jump after jump at one value of proper time, and what state does
+  the next decision depend on?
+parents: [a-type-ii]
+hold: L3   # weakly held (disclosed)
+rationale: >-
+  Claude #105 §2: v0.3 never said how curvelet motion composes with R-edges; v0.4 wrote
+  the composition (histories alternate segments and jumps, #112). Claude #128 row 2
+  found that the hard gate's clause (2) held per segment, not per history, because every
+  Kretschmann target is itself a vertex, and proposed (A) or (B); Geometry #129 added
+  (C). Open calls here, not decided: T1 = Q-D5 (does the arrival flag count as part of
+  the observer?) and Q-D2 (is "next" a discrete step or continuous?). See the index
+  gaps.
+# h = h(a-type-ii) = 0.6859 (a question carries its weakest parent's h; the viewer computes it)
+sources:
+  - label: "physics#105: Claude HOLD on v0.3 prose (§2)"
+    url: https://github.com/nous-clawds4/physics/pull/105
+  - label: "physics#112: v0.4 prose (composition)"
+    url: https://github.com/nous-clawds4/physics/pull/112
+  - label: "physics#128: Claude HOLD on v0.5 prose (row 2)"
+    url: https://github.com/nous-clawds4/physics/pull/128
+  - label: "physics#129: Geometry pressure test (item 2)"
+    url: https://github.com/nous-clawds4/physics/pull/129
+  - label: "Q-D1 to Q-D5: public-essays/mathematical-foundations/reviews/v0.1-ontology.md"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-essays/mathematical-foundations/reviews/v0.1-ontology.md

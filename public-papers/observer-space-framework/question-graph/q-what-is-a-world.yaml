@@ -1,0 +1,17 @@
+id: q-what-is-a-world
+type: question
+title: "What is a world, relative to an observer?"
+synopsis: >-
+  Many worlds share one local patch. Which worlds is an observer's germ compatible with,
+  and what is counted when the paper speaks of alternatives?
+parents: [a-jet-direction]
+hold: L3   # weakly held (disclosed)
+rationale: >-
+  Raised by Paper 1's lock that nothing reconstructs a whole world from O (v0.7.1 §2).
+  The relative ensembles E_W and E_M need a notion of world.
+# h = h(a-jet-direction) = 0.9025 (a question carries its weakest parent's h; the viewer computes it)
+sources:
+  - label: "physics#98: v0.3 prose §2 (world ensemble)"
+    url: https://github.com/nous-clawds4/physics/pull/98
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md
