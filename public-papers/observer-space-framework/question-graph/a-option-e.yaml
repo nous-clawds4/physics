@@ -1,0 +1,31 @@
+id: a-option-e
+type: answer
+title: "Option E residue: graph joins with discontinuous type-(ii) jumps"
+synopsis: >-
+  Analytic-geodesic segments joined by discontinuous type-(ii) jumps plus incidence in a
+  graph. The arms at a vertex are the continue arm together with the R-successors.
+parents: [q-join-law]
+status: accepted
+hold: L3   # weakly held (disclosed)
+tag: math-tool
+rationale: >-
+  Geometry #118: what escapes the CWS singleton for branching is a discontinuous jump
+  plus discrete graph incidence, the Option E residue; pairing it with finite-k matching
+  "does not buy branching power". Public from v0.5 (#119, #123), working and abandonable
+  through v0.7.1 (§4.2). v0.5's header: the relocated HOLE is "cleared as a definition
+  (B_R given R)". Record note: the arm set changed across versions (the v0.4 cover says
+  the arms are the out-star; v0.6 on counts the continue arm too, after #128). Ratings
+  (q, a): proposal, pending David's signature. Hold L3 (weakly held).
+reopen_if: null
+q: 0.8   # medium; proposal, pending David's signature
+a: 0.8   # medium; proposal, pending David's signature
+# h = h(q-join-law) x q x a = 0.6859 x 0.8 x 0.8 = 0.4390 (the viewer computes h; not stored as a field)
+sources:
+  - label: "physics#118: Geometry: demote F to E"
+    url: https://github.com/nous-clawds4/physics/pull/118
+  - label: "physics#119: v0.5 outline"
+    url: https://github.com/nous-clawds4/physics/pull/119
+  - label: "physics#123: v0.5 prose"
+    url: https://github.com/nous-clawds4/physics/pull/123
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md

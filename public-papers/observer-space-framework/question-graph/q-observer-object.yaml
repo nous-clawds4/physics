@@ -1,0 +1,17 @@
+id: q-observer-object
+type: question
+title: "What physical object is an observer, and what is observer space?"
+synopsis: >-
+  A definition question raised by the root: which object in the theory is the observer,
+  and what space do such objects form?
+parents: [a-root]
+hold: L3   # weakly held (disclosed)
+rationale: >-
+  An a priori (definition) question. Every version from v0.3 to v0.7.1 answers it first,
+  in §2.
+# h = h(a-root) = 1.0000 (a question carries its weakest parent's h; the viewer computes it)
+sources:
+  - label: "physics#98: public framework v0.3 prose"
+    url: https://github.com/nous-clawds4/physics/pull/98
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md

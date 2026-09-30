@@ -1,0 +1,10 @@
+id: v0.4
+title: "Framework paper v0.4 (v0.4-prose.md)"
+synopsis: >-
+  Selects Option F and V*, both accepted at the time and rejected since (#118, #134), so
+  the viewer flags these two selections; that flag is expected in a retro-map, where
+  status is current and the selection historical. The composition (alternation) is
+  written here, without the arrival flag. Realisation of edges named as an open
+  one-liner. Rejected at this version: a hand-listed digraph as the controlled example
+  (#105). Source: physics#112; versions/v0.4-prose.md.
+selects: [a-root, a-jet-direction, a-world-analytic, a-type-ii, a-option-f, a-vstar, a-alternation]

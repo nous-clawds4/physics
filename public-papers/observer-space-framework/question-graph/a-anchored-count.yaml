@@ -1,0 +1,41 @@
+id: a-anchored-count
+type: answer
+title: "Anchoring the count removes (M2)'s cut dependence at no cost (v0.7 wording)"
+synopsis: >-
+  v0.7 said the depth-1 anchor is the only cut whose weights are functions of the
+  current state, and that a distant count strains Problem note 6 only "unless it is
+  anchored".
+parents: [q-measure]
+status: rejected
+hold: L3   # weakly held (disclosed)
+tag: method
+rationale: >-
+  The losing side of Claude Opus 5.5's HOLD on v0.7 prose (#168), confirmed by Geometry
+  (#169, CONFIRM HOLD, narrow). #169: a count re-anchored at each state gives
+  state-function weights at every horizon, so depth 1 is not exclusive (what is
+  particular to depth 1 is only that it reads nothing of R beyond the current arms); and
+  re-anchoring removes cut dependence but in general gives up equal weight at a fixed
+  cut (C13's tree: 1/10 and 1/15 against 1/12 at the fixed cut). Replaced in v0.7.1 (P1
+  to P5, #170). Geometry withdrew the part of its #162 note that had read the paragraph
+  as balanced. This rejection corrects a claim about both options; it does not choose
+  between (M1) and (M2). Ratings (q, a): proposal, pending David's signature. Hold L3
+  (weakly held).
+reopen_if: >-
+  The cases the record names where state-function weights and equal weight at a fixed
+  cut hold together: D-constancy on the cut (C13), or a finite tree counted to its
+  completed histories. If the relevant R were shown to give only such trees, the v0.7
+  sentence would hold there.
+q: 0.95   # high; proposal, pending David's signature
+a: 0.5   # low; proposal, pending David's signature
+# h = h(q-measure) x q x a = 0.6859 x 0.95 x 0.5 = 0.3258 (the viewer computes h; not stored as a field)
+sources:
+  - label: "physics#160: v0.7 prose"
+    url: https://github.com/nous-clawds4/physics/pull/160
+  - label: "physics#162: Geometry review of v0.7 prose"
+    url: https://github.com/nous-clawds4/physics/pull/162
+  - label: "physics#168: Claude Opus 5.5 HOLD on v0.7 prose"
+    url: https://github.com/nous-clawds4/physics/pull/168
+  - label: "physics#169: Geometry: CONFIRM HOLD (narrow), P1-P8"
+    url: https://github.com/nous-clawds4/physics/pull/169
+  - label: "physics#170: v0.7.1 prose (patch)"
+    url: https://github.com/nous-clawds4/physics/pull/170

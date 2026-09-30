@@ -1,0 +1,38 @@
+id: a-gielen-wise
+type: answer
+title: "Observer space as Gielen–Wise's space of observer 4-velocities"
+synopsis: >-
+  Read observer space as Gielen and Wise's 7-dimensional space of unit future timelike
+  vectors, either over a given spacetime or as an abstract Cartan geometry.
+parents: [q-observer-object]
+status: rejected
+hold: L3   # weakly held (disclosed)
+tag: definition
+rationale: >-
+  Rejected as the meaning of this programme's observer space, from v0.3 on (§2). Its
+  points are 4-velocities, not analytic germs, and V is not their 7-manifold: "phrase
+  collision only" (v0.7.1 §2, §10). In-house, papers/obs-as-a-space.md lists "closing
+  gauge by taking Obs to be Gielen–Wise" under Killed, and says their manifold needs a
+  world W first while lumps do not. Literature #158 corrected the public wording: their
+  observer space is not only "on a given metric"; it also has an abstract form with no
+  spacetime assumed (carried in v0.7, outline item 18). Record note: the in-house note's
+  reason (needs a W first) is weaker against the abstract form that #158 cites; the
+  public reason (points are 4-velocities, not germs) is the one carried. Ratings (q, a):
+  proposal, pending David's signature. Hold L3 (weakly held).
+reopen_if: >-
+  Mapper's proposal; the record gives no reopen condition. If the named-home question
+  for gauge, which obs-as-a-space.md keeps open (Gielen–Wise, a frame bundle, a jet
+  bundle of a completed W), is taken up, and the abstract, no-spacetime-assumed form of
+  their observer space (#158) can carry analytic-germ data without first fixing a world.
+q: 0.95   # high; proposal, pending David's signature
+a: 0.5   # low; proposal, pending David's signature
+# h = h(q-observer-object) x q x a = 1.0000 x 0.95 x 0.5 = 0.4750 (the viewer computes h; not stored as a field)
+sources:
+  - label: "physics#98: v0.3 prose §2"
+    url: https://github.com/nous-clawds4/physics/pull/98
+  - label: "physics#158: Literature review of v0.7 outline (L-items)"
+    url: https://github.com/nous-clawds4/physics/pull/158
+  - label: "papers/obs-as-a-space.md"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/papers/obs-as-a-space.md
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md

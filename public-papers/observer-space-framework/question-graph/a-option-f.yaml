@@ -1,0 +1,45 @@
+id: a-option-f
+type: answer
+title: "Option F: finite-k truncated-jet matching at joins, plus graph incidence"
+synopsis: >-
+  Analytic-geodesic pieces on open edges; the jet and u agree through a fixed finite
+  order k of at least 1 at each join; the arms come from graph incidence.
+parents: [q-join-law]
+status: rejected
+hold: L3   # weakly held (disclosed)
+tag: math-tool
+rationale: >-
+  Ontology's proposal (#103), adopted by David on 2026-09-07 as the working in-house
+  join law (#104), and public in v0.4 (#108, #112). Rejected after Claude Fable 5.1's
+  HOLD on v0.4 (#117): Geometry accepted Claim A (#118). Finite-k matching is vacuous at
+  k = 1 between distinct lumps (every 1-jet is the same in u-adapted normal
+  coordinates), prohibitive at k of 2 or more for curvature-changing jumps (the 2-jet is
+  the Riemann tensor), and cannot create a branching edge; F is demoted to E. #134's
+  banner withdraws the Option F recommendation ("finite k is not the HOLE escape",
+  Claude #128 row 3). Record unclear: #104 records David's adoption; the demotion found
+  here was ruled by Geometry (#118) and carried through the v0.5 panel, with no separate
+  signature from David located. Ratings (q, a): proposal, pending David's signature.
+  Hold L3 (weakly held).
+reopen_if: >-
+  Mapper's wording of #118's QUALIFY (truncated-jet language may stay as continue-arm
+  housekeeping): only if a canonical comparison of jets across distinct lumps were found
+  under which finite-k agreement is neither vacuous (k = 1) nor forbids curvature change
+  (k of 2 or more).
+q: 0.8   # medium; proposal, pending David's signature
+a: 0.5   # low; proposal, pending David's signature
+# h = h(q-join-law) x q x a = 0.6859 x 0.8 x 0.5 = 0.2744 (the viewer computes h; not stored as a field)
+sources:
+  - label: "physics#103: Ontology proposal: Option F"
+    url: https://github.com/nous-clawds4/physics/pull/103
+  - label: "physics#104: adopt Option F (David, 2026-09-07)"
+    url: https://github.com/nous-clawds4/physics/pull/104
+  - label: "physics#112: v0.4 prose"
+    url: https://github.com/nous-clawds4/physics/pull/112
+  - label: "physics#117: Claude Fable 5.1 HOLD on v0.4 prose"
+    url: https://github.com/nous-clawds4/physics/pull/117
+  - label: "physics#118: Geometry: Claims A/B ACCEPT; demote F to E"
+    url: https://github.com/nous-clawds4/physics/pull/118
+  - label: "physics#134: banners"
+    url: https://github.com/nous-clawds4/physics/pull/134
+  - label: "papers/piecewise-geodesic-Ck-graph-ontology.md"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/papers/piecewise-geodesic-Ck-graph-ontology.md

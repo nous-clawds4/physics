@@ -1,0 +1,39 @@
+id: a-alternation
+type: answer
+title: "(A) Strict alternation, with an arrival flag"
+synopsis: >-
+  After a jump, a segment of positive proper time comes before the next decision. The
+  process state is (O^u, a) with a in {seg, jump}, so a germ reached by a jump has one
+  arm.
+parents: [q-composition]
+status: accepted
+hold: L3   # weakly held (disclosed)
+tag: definition
+rationale: >-
+  The v0.4 composition (alternation; Claude #105's reading C), made strict in v0.6
+  (#130) after #128 row 2. Geometry #129 QUALIFY: (A) does not remove arrival
+  dependence; it is honest only as a Markov chain on the enlarged state (O^u, a), plus a
+  named no-Zeno clause. Walk semantics follows (the weight acts per visit). Proper time
+  is carried only along segments, so a history is no longer Paper 1's proper-time curve.
+  Working Postulate, revisable (v0.7.1 §9). Its cost is carried, not resolved: the flag
+  is one bit of history data outside §2's lock-side definition, which is open call T1 =
+  Q-D5 (enlarge the state; drop (A); or keep (A) and carry the strain on Problem note
+  6). #139 (a)'s proper-time part sits under T1. Ratings (q, a): proposal, pending
+  David's signature. Hold L3 (weakly held).
+reopen_if: null
+q: 0.95   # high; proposal, pending David's signature
+a: 0.8   # medium; proposal, pending David's signature
+# h = h(q-composition) x q x a = 0.6859 x 0.95 x 0.8 = 0.5213 (the viewer computes h; not stored as a field)
+sources:
+  - label: "physics#112: v0.4 prose (alternation)"
+    url: https://github.com/nous-clawds4/physics/pull/112
+  - label: "physics#128: Claude HOLD on v0.5 prose"
+    url: https://github.com/nous-clawds4/physics/pull/128
+  - label: "physics#129: Geometry: (A) only on the enlarged state"
+    url: https://github.com/nous-clawds4/physics/pull/129
+  - label: "physics#130: v0.6 outline (arrival flag)"
+    url: https://github.com/nous-clawds4/physics/pull/130
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md
+  - label: "Q-D1 to Q-D5: public-essays/mathematical-foundations/reviews/v0.1-ontology.md"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-essays/mathematical-foundations/reviews/v0.1-ontology.md

@@ -1,0 +1,8 @@
+id: v0.6
+title: "Framework paper v0.6 (v0.6-prose.md)"
+synopsis: >-
+  Same accepted selection as v0.5. What changed sits in open and rejected nodes: strict
+  alternation with the arrival flag, (B) and (C) rejected; (a)/(b) re-costed and
+  lock-side; (M1)/(M2) framed as an undecided call; the Kretschmann model carried as an
+  unadopted example (#128, #129, #130). Source: physics#135; versions/v0.6-prose.md.
+selects: [a-root, a-jet-direction, a-world-analytic, a-type-ii, a-option-e, a-vtau, a-alternation]

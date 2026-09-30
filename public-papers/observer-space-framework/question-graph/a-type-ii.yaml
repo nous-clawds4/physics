@@ -1,0 +1,35 @@
+id: a-type-ii
+type: answer
+title: "Type-(ii) edges: a transition relation R on V, with R nonempty (working, abandonable)"
+synopsis: >-
+  Add discrete type-(ii) edges between oriented observers that are not successive germs
+  along one geodesic, and postulate only that some exist. No R is specified.
+parents: [q-branching]
+status: accepted
+hold: L3   # weakly held (disclosed)
+tag: math-tool
+rationale: >-
+  v0.3 moves branching to a transition structure (V, R) (Definition 7), type (ii)
+  "working and abandonable" (#98). Not derivable from locked data (Prop. 13,
+  papers/type-ii-adopted.md). v0.7.1 keeps it as a working Postulate in existential form
+  only ("not derivable, existence only, and the weakest form of Paper 1's premise").
+  Claude #105: the HOLE is relocated to the law of R, not cleared as a problem, and
+  every later header says so. Costs recorded: the hidden-variable smell, kept loud
+  (§4.3); abandoning type (ii) makes Paper 1's "the evolution is not unique" false.
+  "Whether to abandon type (ii)" stays on the §9 Open list. Open calls Q-D1 (existence
+  or permission) and T3 bear on this node and are not decided. The tag is the mapper's;
+  the record calls this a working Postulate. Ratings (q, a): proposal, pending David's
+  signature. Hold L3 (weakly held).
+reopen_if: null
+q: 0.95   # high; proposal, pending David's signature
+a: 0.8   # medium; proposal, pending David's signature
+# h = h(q-branching) x q x a = 0.9025 x 0.95 x 0.8 = 0.6859 (the viewer computes h; not stored as a field)
+sources:
+  - label: "physics#98: v0.3 prose (type-(ii) R)"
+    url: https://github.com/nous-clawds4/physics/pull/98
+  - label: "physics#105: Claude HOLD: HOLE relocated, not cleared"
+    url: https://github.com/nous-clawds4/physics/pull/105
+  - label: "papers/type-ii-adopted.md"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/papers/type-ii-adopted.md
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md

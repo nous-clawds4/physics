@@ -1,0 +1,32 @@
+id: a-target-avoid
+type: answer
+title: "(C) Target avoidance: no jump lands on a vertex"
+synopsis: >-
+  Require every jump target to lie off the slice V^τ, so alternation is automatic and
+  the process is Markov on O^u alone.
+parents: [q-composition]
+status: rejected
+hold: L3   # weakly held (disclosed)
+tag: definition
+rationale: >-
+  Added by Geometry (#129: "Option (C), not in #128"). Its gain is real: Markov on O^u
+  alone, no enlarged state. Rejected because it excludes the only worked instance, whose
+  jump targets are all turning points and hence vertices (v0.7.1 §4.2). Record note: a
+  draft of the v0.6 outline also used "(C)" for returning to Paper 1's count; Ontology
+  #133 records the fix. Ratings (q, a): proposal, pending David's signature. Hold L3
+  (weakly held).
+reopen_if: >-
+  A worked instance (a stated, uniform rule) whose jump targets avoid V^τ, so that (C)
+  no longer excludes every example.
+q: 0.95   # high; proposal, pending David's signature
+a: 0.5   # low; proposal, pending David's signature
+# h = h(q-composition) x q x a = 0.6859 x 0.95 x 0.5 = 0.3258 (the viewer computes h; not stored as a field)
+sources:
+  - label: "physics#129: Geometry pressure test (option C)"
+    url: https://github.com/nous-clawds4/physics/pull/129
+  - label: "physics#130: v0.6 outline"
+    url: https://github.com/nous-clawds4/physics/pull/130
+  - label: "physics#133: Ontology self-review of v0.6 outline"
+    url: https://github.com/nous-clawds4/physics/pull/133
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md

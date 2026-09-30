@@ -1,0 +1,38 @@
+id: a-m2
+type: answer
+title: "(M2) Paper 1's count of distinct evolutions at a named cut"
+synopsis: >-
+  Return to Paper 1's measure: count the distinct evolutions at a named finite cut,
+  giving co-existing evolutions equal weight.
+parents: [q-measure]
+status: open
+hold: L3   # weakly held (disclosed)
+tag: method
+rationale: >-
+  Open, with costs on both sides and no lean. For: it carries Paper 1's uniqueness
+  thesis at that cut and gives distinct evolutions equal weight; it is Paper 1's own
+  escape clause, "countable at a grain". Costs (v0.7.1 §9): the cut is a named extra
+  (Problem note 9); a prefix's weight depends on the cut, the objection on which SHPMP
+  2008 rejected the simple count; completed histories may be infinite, so it needs a cut
+  or grain to act at all, also under the (a)-restriction; it carries the maximal-entropy
+  random walk hazard of §7; its next-step weights depend on where the cut sits (Problem
+  note 6), and re-anchoring at each state removes that but in general gives up equal
+  weight at a fixed cut (#168, #169). Ratings (q, a): proposal, pending David's
+  signature. Hold L3 (weakly held).
+reopen_if: null
+q: 0.95   # high; proposal, pending David's signature
+a: 0.5   # low; proposal, pending David's signature
+# h = h(q-measure) x q x a = 0.6859 x 0.95 x 0.5 = 0.3258 (the viewer computes h; not stored as a field)
+sources:
+  - label: "Paper 1, papers/observer-space-ontology.md"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/papers/observer-space-ontology.md
+  - label: "physics#130: v0.6 outline (Paper 1 measure honesty)"
+    url: https://github.com/nous-clawds4/physics/pull/130
+  - label: "physics#156: v0.7 outline"
+    url: https://github.com/nous-clawds4/physics/pull/156
+  - label: "physics#168: Claude Opus 5.5 HOLD on v0.7 prose"
+    url: https://github.com/nous-clawds4/physics/pull/168
+  - label: "physics#169: Geometry: CONFIRM HOLD (narrow)"
+    url: https://github.com/nous-clawds4/physics/pull/169
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md

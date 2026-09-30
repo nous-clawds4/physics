@@ -1,0 +1,9 @@
+# Graph-level metadata for the Path of 42 viewer. Not a node.
+title: Observer-space framework v0.3 to v0.7.1 (Path of 42 pilot retro-map)
+sample: false
+note: >-
+  Pilot retro-map, not a ruling. Every q, a and hold level is a proposal,
+  pending David's signature. Open nodes record undecided calls with costs on
+  both sides and no lean. See index.md.
+repo_url: https://github.com/nous-clawds4/physics
+source_base_url: https://github.com/nous-clawds4/physics/blob/question-graph-pilot/public-papers/observer-space-framework/question-graph/

@@ -1,0 +1,6 @@
+id: v0.5
+title: "Framework paper v0.5 (v0.5-prose.md)"
+synopsis: >-
+  Option E residue and V^τ replace Option F and V* (#117, #118). (a)/(b) gets a cost
+  table, later corrected (#128, #129). Source: physics#123; versions/v0.5-prose.md.
+selects: [a-root, a-jet-direction, a-world-analytic, a-type-ii, a-option-e, a-vtau, a-alternation]

@@ -1,0 +1,37 @@
+id: a-jet-direction
+type: answer
+title: "An analytic metric germ with a future time direction (V = oriented observers)"
+synopsis: >-
+  An observer is the infinite jet of a real-analytic Lorentzian metric at a point
+  (equivalently its analytic patch) with a future unit timelike vector u, taken modulo
+  the germ's isotropy. V is the space of these oriented observers.
+parents: [q-observer-object]
+status: accepted
+hold: L1   # proposal, pending David's signature
+tag: definition
+rationale: >-
+  Paper 1's object, kept in every version (v0.8 Appendix B.2a: "Object: analytic jet
+  plus future time direction", kept). v0.3 made the graph vertices oriented observers
+  (v0.3 prose changelog). The isotropy quotient was lost silently in v0.5 prose and
+  restored in v0.6, after Claude Opus 5.5's HOLD on v0.5 (#128) and Geometry's ACCEPT of
+  that item (#129). Hold L1 because v0.7.1 treats the object as a lock (a larger
+  observer "cannot [be taken] without the lock being changed", §9 T1 row). Record note:
+  v0.3's "V = Lift(u)" was dropped and V now names the vertex space (v0.8 B.2b). Ratings
+  (q, a) and hold level: proposal, pending David's signature.
+reopen_if: null
+q: 0.95   # high; proposal, pending David's signature
+a: 0.95   # high; proposal, pending David's signature
+# h = h(q-observer-object) x q x a = 1.0000 x 0.95 x 0.95 = 0.9025 (the viewer computes h; not stored as a field)
+sources:
+  - label: "physics#98: v0.3 prose"
+    url: https://github.com/nous-clawds4/physics/pull/98
+  - label: "physics#128: Claude Opus 5.5 HOLD on v0.5 prose"
+    url: https://github.com/nous-clawds4/physics/pull/128
+  - label: "physics#129: Geometry pressure test of #128"
+    url: https://github.com/nous-clawds4/physics/pull/129
+  - label: "physics#130: v0.6 outline (isotropy restored)"
+    url: https://github.com/nous-clawds4/physics/pull/130
+  - label: "Paper 1, papers/observer-space-ontology.md"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/papers/observer-space-ontology.md
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md

@@ -1,0 +1,30 @@
+id: a-world-analytic
+type: answer
+title: "A world is a pointed analytic spacetime W = (M, p)"
+synopsis: >-
+  A world is a connected real-analytic Lorentzian 4-manifold with a point that carries
+  the germ. E_W(O), the pointed worlds compatible with the germ, holds occurrences of
+  one lump, not extra observers.
+parents: [q-what-is-a-world]
+status: accepted
+hold: L3   # weakly held (disclosed)
+tag: definition
+rationale: >-
+  v0.3 §2 (world ensemble; v0.8 B.2b: "World W=(M,p); sibling points", kept). v0.7.1 §2:
+  relative ensembles are "not extra vertices, and not a second observer"; the ensemble
+  votes neither on the observer's identity nor on when branching occurs. Record note:
+  v0.3's "topology may vary" and "distinct world ensembles do not intersect" were later
+  dropped, and v0.8 B.2 says drops before v0.8 were unlogged, so their reasons are not
+  in the record. Ratings (q, a): proposal, pending David's signature. Hold L3 (weakly
+  held).
+reopen_if: null
+q: 0.95   # high; proposal, pending David's signature
+a: 0.95   # high; proposal, pending David's signature
+# h = h(q-what-is-a-world) x q x a = 0.9025 x 0.95 x 0.95 = 0.8145 (the viewer computes h; not stored as a field)
+sources:
+  - label: "physics#98: v0.3 prose"
+    url: https://github.com/nous-clawds4/physics/pull/98
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md
+  - label: "physics#183: v0.8 prose, Appendix B.2 status table"
+    url: https://github.com/nous-clawds4/physics/pull/183

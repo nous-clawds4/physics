@@ -1,0 +1,9 @@
+id: v0.3
+title: "Framework paper v0.3 (v0.3-prose.md)"
+synopsis: >-
+  Type-(ii) R introduced; CWS demoted to the type-(i) null baseline. No join law, vertex
+  engine or composition is stated yet (Claude #105). Open: the law of R. Realisation of
+  edges is not yet posed as a question (v0.3 has a compatibility relation, later
+  identified with (a)); the measure is run as EPP1 on discrete arms. Rejected at this
+  version: CWS as the branching law. Source: physics#98; versions/v0.3-prose.md.
+selects: [a-root, a-jet-direction, a-world-analytic, a-type-ii]

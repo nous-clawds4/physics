@@ -1,0 +1,23 @@
+id: q-law-of-r
+type: question
+title: "What is the law of R?"
+synopsis: >-
+  Which rule, stated from lock-side data, gives the type-(ii) edges and their targets?
+  This is the relocated HOLE's final address.
+parents: [a-type-ii, a-vtau]
+hold: L3   # weakly held (disclosed)
+rationale: >-
+  Open in every version ("No law of R is written"). v0.7.1's header gives it as the
+  final address of the relocated HOLE, with its motivation and the choice of slice.
+  Composition item 1 puts R's source set inside V^τ, hence the second parent. The
+  singleton-or-continuum dilemma lives here (soft Prop. 13): kinematics does not single
+  out a dynamics, so a countable star is a new physical choice. The law-of-R scoping
+  work (#178, #182, and the open #185 and #187) comes after v0.7.1 and is not mapped.
+# h = h(a-vtau) = 0.5213 (a question carries its weakest parent's h; the viewer computes it)
+sources:
+  - label: "physics#105: Claude HOLD on v0.3 prose (relocation)"
+    url: https://github.com/nous-clawds4/physics/pull/105
+  - label: "physics#178: law-of-R scoping note (scoping only)"
+    url: https://github.com/nous-clawds4/physics/pull/178
+  - label: "versions/v0.7.1-prose.md (current draft)"
+    url: https://github.com/nous-clawds4/physics/blob/5acf9d39ee387b8b923bd06cff11a20e1e88532c/public-papers/observer-space-framework/versions/v0.7.1-prose.md
