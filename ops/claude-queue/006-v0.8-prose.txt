@@ -1,0 +1,38 @@
+You are acting as an independent external referee for a physics-foundations paper in this repository: https://github.com/nous-clawds4/physics (branch main). Pull the latest main before you start; several files are new since your last review.
+
+THIS IS A FULL REVIEW, NOT A TARGETED RE-REVIEW
+v0.8 is the presentation and hygiene pass on v0.7.1-prose, which you passed in #175 (reviews/v0.7.1-prose-claude-opus-5.5.md). It was planned by the merged v0.8 outline (#177) and its Lead rulings F1–F12. It adds a reference list and three neighbour rows, tidies definitions, logs v0.3's postulates, folds the earlier changelogs into pointers, and applies your four optional #175 notes as Geometry ruled on them in #176. It says it adds no physics claim, pin or number. Read the whole file and judge it as a paper.
+
+WHAT TO REVIEW
+- The draft under review: public-papers/observer-space-framework/versions/v0.8-prose.md on the latest main (79a8271, the squash merge of #183, plus a post-panel status edit to the Status line, §11 and one B.1 line; see the cover).
+- The brief for this pass: public-papers/observer-space-framework/reviews/v0.8-prose-claude-cover.md. Read it first. Use its "What to check" table as your checklist, but don't let it limit you. Its "Not owed in this pass" list binds you.
+
+CONTEXT (OPTIONAL, FOR CONTINUITY)
+- Your previous review, the v0.7.1 PASS: reviews/v0.7.1-prose-claude-opus-5.5.md (#175)
+- Geometry's pressure test of that PASS, which ruled on your four notes: reviews/v0.7.1-prose-claude-pressure-test.md (#176)
+- The outline: versions/v0.8-outline.md (#177), with the Lead rulings on F1–F12 at its end
+- The in-house panel reviews of v0.8 prose: reviews/v0.8-prose-geometry-panel.md (#184, PASS), reviews/v0.8-prose-literature-panel.md (#186, PASS with notes), and reviews/v0.8-prose-fix-diff-geometry.md (#188, PASS, a diff-only check of the panel fixes)
+- The change from v0.7.1: git diff --no-index public-papers/observer-space-framework/versions/v0.7.1-prose.md public-papers/observer-space-framework/versions/v0.8-prose.md
+(The reviews/ and versions/ paths above are under public-papers/observer-space-framework/.)
+
+HOW TO REFEREE
+1. You are independent, not a rubber stamp for the in-house panels, for #176, or for your own previous review. You may reopen anything, including text carried from v0.7.1, if you judge it wrong.
+2. Give a verdict: PASS, HOLD or FAIL. Keep required items separate from suggestions. Give each a location (section and paragraph, table row, or C-number) and, where possible, the exact proposed wording as OLD -> NEW.
+3. Check each claim against the status the paper itself gives it. Keep Postulate, Hope, Open and Firewall strictly apart, and flag any sentence that lets a Hope or an Open item read as a result.
+4. Check that nothing overclaims. There should be no law of R, no Born rule, |a|^2 or 1/N put in by hand, and no Einstein-equation claim. (M1)/(M2), T1–T3 and the open calls should stay undecided, with costs on both sides.
+5. Test claims instead of only reading them where you can (Appendix A pins, the exact C33 law, the C13 tree). Mark anything you could not check as unchecked.
+
+WHAT NOT TO DEMAND
+- Do not require a choice between (M1) and (M2). That is the author's open question.
+- Do not ask the paper to adopt a law of R, or to supply a motivated controlled example.
+- Do not propose Born weights, |a|^2 or 1/N put in by hand, and do not ask for an Einstein-equation claim.
+- Do not ask the paper to settle the items it marks open (T1–T3, Q-D1–Q-D5, #139 (a)–(e)). Only check that they are stated honestly. The cover gives the mapping from those labels to the §9 table rows.
+- Do not ask for changes to the separately held essays, Statement of the Problem and Mathematical Foundations.
+- The SHPMP 2008 manuscript is cited without its title by the Lead's choice (Literature #186, R5, option (b)). Do not ask for the title.
+- Do not ask for length additions beyond what a fix needs. The main-text overage of about 200 words (about 240 after the status edit) is an accepted budget error.
+
+WHAT TO FILE
+- Write your review to public-papers/observer-space-framework/reviews/v0.8-prose-claude-opus-5.5.md
+- The first line of the file is the verdict: "Verdict: PASS", "Verdict: HOLD" or "Verdict: FAIL". Then give a short summary, findings keyed to the cover's "What to check" table, any new issues, required items (if HOLD or FAIL, the smallest set of changes that would move it to PASS), suggestions kept separate, anything unchecked, and provenance.
+- Open one pull request against main containing only that review file. Title it "External review (Claude Opus 5.5): v0.8-prose <VERDICT>". Do not merge it.
+- Do not edit the draft, the outline, the cover, the essays, or any other file.
