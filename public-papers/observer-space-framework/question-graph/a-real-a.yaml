@@ -14,8 +14,9 @@ rationale: >-
   (a): it is lock-side and world-free; it forbids every edge whose target lies off F(O),
   including all cross-continuation jumps (flat to FLRW; Schwarzschild M = 1 to M = 2);
   it permits curvature-changing jumps within one continuation class (K rises by a factor
-  of about 3.8, C2). Costs recorded: the worked Kretschmann rule loses its outward
-  edges; its (a)-restriction branches only transiently (one jump at c = 0.1, 12 to 14 at
+  of about 3.8, C2). Costs recorded: the worked Kretschmann rule loses one edge at each
+  turning point of the instance (outward at the periastron, inward at the apastron); its
+  (a)-restriction branches only transiently (one jump at c = 0.1, 12 to 14 at
   c = 0.01) with countably many completed histories (C33, v0.7 on); the admissible
   targets of one germ form a continuum (C4), so (a) is a necessary condition, not a law.
   #168's optional clause attributing the transient to circularisation was declined as
