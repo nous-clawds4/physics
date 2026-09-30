@@ -8,7 +8,7 @@ It is deliberately **not** under `papers/`, which is crowded with in-house notes
 
 | Path | Role |
 |---|---|
-| `versions/` | Numbered drafts (`v0.1-outline.md`, …, `v0.7-outline.md`, `v0.7-prose.md`, `v0.7.1-prose.md`, `v0.8-outline.md`, `v0.8-prose.md`) |
+| `versions/` | Numbered drafts (`v0.1-outline.md`, …, `v0.7-outline.md`, `v0.7-prose.md`, `v0.7.1-prose.md`, `v0.8-outline.md`, `v0.8-prose.md`, `v0.8.1-prose.md`) |
 | `reviews/` | External and in-house reviews; each file **must** name the version it reviews |
 
 Living working definitions stay in the repo-root file [`mathematical-framework.md`](../../mathematical-framework.md). Where that file disagrees with a numbered draft, the draft wins for review purposes.
