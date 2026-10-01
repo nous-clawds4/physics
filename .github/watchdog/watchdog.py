@@ -5,13 +5,16 @@ Signals
   stall : the latest "runner: started X" comment on the runner log issue has
           no later "runner: finished X" and is older than STALL_MINUTES.
   quiet : no commit on main, no PR opened/updated, and no issue/PR comment for
-          more than QUIET_HOURS, unless the most recent issue comment contains
-          "parked until <ISO time>" with that time still in the future.
+          more than QUIET_HOURS, unless the most recent "parked until <ISO time>"
+          note (among recent trusted comments on the runner issue, plus the
+          latest trusted comment in the repo) is still in the future.
           Only alerted between QUIET_WINDOW_START and QUIET_WINDOW_END (ET),
           or at any hour while the runner is mid-job.
 
 On a signal it keeps one open issue labelled ALERT_LABEL, comments there with
-evidence, and gives the issue a fresh assignment to ASSIGNEE. See README.md.
+evidence, and gives the issue a fresh assignment to ASSIGNEE. Hourly reminders
+edit a status block in the issue body instead of posting new comments, and
+ESCALATE_TO is mentioned in exactly one comment per alert issue. See README.md.
 """
 import json
 import os
@@ -36,6 +39,10 @@ QUIET_WINDOW_START = int(_env("QUIET_WINDOW_START", "8"))   # hour, ET, inclusiv
 QUIET_WINDOW_END = int(_env("QUIET_WINDOW_END", "24"))      # hour, ET, exclusive
 REPEAT_MINUTES = float(_env("REPEAT_MINUTES", "60"))
 ESCALATE_MINUTES = float(_env("ESCALATE_MINUTES", "30"))
+# Park notes are looked for in the last PARK_SCAN_COMMENTS trusted comments on
+# the runner issue, plus any trusted comment there from the last PARK_SCAN_HOURS.
+PARK_SCAN_COMMENTS = int(_env("PARK_SCAN_COMMENTS", "20"))
+PARK_SCAN_HOURS = float(_env("PARK_SCAN_HOURS", "48"))
 ALERT_LABEL = _env("ALERT_LABEL", "ops-alert")
 ACK_LABEL = _env("ACK_LABEL", "ack")
 ASSIGNEE = _env("ASSIGNEE", "nous-clawds4")
@@ -51,6 +58,11 @@ MARK_ISSUE = "<!-- watchdog:issue -->"
 MARK_ALERT_RE = re.compile(r"<!-- watchdog:alert (\{.*?\}) -->")
 MARK_ESC_RE = re.compile(r"<!-- watchdog:escalation (\{.*?\}) -->")
 MARK_CLEAR = "<!-- watchdog:cleared -->"
+# Status block kept in the alert issue body (edited in place, never a new comment).
+MARK_STATUS_BEGIN = "<!-- watchdog:status-begin -->"
+MARK_STATUS_RE = re.compile(r"<!-- watchdog:status (\{.*?\}) -->")
+STATUS_BLOCK_RE = re.compile(r"\n*(?:---\n+)?<!-- watchdog:status-begin -->.*?<!-- watchdog:status \{.*?\} -->",
+                             re.S)
 STARTED_RE = re.compile(r"^\s*runner:\s*started\s+(\S+)", re.I)
 FINISHED_RE = re.compile(r"^\s*runner:\s*finished\s+(\S+)", re.I)
 LIFECYCLE_RE = re.compile(r"^\s*runner:\s*(online|reached|weekly quota)", re.I)
@@ -83,6 +95,7 @@ def parse_park(text):
         return None
     raw = m.group(1).replace(" ", "T", 1) if len(m.group(1)) > 10 else m.group(1)
     raw = re.sub(r"T(\d{2}:\d{2}(?::\d{2}(?:\.\d+)?)?)\s+", r"T\1", raw)
+    raw = re.sub(r"([+-]\d{2})(\d{2})$", r"\1:\2", raw)   # -0400 -> -04:00 (older Pythons)
     try:
         dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
     except ValueError:
@@ -98,6 +111,29 @@ def trusted(c):
 def is_watchdog_comment(c):
     b = c.get("body") or ""
     return bool(MARK_ALERT_RE.search(b) or MARK_ESC_RE.search(b) or MARK_CLEAR in b)
+
+def is_human(c):
+    """Trusted comment that is not from a bot and not one of ours."""
+    login = (c.get("user") or {}).get("login", "")
+    return login not in BOT_LOGINS and not is_watchdog_comment(c) and trusted(c)
+
+def find_park(runner_comments, latest_comment, now):
+    """Most recent 'parked until <ISO>' note. Candidates: the last
+    PARK_SCAN_COMMENTS trusted comments on the runner issue, any trusted runner
+    issue comment from the last PARK_SCAN_HOURS, and the latest trusted comment
+    in the repo. Returns (datetime, comment) or (None, None). A later automated
+    runner line no longer hides an earlier park note."""
+    cs = sorted((c for c in runner_comments if is_human(c)), key=lambda c: c["created_at"])
+    cutoff = now - timedelta(hours=PARK_SCAN_HOURS)
+    cands = {c["id"]: c for c in cs[-PARK_SCAN_COMMENTS:] if PARK_SCAN_COMMENTS > 0}
+    cands.update({c["id"]: c for c in cs if parse_ts(c["created_at"]) >= cutoff})
+    if latest_comment:
+        cands[latest_comment["id"]] = latest_comment
+    for c in sorted(cands.values(), key=lambda c: c["created_at"], reverse=True):
+        dt = parse_park(c.get("body"))
+        if dt is not None:
+            return dt, c
+    return None, None
 
 
 # ----------------------------------------------------------- signal logic --
@@ -192,8 +228,9 @@ def evaluate(data, now):
         activity.append((parse_ts(latest_comment["created_at"]),
                          f"[comment]({latest_comment['html_url']}) on #{num}"))
     info["activity"] = activity
-    park = parse_park(latest_comment.get("body")) if latest_comment else None
+    park, park_comment = find_park(data.get("runner_comments", []), latest_comment, now)
     info["park"] = park
+    info["park_comment"] = park_comment
     if activity:
         last_ts, last_what = max(activity, key=lambda a: a[0])
         quiet_h = (now - last_ts).total_seconds() / 3600
@@ -208,9 +245,10 @@ def evaluate(data, now):
             for ts, what in sorted(activity, key=lambda a: a[0], reverse=True):
                 lines.append(f"- {what} at {et(ts)} ({ago(now, ts)} ago)")
             if park is not None:
-                lines.append(f"The latest comment has a park note that expired at {et(park)}.")
+                lines.append(f"The most recent [park note]({park_comment['html_url']}) expired at {et(park)}.")
             else:
-                lines.append('No active "parked until <ISO time>" note in the latest comment.')
+                lines.append(f'No "parked until <ISO time>" note in recent comments on #{RUNNER_ISSUE} '
+                             "or in the latest comment.")
             conds.append({"key": f"quiet:{iso(last_ts)}", "kind": "quiet",
                           "notify": in_window or rs["mid_job"],
                           "title": f"Loop quiet for {quiet_h:.1f} h (since {et(last_ts)})",
@@ -229,7 +267,7 @@ def plan(conds, issue, issue_comments, issue_labels, now):
         actions.append({"op": "create_issue"})
         issue_comments, issue_labels = [], []
 
-    alerts, escalations = [], set()
+    alerts, escalations = [], []
     for c in sorted(issue_comments, key=lambda c: c["created_at"]):
         b = c.get("body") or ""
         login = (c.get("user") or {}).get("login", "")
@@ -242,7 +280,7 @@ def plan(conds, issue, issue_comments, issue_labels, now):
                            "run": meta.get("run"), "run_start": parse_ts(meta.get("run_start", c["created_at"]))})
         m = MARK_ESC_RE.search(b)
         if m:
-            escalations.add(json.loads(m.group(1)).get("run"))
+            escalations.append(json.loads(m.group(1)).get("run"))
 
     if not conds:
         if issue is not None:
@@ -259,31 +297,84 @@ def plan(conds, issue, issue_comments, issue_labels, now):
     acked = ACK_LABEL in issue_labels or (
         last_alert is not None and any(t > last_alert["at"] for t in ack_comments))
 
+    # The last reminder time lives in the issue body's status marker, because
+    # hourly reminders edit that block instead of posting comments.
+    status = read_status((issue or {}).get("body"))
+    last_ping = last_alert["at"] if last_alert else None
+    if last_ping and status.get("at") and status.get("run") == last_alert["run"]:
+        last_ping = max(last_ping, parse_ts(status["at"]))
+
     seen = {k for a in alerts for k in a["keys"]}
     new_keys = [c["key"] for c in notify if c["key"] not in seen]
     post = None
     if new_keys:
         post = "new"
-    elif last_alert and not acked and (now - last_alert["at"]).total_seconds() / 60 >= REPEAT_MINUTES:
+    elif last_alert and not acked and (now - last_ping).total_seconds() / 60 >= REPEAT_MINUTES:
         post = "repeat"
 
     run, run_start = (last_alert["run"], last_alert["run_start"]) if last_alert else (None, None)
-    if post:
+    if post == "new":
         if last_alert is None or acked:
             run, run_start = iso(now), now          # a new unacknowledged stretch
         actions.append({"op": "alert", "kind": post, "new_keys": new_keys,
                         "run": run, "run_start": iso(run_start),
-                        "remove_ack": post == "new" and ACK_LABEL in issue_labels})
+                        "remove_ack": ACK_LABEL in issue_labels})
         actions.append({"op": "reassign"})
         acked = False
+    elif post == "repeat":
+        # Hourly reminder: edit the status block in the issue body (no new
+        # comment, so subscribers get no notification) and re-assign.
+        actions.append({"op": "status", "run": run, "run_start": iso(run_start),
+                        "count": int(status.get("count", 0)) + 1 if status.get("run") == run else 1})
+        actions.append({"op": "reassign"})
 
-    if (not acked and run and run not in escalations
+    # At most one escalation comment (the only one that mentions ESCALATE_TO)
+    # per alert issue: once it exists, ESCALATE_TO is never mentioned again.
+    if (not acked and run and not escalations
             and (now - run_start).total_seconds() / 60 > ESCALATE_MINUTES):
         actions.append({"op": "escalate", "run": run, "run_start": iso(run_start)})
     return actions
 
 
 # ------------------------------------------------------------- rendering --
+def read_status(body):
+    m = MARK_STATUS_RE.search(body or "")
+    if not m:
+        return {}
+    try:
+        return json.loads(m.group(1))
+    except ValueError:
+        return {}
+
+def with_status(body, lines, meta):
+    """Return the issue body with its status block replaced (or appended)."""
+    base = STATUS_BLOCK_RE.sub("", body or "").rstrip()
+    block = "\n".join(["---", MARK_STATUS_BEGIN] + lines + [f"<!-- watchdog:status {json.dumps(meta)} -->"])
+    return f"{base}\n\n{block}"
+
+def render_status(action, conds, now):
+    notify = [c for c in conds if c["notify"]]
+    start = parse_ts(action["run_start"])
+    out = [f"**Watchdog status: still active, not yet acknowledged** (checked {et(now)}; "
+           f"unacknowledged since {et(start)}, {ago(now, start)}; hourly reminder {action['count']}). "
+           "This block is updated in place instead of posting a new comment each hour.", ""]
+    for c in notify:
+        out.append(f"**{c['title']}**")
+        out += c["lines"]
+        out.append("")
+    for c in conds:
+        if not c["notify"]:
+            out.append(f"(Also true but outside the alert window: {c['title']}.)")
+    out.append(f"To acknowledge, add the `{ACK_LABEL}` label or reply with a comment containing \"ack\".")
+    meta = {"run": action["run"], "at": iso(now), "count": action["count"],
+            "keys": [c["key"] for c in notify]}
+    return out, meta
+
+def render_clear_status(now):
+    lines = [f"**Watchdog status: cleared** at {et(now)}: no active conditions "
+             "(runner not stalled, loop not quiet). Closed by the watchdog.", MARK_CLEAR]
+    return lines, {"cleared": iso(now)}
+
 def render_alert(action, conds, now):
     notify = [c for c in conds if c["notify"]]
     head = "New alert" if action["kind"] == "new" else "Still active (hourly reminder, not yet acknowledged)"
@@ -297,7 +388,8 @@ def render_alert(action, conds, now):
     for c in held:
         out.append(f"(Also true but outside the alert window: {c['title']}.)")
     out.append(f"To acknowledge, add the `{ACK_LABEL}` label or reply with a comment containing \"ack\". "
-               f"If nobody acknowledges within {ESCALATE_MINUTES:g} min, @{ESCALATE_TO} gets pinged. "
+               f"If nobody acknowledges within {ESCALATE_MINUTES:g} min, `{ESCALATE_TO}` gets one escalation "
+               "ping. Further reminders update the status block in the issue body instead of adding comments. "
                "This issue closes itself when the conditions clear.")
     meta = {"keys": [c["key"] for c in notify], "run": action["run"], "run_start": action["run_start"]}
     out.append(f"<!-- watchdog:alert {json.dumps(meta)} -->")
@@ -310,14 +402,10 @@ def render_escalation(action, conds, now):
            f"({ago(now, start)}).", ""]
     for c in notify:
         out.append(f"- {c['title']}")
-    out += ["", f"Details are in the comments above. Add the `{ACK_LABEL}` label or reply \"ack\" to acknowledge.",
+    out += ["", f"Details are in the comments above; hourly reminders update the status block in the issue body "
+            f"(no further mentions). Add the `{ACK_LABEL}` label or reply \"ack\" to acknowledge.",
             f"<!-- watchdog:escalation {json.dumps({'run': action['run']})} -->"]
     return "\n".join(out)
-
-def render_clear(now):
-    return (f"cleared\n\nWatchdog at {et(now)}: no active conditions (runner not stalled, loop not quiet). "
-            f"Closing.\n{MARK_CLEAR}")
-
 
 # ------------------------------------------------------------ GitHub I/O --
 class GitHub:
@@ -433,6 +521,13 @@ def apply(gh, actions, conds, issue, now, dry_run=False):
         return None if dry_run else fn()
     r = gh.repo if gh else REPO
     num = issue["number"] if issue else None
+    body_now = (issue or {}).get("body") or ""
+    def set_body(desc, lines, meta):
+        nonlocal body_now
+        new = with_status(body_now, lines, meta)
+        do(f"edit body of #{num} ({desc}):\n" + "\n".join("    | " + l for l in new.splitlines()),
+           lambda: gh.req("PATCH", f"/repos/{r}/issues/{num}", {"body": new}))
+        body_now = new
     for a in actions:
         op = a["op"]
         if op == "create_issue":
@@ -442,13 +537,15 @@ def apply(gh, actions, conds, issue, now, dry_run=False):
             notify = [c for c in conds if c["notify"]]
             title = "Ops alert: " + "; ".join(c["kind"] for c in notify)
             body = ("Automated alert issue opened by the watchdog workflow "
-                    "(`.github/workflows/watchdog.yml`). Alerts are posted as comments below. "
+                    "(`.github/workflows/watchdog.yml`). New alerts are posted as comments below; "
+                    "hourly reminders update the status block at the end of this description instead. "
                     f"Acknowledge with the `{ACK_LABEL}` label or an \"ack\" comment. "
                     "The watchdog closes this issue when the conditions clear.\n\n" + MARK_ISSUE)
             res = do(f"create issue '{title}' labelled {ALERT_LABEL}, assigned {ASSIGNEE}",
                      lambda: gh.req("POST", f"/repos/{r}/issues",
                                     {"title": title, "body": body, "labels": [ALERT_LABEL], "assignees": [ASSIGNEE]})[0])
             num = res["number"] if res else "NEW"
+            body_now = body
             a["_created"] = True
         elif op == "alert":
             if a.get("remove_ack"):
@@ -458,6 +555,9 @@ def apply(gh, actions, conds, issue, now, dry_run=False):
             do(f"comment on #{num} ({a['kind']} alert, keys={[c['key'] for c in conds if c['notify']]}):\n"
                + "\n".join("    | " + l for l in body.splitlines()),
                lambda: gh.req("POST", f"/repos/{r}/issues/{num}/comments", {"body": body}))
+        elif op == "status":
+            lines, meta = render_status(a, conds, now)
+            set_body("hourly reminder, no new comment", lines, meta)
         elif op == "reassign":
             if any(x.get("_created") for x in actions):
                 continue  # just created with the assignee: that is the fresh assignment
@@ -470,8 +570,10 @@ def apply(gh, actions, conds, issue, now, dry_run=False):
             do(f"comment on #{num} (escalation):\n" + "\n".join("    | " + l for l in body.splitlines()),
                lambda: gh.req("POST", f"/repos/{r}/issues/{num}/comments", {"body": body}))
         elif op == "clear":
-            do(f"comment 'cleared' on #{num}",
-               lambda: gh.req("POST", f"/repos/{r}/issues/{num}/comments", {"body": render_clear(now)}))
+            # No "cleared" comment (it would notify everyone subscribed); the
+            # note goes into the issue body's status block, then the issue closes.
+            lines, meta = render_clear_status(now)
+            set_body("cleared", lines, meta)
             if a.get("remove_ack"):
                 do(f"remove label {ACK_LABEL} from #{num}",
                    lambda: gh.req("DELETE", f"/repos/{r}/issues/{num}/labels/{ACK_LABEL}", ok404=True))
@@ -491,7 +593,8 @@ def summarize(conds, info, now):
         print("runner: no start lines found")
     if "quiet_hours" in info:
         print(f"activity: quiet {info['quiet_hours']:.2f} h, in_window={info['in_window']}, "
-              f"parked={info['parked']} (park note: {et(info['park']) if info['park'] else 'none'})")
+              f"parked={info['parked']} (park note: {et(info['park']) if info['park'] else 'none'}"
+              + (f", {info['park_comment']['html_url']}" if info.get('park_comment') else "") + ")")
     print("conditions:", [(c["key"], "notify" if c["notify"] else "held") for c in conds] or "none")
 
 
