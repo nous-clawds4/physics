@@ -2,7 +2,9 @@ name: watchdog
 
 # Checks every 15 minutes for (1) a stalled Claude review runner on #146 and
 # (2) a quiet loop (no commits, PR activity or comments). Alerts go to one open
-# issue labelled ops-alert, assigned to nous-clawds4. Logic and tests live in
+# issue labelled ops-alert, assigned to nous-clawds4. Hourly reminders edit a
+# status block in that issue's body (no new comments), and ESCALATE_TO is
+# mentioned in one comment per alert issue only. Logic and tests live in
 # .github/watchdog/. Thresholds are the env values below.
 on:
   schedule:
@@ -29,8 +31,10 @@ env:
   QUIET_HOURS: '3'             # no commit / PR activity / comment for longer than this = quiet
   QUIET_WINDOW_START: '8'      # quiet is only alerted from 08:00 ET ...
   QUIET_WINDOW_END: '24'       # ... to 23:59 ET, or at any hour while the runner is mid-job
-  REPEAT_MINUTES: '60'         # re-post an unacknowledged ongoing alert at most this often
-  ESCALATE_MINUTES: '30'       # unacknowledged this long -> one comment mentioning ESCALATE_TO
+  REPEAT_MINUTES: '60'         # refresh an unacknowledged ongoing alert (issue-body status edit + reassign) this often
+  ESCALATE_MINUTES: '30'       # unacknowledged this long -> one comment mentioning ESCALATE_TO (once per alert issue)
+  PARK_SCAN_COMMENTS: '20'     # look for "parked until <ISO>" in the last N trusted comments on RUNNER_ISSUE ...
+  PARK_SCAN_HOURS: '48'        # ... and in any trusted comment there from the last N hours (most recent note wins)
   ALERT_LABEL: 'ops-alert'
   ACK_LABEL: 'ack'
   ASSIGNEE: 'nous-clawds4'     # the assignment wakes Chief of Staff
