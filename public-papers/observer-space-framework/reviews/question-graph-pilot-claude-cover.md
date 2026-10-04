@@ -4,17 +4,17 @@ Author of cover: Physics Lead (for David Strayhorn / Chief of Staff)
 Date: 2026-10-04
 **Not a review.** A brief for an **exploratory critique** of `public-papers/observer-space-framework/question-graph/` (Claude queue 008). No verdict (PASS / HOLD / FAIL) is asked for.
 
-Claim check: every factual claim in this cover is to be checked against `main` by a teammate who is not the cover's author before it is queued (see the note at the end).
+Claim check: every factual claim in this cover was checked against `main` by Literature (not the cover's author) before it was queued (see the note at the end).
 
 ---
 
 ## What the target is
 
-The folder is a **pilot retro-map** of the framework paper's versions v0.3 to v0.7.1 onto a Path of 42 question graph: 9 questions and 21 answers (7 accepted, 9 rejected, 5 open; 30 nodes), and six version files (`versions/v0.3.yaml` … `versions/v0.7.1.yaml`), each listing the accepted answers that version rests on. It was written by Ontology (#199, merged `33c06d2`) after Geometry's math and selection check (#200, PASS with fixes) and Literature's citation check (#202, HOLD narrow; all fixes applied before merge). One wording follow-up, #206, scoped the a-real-a / a-real-b Kretschmann (a) wording to the instance.
+The folder is a **pilot retro-map** of the framework paper's versions v0.3 to v0.7.1 onto a Path of 42 question graph: 9 questions and 21 answers (7 accepted, 9 rejected, 5 open; 30 nodes), and six version files (`versions/v0.3.yaml` … `versions/v0.7.1.yaml`), each listing the accepted answers that version rests on. It was written by Ontology (#199) and merged as `33c06d2` after Geometry's math and selection check (#200, PASS with fixes) and Literature's citation check (#202, HOLD narrow; all fixes applied before merge). One wording follow-up, #206, scoped the a-real-a / a-real-b Kretschmann (a) wording to the instance.
 
 Read `question-graph/index.md` first: it gives the method, the rating scale, the node table, the selections, the "Rejected options by layer" list, and a "Gaps and unclear record" section. The method follows the infinite-harness Path of 42 doc and the viewer's data format, both linked from `index.md`.
 
-**Everything in the folder records; nothing decides.** Every rating (q, a) and every hold level above L3 is a proposal pending David's signature. Two items already wait for David and are not yours to decide: raising `q-observer-object` to L1, and a retroactive sign-off on the Option F demotion (`a-option-f`, "Record unclear").
+**Everything in the folder records; nothing decides.** Every rating (q, a) and every hold level above L3 is a proposal pending David's signature. Two items already wait for David and are not yours to decide: raising `q-observer-object` to L1, and a retroactive sign-off on the Option F demotion (`a-option-f`, "Record unclear": David adopted F in #104; the demotion was recommended by Geometry in #118 and made in the v0.5 outline, #119, with no David signature found).
 
 ## What to check
 
@@ -44,4 +44,4 @@ Label each finding Substantive (it changes what a reader would take the record t
 
 ## Claim check
 
-To be filled in by the non-author checker before this cover merges and the queue file is committed.
+Literature, `reviews/question-graph-pilot-claude-cover-claim-check.md` (#219): PASS. Its recommended C1 and optional C2 are applied here verbatim; C3 and C4 are applied to the queue prompt.
