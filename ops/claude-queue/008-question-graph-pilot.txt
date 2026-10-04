@@ -1,0 +1,22 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics (branch main). Pull the latest main before you start; several files are new since your last review.
+
+THIS IS AN EXPLORATORY CRITIQUE, NOT A REVIEW OF THE PAPER
+The target is a pilot retro-map, not a paper: public-papers/observer-space-framework/question-graph/ (merged via #199, wording follow-up #206). It maps the framework paper's versions v0.3 to v0.7.1 onto a question graph of 30 nodes, with six version-selection files. It records; it decides nothing, and every rating and hold level above L3 is a proposal pending David's signature. No verdict (PASS / HOLD / FAIL) is asked for.
+
+WHAT TO READ
+- The brief for this pass: public-papers/observer-space-framework/reviews/question-graph-pilot-claude-cover.md. Read it first. Its "What to check" table (questions 1-4) is your checklist, its "Out of bounds" list binds you, and its "Please file" section tells you how to file. Don't let it limit what else you flag, but keep extra findings separate from questions 1-4.
+- question-graph/index.md, then the node files and versions/*.yaml.
+- The sources the nodes cite (PRs, versions/v0.N-prose.md files, reviews), as needed to check faithfulness.
+- The in-house checks of the pilot: reviews/question-graph-pilot-geometry.md (#200) and reviews/question-graph-pilot-literature.md (#202).
+(The reviews/ and versions/ paths above are under public-papers/observer-space-framework/.)
+
+HOW TO CRITIQUE
+1. You are independent: not a rubber stamp for Ontology, Geometry or Literature.
+2. Check claims against their sources rather than only reading them. Mark anything you could not finish checking as unchecked.
+3. Keep Postulate, Hope, Open and Firewall strictly apart. Do not pick or rank (M1)/(M2). Do not propose a law of R. Do not decide T1-T3, Q-D1-Q-D5 or #139 (a)-(e). Do not use the Born rule, |a|^2 or 1/N, and make no Einstein-equation claim. Do not propose rating values or hold levels as rulings; they are David's call. Do not decide the two items the cover says are waiting for David.
+
+WHAT TO FILE
+- Write your critique to public-papers/observer-space-framework/reviews/question-graph-pilot-claude-opus-5.5.md
+- Head it "Verdict: none (exploratory critique)". Give findings to questions 1-4 in order, labelling each Substantive / Clarification / Nit as the cover defines them, with the node id and an exact OLD -> NEW where you can. Then the cover's separate part, then anything unchecked, then provenance.
+- Open one pull request against main containing only that file. Title it "Exploratory critique (Claude Opus 5.5): question-graph pilot". Do not merge it.
+- Do not edit the question graph, the cover, the paper versions, Paper 1 (papers/observer-space-ontology.md), the essays, or any other file.
