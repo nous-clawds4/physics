@@ -9,22 +9,19 @@ status: rejected
 hold: L3   # weakly held (disclosed)
 tag: math-tool
 rationale: >-
-  Ontology's proposal (#103), adopted by David on 2026-09-07 as the working in-house
+  Defined in Geometry's join menu as the "Hybrid default candidate", with Geometry's non-binding lean (#102); recommended by Ontology (#103); adopted by David on 2026-09-07 as the working in-house
   join law (#104), and public in v0.4 (#108, #112). Rejected after Claude Fable 5.1's
   HOLD on v0.4 (#117): Geometry accepted Claim A (#118). Finite-k matching is vacuous at
   k = 1 between distinct lumps (every 1-jet is the same in u-adapted normal
   coordinates), prohibitive at k of 2 or more for curvature-changing jumps (the 2-jet is
-  the Riemann tensor), and cannot create a branching edge; F is demoted to E. #134's
+  the Riemann tensor), and cannot create a branching edge (#128 row 1's wording, after #118); and the CWS singleton never rested on the order of matching (#117 §2.1, Claim A), so finite-k matching was not the HOLE escape. F is demoted to E. #134's
   banner withdraws the Option F recommendation ("finite k is not the HOLE escape",
   Claude #128 row 3). Record unclear: #104 records David's adoption; the demotion found
   here was recommended by Geometry (#118), made in the v0.5 outline (#119) and passed by its panels (#120 to #122), with no separate
   signature from David located. Ratings (q, a): proposal, pending David's signature.
   Hold L3 (weakly held).
 reopen_if: >-
-  Mapper's wording of #118's QUALIFY (truncated-jet language may stay as continue-arm
-  housekeeping): only if a canonical comparison of jets across distinct lumps were found
-  under which finite-k agreement is neither vacuous (k = 1) nor forbids curvature change
-  (k of 2 or more).
+  Mapper's proposal; the record gives no reopen condition. #118's QUALIFY keeps truncated-jet language only as housekeeping (automatic on the continue arm; an exclusion of bare u-jumps, if kept, is a selection rule on R) and "does not save F as branching mechanism". Only if finite-k matching were shown to create a branching edge, or the CWS singleton were shown to depend on the order of matching after all (#117 §2.1, Claim A, accepted by #118: it rests on the shared oriented germ and geodesic uniqueness). A comparison of jets across distinct lumps would not do it: #118 finds no canonical identification there; at k = 1 matching is vacuous, and at k of 2 or more matching forces equal curvature "under any identification that makes the comparison defined".
 q: 0.8   # medium; proposal, pending David's signature
 a: 0.5   # low; proposal, pending David's signature
 # h = h(q-join-law) x q x a = 0.6859 x 0.8 x 0.5 = 0.2744 (the viewer computes h; not stored as a field)

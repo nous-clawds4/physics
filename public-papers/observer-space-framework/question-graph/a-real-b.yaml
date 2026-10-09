@@ -16,7 +16,7 @@ rationale: >-
   record attaches to the model without (a): its completed histories form a continuum
   (C16, a proof), and Paper 1 §6 calls a continuum with no grain "a failure of the
   program" unless a grain is supplied; under the rule as stated, typical histories are
-  jump-dominated and fail both (J1) and (J2) (C17). Not-(a) is not the same as
+  jump-dominated (C17, C34), and the rule fails both (J1) and (J2) (C17). Not-(a) is not the same as
   cross-continuation. Ratings (q, a): proposal, pending David's signature. Hold L3
   (weakly held).
 reopen_if: null

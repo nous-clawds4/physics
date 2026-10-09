@@ -7,7 +7,7 @@ synopsis: >-
 parents: [a-type-ii]
 hold: L3   # weakly held (disclosed)
 rationale: >-
-  Posed by Geometry's C^k join menu (#102) right after v0.3. Claude #105 had said v0.3
+  Posed by Geometry's C^k join menu (#102) right after v0.3. Claude #105, written after #102 to #104 and reading Option F as its own §2 composition reading (C) written out (#105's lettering, not this graph's (A)–(C)), said v0.3
   never stated how type-(i) motion composes with R-edges.
 # h = h(a-type-ii) = 0.6859 (a question carries its weakest parent's h; the viewer computes it)
 sources:

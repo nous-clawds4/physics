@@ -9,7 +9,7 @@ hold: L3   # weakly held (disclosed)
 rationale: >-
   An open one-liner in v0.4 (#112), with a cost table in v0.5; re-costed and made
   lock-side in v0.6 after Claude #128 row 7 (Geometry #129 claim 1 ACCEPT: v0.5's cost row
-  saying (a) forbids curvature-changing jumps was false). v0.8 B.2b logs it as moved to
+  saying (a) forbids curvature-changing jumps was false); given the outline's arrival-tangent convention, Geometry #131 R1 showed (a) is lock-side (target in F(O), off the source's curvelet) and re-glossed (b) as "no realisation required" (v0.6 outline r2). v0.8 B.2b logs it as moved to
   an open call. Compatibility (§2), if kept, is (a).
 # h = h(a-type-ii) = 0.6859 (a question carries its weakest parent's h; the viewer computes it)
 sources:

@@ -10,8 +10,7 @@ status: accepted
 hold: L3   # weakly held (disclosed)
 tag: definition
 rationale: >-
-  The v0.4 composition (alternation; Claude #105's reading C), made strict in v0.6
-  (#130) after #128 row 2. Geometry #129 QUALIFY: (A) does not remove arrival
+  The v0.4 composition (alternation; Claude #105's reading C), made explicitly strict in v0.6 (#130) after #128 row 2 (Claude #117 had read v0.4's "alternates" as already forbidding consecutive jumps and asked to "allow consecutive jumps or say why not"; v0.6 writes the positive-length clause and adds the flag). Claude #105's reading letters are its own, not this graph's (A)–(C). Geometry #129 QUALIFY: (A) does not remove arrival
   dependence; it is honest only as a Markov chain on the enlarged state (O^u, a), plus a
   named no-Zeno clause. Walk semantics follows (the weight acts per visit). Proper time
   is carried only along segments, so a history is no longer Paper 1's proper-time curve.

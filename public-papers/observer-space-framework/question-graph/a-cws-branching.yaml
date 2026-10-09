@@ -9,19 +9,17 @@ status: rejected
 hold: L3   # weakly held (disclosed)
 tag: math-tool
 rationale: >-
-  Rejected as the branching law in v0.3 ("CWS demoted", #98). Under CWS and either
+  Proposed from the v0.1 outline through v0.2.1 prose as "a working type-(ii) motion law on observer space"; recast as type (i) by Claude's v0.2.1 HOLD and Geometry's motion recommendation, and rejected as the branching law in v0.3 ("CWS demoted", #98), which keeps it as "a coherent type-(i) package" (v0.3 §4.1): switching worlds leaves the path in Obs unchanged. Under CWS and either
   path-germ equivalence (E1) or (E2) the branch set is a singleton, because the shared
   germ fixes a unique geodesic piece and all paths agree at the start (v0.7.1 §4.1). CWS
   stays as the accepted type-(i) null baseline; only its branching role is rejected.
-  Claude #105 judged the HOLE "cleared as an error" by this move. Geometry #118 (on
+  Claude #105 judged the HOLE "cleared as an error, relocated honestly to the law of R, not fatal" by this move. Geometry #118 (on
   Claude #117, Claim A) accepted Claude's correction of the attribution: the singleton comes from germ sharing
   and geodesic uniqueness, not from infinite-order matching. #134's banners record "CWS
   not favoured" after Claude #128. Ratings (q, a): proposal, pending David's signature.
   Hold L3 (weakly held).
 reopen_if: >-
-  Mapper's proposal, from the proposition's hypotheses: a path-germ equivalence other
-  than (E1)/(E2) that a referee accepts, or a flaw in the CWS-singleton sketch, under
-  which type-(i) motion gives two or more arms.
+  Mapper's proposal, from the proposition's sketch: a flaw in sketch steps 1–2, or an escape not among those the record lists as failing (Geometry's v0.2.1 motion recommendation, citing Claude's v0.2.1 HOLD §1.3), under which CWS gives two or more arms. A different equivalence on path germs cannot do it alone: by step 3 all allowed paths agree on an initial interval.
 q: 0.95   # high; proposal, pending David's signature
 a: 0.5   # low; proposal, pending David's signature
 # h = h(q-branching) x q x a = 0.9025 x 0.95 x 0.5 = 0.4287 (the viewer computes h; not stored as a field)

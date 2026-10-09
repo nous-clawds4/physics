@@ -10,13 +10,10 @@ status: open
 hold: L3   # weakly held (disclosed)
 tag: math-tool
 rationale: >-
-  Open: never adopted ("It adopts no R") and never rejected. First used by Claude in
-  #117; carried into the public paper from v0.6 via #128 and #129 (orbit [10, 20]). It
-  meets the bar in force (stated, uniform) and fails the motivated gate. As stated it
-  models the schema without (a): typical histories are jump-dominated (jumps are 2/3 of
+  Open: never adopted ("It adopts no R") and never rejected. First used by Claude in #117, on the orbit [10, 20] with |B_R| = 3; named in the v0.5 outline (#119) as an arbitrary rule showing that "stated" alone is not enough, dropped from v0.5 prose (#128), and restored in v0.6 (#130) as the consistency witness after #128 and #129. It
+  meets the bar in force (stated, uniform) and fails the motivated gate. As stated it models the schema without (a), since at each turning point of the instance one of its edges fails (a) (v0.7.1 §5.4, first bullet). Separately, under the rule as stated typical histories are jump-dominated (jumps are 2/3 of
   decisions in expectation) and it fails (J1) and (J2) (C17, C34). Its (a)-restriction
-  is also a model, with transient branching (C33). The paper uses it as evidence for
-  "not fatal", not as a candidate law. Ratings (q, a): proposal, pending David's
+  is also a model, with transient branching (C33). The paper uses it as evidence for "not fatal" (a consistency witness for the schema without (a), §5.4), not as a candidate law; the Firewall says of it and its (a)-restriction "Neither is a controlled public example, and neither is an adopted R". The bar in force is "uniform, not a hand list" only because no rule meets the motivation clause (§5.4). Ratings (q, a): proposal, pending David's
   signature. Hold L3 (weakly held).
 reopen_if: null
 q: 0.95   # high; proposal, pending David's signature

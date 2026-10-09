@@ -4,8 +4,7 @@ synopsis: >-
   Selects Option F and V*, both accepted at the time and rejected since (#118, #134), so
   the viewer flags these two selections; that flag is expected in a retro-map, where
   status is current and the selection historical. The composition is written here as
-  plain alternation ("a history alternates"), with neither strictness nor the arrival
-  flag, so a-alternation, which is (A) as made strict in v0.6, is not selected (Claude
+  plain alternation ("a history alternates"), without a written positive-length clause or the arrival flag, so a-alternation, which is (A) as made strict in v0.6, is not selected (Claude
   #128 row 2). EPP1 is a named postulate with empty domain; a-m1 is not selected, since
   (M1)/(M2) is framed as an undecided call only from v0.6 and stays open. Realisation of edges named as an open
   one-liner. Rejected at this version: a hand-listed digraph as the controlled example
