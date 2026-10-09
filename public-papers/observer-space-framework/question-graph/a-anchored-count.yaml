@@ -1,6 +1,6 @@
 id: a-anchored-count
 type: answer
-title: "Anchoring the count removes (M2)'s cut dependence at no cost (v0.7 wording)"
+title: "Only the depth-1 anchor gives state-function weights, and anchoring frees the count of its note-6 cost (v0.7 §9 claims)"
 synopsis: >-
   v0.7 said the depth-1 anchor is the only cut whose weights are functions of the
   current state, and that a distant count strains Problem note 6 only "unless it is
@@ -23,8 +23,7 @@ rationale: >-
 reopen_if: >-
   The cases the record names where state-function weights and equal weight at a fixed
   cut hold together: D-constancy on the cut (C13), or a finite tree counted to its
-  completed histories. If the relevant R were shown to give only such trees, the v0.7
-  sentence would hold there.
+  completed histories. The record gives these as necessary conditions ("only where the tree's shape allows it", v0.7.1 §9), not as trees on which any anchored count keeps equal weight: on C13's tree, D-constant at depth 3, the fixed cut and the depth-1 anchor agree (1/12 each), but the count re-anchored two steps ahead gives 1/10 and 1/15; and the claim that depth 1 is the only cut with state-function weights is false on every tree (#169). Mapper's proposal: the exclusivity claim does not reopen; the "unless anchored" claim would hold only for an R whose trees make the named anchored count agree with the fixed-cut count.
 q: 0.95   # high; proposal, pending David's signature
 a: 0.5   # low; proposal, pending David's signature
 # h = h(q-measure) x q x a = 0.6859 x 0.95 x 0.5 = 0.3258 (the viewer computes h; not stored as a field)

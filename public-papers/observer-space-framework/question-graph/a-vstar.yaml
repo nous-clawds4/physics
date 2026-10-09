@@ -2,8 +2,7 @@ id: a-vstar
 type: answer
 title: "V*: vertex times where some compatible world ends (extend-versus-not)"
 synopsis: >-
-  Mark branch times along a curvelet where members of the world ensemble stop being
-  extendible, so vertices come from ensemble events.
+  Mark branch times along a curvelet where the hitchhiking ensemble splits: some members extend analytically through that time and some end there (v0.4 §5.1), so vertices come from ensemble events.
 parents: [q-vertex-times]
 status: rejected
 hold: L3   # weakly held (disclosed)
@@ -15,13 +14,11 @@ rationale: >-
   of times (Minkowski space minus one point ends the geodesic at any chosen time, C24),
   and inextendibility alone does not repair it (conical defect, C25). Choosing vertex
   times by which ensemble members end would also be a timing vote by the ensemble
-  ("E-smuggling"). Superseded by V^τ (#134 banner, after Claude #128);
+  ("E-smuggling"). Replaced by V^τ as the public vertex engine in the v0.5 outline (#119, changelog (2)), confirmed by its Geometry panel (#120); banner on the in-house note in #134, after Claude #128 row 3;
   papers/Vstar-extend-vs-not.md carries "superseded", and the toy was retired as a V*
   demo. Ratings (q, a): proposal, pending David's signature. Hold L3 (weakly held).
 reopen_if: >-
-  From the record's own escape clause (v0.7.1 §5.1): an explicitly chosen, motivated
-  discrete sub-ensemble of E_W (a grain on E_W), or an ensemble restriction that makes
-  ending times discrete, which inextendibility alone does not do (C25).
+  From the record's own escape clause (v0.7.1 §5.1): an explicitly chosen discrete sub-ensemble of E_W, which the record calls a grain on E_W (an ensemble restriction that made ending times discrete is the same kind of grain, #118 Claim B; inextendibility alone does not do it, C25). Mapper's addition: the timing-vote objection would also need an answer, since v0.7.1 §2 calls choosing vertex times by which members die E-smuggling and says "It is not used".
 q: 0.95   # high; proposal, pending David's signature
 a: 0.5   # low; proposal, pending David's signature
 # h = h(q-vertex-times) x q x a = 0.6859 x 0.95 x 0.5 = 0.3258 (the viewer computes h; not stored as a field)

@@ -2,7 +2,7 @@ id: v0.6
 title: "Framework paper v0.6 (v0.6-prose.md)"
 synopsis: >-
   Adds a-alternation to v0.5's selection: strict alternation with the arrival flag
-  (#130). The rest changed in open and rejected nodes: (B) and (C) rejected; (a)/(b) re-costed and
+  (#130). Accepted nodes also changed: a-jet-direction (u again taken modulo germ isotropy; the direction always part of the object), a-type-ii (rewritten after #128 and Geometry #131 R2), a-vtau (a "candidate" slice, costed) and the arms wording of a-option-e ("the elements of B_R"). In open and rejected nodes: (B) and (C) rejected; (a)/(b) re-costed and
   lock-side; (M1)/(M2) framed as an undecided call; the Kretschmann model carried as an
   unadopted example (#128, #129, #130). Source: physics#135; versions/v0.6-prose.md.
 selects: [a-root, a-jet-direction, a-world-analytic, a-type-ii, a-option-e, a-vtau, a-alternation]

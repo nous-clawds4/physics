@@ -11,8 +11,7 @@ hold: L0   # proposal, pending David's signature
 tag: method
 rationale: >-
   Wording from the IH method doc's physics seed (path-of-42 §7, root at L0) and David's
-  notes (docs/scratch/path-of-42.md: no privileged pieces of matter). The framework
-  paper states the same object: "An observer, in this programme, is a physical object"
+  notes (docs/scratch/path-of-42.md: no privileged pieces of matter). The framework paper opens with the same phrase, then names a particular object, the analytic jet with a time direction (a-jet-direction's answer, which the root leaves open). The phrase: "An observer, in this programme, is a physical object"
   (v0.7.1 §1). h(root) = 1 by definition, so no q or a is set. Record note: the paper
   versions never state a root; this sentence is the mapper's. Hold L0: proposal, pending
   David's signature.

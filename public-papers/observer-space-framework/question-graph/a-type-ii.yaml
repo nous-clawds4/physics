@@ -10,12 +10,10 @@ hold: L3   # weakly held (disclosed)
 tag: math-tool
 rationale: >-
   v0.3 moves branching to a transition structure (V, R) (Definition 7), type (ii)
-  "working and abandonable" (#98). Not derivable from locked data (Prop. 13,
-  papers/type-ii-adopted.md). v0.7.1 keeps it as a working Postulate in existential form
+  "working and abandonable" (#98). Not derivable from locked data (v0.7.1 §4.2, citing Prop. 13 of papers/type-ii-adopted.md). From v0.4 the paper also carries a soft Prop. 13 (v0.7.1 §4.3): locked data "can determine off-curvelet stars", but "kinematics does not single out a dynamics", so which readout is a new physical choice; v0.8 B.2b logs Prop. 13 as "restated; one clause dropped". v0.7.1 keeps it as a working Postulate in existential form
   only ("not derivable, existence only, and the weakest form of Paper 1's premise").
-  Claude #105: the HOLE is relocated to the law of R, not cleared as a problem, and
-  every later header says so. Costs recorded: the hidden-variable smell, kept loud
-  (§4.3); abandoning type (ii) makes Paper 1's "the evolution is not unique" false.
+  Claude #105: the HOLE is relocated to the law of R, not cleared as a problem, and the headers from v0.5 on say so (v0.4's Status had said "relocation completed here by writing Option F composition", which Claude #117 disputed). In-house, papers/type-ii-adopted.md records "David adopted type-(ii) links as the working across-worlds motion" (added 2026-08-30, before v0.3; no signature cited). v0.3 sorts edges by bare lumps; v0.4's oriented split makes bare orientation changes type (ii), and from v0.6 they are "ordinary type-(ii) candidates". Costs recorded: the hidden-variable smell, kept loud
+  (§4.3); abandoning type (ii) makes Paper 1's "the evolution is not unique" false under the CWS singleton, with the §5.2 convention that a history that ends and one that continues count as one evolution (v0.7.1 §10).
   "Whether to abandon type (ii)" stays on the §9 Open list. Open calls Q-D1 (existence
   or permission) and T3 bear on this node and are not decided. The tag is the mapper's;
   the record calls this a working Postulate. Ratings (q, a): proposal, pending David's

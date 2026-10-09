@@ -9,9 +9,7 @@ status: rejected
 hold: L3   # weakly held (disclosed)
 tag: definition
 rationale: >-
-  Rejected as the meaning of this programme's observer space, from v0.3 on (§2). Its
-  points are 4-velocities, not analytic germs, and V is not their 7-manifold: "phrase
-  collision only" (v0.7.1 §2, §10). In-house, papers/obs-as-a-space.md lists "closing
+  Rejected as the meaning of this programme's observer space. The record treats it as a homonym rather than a weighed option: Paper 1 calls it "a different use of the same English words"; the framework paper has "phrase collision only" in its v0.1.1 outline and in v0.2 and v0.2.1 §10, "same English phrase, different object" in §2 of v0.2 to v0.3, and "Phrase collision only" in its firewall table from v0.4; the only considered-and-killed move is in-house (below). Its points are 4-velocities, not analytic germs, and V is not their 7-manifold: "phrase collision only" (v0.7.1 §10). In-house, papers/obs-as-a-space.md lists "closing
   gauge by taking Obs to be Gielen–Wise" under Killed, and says their manifold needs a
   world W first while lumps do not. Literature #158 corrected the public wording: their
   observer space is not only "on a given metric"; it also has an abstract form with no

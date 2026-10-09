@@ -1,7 +1,6 @@
 id: v0.7
 title: "Framework paper v0.7 (v0.7-prose.md)"
 synopsis: >-
-  Same accepted selection. Changes in open nodes only: the (a)-restriction's transient
-  branching (C33), the (M1)/(M2) cost lines made symmetric, T1-T3 and Q-D1-Q-D5 carried
-  as open calls (#156). Source: physics#160; versions/v0.7-prose.md.
+  Same accepted selection. Accepted nodes also changed: the record's status wording for (A) and for R ≠ ∅ (a-alternation, a-type-ii; see v0.7 §9 and §4.2), and a cost added to V^τ (C38; a-vtau). The rejected a-gielen-wise is corrected after Literature #158, and the sentences later rejected as a-anchored-count first appear (§9). In open nodes and open calls: the (a)-restriction's transient
+  branching (C33), the (M1)/(M2) cost lines made symmetric, T1-T3, Q-D1-Q-D5 and #139 (a)-(e) carried as open calls (#156). Source: physics#160; versions/v0.7-prose.md.
 selects: [a-root, a-jet-direction, a-world-analytic, a-type-ii, a-option-e, a-vtau, a-alternation]

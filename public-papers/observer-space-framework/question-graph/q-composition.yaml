@@ -9,8 +9,7 @@ hold: L3   # weakly held (disclosed)
 rationale: >-
   Claude #105 §2: v0.3 never said how curvelet motion composes with R-edges; v0.4 wrote
   the composition (histories alternate segments and jumps, #112). Claude #128 row 2
-  found that the hard gate's clause (2) held per segment, not per history, because every
-  Kretschmann target is itself a vertex, and proposed (A) or (B); Geometry #129 added
+  found that the hard gate's clause (2) held per segment, not per history, since jumps carry no proper time (live on the worked rule, where every Kretschmann target is itself a vertex), and proposed (A) or (B); Geometry #129 added
   (C). Open calls here, not decided: T1 = Q-D5 (does the arrival flag count as part of
   the observer?) and Q-D2 (is "next" a discrete step or continuous?). See the index
   gaps.

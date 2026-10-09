@@ -11,7 +11,7 @@ tag: definition
 rationale: >-
   Added by Geometry (#129: "Option (C), not in #128"). Its gain is real: Markov on O^u
   alone, no enlarged state. Rejected because it excludes the only worked instance, whose
-  jump targets are all turning points and hence vertices (v0.7.1 §4.2). Record note: a
+  jump targets are all turning points and hence vertices (v0.7.1 §4.2). #129 names a second cost, not carried into the v0.6 outline or v0.7.1: it "adds a clause on R's target set"; and it conditions its verdict, "not recommended while the Kretschmann rule is the draft's consistency witness". Record note: a
   draft of the v0.6 outline also used "(C)" for returning to Paper 1's count; Ontology
   #133 records the fix. Ratings (q, a): proposal, pending David's signature. Hold L3
   (weakly held).

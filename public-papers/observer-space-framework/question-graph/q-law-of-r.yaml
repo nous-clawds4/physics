@@ -3,15 +3,13 @@ type: question
 title: "What is the law of R?"
 synopsis: >-
   Which rule, stated from lock-side data, gives the type-(ii) edges and their targets?
-  This is the relocated HOLE's final address.
+  With its motivation and the choice of τ-slice, it is the relocated HOLE's final address (v0.7.1 header).
 parents: [a-type-ii, a-vtau]
 hold: L3   # weakly held (disclosed)
 rationale: >-
   Open in every version ("No law of R is written"). v0.7.1's header gives it as the
   final address of the relocated HOLE, with its motivation and the choice of slice.
-  Composition item 1 puts R's source set inside V^τ, hence the second parent. The
-  singleton-or-continuum dilemma lives here (soft Prop. 13): kinematics does not single
-  out a dynamics, so a countable star is a new physical choice. The law-of-R scoping
+  Composition item 1 puts R's source set inside V^τ, hence the second parent. In the target direction the singleton-or-continuum dilemma lives here (v0.7.1 §4.3, after soft Prop. 13: kinematics does not single out a dynamics, so a countable star is a new physical choice). It "is escaped only by leaving R unspecified or by adding selection extras. That is a motivation problem, not a no-go theorem." The law-of-R scoping
   work (#178, #182, #185 and #187, all merged) comes after v0.7.1 and is not mapped.
 # h = h(a-vtau) = 0.5213 (a question carries its weakest parent's h; the viewer computes it)
 sources:

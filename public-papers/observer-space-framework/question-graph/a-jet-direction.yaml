@@ -12,9 +12,7 @@ tag: definition
 rationale: >-
   Paper 1's object, kept in every version (v0.8 Appendix B.2a: "Object: analytic jet
   plus future time direction", kept). v0.3 made the graph vertices oriented observers
-  (v0.3 prose changelog). The isotropy quotient was lost silently in v0.5 prose and
-  restored in v0.6, after Claude Opus 5.5's HOLD on v0.5 (#128) and Geometry's ACCEPT of
-  that item (#129). Hold L1 because v0.7.1 treats the object as a lock (a larger
+  (v0.3 prose changelog). v0.8 B.2a logs the oriented observer O^u as "restated". Two parts of the synopsis date from v0.6: v0.3 to v0.5 add the direction only "when branching is discussed", and v0.3 and v0.4 state the isotropy only as a qualifier ("up to the isotropy of the germ"), which Claude #105 noted does not define the class; the v0.4 and v0.5 outlines name the quotient, v0.5 prose drops the sentence silently, and v0.6 first defines O^u as the quotient class ("not optional"), after #128 and Geometry's ACCEPT (#129). "V is Paper 1's observer space" is v0.7.1's "reading, stated as such" (§2). Hold L1 because v0.7.1 treats the object as a lock (a larger
   observer "cannot [be taken] without the lock being changed", §9 T1 row). Record note:
   v0.3's "V = Lift(u)" was dropped and V now names the vertex space (v0.8 B.2b). Ratings
   (q, a) and hold level: proposal, pending David's signature.

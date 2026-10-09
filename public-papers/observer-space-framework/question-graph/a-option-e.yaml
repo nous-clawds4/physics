@@ -12,9 +12,7 @@ rationale: >-
   Geometry #118: what escapes the CWS singleton for branching is a discontinuous jump
   plus discrete graph incidence, the Option E residue; pairing it with finite-k matching
   "does not buy branching power". Public from v0.5 (#119, #123), working and abandonable
-  through v0.7.1 (§4.2). v0.5's header: the relocated HOLE is "cleared as a definition
-  (B_R given R)". Record note: the arm set changed across versions (the v0.4 cover says
-  the arms are the out-star; v0.6 on counts the continue arm too, after #128). Ratings
+  through v0.7.1 (§1, §4.2). v0.5's header, carrying #117's verdict on v0.4's composition (kept by #118): the relocated HOLE is "cleared as a definition (B_R given R); still relocated as a problem (law of R, costs)". Record note: the arms wording changed across versions, not B_R (v0.4 prose §4.2, v0.5 prose §1 and §4.2 and the v0.4 cover say "arms are the graph out-star", while their B_R = {[γ]} ∪ succ_R already counts the continue arm, a mismatch Claude #117 §2.4 flagged; from v0.6 on, the arms are "the elements of B_R", after #128 row 4). Ratings
   (q, a): proposal, pending David's signature. Hold L3 (weakly held).
 reopen_if: null
 q: 0.8   # medium; proposal, pending David's signature

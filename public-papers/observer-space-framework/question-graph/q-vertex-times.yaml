@@ -8,7 +8,7 @@ parents: [a-type-ii]
 hold: L3   # weakly held (disclosed)
 rationale: >-
   The hard gate's second clause (branch points discrete in proper time along each
-  segment) was added in v0.4 after Claude #105 §3.1.
+  segment) was added in v0.4 after Claude #105 §3.1. The vertex question itself was first posed in-house as the "law of V*" (#102 §5 item 2; #103 §2.1), which #105 tied to §3.1's missing τ-slice.
 # h = h(a-type-ii) = 0.6859 (a question carries its weakest parent's h; the viewer computes it)
 sources:
   - label: "physics#105: Claude HOLD on v0.3 prose (§3.1)"

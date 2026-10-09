@@ -9,7 +9,7 @@ status: rejected
 hold: L3   # weakly held (disclosed)
 tag: method
 rationale: >-
-  The losing side of Claude Fable 5.1's HOLD on v0.3 (#105): the new exit gate "is met
+  The loophole in v0.3's exit gate that Claude Fable 5.1's HOLD on v0.3 (#105) named: the new exit gate "is met
   by a hand-drawn two-vertex graph, so it is not a test". From v0.4 the firewall says
   the paper does not count a hand-listed digraph as a controlled public example; from
   v0.5 the public gate asks for a rule that is stated, uniform and motivated. The v0.4

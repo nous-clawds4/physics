@@ -12,9 +12,7 @@ tag: definition
 rationale: >-
   v0.3 §2 (world ensemble; v0.8 B.2b: "World W=(M,p); sibling points", kept). v0.7.1 §2:
   relative ensembles are "not extra vertices, and not a second observer"; the ensemble
-  votes neither on the observer's identity nor on when branching occurs. Record note:
-  v0.3's "topology may vary" and "distinct world ensembles do not intersect" were later
-  dropped, and v0.8 B.2 says drops before v0.8 were unlogged, so their reasons are not
+  votes neither on the observer's identity nor on when branching occurs. Open in the record: whether E_W should be restricted to inextendible or maximal members (v0.7.1 §2; §9 "Ensemble hygiene and inextendibility, if E_W becomes load-bearing"); §2's definitions are "the working ones for review". Record note: v0.3's "topology may vary" and "distinct world ensembles do not intersect" were dropped in v0.4 (absent from its §2; the phrases are v0.8 B.2b's excerpts of v0.3 §2), and v0.8 B.2 says drops before v0.8 were unlogged, so their reasons are not
   in the record. Ratings (q, a): proposal, pending David's signature. Hold L3 (weakly
   held).
 reopen_if: null

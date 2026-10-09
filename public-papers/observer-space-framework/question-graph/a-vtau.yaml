@@ -4,13 +4,13 @@ title: "V^τ: a lock-side slice along each curvelet"
 synopsis: >-
   Vertices are oriented germs where a lock-side scalar (for example the Kretschmann
   scalar K) has an isolated critical point along the curvelet, or crosses a named level.
-  One-variable analyticity makes them discrete per curvelet.
+  One-variable analyticity makes them discrete per curvelet, in its open maximal domain; accumulation at a singular endpoint remains possible (C8) and is handled by the no-Zeno clause, not by V^τ.
 parents: [q-vertex-times]
 status: accepted
 hold: L3   # weakly held (disclosed)
 tag: math-tool
 rationale: >-
-  Introduced in v0.5 (#119, #123), then costed after Claude #128 row 2 and Geometry #129
+  Proposed by Claude #105 §3.1 and named in v0.4 §5.3 as a lock-side candidate for the hard gate's clause (2), while V* (§5.1) was the offered rule; made the public τ-slice in the v0.5 outline (#119, after #118; written V^τ in #123), then costed after Claude #128 row 2 and Geometry #129
   item 5 (QUALIFY): the slice is empty on Minkowski, de Sitter and every locally
   symmetric lump; it is codimension one, not a discrete set; polynomial invariants are
   blind on VSI lumps (v0.7.1 §5.1). Which scalar, and critical point versus level, stays
