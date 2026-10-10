@@ -136,7 +136,7 @@ The measure-problem premise can be worked on now; everything else waits on gates
 
 ### Gaps before a Born-type question can be posed
 
-The gaps follow the old gating order (§3 above, gates 0–6). The order is not strict. Gap 4's §9 proofs (C13, C15, C36) need no $R$. Gaps 3 and 4 depend on each other: C5's per-history failure leaves a model with no arrival rule without an EPP1 domain under (Z-0)/(Z-i), but not under (Z-ii), (Z-iii), (Z-vi) or (Z-vii), where C5's chains are a Zeno set of mass $0$; and C33's countability changes the costs of (M1) and (M2). Gap 2's figures are EPP1 quantities (C17, C34). "Waits on" lists the named open calls and, for gap 4, the Zeno-mass options of `notes/zeno-mass-scoping.md`, which are a note's options, not calls ((Z-0) and (Z-iv)–(Z-viii) are not in v0.9).
+The gaps follow the old gating order (§3 above, gates 0–6). The order is not strict. Gap 4's §9 proofs (C13, C15, C36) need no $R$. Gaps 3 and 4 depend on each other: C5's per-history failure leaves a model with no arrival rule without an EPP1 domain under (Z-0)/(Z-i), but not under (Z-ii), (Z-iii), (Z-vi) or (Z-vii), where C5's chains are a Zeno set of mass $0$; and C33's countability changes the costs of (M1) and (M2). Gap 2's figures are EPP1 quantities (C17, C34). "Waits on" lists the named open calls and, for gap 4, the Zeno-mass options of `notes/zeno-mass-scoping.md`, which are a note's options, not calls ((Z-0) and (Z-iv)–(Z-viii) are not in v0.9). Whether they stay listed here is left to David (#259 pressure test, FD2).
 
 | Gap | Settled in v0.9 (row, pin) | Open (v0.9 pointer) | Waits on | Cost |
 |---|---|---|---|---|
