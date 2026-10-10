@@ -24,22 +24,23 @@ The test (`notes/born-litmus-test.md`): swap a rule $W'$ into a derivation of $W
 
 **Framing caution.** The companion paper would use Deutsch–Wallace (DW) as a worked case for the test, not as a rival frame. Paper 1 says these objects "are not Everett worlds"; v0.9 §12 keeps DW as a firewall row ("Not this frame"). No side-by-side may suggest an Everettian alternative.
 
-**Origin.** Deutsch (1999), cited in v0.9: an agent's preferences over quantum games, plus symmetry under swaps of equal-amplitude branches, plus additivity under splitting, yield $|a|^2$ weights. Barnum et al. (2000; readiness refs) charge a hidden probabilistic assumption.
+**Origin.** Deutsch (1999), cited in v0.9: the values a player assigns to quantum games, with additive payoff utilities and a zero-sum rule, give an equal-amplitude superposition its mean value; unequal amplitudes are then reduced to equal ones by splitting with an auxiliary system, which yields $|a|^2$ weights. Barnum et al. (2000; readiness refs) charge a hidden probabilistic assumption.
 
-**Wallace (2012)**, cited in v0.9 and readiness §1.1. The premises **[L: names, exact statements and chapter]**:
+**Wallace (2012)**, ch. 5, "Symmetry, Rationality, and the Born Rule", cited in v0.9 and readiness §1.1; the axiom statements below follow the preprint version (Wallace 2010, arXiv:0906.2718, §§4–7). The premises:
 - rationality axioms, including ordering and **diachronic consistency**;
-- **richness** axioms (enough available acts, including erasure-type operations);
-- **state supervenience** (preferences depend only on the quantum state and the reward);
-- **branching indifference** (indifference to branching that leaves payoffs unchanged).
+- **richness** axioms (reward availability, branching availability, erasure and problem continuity);
+- **state supervenience** (preferences between acts depend only on the physical state each act leaves the agent's branch in);
+- **branching indifference** (indifference to branching that leaves payoffs unchanged);
+- **macrostate indifference** and **solution continuity** (the other two axioms specific to the Everettian setting).
 
-A **representation theorem** then gives expected utility with weights $|a|^2$ **[L]**. Readiness §1.1 records the two conditions as they bear on a branch measure: (a) invariance under symmetries swapping equal-amplitude branches, and (b) fine-graining invariance.
+A **representation theorem** (the "Born rule theorem" of Wallace 2010) then gives a utility function, unique up to affine transformations, such that acts are ranked by expected utility computed with the quantum-mechanical weights $|a|^2$. Readiness §1.1 records the two conditions as they bear on a branch measure: (a) invariance under symmetries swapping equal-amplitude branches, and (b) fine-graining invariance.
 
 **Running the test (outline).**
 
 | Substitute $W'$ | Candidate break points a run would examine | What a run would have to decide (S3) |
 |---|---|---|
-| Uniform branch counting | Branching indifference / fine-graining invariance; readiness §1.1 notes that (b) "excludes branch counting by assumption" (Dizadji-Bahmani 2015) | Whether that premise is independently motivated or excludes the rival by axiom. Contested in the literature (Dizadji-Bahmani 2015; Wallace's own treatment of alternative rules **[L]**; Price, Kent, Albert, Maudlin **[L]**) |
-| $\lvert a\rvert^p$, $p\ne2$ | Splitting a branch of amplitude $a$ into $n$ of amplitude $a/\sqrt n$ gives total weight $n^{1-p/2}\lvert a\rvert^p$, which matches the original only at $p=2$. So the candidate break points are additivity under splitting, and the norm in state supervenience | Whether the norm's role is an independent input (unitarity) or a restatement of $W$ on equal-amplitude sub-cases (the "in part" form). **[PJ]**: either answer bears on the conjecture's first half. None is given |
+| Uniform branch counting | Branching indifference with diachronic consistency (the combination Wallace says branch counting violates) / fine-graining invariance; readiness §1.1 notes that (b) "excludes branch counting by assumption" (Dizadji-Bahmani 2015) | Whether that premise is independently motivated or excludes the rival by axiom. Contested in the literature (Dizadji-Bahmani 2015; Wallace 2012, ch. 5, and Wallace 2010, §9, on alternative rules; Albert 2010, Price 2010 and Kent 2010 in *Many Worlds?*; Maudlin 2014, a critical study of Wallace 2012) |
+| $\lvert a\rvert^p$, $p\ne2$ | Splitting a branch of amplitude $a$ into $n$ of amplitude $a/\sqrt n$ gives total weight $n^{1-p/2}\lvert a\rvert^p$, which matches the original only at $p=2$. So the candidate break points are additivity under splitting, and the norm's role in the equivalence lemma (erasure with state supervenience) | Whether the norm's role is an independent input (unitarity) or a restatement of $W$ on equal-amplitude sub-cases (the "in part" form). **[PJ]**: either answer bears on the conjecture's first half. None is given |
 
 **Cost.** Exact premises and which lemma uses each **[L]**, then the critique literature **[L]**: weeks of Literature work; the framing risk is managed only by the companion-paper placement.
 
@@ -54,7 +55,7 @@ v0.9 makes no Born-type claim (§2), so there is no derivation to swap into. The
 | Zeno convention (§8.3; C35; zeno note) | (Z-0)–(Z-v) | Only C35 moves (undefined, $1/2$, $1$). Instance pins are unchanged (C7) | Choosing a reading for the weight it gives |
 | Law of $R$ and slice (§8.2 item 1; §8.4; C26; law-of-R scoping F0–F11) | Another rule | Weights follow tree shape only (readiness scan) | A rule tuned until counts match a target: Paper 1's trivial scheme (§10); the §8.4 motivation clause is LT2's check |
 | Arrival flag, (a)/(b) (§8.2 item 7; C6, C30, C33) | (A) against a replacement; (a) against (b) | They shape the tree (countable or continuum, C33/C16), not the weight rule | A realisation chosen for its weights |
-| MERW route (§9; C36; MERW note O2–O5) | $\psi^2$ to $\psi^p$ | For a symmetric operator, MERW's density is the product of the left and right Perron vectors, so $p=2$ comes from the uniform-path definition. **[PJ]**: whether that counts as an upstream break is the S3 question | Symmetrisation (O3, backward pairs) or phases (O5) supplied by hand; a truncation chosen for its density |
+| MERW route (§9; C36; MERW note O2–O5) | $\psi^2$ to $\psi^p$ | For a symmetric operator, MERW's stationary density is $\psi_i^2$ (Burda et al. 2009), the left and right Perron vectors coinciding, so $p=2$ comes from the uniform-path definition. **[PJ]**: whether that counts as an upstream break is the S3 question | Symmetrisation (O3, backward pairs) or phases (O5) supplied by hand; a truncation chosen for its density |
 
 **Cost.**
 A pre-emptive audit is cheap (days; existing C-rows, nothing recomputed). A proper run needs a Born-type claim, which waits on readiness gaps 1–6.
@@ -65,7 +66,7 @@ The options are:
 - **(R-a)** a refinement of **LT2**. LT2 checks where the inputs come from, and S3 asks the same of each broken item;
 - **(R-b)** a separate test (an LT5). It checks counterfactual dependence of the output on the inputs, which LT2 does not;
 - **(R-c)** a procedure for running LT1–LT4:
-  LT1's amplitude work elsewhere adds uses that break under $p\ne2$; LT3's "irrelevant further splitting" is DW's fine-graining premise; LT4's second setup adds independent breaks.
+  LT1's amplitude work elsewhere adds uses that break under $p\ne2$; LT3's "irrelevant further splitting" parallels DW's fine-graining premise; LT4's second setup adds independent breaks.
 
 **Adds** under any option: a concrete counterfactual, named substitutes $W'$ and a record format (S1–S3). **Cost:** (R-b) needs an S3 criterion distinct from LT2, or it reduces to (R-a).
 
