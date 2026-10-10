@@ -1,6 +1,6 @@
 # Open question: the Born-rule litmus test
 
-**Status:** open question, recorded at David Strayhorn's direction on 2026-10-10. The working answer below is David's, held as "strong opinion, weakly held" (**hold L3**); Chief of Staff drafted it first. It is **not a claim of v0.9** or of any version. Nothing in `versions/` or the essays is edited. It looks forward: it is not part of the v0.3–v0.7.1 retro-map in `question-graph/`.
+**Status:** open question, recorded at David Strayhorn's direction, as relayed by Chief of Staff on 2026-10-10; the relay itself is not recorded in this repository. The question and the working answer below are David's as relayed, held as "strong opinion, weakly held" (**hold L3**); Chief of Staff drafted a first version. It is **not a claim of v0.9** or of any version. Nothing in `versions/` or the essays is edited. It looks forward: it is not part of the v0.3–v0.7.1 retro-map in `question-graph/`.
 
 **Labels.** David's tests are numbered T1–T4. This note writes them **LT1–LT4** (litmus tests), because T1–T3 already name the *Mathematical Foundations* v0.3 tensions in v0.9 §11. The wording is David's, unchanged.
 
@@ -23,4 +23,4 @@ Genuine emergence needs YES on all four:
 
 - `reviews/born-rule-readiness.md`, which maps the gaps before a Born-type question can be posed (v0.9 refresh, 2026-10-10).
 - `notes/merw-litmus-scoping.md` (in preparation), which scopes whether the MERW squared-eigenvector density could pass LT1–LT4.
-- Open calls that the tests touch: the law of R (LT2), (M1)/(M2) and the grain (LT3), and (J1)/(J2) and the cut (LT3). None is decided here.
+- Open calls that the tests touch: the law of R and the §8.4 motivation clause (LT2); (M1)/(M2), completed versus cut, and the grain (LT3). None is decided here.
