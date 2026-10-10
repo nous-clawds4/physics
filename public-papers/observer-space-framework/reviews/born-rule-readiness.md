@@ -43,7 +43,7 @@ Objects: the tree of evolutions on $(V,R)$; branch points (decisions on the slic
 | Premise | Condition on the framework's objects | Statable now? | Extra structure needed |
 |---|---|---|---|
 | DW (a): swap symmetry | A lock-side automorphism of $(V,R)$ exchanging two arms forces equal weight | Automorphism, yes; "equal amplitude", **no**. EPP1 and (M2) already weight all arms equally, symmetric or not, so the premise is idle | An amplitude-like invariant on arms |
-| DW (b): fine-graining invariance | A prefix's weight is unchanged by *later* splitting of a descendant, and by *same-vertex* splitting of an arm into two with the same outcome | Later splitting, yes: (M1) meets it, (M2) fails (P7). Same-vertex splitting needs an outcome labelling, which does not exist (§6 is a cartoon; matter open); given one, both fail (P7) | A measurement model; agents (the observer is a germ) |
+| DW (b): fine-graining invariance | A prefix's weight is unchanged by *later* splitting of a descendant, and by *same-vertex* splitting of an arm into two with the same outcome | Later splitting, yes: (M1) meets it, (M2) fails (P7). Same-vertex splitting needs an outcome labelling, which does not exist (v0.6 §6 is an informal picture, not ontology; matter open); given one, both fail (P7) | A measurement model; agents (the observer is a germ) |
 | Zurek: envariance; reduced-state dependence | Weights depend only on $(O^u,a)$ and $R$; outcomes swappable by an "environment" operation get equal weight | Locality half, yes (Obs-local; EPP1 meets it). Swap half, **no**: no system ⊗ environment split, since the germ fixes a whole patch. A union of ensembles $E_W$ is a set, not a Hilbert space: no superposition, inner product or reduced state | A tensor-factorised state space: new theory, not a reading of the lock |
 | Saunders: equal-norm units | (M2) counts evolutions at a cut, at the grain fixed by $R$ and the slice | Counting, yes; "equal norm", **no** | A norm on evolutions |
 | Vaidman / Sebens–Carroll: self-location | The co-existence weight is the "measure of existence" slot | Slot, yes (EPP1 or (M2) fills it by postulate). Post-branching uncertainty, **no**: distinct arms are distinct germs, so the germ fixes its arm; an observer coarser than the germ breaks the lock | Nothing lock-compatible; the flag $a$ is the only non-germ datum |
@@ -125,3 +125,54 @@ The measure-problem premise can be worked on now; everything else waits on gates
 - Wallace, D. (2012). *The Emergent Multiverse*. Oxford University Press, §5.8.1.
 - Zurek, W. H. (2005). Probabilities from entanglement, Born's rule $p_k=|\psi_k|^2$ from envariance. *Phys. Rev. A* 71, 052105.
 - Framework: `versions/v0.6-prose.md` §§7–9, App. A (C9, C15, C16, C24); `versions/v0.7-outline.md` App. A (C33, C36); `papers/B-ge2-minimal-toy.md`; `papers/Vstar-extend-vs-not.md`.
+
+---
+
+## v0.9 refresh (2026-10-10)
+
+**Read at:** main `b327a7b`, `versions/v0.9-prose.md` (current) and `notes/zeno-mass-scoping.md` as merged with #245's strings 1–4. **Scope:** the old map above is re-mapped against v0.9, and nothing above this section is edited. Every C-row figure quoted here was checked against v0.9's Appendix A by script (`brr_check.py`, Pins). No pin was in doubt, so nothing was recomputed.
+
+### Gaps before a Born-type question can be posed
+
+The gaps follow the old gating order (§3 above, gates 0–6). "Waits on" lists only the named open calls.
+
+| Gap | Settled in v0.9 (row, pin) | Open (v0.9 pointer) | Waits on | Cost |
+|---|---|---|---|---|
+| 0. Keep type (ii) | CWS singleton, one curvelet class (C28, §8.1) | $R\ne\emptyset$, a working Postulate (§8.2, Option E residue; §11) | "Without being fully deterministic" (existence/permission); T3 | Abandoning it gives $\lvert B\rvert=1$ and no weights. Keeping it rests on a postulate that cannot be derived |
+| 1. Law of $R$, slice, motivation | $R\subseteq V^\tau\times V$; the slice is blind on Minkowski/dS/ESU (C19) and on flat ΛCDM (C18); no-Zeno is a named clause (C8); the worked rule is stated and uniform but unmotivated (C26) | §8.2 item 1 constrains only $R$'s sources. The §8.4 motivation clause is unmet (Bertrand over (slice, rule) pairs) | T3 / #139 (a); F11 (the #203 lemma bears only on the worked rule) | A law, plus a motivation within an independently named class; the slice scalar is a second free choice |
+| 2. Jump dominance | The stated rule fails (J1) and (J2): pure-geodesic weight $3^{-10}=1.69\times10^{-5}$ (C17); jump share 0.6672, 0.0658 still bound (C34). The (a)-restriction meets late-window (J1) and fails (J2) (C33, §9) | No §8 item; (J1)/(J2) is a §9 constraint, and §11 asks whether any $R$ meets them | T3 / #139 (a) | (J2) needs a named topology on curvelets; (J1) is window-dependent |
+| 3. Realisation (a)/(b); arrival | Without an arrival rule clause (2) fails (C5). Under (A) the process is Markov only on $(O^u,a)$ (C6). (a) is lock-side (C30). Completed histories are countable under (a) (C33: 29,119 orbits, 14,478 stuck) and a continuum without it (C16). Under (a) the throat thresholds are not reached; without (a) the rule needs a throat convention (C37) | §8.2 item 7, (A), a working Postulate; (a) versus (b) (§8.2, §8.4) | T1; F7 ((B) scope); #139 (a) for the proper-time part | T1's enlarged state, or a replacement for (A); under (a) branching is transient |
+| 4. Measure | Unequal per-vertex weights (C12: $1/6$, $1/2$ against counts $1/4$). Proofs in §9: cut criterion (C13), limit iff (C15), MERW iff (C36). Proper-time cuts can disagree (C14: $2/3$ against $1/2$). Finite cuts on the instance (C29; C7: $111.59$). Zeno toy (C35: mass $1/2$). Exact (a) law $26/3^{12}$, $9338/3^{10}$, $447373/3^{12}$, 27.68 decisions (C33) | §8.3 Zeno-mass convention; §8.2 item 8's range; (M1)/(M2), completed versus cut, and the reading of the weight (§11) | (M1)/(M2); T2; #139 (b); F9, F10; F5 (MERW-hazard wording); (Z-0)–(Z-v) | As in §11's symmetric cost lines, plus the note's (d) cost for each reading: (Z-0)/(Z-i) need a per-state no-Zeno proof, and one measure-zero Zeno history leaves weights undefined; (Z-ii) needs an existence citation and a scoped item 8; (Z-iii) reads $R$ ahead; counting (Z-iv) needs a cut family and a proof that the limit exists; (Z-v) fixes a value once the weight type is fixed |
+| 5. Measurement model, matter | None. §4 "Measurement, informally (not ontology)": no picture is used, and matter is open | No §8 item; §4, §11 (matter) | No listed call | An outcome labelling ("same outcome") and matter fields, beyond the lock |
+| 6. Amplitude-like structure | None. The circularity wall (§10, Paper 1 §8 verbatim). The MERW hazard is a hazard, not a route (C36) | No §8 item; §11 Hope "weights forced"; §8.4's later bar | #139 (e); F5 | A new postulate; a tree drawn by hand to fit a target weight is Paper 1's trivial scheme |
+
+**Premise status since the old map (§1.2).**
+- **The measure-problem premise** is now backed by §9 proofs: the cut criterion, the limit iff and the MERW iff.
+- **The cheap test of §3** has been run (below). It confirms that a germ parameter can enter only through tree shape, as step functions at finite $n$. No continuous limit is shown.
+- **The DW, Zurek, Saunders and Vaidman rows are unchanged.**
+
+### Stale in the old map (line numbers at `b327a7b`; listed, not edited)
+
+1. **l.9, l.91:** "§9 open items" is now v0.9 §11.
+2. **l.41:** "branch points (decisions on the slice $V^\tau$ with $\mathrm{succ}_R\neq\emptyset$)". v0.9 §8.3 defines a branch point as a state $(O^u,a)$ with $\lvert A(O^u,a)\rvert\ge2$, so jump-reached states are not branch points (§8.2 item 7).
+3. **l.46** (DW (b) row): "§6" means v0.6 §6, now v0.9 §4 "Measurement, informally (not ontology)". The row also uses a word on Literature's forbidden list.
+4. **l.52:** "(v0.6 §8)" is now v0.9 §10.
+5. **l.78 (P4):** the row names `g154/agraph.py 0.01`, which prints 14,477 stuck under `kr.classify` (the row itself flags this as a classifier artefact). The pinned 14,478 is the corrected-classifier figure (`g168/c33r.py`, `f9e9c31b`; #169, #173), which C33 now pins. Both scripts give 29,119 orbits. The pin row names only the uncorrected script.
+6. **l.106:** "dead ends kept (v0.6 §7)" is now v0.9 §9 *Dead ends*.
+7. **l.110:** "Not run for this note" no longer holds. The test ran in `born-rule-readiness-scan.md` (#165): PASS, first at $n=4$.
+   - #174's hardened classifier relabelled 77 of 1,505,887 targets and changed values at 31 germs for $n\ge6$ only. $n\le5$ is unchanged, so the read stands.
+8. **l.127:** the v0.6-prose / v0.7-outline App. A pointers are now v0.9 App. A. The same numbers carry the same claims: C9, C15, C16, C24, C33, C36.
+9. **Gate 4 (l.97):** "the Zeno-mass convention" now has the options (Z-0)–(Z-v) of `notes/zeno-mass-scoping.md`.
+10. **Unchanged and consistent with v0.9:** P1, P2 (C34); P5 (C33); P6 (C16, where $1.098432$ appears as $1.0984$); P9 (C9: 3 unquotiented, 2 modulo isotropy). P3, P7 and P8 have no v0.9 row.
+
+### Critic questions
+
+1. Is the gating order still a strict order? Gap 4's §9 proofs are statable before gaps 1–3 close. Does that make the measure premise a parallel track rather than gate 4?
+2. Does the (a)-restriction's countability (C33) move any old-map premise from "not statable" to "statable", or only sharpen (M1)'s refusal-case cost?
+3. Are gaps 5 and 6 independent, or does any outcome labelling already presuppose amplitude-like structure?
+4. Is any C-row cited here (e.g. C29, C7) used beyond its instance?
+5. Does the #174 relabelling (71 of 77 targets at $r>10^4$) put the $n\ge6$ scan figures within the same resolution caveat as the scan's degenerate targets?
+
+### Pins
+
+`/workspace/g246/brr_check.py` (SHA-256 `e95ac2a63fadaaa7378d1a909cadc4cde5e3a0620477661531369a82c30773d1`) checks every C-row figure quoted above against `versions/v0.9-prose.md` at `b327a7b`. It also checks the old map's line pointers.
