@@ -1,6 +1,6 @@
 # MERW eigenvector and the Born litmus test: scoping note (options and costs only)
 
-**Read at:** main `f920ca3` (`versions/v0.9-prose.md` §2, §8.2, §8.4, §9, §11, §12; C26, C33, C36); `notes/born-litmus-test.md` (L3) as merged in #248 (`001dde2`). **Record:** `reviews/born-rule-readiness.md` (§1.2; v0.9 refresh), `notes/zeno-mass-scoping.md`. **Status:** scoping only; no pick, no derivation, no law of $R$; nothing in `versions/` or the essays edited. **Scope (L3's qualifier, David, on `lead/litmus-scope`):** LT1–LT4 apply only once a Born-type result is claimed. This note claims none, so nothing here passes or fails; each finding says what a future claim would have to show. Literature only as v0.9 cites it (Burda et al. 2009; Duda 2011; Faber 2024).
+**Read at:** main `f920ca3` (`versions/v0.9-prose.md` §2, §8.2, §8.4, §9, §11, §12; C26, C33, C36); `notes/born-litmus-test.md` (L3) as merged in #248 (`001dde2`). **Record:** `reviews/born-rule-readiness.md` (§1.2; v0.9 refresh), `notes/zeno-mass-scoping.md`. **Status:** scoping only; no pick, no derivation, no law of $R$; nothing in `versions/` or the essays edited. **Scope (David's qualifier to the L3 answer, recorded in `notes/born-litmus-test.md`, "Scope and outcomes"):** LT1–LT4 apply only once a Born-type result is claimed. This note claims none, so nothing here passes or fails; each finding says what a future claim would have to show. Literature only as v0.9 cites it (Burda et al. 2009; Duda 2011; Faber 2024).
 
 ## (a) Which operator, and what an amplitude-like $\psi$ would need
 
@@ -18,7 +18,7 @@
 
 | Test | Before any claim (the test does not apply yet) | Waits on | Pointers |
 |---|---|---|---|
-| LT1 Identity | A claim would have to exhibit an object that superposes or cancels; O1–O4 supply none now (readiness §1.2) | Amplitude-like structure (readiness gap 6; no listed call); law of $R$ | §8.2 item 1; C36 |
+| LT1 Identity | A claim would have to exhibit an object that superposes, evolves linearly and interferes; O1–O4 supply no object that superposes or cancels (readiness §1.2) | Amplitude-like structure (readiness gap 6; no listed call); law of $R$ | §8.2 item 1; C36 |
 | LT2 Prior inputs | A claim would have to meet the §8.4 motivation clause; no rule meets it now (C26) | Law of $R$ and slice; (M1)/(M2) (MERW is a long-path count, an (M2)-side object); (a)/(b) (countable graph under (a), C33; continuum without, C16) | §8.2 item 1; §8.4; §6.1 |
 | LT3 Robustness | A claim would have to be robust to cut depth, classifier and later splitting; the first two are probed in (c); counts are not invariant under later splitting (readiness P7) | (M1)/(M2), completed versus cut; (Z-0)–(Z-v) where a cut meets accumulation | §8.3; §9; C13–C15, C36 |
 | LT4 Novel prediction | A claim would have to give correct weights in a second, unrelated setup, or interference not put in; no setup exists to state this now | A measurement model ("same outcome"; readiness gap 5) and a law of $R$ | §4 "Measurement, informally"; §11 |
@@ -34,7 +34,7 @@ R1–R3: operator O2 on the (a)-restricted rule from the $r=10$ periastron of $[
   - $c=0.01$: the root's jump-arm share is 0.400, 0.381974, 0.381966, 0.308087, 0.137830, 0.011828, 0.005865 at $L=2$, 10, 20, 50, 100, 1000, 2000: near $1/\varphi^2=0.381966$ for $L\le20$, then toward 0. The walks' jump count concentrates on 14 (0.8931 at $L=200$; 0.9909 at $L=2000$).
   - $c=0.1$: jump share 0.000500 at $L=2000$; concentration on 1 jump (0.9995).
   - **A MERW- or count-based claim at this grain would not be robust (LT3): the count is not stable in $L$, and its limit is set by the longest chain, which depends on $c$.**
-- **R3, the classifier (LT3).** `kr.classify` against `c33r.py`: one state differs (87,357 against 87,356); shares agree to 6 decimals, jump-count laws to 4 figures. **Such a claim would be robust to the classifier.**
+- **R3, the classifier (LT3).** `kr.classify` against `c33r.py`: one state differs (87,357 against 87,356); shares agree to 6 decimals, jump-count laws to 4 figures. **The computed shares are robust to the classifier, so such a claim would be too on this point.**
 - **R4, composition on toys (LT1).** Two $P_4$ joined by an edge: $\psi$ has overlap 0.933865 with $(\psi_1+\psi_2)/\sqrt2$, a fixed symmetric sum. $P_4$ joined to $K_4$ localises, a toy analogue of the localisation Burda et al. (2009) show on weakly diluted lattices: $\psi^2$ mass on $P_4$ is 0.042369, then $5.68\times10^{-3}$, $7.60\times10^{-4}$, $1.02\times10^{-4}$ with 1–3 bridge vertices, winner-take-all rather than superposition. Disjoint $P_4\sqcup P_4$: degenerate, $\psi$ not unique. $C_4$ with flux $\theta=0,\pi/2,\pi$ (O5): $\mathrm{tr}\,H^4=32,24,16$; cancellation appears only once phases are supplied. A future LT1 claim through O3 would have to show superposition that these toys do not.
 
 **Limits.** One unmotivated rule (C26), one instance; a walk-length cut, not proper time; dead ends drop out; without (a) (C16) the graph is a continuum. **Not run:** an O3 (symmetrised) census, minutes of compute, which needs backward pairs no rule supplies.
