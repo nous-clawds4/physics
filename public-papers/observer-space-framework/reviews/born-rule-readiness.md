@@ -130,6 +130,8 @@ The measure-problem premise can be worked on now; everything else waits on gates
 
 ## v0.9 refresh (2026-10-10)
 
+**See also (2026-10-10):** `../notes/born-litmus-test.md` records David's open question on how to tell whether the Born rule genuinely emerges rather than being written in by hand, with his L3 working answer (litmus tests LT1–LT4).
+
 **Read at:** main `b327a7b`, `versions/v0.9-prose.md` (current) and `notes/zeno-mass-scoping.md` as merged with #245's strings 1–4. **Scope:** the old map above is re-mapped against v0.9, and nothing above this section is edited. Every C-row figure quoted here was checked against v0.9's Appendix A by script (`brr_check.py`, Pins). No pin was in doubt, so nothing was recomputed.
 
 ### Gaps before a Born-type question can be posed
