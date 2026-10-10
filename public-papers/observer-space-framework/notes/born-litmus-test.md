@@ -21,7 +21,7 @@ Genuine emergence needs YES on all four:
 
 **Scope and outcomes (David, 2026-10-10, about 11:39 ET, given directly to the Physics Lead in chat and relayed here; the exchange is not recorded in this repository; part of the L3 answer; this revises the earlier same-day reading, in which the test applied only once a Born-type result was claimed).** The test asks one question: was the Born rule put in by hand? **Failure** means circular reasoning that injects the Born rule directly, in whole or in part. The test can therefore fail before the full Born rule is claimed. It cannot be passed on a technicality, such as "we did not actually derive the Born rule, because our rule differs from it in some esoteric way". **Success** means no circularity has been detected. It does not prove emergence.
 
-**Pre-emptive use (David, 2026-10-10, about 11:20 ET, given directly to the Physics Lead in chat and relayed here; the exchange is not recorded in this repository; part of the L3 answer).** The test can also be run when there are only hints of a Born rule, such as the squared eigenvector of maximal-entropy random walks (MERW) (`notes/merw-litmus-scoping.md`). If a reviewer raises circularity, even prematurely, the record then has an answer ready. Run this way, the test can detect a partial injection (a failure). It cannot pass a claim that has not been made. For each LT, it records whether there is yet anything to check and what a later claim would have to show.
+**Pre-emptive use (David, 2026-10-10, about 11:20 ET, revised about 11:39 ET, given directly to the Physics Lead in chat and relayed here; the exchange is not recorded in this repository; part of the L3 answer).** The test can also be run when there are only hints of a Born rule, such as the squared eigenvector of maximal-entropy random walks (MERW) (`notes/merw-litmus-scoping.md`). If a reviewer raises circularity, even prematurely, the record then has an answer ready. Run this way, the test can detect a partial injection (a failure). It cannot pass a claim that has not been made. For each LT, it records whether there is yet anything to check and what a later claim would have to show.
 
 ## Substitution test (David, 2026-10-10, about 11:39 ET, given directly to the Physics Lead in chat and relayed here; the exchange is not recorded in this repository; part of the L3 answer; proposed, not yet analysed formally)
 
@@ -29,7 +29,7 @@ Suppose the manuscript were rewritten with a different rule in place of the Born
 
 If it could be slid in with nothing else changing, the rule was put in by hand, and the test fails. If a derivation is genuine, swapping the rule should break something upstream: an input, a lemma or a symmetry.
 
-**David's conjecture (unanalysed):** the decision-theoretic derivation would fail this test, and this framework would pass it. Neither half is checked here. How the substitution test relates to LT1–LT4 (for example, whether it sharpens LT2) is open.
+**David's conjecture (L3, unanalysed; recorded as stated; not a claim of this note or of v0.9):** the decision-theoretic derivation would fail this test, and this framework would pass it. Neither half is checked here. This note makes no comparison between the decision-theoretic programme and this framework, and v0.9 makes no Born-type claim for the test to be run on (v0.9 §2). How the substitution test relates to LT1–LT4 (for example, whether it sharpens LT2) is open.
 
 ## Where it connects
 
