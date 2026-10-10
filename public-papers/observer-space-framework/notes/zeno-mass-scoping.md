@@ -19,7 +19,7 @@ $w(X)$ is the weight of arm $X$ in C35's toy. V0 is C35 with one continuing arm 
 | (Z-ii) | Excise first; the per-vertex product mass is kept, with Zeno histories counted as ended | wherever the per-vertex product is defined (finite stars) | $1/2$ / $1/2$ / $1/2$ |
 | (Z-iii) | Excise, then condition: $w(X)=(w_{\rm ii}(X)-z_X)/(1-z)$ | $z<1$ | $1$ / $1/2$ / undefined ($0/0$) |
 | (Z-iv) cut limit | $\lim_{T\to1^-}$ of the weight at an accumulated-$\tau$ cut $T$, or along depth cuts. Per-vertex: the cylinder mass. Counts: the share of cut nodes | per-vertex: always, and it equals (Z-ii). Counts: iff the limit exists | per-vertex $1/2$ at every cut. Counts: $1/(1+2^k)$ for $T\in[1-2^{-k},1-2^{-k-1})$, giving $1/3, 1/5, \dots, 1/1025$ at $k=10$, with limit $0$ |
-| (Z-v) $\tau$-blindness | A requirement rather than a reading: weights are unchanged when vertex times are moved monotonically, keeping the tree (e.g. $1-2^{-k}\mapsto k$) | — | It forces the per-vertex value $1/2$, which is (Z-ii)'s. (Z-i) and (Z-iii) change under such moves: at $\tau=k$, $X$ has weight $1/2$ under both |
+| (Z-v) $\tau$-blindness | A requirement rather than a reading: weights are unchanged when vertex times are moved monotonically, keeping the tree (e.g. $1-2^{-k}\mapsto k$) | — | Under per-vertex weights it forces $1/2$, which is (Z-ii)'s; counts along depth cuts are also unchanged by such moves and give (Z-iv)'s $0$. (Z-i) and (Z-iii) change under such moves: at $\tau=k$, $X$ has weight $1/2$ under both |
 
 Counting (Z-iv) at $T\ge1$ meets a continuum of ended $Y$-histories (undefined; dropping them gives (Z-iii)'s 1). Its limit $0\ne1/2$, as §9's limit iff predicts for unbalanced siblings.
 
@@ -46,10 +46,10 @@ None of them touches T1, T3, #139 (a), (c)–(e), or F1–F8, F11 and F12.
 ## (d) Cost
 
 - **(Z-0)/(Z-i).** No new mathematics. A per-state proof that no history ahead is Zeno is needed; on the instance C7 supplies it. A single measure-zero Zeno history is enough to make the weights undefined (V0).
-- **(Z-ii).** One existence citation (Ionescu-Tulcea, Kallenberg 8.24, already referenced). Item 8's "outside EPP1's domain" needs scoping: the mass is assigned before the accumulation point.
+- **(Z-ii).** One existence citation (Ionescu-Tulcea; Kallenberg 2021, 3rd ed., Theorem 8.24, already referenced). Item 8's "outside EPP1's domain" needs scoping: the mass is assigned before the accumulation point.
 - **(Z-iii).** Each weight needs the tail mass $z$, an infinite-horizon quantity that may lack a closed form. It is undefined at $z=1$. Weights depend on $R$ beyond depth 1.
-- **(Z-iv).** Under per-vertex weights it is free, because it reduces to (Z-ii) through the cut criterion. Under counts it needs a cut family and a limit-existence proof (§9's limit iff, C15), and it can fail to converge (R3).
-- **(Z-v).** One lemma: per-vertex weights depend only on the tree. Stating it fixes a value, which is a choice in itself.
+- **(Z-iv).** Under per-vertex weights it is free, because it reduces to (Z-ii) through the cut criterion. Under counts it needs a cut family and a limit-existence proof (§9's limit iff, C15), and it can fail to converge (#229 R3).
+- **(Z-v).** One lemma: per-vertex weights, and counts along depth cuts, depend only on the tree. Stating it fixes a value once the weight type is fixed ($1/2$ per-vertex, $0$ for counts), which is a choice in itself.
 
 ## Questions for an outside critic
 
