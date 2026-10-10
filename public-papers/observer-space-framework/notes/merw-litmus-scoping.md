@@ -1,6 +1,6 @@
 # MERW eigenvector and the Born litmus test: scoping note (options and costs only)
 
-**Read at:** main `f920ca3` (`versions/v0.9-prose.md` §2, §8.2, §8.4, §9, §11, §12; C26, C33, C36); `notes/born-litmus-test.md` (L3) as merged in #248 (`001dde2`). **Record:** `reviews/born-rule-readiness.md` (§1.2; v0.9 refresh), `notes/zeno-mass-scoping.md`. **Status:** scoping only; no pick, no derivation, no law of $R$; nothing in `versions/` or the essays edited. **Scope (David's qualifier to the L3 answer, recorded in `notes/born-litmus-test.md`, "Scope and outcomes"):** LT1–LT4 apply only once a Born-type result is claimed. This note claims none, so nothing here passes or fails; each finding says what a future claim would have to show. Literature only as v0.9 cites it (Burda et al. 2009; Duda 2011; Faber 2024).
+**Read at:** main `f920ca3` (`versions/v0.9-prose.md` §2, §8.2, §8.4, §9, §11, §12; C26, C33, C36); `notes/born-litmus-test.md` (L3) as merged in #248 (`001dde2`). **Record:** `reviews/born-rule-readiness.md` (§1.2; v0.9 refresh), `notes/zeno-mass-scoping.md`. **Status:** scoping only; no pick, no derivation, no law of $R$; nothing in `versions/` or the essays edited. **Scope (David's revised qualifier to the L3 answer, recorded in `notes/born-litmus-test.md`, "Scope and outcomes" and "Pre-emptive use"):** failure means circular injection of the Born rule, in whole or in part, so the test can fail before a full Born claim, and no technicality yields a pass. This note makes no Born-type claim and asserts no injection. Whether any MERW-based route would inject the Born rule, in whole or in part, is what a future check would have to settle; each finding records whether there is yet anything to check and what a later claim would have to show. Literature only as v0.9 cites it (Burda et al. 2009; Duda 2011; Faber 2024).
 
 ## (a) Which operator, and what an amplitude-like $\psi$ would need
 
@@ -16,7 +16,7 @@
 
 ## (b) LT1–LT4: what a future claim would have to show, and what it waits on
 
-| Test | Before any claim (the test does not apply yet) | Waits on | Pointers |
+| Test | Now (no claim made; no injection asserted) | Waits on | Pointers |
 |---|---|---|---|
 | LT1 Identity | A claim would have to exhibit an object that superposes, evolves linearly and interferes; O1–O4 supply no object that superposes or cancels (readiness §1.2) | Amplitude-like structure (readiness gap 6; no listed call); law of $R$ | §8.2 item 1; C36 |
 | LT2 Prior inputs | A claim would have to meet the §8.4 motivation clause; no rule meets it now (C26) | Law of $R$ and slice; (M1)/(M2) (MERW is a long-path count, an (M2)-side object); (a)/(b) (countable graph under (a), C33; continuum without, C16) | §8.2 item 1; §8.4; §6.1 |
@@ -28,7 +28,7 @@
 R1–R3: operator O2 on the (a)-restricted rule from the $r=10$ periastron of $[10,20]$, uniform weight on length-$L$ walks from the root (C36's root count). R4: small graphs, O3 and O5. Enumeration, no sampling.
 
 - **R1, the spectrum (LT1 and LT3).**
-  - At $c=0.01$ (87,356 states, 29,119 orbits) the strongly connected components are exactly the 29,119 orbit 2-cycles; jumps are acyclic (C33). Spectral radius 1, multiplicity 29,119: no unique Perron vector, so **MERW's $\psi^2$ is undefined here**. The test does not apply yet; a future claim through O2 would first have to supply an $R$ with a unique leading eigenvector.
+  - At $c=0.01$ (87,356 states, 29,119 orbits) the strongly connected components are exactly the 29,119 orbit 2-cycles; jumps are acyclic (C33). Spectral radius 1, multiplicity 29,119: no unique Perron vector, so **MERW's $\psi^2$ is undefined here**. There is as yet no $\psi$ here to check for injection; a future claim through O2 would first have to supply an $R$ with a unique leading eigenvector.
   - Walk counts grow polynomially: $\log_2(N_{2000}/N_{1000})=14.185$ (longest chain 14); $0.999$ at $c=0.1$ (3 orbits, chain 1).
 - **R2, the long-path count (LT3, cut depth).**
   - $c=0.01$: the root's jump-arm share is 0.400, 0.381974, 0.381966, 0.308087, 0.137830, 0.011828, 0.005865 at $L=2$, 10, 20, 50, 100, 1000, 2000: near $1/\varphi^2=0.381966$ for $L\le20$, then toward 0. The walks' jump count concentrates on 14 (0.8931 at $L=200$; 0.9909 at $L=2000$).
