@@ -168,3 +168,73 @@ NEW:
 ```
 How the substitution test relates to LT1–LT4 is open (options (R-a) onward in `notes/substitution-test-scoping.md`, none picked); the per-LT sort's "the cheating test proper is LT2 plus the substitution test" (Lead ruling (2026-10-11, delegated)) bears on it but picks no option.
 ```
+
+## Addendum: fix pass `b3a9091..b2cf06b`
+
+**Verdict on the fix pass: HOLD (narrow), one string.** Heads read: #283 head `b2cf06b` (one fast-forward commit on `b3a9091`), main `4d1fb11`, and Geometry #288 (`reviews/lead-rulings-283-geometry.md`) at `1b666a2`. The commit touches 4 files: the litmus note, the substitution note, the brief and readiness. Every change in it is accounted for below. Nothing else changed.
+
+### FD4
+
+- **Wording:** the final FD4 sentence pair is identical in the litmus and substitution notes (one regex match in each).
+  - Each note has exactly one "if and only if" sentence and one "pass on this point" sentence.
+  - No earlier pass wording remains ("breaks only independently motivated items", "every item it breaks").
+- **David's sentence:** "If it could be slid in with nothing else changing, the rule was put in by hand, and the test fails." is byte-exact against David's Substitution-test text in the litmus note. That text appears twice in the litmus note (L3 text and FD4) and once in the substitution note (FD4).
+- **Logic: now right.**
+  - Empty S1 fails.
+  - A non-empty S1 fails if any broken item is, under S3, the target rule (or a special case or sub-case of it) restated, or a parameter tuned to it.
+  - A pass on this point needs at least one break, with every break independently motivated and none restating the target rule on any sub-case.
+  - "or sub-case" agrees with T-a's "In part".
+- **Note, no string:** a non-empty S1 containing only S3 "neither" items (not independently motivated, not a restatement) is neither a fail nor a pass on this point. That is consistent with "Purpose" (only injection fails), and such an item bears on LT2's "fixed for independent reasons" instead.
+- **Reconciliation:** X1/X2's content is carried in full, and P1/P2's NEW text replaces their phrasing (PR body). This is as described.
+
+### X3–X6 and Geometry #288
+
+- **X3, X5, X6:** each NEW is present once, verbatim, and no OLD remains.
+- **R1, R2 (brief l.38), O1 (brief l.20), O2 (readiness l.56) and O3 (brief l.45):** each NEW is present once, verbatim.
+- **X4:** "not signed" is applied, with one departure: a scope clause is inserted after it ("scope as relayed: LT sorts, FD2–FD7, F-M1, Zeno FD1/FD2"). This is the one open point, below.
+
+### Delegation scope (open)
+
+- **The quote lists no items.** It reads "I've told you how the test works. I want you to answer those questions as best you can."
+- **No relay source is given.** The PR body says only that the scope "is added right after" X4's "not signed". Neither the body nor any file says who relayed the scope, or when.
+- **It reads as David's.** Placed inside the parenthesis that attributes the quote to David ("given directly to the Physics Lead in chat and relayed here, not signed; scope as relayed: ..."), "scope as relayed" reads as part of David's relayed message rather than as the Physics Lead's account of its scope.
+- **Confirmation is pending.** As this review reported at `b3a9091` (§3), the record does not show which questions the delegation covers. F-M1 (#264 FD6: "F-M1 itself stays David's call") and Zeno FD1/FD2 (#259 items) are the ones in question. As of this addendum, David's confirmation that they are covered is pending.
+- **S1 (required)** marks the scope as the Physics Lead's relay, not David's words, and records that confirmation is pending.
+
+### Text, counts and guardrails
+
+- **David's L3 text:** byte-identical. From `## The question` through the "Genuine emergence" quote, and the whole Substitution-test text including the conjecture, it is unchanged against main (substring and prefix checks).
+- **Word changes against main** (`str.split`, whole file): all match the claims.
+
+  | File | Against main | Within this commit |
+  |---|---|---|
+  | litmus | +473 | +99 |
+  | substitution | +175 | +41 |
+  | brief | +35 | +24 |
+  | readiness | +51 | +23 |
+
+- **New tokens:** the claim that #263 and #264 in the brief are the only new label tokens is incomplete, though every new token is a label or a date:
+  - brief: #263 (×2), #264, 2026-10-11, and FD3/LT3's "3";
+  - litmus: 2026-10-11 (X6), and the 2 and 7 of "FD2–FD7";
+  - readiness: 2026-10-11, §1.2 and l.56 (X5).
+  No number is removed.
+- **Guardrails:**
+  - No forbidden token is added; the readiness "cartoon" is unchanged.
+  - No Born, $|a|^2$ or 1/N result; no Everett-vs-Deutsch–Wallace framing.
+  - Paper 1 and v0.9.1 are untouched by this commit.
+  - Every new "signed" is "not signed".
+
+### String
+
+The OLD occurs once at `b2cf06b`. Applied by script: litmus 3,364 → 3,394 words.
+
+**S1** (required), `notes/born-litmus-test.md`, Labels line:
+
+OLD:
+```
+given directly to the Physics Lead in chat and relayed here, not signed; scope as relayed: LT sorts, FD2–FD7, F-M1, Zeno FD1/FD2; the exchange is not recorded in this repository)
+```
+NEW:
+```
+given directly to the Physics Lead in chat and relayed here, not signed; the exchange is not recorded in this repository; the items it covers are as the Physics Lead relays the delegation's scope, not David's words and not listed in the quote: LT sorts, FD2–FD7, F-M1, Zeno FD1/FD2; David's confirmation that F-M1 and Zeno FD1/FD2 are covered is pending)
+```
