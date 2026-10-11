@@ -127,3 +127,81 @@ OLD: ``(`sample286.py`, seed 286, $N=20{,}000$ per scheme)``
 NEW: ``(`sample286.py 20000 20000`, seed 286, $N=20{,}000$ per scheme; the script's default is 4,000)``
 
 The same scope point applies to the PR body's "Apastra, where it is refuted" bullet: "the lemma fails" there should read "the lemma's unqualified form fails".
+
+## Addendum (2026-10-11): fix pass on #290 and the #285 follow-on
+
+**Heads read (re-checked before filing):**
+
+| PR | from | to | state |
+|---|---|---|---|
+| #290 | `86e50c1` | `295ff19` | open, not merged |
+| #285 | `0987418` | `fc42262` (commits `73fef02`, `0da7aa1`, `fc42262`) | open, not merged |
+
+Main is `6fb1566`. I merged nothing and messaged no one.
+
+### #290 (`86e50c1` → `295ff19`): PASS with notes
+
+**Strings.** Every #291 string is applied:
+
+- **R1–R4, N1, N2 (both), N3 and N6** match their NEW text exactly.
+- **N4.** Both `g201` pins now have 12 digits (`97659775a495` and `edd8c89b2216`), under the repository names `census.py` and `r1.py`.
+- **N5, first string.** It is replaced by a pin legend: "sha256 of the committed files … in [`turning-type-lemma-scripts/`](turning-type-lemma-scripts/) next to this note". This deviation is disclosed and sound, because the scripts are now in the repository and the link resolves.
+- **N5, second string.** It matches exactly, followed by a disclosed sentence: the `g168/c33r.py` pointer is superseded by the committed `c33r.py`.
+- **CKP citation.** "(Cutler, Kennefick & Poisson, Phys. Rev. D 50, 3816 (1994))" is verbatim and placed on the $p>6+2e$, $r_p>4$, $r_a>6$ sentence.
+- **Headline.** It reads "the lemma holds as #203 states it, with the throat proviso, and extends up to $\varepsilon\le2\Delta\ell$. Only the unqualified form is refuted." That is accurate.
+- **PR body.** It applies the PR-body scope note ("the lemma's unqualified form fails").
+
+**Text outside the strings and the headline.** Four other lines changed. They are knock-ons of the R1 rescope, and the PR body covers them only as "the verdict is rescoped". All four are accurate:
+
+- **Line 7.** It now reads: "Past the sphere the inward edge is undefined under the named alternative ("stop"); under the proposed default ("continue through") it still fails (a) up to $\varepsilon\le2\Delta\ell(r_0)$ ($\varepsilon=\Delta\ell$ excluded)." This agrees with (T2) and (T3).
+- **Corollary heading.** "(the #203 lemma: the proviso form, extended)".
+- **Counterexample heading.** "(to the unqualified form; the exception is real)".
+- **Census pointer.** "`census.py` (with `r1.py`, both from the box's `g201`)".
+
+Nothing else in the note changed (`git diff --word-diff`).
+
+**Scripts** (`notes/turning-type-lemma-scripts/`, from a fresh clone at `295ff19`):
+
+- **Hashes.** All 12 sha256 prefixes match the pin table.
+- **Changes from the box originals.**
+  - `tt.py`, `proof286.py`, `census.py`, `r1.py` and `kr.py` are byte-identical to `/workspace/g286`, `g201` and `g154`.
+  - The five changed g286 files differ only in their import or path line: `throat286`, `boundary286`, `sample286`, `census286` and `censusf286`. The hard-coded `/workspace/...` path becomes the script's own directory.
+  - `c33r.py` and `c33x.py` also differ from `g168`, only in path lines (two in `c33r.py`, one in `c33x.py`). The README discloses this ("path lines only"), although the PR's "five changed hashes" count covers only the g286 files.
+- **Secrets and box paths.** A scan finds no `/workspace`, `/home`, token, key or password strings.
+- **Outputs.** All 10 expected outputs reproduce. I ran each from `/tmp` and compared after removing run-time fields:
+  - `proof286`, `throat286` and `boundary286`;
+  - `sample286 20000 20000`;
+  - `census286` at 0.1 and 0.01;
+  - `censusf286` at 0.1, 0.01 and `0.001 22` (65 s; 8,254,910 orbits, 0 into-range passes, maximum apastron 20.7284);
+  - `c33r 0.01`, which gives the exact C33 jump-count law.
+- **One reproduction detail.** `censusf286.py` prints its BFS progress to stderr, and `expected/` holds stdout only. The outputs match exactly when stdout alone is compared (optional string S1).
+
+**Guardrails.**
+
+- χ, `\chi` and the other forbidden tokens: 0. The one new "signed" is "signed proper distance" in `tt.py`, a mathematical term.
+- No Born, $|a|^2$ or 1/N claim.
+- F11 stays open. The throat conventions keep v0.9.1's labels (proposed default and named alternative), and neither is recommended.
+- v0.9.1 and Paper 1 are untouched.
+
+### #285 (`0987418` → `fc42262`, `notes/v0.10-plan.md`): PASS with notes
+
+The diff is two lines: item 1's table row and the "Next substantive physics question" paragraph. Nothing else changed.
+
+- **Item 1.** It now carries "provided the jump does not reach the throat (#203's proviso; #290: holds in that form and extends up to $\varepsilon\le2\Delta\ell$; only the unqualified form is refuted)". This is accurate to #290 at `295ff19`. The row does not say that #290 is under review, while the paragraph below it does (optional P1).
+- **C33 claims.** Both now name only $m\le1$: "C33's $m\le1$ … becomes a theorem, with the throat proviso, up to $\varepsilon\le2\Delta\ell$; transience and countability are not proved by it and still need their own argument" and "turns C33's $m\le1$ … from computed into proved". This matches #290 §5 on transience and countability. #290 §5 also notes that the theorem gives C33's $m\le1$ only together with one computed fact, the maximum apastron 25.37. "From computed into proved" leaves that out (optional P2).
+- **Risk cell.** The pre-existing cell "Low (0 of >19,000 edges pass)" is unchanged. It is now dated, because 8,244 sampled beyond-landings pass under *through*. I flag it only and give no string, since it is outside this diff.
+- **F11 and guardrails.** No F11 pick: "stays a Lead/David call (#230 F11)" is unchanged. No forbidden tokens; no Born, $|a|^2$ or 1/N claim; nothing recorded as signed.
+
+### Strings (all optional; each OLD occurs once at the head named)
+
+**S1** (#290, `notes/turning-type-lemma-scripts/README.md`)
+OLD: ``The expected outputs are in `expected/`; lines that report a run time in seconds will differ.``
+NEW: ``The expected outputs in `expected/` are stdout only (`censusf286.py` prints its BFS progress to stderr); lines that report a run time in seconds will differ.``
+
+**P1** (#285, `notes/v0.10-plan.md`)
+OLD: `(#203's proviso; #290: holds in that form`
+NEW: `(#203's proviso; #290, under review: holds in that form`
+
+**P2** (#285)
+OLD: `from computed into proved.`
+NEW: `from computed into proved, given one computed C33 fact (the maximum apastron, #290 §5).`
