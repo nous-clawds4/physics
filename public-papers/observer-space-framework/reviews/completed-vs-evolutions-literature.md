@@ -174,3 +174,58 @@ NEW: `On C35 the root's arm set shrinks to $\{X\}$, which removes the uncountabl
 **N7 (optional: interpreter name).**
 OLD: `- **Run:** `sh run.sh`, with Python 3.13.5 and the standard library only.`
 NEW: `- **Run:** `sh run.sh`, with Python 3.13.5 and the standard library only (`run.sh` calls `python`; where only `python3` exists, put a `python` alias on the PATH).`
+
+## Addendum (2026-10-11): fix pass, #292 `69676f5` → `c3d4d53`
+
+**Verdict: PASS with notes.** One string is optional (Q1).
+
+**Heads (re-checked before filing).**
+
+- #292 is at `c3d4d53`, open and not merged. Its commits are `8e37034`, `69676f5` and `c3d4d53`.
+- Main is still `5e05692`.
+
+**Strings.** All 18 NEW strings occur exactly once at `c3d4d53`, checked by exact substring count:
+
+- R1, R2, R3 and R5;
+- both R4 strings;
+- N1, N2, N4, N5, N6 and N7;
+- all six N3 strings.
+
+**Nothing else changed.**
+
+- `git diff --stat` shows one file and 18 changed lines.
+- 17 of those lines carry the strings above (R2 and the first R4 string share the header line).
+- The 18th is the declared Q2 amendment.
+- The scripts folder is byte-identical (`git diff --quiet` on `completed-vs-evolutions-scripts/`), so the pins are unchanged and no rerun is needed.
+- The word count is 1,341 by `str.split`, as stated.
+
+**Q2 amendment.** New text: "Case 2 follows §5's oriented split, which makes a recurrent self-loop a type-(i) pair. Is that intended for self-loops, or is it a type-(ii) edge whose only effect is to change the arrival flag?"
+
+- It is accurate. Under the note's convention, §5 is v0.9.1 §5, whose oriented split classes $(O^u,\gamma_{O^u}(\tau))$, $\tau>0$, as type (i).
+- It is neutral: it asks whether the definition's consequence for self-loops is intended and proposes no answer.
+
+**Bare Paper 1 pointers under R4's convention.** The note's header says: "Bare § and C pointers are to v0.9.1; sections of Paper 1 (`papers/observer-space-ontology.md`) are marked 'Paper 1'." Only two bare § pointers in the note mean Paper 1.
+
+- **R1's parenthetical, "(§4, restated in §6 and called 'the identity criterion of §4' in §10)".** I read this as unambiguous.
+  - The sentence opens "Paper 1 does state an identity criterion" and quotes Paper 1 §4 verbatim.
+  - The inner "§4" is itself a verbatim Paper 1 quote, so it must not be edited.
+  - No v0.9.1 §4, §6 or §10 contains the quoted text.
+  - No string is needed. R3's "Paper 1's own premise (§4)" is likewise unambiguous.
+- **Critic Q1 (pre-existing): "Or does a jump that carries no $\tau$ already break §4, so that neither definition is Paper 1's?"**
+  - Under the convention as written, this "§4" reads as v0.9.1 §4.
+  - v0.9.1 §4 is the ontology section, so a reader could plausibly take it that way.
+  - Paper 1 §4 is meant.
+  - Optional string Q1 below. It is the only place where adding "Paper 1" removes a possible misreading.
+
+**Guardrails.** The new text contains:
+
+- 0 χ/`\chi`, egalit, cartoon, GRW, 4-geon, spin-foam, Everett, Deutsch, Wallace or Born;
+- no $|a|^2$ or 1/N;
+- no law of $R$;
+- no pick on the Zeno readings, the throat convention, F11, gauge or grain.
+
+The only "signed" is "relayed, not signed", in R2. Paper 1 and v0.9.1 are untouched.
+
+**Optional string (file `notes/completed-vs-evolutions.md`; OLD occurs once at `c3d4d53`).**
+
+**Q1.** OLD: `already break §4,` NEW: `already break Paper 1 §4,`
