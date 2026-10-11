@@ -126,3 +126,72 @@ NEW: `so $r=2$ is a coordinate singularity of the Schwarzschild chart, not a cur
 **N6 (optional: relay standard).**
 OLD: `answering David's well-posedness question as relayed by the Physics Lead.`
 NEW: `answering David's well-posedness question as relayed by the Physics Lead (not recorded in this repository; not signed).`
+
+## Addendum (2026-10-11): fix pass, #297 `899fafe` → `5778591`
+
+**Verdict: PASS with notes.** One string is recommended (L1, in two places).
+
+**Heads (re-checked before filing).**
+
+- #297 is at `5778591`, open and not merged. Its commits are `899fafe` and `5778591`, and the latter was committed at 4:06 PM ET.
+- Main is still `8e99afd`.
+
+**Diff scope.**
+
+- Two files changed: `notes/throat-well-posedness.md` and `notes/v0.10-plan.md`. The plan gains one added line.
+- The scripts folder is byte-identical (`git diff --quiet`), so the pins hold without a rerun.
+- v0.9.1, Paper 1 and `papers/` are untouched.
+- Words by `str.split`: the note has 1,243 and the plan 840, as stated.
+
+**Strings.**
+
+- **Applied as written.** R2 (the disclosure option), R3, R4, N1, N3, N4, N5 and N6 each match their NEW text exactly. Nothing else in the note changed apart from the two amendments below.
+- **N2, amended.** The verdict's second sentence now reads: "So, on this reading, the rule already defines the through-throat target; "stop" would be an additional rule, as §7 already says ("a case clause keyed to an instance feature")."
+  - The quote is verbatim from v0.9.1 §7: "This adds a case clause keyed to an instance feature."
+  - The new wording is more neutral than "survives only" and stays a well-posedness finding.
+- **R1, amended.** My two sentences are kept verbatim. The added clause reads: "By the Physics Lead's ruling (relayed; not signed), that wording is superseded on this reading and is to be revised in v0.10 (`notes/v0.10-plan.md` item 12); v0.9.1 is not edited here."
+
+**Attribution of the C37 ruling.**
+
+- **It is the Lead's, not David's.** The ruling is attributed to the Physics Lead. Nothing phrases it as David's.
+- **Tag.** The repository's Lead-ruling form is "**Lead ruling (2026-10-11, under David's delegation of 12:34 PM ET; relayed, not signed)**", used 10 times on main, plus one "**Lead ruling (2026-10-11, delegated)**". So "relayed, not signed" is the established tag for Lead rulings too, not only for David's words. The amendment is right to use it.
+- **What the amendment lacks.**
+  - It has no date.
+  - It uses a semicolon where the repository form has a comma.
+  - It gives no basis. Is the ruling under a delegation, or within the Lead's own remit?
+  - I cannot verify the relay itself, because the ruling is not recorded anywhere else in the repository.
+- **Is it David's call?** The record says no. I quote it:
+  - David's 12:34 PM delegation covered the open litmus-test items (#283). His 12:46 PM confirmation extends it to F-M1 and Zeno FD1/FD2 (#289). Neither mentions the throat convention or C37.
+  - #230's FOR DAVID rule (`reviews/v0.8.1-prose-full-claude-pressure-test.md` §0, after #225 §1) reads: "A finding is FOR DAVID if it adds, removes or rewords what is said about any of these: a side, cost, framing or history of (M1)/(M2); T1 …; Q-D1 …; a hold level." Its F1–F12 list has no throat item; F11 is the #203 lemma.
+  - The only throat flag addressed to David is v0.7-outline's "Flagged for David / Physics Lead" list: "**F3. Throat convention (default proposed).** The default proposed is continuation along the jump path … It concerns only the unadopted example, and only the model without (a)." It is addressed jointly, and it concerns the *choice* of default. Geometry's #157 F3 then confirmed that default "in substance". Item 12 keeps the choice open ("The choice between 'continue through' and 'stop' stays open").
+  - So rewording C37's claim text without picking a convention falls in no FOR DAVID category. It reads as a Lead editorial decision for v0.10, within the Lead's planning remit. It is not under David's delegation, and nothing in the record requires David's sign-off.
+- **The note should say so** rather than leave the basis implicit (L1).
+
+**"Superseded on this reading."** This does not overstate.
+
+- It is scoped to "this reading" (targets are germs continued along the path).
+- The same clause says "v0.9.1 is not edited here" and defers the revision to v0.10.
+- The convention itself is not picked: §2 still says "This note neither adopts nor rejects it", the header lists the throat convention as unpicked, and item 12 keeps the choice open.
+
+**Plan item 12.** The item is accurate and follows the plan's format.
+
+- It uses the seven columns: # | Item | Pointer | Value | Cost | Needs | Check.
+- Its values match items 10–11 in register: Value "Low: one C-row's claim text; no pin moves"; Cost "≈0"; Needs "v0.10 text edit"; Check "WP✓", with #297's finding.
+- The pointers (§7; C37; #297) resolve.
+- The plan contains no item count ("eleven", "1–11" and so on) that would need updating.
+- No F11 pick: item 12 does not concern F11, and items 1 and 10 are unchanged.
+- It carries the same undated "Lead ruling, relayed, not signed" tag as the note (L1).
+
+**Guardrails.** The note and the added plan line contain 0 χ/`\chi`, egalit, cartoon, GRW, 4-geon, spin-foam, Everett, Deutsch, Wallace or Born, and no $|a|^2$ or 1/N. There is no law of $R$, no (M1) citation, and nothing recorded as signed. David's question keeps "relayed … not signed".
+
+**Recommended string L1** (each OLD occurs once at `5778591`)
+
+In `notes/throat-well-posedness.md`:
+OLD: `By the Physics Lead's ruling (relayed; not signed), that wording is superseded on this reading and is to be revised in v0.10`
+NEW: `By a Lead ruling (2026-10-11; a v0.10 wording decision within the Lead's remit, not under David's delegation and in no FOR DAVID category of #230 §0; relayed, not signed), that wording is superseded on this reading and is to be revised in v0.10`
+
+In `notes/v0.10-plan.md`:
+OLD: `(Lead ruling, relayed, not signed; #297)`
+NEW: `(Lead ruling, 2026-10-11, relayed, not signed; #297)`
+
+If the Lead did intend the ruling to rest on David's delegation, the basis should instead cite the delegation and show that it covers C37. As quoted above, the record does not show that it does.
