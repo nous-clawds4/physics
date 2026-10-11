@@ -123,3 +123,48 @@ NEW: ``nothing in `versions/` or `papers/` is edited. Bare § and C pointers are
 **N2 (optional: where a formal limit lives).**
 OLD: `where a limit can be a formal jet that is not a germ at all (Prop. 14 there), so membership in $V$ is checked separately`
 NEW: `where the limit in the ambient jet space can be a formal jet that is not a germ (Prop. 14 there: analytic jets are not closed), so membership in $V$ is checked separately`
+
+## Addendum: diff check of #301 `2134523` → `110a4c7`
+
+**Heads read (re-checked before filing):** #301 head `110a4c7` (commits `2134523`, `110a4c7`; open, not merged); main `f7acfac`; this PR (#302) was at `5cd062a` before this commit. **Verdict:** PASS with notes. The brief: PASS, and **yes, it is neutral enough to go to David.** The `zeno-well-posedness.md` §1 edit: accurate, with one recommended disclosure (D1).
+
+**Scope.** `git diff --stat 2134523 110a4c7` touches two files only: `notes/topology-decision-brief.md` (12 lines) and `notes/zeno-well-posedness.md` (1 line, §1). Against main, the PR touches only those two files. Paper 1, `versions/` and `papers/` are untouched.
+
+**Strings.** R1–R7 and N1–N2 each appear exactly as their NEW text in this review, and no OLD survives. "No amendments" holds for the strings themselves. The only text outside the strings is the T0 balance text below, which Geometry declared.
+
+**T0 additions (not strings), checked against the record:**
+- "Item 8's 'ends there' stays unconditional": this is v0.9.1 §8.2 item 8's own clause. Accurate.
+- "whether germs are identified across exteriors does not arise … no gauge reading is needed" and "(T3)'s question does not arise": these follow because T0 asks for no limit. Accurate.
+- "Plan item 2's ILL flag on (Z-ix) stays … takes its partner's value": this matches the brief's own Settles line ("(Z-ix) reduces to its partner (Zeno note N-b)") and plan item 2. Accurate.
+- "C37 and plan item 12 are unaffected, as under every option": accurate, and phrased symmetrically.
+- The weight claim, "C5's chains have mass 0 (#299), so under (Z-ii), (Z-iii), (Z-vi) and (Z-vii) no weight above it moves", is accurate. #299 has the same claim, scoped to C5 by my #300 R3. Here is why the other two readings are left out. `notes/zeno-mass-scoping.md` (main `f7acfac`), line 72: "| (Z-0)/(Z-i) | (M1) loses weights above any Zeno history |". The same note says one measure-zero Zeno history is enough to leave the weights undefined (V0, #270), and that clause (2) still fails on a continued history. So under (Z-0)/(Z-i) the weights stay undefined whatever topology is chosen, and none "moves". For the other four: (Z-ii) drops measure-zero histories; line 77 reads "| (Z-vi) | As (Z-i) where $z>0$, as (Z-ii) where $z=0$ |", and C5 has $z=0$; and (Z-iii)/(Z-vii) act only where $z>0$ (#274 Z3/Z4 wording). So with $z=0$, all four keep (M1)'s weights. The limit to C5 matters: #270's toys with $z>0$ are where a stipulated limit can move weights, and the brief does not generalise beyond C5.
+- On lean: the weight fact holds under every option, not only T0, because #299 says no notion of limit moves a C5 weight. Placed only under T0's *Example*, a reader could take it as a T0 advantage. This is optional (N3).
+
+**Option word counts** (str.split, from each bold label to the next): T0 222, T1 273, T2 184, T3 197, which matches Geometry. Brief 1,375 and Zeno note 1,363 also match. T0 is no longer the thinnest option. T1 is longest because it carries its two variants and the owed proofs. T2 is shortest because it is framed as part of T1. Neither difference is a lean. T0 now has a Case, a Cost (David's reading cannot act, and the ILL flag stays), an Example and Settles, in parallel with the others.
+
+**Neutrality: yes.** The reasons:
+- Every option has a record basis, its cost and its hedges. T1's "can be a formal jet … analytic jets are not closed" and T2's "does not prove … owed" are both kept.
+- T3 now gives both sides a record basis: #297 §3's gauge row for keeping labels, and v0.9.1 §4/§7 for identifying.
+- The omitted courses (defer; a topology not on record) are flagged.
+- (M1) is tagged "ruled at L3 on 2026-10-10 (relayed, not signed)", and (Z-ix) carries its relay tag.
+- No option is presented as adopted, and there is no Lead or agent recommendation.
+
+**`zeno-well-posedness.md` §1 edit.** It is consistent with `papers/fermi-distance.md`:
+- line 17: "The inverse-limit topology on $J^\infty$ is metrizable … A quotient metric";
+- line 21: "is then a candidate *Fermi-slice distance*" and "Extra packaging of Theorem 16".
+
+Nothing in that file proves that the quotient metric generates the Theorem 16 topology. The parenthetical fact (a quotient of a metric by a compact group acting by isometries generates the quotient topology) is standard, and it is correctly stated as conditional on the slice metric being $O(3)$-invariant. One nuance: fermi-distance.md line 37 uses "a compatible metric is extra packaging" in a conditional sense, so changing "compatible" to "candidate" is a tightening, not a contradiction. Nothing else in the note changed (a 1-line diff).
+
+Repo norm: notes edited after merge record it in their header. For example, `zeno-mass-scoping.md` line 5 says "**Revised** against main `56ad9b7` …" and "**Revised** again against main `af55f77` …". This note's header still says only "Written at main `af75d21`". Recommended (D1):
+
+- **D1** (`notes/zeno-well-posedness.md`; OLD occurs once at `110a4c7`)
+  OLD: `Written at main `af75d21`; v0.9.1 unedited.`
+  NEW: `Written at main `af75d21`; §1's metric sentence revised in #301 (the record calls the fermi-distance metric a candidate; that it generates the Fermi-slice topology is owed, not proved); v0.9.1 unedited.`
+
+- **N3** (optional, brief; OLD occurs once at `110a4c7`)
+  OLD: `no weight above it moves.`
+  NEW: `no weight above it moves, as under every option (#299).`
+
+**PR body.** The T2 bullet now reads "a candidate metric on (T1)'s inverse-limit variant; that it generates that topology is owed, not proved". That matches the file.
+
+**Guardrails.** The added lines contain zero χ/\chi and zero forbidden words. There is no Born, $|a|^2$ or 1/N result; no Everett-vs-DW framing; no law of $R$. Paper 1 and v0.9.1 are untouched, and nothing is recorded as signed.
