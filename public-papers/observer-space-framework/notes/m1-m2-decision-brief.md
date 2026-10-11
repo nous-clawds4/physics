@@ -1,6 +1,6 @@
 # (M1) versus (M2): decision brief for David
 
-David ruled (M1) at 11:45 PM ET on 2026-10-10 (relayed via Ontology's chat; not otherwise recorded in the repository), after reading this brief at head a39a1d7, before #267 and Literature's check were applied.
+David ruled (M1) at 11:45 PM ET on 2026-10-10 (relayed via Ontology's chat; not otherwise recorded in the repository), after reading this brief at head a39a1d7, before #267 and Literature's check were applied. Hold level, set by David at 11:46 PM ET (relayed via Physics Lead): "Record (M1) as my choice at L3, strong opinion, weakly held, open to reversal if the analysis turns against it."
 
 **Status:** decision brief, neutral. It makes no pick, has no lean and gives no recommendation: the call is David's alone. It is not a claim of v0.9, and nothing in `versions/`, the essays or `papers/` is edited. It was read at main `7fab909`. Sources are cited by path and §; proofs are cited, not restated.
 
