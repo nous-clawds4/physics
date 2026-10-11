@@ -200,3 +200,83 @@ NEW:
 (Z-ii): weights stay functions of the current state, with positive weight on histories that item 8 ends. (Z-iii)/(Z-vii): weights read $R$ ahead.
 ```
 
+
+## Addendum: re-anchor to #266 head `9a0b1ba`
+
+**Verdict: HOLD (narrow) stands.** Heads read: #266 head `9a0b1ba` (commits `ec22059`, `9a0b1ba` on top of `a39a1d7`), base main `7fab909`, #267 head `67f1e59`. Describe-only; no pick on (M1)/(M2) and no lean.
+
+### What moved between `a39a1d7` and `9a0b1ba`
+
+- One file changed: `notes/m1-m2-decision-brief.md` (16 insertions, 14 deletions).
+- Applying #267's 16 OLD/NEW strings (F1–F11) to `a39a1d7` by script gives `9a0b1ba` exactly, except for the new header paragraph. Each #267 OLD matched once. Nothing else in the body changed.
+- The header paragraph, added in `ec22059` (ruling) and extended in `9a0b1ba` (hold level), reads: "David ruled (M1) at 11:45 PM ET on 2026-10-10 (relayed via Ontology's chat; not otherwise recorded in the repository), after reading this brief at head a39a1d7, before #267 and Literature's check were applied. Hold level, set by David at 11:46 PM ET (relayed via Physics Lead): "Record (M1) as my choice at L3, strong opinion, weakly held, open to reversal if the analysis turns against it.""
+- Counts (`str.split`): 1,969 words in all, 550 in the table and 1,419 outside it (the header's 66 words included). Table columns without the header row: (M1) 260, (M2) 255. All confirmed.
+
+### Header
+
+- **Times and attribution:** both correct. The ruling is at 11:45 PM ET, relayed via Ontology's chat. The hold level is at 11:46 PM ET, relayed via Physics Lead.
+- **Quote:** "strong opinion, weakly held, open to reversal if the analysis turns against it" is word for word as relayed. The opening words, "Record (M1) as my choice at L3,", match #269's body. I have no other copy of the relay to check them against.
+- **Signed or not:** the header says "relayed" and "not otherwise recorded in the repository", and it does not say signed. It does not say "not signed" either, unlike #269's "relayed, not signed". R2 (recommended) adds the words.
+- **The brief's stance:** the header separates the ruling from the brief's analysis ("after reading this brief at head a39a1d7, before #267 and Literature's check were applied"). The status line still says the brief makes no pick and has no lean, and that is still true of the body.
+
+### Does the body now read as arguing for the ruling?
+
+No. The tilt scan finds no evaluative wording added by #267. F3 and F5 add a cost to (M1) ("a same-vertex split ... moves it, as it moves (M2)") and extend (M2)'s Opens cell. F9 hedges O3. The (M2) side moves from 204 to 255 words and (M1) from 188 to 260. The one place where the body now sits uneasily beside the header is §1's "The record has two candidate rules and has not chosen between them." That is true at `7fab909`, the main the brief was read at, and the ruling is not recorded on main. R1 (optional) scopes the sentence to `7fab909`. It is not a neutrality fault.
+
+### The 13 strings at `9a0b1ba`
+
+| String | At `9a0b1ba` | Action |
+|---|---|---|
+| A1, A2, H1, L1, P1, P2, S1, S2, S3 | OLD occurs once, unchanged | apply as filed |
+| Z1 | already fixed: #267 F7 applied the same NEW text | drop |
+| S4 | superseded: #267 F6 added (Z-ii) to the (M1) Zeno cell with the same content | drop |
+| L2 | OLD gone: #267 F5 rewrote the (M1) Opens cell, and "(litmus note, LT3 bullet)" now occurs twice | use L2r |
+| L3 | OLD gone: #267 F5 rewrote the (M2) Opens cell | use L3r |
+
+Applying A1, A2, H1, L1, P1, P2, S1, S2, S3, L2r, L3r, R1 and R2 in that order to `9a0b1ba` was checked by script. Each OLD matches once, and none overlaps. The result is 2,153 words: 649 in the table, 1,504 outside it, and table columns (M1) 296, (M2) 311. H1's NEW stays consistent with #267 F9's hedged O3 line.
+
+**L2r** (required; replaces L2), in `notes/m1-m2-decision-brief.md`:
+
+OLD:
+```
+moves (M1) as it moves (M2) (litmus note, LT3 bullet)
+```
+NEW:
+```
+moves (M1) as it moves (M2) (litmus note, Outcome mapping, LT3 bullet; Lead's draft, pending David)
+```
+
+**L3r** (required; replaces L3), in `notes/m1-m2-decision-brief.md`:
+
+OLD:
+```
+under asymptotic sibling balance (C15) (litmus note, LT3 bullet)
+```
+NEW:
+```
+under asymptotic sibling balance (C15) (litmus note, Outcome mapping, LT3 bullet; Lead's draft, pending David)
+```
+
+**R2** (recommended, new), in `notes/m1-m2-decision-brief.md`:
+
+OLD:
+```
+(relayed via Ontology's chat; not otherwise recorded in the repository)
+```
+NEW:
+```
+(relayed via Ontology's chat, not signed; not otherwise recorded in the repository)
+```
+
+**R1** (optional, new), in `notes/m1-m2-decision-brief.md`:
+
+OLD:
+```
+The record has two candidate rules and has not chosen between them.
+```
+NEW:
+```
+At main `7fab909`, the record has two candidate rules and has not chosen between them.
+```
+
+Guardrails at `9a0b1ba`, before and after the strings: no law of $R$; no Born rule, $|a|^2$ or 1/N result; no pick on T1–T3, Q-D, #139 or Z; no Everett-vs-Deutsch–Wallace framing; Paper 1 not edited.
