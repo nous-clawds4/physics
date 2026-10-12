@@ -29,7 +29,7 @@
 | L16 | manifold | Lattice geodesic ties (batch-03 Set 1) | batch-03 | **Parked** (#341, #342) | Ties are two-point, not initial-value: the endpoint is a law of $R$ in disguise; diverges as ℓ→0; drops H1; tie counts as weights = count by fiat. Reopens the geodesic-lifts lock (David's call). |
 | L17 | motion law | Ride the matter, fork at degeneracies (batch-03 Set 2) | batch-03 | **Parked** (#341, #342 R2) | Continuum at degeneracies, not discrete; frame undefined in vacuum; degeneracies rarely hit. Reopens the lock (David's call). |
 | L18 | motion law | Self-force needs memory (batch-03 Set 3) | batch-03 | **Parked** (#341, #342 R1) | Third order only for charge; for mass a past-path tail (Quinn–Wald); reduction of order restores uniqueness. Reopens the lock (David's call). |
-| L20 | analytic (host) | Finitely describable piecewise-analytic hosts: compatible hosts diverge across null junctions into a countable set (batch-05 Set 1) | batch-05; CL | **Proposed** | Breaks H1, H5. Main risk TT2 (is "finite description" physical?) and countable-but-dense. |
+| L20 | analytic (host) | Finitely describable piecewise-analytic hosts: compatible hosts diverge across null junctions into a countable set (batch-05 Set 1) | batch-05; CL | **Parked** (#346; #347 R2; TT2) | Breaks H1, H5. #346: step/sandwich waves exist, but impulsive and Aichelburg–Sexl waves are $C^0$ (excluded by $C^{1,1}$); vacuum $C^{1,1}$ seams are forced null, and non-null seams need an Israel shell (matter); real parameters give a continuum, countable only by restricting constants (a choice) and still dense; "finitely definable" is ill-posed until a class is named; free fall across a seam is unique. #347 R2: countability brings a measure by fiat (Paper 1 §6 counting; Solomonoff-style prior). TT2: free choice of class. |
 | L21 | (dropped, batch 05) | E1–E8 | batch-05 | **Dead** | Continuum (C^∞/Gevrey, k-jets, microstructure, unrestricted junctions), no divergence (quasianalytic, topology only), no shared $O$ (discrete solitons), or off-target (forks inside a host). |
 
 ## Lesson L15 (after batches 01–02)
@@ -60,6 +60,10 @@ Under the reframing, "how does the motion branch?" becomes "what class of data m
 
 *Context (Geometry's caveat, 2026-10-12 3:22 PM ET, relayed via Physics Lead):* under the current lock, histories are nested prefixes, never forks, because some hosts' geodesics end early (Taub–NUT style). Compatible hosts give the same sequence of states for as long as each lasts; they differ only in where it stops.
 
+## Lesson L23 (batch 05; with David via Physics Lead)
+
+Under David's framing, any physical restriction that makes the compatible futures countable also chooses the measure. So the real question may be the measure, i.e. whether a continuum of compatible hosts with (M1) per-vertex weights is acceptable, rather than how to force countability.
+
 ## Change log
 - 2026-10-12: created (batch 01).
 - 2026-10-12: moved to notes/creative/; charter added; TT1–TT4 rename (#335 N1); verdicts from #334/#335 applied (L3 live and ranked first; L8, L9, L7 parked); #335 R1 applied in batch-01.
@@ -68,3 +72,4 @@ Under the reframing, "how does the motion branch?" becomes "what class of data m
 - 2026-10-12: batch-03 verdicts (#341, #342): L16–L18 parked; summary after batches 01–03 added.
 - 2026-10-12: David's 3:14 PM ruling recorded; batch 04 drafted, all candidates dropped; lesson L19.
 - 2026-10-12: David's 3:19 PM reframing recorded (verbatim, replacing an earlier paraphrase); batch 05 (Set 1 proposed, L20; drops L21); lesson L22. batch-04 D7/D8 updated per #344.
+- 2026-10-12: #347 R1–R3 and #346 repairs applied to batch-05; L20 parked; lesson L23.
