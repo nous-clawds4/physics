@@ -50,13 +50,15 @@ Recorded in `notes/creative/charter.md` (addendum). Batch 04 is the first batch 
 
 No set survived the rules once the lock was relaxed (see `batch-04.md`). Two failure modes recur. (i) When ODE uniqueness breaks for a physical reason, the alternatives form a continuum (Peano-type non-uniqueness, free data on a null surface, extensions past a Cauchy horizon in $C^\infty$). (ii) Where the alternatives are discrete (sheets, eigen-frames, branch counts), the branch locus has codimension ≥2 and is rarely hit (#336, #341), or the alternatives disappear rather than fork. The analytic/geodesic lock was not the only barrier.
 
-## Reframing (David Strayhorn, 2026-10-12 3:19 PM ET, relayed via Physics Lead, not signed; as relayed, not quoted verbatim)
+## Reframing (David Strayhorn, 2026-10-12 3:19 PM ET, relayed via Physics Lead, not signed; verbatim)
 
-The ideal is deterministic free fall within each world. Branching in observer space comes only from which world we are in: branch A is world A. The target is therefore not a fork inside a host. It is a set of hosts that agree on the observer's current state $O$ but give different later states along its geodesic, discrete or countable, not a continuum.
+> I want to see if I understand. You say that an observer in free fall has exactly one way to continue, so anything that branches turns out to be uncertainty about which world we’re in, not a fork in the observer’s own path. Are you saying this is a good thing or a bad thing? The best case scenario is that exactly what you describe. Within any one world, there is deterministic free fall without branching. Within observer space, branching happens due to uncertainty over which world we’re in. Branch A means the observer is in world A; branch B means the observer is in world B. Within world A or world B, branching doesn’t occur.
 
 ## Lesson L22 (batch 05)
 
 Under the reframing, "how does the motion branch?" becomes "what class of data may arrive from outside the observer's shared past?" Analytic and quasianalytic classes give no branching; $C^\infty$ and Gevrey give a continuum. Countable branching needs a countable data class with a physical reason, and that reason is the open problem.
+
+*Context (Geometry's caveat, 2026-10-12 3:22 PM ET, relayed via Physics Lead):* under the current lock, histories are nested prefixes, never forks, because some hosts' geodesics end early (Taub–NUT style). Compatible hosts give the same sequence of states for as long as each lasts; they differ only in where it stops.
 
 ## Change log
 - 2026-10-12: created (batch 01).
@@ -65,4 +67,4 @@ Under the reframing, "how does the motion branch?" becomes "what class of data m
 - 2026-10-12: batch-02 verdicts (#338, #339): L11–L13 parked; lesson L15 added.
 - 2026-10-12: batch-03 verdicts (#341, #342): L16–L18 parked; summary after batches 01–03 added.
 - 2026-10-12: David's 3:14 PM ruling recorded; batch 04 drafted, all candidates dropped; lesson L19.
-- 2026-10-12: David's 3:19 PM reframing recorded; batch 05 (Set 1 proposed, L20; drops L21); lesson L22. batch-04 D7/D8 updated per #344.
+- 2026-10-12: David's 3:19 PM reframing recorded (verbatim, replacing an earlier paraphrase); batch 05 (Set 1 proposed, L20; drops L21); lesson L22. batch-04 D7/D8 updated per #344.
