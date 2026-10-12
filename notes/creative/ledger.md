@@ -47,6 +47,8 @@
 | L38 | survival beyond $H^+(S)$ | **Batch 12 (1):** in Misner/Taub–NUT the observer crosses the compact horizon in some extensions and ends in others; survival in all needs off-path ($C^\infty$) differences, i.e. a continuum | batch-12; #364 (d) | **Result** (#367: Misner verified for timelike; survival determined, not a fork; Taub–NUT unverified) | Positive reading holds among surviving branches; dropout is not an arm (§6.2). |
 | L39 | outcome vs branch | **Batch 12 (2):** record partition coarsens the germ partition (analytic); they coincide only if worlds include content or back-reaction, and the reply map is injective | batch-12; batch 11 | **Result, corrected** (#367: record and germ partitions cross; case (d) same germ, different reply) | Can come apart: branch without outcome; outcome without branch; coarser outcome. |
 | L40 | EKT countability | **Batch 12 (3):** generically countable (discrete traversal classes, isolated fixed points); continuum under symmetry or internal parameters | batch-12; #365 | **Result** (#367/#368 S3: smearing only for symmetric data; L27 tension softened; second source: Lossev–Novikov jinn loops) | Tension with L27: symmetric hosts give continua. |
+| L41 | outcome vs branch (augmented state) | **Batch 13 (A):** in the germ+record state, the partitions nest: state branch ⊑ record class (outcome); outcome = a class of branches, refining as τ grows (fully only for n≤3, exact vectors, after full rank); 'branch := record class' would make outcome = branch by definition | batch-13; L29; #355, #359, #367 | **Result (sketch)** | Redefinition is a convention, not evidence (LT2): keep 'record branch' and 'state branch' both named. |
+| L42 | survival (Taub–NUT, compact horizons, geons) | **Batch 13 (B):** Taub–NUT: a Misner-like dichotomy plus imprisoned geodesics incomplete in both extensions (unchecked); compactly generated horizons: survival is a function of (extension, observer data), determined within each extension; Hadley hosts: open, and eternal geons may have no Cauchy surface | batch-13; #367 | **Result (sketch)** | Hawking–Ellis, Misner 1967, Hawking 1992: unchecked. |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -161,6 +163,14 @@ This is the approval that relaxes #352 for geon hosts (exploration only). Also r
 
 Central hypothesis of batch 11 (L36, L37). Measurement = round trip of the beacon signal through the geon's CTC region, back into the observer's time-oriented record. Also recorded in `charter.md`.
 
+## Signal round trip is the main line (David, 4:28 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> No, I like the original idea of the signal sent out by the observer. I can wrap my head around that.
+
+> a fork in the observer's future (a branch in observer space) is exactly what we are looking for.
+
+The signal round trip stays the main line; there is no observer-through-the-loop set. Also recorded in `charter.md`.
+
 ## Change log
 - 2026-10-12: created (batch 01).
 - 2026-10-12: moved to notes/creative/; charter added; TT1–TT4 rename (#335 N1); verdicts from #334/#335 applied (L3 live and ranked first; L8, L9, L7 parked); #335 R1 applied in batch-01.
@@ -184,3 +194,4 @@ Central hypothesis of batch 11 (L36, L37). Measurement = round trip of the beaco
 - 2026-10-12: #365 S1–S3 and #364 verdicts on batch 11; L36/L37 revised (#364 (d)); #352 relaxation for geon hosts approved by David at 4:16 PM.
 - 2026-10-12: batch 12 (L38–L40): survival, outcome vs branch, EKT countability.
 - 2026-10-12: David's 4:16 PM geon-host approval recorded verbatim with its question (ledger, charter); #368 S1–S3 and #367 verdicts applied to batch 12.
+- 2026-10-12: David's 4:28 PM words (ledger, charter); batch 13 (L41, L42).
