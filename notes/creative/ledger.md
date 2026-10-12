@@ -171,9 +171,13 @@ Central hypothesis of batch 11 (L36, L37). Measurement = round trip of the beaco
 
 The signal round trip stays the main line; there is no observer-through-the-loop set. Also recorded in `charter.md`.
 
-## Naming: backscattering (David, 4:37 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; paraphrased by Physics Lead; verbatim words not supplied)
+## Naming: backscattering (David, 4:37 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim, answering a proposal)
 
-Use "backscattering" as the plain-language name for the measurement round trip; keep "round trip" as the precise defined term.
+Physics Lead's proposal: "backscattering" as the plain-language name for the measurement round trip, "round trip" as the precise defined term.
+
+David's answer:
+
+> Yes, I'm happy with that.
 
 Caveat: the return lands beyond the observer's Cauchy horizon, so no unitary in/out S-matrix is assumed.
 
@@ -206,5 +210,6 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-12: David's 4:16 PM geon-host approval recorded verbatim with its question (ledger, charter); #368 S1–S3 and #367 verdicts applied to batch 12.
 - 2026-10-12: David's 4:28 PM words (ledger, charter); batch 13 (L41, L42).
 - 2026-10-12: #371 S1–S6 and #370 verdicts applied to batch 13.
-- 2026-10-12: David's 4:37 PM naming ruling (paraphrased by Physics Lead); #367/#371 union conflict resolved (Literature via Physics Lead; Hájíček 1971).
+- 2026-10-12: David's 4:37 PM naming ruling (first recorded as a paraphrase; now verbatim); #367/#371 union conflict resolved (Literature via Physics Lead; Hájíček 1971).
 - 2026-10-12: open problem 13 replaced verbatim per PR #375.
+- 2026-10-12: 4:37 PM ruling now verbatim ("Yes, I'm happy with that.", answering Physics Lead's proposal); OP13 wording per Lead ruling ('Lebesgue-null in the covering chart').

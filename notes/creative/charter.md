@@ -68,8 +68,12 @@ We should periodically make a list of ideas for creative tweaks. Judge them base
 
 > a fork in the observer's future (a branch in observer space) is exactly what we are looking for.
 
-## Addendum: naming (David, 4:37 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; paraphrased by Physics Lead; verbatim words not supplied)
+## Addendum: naming (David, 4:37 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim, answering a proposal)
 
-Use "backscattering" as the plain-language name for the measurement round trip; keep "round trip" as the precise defined term.
+Physics Lead's proposal: "backscattering" as the plain-language name for the measurement round trip, "round trip" as the precise defined term.
+
+David's answer:
+
+> Yes, I'm happy with that.
 
 Caveat: the return lands beyond the observer's Cauchy horizon, so no unitary in/out S-matrix is assumed.
