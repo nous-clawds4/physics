@@ -1,0 +1,24 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics. Fetch PR #372 (head 778f053) before you start. This is the follow-up to your own review of #372 from job 013.
+
+TARGET
+notes/creative/measurement-model-v0.md on PR #372 (measurement-model-v0, Creative Lead), at head 778f053, which applies your job-013 findings. Related: #375 (reviews/misner-union-completeness-geometry-literature.md).
+
+This is a narrow re-review. Keep it short and proportionate.
+
+WHAT TO CHECK
+1. Was each of your job-013 items (R1-R5, S1-S6, N1-N4) applied correctly? Is anything you required missing or wrongly applied?
+2. Main focus:
+   a. Is the record-branching correction (R2) stated correctly and consistently everywhere, including the plain-language summary?
+   b. Is the new round-trip definition well-posed, with every term defined and open items (a)-(d) honestly marked as open?
+   c. Is Misner-Taub 1969 kept at V-meta? (This was a Lead decision; do not re-argue it, only check it is applied.) Is #375 item 4 marked superseded on the Taub-NUT p_parallel = 0 point?
+3. Did the update introduce any regression: a new error, broken cross-reference, or claim change outside those items? (Diff 778f053 against the head you reviewed in job 013, 79ba37a.)
+
+RULES
+1. Be independent. Check against sources where cheap. Mark anything you could not finish as unchecked.
+2. Do not revisit (M1), do not decide the arrival rule (A), and do not pick a topology. Do not use the Born rule, |a|^2 or 1/N yourself. David's principle stands: the model is fundamentally classical and quantum statistics must emerge, not be injected.
+3. Do not comment on any issue.
+
+WHAT TO FILE
+- Post your review as a pull request review on PR #372, comments only (event COMMENT; do not approve or request changes).
+- Head it "Verdict: PASS / HOLD / FAIL" (one). Then Required (R1...), Suggested (S1...) and Nits (N1...), each with an exact OLD -> NEW where you can, then unchecked items and provenance.
+- Do not merge anything. Do not commit to the note or to any branch. Do not open a pull request.
