@@ -32,8 +32,8 @@
 | L20 | analytic (host) | Finitely describable piecewise-analytic hosts: compatible hosts diverge across null junctions into a countable set (batch-05 Set 1) | batch-05; CL | **Parked** (#346; #347 R2; TT2) | Breaks H1, H5. #346: step/sandwich waves exist, but impulsive and Aichelburg–Sexl waves are $C^0$ (excluded by $C^{1,1}$); vacuum $C^{1,1}$ seams are forced null, and non-null seams need an Israel shell (matter); real parameters give a continuum, countable only by restricting constants (a choice) and still dense; "finitely definable" is ill-posed until a class is named; free fall across a seam is unique. #347 R2: countability brings a measure by fiat (Paper 1 §6 counting; Solomonoff-style prior). TT2: free choice of class. |
 | L21 | (dropped, batch 05) | E1–E8 | batch-05 | **Dead** | Continuum (C^∞/Gevrey, k-jets, microstructure, unrestricted junctions), no divergence (quasianalytic, topology only), no shared $O$ (discrete solitons), or off-target (forks inside a host). |
 
-| L24 | analytic (seam) | **Sheets existence (batch-06 A):** explicit non-regular 3-sheeted branched cover, codim-2 timelike seams, transposition monodromy; an aimed path forks into $e=2$ sheets with different futures (second seam on one branch only) | batch-06; #331 A; #336 | **Proposed** | Breaks H1, H5. Fork is in one host; the lift rule picks $e$ of a continuum of minimising directions (weak point); seam matter undefined. |
-| L25 | analytic (seam) + observer extent | **Sheets typicality (batch-06 B):** point observers: hitting dense and meagre (missing residual); observers of extent $\sim\ell$: hitting open dense | batch-06; #336 (a),(d),(f); L11 | **Proposed** | Topological, no measure. B1's density claim is a sketch; B2 owes #336 (f) C1–C3, and the fork is which torn piece is the observer (law-of-R risk, L23). |
+| L24 | analytic (seam) | **Sheets existence (batch-06 A):** explicit non-regular 3-sheeted branched cover, codim-2 timelike seams, transposition monodromy; an aimed path forks into $e=2$ sheets carrying identical germs (second seam on one branch only gives a gap or end, not a different state; #348 review R1) | batch-06; #331 A; #336 | **Parked** (#349; #350 R1–R3) | Breaks H1, H5. Fork is in one host; the lift rule picks $e$ of a continuum of minimising directions (weak point); seam matter undefined. |
+| L25 | analytic (seam) + observer extent | **Sheets typicality (batch-06 B):** point observers: hitting dense and meagre (missing residual); observers of extent $\sim\ell$: hitting open dense | batch-06; #336 (a),(d),(f); L11 | **Template** (#349, #350): B1 live as template (dense but meagre, KMS analogue); B2 parked (#336 (f) costs; jet/patch lock); B2 radius thresholds per #349: $\ge\ell/\sqrt2$ always hits, $\ell/2$–$\ell/\sqrt2$ in strips, $<\ell/2$ missing open | Topological, no measure. B1's density claim is a sketch; B2 owes #336 (f) C1–C3, and the fork is which torn piece is the observer (law-of-R risk, L23). |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -74,6 +74,12 @@ Under David's framing, any physical restriction that makes the compatible future
 
 Batch 06 revives L3 as L24 (existence) and L25 (typicality), recorded separately.
 
+## Lesson L26 (batch 06)
+
+A fork that's real in the geometry but invisible in the states is the nested-prefix pattern again. For branches to differ in the states, the sheets must differ in their metric, and then nothing natural picks the continuation.
+
+Batch 07 is held pending David's measure answer: whether a continuum of worlds with (M1) weights is acceptable, versus requiring countable branches. L26 makes that answer decisive.
+
 ## Change log
 - 2026-10-12: created (batch 01).
 - 2026-10-12: moved to notes/creative/; charter added; TT1–TT4 rename (#335 N1); verdicts from #334/#335 applied (L3 live and ranked first; L8, L9, L7 parked); #335 R1 applied in batch-01.
@@ -84,3 +90,4 @@ Batch 06 revives L3 as L24 (existence) and L25 (typicality), recorded separately
 - 2026-10-12: David's 3:19 PM reframing recorded (verbatim, replacing an earlier paraphrase); batch 05 (Set 1 proposed, L20; drops L21); lesson L22. batch-04 D7/D8 updated per #344.
 - 2026-10-12: #347 R1–R3 and #346 repairs applied to batch-05; L20 parked; lesson L23.
 - 2026-10-12: David's 3:28 and 3:30 PM words recorded; batch 06 (L24, L25).
+- 2026-10-12: #350 strings and #349 corrections applied to batch 06; L24 parked; L25 kept as template (B1 live, B2 parked); lesson L26; batch 07 held.
