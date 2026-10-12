@@ -171,6 +171,26 @@ Central hypothesis of batch 11 (L36, L37). Measurement = round trip of the beaco
 
 The signal round trip stays the main line; there is no observer-through-the-loop set. Also recorded in `charter.md`.
 
+## Naming: backscattering (David, 4:37 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim, answering a proposal)
+
+Physics Lead's proposal: "backscattering" as the plain-language name for the measurement round trip, "round trip" as the precise defined term.
+
+David's answer:
+
+> Yes, I'm happy with that.
+
+Caveat: no in/out S-matrix is assumed; the model is classical. Where the geon forms after a Cauchy slice, the return lands beyond the observer's Cauchy horizon; eternal geons have no Cauchy surface.
+
+## Classical model (David, 5:00 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim) — guiding constraint for future batches
+
+> Keeping our measurement model classical is exactly the right thing. Our expectation (and hope) is that quantum statistics follows inevitability [read: inevitably; Lead editorial gloss] from a picture that is fundamentally classical at the deeper level. No need for us to inject it by hand, which is what Hawking did.
+
+**Guiding constraint for future batches:** the measurement model stays classical; no quantum statistics is injected by hand.
+
+## Taub–NUT/Misner union (resolution, Literature via Physics Lead)
+
+Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, geodesics through the boost's fixed point are incomplete in both extensions and in every union (as a set of geodesics: closed, nowhere dense, Lebesgue-null in the covering chart's initial data (no measure on observer space adopted); every point of the Taub region still lies on one). The two-extension non-Hausdorff union is not complete: generic geodesics entering a CTC region hit its second horizon. Among unions of the four half-plane pieces, only the full quotient (R^2\{0})/B is complete modulo the fixed-point geodesics; helicoidal coverings give further non-Hausdorff maximal extensions with the same exception (Rieger, arXiv:2402.09312). Taub-NUT has no boost fixed point, but its comoving (zero-momentum) geodesics continue in neither extension (Misner–Taub 1969, §II C, relayed from external review, V-meta; confirmed by computation, #377), so no union of the two is complete. (PR #375; "measure zero" replaced by Lead ruling; Misner "only" and Taub–NUT clause edited per external review.) Reported Taub–NUT completeness: Hájíček 1971 (unchecked). Resolves the #367 vs #371 conflict (measurement-model-v0 open problem 13).
+
 ## Change log
 - 2026-10-12: created (batch 01).
 - 2026-10-12: moved to notes/creative/; charter added; TT1–TT4 rename (#335 N1); verdicts from #334/#335 applied (L3 live and ranked first; L8, L9, L7 parked); #335 R1 applied in batch-01.
@@ -196,4 +216,8 @@ The signal round trip stays the main line; there is no observer-through-the-loop
 - 2026-10-12: David's 4:16 PM geon-host approval recorded verbatim with its question (ledger, charter); #368 S1–S3 and #367 verdicts applied to batch 12.
 - 2026-10-12: David's 4:28 PM words (ledger, charter); batch 13 (L41, L42).
 - 2026-10-12: #371 S1–S6 and #370 verdicts applied to batch 13.
+- 2026-10-12: David's 4:37 PM naming ruling (first recorded as a paraphrase; now verbatim); #367/#371 union conflict resolved (Literature via Physics Lead; Hájíček 1971).
+- 2026-10-12: open problem 13 replaced verbatim per PR #375.
+- 2026-10-12: 4:37 PM ruling now verbatim ("Yes, I'm happy with that.", answering Physics Lead's proposal); OP13 wording per Lead ruling ('Lebesgue-null in the covering chart').
+- 2026-10-12: David's 5:00 PM classical-model ruling recorded verbatim (guiding constraint for future batches).
 - 2026-10-12: L42 / batch 13 Taub–NUT completeness claim corrected per #375 and Claude job 013 R5 (matches #372 OP13).
