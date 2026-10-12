@@ -8,7 +8,7 @@
 
 ## 1. For David (plain language)
 
-**What we have.** An observer that can remember (your 3:53 ruling) keeps a diary of signals it receives. It sends a signal out; the signal goes into a particle's tiny time loop (a Hadley geon) and comes back (your 4:17 idea). We call this **backscattering** (4:37 naming; the precise term is "round trip"). What comes back is written in the diary, and that is the measurement. Because the reply lands beyond a horizon, we do not assume the usual particle-physics in/out description (no unitary S-matrix).
+**What we have.** An observer that can remember (your 3:53 ruling) keeps a diary of signals it receives. It sends a signal out; the signal goes into a particle's tiny time loop (a Hadley geon) and comes back (your 4:17 idea). We call this **geon backscattering (radar sense)**[^bs] (your 4:37 "Yes, I'm happy with that."; the precise term is "round trip"). What comes back is written in the diary, and that is the measurement. Because the reply lands beyond a horizon, we do not assume the usual particle-physics in/out description (no unitary S-matrix).
 
 Free fall stays perfectly predictable inside each possible world. The branching comes from *which world we are in*. Worlds that look identical to the observer now can send back different replies, or give the observer different futures. That is exactly "a fork in the observer's future", the target you named at 4:28. The fundamental group (the handle structure) is part of what distinguishes those worlds (L28/L29).
 
@@ -36,7 +36,8 @@ Free fall stays perfectly predictable inside each possible world. The branching 
 - **Well-posedness (#355).** It needs a beacon or body and exact-real records. Records are continuous arrival curves per deck element. A definite beacon switch-on time is needed for the split at $\tau^*$. The isotropy-angle gauge is valid but lossy.
 
 ### 2.2 Measurement = beacon round trip through the geon's CTC (plain name: backscattering)
-- **Naming (David 4:37, paraphrased by Physics Lead).** "Backscattering" is the plain-language name, and "round trip" is the precise defined term. **Caveat:** the return lands beyond the observer's Cauchy horizon, so no unitary in/out S-matrix is assumed.
+- **Naming (David 4:37; verbatim, relayed by Physics Lead, Physics Lead chat, not signed).** Physics Lead proposed "backscattering" as the plain-language name and "round trip" as the precise defined term; David: "Yes, I'm happy with that." **Caveat:** the return lands beyond the observer's Cauchy horizon, so no unitary in/out S-matrix is assumed.
+- **S-matrix (Literature, relayed; citations unchecked by us).** An in-to-out map exists only for classical linear fields. Interacting quantum fields have no unitary S-matrix (Friedman–Papastamatiou–Simon 1992; Boulware 1992; Politzer 1994; Hawking 1995). The stress tensor is ill-defined at the horizon (Kay–Radzikowski–Wald 1997).
 - The beacon signal leaves $\gamma$, enters the geon region $G$, which contains CTCs (Hadley 1997, V-text per #362), and returns into the observer's time-oriented record (David 4:17; L36; batch 11).
 - The definition is new, though its ingredients are known. The closest prior art is Hadley 1997 (#365).
 
@@ -53,7 +54,7 @@ Free fall stays perfectly predictable inside each possible world. The branching 
 
 **Misner space.**
 - Within each extension, survival is fixed by the geodesic's own data. It is determined, not a fork (Geometry's computation, #367; not a verified source).
-- Geodesics through the boost's fixed point are incomplete in both extensions and in **every** union (closed, nowhere dense, measure zero). The **two-extension** non-Hausdorff union is **not complete**: generic geodesics entering a CTC region hit its second horizon. Only the full quotient $(\mathbb R^2\setminus\{0\})/B$ is complete modulo the fixed-point geodesics (#367; #375, `reviews/misner-union-completeness-geometry-literature.md`).
+- Geodesics through the boost's fixed point are incomplete in both extensions and in **every** union (closed, nowhere dense, Lebesgue-null in the covering chart (no measure on observer space adopted); Lead ruling). The **two-extension** non-Hausdorff union is **not complete**: generic geodesics entering a CTC region hit its second horizon. Only the full quotient $(\mathbb R^2\setminus\{0\})/B$ is complete modulo the fixed-point geodesics (#367; #375, `reviews/misner-union-completeness-geometry-literature.md`).
 
 **Taub–NUT.**
 - Non-isometric maximal extensions exist (Chruściel–Isenberg 1993, V-meta, abstract only, per #332/#368). The abstract also notes that many familiar extensions are isometric.
@@ -84,9 +85,9 @@ Free fall stays perfectly predictable inside each possible world. The branching 
 
 ## 3. Relaxed locks and rulings (verbatim, as recorded in the ledger)
 
-All are relayed and none is signed. The attribution is quoted exactly as the ledger records it. All rows are verbatim except 4:37 PM, which is Physics Lead's paraphrase.
+All are relayed and none is signed. The attribution is quoted exactly as the ledger records it. All rows are verbatim. The 4:37 PM row quotes David's reply together with the proposal it answered.
 
-| Time (ET, 2026-10-12 unless stated) | Lock / topic | David's words (as in the ledger) | Attribution as recorded |
+| Time (ET, 2026-10-12 unless stated) | Lock / topic | David's words (verbatim, as in the ledger) | Attribution as recorded |
 |---|---|---|---|
 | 3:14 PM | Analytic/geodesic lock may be relaxed (exploration only) | Yes, Creative Lead may propose ideas that relax the analytic/geodesic lock, as exploration only. | Ruling (David Strayhorn, 2026-10-12 3:14 PM ET, relayed via Physics Lead, not signed) |
 | 3:19 PM | Reframing: branch A = world A | I want to see if I understand. You say that an observer in free fall has exactly one way to continue, so anything that branches turns out to be uncertainty about which world we’re in, not a fork in the observer’s own path. Are you saying this is a good thing or a bad thing? The best case scenario is that exactly what you describe. Within any one world, there is deterministic free fall without branching. Within observer space, branching happens due to uncertainty over which world we’re in. Branch A means the observer is in world A; branch B means the observer is in world B. Within world A or world B, branching doesn’t occur. | Reframing (David Strayhorn, 2026-10-12 3:19 PM ET, relayed via Physics Lead, not signed; verbatim) |
@@ -101,7 +102,7 @@ All are relayed and none is signed. The attribution is quoted exactly as the led
 | 4:16 PM | CTCs and non-time-orientability in geon hosts | Yes, allow CTCs and non-time-orientability in geon hosts, as exploration only. | Geon hosts: CTCs and non-time-orientability (David, 4:16 PM ET 2026-10-12, in Physics Lead's chat, relayed by Physics Lead, not signed, answering "Should worlds containing geon particles be allowed to have time loops, as Hadley requires?"; verbatim) |
 | 4:17 PM | Central hypothesis: signal round trip | Hmm, maybe that’s what it means to observe a particle? A signal goes from the observer to the particle’s CTC and comes back to the observer, communicating information about the particle’s state? | Central hypothesis (David, 2026-10-12 4:17 PM ET, relayed by Physics Lead, Physics Lead chat, not signed; verbatim) |
 | 4:28 PM | Signal sent by the observer; fork is the target | No, I like the original idea of the signal sent out by the observer. I can wrap my head around that. / a fork in the observer's future (a branch in observer space) is exactly what we are looking for. | Signal round trip is the main line (David, 4:28 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim) |
-| 4:37 PM | Naming: "backscattering" | (paraphrase) Use "backscattering" as the plain-language name for the measurement round trip; keep "round trip" as the precise defined term. | Naming (David, 4:37 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; paraphrased by Physics Lead; verbatim words not supplied) |
+| 4:37 PM | Naming: "backscattering" | (Answering Physics Lead's proposal: "backscattering" as the plain name, "round trip" as the defined term.) Yes, I'm happy with that. | Naming (David, 4:37 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim, answering a proposal) |
 | 2026-10-10, L3 | (M1) unchanged | Record (M1) as my choice at L3, strong opinion, weakly held, open to reversal if the analysis turns against it. | v0.10.1 §11 open-calls row: "Ruled (M1) by David, 2026-10-10, at L3; relayed, not signed" |
 
 ---
@@ -123,4 +124,6 @@ All are relayed and none is signed. The attribution is quoted exactly as the led
 10. **Hadley survival:** unanalysed for Hadley hosts (L42).
 11. **Framing hazards:** keep clear of Everett-style branching (#332 N1; Sebens–Carroll flagged in #350). The non-Hausdorff union is a low-priority note only (#367): the Misner union forks no single geodesic; under the lock the branches share germs along the path (#367).
 12. **Prior art:** Belnap 1992 (outcomes as classes of not-yet-split histories). Also Hájíček 1971, McCabe 2005, Earman 2008, Placek–Belnap / Müller (#368, #371).
-13. Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, geodesics through the boost's fixed point are incomplete in both extensions and in every union (closed, nowhere dense, measure zero). The two-extension non-Hausdorff union is not complete: generic geodesics entering a CTC region hit its second horizon. Only the full quotient (R^2\{0})/B is complete modulo the fixed-point geodesics. Taub-NUT's complete non-Hausdorff maximal extension has no such fixed point. (PR #375.)
+13. Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, geodesics through the boost's fixed point are incomplete in both extensions and in every union (closed, nowhere dense, Lebesgue-null in the covering chart (no measure on observer space adopted)). The two-extension non-Hausdorff union is not complete: generic geodesics entering a CTC region hit its second horizon. Only the full quotient (R^2\{0})/B is complete modulo the fixed-point geodesics. Taub-NUT's complete non-Hausdorff maximal extension has no such fixed point. (PR #375.) *Edited by Lead ruling: "measure zero" replaced by "Lebesgue-null in the covering chart (no measure on observer space adopted)"; the rest is #375 verbatim.*
+
+[^bs]: "Geon backscattering (radar sense)" means the beacon's round trip through the geon and back, as in radar. It is **not** GR curvature backscatter: wave tails from scattering off the background curvature (Price 1972; "Price tails"), or quasinormal-mode echoes.
