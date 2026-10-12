@@ -171,6 +171,16 @@ Central hypothesis of batch 11 (L36, L37). Measurement = round trip of the beaco
 
 The signal round trip stays the main line; there is no observer-through-the-loop set. Also recorded in `charter.md`.
 
+## Naming: backscattering (David, 4:37 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; paraphrased by Physics Lead; verbatim words not supplied)
+
+Use "backscattering" as the plain-language name for the measurement round trip; keep "round trip" as the precise defined term.
+
+Caveat: the return lands beyond the observer's Cauchy horizon, so no unitary in/out S-matrix is assumed.
+
+## Taub–NUT/Misner union (resolution, Literature via Physics Lead)
+
+#367 is right: Misner fixed-point geodesics are incomplete in every union. The union of the two extensions is not complete; it covers only the full $(\mathbb R^2\setminus\{0\})/B$, apart from those geodesics. The Taub–NUT completeness result is Hájíček 1971. Resolves the #367 vs #371 conflict (measurement-model-v0 open problem 13).
+
 ## Change log
 - 2026-10-12: created (batch 01).
 - 2026-10-12: moved to notes/creative/; charter added; TT1–TT4 rename (#335 N1); verdicts from #334/#335 applied (L3 live and ranked first; L8, L9, L7 parked); #335 R1 applied in batch-01.
@@ -196,3 +206,4 @@ The signal round trip stays the main line; there is no observer-through-the-loop
 - 2026-10-12: David's 4:16 PM geon-host approval recorded verbatim with its question (ledger, charter); #368 S1–S3 and #367 verdicts applied to batch 12.
 - 2026-10-12: David's 4:28 PM words (ledger, charter); batch 13 (L41, L42).
 - 2026-10-12: #371 S1–S6 and #370 verdicts applied to batch 13.
+- 2026-10-12: David's 4:37 PM naming ruling (paraphrased by Physics Lead); #367/#371 union conflict resolved (Literature via Physics Lead; Hájíček 1971).

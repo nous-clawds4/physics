@@ -8,7 +8,7 @@
 
 ## 1. For David (plain language)
 
-**What we have.** An observer that can remember (your 3:53 ruling) keeps a diary of signals it receives. It sends a signal out; the signal goes into a particle's tiny time loop (a Hadley geon) and comes back (your 4:17 idea). What comes back is written in the diary, and that is the measurement.
+**What we have.** An observer that can remember (your 3:53 ruling) keeps a diary of signals it receives. It sends a signal out; the signal goes into a particle's tiny time loop (a Hadley geon) and comes back (your 4:17 idea). We call this **backscattering** (4:37 naming; the precise term is "round trip"). What comes back is written in the diary, and that is the measurement. Because the reply lands beyond a horizon, we do not assume the usual particle-physics in/out description (no unitary S-matrix).
 
 Free fall stays perfectly predictable inside each possible world. The branching comes from *which world we are in*. Worlds that look identical to the observer now can send back different replies, or give the observer different futures. That is exactly "a fork in the observer's future", the target you named at 4:28. The fundamental group (the handle structure) is part of what distinguishes those worlds (L28/L29).
 
@@ -35,7 +35,8 @@ Free fall stays perfectly predictable inside each possible world. The branching 
 - The record only grows (L28, L29; batch 08; David's 3:53 memory working assumption).
 - **Well-posedness (#355).** It needs a beacon or body and exact-real records. Records are continuous arrival curves per deck element. A definite beacon switch-on time is needed for the split at $\tau^*$. The isotropy-angle gauge is valid but lossy.
 
-### 2.2 Measurement = beacon round trip through the geon's CTC
+### 2.2 Measurement = beacon round trip through the geon's CTC (plain name: backscattering)
+- **Naming (David 4:37, paraphrased by Physics Lead).** "Backscattering" is the plain-language name, and "round trip" is the precise defined term. **Caveat:** the return lands beyond the observer's Cauchy horizon, so no unitary in/out S-matrix is assumed.
 - The beacon signal leaves $\gamma$, enters the geon region $G$, which contains CTCs (Hadley 1997, V-text per #362), and returns into the observer's time-oriented record (David 4:17; L36; batch 11).
 - The definition is new, though its ingredients are known. The closest prior art is Hadley 1997 (#365).
 
@@ -49,8 +50,17 @@ Free fall stays perfectly predictable inside each possible world. The branching 
 - Where the germ diverges there, that **is** the branching sought (Physics Lead's framing, batch 12; David 4:28: "a fork in the observer's future (a branch in observer space) is exactly what we are looking for").
 
 ### 2.5 Survival vs dropout
-- **Misner** (Geometry's computation, #367; not a verified source): within each extension, survival is fixed by the geodesic's own data. It is determined, not a fork.
-- **Taub–NUT:** non-isometric maximal extensions exist (Chruściel–Isenberg 1993, V-meta, abstract only, per #332/#368; the abstract also notes many familiar extensions are isometric). The dichotomy and the imprisoned geodesics are unverified (Misner–Taub 1969). In Misner (#367, Geometry's computation), geodesics through the boost's fixed point are incomplete in both extensions and in their non-Hausdorff union, and they form a meagre set (topological; no measure adopted). #371's claim about the union is not checked against this.
+
+**Misner space.**
+- Within each extension, survival is fixed by the geodesic's own data. It is determined, not a fork (Geometry's computation, #367; not a verified source).
+- Geodesics through the boost's fixed point are incomplete in both extensions and in **every** union. The non-Hausdorff union of the two extensions is **not complete**: it covers only the full $(\mathbb R^2\setminus\{0\})/B$, apart from those geodesics, which form a meagre set (topological; no measure adopted). (#367; resolution by Literature via Physics Lead; ledger.)
+
+**Taub–NUT.**
+- Non-isometric maximal extensions exist (Chruściel–Isenberg 1993, V-meta, abstract only, per #332/#368). The abstract also notes that many familiar extensions are isometric.
+- The dichotomy and the imprisoned geodesics are unverified (Misner–Taub 1969).
+- The completeness result for the Taub–NUT union is Hájíček 1971 (Literature via Physics Lead; unchecked here).
+
+**General.**
 - Non-unique extension is the general Cauchy-horizon fact (#371).
 - **Dropout**, i.e. ending or non-existence of an extension, is **not an arm** (v0.10.1 §6.2; #370).
 - Survival is determined within each world and varies between worlds (L38, L42; Misner by Geometry's computation, #367; Taub–NUT and Hadley hosts unverified).
@@ -74,9 +84,9 @@ Free fall stays perfectly predictable inside each possible world. The branching 
 
 ## 3. Relaxed locks and rulings (verbatim, as recorded in the ledger)
 
-All are relayed and none is signed. The attribution is quoted exactly as the ledger records it.
+All are relayed and none is signed. The attribution is quoted exactly as the ledger records it. All rows are verbatim except 4:37 PM, which is Physics Lead's paraphrase.
 
-| Time (ET, 2026-10-12 unless stated) | Lock / topic | David's words (verbatim, as in the ledger) | Attribution as recorded |
+| Time (ET, 2026-10-12 unless stated) | Lock / topic | David's words (as in the ledger) | Attribution as recorded |
 |---|---|---|---|
 | 3:14 PM | Analytic/geodesic lock may be relaxed (exploration only) | Yes, Creative Lead may propose ideas that relax the analytic/geodesic lock, as exploration only. | Ruling (David Strayhorn, 2026-10-12 3:14 PM ET, relayed via Physics Lead, not signed) |
 | 3:19 PM | Reframing: branch A = world A | I want to see if I understand. You say that an observer in free fall has exactly one way to continue, so anything that branches turns out to be uncertainty about which world we’re in, not a fork in the observer’s own path. Are you saying this is a good thing or a bad thing? The best case scenario is that exactly what you describe. Within any one world, there is deterministic free fall without branching. Within observer space, branching happens due to uncertainty over which world we’re in. Branch A means the observer is in world A; branch B means the observer is in world B. Within world A or world B, branching doesn’t occur. | Reframing (David Strayhorn, 2026-10-12 3:19 PM ET, relayed via Physics Lead, not signed; verbatim) |
@@ -91,6 +101,7 @@ All are relayed and none is signed. The attribution is quoted exactly as the led
 | 4:16 PM | CTCs and non-time-orientability in geon hosts | Yes, allow CTCs and non-time-orientability in geon hosts, as exploration only. | Geon hosts: CTCs and non-time-orientability (David, 4:16 PM ET 2026-10-12, in Physics Lead's chat, relayed by Physics Lead, not signed, answering "Should worlds containing geon particles be allowed to have time loops, as Hadley requires?"; verbatim) |
 | 4:17 PM | Central hypothesis: signal round trip | Hmm, maybe that’s what it means to observe a particle? A signal goes from the observer to the particle’s CTC and comes back to the observer, communicating information about the particle’s state? | Central hypothesis (David, 2026-10-12 4:17 PM ET, relayed by Physics Lead, Physics Lead chat, not signed; verbatim) |
 | 4:28 PM | Signal sent by the observer; fork is the target | No, I like the original idea of the signal sent out by the observer. I can wrap my head around that. / a fork in the observer's future (a branch in observer space) is exactly what we are looking for. | Signal round trip is the main line (David, 4:28 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim) |
+| 4:37 PM | Naming: "backscattering" | (paraphrase) Use "backscattering" as the plain-language name for the measurement round trip; keep "round trip" as the precise defined term. | Naming (David, 4:37 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; paraphrased by Physics Lead; verbatim words not supplied) |
 | 2026-10-10, L3 | (M1) unchanged | Record (M1) as my choice at L3, strong opinion, weakly held, open to reversal if the analysis turns against it. | v0.10.1 §11 open-calls row: "Ruled (M1) by David, 2026-10-10, at L3; relayed, not signed" |
 
 ---
@@ -112,4 +123,4 @@ All are relayed and none is signed. The attribution is quoted exactly as the led
 10. **Hadley survival:** unanalysed for Hadley hosts (L42).
 11. **Framing hazards:** keep clear of Everett-style branching (#332 N1; Sebens–Carroll flagged in #350). The non-Hausdorff union is a low-priority note only (#367): the Misner union forks no single geodesic; under the lock the branches share germs along the path (#367).
 12. **Prior art:** Belnap 1992 (outcomes as classes of not-yet-split histories). Also Hájíček 1971, McCabe 2005, Earman 2008, Placek–Belnap / Müller (#368, #371).
-13. **Unresolved conflict (#367 vs #371).** #371 says the non-Hausdorff union of the Taub–NUT/Misner extensions is complete, with only a measure-zero set getting through neither. #367 found that in Misner the geodesics through the boost's fixed point are incomplete in both extensions and so also in the union, and called that set meagre (topological), not measure-zero. This is not settled here (#373).
+13. **Resolved: #367 vs #371** (Literature via Physics Lead; ledger). #367 is right. Misner fixed-point geodesics are incomplete in every union, so the union of the two extensions is not complete; it covers only the full $(\mathbb R^2\setminus\{0\})/B$, apart from those geodesics. The Taub–NUT completeness result is Hájíček 1971. §2.5 is split by spacetime accordingly.
