@@ -1,0 +1,23 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics. Fetch PR #372 (head 79ba37a) before you start.
+
+TARGET
+notes/creative/measurement-model-v0.md on PR #372 (measurement-model-v0, Creative Lead). It models how an observer measures an external particle: the observer sends a signal into the particle's small topological feature (Hadley 4-geon host, with CTCs and non-time-orientability allowed as exploration only), and the signal returns ("round trip", plain name "geon backscattering (radar sense)"). Related: #375 (reviews/misner-union-completeness-geometry-literature.md) resolved OP13; #367 and #371 (corrected at c71d078).
+
+This is a critical review. Be thorough but proportionate.
+
+WHAT TO CHECK
+1. Well-posedness: is "round trip" / "geon backscattering (radar sense)" well-posed? Is every term it uses defined, and is it distinguished from GR curvature backscatter and Price tails?
+2. The claim that the reply arrives beyond the observer's Cauchy horizon and that the germ genuinely diverges across worlds (real branching, not dropout), under Hadley 4-geon hosts with CTCs and non-time-orientability allowed as exploration only.
+3. Record branch vs state branch, and the single-branch certification claim.
+4. Any place quantum structure (Born rule, unitarity, Hilbert space, |a|^2) is injected by hand. David's principle: the model is fundamentally classical, and quantum statistics must emerge, not be assumed.
+5. The OP13 Misner/Taub-NUT completeness statements (check against Misner-Taub 1969 and Hawking-Ellis section 5.8).
+
+RULES
+1. Be independent. Check against sources where cheap. Mark anything you could not finish as unchecked.
+2. Do not revisit (M1), do not decide the arrival rule (A), and do not pick a topology. Do not use the Born rule, |a|^2 or 1/N yourself.
+3. Do not comment on any issue.
+
+WHAT TO FILE
+- Post your review as a pull request review on PR #372, comments only (event COMMENT; do not approve or request changes).
+- Head it "Verdict: PASS / HOLD / FAIL" (one). Then Required (R1...), Suggested (S1...) and Nits (N1...), each with an exact OLD -> NEW where you can, then unchecked items and provenance.
+- Do not merge anything. Do not commit to the note or to any branch. Do not open a pull request.
