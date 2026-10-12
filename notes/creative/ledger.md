@@ -179,11 +179,11 @@ David's answer:
 
 > Yes, I'm happy with that.
 
-Caveat: the return lands beyond the observer's Cauchy horizon, so no unitary in/out S-matrix is assumed.
+Caveat: no in/out S-matrix is assumed; the model is classical. Where the geon forms after a Cauchy slice, the return lands beyond the observer's Cauchy horizon; eternal geons have no Cauchy surface.
 
 ## Taub–NUT/Misner union (resolution, Literature via Physics Lead)
 
-Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, geodesics through the boost's fixed point are incomplete in both extensions and in every union (closed, nowhere dense, Lebesgue-null in the covering chart (no measure on observer space adopted)). The two-extension non-Hausdorff union is not complete: generic geodesics entering a CTC region hit its second horizon. Only the full quotient (R^2\{0})/B is complete modulo the fixed-point geodesics. Taub-NUT's complete non-Hausdorff maximal extension has no such fixed point. (PR #375; "measure zero" replaced by Lead ruling.) Taub–NUT completeness result: Hájíček 1971. Resolves the #367 vs #371 conflict (measurement-model-v0 open problem 13).
+Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, geodesics through the boost's fixed point are incomplete in both extensions and in every union (closed, nowhere dense, Lebesgue-null in the covering chart (no measure on observer space adopted)). The two-extension non-Hausdorff union is not complete: generic geodesics entering a CTC region hit its second horizon. Among unions of the four half-plane pieces, only the full quotient (R^2\{0})/B is complete modulo the fixed-point geodesics; helicoidal coverings give further non-Hausdorff maximal extensions with the same exception (Rieger, arXiv:2402.09312). Taub-NUT has no boost fixed point, but its comoving (zero-momentum) geodesics continue in neither extension (Misner–Taub 1969, §II C), so no union of the two is complete. (PR #375; "measure zero" replaced by Lead ruling; Misner "only" and Taub–NUT clause edited per external review.) Reported Taub–NUT completeness: Hájíček 1971 (unchecked). Resolves the #367 vs #371 conflict (measurement-model-v0 open problem 13).
 
 ## Change log
 - 2026-10-12: created (batch 01).
