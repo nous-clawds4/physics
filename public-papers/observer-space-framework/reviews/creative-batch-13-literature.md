@@ -15,9 +15,11 @@ Reviewer: Literature agent. PR head recorded: `c4049ff` (base `creative/batch-12
 
 **Findings.**
 - **The dichotomy by a conserved quantity is correct (V-meta).** Geodesics cross into a given extension according to the sign of the momentum conjugate to the Killing field along the closed generators (the Hopf fibre in Taub–NUT; the boost direction in Misner). That matches #367's computed Misner result.
-- **Imprisonment is relative to an extension: wrong as stated (S1–S4).** "Totally imprisoned incompleteness" (Misner; H–E) describes geodesics that spiral toward the horizon *within one chosen extension*. Those are the geodesics with the other sign, and they cross in the other extension. The non-Hausdorff union of both is geodesically complete (V-text, quoted above).
+- **Imprisonment is relative to an extension: wrong as stated (S1–S4).** "Totally imprisoned incompleteness" (Misner; H–E) describes geodesics that spiral toward the horizon *within one chosen extension*. Those are the geodesics with the other sign, and they cross in the other extension. Whether a union of extensions is complete depends on the spacetime (split below, per #375).
   - So the imprisoned observers are not "survive in no extension". They are the ones that end in this extension and survive in the other, which is exactly the Misner dichotomy.
-  - Only the special zero-momentum geodesics (in Misner, those through the boost's fixed point; #367) are incomplete in both. That is a measure-zero set.
+  - **Split by spacetime (corrected per #375):**
+    - **Misner:** the geodesics through the boost's fixed point (#367) are incomplete in both extensions and in every union. The union of the two extensions is **not** complete: generic geodesics entering a CTC region hit its second horizon. Only the full quotient $(\mathbb R^2\setminus\{0\})/B$ is complete, apart from the fixed-point geodesics (a measure-zero set).
+    - **Taub–NUT:** the maximal non-Hausdorff extension is geodesically complete (Hajicek, J. Math. Phys. 12 (1971) 157, V-meta; Clément et al., arXiv:1508.07622, V-text). It has no boost fixed point.
 - **Hawking, "Chronology protection conjecture", PRD 46 (1992) 603–611 (V-meta).** It defines compactly generated Cauchy horizons, whose generators, followed into the past, enter and remain in a compact set. The batch's "closed or past-imprisoned null generators" is correct.
   - Non-uniqueness of extensions beyond them is not Hawking's result. It is the general Cauchy-horizon fact (Chruściel–Isenberg, per #368). Note only.
 
@@ -53,19 +55,19 @@ S5 fixes the "may be".
 
 S1. `notes/creative/batch-13.md`
 - OLD: `some geodesics are **imprisoned**: incomplete in **both** extensions and confined to a compact set. Those observers survive in no extension.`
-- NEW: `within each extension, the geodesics of the other sign are **imprisoned**: they spiral toward the horizon in a compact set and are incomplete there, but they cross in the other extension (the non-Hausdorff union is geodesically complete). Only a measure-zero zero-momentum set is incomplete in both.`
+- NEW: `within each extension, the geodesics of the other sign are **imprisoned**: they spiral toward the horizon in a compact set and are incomplete there, but they cross in the other extension. In Misner the two-extension union is still incomplete. Only the full four-piece quotient is complete, apart from the geodesics through the boost's fixed point, which are incomplete in every union.`
 
 S2. `notes/creative/batch-13.md`
 - OLD: `A few observers in Taub–NUT are trapped and survive in no continuation.`
-- NEW: `Observers that look trapped in one Taub–NUT continuation get through in the other; only a negligible special set gets through neither.`
+- NEW: `Observers that look trapped in one Taub–NUT continuation get through in the other; only a negligible special set gets through neither (incomplete in every union).`
 
 S3. `notes/creative/batch-13.md`
 - OLD: `Some Taub–NUT observers survive in none.`
-- NEW: `In Taub–NUT, as in Misner, imprisonment is relative to the extension; only a measure-zero set survives in none.`
+- NEW: `In Taub–NUT, as in Misner, imprisonment is relative to the extension; only a measure-zero set survives in none (incomplete in every union).`
 
 S4. `notes/creative/ledger.md`
 - OLD: `plus imprisoned geodesics incomplete in both extensions (unchecked)`
-- NEW: `imprisoned geodesics are incomplete in one extension and cross in the other (non-Hausdorff union complete; #371); only a measure-zero set is incomplete in both`
+- NEW: `imprisoned geodesics are incomplete in one extension and cross in the other; the Taub–NUT maximal non-Hausdorff extension is complete (Hajicek 1971; arXiv:1508.07622); in Misner, completeness holds only in the four-piece quotient and modulo the fixed-point geodesics`
 
 S5. `notes/creative/batch-13.md`
 - OLD: `there may be **no Cauchy surface** $S$ at all.`
@@ -89,4 +91,13 @@ S6. `notes/creative/batch-13.md`
 
 ## Verdicts
 - **L41 (outcome vs branch):** correct and known in structure (BST outcomes as history classes; decoherent-history records). The circularity warning is sound. Survives. S6 is editorial.
-- **L42 (survival):** the sign dichotomy is correct. "Imprisoned = survives nowhere" is wrong: imprisonment is extension-relative (S1–S4). The eternal-geon host definitely has no Cauchy surface (S5). Survives with these fixes. In Taub–NUT survival is determined within each world, with only a measure-zero exception.
+- **L42 (survival):** the sign dichotomy is correct. Union completeness must be split by spacetime (Misner vs Taub–NUT; see the correction note). "Imprisoned = survives nowhere" is wrong: imprisonment is extension-relative (S1–S4). The eternal-geon host definitely has no Cauchy surface (S5). Survives with these fixes. In Taub–NUT survival is determined within each world, with only a measure-zero exception.
+
+## Correction note (after #375)
+
+The joint note #375 (Geometry, co-signed by Literature; head 2f294a6) found that this review's "non-Hausdorff union complete" carried a Taub–NUT result over to Misner. Corrected above:
+- §1 is split by spacetime;
+- S1 and S4 now use #375's wording;
+- S2 and S3 add "incomplete in every union".
+
+In Misner the fixed-point geodesics are incomplete in every union, the two-extension union is not complete, and only $(\mathbb R^2\setminus\{0\})/B$ is complete apart from them. In Taub–NUT the maximal non-Hausdorff extension is complete (Hajicek 1971, V-meta; Clément et al., V-text).
