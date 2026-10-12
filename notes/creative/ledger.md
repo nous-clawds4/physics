@@ -38,6 +38,7 @@
 | L27 | topology (static) | **Symmetry bound (batch-07 Set 1):** the germ fixes the cover $\tilde M$; $\pi_1$ must be a free, proper, non-timelike discrete subgroup of $\mathrm{Isom}(\tilde M)$ | batch-07; Theorems A–B; Prop 7.2 | **Awaiting final verdict** (#352, #353; pending David) | Constrains without fixing. Multiplicity only on symmetric covers; countable for finite-volume hyperbolic quotients (Mostow), continuum if flat or infinite-volume; no split by itself. #352: countable only for cocompact hyperbolic, dim ≥3 (Mostow/Prasad); 'generic' topological only. Known (#353): Clifford–Klein, Wolf. |
 | L28 | observer state (memory) | **Self-signal return (batch-07 Set 2):** the observer's own light returns around a handle at a proper time $\tau_\Gamma$ fixed by the geometry, splitting the compatible set by $\pi_1$ | batch-07; creative-tweaks (the ant's trail) | **Lead set** (David 3:53 PM; awaiting final verdict, #352, #353) | Escapes the nested-prefix and identical-state traps only by adding a record (memory) to the state; needs an emitting body; ensemble narrowing, not motion; under (M1) the shares per arm are equal, not ∝ number of worlds. #352: genuine split (learning which world, not motion); countable, not necessarily finite; lock and split-rule questions are David's call. Known in spirit (#353): Ellis small universe, CSS observer copies. |
 | L29 | observer state + split rule | **L28 developed (batch-08):** memory-augmented state $(O,\rho)$ with self-signal records; split rule by records; finite partition at each $\tau$ and countable cumulatively for crystal covers; counting by index exhaustion (conjecture: count gives Born (to be derived, not assumed)) | batch-08; L28; #352, #353 | **Live** (counting degenerate: L30, #355) | Sketches only. Needs crystal covers; count needs exhaustion-independence; flat stays a continuum; accelerating hosts few or no splits; conflicts with Paper 1's $\sim$ (working assumption 2). |
+| L31 | counting (conditional shares) | **Batch 09:** exact conditional echo-record shares in $\mathbb Z^2$, $\mathbb Z^3$ crystal covers (HNF enumeration); index, covering-radius and word-length listings | batch-09; L29; L30 | **Result** (degenerate) | Shares are 0/1: 'no new echo' → 1 before full rank, a single world after; listings agree only trivially; no Born-like structure. Conjecture label applies; separate from (M1). |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -117,6 +118,21 @@ Any creative set that uses counting worlds must (i) carry the label "conjecture:
 
 Degeneracy: under natural cutoffs (index or volume), counting worlds in crystal covers gives the "no echo yet" share 1 at each fixed time. For $\mathbb Z^3$, subgroups of index $\le N$ grow like $N^3$, those containing a given element only like $N^2$. A systole cutoff gives no finite sets; diameter is likely the same (unverified); word length is ill-posed until generators are named. The count is over $E_{\mathcal W}$ (pointed worlds), not $E_M$.
 
+## Lesson L31 (batch 09)
+
+In crystal covers, counting worlds gives only 0/1 conditional shares: degenerate before the echoes span full rank, deterministic after. A non-trivial share would need a host class whose record-consistent subgroup counts grow like the total (not $\mathbb Z^n$), or records that stay ambiguous at full rank.
+
+## David on focus (2026-10-12 4:03 PM ET, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> Let’s focus on our successes. I am encouraged by the fact that branching can happen at all, and that the fundamental group can play a part. We shouldn’t worry yet about the precise probabilities, especially considering that we have not yet created a model of how the observer can measure the position of an external particle.
+
+**Status.** The old batch 10 (non-abelian count) is cancelled. The probability and counting line (L29's counting, batches 08–09) is **parked**; L30 and L31 stand as results (with #358, #359).
+
+## Successes so far
+
+- **Branching by world exists** (L28, L29). With a memory record in the state (David's 3:53 working assumption), compatible hosts that agree on the observer's germ split genuinely when their records differ: not a nested prefix, not an in-host fork, and with free fall deterministic in each world (branch A = world A).
+- **$\pi_1$ enters through returning records.** The observer's own signals return around handles at times and directions fixed by the geometry. So the fundamental group is what the compatible worlds differ in, and what the record reveals step by step (L27 bounds which $\pi_1$ are possible; L28 and L29 split by it).
+
 ## Change log
 - 2026-10-12: created (batch 01).
 - 2026-10-12: moved to notes/creative/; charter added; TT1–TT4 rename (#335 N1); verdicts from #334/#335 applied (L3 live and ranked first; L8, L9, L7 parked); #335 R1 applied in batch-01.
@@ -132,3 +148,5 @@ Degeneracy: under natural cutoffs (index or volume), counting worlds in crystal 
 - 2026-10-12: #353 S1–S4 and #352 repairs applied to batch 07; L23 pending David; L27/L28 awaiting final verdict; David's 3:47 PM words, Lead reading, counting standing rule; Items for David.
 - 2026-10-12: David's 3:53 PM working assumptions recorded; memory-storage open item; L28 lead set; batch 08 (L29).
 - 2026-10-12: #356 S1–S2 and #355 corrections applied to batch 08; L29 live with counting degenerate; lesson L30; 3:53 citation changed to 'relayed by Physics Lead, Physics Lead chat'.
+- 2026-10-12: batch 09 (L31): conditional shares computed for Z^2, Z^3; degenerate 0/1.
+- 2026-10-12: #358/#359 verdicts on batch 09; David's 4:03 PM words; counting line parked; Successes so far.

@@ -1,0 +1,52 @@
+===== Z^2, tau=1.0 -> tau'=2.0, index cutoff
+--- N=20, #subgroups=339
+  record |R|=0 (n_worlds=300): +0 new: 0.760, +2 new: 0.060, +2 new: 0.060, +2 new: 0.057
+  record |R|=2 (n_worlds=19): +2 new: 0.947, +4 new: 0.053
+  record |R|=2 (n_worlds=19): +2 new: 0.947, +4 new: 0.053
+  record |R|=4 (n_worlds=1): +8 new: 1.000
+--- N=40, #subgroups=1342
+  record |R|=0 (n_worlds=1263): +0 new: 0.880, +2 new: 0.030, +2 new: 0.030, +2 new: 0.029
+  record |R|=2 (n_worlds=39): +2 new: 0.974, +4 new: 0.026
+  record |R|=2 (n_worlds=39): +2 new: 0.974, +4 new: 0.026
+  record |R|=4 (n_worlds=1): +8 new: 1.000
+--- N=80, #subgroups=5314
+  record |R|=0 (n_worlds=5155): +0 new: 0.939, +2 new: 0.015, +2 new: 0.015, +2 new: 0.015
+  record |R|=2 (n_worlds=79): +2 new: 0.987, +4 new: 0.013
+  record |R|=2 (n_worlds=79): +2 new: 0.987, +4 new: 0.013
+  record |R|=4 (n_worlds=1): +8 new: 1.000
+===== Z^3, tau=1.0 -> tau'=1.5, index cutoff
+--- N=10, #subgroups=737
+  record |R|=0 (n_worlds=505): +0 new: 0.376, +2 new: 0.085, +2 new: 0.085, +2 new: 0.085
+  record |R|=2 (n_worlds=68): +0 new: 0.750, +2 new: 0.118, +2 new: 0.118, +4 new: 0.015
+  record |R|=2 (n_worlds=68): +0 new: 0.750, +2 new: 0.118, +2 new: 0.118, +4 new: 0.015
+  record |R|=2 (n_worlds=68): +0 new: 0.750, +2 new: 0.118, +2 new: 0.118, +4 new: 0.015
+  record |R|=4 (n_worlds=9): +4 new: 1.000
+  record |R|=4 (n_worlds=9): +4 new: 1.000
+--- N=20, #subgroups=5644
+  record |R|=0 (n_worlds=4686): +0 new: 0.659, +2 new: 0.052, +2 new: 0.052, +2 new: 0.052
+  record |R|=2 (n_worlds=300): +0 new: 0.877, +2 new: 0.060, +2 new: 0.060, +4 new: 0.003
+  record |R|=2 (n_worlds=300): +0 new: 0.877, +2 new: 0.060, +2 new: 0.060, +4 new: 0.003
+  record |R|=2 (n_worlds=300): +0 new: 0.877, +2 new: 0.060, +2 new: 0.060, +4 new: 0.003
+  record |R|=4 (n_worlds=19): +4 new: 1.000
+  record |R|=4 (n_worlds=19): +4 new: 1.000
+--- N=30, #subgroups=18868
+  record |R|=0 (n_worlds=16671): +0 new: 0.766, +2 new: 0.037, +2 new: 0.037, +2 new: 0.037
+  record |R|=2 (n_worlds=703): +0 new: 0.919, +2 new: 0.040, +2 new: 0.040, +4 new: 0.001
+  record |R|=2 (n_worlds=703): +0 new: 0.919, +2 new: 0.040, +2 new: 0.040, +4 new: 0.001
+  record |R|=2 (n_worlds=703): +0 new: 0.919, +2 new: 0.040, +2 new: 0.040, +4 new: 0.001
+  record |R|=4 (n_worlds=29): +4 new: 1.000
+  record |R|=4 (n_worlds=29): +4 new: 1.000
+===== Z^2, condition on full-rank record at tau=2 (contains (2,0),(0,2))
+  N=8: record R=[(-2, 0), (0, -2), (0, 2), (2, 0)] worlds=1: [(-2, -2), (-2, 2), (2, -2), (2, 2)]: 1/1
+  N=16: record R=[(-2, 0), (0, -2), (0, 2), (2, 0)] worlds=1: [(-2, -2), (-2, 2), (2, -2), (2, 2)]: 1/1
+  N=64: record R=[(-2, 0), (0, -2), (0, 2), (2, 0)] worlds=1: [(-2, -2), (-2, 2), (2, -2), (2, 2)]: 1/1
+===== Z^2 listing comparison, tau=1 -> 2, share of 'no new echo' given empty record
+  index<=25: share=0.810 (n=473)
+  index<=100: share=0.952 (n=8100)
+  index<=400: share=0.988 (n=131135)
+  covering radius<=3: share=0.848 (n=184)
+  covering radius<=6: share=0.978 (n=3117)
+  covering radius<=10: share=0.995 (n=24524)
+  word length<=4: share=0.689 (n=45)
+  word length<=8: share=0.941 (n=641)
+  word length<=12: share=0.980 (n=3037)
