@@ -49,3 +49,7 @@ We should periodically make a list of ideas for creative tweaks. Judge them base
 ## Follow-up instruction (David Strayhorn, 2026-10-12 1:41 PM ET, relayed, not signed)
 
 > Each creative idea should have a short summary in plain language. I would like to spend my time reviewing those ideas at the highest level.
+
+## Addendum: ruling of 2026-10-12, 3:14 PM ET (David Strayhorn, relayed via Physics Lead, not signed)
+
+> Yes, Creative Lead may propose ideas that relax the analytic/geodesic lock, as exploration only.
