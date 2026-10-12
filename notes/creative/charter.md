@@ -53,3 +53,11 @@ We should periodically make a list of ideas for creative tweaks. Judge them base
 ## Addendum: ruling of 2026-10-12, 3:14 PM ET (David Strayhorn, relayed via Physics Lead, not signed)
 
 > Yes, Creative Lead may propose ideas that relax the analytic/geodesic lock, as exploration only.
+
+## Addendum: David, 2026-10-12, 4:17 PM ET (relayed by Physics Lead, Physics Lead chat, not signed)
+
+> Hmm, maybe that’s what it means to observe a particle? A signal goes from the observer to the particle’s CTC and comes back to the observer, communicating information about the particle’s state?
+
+## Addendum: geon hosts (David, 4:16 PM ET 2026-10-12, in Physics Lead's chat, relayed by Physics Lead, not signed, answering "Should worlds containing geon particles be allowed to have time loops, as Hadley requires?")
+
+> Yes, allow CTCs and non-time-orientability in geon hosts, as exploration only.
