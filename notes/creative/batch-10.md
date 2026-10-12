@@ -1,6 +1,6 @@
 # Creative batch 10: how the observer measures an external particle's position (Creative Lead; proposal, do not merge)
 
-**Status.** Exploration only, under David's 3:14 PM ET ruling and his 3:53 PM ET working assumptions (memory; splitting with identical patches). **Structure only: no probabilities and no counting** (David, 4:03 PM ET). Nothing goes into `versions/` or `papers/`. Builds on L28/L29. All outside citations are **unchecked**. Hadley references in particular stay unchecked until Literature verifies them. Everything here is a sketch.
+**Status.** Exploration only, under David's 3:14 PM ET ruling and his 3:53 PM ET working assumptions (memory; splitting with identical patches). **Structure only: no probabilities and no counting** (David, 4:03 PM ET). Nothing goes into `versions/` or `papers/`. Builds on L28/L29. All outside citations are **unchecked**. Hadley references are marked per #362: V-text for *Found. Phys. Lett.* 10(1) 43–60 (1997), arXiv quant-ph/9706018, and *CQG* 17(20) 4187–4194 (2000), gr-qc/0004029; V-meta for the 1997 Warwick thesis, quant-ph/9609021. README line 18 says 4-geons live in spacetimes that admit CTCs. Everything here is a sketch.
 
 **Geons.** David (4:06 PM ET, ledger): "Rule out geons? I don’t recall ruling out geons. I like Hadley’s 4-geons." Paper 1 contains a geon remark (#339) whose provenance Literature is checking; David does not recall ruling geons out. Hadley's 4-geons are the lead particle model here.
 
@@ -9,6 +9,35 @@
 A particle here is a tiny knot in spacetime itself (Hadley's 4-geon), not a separate object placed in it: a small region where the topology is twisted. The observer "sees" it the same way it learned about handles: it sends out light, some of it scatters off or passes through the knot and comes back, and the observer writes the arrival time and direction in its diary. "Where the particle is" is then just "which world we're in": worlds that look identical to the observer now, but have the knot in different places, write different diaries the moment the scattered light returns. The apparatus is the observer's own beacon, clock and direction reference. The pointer is the diary entry. Nothing in the motion forks, and no rule picks the result; the result is fixed by which world it is. What we haven't done is say how likely each result is. That is deliberately left for later.
 
 ---
+
+## Verdicts (Geometry #361, Literature #362)
+
+**Statuses.**
+- L33: **pending David on CTCs** (relaxing #352 for geon hosts).
+- L34: **reduces to self-echo** (L28/L29).
+- L35: **live, needs a reflector**.
+
+**L33, Hadley 4-geon (#361).**
+- *Ill-posed as stated.* A return through the time-orientation flip arrives past-pointing, so "received" is undefined for exactly those returns.
+- "Reversed handedness" is the wrong flip: it is a space orientation, not a time orientation.
+- It conflicts with #352: CTCs are required (#362 S3).
+- #320 is not the obstacle, but extension past a chronology horizon is non-unique.
+- Three repairs, listed **without recommending one**:
+  1. pass to a time-orientable double cover;
+  2. keep only returns that stay in the orientable region;
+  3. drop #352's conditions for geon hosts.
+
+**L34, position as gluing (#361, #362).**
+- The uncertain datum is the **pointed Γ**. A "mouth" is not geometric in an analytic quotient; deck displacements are.
+- There is a second uncertainty: extensions beyond Cauchy horizons are non-unique.
+- So L34 is the self-echo renamed. It measures $\pi_1$, not an external particle.
+- Correcting my mild overclaim: under the lock, "the only uncertain position is topological" is too strong. Continuations beyond the patch edge (patch-edge Prop 7.2) and non-unique extensions beyond Cauchy horizons also leave room for uncertainty, so the uncertain data are the pointed Γ **and** the choice of extension, not Γ alone.
+- Prior art (#362): Misner–Wheeler; Morris–Thorne; Visser; Friedman–Sorkin.
+
+**L35, radar to a feature (#361, #362).**
+- The record depends only on the causal past, so there is no split before the path crosses $H^+(S)$. After it, positions form a continuum unless a resolution grain is added.
+- Geometric-optics rays do not reflect off curvature, so returns need matter, a junction, or wave effects.
+- Prior art (#362): Bondi's k-calculus; Dolby–Gull; Perlick.
 
 ## Common structure (all sets)
 
@@ -23,7 +52,7 @@ A particle here is a tiny knot in spacetime itself (Hadley's 4-geon), not a sepa
 
 ## Set 1 (lead): Hadley 4-geon as the particle (L33)
 
-**Particle.** A Hadley 4-geon: a topologically non-trivial region of spacetime that is localised in space **and** time. As I recall Hadley's proposal (unchecked; to be verified by Literature), it involves a failure of time-orientability in a small region. Its behaviour depends on global boundary conditions, including the future measurement setup, which is his route to quantum-logic structure.
+**Particle.** A Hadley 4-geon: a topologically non-trivial region of spacetime that is localised in space (particle-like: Hadley 1997, Axiom 2) and persisting in time as a world tube (Hadley 2000: $S^2\times\mathbb R$). As I recall Hadley's proposal (unchecked; to be verified by Literature), Hadley 1997 defines the 4-geon by non-trivial topology and causal structure with CTCs as "an essential feature" (Conjecture 1), and does not discuss time-orientability; Hadley 2000 adds that the fermion region is not time orientable, a global property ("time is not orientable around at least one class of non-contractable closed curves"), not a local failure (V-text, #362). Its behaviour depends on global boundary conditions, including the future measurement setup, which is his route to quantum-logic structure.
 
 **How it enters the record.**
 - Beacon light meets the geon region and returns.
@@ -39,7 +68,7 @@ A particle here is a tiny knot in spacetime itself (Hadley's 4-geon), not a sepa
 - **Analyticity:** under the analytic lock the germ fixes the universal cover, so a geon *inside* the analytic cover has a fixed position. Position uncertainty therefore needs either the geon to sit in a region the germ does not fix, i.e. relaxed analyticity (3:14 ruling), or Set 2's reading, where the uncertain datum is the gluing.
 - **Time orientation:** v0.10.1's observers carry a future time direction (§4). A non-time-orientable geon must stay away from the observer's worldline, and returning signals must be compared consistently. Sketch, unchecked.
 - **#320 inextendible hosts:** needs checking for geon spacetimes (unchecked).
-- **CTCs:** whether Hadley's construction needs closed timelike curves near the geon is unchecked. If it does, it conflicts with the deck-element no-CTC condition (#352).
+- **CTCs:** Hadley's construction needs closed timelike curves: "The assumed existence of CTCs as an integral part of the structure ... is an essential feature of the manifold" (Hadley 1997, V-text), and his Axiom 4 (measurement sets boundary conditions) rests on them. It therefore conflicts with the deck-element no-CTC condition (#352) if the geon's topology is realised as a quotient, and otherwise with any chronology assumption of the host class (#362 note).
 - **Retrocausal flavour:** in Hadley's model the outcome depends on the future measurement setup. In "branch A = world A" that is natural, because the host includes the future apparatus. But it must not be read as the observer *choosing* the world.
 
 **Weak points.** The Hadley content is from memory. The time-orientation and CTC questions are open. Position uncertainty and analyticity have to be reconciled.
@@ -55,7 +84,7 @@ A particle here is a tiny knot in spacetime itself (Hadley's 4-geon), not a sepa
 
 **Split by position.** Hosts with different gluings (different Γ) give different records when that return arrives. This is L28's self-echo mechanism read as a position measurement.
 
-**Structural observation (sketch).** Under analyticity, the position of any *local geometric* feature inside $P(O)$ is fixed by the germ. **The only uncertain "position" is a topological datum, which gluing.** So under the lock, measuring a position is learning $\pi_1$, which matches David's "branch A means geometry (fundamental group) A".
+**Structural observation (sketch; corrected per #361/#362 above).** Under analyticity, the position of any *local geometric* feature inside $P(O)$ is fixed by the germ. The uncertain data are the pointed Γ (topological) and, beyond the patch edge or Cauchy horizons, the choice of extension. So under the lock, measuring a position is learning $\pi_1$, which matches David's "branch A means geometry (fundamental group) A".
 
 **Weak points.**
 - Gluing needs an exact isometry between mouth neighbourhoods (L27's symmetry cost).

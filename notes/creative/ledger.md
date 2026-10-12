@@ -39,9 +39,9 @@
 | L28 | observer state (memory) | **Self-signal return (batch-07 Set 2):** the observer's own light returns around a handle at a proper time $\tau_\Gamma$ fixed by the geometry, splitting the compatible set by $\pi_1$ | batch-07; creative-tweaks (the ant's trail) | **Lead set** (David 3:53 PM; awaiting final verdict, #352, #353) | Escapes the nested-prefix and identical-state traps only by adding a record (memory) to the state; needs an emitting body; ensemble narrowing, not motion; under (M1) the shares per arm are equal, not ∝ number of worlds. #352: genuine split (learning which world, not motion); countable, not necessarily finite; lock and split-rule questions are David's call. Known in spirit (#353): Ellis small universe, CSS observer copies. |
 | L29 | observer state + split rule | **L28 developed (batch-08):** memory-augmented state $(O,\rho)$ with self-signal records; split rule by records; finite partition at each $\tau$ and countable cumulatively for crystal covers; counting by index exhaustion (conjecture: count gives Born (to be derived, not assumed)) | batch-08; L28; #352, #353 | **Live** (counting degenerate: L30, #355) | Sketches only. Needs crystal covers; count needs exhaustion-independence; flat stays a continuum; accelerating hosts few or no splits; conflicts with Paper 1's $\sim$ (working assumption 2). |
 | L31 | counting (conditional shares) | **Batch 09:** exact conditional echo-record shares in $\mathbb Z^2$, $\mathbb Z^3$ crystal covers (HNF enumeration); index, covering-radius and word-length listings | batch-09; L29; L30 | **Result** (degenerate) | Shares are 0/1: 'no new echo' → 1 before full rank, a single world after; listings agree only trivially; no Born-like structure. Conjecture label applies; separate from (M1). |
-| L33 | particle | **Batch 10 Set 1 (lead): Hadley 4-geon** as the particle; position read from scattered beacon returns; hosts split by geon placement | batch-10; David 4:06 PM | **Proposed** | Hadley content unchecked; time-orientation/CTC questions open; position uncertainty needs relaxed analyticity or Set 2's reading. |
-| L34 | particle (topological) | **Batch 10 Set 2: position as gluing**: partner-mouth location = which Γ; under the analytic lock the only uncertain position is topological | batch-10; L27, L28 | **Proposed** | Needs exact mouth isometry; returning loop. |
-| L35 | particle (news) | **Batch 10 Set 3: radar to a localised feature** in a $C^\infty$ host | batch-10; batch 05; #346 | **Proposed** | Breaks H1; null-boundary claim unverified (#346). |
+| L33 | particle | **Batch 10 Set 1 (lead): Hadley 4-geon** as the particle; position read from scattered beacon returns; hosts split by geon placement | batch-10; David 4:06 PM | **Pending David on CTCs** (relaxing #352 for geon hosts; #361, #362) | Hadley content unchecked; time-orientation/CTC questions open; position uncertainty needs relaxed analyticity or Set 2's reading. |
+| L34 | particle (topological) | **Batch 10 Set 2: position as gluing**: partner-mouth location = which Γ; under the analytic lock the only uncertain position is topological | batch-10; L27, L28 | **Reduces to self-echo** (L28/L29; #361) | Needs exact mouth isometry; returning loop. |
+| L35 | particle (news) | **Batch 10 Set 3: radar to a localised feature** in a $C^\infty$ host | batch-10; batch 05; #346 | **Live, needs a reflector** (#361) | Breaks H1; null-boundary claim unverified (#346). |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -142,6 +142,8 @@ In crystal covers, counting worlds gives only 0/1 conditional shares: degenerate
 
 Hadley's 4-geons are the lead particle model for batch 10. Paper 1 contains a geon remark (#339) whose provenance Literature is checking; David does not recall ruling geons out. Hadley references stay unchecked until Literature verifies them.
 
+**Note.** README line 18 says 4-geons live in spacetimes that admit CTCs; Hadley 1997 requires CTCs (#362 S3).
+
 ## Change log
 - 2026-10-12: created (batch 01).
 - 2026-10-12: moved to notes/creative/; charter added; TT1–TT4 rename (#335 N1); verdicts from #334/#335 applied (L3 live and ranked first; L8, L9, L7 parked); #335 R1 applied in batch-01.
@@ -160,3 +162,4 @@ Hadley's 4-geons are the lead particle model for batch 10. Paper 1 contains a ge
 - 2026-10-12: batch 09 (L31): conditional shares computed for Z^2, Z^3; degenerate 0/1.
 - 2026-10-12: #358/#359 verdicts on batch 09; David's 4:03 PM words; counting line parked; Successes so far.
 - 2026-10-12: David's 4:06 PM words on geons; batch 10 (L33–L35), structure only.
+- 2026-10-12: #362 S1–S3, Hadley marks and prior art; #361 corrections; L33 pending David on CTCs, L34 reduces to self-echo, L35 live (needs a reflector).
