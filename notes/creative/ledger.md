@@ -42,6 +42,8 @@
 | L33 | particle | **Batch 10 Set 1 (lead): Hadley 4-geon** as the particle; position read from scattered beacon returns; hosts split by geon placement | batch-10; David 4:06 PM | **Pending David on CTCs** (relaxing #352 for geon hosts; #361, #362) | Hadley content unchecked; time-orientation/CTC questions open; position uncertainty needs relaxed analyticity or Set 2's reading. |
 | L34 | particle (topological) | **Batch 10 Set 2: position as gluing**: partner-mouth location = which Γ; under the analytic lock the only uncertain position is topological | batch-10; L27, L28 | **Reduces to self-echo** (L28/L29; #361) | Needs exact mouth isometry; returning loop. |
 | L35 | particle (news) | **Batch 10 Set 3: radar to a localised feature** in a $C^\infty$ host | batch-10; batch 05; #346 | **Live, needs a reflector** (#361) | Breaks H1; null-boundary claim unverified (#346). |
+| L36 | measurement (CTC round trip) | **Batch 11 Set 1: consistency branches**: EKT-type multiple self-consistent solutions of the beacon round trip through the geon's CTC give distinct returned records = worlds | batch-11; David 4:17 PM; L7; L33 | **Proposed (central hypothesis)** | Linear test signals probably give one reply (Friedman et al., unchecked); needs an interacting signal; 'solutions = worlds' needs content in the world or back-reaction. |
+| L37 | measurement (extensions) | **Batch 11 Set 2: extension branches**: non-unique extensions past the geon's chronology horizon return or don't return the signal; the observer's record splits | batch-11; #361 | **Proposed** | Unchecked that extensions differ on the signal path; needs #352 relaxed to $U$ (David). |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -144,6 +146,12 @@ Hadley's 4-geons are the lead particle model for batch 10. Paper 1 contains a ge
 
 **Note.** README line 18 says 4-geons live in spacetimes that admit CTCs; Hadley 1997 requires CTCs (#362 S3).
 
+## Central hypothesis (David, 2026-10-12 4:17 PM ET, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> Hmm, maybe that’s what it means to observe a particle? A signal goes from the observer to the particle’s CTC and comes back to the observer, communicating information about the particle’s state?
+
+Central hypothesis of batch 11 (L36, L37). Measurement = round trip of the beacon signal through the geon's CTC region, back into the observer's time-oriented record. Also recorded in `charter.md`.
+
 ## Change log
 - 2026-10-12: created (batch 01).
 - 2026-10-12: moved to notes/creative/; charter added; TT1–TT4 rename (#335 N1); verdicts from #334/#335 applied (L3 live and ranked first; L8, L9, L7 parked); #335 R1 applied in batch-01.
@@ -163,3 +171,4 @@ Hadley's 4-geons are the lead particle model for batch 10. Paper 1 contains a ge
 - 2026-10-12: #358/#359 verdicts on batch 09; David's 4:03 PM words; counting line parked; Successes so far.
 - 2026-10-12: David's 4:06 PM words on geons; batch 10 (L33–L35), structure only.
 - 2026-10-12: #362 S1–S3, Hadley marks and prior art; #361 corrections; L33 pending David on CTCs, L34 reduces to self-echo, L35 live (needs a reflector).
+- 2026-10-12: David's 4:17 PM hypothesis (ledger, charter); batch 11 (L36, L37).
