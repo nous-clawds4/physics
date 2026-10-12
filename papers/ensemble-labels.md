@@ -72,7 +72,7 @@ as in Definition 2, for each $O'\in\mathrm{Obs}$. This is an assignment of a set
 
 **Theorem 4.**
 
-1. *(Persistence along the curvelet.)* If $[W,\iota]\in E_\gamma(O)$, then for every $\tau$ in the interior of the lifetime of $\sigma_O$ in $P(O)$, the same $W$ contains $O_\tau$ (the jet of $g_W$ at $\sigma_O(\tau)$). Thus $E_\gamma(O)$ injects into $E_{\mathrm{pt}}(O_\tau)$, and the hitchhiking members persist. Topology labels of those members do not move: they are discrete invariants of $W$, constant along $\gamma_O$ while $\sigma_O$ remains in $P(O)$.
+1. *(Persistence along the curvelet.)* If $[W,\iota]\in E_\gamma(O)$, then for every $\tau$ in the interior of the lifetime of $\sigma_O$ in $P(O)$ for which the $W$-geodesic from $\iota(p)$ with initial velocity $\iota_*u$ is defined up to $\tau$, the same $W$ contains $O_\tau$ (the jet of $g_W$ at $\sigma_O(\tau)$). Thus $E_\gamma(O)$ injects into $E_{\mathrm{pt}}(O_\tau)$, and the hitchhiking members persist. Topology labels of those members do not move: they are discrete invariants of $W$, constant along $\gamma_O$ while $\sigma_O$ remains in $P(O)$ and the $W$-geodesic is defined.
 
 2. *(Jump, not continuous motion.)* There is no continuous motion of topology labels along $\gamma_O$. A change of membership in $E_\gamma$ is a jump: some $[W,\iota]$ appears or disappears. It cannot be a path in a moduli space of $\pi_1$ or of diffeomorphism types, because those labels are discrete.
 
