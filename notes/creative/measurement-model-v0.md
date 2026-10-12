@@ -1,5 +1,7 @@
 # Measurement model v0: consolidation (Creative Lead; do not merge)
 
+**Fidelity passes applied:** Geometry #373 (11 non-OK claims), Literature #374 (S1, S2).
+
 **Status.** A consolidation note only. **No new physics**: every claim below is carried from a batch, review or ledger row, cited inline. It is exploration under David's relaxations (§3), and not a change to the paper. Nothing goes into `versions/` or `papers/`. Citation status is as recorded in the source rows; anything not marked verified there is unchecked. Most results are sketches, as their sources say.
 
 ---
@@ -12,8 +14,8 @@ Free fall stays perfectly predictable inside each possible world. The branching 
 
 **Some details that survived review.**
 - Only signals that come back "the right way round" in time count as replies (Type O). The others are just correlations (Type F) (#364).
-- Replies can only arrive after the observer has passed a horizon beyond which the past no longer fixes the future. Beyond it, the observer either continues or simply stops, and which happens is fixed by its own motion within each world. Stopping is not a branch (#367, #370, #371).
-- What the observer has recorded so far may still cover several possible worlds, and it narrows toward one as more replies arrive. For worlds with a closed, repeating structure and exact records, it narrows to exactly one in a finite time (#369, #370).
+- Where the geon forms after a period with a Cauchy surface, replies can only arrive after the observer has passed that horizon (#364 (d), sketch). Beyond it, whether the observer continues is fixed by its own motion within each world (Misner: Geometry's own computation, #367; Taub–NUT unverified). Stopping is not a branch (#367, #370, #371).
+- What the observer has recorded so far may still cover several possible worlds, and it narrows toward one as more replies arrive. For worlds with a closed repeating structure (cocompact Γ in a known cover) and exact displacement records, it narrows to exactly one in a finite time (#370, sketch; homogeneous covers need care).
 - Worlds are compared through the observer's state and diary. That still works when the geon has always existed and there is no "starting moment" (#370).
 
 **What is not done.**
@@ -22,7 +24,7 @@ Free fall stays perfectly predictable inside each possible world. The branching 
 - The time-loop puzzle has infinitely many consistent solutions, which needs sorting out.
 - A plain light signal is probably too simple: it seems to need to interact with something in the loop.
 - Some Taub–NUT details are unverified.
-- The nearest earlier idea in the literature is Belnap's 1992 branching picture.
+- The nearest earlier ideas in the literature are Hadley's 1997 4-geon causal link between apparatus and preparation (for the measurement) and Belnap's 1992 branching picture (for outcomes as classes of branches).
 
 ---
 
@@ -39,19 +41,19 @@ Free fall stays perfectly predictable inside each possible world. The branching 
 
 ### 2.3 Type O / Type F returns
 - The classification is well-posed and homotopy-invariant, set by $w_1$ of the closed loop. **Type O is the double-cover repair, not new** (#364 (a)).
-- Type O returns exist iff $w_1$ has nontrivial kernel; there are none if $\pi_1=\mathbb Z/2$ (#364 (b)).
+- Non-trivial Type O homotopy classes exist (topologically) iff ker w1 ≠ {1}; there is no non-trivial Type O class if π1 = Z/2. Whether Hadley geons realise any of them by a causal curve through the CTC region is unchecked (#364 (b)).
 - Type F returns are recorded as correlations, not measurements (batch 11).
 
 ### 2.4 Branching beyond the observer's Cauchy horizon
-- No reply can reach an observer still inside $D^+(S)$. So every measurement happens beyond the observer's Cauchy horizon, where the observer's own path depends on the extension (#364 (d)).
+- If the host has a slice S before the geon, no reply can reach an observer still inside D⁺(S) (#364 (d), sketch; Hawking–Ellis §6.5 unverified). Measurements then happen beyond the observer's Cauchy horizon, where the observer's own path can depend on the extension. Without such an S (eternal geons) this timing result does not apply (#370).
 - Where the germ diverges there, that **is** the branching sought (Physics Lead's framing, batch 12; David 4:28: "a fork in the observer's future (a branch in observer space) is exactly what we are looking for").
 
 ### 2.5 Survival vs dropout
 - **Misner** (Geometry's computation, #367; not a verified source): within each extension, survival is fixed by the geodesic's own data. It is determined, not a fork.
-- **Taub–NUT:** the extensions are non-isometric (verified, #332). The dichotomy is unverified (Misner–Taub 1969). Imprisonment is relative to the extension: the non-Hausdorff union is complete, and only a measure-zero set gets through neither (#371).
+- **Taub–NUT:** non-isometric maximal extensions exist (Chruściel–Isenberg 1993, V-meta, abstract only, per #332/#368; the abstract also notes many familiar extensions are isometric). The dichotomy and the imprisoned geodesics are unverified (Misner–Taub 1969). In Misner (#367, Geometry's computation), geodesics through the boost's fixed point are incomplete in both extensions and in their non-Hausdorff union, and they form a meagre set (topological; no measure adopted). #371's claim about the union is not checked against this.
 - Non-unique extension is the general Cauchy-horizon fact (#371).
 - **Dropout**, i.e. ending or non-existence of an extension, is **not an arm** (v0.10.1 §6.2; #370).
-- Survival is determined within each world and varies between worlds (L38, L42).
+- Survival is determined within each world and varies between worlds (L38, L42; Misner by Geometry's computation, #367; Taub–NUT and Hadley hosts unverified).
 
 ### 2.6 Record branch vs state branch
 - The state branch $[W]^S_\tau$ sits inside the record class $[W]^R_\tau$ (the outcome). The partitions nest and do not cross (#369, L41).
@@ -60,9 +62,9 @@ Free fall stays perfectly predictable inside each possible world. The branching 
 - Prior art: Belnap 1992 is closest (#371).
 
 ### 2.7 Single-branch certification
-- For any cocompact Γ in a known cover with exact displacement records, Γ is fixed, and certifiably so, once $\tau$ exceeds a generating set's displacements and about twice the quotient diameter (#370).
+- For any cocompact Γ in a known cover with exact displacement records, Γ is fixed, and certifiably so, once $\tau$ exceeds a generating set's displacements and about twice the quotient diameter, provided the record identifies each deck element from its arrival (#370, sketch; this supersedes #359's 'n ≤ 3').
 - This fails for non-cocompact Γ and for angle-only records. Homogeneous covers need care (the stabiliser) (#370).
-- Under the analytic lock, the germ fixes the cover at $\tau=0$ except past non-unique extension points. What stays open is Γ and the extension (#370).
+- Under the analytic lock, the germ fixes the cover at $\tau=0$ except past non-unique extension points. What stays open is Γ and the extension (#370). In the smooth case (relaxed lock), geometry outside J⁻(γ(τ)) is never fixed by germ and record (#346, #370).
 
 ### 2.8 Comparing worlds
 - $E_{\mathcal W}$ and $E_M$ are defined by germs (v0.10.1 §4), so worlds are compared by germ + record.
@@ -99,14 +101,15 @@ All are relayed and none is signed. The attribution is quoted exactly as the led
 2. **Probabilities are parked** (David 4:03). Counting appears only as "conjecture: count gives Born (to be derived, not assumed)" (ledger standing rule). (M1) is unchanged at L3. Counting results stand: degenerate 0/1 shares in crystal covers (L30, L31; #358, #359).
 3. **EKT infinity.** EKT found infinitely many self-consistent solutions (#365).
    - Countable generically, by isolated fixed points in traversal classes (L40, sketch).
-   - Continuous families arise only for symmetric data (#367, #368 S3).
+   - Continuous families arise for data invariant under a continuous symmetry, and possibly from continuous internal degrees of freedom such as spin or inelasticity (unverified) (#367). Generic isolation assumes transversality of the actual EKT map (unverified).
    - Lossev–Novikov "jinn" loops are a second source of multiplicity (#368).
 4. **Exact-real records and a beacon/body** are needed for well-posedness (#355).
-5. **An interacting beacon is needed.** Uniqueness for linear fields is Friedman & Morris (1991, 1997; #365), and L36 needs matter (#364 (c)).
+5. **An interacting beacon is needed.** Friedman et al. 1990 is verified from the abstract only (#364 (c)): linear fields behave benignly in the wormhole examples, and interacting systems can have multiple solutions. Linear uniqueness (Friedman & Morris) was unverified in #364; its status in #365 is as recorded there. Non-benign spacetimes may misbehave even for linear fields. L36 needs matter (#364 (c)).
 6. **Taub–NUT:** the dichotomy is unverified (Misner–Taub 1969; #370).
 7. **Outcome vs branch at finite τ:** the outcome is coarser. Branch-without-outcome can occur (L39, L41).
 8. **Split rule vs Paper 1:** the record split conflicts with Paper 1's $\sim$ ("Topology labels do not enter"). It is accepted under David's 3:53 working assumption 2, not resolved (batch 08 (b)).
-9. **Eternal geons:** #346's argument and #364 (d)'s timing must be restated without $D(S)$ (#370).
+9. Eternal geons: #346's first-divergence argument and #364 (d)'s timing do not apply (no D(S)); replies are not barred before any horizon. Ensemble comparison by germ + record is unaffected (#370).
 10. **Hadley survival:** unanalysed for Hadley hosts (L42).
-11. **Framing hazards:** keep clear of Everett-style branching (#332 N1; Sebens–Carroll flagged in #350). The non-Hausdorff union is a low-priority note only (#367).
+11. **Framing hazards:** keep clear of Everett-style branching (#332 N1; Sebens–Carroll flagged in #350). The non-Hausdorff union is a low-priority note only (#367): the Misner union forks no single geodesic; under the lock the branches share germs along the path (#367).
 12. **Prior art:** Belnap 1992 (outcomes as classes of not-yet-split histories). Also Hájíček 1971, McCabe 2005, Earman 2008, Placek–Belnap / Müller (#368, #371).
+13. **Unresolved conflict (#367 vs #371).** #371 says the non-Hausdorff union of the Taub–NUT/Misner extensions is complete, with only a measure-zero set getting through neither. #367 found that in Misner the geodesics through the boost's fixed point are incomplete in both extensions and so also in the union, and called that set meagre (topological), not measure-zero. This is not settled here (#373).
