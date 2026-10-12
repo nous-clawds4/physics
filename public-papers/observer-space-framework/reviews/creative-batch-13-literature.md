@@ -65,7 +65,7 @@ S3. `notes/creative/batch-13.md`
 
 S4. `notes/creative/ledger.md`
 - OLD: `plus imprisoned geodesics incomplete in both extensions (unchecked)`
-- NEW: `imprisoned geodesics are incomplete in one extension and cross in the other (non-Hausdorff union complete; #370); only a measure-zero set is incomplete in both`
+- NEW: `imprisoned geodesics are incomplete in one extension and cross in the other (non-Hausdorff union complete; #371); only a measure-zero set is incomplete in both`
 
 S5. `notes/creative/batch-13.md`
 - OLD: `there may be **no Cauchy surface** $S$ at all.`
