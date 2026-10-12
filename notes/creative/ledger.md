@@ -181,6 +181,12 @@ David's answer:
 
 Caveat: no in/out S-matrix is assumed; the model is classical. Where the geon forms after a Cauchy slice, the return lands beyond the observer's Cauchy horizon; eternal geons have no Cauchy surface.
 
+## Classical model (David, 5:00 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim) — guiding constraint for future batches
+
+> Keeping our measurement model classical is exactly the right thing. Our expectation (and hope) is that quantum statistics follows inevitability from a picture that is fundamentally classical at the deeper level. No need for us to inject it by hand, which is what Hawking did.
+
+**Guiding constraint for future batches:** the measurement model stays classical; no quantum statistics is injected by hand.
+
 ## Taub–NUT/Misner union (resolution, Literature via Physics Lead)
 
 Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, geodesics through the boost's fixed point are incomplete in both extensions and in every union (closed, nowhere dense, Lebesgue-null in the covering chart (no measure on observer space adopted)). The two-extension non-Hausdorff union is not complete: generic geodesics entering a CTC region hit its second horizon. Among unions of the four half-plane pieces, only the full quotient (R^2\{0})/B is complete modulo the fixed-point geodesics; helicoidal coverings give further non-Hausdorff maximal extensions with the same exception (Rieger, arXiv:2402.09312). Taub-NUT has no boost fixed point, but its comoving (zero-momentum) geodesics continue in neither extension (Misner–Taub 1969, §II C), so no union of the two is complete. (PR #375; "measure zero" replaced by Lead ruling; Misner "only" and Taub–NUT clause edited per external review.) Reported Taub–NUT completeness: Hájíček 1971 (unchecked). Resolves the #367 vs #371 conflict (measurement-model-v0 open problem 13).
@@ -213,3 +219,4 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-12: David's 4:37 PM naming ruling (first recorded as a paraphrase; now verbatim); #367/#371 union conflict resolved (Literature via Physics Lead; Hájíček 1971).
 - 2026-10-12: open problem 13 replaced verbatim per PR #375.
 - 2026-10-12: 4:37 PM ruling now verbatim ("Yes, I'm happy with that.", answering Physics Lead's proposal); OP13 wording per Lead ruling ('Lebesgue-null in the covering chart').
+- 2026-10-12: David's 5:00 PM classical-model ruling recorded verbatim (guiding constraint for future batches).
