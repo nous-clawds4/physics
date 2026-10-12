@@ -72,13 +72,13 @@ as in Definition 2, for each $O'\in\mathrm{Obs}$. This is an assignment of a set
 
 **Theorem 4.**
 
-1. *(Persistence along the curvelet.)* If $[W,\iota]\in E_\gamma(O)$, then for every $\tau$ in the interior of the lifetime of $\sigma_O$ in $P(O)$, the same $W$ contains $O_\tau$ (the jet of $g_W$ at $\sigma_O(\tau)$). Thus $E_\gamma(O)$ injects into $E_{\mathrm{pt}}(O_\tau)$, and the hitchhiking members persist. Topology labels of those members do not move: they are discrete invariants of $W$, constant along $\gamma_O$ while $\sigma_O$ remains in $P(O)$.
+1. *(Persistence along the curvelet.)* If $[W,\iota]\in E_\gamma(O)$, then for every $\tau$ in the interior of the lifetime of $\sigma_O$ in $P(O)$ for which the $W$-geodesic from $\iota(p)$ with initial velocity $\iota_*u$ is defined up to $\tau$, the same $W$ contains $O_\tau$ (the jet of $g_W$ at $\sigma_O(\tau)$). Thus $E_\gamma(O)$ injects into $E_{\mathrm{pt}}(O_\tau)$, and the hitchhiking members persist. Topology labels of those members do not move: they are discrete invariants of $W$, constant along $\gamma_O$ while $\sigma_O$ remains in $P(O)$ and the $W$-geodesic is defined.
 
 2. *(Jump, not continuous motion.)* There is no continuous motion of topology labels along $\gamma_O$. A change of membership in $E_\gamma$ is a jump: some $[W,\iota]$ appears or disappears. It cannot be a path in a moduli space of $\pi_1$ or of diffeomorphism types, because those labels are discrete.
 
 3. *(The fiber can jump off the curvelet.)* $E_{\mathrm{pt}}(O')$ for $O'$ not on $\gamma_O$ is a different set. A spacetime that contains the germ $O$ need not contain a neighbouring germ off the curvelet. So the assignment $O'\mapsto E_{\mathrm{pt}}(O')$ can jump as $O'$ moves in $\mathrm{Obs}$, even while $E_\gamma(O)$ is constant along $\gamma_O$. These are not the same object.
 
-**Proof of (1).** $P(O)$ is a neighbourhood of the whole short geodesic $\sigma_O$ (Prop. 3.2). An occurrence $\iota$ embeds a neighbourhood of $p$ isometrically into $W$; analytic continuation along $\sigma_O$ inside $P(O)$ is unique, so $\iota$ extends along that segment and $W$ contains every $O_\tau$. Labels of $W$ do not depend on $\tau$. $\square$
+**Proof of (1).** $P(O)$ is a neighbourhood of the whole short geodesic $\sigma_O$ (Prop. 3.2). An occurrence $\iota$ embeds a neighbourhood of $p$ isometrically into $W$; analytic continuation along $\sigma_O$ inside $P(O)$ is unique, so $\iota$ extends along that segment for as long as the $W$-geodesic from $\iota(p)$ with initial velocity $\iota_*u$ is defined, and $W$ contains $O_\tau$ for every such $\tau$. Labels of $W$ do not depend on $\tau$. $\square$
 
 **Proof of (2).** $\pi_1(W)$, diffeomorphism type, and $M(W,O)$ take values in discrete spaces (groups up to isomorphism, integers, combinatorial types). A continuous family of such labels that actually changes must jump. $\square$
 
