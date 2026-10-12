@@ -29,6 +29,8 @@
 | L16 | manifold | Lattice geodesic ties (batch-03 Set 1) | batch-03 | **Parked** (#341, #342) | Ties are two-point, not initial-value: the endpoint is a law of $R$ in disguise; diverges as ℓ→0; drops H1; tie counts as weights = count by fiat. Reopens the geodesic-lifts lock (David's call). |
 | L17 | motion law | Ride the matter, fork at degeneracies (batch-03 Set 2) | batch-03 | **Parked** (#341, #342 R2) | Continuum at degeneracies, not discrete; frame undefined in vacuum; degeneracies rarely hit. Reopens the lock (David's call). |
 | L18 | motion law | Self-force needs memory (batch-03 Set 3) | batch-03 | **Parked** (#341, #342 R1) | Third order only for charge; for mass a past-path tail (Quinn–Wald); reduction of order restores uniqueness. Reopens the lock (David's call). |
+| L20 | analytic (host) | Finitely describable piecewise-analytic hosts: compatible hosts diverge across null junctions into a countable set (batch-05 Set 1) | batch-05; CL | **Proposed** | Breaks H1, H5. Main risk TT2 (is "finite description" physical?) and countable-but-dense. |
+| L21 | (dropped, batch 05) | E1–E8 | batch-05 | **Dead** | Continuum (C^∞/Gevrey, k-jets, microstructure, unrestricted junctions), no divergence (quasianalytic, topology only), no shared $O$ (discrete solitons), or off-target (forks inside a host). |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -48,6 +50,14 @@ Recorded in `notes/creative/charter.md` (addendum). Batch 04 is the first batch 
 
 No set survived the rules once the lock was relaxed (see `batch-04.md`). Two failure modes recur. (i) When ODE uniqueness breaks for a physical reason, the alternatives form a continuum (Peano-type non-uniqueness, free data on a null surface, extensions past a Cauchy horizon in $C^\infty$). (ii) Where the alternatives are discrete (sheets, eigen-frames, branch counts), the branch locus has codimension ≥2 and is rarely hit (#336, #341), or the alternatives disappear rather than fork. The analytic/geodesic lock was not the only barrier.
 
+## Reframing (David Strayhorn, 2026-10-12 3:19 PM ET, relayed via Physics Lead, not signed; as relayed, not quoted verbatim)
+
+The ideal is deterministic free fall within each world. Branching in observer space comes only from which world we are in: branch A is world A. The target is therefore not a fork inside a host. It is a set of hosts that agree on the observer's current state $O$ but give different later states along its geodesic, discrete or countable, not a continuum.
+
+## Lesson L22 (batch 05)
+
+Under the reframing, "how does the motion branch?" becomes "what class of data may arrive from outside the observer's shared past?" Analytic and quasianalytic classes give no branching; $C^\infty$ and Gevrey give a continuum. Countable branching needs a countable data class with a physical reason, and that reason is the open problem.
+
 ## Change log
 - 2026-10-12: created (batch 01).
 - 2026-10-12: moved to notes/creative/; charter added; TT1–TT4 rename (#335 N1); verdicts from #334/#335 applied (L3 live and ranked first; L8, L9, L7 parked); #335 R1 applied in batch-01.
@@ -55,3 +65,4 @@ No set survived the rules once the lock was relaxed (see `batch-04.md`). Two fai
 - 2026-10-12: batch-02 verdicts (#338, #339): L11–L13 parked; lesson L15 added.
 - 2026-10-12: batch-03 verdicts (#341, #342): L16–L18 parked; summary after batches 01–03 added.
 - 2026-10-12: David's 3:14 PM ruling recorded; batch 04 drafted, all candidates dropped; lesson L19.
+- 2026-10-12: David's 3:19 PM reframing recorded; batch 05 (Set 1 proposed, L20; drops L21); lesson L22. batch-04 D7/D8 updated per #344.
