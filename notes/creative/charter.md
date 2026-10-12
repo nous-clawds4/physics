@@ -61,3 +61,9 @@ We should periodically make a list of ideas for creative tweaks. Judge them base
 ## Addendum: geon hosts (David, 4:16 PM ET 2026-10-12, in Physics Lead's chat, relayed by Physics Lead, not signed, answering "Should worlds containing geon particles be allowed to have time loops, as Hadley requires?")
 
 > Yes, allow CTCs and non-time-orientability in geon hosts, as exploration only.
+
+## Addendum: signal round trip (David, 4:28 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed)
+
+> No, I like the original idea of the signal sent out by the observer. I can wrap my head around that.
+
+> a fork in the observer's future (a branch in observer space) is exactly what we are looking for.
