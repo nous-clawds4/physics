@@ -4,9 +4,46 @@
 
 **Target (David, 3:43 PM ET, relayed via Physics Lead, not signed; recorded verbatim in the ledger).** "branch A means geometry (fundamental group) A, B means B … Somehow, the local state teaches the observer something about the global state."
 
-**The measure under (M1).** David accepts weighting by counting worlds, so L23 is no longer a blocker in itself. Batch 07 stays within (M1) as recorded and writes no other weights; see the ledger's (M1) explanation for how (M1) relates to counting worlds.
+**The measure under (M1).** David said weighting by counting worlds would be acceptable *if* that is what (M1) means; (M1) as recorded is per-vertex EPP1, not counting worlds, so whether L23 still blocks is flagged for David and not resolved here. Batch 07 stays within (M1) as recorded and writes no other weights; see the ledger's (M1) explanation for how (M1) relates to counting worlds.
 
 ---
+
+## Repairs and verdicts (Geometry #352, Literature #353)
+
+**Trap premises, repaired (#352).**
+- "The universal analytic extension" is ill-posed: maximal analytic extensions need not be unique (Taub–NUT). So each host is a quotient of *its own* universal cover; the text below should be read that way.
+- The no-CTC condition is precise: no deck element maps a point into its own chronological future.
+- Lensing *does* differ between quotients. It fails to split the compatible set only because the images are not in the local state.
+- Literature (#353) confirms the trap sketch: periodic copies are real in a $\Gamma$-periodic cover.
+
+**L27 (#352).**
+- "Generic" is meant only topologically.
+- The list is countable only for cocompact hyperbolic spatial sections with dim ≥ 3 ($\mathbb R\times\mathbb H^3/\Gamma$; Mostow/Prasad).
+- Infinite-volume hyperbolic, 2+1 Teichmüller, flat, and AdS$_3$/BTZ quotients are continua. The dS case is unchecked.
+- Known (#353): Clifford–Klein space forms; Wolf, *Spaces of Constant Curvature*.
+
+**L28 (#352).**
+- With a record in the state, the split is genuine, not a nested prefix. But it is *learning which world*, not branching of the motion.
+- The partition is countable, not necessarily finite.
+- In the flat case, return times vary continuously. Accelerated expansion may give no return at all.
+- Costs: the non-local state breaks the germ definition; #324's gauge quotient must act on records; emission needs a body.
+- Known in spirit (#353): Ellis's "small universe"; the observer copies of Cornish–Spergel–Starkman.
+
+**Drops (#352).** "The whole causal past", taken with its self-overlap identifications, is Set 2 in disguise.
+
+**Citation marks (#353).**
+- V-text: Cornish–Spergel–Starkman 1998; Planck 2015 XVIII.
+- V-meta: Lachièze-Rey–Luminet; Planck 2013 XXVI; Ellis 1971; Ellis–Schreiber; Lehoucq et al. 1996; Mostow 1968; Thurston–Jørgensen.
+- All others remain unchecked.
+
+**Status.** L27 and L28: **awaiting final verdict** (pending David). L28's lock and split-rule questions are David's call (see Items for David).
+
+## Items for David
+
+1. **Memory beyond the lock.** L28's record of received self-signals goes beyond the jet/patch lock: the state is no longer the germ (#352).
+2. **Split rule.** Splitting while the patches are identical conflicts with Paper 1's split rule, under which a split needs differing patches.
+3. **Record as state.** The narrowing works only if the record counts as part of the observer's state.
+4. **(M1) vs counting.** (M1) as recorded is per-vertex EPP1, equal shares per arm, not weight proportional to the number of worlds; that is EPP2 / (M2). L23 is pending David's answer. Counting is allowed in creative sets only as a labelled conjecture (ledger standing rule).
 
 ## The trap to beat (why the obvious version fails)
 
@@ -30,7 +67,7 @@ Both sets below get past the trap by naming what does differ: something that is 
 - Nested prefix: not applicable. It is a statement about the compatible set at one instant, not about splitting.
 - #320: quotients of an inextendible $\tilde M$ should be inextendible (unchecked).
 - #336: no hitting is needed.
-**Count.** The list of $\Gamma$ is countable when $\mathrm{Isom}(\tilde M)$ is rigid, as for hyperbolic spatial sections (Mostow rigidity, unchecked). It is a continuum for flat sections (lattice shape moduli). Generic germs (trivial isometry group) give a single host. That is "teaches everything": the charter's "all possible fundamental groups" is realised only on symmetric covers.
+**Count.** The list of $\Gamma$ is countable for hyperbolic spatial sections only when $\Gamma$ is restricted to lattices (finite-volume quotients: Mostow 1968 rigidity plus countably many finitely presented groups); infinite-covolume groups (Schottky, quasi-Fuchsian) come in continuous families. It is a continuum for flat sections (lattice shape moduli). Generic germs (trivial isometry group) give a single host. That is "teaches everything": the charter's "all possible fundamental groups" is realised only on symmetric covers.
 **Weak points.**
 1. Nontrivial $\pi_1$ needs an exactly periodic cover, so the multiplicity lives only on non-generic, symmetric hosts.
 2. On its own, Set 1 does not split along the path.
@@ -50,7 +87,7 @@ Both sets below get past the trap by naming what does differ: something that is 
 - **#320:** as Set 1.
 - **L23 / measure:** no weight is written. Under (M1), each split is a vertex with as many arms as observation classes, and (M1) gives each arm an equal share regardless of how many hosts are behind it. That is **not** "weight ∝ number of worlds". Under counting worlds, the shares would follow the number of admissible $\Gamma$ in each class, which is infinite or a continuum in most cases. The ledger's (M1) note flags this as David's call.
 - **Borrowed QM:** none. **Everett framing:** none; the hosts are alternatives, not co-existing branches.
-**Count.** For rigid (hyperbolic) quotients the compatible set is countable and each split partitions it. For flat ones it is a continuum: each return also measures the loop's length and direction, which is a continuous datum.
+**Count.** For finite-volume (lattice) hyperbolic quotients the compatible set is countable and each split partitions it; infinite-volume groups come in continuous families (#353). For flat ones it is a continuum: each return also measures the loop's length and direction, which is a continuous datum.
 **Weak points.**
 1. The state must carry memory (a record), which runs against Problem note 6 and needs David's call.
 2. A "self-signal" needs the observer to emit or scatter a test field, i.e. a body; the framework's observer is a germ.
@@ -60,7 +97,7 @@ Both sets below get past the trap by naming what does differ: something that is 
 
 ---
 
-**Dropped directions.**
+**Dropped directions** (per #352, "whole causal past" with self-overlap identifications is Set 2 in disguise).
 - Topological lensing *of the geometry* (multiple images of curvature lumps): killed by the trap above, because images are periodic copies in $\tilde M$.
 - "The observer's state includes its whole causal past of geometry": same as the germ under analyticity, so it adds nothing.
 - Non-analytic quotients: a continuum (E1, batch 05).
