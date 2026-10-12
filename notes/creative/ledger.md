@@ -35,6 +35,9 @@
 | L24 | analytic (seam) | **Sheets existence (batch-06 A):** explicit non-regular 3-sheeted branched cover, codim-2 timelike seams, transposition monodromy; an aimed path forks into $e=2$ sheets carrying identical germs (second seam on one branch only gives a gap or end, not a different state; #348 review R1) | batch-06; #331 A; #336 | **Parked** (#349; #350 R1–R3) | Breaks H1, H5. Fork is in one host; the lift rule picks $e$ of a continuum of minimising directions (weak point); seam matter undefined. |
 | L25 | analytic (seam) + observer extent | **Sheets typicality (batch-06 B):** point observers: hitting dense and meagre (missing residual); observers of extent $\sim\ell$: hitting open dense | batch-06; #336 (a),(d),(f); L11 | **Template** (#349, #350): B1 live as template (dense but meagre, KMS analogue); B2 parked (#336 (f) costs; jet/patch lock); B2 radius thresholds per #349: $\ge\ell/\sqrt2$ always hits, $\ell/2$–$\ell/\sqrt2$ in strips, $<\ell/2$ missing open | Topological, no measure. B1's density claim is a sketch; B2 owes #336 (f) C1–C3, and the fork is which torn piece is the observer (law-of-R risk, L23). |
 
+| L27 | topology (static) | **Symmetry bound (batch-07 Set 1):** the germ fixes the cover $\tilde M$; $\pi_1$ must be a free, proper, non-timelike discrete subgroup of $\mathrm{Isom}(\tilde M)$ | batch-07; Theorems A–B; Prop 7.2 | **Proposed** | Constrains without fixing. Multiplicity only on symmetric covers; countable if rigid (Mostow), continuum if flat; no split by itself. |
+| L28 | observer state (memory) | **Self-signal return (batch-07 Set 2):** the observer's own light returns around a handle at a proper time $\tau_\Gamma$ fixed by the geometry, splitting the compatible set by $\pi_1$ | batch-07; creative-tweaks (the ant's trail) | **Proposed** | Escapes the nested-prefix and identical-state traps only by adding a record (memory) to the state; needs an emitting body; ensemble narrowing, not motion; under (M1) the shares per arm are equal, not ∝ number of worlds. |
+
 ## Lesson L15 (after batches 01–02)
 
 Every set so far fails the same way. Free-fall continuation is unique (`papers/geodesic-lifts.md` Prop 3.2; no monodromy along a single path, #331 §0, #332 R2). So the "branching" each set finds turns out to be **which host we are in** (the ensemble $E(O)$), not the motion. Rule for batch 03 onward: a set must name which hypothesis of Prop 3.2 it breaks and give an independent physical reason for breaking it. Otherwise it only feeds the ensemble.
@@ -80,6 +83,16 @@ A fork that's real in the geometry but invisible in the states is the nested-pre
 
 Batch 07 is held pending David's measure answer: whether a continuum of worlds with (M1) weights is acceptable, versus requiring countable branches. L26 makes that answer decisive.
 
+## David on (M1) and branches as geometries (2026-10-12 3:43 PM ET, relayed via Physics Lead, not signed; verbatim)
+
+> Can you explain in simple terms what M1 means? Are we saying the weight is proportional to the number of worlds? If so, that is acceptable. I do not consider that to be circular reasoning. Also, if branching coincides with different geometries in each branch, that has always been my intuition: branch A means geometry (fundamental group) A, B means B, and so on. Somehow, the local state teaches the observer something about the global state. Which seems impossible, but only because we haven’t yet figured out how to make it possible.
+
+**L23 status.** L23 is no longer a blocker in itself: weighting by counting worlds is acceptable to David.
+
+**(M1) as recorded** (v0.10.1 §11): "**(M1)** Per-vertex EPP1, the working postulate here, ruled by David at L3. It needs no named cut: it is the count at the depth-1 cut anchored at the current state, so its weights are functions of that state (Problem note 6)." EPP1 (v0.10.1 §1): "at a branch point, equal weight on each arm in force. … **EPP2**, weight by ensemble size, is kept as a foil." v0.10.1 §1: "Per-vertex equal weight is not Paper 1's count: at a named finite cut the two agree iff $\prod_{w<v}\deg(w)$ is constant on the cut."
+
+**(M1) in plain language.** (M1) says: whenever the observer reaches a branch point, each way onward gets an equal share, and a whole history's weight is the product of the shares along it. That share does not depend on how many worlds lie behind each way onward, so (M1) is **not** literally "weight proportional to the number of worlds". That rule is EPP2 ("weight by ensemble size"), which v0.10.1 keeps only as a foil; Paper 1's count of distinct evolutions at a cut is the not-adopted (M2). The two agree only in special cases: at a given cut, exactly when every history to it passed through branch points with the same product of arm counts. If David means "count the worlds", that is EPP2 or (M2), not (M1), and which one he intends is his call.
+
 ## Change log
 - 2026-10-12: created (batch 01).
 - 2026-10-12: moved to notes/creative/; charter added; TT1–TT4 rename (#335 N1); verdicts from #334/#335 applied (L3 live and ranked first; L8, L9, L7 parked); #335 R1 applied in batch-01.
@@ -91,3 +104,4 @@ Batch 07 is held pending David's measure answer: whether a continuum of worlds w
 - 2026-10-12: #347 R1–R3 and #346 repairs applied to batch-05; L20 parked; lesson L23.
 - 2026-10-12: David's 3:28 and 3:30 PM words recorded; batch 06 (L24, L25).
 - 2026-10-12: #350 strings and #349 corrections applied to batch 06; L24 parked; L25 kept as template (B1 live, B2 parked); lesson L26; batch 07 held.
+- 2026-10-12: David's 3:43 PM words recorded; (M1) quoted and explained; L23 no longer a blocker in itself; batch 07 (L27, L28).
