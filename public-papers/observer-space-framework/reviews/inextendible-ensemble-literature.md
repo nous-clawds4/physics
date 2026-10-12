@@ -194,3 +194,35 @@ Literature on #320 at `9ccbfbc`: **HOLD (narrow)**.
 - **Record:** the C24 and C25 readings are correct for v0.10 and v0.9.1.
 - **Attribution and neutrality:** clean.
 - **Guardrails:** clean.
+
+## Addendum: diff check of #320 `9ccbfbc` → `a9834ed`
+
+**Heads, re-checked before filing:**
+- #320 head `a9834ed`, open. Its commits are `9ccbfbc` and `a9834ed`.
+- main `c728695`.
+- This PR, #323, is open, at `57655bc` before this commit.
+
+**Verdict: PASS.**
+
+**Strings.** I applied every string of §6 above to `9ccbfbc` by script, together with Geometry's one amendment. The result is byte-identical to `a9834ed` (sha256 `9449fd240900…`):
+- Each OLD occurs once at `9ccbfbc`, and each NEW occurs once at `a9834ed`.
+- R1 (both strings), S1 (both), S2, S3, S4 and N1–N6 are applied exactly as written, each once.
+- Nothing else changed: the diff is 11 lines in one file.
+
+**Geometry's amendment.** The Answer's "still change at arbitrary $\tau$" now reads "still change at a continuum of times".
+- This is consistent with R1: κ-Kruskal now gives the times before a sweep of $\pi$, which are a continuum and not arbitrary. C25 gives $\rho_0/\sinh\zeta$, also a continuum.
+- It also matches §5's own "(H): yes, still, at a continuum of times".
+- The remaining instances of "arbitrary" are all correct as they stand:
+  - hole-punched hosts (§2);
+  - the cones row ("make lifetimes arbitrary", C25);
+  - the branched cover's "isolated, arbitrary instants", where $\Sigma$ can pass through any $\sigma(\tau_0)$.
+
+  No "any $\tau_0$" claim about κ-Kruskal remains outside R1's scoped sentence.
+
+**Word count.** 1,690 (str.split), as claimed.
+
+**Guardrails.**
+- The forbidden Greek letter and its TeX macro: 0 in the note and 0 in #320's PR body.
+- There is no Born, $|a|^2$ or 1/N result, no Everett-versus-Deutsch–Wallace framing, and no law of $R$.
+- The note stays "proposal for David's decision; not adopted", with N6's attribution line.
+- `papers/`, `versions/` and Paper 1 are untouched.
