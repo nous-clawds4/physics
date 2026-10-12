@@ -146,6 +146,12 @@ Hadley's 4-geons are the lead particle model for batch 10. Paper 1 contains a ge
 
 **Note.** README line 18 says 4-geons live in spacetimes that admit CTCs; Hadley 1997 requires CTCs (#362 S3).
 
+## Geon hosts: CTCs and non-time-orientability (David, 4:16 PM ET 2026-10-12, in Physics Lead's chat, relayed by Physics Lead, not signed, answering "Should worlds containing geon particles be allowed to have time loops, as Hadley requires?"; verbatim)
+
+> Yes, allow CTCs and non-time-orientability in geon hosts, as exploration only.
+
+This is the approval that relaxes #352 for geon hosts (exploration only). Also recorded in `charter.md`.
+
 ## Central hypothesis (David, 2026-10-12 4:17 PM ET, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
 
 > Hmm, maybe that’s what it means to observe a particle? A signal goes from the observer to the particle’s CTC and comes back to the observer, communicating information about the particle’s state?

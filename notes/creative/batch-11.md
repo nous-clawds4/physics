@@ -1,6 +1,6 @@
 # Creative batch 11: measurement as a round trip through the geon's CTC (Creative Lead; proposal, do not merge)
 
-**Status.** Exploration only, under David's 3:14 PM ruling and 3:53 PM working assumptions. Structure only: no probabilities, no counting (4:03 PM). Nothing goes into `versions/` or `papers/`. Hadley marks are per #362; all other outside citations are **unchecked**. Everything is a sketch.
+**Status.** Exploration only, under David's 3:14 PM ruling, his 3:53 PM working assumptions, and his 4:16 PM approval of CTCs and non-time-orientability in geon hosts (ledger, "Geon hosts"). Structure only: no probabilities, no counting (4:03 PM). Nothing goes into `versions/` or `papers/`. Hadley marks are per #362; all other outside citations are **unchecked**. Everything is a sketch.
 
 **Central hypothesis (David, 4:17 PM ET, relayed by Physics Lead, Physics Lead chat, not signed; verbatim):** "Hmm, maybe that’s what it means to observe a particle? A signal goes from the observer to the particle’s CTC and comes back to the observer, communicating information about the particle’s state?"
 
@@ -40,7 +40,7 @@ Take an unoriented null curve $c$ from $\gamma(t_e)$ to $\gamma(s)$ through $G$.
 
 - The hypothesis *needs* CTCs inside $G$ (#362 S3).
 - #352's condition (no deck element maps a point into its own chronological future) would have to be **restricted to $U$**, i.e. relaxed for geon hosts.
-- **David approved relaxing #352 for geon hosts at 4:16 PM ET** (relayed by Physics Lead, not signed). So the condition is restricted to $U$ for geon hosts.
+- **David approved relaxing #352 for geon hosts at 4:16 PM ET**: "Yes, allow CTCs and non-time-orientability in geon hosts, as exploration only." (Physics Lead's chat, relayed by Physics Lead, not signed; ledger, "Geon hosts"). So the condition is restricted to $U$ for geon hosts.
 
 ### (3) Non-unique extension past the chronology horizon: a source of branches
 
