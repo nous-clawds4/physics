@@ -1,6 +1,6 @@
 # Creative batch 03 (Creative Lead; DRAFT, local only, do not merge)
 
-**Status.** Draft, not pushed and not reviewed. Nothing adopted; no `versions/` draft touched. Charter: `notes/creative/charter.md`. Built under ledger lesson L15: a set must name which hypothesis of Prop 3.2 it breaks, and give an independent physical reason for breaking it. Otherwise it only feeds the ensemble. Literature citations below are from memory and **unchecked** (marked U).
+**Status.** Draft, not pushed and not reviewed. Nothing adopted; no `versions/` draft touched. Charter: `notes/creative/charter.md`. Built under ledger lesson L15: a set must name which hypothesis of Prop 3.2 it breaks, and give an independent physical reason for breaking it. Otherwise it only feeds the ensemble. Every outside literature citation below is from memory and marked **unchecked**.
 
 ## Prop 3.2 and its hypotheses (`papers/geodesic-lifts.md` §3)
 
@@ -19,14 +19,16 @@ The paper itself names the loophole (§3): a **star** of analytic curves meeting
 | Candidate | Breaks | Independent physical reason? | Verdict |
 |---|---|---|---|
 | Memory (state includes a recorded past) | none: the geodesic is still fixed by $(p,u)$; memory adds data, it does not remove any | n/a | **Feeds nothing.** Not a set. |
-| Memory "in between" via a third-order law (self-force) | **H2**: the law needs the acceleration, which the memoryless state does not supply | **Yes:** a body with mass or charge feels a self-force (Abraham–Lorentz–Dirac; gravitational self-force, Mino–Sasaki–Tanaka / Quinn–Wald 1997, U) | **Beats it, but gives a continuum.** Set 3. |
+| Memory "in between" via a third-order law (self-force) | **H2**: the law needs the acceleration, which the memoryless state does not supply | **Yes:** a body with mass or charge feels a self-force (Abraham–Lorentz–Dirac, unchecked; gravitational self-force, Mino–Sasaki–Tanaka / Quinn–Wald 1997, unchecked) | **Beats it, but gives a continuum.** Set 3. |
 | Lattice instead of manifold | **H3/H4**: geodesics on a graph are generically non-unique (several shortest paths) | Partly: discreteness at the smallest scale is a charter idea; the lattice choice is arbitrary | **Beats it, discretely.** Set 1. |
 | $C^k$, $k\ge2$ | none: $C^{1,1}$ already gives Lipschitz Γ, so uniqueness holds | n/a | **Feeds the ensemble** (host non-uniqueness, #332). |
-| $C^{1,\alpha}$ (below Lipschitz Γ) | **H3**: geodesics can fail to be unique (Hartman–Wintner 1951, U) | **No:** the class is chosen to break uniqueness, it runs against the charter's "k→∞" justification, and it collides with Paper 1's "smooth is not enough" lock | **Beats it, but not independently.** Parked, not a set. |
+| $C^{1,\alpha}$ (below Lipschitz Γ) | **H3**: geodesics can fail to be unique (Hartman–Wintner 1951, unchecked) | **No:** the class is chosen to break uniqueness, it runs against the charter's "k→∞" justification, and it collides with Paper 1's "smooth is not enough" lock | **Beats it, but not independently.** Parked, not a set. |
 | Gevrey / non-quasianalytic | H1 only (jet no longer fixes germ); the motion is still unique given the host | n/a | **Feeds the ensemble** (#332, #335). |
 | Equal-probability postulate | none: it weights alternatives, it does not create them | n/a | **Feeds the ensemble** (or the arms). Not a set. |
 | Follow a physically preferred direction field instead of free fall | **H2**: motion is an integral curve of a line field fixed by the jet; at degeneracy points the field is not Lipschitz or not unique | **Yes, if the field is physical**: e.g. comoving with matter (the timelike Ricci eigenvector is the fluid 4-velocity) | **Beats it at degeneracies, discretely.** Set 2. Hitting risk as in #336. |
 | Higher-dimensional observer / embedding (ant) | none, unless the ambient space is singled out (L1) | no | Parked (L1). |
+
+**Why $C^{1,\alpha}$ is not a set.** It fails the taste tests: the class is chosen precisely to break uniqueness, which is an arbitrary non-physical assumption; it cuts against the charter's k→∞ route; and it hits Paper 1's "smooth is not enough" lock.
 
 ## Set 1: "Lattice geodesics tie" (breaks H3/H4)
 
@@ -34,23 +36,23 @@ The paper itself names the loophole (§3): a **star** of analytic curves meeting
 
 **Tweak.** "manifold" → a causal network at scale ℓ; "free fall" → extremal path on the network.
 **Prop 3.2 check.** Breaks H3/H4: path extremality on a graph has no uniqueness theorem, and ties are generic on regular lattices. The branching is in the motion and is discrete.
-**Taste.** TT1: needs a Lorentzian network notion of "extremal path" (causal sets have longest chains, which are typically non-unique; U). TT2: the network type is a choice, so this is an LT2 burden unless the network is itself random or derived. TT3: discreteness at small scales is common in quantum-gravity programmes. TT4: counting tied paths is a count; it must not be used as a weight by fiat. Continuum limit: must recover the CWS singleton as ℓ→0 (the charter's k→∞ pattern).
+**Taste.** TT1: needs a Lorentzian network notion of "extremal path" (causal sets have longest chains, which are typically non-unique; unchecked). TT2: the network type is a choice, so this is an LT2 burden unless the network is itself random or derived. TT3: discreteness at small scales is common in quantum-gravity programmes. TT4: counting tied paths is a count; it must not be used as a weight by fiat. Continuum limit: must recover the CWS singleton as ℓ→0 (the charter's k→∞ pattern).
 
 ## Set 2: "Ride the matter, fork at the degeneracies" (breaks H2)
 
-**In a minute.** A real observer is made of matter and moves with it, not along an idealised free-fall line through empty space. Suppose the rule is "move with the local rest frame that the geometry itself picks out", for example the frame in which the matter is at rest. Usually that frame is unique, so the motion is predictable. At special points two candidate frames become equally good, and the rule allows a small, countable number of ways onward. That is a fork in the traveller's path, not a choice of universe. The catch: as with seams in #336, we must show a typical traveller actually reaches such points.
+**In a minute.** A real observer is made of matter and moves with it, not along an idealised free-fall line through empty space. Suppose the rule is "move with the local rest frame that the geometry itself picks out", for example the frame in which the matter is at rest. Usually that frame is unique, so the motion is predictable. At special points two candidate frames become equally good, and the rule allows a small, countable number of ways onward. That is a fork in the traveller's path, not a choice of universe. The open question is what defines that frame in empty space. A second catch: as with seams in #336, we must show a typical traveller actually reaches such points.
 
 **Tweak.** "motion" → integral curve of a geometrically preferred timelike line field (e.g. the timelike eigendirection of the Ricci tensor; in vacuum something Weyl-built would be needed), not the geodesic with given $u$.
-**Prop 3.2 check.** Breaks H2: $u$ is no longer free data but read off the jet, and uniqueness fails where the eigenvalue becomes degenerate (Segre-type change; U). Within the state's own jet, so the branching is in motion.
-**Taste.** TT1: the field must exist in vacuum, which is open. TT2: comoving with matter is physically motivated, not tuned. TT3: natural ("observers are made of stuff"). TT4: none yet. **Main risk:** degeneracy loci may be lower-dimensional and atypically hit, the #336 problem again. Also check that analytic degeneracies don't still give a unique analytic continuation.
+**Prop 3.2 check.** Breaks H2: $u$ is no longer free data but read off the jet, and uniqueness fails where the eigenvalue becomes degenerate (Segre-type change, unchecked). Within the state's own jet, so the branching is in motion.
+**Taste.** TT1: **THE open question for this set is what defines the frame in empty space** (Ricci vanishes in vacuum, so something Weyl-built would be needed). TT2: comoving with matter is physically motivated, not tuned. TT3: natural ("observers are made of stuff"). TT4: none yet. **Main risk:** degeneracy loci may be lower-dimensional and atypically hit, the #336 problem again. Also check that analytic degeneracies don't still give a unique analytic continuation.
 
 ## Set 3: "Self-force needs memory" (breaks H2; continuum)
 
 **In a minute.** Free fall assumes the traveller is a weightless point. A real body with mass disturbs spacetime and is pushed by its own disturbance, the self-force. In the simplest equations for this, knowing where you are and how fast you're moving is not enough: you also need your acceleration, a bit of your past. If the observer's state is "memoryless" (David's question), the next step is then not fixed. If the state carries some memory, it is. This is a physical reason for "something in between". The catch: the extra freedom is a continuum ("anything goes"), and physicists usually remove it with a reduction-of-order rule that restores uniqueness.
 
 **Tweak.** "motion law" → geodesic plus self-force (third-order), with the state kept at $(j_\infty,u)$.
-**Prop 3.2 check.** Breaks H2 for an independent physical reason (self-force is standard physics). But the alternatives are a 3-parameter continuum of initial accelerations, and the standard physical fix (Landau–Lifshitz-type reduction; U) reinstates uniqueness. Probably beats Prop 3.2 only by keeping runaway-type solutions, which most physicists reject.
-**Taste.** TT1: well-posed as an ODE. TT2: independent. TT3: the runaway issue is a known pathology (U). TT4: none. Ranked last: no discreteness, and the fix kills it.
+**Prop 3.2 check.** Breaks H2 for an independent physical reason (self-force is standard physics). But the alternatives are a 3-parameter continuum of initial accelerations, and the standard physical fix (Landau–Lifshitz-type reduction, unchecked) reinstates uniqueness. Probably beats Prop 3.2 only by keeping runaway-type solutions, which most physicists reject.
+**Taste.** TT1: well-posed as an ODE. TT2: independent. TT3: the runaway issue is a known pathology (unchecked). TT4: none. Ranked last: no discreteness, and the fix kills it.
 
 ---
 
