@@ -26,13 +26,21 @@
 | L12 | consistency (recycles L7) | **CL.** Consistency around $\pi_1$ loops inside the observer tube | L7; charter; CL | **Parked** (batch-02 Set 2; #338, #339): holonomy is single-valued in free fall; borrows quantisation | Discrete from $\pi_1$. High borrowed-QM hazard (#332 R4); must avoid #334's single-history objection. |
 | L13 | branch point | **CL.** Branch where the map $P(O)\to$ host stops being injective ($P(O)$ itself stays simply connected, #339 R2) | CL | **Parked** (batch-02 Set 3; #339): already killed by `papers/patch-edge.md` ("The hitchhiker story is dead at the boundary too"; Prop. 7.2 "quotients do not lengthen past the cover") | Likely only ensemble structure (#331 §0, #336). |
 | L14 | seam hitting | point-observer hits on codim-2 seams | #336 (a)–(e) | **Dead** for motion | Meagre, codim-1 in data; no focusing; walls have no sheets. Sheets (L3) reduce to host-ensemble monodromy unless L11 or #336 (f) is adopted. |
+| L16 | manifold | Lattice geodesic ties (batch-03 Set 1) | batch-03 | **Parked** (#341, #342) | Ties are two-point, not initial-value: the endpoint is a law of $R$ in disguise; diverges as ℓ→0; drops H1; tie counts as weights = count by fiat. Reopens the geodesic-lifts lock (David's call). |
+| L17 | motion law | Ride the matter, fork at degeneracies (batch-03 Set 2) | batch-03 | **Parked** (#341, #342 R2) | Continuum at degeneracies, not discrete; frame undefined in vacuum; degeneracies rarely hit. Reopens the lock (David's call). |
+| L18 | motion law | Self-force needs memory (batch-03 Set 3) | batch-03 | **Parked** (#341, #342 R1) | Third order only for charge; for mass a past-path tail (Quinn–Wald); reduction of order restores uniqueness. Reopens the lock (David's call). |
 
 ## Lesson L15 (after batches 01–02)
 
 Every set so far fails the same way. Free-fall continuation is unique (`papers/geodesic-lifts.md` Prop 3.2; no monodromy along a single path, #331 §0, #332 R2). So the "branching" each set finds turns out to be **which host we are in** (the ensemble $E(O)$), not the motion. Rule for batch 03 onward: a set must name which hypothesis of Prop 3.2 it breaks and give an independent physical reason for breaking it. Otherwise it only feeds the ensemble.
+
+## Summary after batches 01–03 (plain language)
+
+Nine sets in, the lesson is the same every time. As long as the world is analytic and observers follow geodesics (Prop 3.2 / Cor 3.1 in `papers/geodesic-lifts.md`), a traveller's path never forks. Every apparent branching we found (seams, tubes, handles, patch edges, loops) turned out to be about which host world we are in, not about the motion. The only routes to a genuinely forking path break that starting point: a different motion law, a non-manifold world, or a law whose paths are not analytic curves (escaping via H5, which dodges Cor 3.1). Each of these reopens the lock "W is real-analytic; observers follow geodesics", so the high-level question for David is whether to reopen it, and if so, which part.
 
 ## Change log
 - 2026-10-12: created (batch 01).
 - 2026-10-12: moved to notes/creative/; charter added; TT1–TT4 rename (#335 N1); verdicts from #334/#335 applied (L3 live and ranked first; L8, L9, L7 parked); #335 R1 applied in batch-01.
 - 2026-10-12: batch 02 after #336: L11–L14 added; L7 open for recycling; L3 note per #336.
 - 2026-10-12: batch-02 verdicts (#338, #339): L11–L13 parked; lesson L15 added.
+- 2026-10-12: batch-03 verdicts (#341, #342): L16–L18 parked; summary after batches 01–03 added.
