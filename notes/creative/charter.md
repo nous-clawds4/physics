@@ -83,3 +83,7 @@ Caveat: no in/out S-matrix is assumed; the model is classical. Where the geon fo
 > Keeping our measurement model classical is exactly the right thing. Our expectation (and hope) is that quantum statistics follows inevitability [read: inevitably; Lead editorial gloss] from a picture that is fundamentally classical at the deeper level. No need for us to inject it by hand, which is what Hawking did.
 
 **Guiding constraint for future batches:** the measurement model stays classical; no quantum statistics is injected by hand.
+
+## Addendum: signal and record (David, 7:45 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> Should we delve into the details of what constitutes the signal and how it gets recorded? If the observer is going to record data, then it needs to be physical, which means encoded into spacetime itself. Perhaps some sort of ledger composed of particles of nontrivial topology that is distinct from the observer but travels in close proximity?
