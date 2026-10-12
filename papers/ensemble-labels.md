@@ -78,7 +78,7 @@ as in Definition 2, for each $O'\in\mathrm{Obs}$. This is an assignment of a set
 
 3. *(The fiber can jump off the curvelet.)* $E_{\mathrm{pt}}(O')$ for $O'$ not on $\gamma_O$ is a different set. A spacetime that contains the germ $O$ need not contain a neighbouring germ off the curvelet. So the assignment $O'\mapsto E_{\mathrm{pt}}(O')$ can jump as $O'$ moves in $\mathrm{Obs}$, even while $E_\gamma(O)$ is constant along $\gamma_O$. These are not the same object.
 
-**Proof of (1).** $P(O)$ is a neighbourhood of the whole short geodesic $\sigma_O$ (Prop. 3.2). An occurrence $\iota$ embeds a neighbourhood of $p$ isometrically into $W$; analytic continuation along $\sigma_O$ inside $P(O)$ is unique, so $\iota$ extends along that segment and $W$ contains every $O_\tau$. Labels of $W$ do not depend on $\tau$. $\square$
+**Proof of (1).** $P(O)$ is a neighbourhood of the whole short geodesic $\sigma_O$ (Prop. 3.2). An occurrence $\iota$ embeds a neighbourhood of $p$ isometrically into $W$; analytic continuation along $\sigma_O$ inside $P(O)$ is unique, so $\iota$ extends along that segment for as long as the $W$-geodesic from $\iota(p)$ with initial velocity $\iota_*u$ is defined, and $W$ contains $O_\tau$ for every such $\tau$. Labels of $W$ do not depend on $\tau$. $\square$
 
 **Proof of (2).** $\pi_1(W)$, diffeomorphism type, and $M(W,O)$ take values in discrete spaces (groups up to isomorphism, integers, combinatorial types). A continuous family of such labels that actually changes must jump. $\square$
 
