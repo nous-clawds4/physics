@@ -2,6 +2,22 @@
 
 **Status.** Exploration only, under David's 3:14 PM ET ruling and his 3:53 PM ET working assumptions (relayed by Physics Lead, Physics Lead chat, not signed). Nothing goes into `versions/` or `papers/`. **Label: conjecture: count gives Born (to be derived, not assumed).** It is kept separate from (M1), which is unchanged at L3. Code: `notes/creative/batch-09/shares.py`; output: `notes/creative/batch-09/results.txt`. The model is a simplified sketch (below). Numbers are exact counts within it; the general claims are proof sketches.
 
+## Verdicts (Literature #358, Geometry #359)
+
+**Literature #358: PASS.**
+- $\mathbb Z^n$ has $\sim N^n$ subgroups of index $\le N$, and the record-consistent ones grow like $N^{n-1}$.
+- The first escape route (free and surface groups) probably fails (Nica 1994).
+- Optional context: the 0/1 result is the known natural-density and youngness pattern (Guth; Tegmark 2005; Bousso–Freivogel–Yang 2008).
+
+**Geometry #359: results reproduced byte-identically.**
+- **Model.** First arrivals lose nothing for a static observer. But expansion is untested, and crystal rotations are not quotiented.
+- **Full-rank claim, stated precisely.** For $n\le3$, an exact-vector record fixes Γ once τ reaches the largest of Γ's $n$ successive minima. This fails for arbitrary independent vectors, and for records of return times only (because of rotations).
+- **Certainty is not one world.** Share 1 also appears before full rank: in $\mathbb Z^3$ at rank 2 there are 9, 19, 29 worlds.
+- **L31 needs more.** Convergence, and independence from the cutoff family.
+- **Sketch.** Non-abelian and hyperbolic cases stay degenerate under an index cutoff (Nica; Magee–Puder). So the degeneracy is generic, not a $\mathbb Z^n$ artefact.
+
+**Status.** The probability and counting line is **parked** (David, 4:03 PM ET; ledger). L30 and L31 stand as results. The planned non-abelian count (old batch 10) is cancelled.
+
 ## For David (one minute)
 
 We asked: given the echoes the observer has heard so far, what share of the matching worlds predicts each possible next echo? We counted the worlds exactly on a computer for the simplest crystal universes, 2D and 3D grids. The answer is disappointing but clear. Before the observer has heard enough echoes to pin down every direction of the universe's repeat, almost all matching worlds say "no new echo yet". That share climbs to 100% as more and more worlds are included, so the count never predicts an echo. Once the echoes do pin down every direction, the matching worlds collapse to exactly one, and the next echo is certain. So the count only ever gives "0% or 100%", never an in-between share like a quantum probability. Different ways of listing the worlds (by size, by width, by how simply they're described) agree, but only because they all give this trivial answer. Born-like structure does not appear here.
