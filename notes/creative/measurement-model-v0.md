@@ -53,12 +53,12 @@ Free fall stays perfectly predictable inside each possible world. The branching 
 
 **Misner space.**
 - Within each extension, survival is fixed by the geodesic's own data. It is determined, not a fork (Geometry's computation, #367; not a verified source).
-- Geodesics through the boost's fixed point are incomplete in both extensions and in **every** union. The non-Hausdorff union of the two extensions is **not complete**: it covers only the full $(\mathbb R^2\setminus\{0\})/B$, apart from those geodesics, which form a meagre set (topological; no measure adopted). (#367; resolution by Literature via Physics Lead; ledger.)
+- Geodesics through the boost's fixed point are incomplete in both extensions and in **every** union (closed, nowhere dense, measure zero). The **two-extension** non-Hausdorff union is **not complete**: generic geodesics entering a CTC region hit its second horizon. Only the full quotient $(\mathbb R^2\setminus\{0\})/B$ is complete modulo the fixed-point geodesics (#367; #375, `reviews/misner-union-completeness-geometry-literature.md`).
 
 **Taub–NUT.**
 - Non-isometric maximal extensions exist (Chruściel–Isenberg 1993, V-meta, abstract only, per #332/#368). The abstract also notes that many familiar extensions are isometric.
 - The dichotomy and the imprisoned geodesics are unverified (Misner–Taub 1969).
-- The completeness result for the Taub–NUT union is Hájíček 1971 (Literature via Physics Lead; unchecked here).
+- Taub–NUT's complete non-Hausdorff maximal extension has no such fixed point (#375). The completeness result is Hájíček 1971 (Literature via Physics Lead; unchecked here).
 
 **General.**
 - Non-unique extension is the general Cauchy-horizon fact (#371).
@@ -123,4 +123,4 @@ All are relayed and none is signed. The attribution is quoted exactly as the led
 10. **Hadley survival:** unanalysed for Hadley hosts (L42).
 11. **Framing hazards:** keep clear of Everett-style branching (#332 N1; Sebens–Carroll flagged in #350). The non-Hausdorff union is a low-priority note only (#367): the Misner union forks no single geodesic; under the lock the branches share germs along the path (#367).
 12. **Prior art:** Belnap 1992 (outcomes as classes of not-yet-split histories). Also Hájíček 1971, McCabe 2005, Earman 2008, Placek–Belnap / Müller (#368, #371).
-13. **Resolved: #367 vs #371** (Literature via Physics Lead; ledger). #367 is right. Misner fixed-point geodesics are incomplete in every union, so the union of the two extensions is not complete; it covers only the full $(\mathbb R^2\setminus\{0\})/B$, apart from those geodesics. The Taub–NUT completeness result is Hájíček 1971. §2.5 is split by spacetime accordingly.
+13. Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, geodesics through the boost's fixed point are incomplete in both extensions and in every union (closed, nowhere dense, measure zero). The two-extension non-Hausdorff union is not complete: generic geodesics entering a CTC region hit its second horizon. Only the full quotient (R^2\{0})/B is complete modulo the fixed-point geodesics. Taub-NUT's complete non-Hausdorff maximal extension has no such fixed point. (PR #375.)

@@ -179,7 +179,7 @@ Caveat: the return lands beyond the observer's Cauchy horizon, so no unitary in/
 
 ## Taub–NUT/Misner union (resolution, Literature via Physics Lead)
 
-#367 is right: Misner fixed-point geodesics are incomplete in every union. The union of the two extensions is not complete; it covers only the full $(\mathbb R^2\setminus\{0\})/B$, apart from those geodesics. The Taub–NUT completeness result is Hájíček 1971. Resolves the #367 vs #371 conflict (measurement-model-v0 open problem 13).
+Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, geodesics through the boost's fixed point are incomplete in both extensions and in every union (closed, nowhere dense, measure zero). The two-extension non-Hausdorff union is not complete: generic geodesics entering a CTC region hit its second horizon. Only the full quotient (R^2\{0})/B is complete modulo the fixed-point geodesics. Taub-NUT's complete non-Hausdorff maximal extension has no such fixed point. (PR #375.) Taub–NUT completeness result: Hájíček 1971. Resolves the #367 vs #371 conflict (measurement-model-v0 open problem 13).
 
 ## Change log
 - 2026-10-12: created (batch 01).
@@ -207,3 +207,4 @@ Caveat: the return lands beyond the observer's Cauchy horizon, so no unitary in/
 - 2026-10-12: David's 4:28 PM words (ledger, charter); batch 13 (L41, L42).
 - 2026-10-12: #371 S1–S6 and #370 verdicts applied to batch 13.
 - 2026-10-12: David's 4:37 PM naming ruling (paraphrased by Physics Lead); #367/#371 union conflict resolved (Literature via Physics Lead; Hájíček 1971).
+- 2026-10-12: open problem 13 replaced verbatim per PR #375.
