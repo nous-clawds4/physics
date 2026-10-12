@@ -38,9 +38,20 @@ Every set so far fails the same way. Free-fall continuation is unique (`papers/g
 
 Nine sets in, the lesson is the same every time. As long as the world is analytic and observers follow geodesics (Prop 3.2 / Cor 3.1 in `papers/geodesic-lifts.md`), a traveller's path never forks. Every apparent branching we found (seams, tubes, handles, patch edges, loops) turned out to be about which host world we are in, not about the motion. The only routes to a genuinely forking path break that starting point: a different motion law, a non-manifold world, or a law whose paths are not analytic curves (escaping via H5, which dodges Cor 3.1). Each of these reopens the lock "W is real-analytic; observers follow geodesics", so the high-level question for David is whether to reopen it, and if so, which part.
 
+## Ruling (David Strayhorn, 2026-10-12 3:14 PM ET, relayed via Physics Lead, not signed)
+
+> Yes, Creative Lead may propose ideas that relax the analytic/geodesic lock, as exploration only.
+
+Recorded in `notes/creative/charter.md` (addendum). Batch 04 is the first batch run under it.
+
+## Lesson L19 (batch 04)
+
+No set survived the rules once the lock was relaxed (see `batch-04.md`). Two failure modes recur. (i) When ODE uniqueness breaks for a physical reason, the alternatives form a continuum (Peano-type non-uniqueness, free data on a null surface, extensions past a Cauchy horizon in $C^\infty$). (ii) Where the alternatives are discrete (sheets, eigen-frames, branch counts), the branch locus has codimension ≥2 and is rarely hit (#336, #341), or the alternatives disappear rather than fork. The analytic/geodesic lock was not the only barrier.
+
 ## Change log
 - 2026-10-12: created (batch 01).
 - 2026-10-12: moved to notes/creative/; charter added; TT1–TT4 rename (#335 N1); verdicts from #334/#335 applied (L3 live and ranked first; L8, L9, L7 parked); #335 R1 applied in batch-01.
 - 2026-10-12: batch 02 after #336: L11–L14 added; L7 open for recycling; L3 note per #336.
 - 2026-10-12: batch-02 verdicts (#338, #339): L11–L13 parked; lesson L15 added.
 - 2026-10-12: batch-03 verdicts (#341, #342): L16–L18 parked; summary after batches 01–03 added.
+- 2026-10-12: David's 3:14 PM ruling recorded; batch 04 drafted, all candidates dropped; lesson L19.
