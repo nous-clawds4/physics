@@ -1,6 +1,6 @@
 # Creative batch 08: L28 toward rigour (Creative Lead; proposal, do not merge)
 
-**Status.** Exploration only, under David's 3:14 PM ET ruling and his 3:53 PM ET **working assumptions** (ledger; relayed, not signed): memory of received signals is allowed, and splitting with identical patches is allowed. These are not changes to the paper; nothing goes into `versions/` or `papers/`. Lead set: L28 (batch 07 Set 2). Citations are **unchecked** unless marked V-text/V-meta per #353. Every result here is a **proof sketch**, not a proof, unless it says otherwise.
+**Status.** Exploration only, under David's 3:14 PM ET ruling and his 3:53 PM ET **working assumptions** (ledger; relayed by Physics Lead, Physics Lead chat, not signed): memory of received signals is allowed, and splitting with identical patches is allowed. These are not changes to the paper; nothing goes into `versions/` or `papers/`. Lead set: L28 (batch 07 Set 2). Citations are **unchecked** unless marked V-text/V-meta per #353. Every result here is a **proof sketch**, not a proof, unless it says otherwise.
 
 ## For David (one minute)
 
@@ -54,10 +54,10 @@ The observer keeps a diary of its own light coming back to it around the univers
 
 - **The raw count is infinite.** For a crystal cover, any finite record is consistent with **infinitely many** finite-index Γ: their short elements match the record, and their long elements are unconstrained. So the naive $N_b(\tau)$ is infinite for every branch.
 - **How the worlds become countable *and* finitely counted.**
-  - Order hosts by index $[G:\Gamma]$, which is proportional to spatial volume: a geometric quantity, not a free label.
+  - Order hosts by index $[G:\Gamma]$, which is proportional to spatial volume: a geometric quantity, but choosing to list by it is itself a weight choice unless the limit is shown to be exhaustion-independent (a known order-dependence: natural density; cf. the eternal-inflation measure problem).
   - Count $N_b(\tau;n)=\#\{\Gamma:[G:\Gamma]\le n,\ \rho_\Gamma(\tau)=\rho_b\}$, which is finite for each $n$.
   - Take the branch share $f_b(\tau)=\lim_{n\to\infty}N_b(\tau;n)/\sum_{b'}N_{b'}(\tau;n)$, if it exists. That subgroups of finite index are finitely many for each $n$ is standard subgroup-growth theory (Lubotzky–Segal, unchecked).
-- **What would make the count inevitable (standing rule).** The same $f_b$ must come out of *every* natural exhaustion: by index, by volume, by systole, by word length. If it does, ordering by volume is not a choice. If the limits differ, the ordering is a measure by fiat, and that is the L23 hazard.
+- **What would make the count inevitable (standing rule).** The same $f_b$ must come out of *every* natural exhaustion: by index (equivalently volume, for crystal covers) and by word length; systole is not an exhaustion, since infinitely many finite-index $\Gamma$ share a given short loop. If it does, ordering by volume is not a choice. If the limits differ, the ordering is a measure by fiat, and that is the L23 hazard.
 - **No result claimed.** No weights are computed, and no Born or $|a|^2$ claim is made. Whether $f_b$ has anything to do with quantum weights is the conjecture, and nothing here supports it yet.
 
 ## (e) The flat-case continuum of return times
@@ -71,6 +71,26 @@ The observer keeps a diary of its own light coming back to it around the univers
 - **What happens.** In a host with accelerated expansion (dS-like at late times), the observer has an event horizon. Self-signals return only around loops shorter than the horizon scale, so the cumulative record is **finite, possibly empty** (sketch; unchecked for specific models).
 - **Reading.** It is a host with few or no splits: the compatible set stops splitting, and nothing contradicts the framework, since branching was never guaranteed. It does **not** restrict the theory to non-accelerating hosts.
 - **Cost, stated honestly.** Our universe appears to accelerate, and large-scale topology is observationally constrained (Planck 2015 XVIII, V-text per #353; Cornish–Spergel–Starkman 1998, V-text per #353). So for *cosmic* handles this mechanism may be empty in practice. It is live mainly for the charter's **microscopic** handles at scale $\ell$, where returns take time of order $\ell$ and repeat many times even under acceleration. That pushes the story toward the micro-topology picture, with costs not yet assessed: a test beacon at scale $\ell$, and records of very frequent events.
+
+## Corrections (Geometry #355)
+
+- **(a, b) Well-posedness.**
+  - Well-posed only with a beacon or body, and with records kept as exact reals.
+  - Records are **continuous arrival curves** $t_e\mapsto s_g(t_e)$, one per deck element $g$, not discrete events.
+  - The split at $	au^*$ needs the beacon to switch on at a definite time.
+  - The isotropy-angle gauge is valid but lossy.
+- **(c) Countability: confirmed.**
+  - The pointed subgroup count is the right object. It differs from the conjugacy count for non-abelian groups.
+  - Distinct subgroups give distinct *full* records, but the partition at a finite time is coarser.
+  - "Pinned by germ" is unverified.
+- **(d) Degeneracy.**
+  - For $\mathbb Z^3$ crystals, the subgroups of index $\le N$ grow like $N^3$, but those containing a given element grow only like $N^2$.
+  - So under an index or volume cutoff, at each fixed time, the "no echo yet" share is 1 and every other share is 0.
+  - A systole cutoff gives no finite sets. Diameter is likely the same (unverified). Word length is ill-posed until generators are named.
+- **Which ensemble is counted.** $E_{\mathcal W}(O)$ is the set of pointed worlds $(M,p)$ whose point is an occurrence of $O$; $E_M(O)$ is the corresponding collection of manifolds (v0.10.1 §4). The count here is over pointed subgroups, i.e. $E_{\mathcal W}$, not $E_M$.
+- **(e) and (f): agreed.** The microscopic-handle escape in (f) hits the same degeneracy, and it needs a beacon at scale $\ell$.
+
+**Lesson L30.** Under natural cutoffs, counting worlds in crystal covers gives the "no echo yet" branch share 1 (degenerate).
 
 ## Costs (carried)
 
