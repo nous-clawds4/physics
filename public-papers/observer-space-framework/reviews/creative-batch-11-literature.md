@@ -39,7 +39,7 @@ So any import of them into L36 would bring quantum structure and a selection rul
 
 S1. `notes/creative/batch-11.md`
 - OLD: `(Friedman–Morris and Friedman et al. 1990; unchecked)`
-- NEW: `(Friedman et al., PRD 42 (1990) 1915: for wormhole spacetimes self-consistency appears to place no constraints on the data, "benign", an existence statement; uniqueness for linear fields on a restricted class is Friedman & Morris, PRL 66 (1991) 401 and CMP 186 (1997) 495; V-text/V-meta per #364)`
+- NEW: `(Friedman et al., PRD 42 (1990) 1915: for wormhole spacetimes self-consistency appears to place no constraints on the data, "benign", an existence statement; uniqueness for linear fields on a restricted class is Friedman & Morris, PRL 66 (1991) 401 and CMP 186 (1997) 495; V-text/V-meta per #365)`
 
 S2. `notes/creative/batch-11.md`
 - OLD: `several self-consistent trajectories for the same initial data`
