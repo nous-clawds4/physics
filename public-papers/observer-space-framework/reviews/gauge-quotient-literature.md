@@ -206,3 +206,19 @@ Literature on #324 at `f7335fd`: **HOLD (narrow)**.
 - **(d)** right in substance; the literature supports singular orbit-type strata at symmetric germs, but it is not an orbifold where the isotropy is $O(3)$ or $O(2)$ (S1).
 - **R1:** Paper 1's "not the same lump" concerns non-simply-connected relative-ensemble patches, not gauge; no tension.
 - **Attribution and guardrails:** clean.
+
+## Addendum (2026-10-12): diff check of #324, `f7335fd..f216a3e`
+
+**Verdict: PASS.** I checked only the diff, which touches one file, `notes/gauge-quotient.md` (8 lines added, 8 removed).
+
+- **Strings.** A script replayed all nine §7 OLD→NEW pairs on `f7335fd`. Each OLD occurred once, and eight NEW strings appear verbatim once at `f216a3e`. The ninth (N4, the #320 pointer) was extended on purpose; see addition 3. Apart from the three additions below, the replayed text is identical to `f216a3e`, so nothing else changed.
+- **Addition 1 (R2, #315 sentence).** The quote of #301's (T0) row, "The history ends at its accumulation; no limit is asked for", is byte-exact and occurs once in `notes/topology-decision-brief.md`. Saying that deciding (T3) "removes an item #315 keeps on record for later" matches #315's "stay on record for later". "Changes no Zeno outcome" goes slightly beyond #301, which shows this only for its worked example. The general statement still holds: under (T0) no limit is asked for, so the identification of the limit germ never enters. Accurate, and it picks no option.
+- **Addition 2 (S1 analogues).** Palais 1961, Bourguignon 1975 and Fischer–Marsden–Moncrief 1980 are each marked "text checked", and all three are V-text in §4 of this review. The bibliographic data match. The V-meta sources (Duistermaat–Kolk, Pflaum, Ebin, Satake) are not cited, so none is mislabelled. "None about pointed analytic jets" keeps the analogue caveat.
+- **Addition 3 (#320 pointer).** "Adopted by David at L3, 11:54 PM ET on 2026-10-11, relayed, not signed; #328" matches the Status line of `notes/inextendible-ensemble.md` on main: "**adopted at L3** … (David, 11:54 PM ET on 2026-10-11 … relayed, not signed)".
+- **Words.** 1,757, as claimed.
+- **Guardrails.** Clean:
+  - The forbidden Greek letter and its TeX macro: 0.
+  - No Born, $|a|^2$ or $1/N$ result, and no Everett-versus-Deutsch–Wallace framing.
+  - (T3) is still flagged for David, not picked.
+  - No pick on (T0)–(T4), (M1) or (A).
+  - `papers/`, `versions/` and Paper 1 are untouched.
