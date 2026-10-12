@@ -36,7 +36,8 @@
 | L25 | analytic (seam) + observer extent | **Sheets typicality (batch-06 B):** point observers: hitting dense and meagre (missing residual); observers of extent $\sim\ell$: hitting open dense | batch-06; #336 (a),(d),(f); L11 | **Template** (#349, #350): B1 live as template (dense but meagre, KMS analogue); B2 parked (#336 (f) costs; jet/patch lock); B2 radius thresholds per #349: $\ge\ell/\sqrt2$ always hits, $\ell/2$–$\ell/\sqrt2$ in strips, $<\ell/2$ missing open | Topological, no measure. B1's density claim is a sketch; B2 owes #336 (f) C1–C3, and the fork is which torn piece is the observer (law-of-R risk, L23). |
 
 | L27 | topology (static) | **Symmetry bound (batch-07 Set 1):** the germ fixes the cover $\tilde M$; $\pi_1$ must be a free, proper, non-timelike discrete subgroup of $\mathrm{Isom}(\tilde M)$ | batch-07; Theorems A–B; Prop 7.2 | **Awaiting final verdict** (#352, #353; pending David) | Constrains without fixing. Multiplicity only on symmetric covers; countable for finite-volume hyperbolic quotients (Mostow), continuum if flat or infinite-volume; no split by itself. #352: countable only for cocompact hyperbolic, dim ≥3 (Mostow/Prasad); 'generic' topological only. Known (#353): Clifford–Klein, Wolf. |
-| L28 | observer state (memory) | **Self-signal return (batch-07 Set 2):** the observer's own light returns around a handle at a proper time $\tau_\Gamma$ fixed by the geometry, splitting the compatible set by $\pi_1$ | batch-07; creative-tweaks (the ant's trail) | **Awaiting final verdict** (#352, #353; pending David) | Escapes the nested-prefix and identical-state traps only by adding a record (memory) to the state; needs an emitting body; ensemble narrowing, not motion; under (M1) the shares per arm are equal, not ∝ number of worlds. #352: genuine split (learning which world, not motion); countable, not necessarily finite; lock and split-rule questions are David's call. Known in spirit (#353): Ellis small universe, CSS observer copies. |
+| L28 | observer state (memory) | **Self-signal return (batch-07 Set 2):** the observer's own light returns around a handle at a proper time $\tau_\Gamma$ fixed by the geometry, splitting the compatible set by $\pi_1$ | batch-07; creative-tweaks (the ant's trail) | **Lead set** (David 3:53 PM; awaiting final verdict, #352, #353) | Escapes the nested-prefix and identical-state traps only by adding a record (memory) to the state; needs an emitting body; ensemble narrowing, not motion; under (M1) the shares per arm are equal, not ∝ number of worlds. #352: genuine split (learning which world, not motion); countable, not necessarily finite; lock and split-rule questions are David's call. Known in spirit (#353): Ellis small universe, CSS observer copies. |
+| L29 | observer state + split rule | **L28 developed (batch-08):** memory-augmented state $(O,\rho)$ with self-signal records; split rule by records; finite partition at each $\tau$ and countable cumulatively for crystal covers; counting by index exhaustion (conjecture: count gives Born (to be derived, not assumed)) | batch-08; L28; #352, #353 | **Proposed** | Sketches only. Needs crystal covers; count needs exhaustion-independence; flat stays a continuum; accelerating hosts few or no splits; conflicts with Paper 1's $\sim$ (working assumption 2). |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -103,6 +104,15 @@ Batch 07 is held pending David's measure answer: whether a continuum of worlds w
 
 Any creative set that uses counting worlds must (i) carry the label "conjecture: count gives Born (to be derived, not assumed)"; (ii) state what would make the count inevitable; and (iii) state how the worlds become countable. (M1) is unchanged at L3, and counting is never presented as (M1).
 
+## Working assumptions for exploration (David Strayhorn, 2026-10-12 3:53 PM ET, relayed via Physics Lead, not signed; verbatim; not changes to the paper)
+
+1. "Memory: yes, let’s run with that. But we will need eventually to consider how the memory is stored - is it part of the state itself? - but for now let’s just say yes, it can remember received signals."
+2. (On splitting with identical patches) "Again, let’s say yes and see where that takes us."
+
+**Open item.** How memory is stored (is it part of the state itself?).
+
+**Lead reading (Physics Lead).** Learning which world is acceptable, per David's 3:19 framing. L28 is the lead set; batch 08 develops it (L29).
+
 ## Change log
 - 2026-10-12: created (batch 01).
 - 2026-10-12: moved to notes/creative/; charter added; TT1–TT4 rename (#335 N1); verdicts from #334/#335 applied (L3 live and ranked first; L8, L9, L7 parked); #335 R1 applied in batch-01.
@@ -116,3 +126,4 @@ Any creative set that uses counting worlds must (i) carry the label "conjecture:
 - 2026-10-12: #350 strings and #349 corrections applied to batch 06; L24 parked; L25 kept as template (B1 live, B2 parked); lesson L26; batch 07 held.
 - 2026-10-12: David's 3:43 PM words recorded; (M1) quoted and explained; L23 no longer a blocker in itself; batch 07 (L27, L28).
 - 2026-10-12: #353 S1–S4 and #352 repairs applied to batch 07; L23 pending David; L27/L28 awaiting final verdict; David's 3:47 PM words, Lead reading, counting standing rule; Items for David.
+- 2026-10-12: David's 3:53 PM working assumptions recorded; memory-storage open item; L28 lead set; batch 08 (L29).
