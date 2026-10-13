@@ -116,7 +116,7 @@
 
 ## (5) Compatibility and tensions
 
-- **Analytic lock.** No tension in the definitions: f is a description of a world, not part of its dynamics, and need not be analytic. Unique continuation still applies to each world. Note that the lock makes a world's microstructure fixed by its data near any point, so (M-a) is in principle decidable locally.
+- **Analytic lock.** No tension in the definitions: f is a description of a world, not part of its dynamics, and need not be analytic. Unique continuation still applies to each world. The lock fixes the local metric, but **not** the topology: π₁ and the micro-handles are global extension data (see Germ and global data below), so (M-a) is *not* decidable from local data alone.
 - **Microscopic handles** (batches 14–16, the #399 diary): compatible when the handle size is < ℓ. They are then collapsed by (C2) and survive only in (M-a)/(M-b). This is the setting David describes.
 - **Flat cylinder and the two-slit toys** (#401–#409): **tension.** There the wrap L was at slit or route scale, i.e. macroscopic. Under the LEA that is condition 2: the toys are *outside* the LEA. The two-slit program put the topology at the scale of the routes; David's LEA puts it at the microscopic scale. With this toy, the pause is consistent.
 - **Misner, Taub–NUT and offset-mouth CTC hosts** (#385, #398, #408): condition 3 fails wherever the CTC region meets U. The LEA applies only to regions U that exclude chronology-violating sets, or where the CTC structure is microscopic and collapsed. Whether a microscopic CTC can be collapsed consistently with (C3) is **open**.
@@ -124,6 +124,17 @@
 - **#399's 'world'**, a full spacetime with its matter and records: compatible. The LEA uses only U ⊂ M_w and the shared record (for anchoring).
   - It **helps** with #399's uncountability: the detection events partition the worlds into finitely many classes [d_i].
   - It does **not** supply a measure on worlds. That stays open, and (M1) is untouched.
+
+
+## Germ and global data (analytic lock)
+
+- **(a) Germ.** The germ of world w at a point p is the equivalence class of (M_w, g_w) on neighbourhoods of p, where two are equivalent if they agree on some neighbourhood. Under the analytic lock, g_w is real-analytic.
+- **(b) What the lock gives.** Along any curve from p, the analytic continuation of the metric is unique as long as it exists. So the germ fixes the metric locally, and fixes it along each continuation path.
+- **(c) What it does not give.** Analytic extensions are not unique as manifolds. Misner/Taub–NUT have inequivalent analytic extensions (#371, per Literature), and continuation along homotopically different paths need not close up into one manifold. So **the germ fixes the local metric, while π₁ and the micro-handles are global extension data that can differ between worlds with the same germ.**
+
+Consequences for the LEA:
+- Two worlds can agree near the emitter, and so share the anchor (§2), while differing in their microstructure elsewhere in U. This is exactly the case in which the optional criteria (M-a)/(M-b) matter.
+- (M-a) must be evaluated on each world's global data in U, not inferred from a germ.
 
 ## (6) The emitter–detector question, stated
 
@@ -150,6 +161,7 @@
 
 ## Open items
 
+0. Which global extension data (π₁, micro-handles) are admissible for a given germ: a classification, open.
 1. A Lorentzian rigidity statement for (C1)–(C3), the analogue of Hyers–Ulam.
 2. The choice of averaging convention, and a test of condition 4 on a host.
 3. Whether microscopic CTCs can be collapsed consistently with (C3).

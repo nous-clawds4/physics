@@ -119,7 +119,7 @@
 | L110 | uniqueness / anchoring | **Batch 26:** f is fixed modulo Poincaré up to O(εR + ℓ) (Hyers–Ulam-type, unchecked; Lorentzian version assumed); emitter anchoring is insufficient (lever arm); lab anchoring (least squares on the shared macroscopic lab bodies from the record) chosen | batch-26 | **definition** | Lorentzian rigidity open |
 | L111 | identification of d_i | **Batch 26:** base: Hausdorff distance of images ≤ τ, with εR + ℓ + δ_P ≲ τ ≪ Δ; optional (M-a) microtopology, (M-b) ledger content, (M-c) coarse matter; two patches with one image separated by > Cℓ → f not admissible (LEA ill-posed there) | batch-26 | **definition** | |
 | L112 | LEA well-posedness | **Batch 26:** ill-posed if: no scale separation; macroscopic topology in U; no time function in U (CTCs); averaging-convention dependence > τ; anchors not shared; detectors closer than τ or near ∂U (an energy-window failure defeats the purpose) | batch-26 | **audit** | |
-| L113 | LEA compatibility | **Batch 26:** analytic lock OK; microscopic handles and the #399 diary OK; the two-slit cylinder toys are outside the LEA (macroscopic wrap): tension, consistent with the pause; CTC hosts are ill-posed where the CTC region meets U; #399 worlds OK, and the LEA gives a finite event partition but no measure | batch-26 | **flags** | |
+| L113 | LEA compatibility | **Batch 26:** analytic lock OK; microscopic handles and the #399 diary OK; the two-slit cylinder toys are outside the LEA (macroscopic wrap): tension, consistent with the pause; CTC hosts are ill-posed where the CTC region meets U; #399 worlds OK, and the LEA gives a finite event partition but no measure | batch-26 | **flags** | the analytic lock fixes the local metric (the germ), but π₁ and micro-handles are global extension data that can differ between worlds with the same germ (Misner/Taub–NUT, #371) |
 | L114 | emitter–detector statement | **Batch 26:** W_i = worlds compatible with the record in which the classical worldline γ_w first enters a member of [d_i]; the question is μ(W_i)/μ(W_j) for an independently specified μ (open); no probability computed; (M1) untouched | batch-26 [A] | **statement** | μ open |
 
 ## Lesson L15 (after batches 01–02)
@@ -374,3 +374,4 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-13: batch 25 Geometry F1–F6 applied; 17% correction; extended-source scan (L107) confirms Set 7 at L0.
 - 2026-10-13: batch 25 Geometry F7–F10 applied; L107 aligned.
 - 2026-10-13: batch 26 (L108–L114): LEA theory note; David's 4:55 PM direction recorded as a paraphrase; two-slit paused; Set 2 and Sets 3/5 on hold.
+- 2026-10-13: batch 26 germ section added (the germ fixes the local metric, not π₁); the L113 flag corrected.
