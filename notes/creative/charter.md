@@ -119,3 +119,7 @@ Status note (batch 21 reviews): Set A Lemma A stands (normalised min/max bound);
 > Let's have creative lead model the returning echoes.
 
 Status note (batch 22 reviews): after the pre-launch fix the echoes give a weak converging lens (~L^−1.3, weak v dependence), no bands; Lemma A holds for kick-only slits, and conducting walls are open. The 9:10 AM words stay labelled relayed, not signed.
+
+## Addendum: step back (David, 9:36 AM ET 2026-10-13, relayed by Physics Lead, Physics Lead chat, not signed (widget answer); verbatim)
+
+> Step back: have Creative Lead propose new idea sets for where interference could come from.

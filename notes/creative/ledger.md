@@ -96,6 +96,14 @@
 | L87 | scaling | **Batch 22:** \|δ\| ∝ ~L^−1.3 (2.91, 1.24, 0.50 for L=1.25, 2.5, 5), weak v dependence (1.38 vs 1.24 for v=0.3, 0.5), linear in ε; no natural wavelength | batch-22 [N] | **noted** | |
 | L88 | two-slit / records | **Batch 22:** neutral, kick-only apertures (modelling choice) leave per-world weights unchanged → Lemma A (L80); conducting walls need Lemma A re-proved (open): no point below both one-slit patterns; passive record changes nothing; active record adds smooth deflection; no bands to kill | batch-22 [A, N] | **noted** | conducting slits not computed |
 | L89 | David 9:10 AM | "Let's have creative lead model the returning echoes." (relayed by Physics Lead, Physics Lead chat, not signed; verbatim) | David 9:10 AM | **ruling** | |
+| L90 | Lemma A' (exclusion needed) | **Batch 23:** with one route per world, non-negative weights, and the two-route world set = union of the one-route sets, no dark spot; the only admissible door is exclusion of worlds depending on the open-route set | batch-23 [A] | **live (lemma)** | |
+| L91 | Set 1: loop regularity | **Batch 23:** regularity/holonomy condition around the two-route cycle excludes worlds periodically in path difference Δ(x); a field-carrying record lifts it, a passive one does not | batch-23 | **proposed, rank 1, L1** | first check: an ħ-free regularity rule on an aperture-bounded cycle (Misner/NUT); highest LT2 risk |
+| L92 | Set 2: EKT self-consistency | **Batch 23:** a world = globally self-consistent history (EKT 1991, unchecked); open routes may change the set of consistent launches | batch-23 | **proposed, rank 2, L1** | CTC exploration only; multiplicity → counting problem |
+| L93 | Set 3: screen as ledger | **Batch 23:** a hit = persistent readable entry (#399); readout ambiguity with both routes open might exclude hits | batch-23 | **proposed, rank 3, L1** | likely dead if persistence is local; dips at overlap, not periodic |
+| L94 | Set 4: richer hit record | **Batch 23:** counting distinct full observer states is subadditive, max-type; no dips | batch-23 [A] | **dead for dips, L0** | record-dependent non-additivity noted |
+| L95 | Set 5: count observer histories | **Batch 23:** 1/\|class\| weights are reweighting; without exclusion, no dips | batch-23 | **proposed, rank 5, L0–L1** | expected dead |
+| L96 | Set 6 / Set R | **Batch 23:** loosen the analytic lock (exploration only): matching extension data on the cycle; reduces to Set 1 or rejected (no measure). Rejected: "both routes" (superposition by hand), negative weights (LT2) | batch-23 | **Set 6 rank 4, L0–L1; R rejected** | |
+| L97 | David 9:36 AM | "Step back: have Creative Lead propose new idea sets for where interference could come from." (widget answer; relayed by Physics Lead, Physics Lead chat, not signed; verbatim) | David 9:36 AM | **ruling** | |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -266,6 +274,10 @@ Lead rulings: a fork is the discovery of which world one is in (per 3:19 PM); at
 
 > This is all very encouraging. Let's proceed with the 2-slit work.
 
+## Step back (David, 9:36 AM ET 2026-10-13, relayed by Physics Lead, Physics Lead chat, not signed (widget answer); verbatim)
+
+> Step back: have Creative Lead propose new idea sets for where interference could come from.
+
 ## Returning echoes (David, 9:10 AM ET 2026-10-13, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
 
 > Let's have creative lead model the returning echoes.
@@ -335,3 +347,4 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-13: Geometry M1–M4 and Literature M1 applied to batch 21; Literature M2 merged with Geometry (no 'memoryless'; Set B closed for eternal uniform motion only; wrapped radiation memory open); L80, L82, L83 updated.
 - 2026-10-13: David's 9:10 AM words recorded verbatim (ledger, charter); batch 22 (L85–L89).
 - 2026-10-13: batch 22 Geometry M1–M8 (pre-launch acceleration bug fixed, rerun, M-doubling) and Literature M1–M2 applied; L85–L88 updated (converging lens, ~L^−1.3, weak v, caustic at ε ~ 1).
+- 2026-10-13: David's 9:36 AM words recorded verbatim (ledger, charter); batch 23 brainstorm (L90–L97).
