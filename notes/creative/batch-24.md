@@ -11,17 +11,17 @@
 - **The question.** In a world with a time-shifted wormhole, a ball can come back and knock its own younger self. Some launches then have more than one self-consistent story. Does opening the second slit change how many stories a launch *through the first slit* has?
 - **What we did.** We built a simple 2D model: hard balls, an idealised wormhole, and a barrier with two slits. For each launch direction, we listed every consistent story with at most one trip through the wormhole, once with one slit open and once with two. We tried ten wormhole placements and time shifts.
 - **What we found.**
-  - Extra stories do exist. Some launches have the plain story *and* a whole family of self-knock stories, which is EKT's multiplicity.
+  - (Void, see Verdict.) Extra stories seemed to exist. Some launches have the plain story *and* a whole family of self-knock stories, which is EKT's multiplicity.
   - No launch ever lost all its stories, matching EKT.
   - For launches through slit 1, opening slit 2 never changed anything in any of the ten setups. The only changes were for launches through slit 2 itself, which closing it simply blocks. That is trivial.
-- **Verdict.** In this first check, Set 2 does not give the needed effect. It is not proven impossible, but the geometry makes it hard. The returning ball's path runs roughly along the line between the two mouths, so to reach a slit-1 launch it would have to pass through slit 2 by coincidence of placement. No scanned host had that.
+- **Verdict.** This first check is void: the model wormhole sent balls into the wrong side of the far mouth. It must be rerun with a correctly glued mouth before it says anything about Set 2. It is not proven impossible, but the geometry makes it hard. The returning ball's path runs roughly along the line between the two mouths, so to reach a slit-1 launch it would have to pass through slit 2 by coincidence of placement. No scanned host had that.
 
 ---
 
 ## Model, regime and simplifications
 
 - **Space and bodies.** 2D, nonrelativistic, with unit launch speed. Equal-mass hard spheres (discs) of radius r = 0.1 and elastic collisions, in the style of Echeverria–Klinkhammer–Thorne (PRD 44 (1991) 1077; verified, Crossref, per Literature; readings per #365).
-- **Idealised mouth.** Two circles of radius s = 0.5, A and B. A ball centre reaching B at B + s e(φ), at time t with velocity w, emerges at A + s e(φ) at time t − T with the same velocity. This is a pure translation by d = B − A plus a time shift: no rotation, no lensing, no throat dynamics. It is the offset-mouth host, #385 L56. Per #398, a fixed time shift gives CTCs at every time, so this is a CTC host and not the cylinder toy.
+- **Idealised mouth.** Two circles of radius s = 0.5, A and B. A ball centre reaching B at B + s e(φ), at time t with velocity w, emerges at A + s e(φ) at time t − T with the same velocity. This is a pure translation by d = B − A plus a time shift: no rotation, no lensing, no throat dynamics. **Defect (Geometry, #408 review):** since entry needs w·e < 0, this rule sends the ball into disc A, so it glues the exterior of B to the interior of A and is not an exterior-to-exterior wormhole. A valid gluing reverses the normal (reflection w ↦ w − 2(w·e)e, or point inversion A − s e, −w). The results below are void until rerun with such a gluing. It is the offset-mouth host, #385 L56. Per #398 and Literature M1 (#408), a fixed time shift T gives CTCs only if T exceeds the mouth separation |d| (c = 1). Host A = (−1.8, −3) has |d| = 9 > T = 8, so it is **not a CTC host**; host A = (4, 0.5) has |d| ≈ 7.99, just below T = 8 (marginal). It is a different host from the cylinder toy either way.
 - **Barrier.** The line y = 2, with slits at x = −0.6 (slit 1) and x = +0.6 (slit 2), each of half-width 0.15. The crossing test treats the centre as a point. A ball meeting a closed part of the barrier is absorbed, which ends that path; the walls don't reflect. Launches start from the origin; mouth B is at (−1.8, 6).
 - **Histories enumerated** (at most one traversal):
   - **H0, the plain story:** no self-collision. It is consistent unless the older ball emerging from A touches the younger one.
@@ -33,7 +33,8 @@
     - loop closure, numerically.
   - **Not enumerated:** launches entering A first, or histories with more than one traversal (counted as "multi").
 - **Hosts scanned:** A ∈ {(−4.2, 10), (3, 8), (1, 12), (−1.8, −3), (4, 0.5)} × T ∈ {8, 15}, with launch angles −40° to 40° in 0.5° steps. Nothing was tuned; the hosts were fixed before the run.
-- **Friedman et al. 1990** (PRD 42, 1915): interaction is needed for non-uniqueness. Cited from the abstract only.
+- **Friedman et al. 1990** (PRD 42, 1915; abstract only): the Cauchy problem in spacetimes with CTCs; for free (non-interacting) fields and particles, consistent evolution of initial data exists, and non-uniqueness needs interaction. Linear-field uniqueness: Friedman–Morris, PRL 66 (1991) 401 and CMP 186 (1997) 495 (bibliographic only, per Literature).
+- **Prior art** (bibliographic only, per Literature): Novikov, PRD 45 (1992) 1989; Lossev–Novikov, CQG 9 (1992) 2309; Mikheeva–Novikov, PRD 47 (1993) 1432; Carlini et al., IJMPD 4 (1995) 557; Carlini–Novikov, IJMPD 5 (1996) 445. None of them treats slits as boundary data.
 
 ## Results [N] (results.txt)
 
@@ -46,15 +47,15 @@
 | (−1.8, −3), 8 or 15 | 0 | 0 / 0 | 0 | 0 |
 | (4, 0.5), 8 or 15 | 0 | 0 / 0 | 0 | 0 |
 
-- **Multiplicity: yes.** In host (3, 8), 20 launches have H0 plus one H1 interval (t_c measure ≈ 1.2).
-- **Exclusion: none.** H0 never fails, in agreement with EKT's "at least one solution".
+- **Multiplicity: void.** The script accepted H1 in host (3, 8) for 20 launches, but in every accepted H1 point the older ball's pre-collision path crosses a mouth disc (gluing defect, see Model). No valid H1 survives. Also unchecked: the older ball's post-collision re-entry into A or B.
+- **Exclusion: not tested.** The older ball in H0 also emerges into disc A, so "H0 never fails" says nothing about a wormhole host. Compare with EKT, who report no initial trajectory without a consistent solution (not a quotation; per #407).
 - **Dependence on slit 2 for slit-1 launches: none found** (0 of 161 × 10 host-launches). Every difference is a slit-2 launch, which a closed slit 2 simply blocks.
 
 **Why (a structural reason) [A, partial].**
 - In H1, the older ball's pre-collision velocity is w = (d + 2rn)/T. Its path therefore runs from A + s e roughly *along d*, toward and past B, to the collision point on the launch line.
 - For a slit-1 launch to have an H1 that needs slit 2, that path must cross the barrier through slit 2 while the launch line crosses slit 1.
 - That fixes a narrow relation between A, B, T and the slit positions. It is possible in principle, but only for specially placed mouths, and none of the ten scanned hosts had it.
-- This is not a proof of impossibility. A dense host scan is the next check.
+- This is not a proof of impossibility, and it assumes w ≈ d/T, which fails under a valid gluing (w_old = S_e w_post). Redo it after the rerun. A dense host scan is the next check, and root-count edges should be refined (bisection in θ).
 
 ## Which-route kill condition
 
@@ -65,11 +66,11 @@
 
 ## Answer to the kill check
 
-Set 2's lever (multiplicity) exists in the host. But in a first scan, its dependence on the second slit appears only trivially, for launches through that slit. **Set 2 is not killed, but it is weakened: L1 → L0–L1.** Revival needs a host where the older ball's path threads the other slit, and then a counting rule over histories, which is also needed before any dark spot could be claimed.
+Set 2's lever (multiplicity) exists in the host. But in a first scan, its dependence on the second slit appears only trivially, for launches through that slit. **No verdict on Set 2 from this batch: the host gluing is invalid. The level stays as before, pending a rerun with an exterior-to-exterior gluing.** Revival needs a host where the older ball's path threads the other slit, and then a counting rule over histories, which is also needed before any dark spot could be claimed.
 
 ## Weak points
 
-1. Idealised translation mouth. It gives continuum H1 families. EKT's spherical mouths, with lensing, give discrete or infinite families, which were not modelled.
+1. Idealised translation mouth. It gives continuum H1 families only because the gluing commutes with a shift along w in space and time (#398: a continuum needs a symmetry). Any normal-reversing gluing makes the emergent velocity depend on the entry point, and the generic count (4 unknowns, 4 equations) gives discrete families [A]. The translation rule is also not exterior-to-exterior (see Model). EKT's spherical mouths, with lensing, give discrete or infinite families, which were not modelled.
 2. Only one traversal and only one collision. Multi-traversal histories ("multi" counts) are not enumerated.
 3. Absorbing, point-like slit edges. Reflecting walls would add bounce paths.
 4. Ten hosts and 0.5° launches; the t_c grid has 600 steps up to 40. The structural argument suggests special hosts exist, so a dense scan is the next check.
