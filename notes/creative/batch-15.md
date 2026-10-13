@@ -11,9 +11,9 @@ We asked whether a small body can sit in one of several stable "parking orbits" 
 
 - **The plain Ellis wormhole: no.** It has no gravity pulling things in, so nothing can orbit it. Everything flies away.
 - **Ellis with mass: only one parking spot.** It pulls on one side and pushes on the other. There is one family of stable orbits, on the pulling side. A strong enough kick throws the body through the throat and away for good. That is losing the diary, not writing it.
-- **A wormhole that pulls on both sides** (a toy we built, not a known exact solution): **yes.** There are separate stable parking spots: outside on either side, trapped in the throat itself, and a "commuting" orbit that keeps passing through the throat. A kick has a sharp threshold, computed numerically. Below it the body stays put; above it it switches to commuting. Small nudges don't change the spot. This is the discrete, stable diary entry we were after, but only in this toy.
+- **A wormhole that pulls on both sides** (the Simpson–Visser wormhole, a known exact solution, but one that needs exotic matter): **yes.** There are separate stable parking spots: outside on either side, trapped in the throat itself, and a "commuting" orbit that keeps passing through the throat. A kick has a sharp threshold, computed numerically. Below it the body stays put; above it it switches to commuting. Small nudges don't change the spot. This is the discrete, stable diary entry we were after, but only in this toy.
 
-**The catches.** The toy needs exotic matter. These are test bodies, with no radiation. They are not Hadley geons: no time loops, no flips. One kick can only reach a neighbouring spot. The diary also sets the observer's size, which is acceptable but not free. And when observer and diary cross the time-loop horizon, they can be torn apart unless they move almost together.
+**The catches.** The wormhole needs exotic matter, and wormholes of this family are known to be unstable (no stability result exists for this one). With radiation included, every body eventually settles onto the throat, so all parking spots drift to one. The classes only last in the idealised no-radiation limit. Sets 1–2 and the orbit classes themselves are already published (Huang et al. 2023; Diemer–Smolarek 2013). These are test bodies, with no radiation. They are not Hadley geons: no time loops, no flips. One kick can only reach a neighbouring spot. The diary also sets the observer's size, which is acceptable but not free. And when observer and diary cross the time-loop horizon, they can be torn apart unless they move almost together.
 
 ---
 
@@ -24,6 +24,7 @@ We asked whether a small body can sit in one of several stable "parking orbits" 
 - Metric $ds^2=-dt^2+dx^2+(x^2+k^2)d\Omega^2$ (the Morris–Thorne form with zero redshift; in Schwarzschild-like radius $r^2=x^2+k^2$, $b(r)=k^2/r$) [M for the identification].
 - Timelike equatorial geodesics: $\dot x^2=E^2-V$, with $V=1+L^2/(x^2+k^2)$ [A].
 - $V$ has a single extremum, a **maximum** at the throat $x=0$ (an unstable circular orbit), and $V\ge1$ everywhere. A bound orbit needs $E^2<V(\pm\infty)=1$, which is impossible. So **there are no bound timelike orbits and no stable circular orbits** [A; N: extrema at $x=0$ unstable for L = 0.5, 1, 2, 4].
+- Prior art: Huang, Kunz, Yang & Zhang, arXiv:2303.11885 (per #383).
 - **Status: dead** for the ledger (L48).
 
 ## Set 2: Ellis–Bronnikov drainhole (with mass) — one stable class, plus loss
@@ -37,13 +38,14 @@ We asked whether a small body can sit in one of several stable "parking orbits" 
   - above it, it crosses and runs to $x\to-\infty$.
   - Small perturbations ($\dot x=10^{-3}$, $10^{-2}$) stay bound near the orbit (a basin).
 - **One class only.** Crossing is **dropout of the ledger body**, not a second class (cf. v0.10.1 §6.2: dropout is not an arm).
+- Prior art: Huang–Kunz–Yang–Zhang, arXiv:2303.11885; negative-mass side, Cramer et al. 1995 (per #383).
 - **Status: parked** (L49).
 
 ## Set 3: symmetric two-mouth toy — several discrete stable classes
 
 **Plain summary.** If the handle pulls from both sides, there are separate stable parking places. Kicks have sharp thresholds, and small nudges don't change the class. This is the discrete, stable record batch 14 needed, in a toy.
 
-- **Toy metric** (not a known exact solution; it needs exotic, NEC-violating matter, as static wormholes do, Morris–Thorne 1988 [M]): $-A\,dt^2+A^{-1}dx^2+(x^2+k^2)d\Omega^2$, with $A=1-2m/\sqrt{x^2+k^2}$, $k>2m$. Run with $m=1$, $k=3$, so $A(0)=1/3$.
+- **Toy metric** (this is the Simpson–Visser metric with $a=k$, Simpson & Visser, JCAP 02 (2019) 042, a two-way traversable wormhole for $a>2m$; it is an exact Einstein solution sourced by a phantom scalar with a potential plus a nonlinear-electrodynamics magnetic monopole, Bronnikov & Walia, PRD 105 (2022) 044039; so it needs exotic, NEC-violating matter; $k=3m$ is the case where the throat is a marginally unstable photon sphere, Tsukamoto, PRD 103 (2021) 024033): $-A\,dt^2+A^{-1}dx^2+(x^2+k^2)d\Omega^2$, with $A=1-2m/\sqrt{x^2+k^2}$, $k>2m$. Run with $m=1$, $k=3$, so $A(0)=1/3$.
 - **Wells [N].**
   - For $L\le3$: one minimum, at the throat.
   - For $L=3.8$: three wells ($x=0$, with $V=0.8681$; $x=\pm9.736$, with $V=0.9155$) and two barriers ($x=\pm3.013$, $V=0.9526<1$).
@@ -62,7 +64,8 @@ We asked whether a small body can sit in one of several stable "parking orbits" 
   - Reference: the unkicked O+ circular orbit (0 throat crossings).
   - Datum: the class (O+, Th, T, O−) at the matched return. In Th the raw crossing count advances every half-oscillation (5 in the 1.1× run, 3 in the mid run [N]), so it is **not** the record; the class is.
 - **Topological content.** Th and T orbits thread the handle, so their worldline classes are non-trivial in π₁ of the region. O± orbits circle the throat without threading, which is not topological in 3+1 (#381). The handle supplies the discreteness, and the kick supplies the change.
-- **Status: live (toy)** (L50, L51).
+- **Prior art and checks (#383).** The orbit classes are known (Diemer–Smolarek 2013); Literature re-derived the numbers [A per #383]. With radiation, every class drifts to T (weak point 2).
+- **Status: live (toy, test limit only)** (L50, L51).
 
 ---
 
@@ -79,7 +82,7 @@ We asked whether a small body can sit in one of several stable "parking orbits" 
 
 **Plain summary.** Passing the time-loop horizon, each body goes into whichever continuation its own motion picks. Observer and diary stay together only if they move almost in step. An orbiting diary body changes direction, so it can be torn away.
 
-- **Misner** (#367/#375): which extension a timelike curve crosses into is fixed by its own data (winding sign), and **every** timelike curve of the Taub region is incomplete in each Hausdorff extension. So the joint survival of observer and ledger is at most "both cross, then both end".
+- **Misner** (#367/#375): which extension a timelike curve crosses into is fixed by its own data (winding sign), and a geodesic is incomplete in the extension it does not cross into, while only the fixed-point geodesics are incomplete in every extension (#371, #377; Rieger 2402.09312 Prop 6.4). So a tube whose members all cross into the same extension can survive jointly there.
 - **Taub–NUT** (Misner–Taub 1969, V-meta; sign rule confirmed by computation, #377 item 6): the crossing extension is fixed by the sign of $p_\parallel$. A tube crosses jointly into one extension iff all its members have the same sign of $p_\parallel$ at the crossing. That is an open condition: it holds for a small tube whose velocity spread is below the observer's $|p_\parallel|$, off the zero-momentum set [A, sketch].
 - **An orbiting ledger** has momentum that rotates. If its orbital speed exceeds the observer's $p_\parallel$ component, some ledger bodies take the other sign and **tear off into the other extension** [A, sketch]. Joint survival favours slow, tightly bound ledgers, which pulls against Set 3's need for well-separated wells.
 - This toy is static, with no CTC and no Cauchy horizon. The horizon analysis applies only to forming-geon hosts (#364 (d), #372 §2.4), and the toy does not model one.
@@ -89,8 +92,8 @@ We asked whether a small body can sit in one of several stable "parking orbits" 
 
 ## Weak points
 
-1. **Toy metric.** Set 3's two-sided attraction is not a known exact solution. It needs exotic matter, and its stability as a spacetime is unchecked.
-2. **Test bodies only.** There is no back-reaction and no gravitational radiation. Radiation would make bound orbits decay, so the classes are stable only in the test limit.
+1. **Metric (corrected per #383).** Set 3's metric is Simpson–Visser (exact, with a phantom-scalar plus nonlinear-electrodynamics source), so it needs exotic matter. Its stability as a spacetime is unchecked; the related Ellis and ghost-scalar wormholes are unstable (Shinkai–Hayward 2002; González–Guzmán–Sarbach 2009; Bronnikov–Fabris–Zhidenko 2011), and a normal-matter body passing the Ellis throat triggers collapse to a black hole (Shinkai–Hayward).
+2. **Test bodies only.** There is no back-reaction and no gravitational radiation. Radiation makes bound orbits decay: in a Schwarzschild-type wormhole a bound body passes the throat repeatedly in a damped oscillation and settles on the throat (Dent, Gabella, Holley-Bockelmann & Kephart, arXiv:2007.09135), so every class drifts to T and the classes are stable only in the test limit.
 3. **Not a Hadley geon.** The toys are time-orientable, static, CTC-free handles. How a non-time-orientable, CTC-bearing geon behaves is untouched.
 4. **One kick reaches only adjacent bands** (Set 3). A rich alphabet needs several kicks or dissipation, and the latter is a mechanism we don't have.
 5. **Near separatrices** the class is sensitive to the kick. The unstable circular orbits form a separatrix of zero thickness; no measure is adopted, so we make no "rarely" claim.
