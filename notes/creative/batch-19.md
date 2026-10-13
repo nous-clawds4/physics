@@ -1,6 +1,6 @@
 # Batch 19: a world-dependent ledger state on a nearby handle or geon (Creative Lead; do not merge)
 
-**Status.** Exploration only, under David's rulings (all relayed by Physics Lead, not signed), including 11:42 PM: a fork is the discovery of which world one is in, and the main line stays geon/handle hosts. Classical only; no Born rule, no probability, no measure; (M1) unchanged at L3; CTCs as exploration only. Citations are unchecked unless verified earlier. Nothing goes into `versions/` or `papers/`. Stacked on batch 18 (#393), whose flat example is an exact proof of concept only. Ledger rows L70–L74.
+**Status.** Exploration only, under David's rulings (all relayed by Physics Lead, not signed), including 11:42 PM (in which David equates a fork with a discovery: "In my mind, a fork and a discovery are the same thing."), and the Lead rulings that followed (ledger: a fork is the discovery of which world one is in; the main line stays geon/handle hosts). Classical only; no Born rule, no probability, no measure; (M1) unchanged at L3; CTCs as exploration only. Citations are unchecked unless verified earlier. Nothing goes into `versions/` or `papers/`. Stacked on batch 18 (#393), whose flat example is an exact proof of concept only. Ledger rows L70–L74.
 
 **Goal.** Move #393 onto the main line. The distinguishing detail sits in the global structure of a **nearby** handle or geon, the near region is identical across worlds, and the beacon round trip (#372) reads it out.
 
@@ -45,9 +45,9 @@ A one-universe handle is $W=\tilde M/\Gamma$, with $\Gamma=\langle g\rangle$, wh
 
 **Plain summary.** Misner space is flat space glued to itself with a boost. The boost amount is a world-dependent ledger state. Before the time-loop horizon, a light signal going round the closed direction comes back with a delay and Doppler shift set by that boost. This is exact, and it is the standard model of the geon's time-loop region.
 
-- **Host** [A; Misner 1967 (unchecked); Hawking–Ellis §5.8 (V-meta per #377)]. The Taub region of 2D Misner space is $\{X^2>T^2,\ T>0\}/\langle B_\beta\rangle$, with $B_\beta$ a boost of rapidity β; a 4D version uses $\times\mathbb R^2$. The metric is flat, so the germ is the same for every β, provided the observer's tube injects: its boost-image distance exceeds $2\rho$ at $\tau=0$ [A].
-- **Ledger state:** β, the deck element of the closed direction. Different β are non-isometric worlds: the length of the closed spacelike circle at given $T$ is $\beta T$ [A].
-- **Read-out:** a null ray sent round the closed direction returns to a co-moving observer after a delay, and with a Doppler factor $e^{\pm\beta}$ [A, sketch], before the Cauchy horizon $T=0$ is reached from the past. Type O (time-orientable). No CTC is used in the read-out.
+- **Host** [A; Misner 1967 (unchecked); Hawking–Ellis §5.8 (V-meta per #377)]. The Taub region of 2D Misner space is the Milne wedge $\{T<-|X|\}/\langle B_\beta\rangle$ (closed spacelike circles; the wedges $X^2>T^2$ contain the boost orbits, which are timelike, so their quotient has CTCs), with $B_\beta$ a boost of rapidity β; a 4D version uses $\times\mathbb R^2$. The metric is flat, so the germ is the same for every β, provided the observer's tube injects: its boost-image distance exceeds $2\rho$ at $\tau=0$ [A].
+- **Ledger state:** β, the deck element of the closed direction. Different β are non-isometric worlds: the length of the closed spacelike circle at Milne time $t=\sqrt{T^2-X^2}$ is $\beta t$ [A].
+- **Read-out:** a null ray sent round the closed direction returns to a co-moving observer after a delay, and with a Doppler factor $e^{\pm\beta}$ [A, sketch], before the Cauchy horizon $T=-|X|$ (Milne time $t\to0$) is reached. Type O (time-orientable). No CTC is used in the read-out.
 - **Beyond the horizon:** CTCs (exploration only). Survival is fixed per extension (#367, #375), and the ledger state β is the same in both extensions.
 - **Status: live (exact, low-dimensional model)** (L71).
 
@@ -79,6 +79,6 @@ A one-universe handle is $W=\tilde M/\Gamma$, with $\Gamma=\langle g\rangle$, wh
 1. **A continuum of gluings (strongest).** Rotation angle, time shift and boost are continuous parameters, so the compatible worlds are uncountable. Discreteness needs the cover's isometry group to be discrete, or a further input (#394 F8).
 2. **No known exact symmetric one-universe handle** beyond flat and Misner-type models. The gluings need isometries of the cover that generic analytic handles lack.
 3. **Thin-shell handles are not analytic.** The simplest handle models fall outside the lock.
-4. **Time shifts give CTCs** above the light-travel threshold, and generic nearby masses drive the shift (Frolov–Novikov). So the CTC-free regime is non-generic.
+4. **Time shifts give CTCs** above the light-travel threshold, and generic nearby masses drive the shift (Frolov–Novikov). So the CTC-free regime is non-generic. Above threshold, CTCs first appear at a compactly generated chronology horizon, where renormalized vacuum stress-energy diverges (Kim–Thorne, PRD 43 (1991) 3929); Hawking's chronology protection conjecture (PRD 46 (1992) 603) is quantum and does not bind this classical model, but it is the standard caveat.
 5. **Misner is 2D (×ℝ²)** and only a model of the geon's time-loop region, not a Hadley geon.
 6. **The extension choice** is readable only by survival (nested prefix).
