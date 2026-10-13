@@ -10,7 +10,7 @@
 ## For David (plain summary)
 
 - **The question.** We fix everything the lab records about the launch. Can tiny differences between worlds, too small for the coarse flat picture to see, change *which* detector fires?
-- **Answer in the toy: yes, even without a twist.** A correctly glued tiny handle acts like a diverging mirror: a change smaller than the handle in where the particle meets it changes its direction by a lot. On a fine grid, a single tiny handle near the emitter sends the particle to **every one of the 21 detectors**, and off the array, for every gluing and twist tried.
+- **Answer in the toy: yes, even without a twist.** A correctly glued tiny handle acts like a diverging mirror: a change smaller than the handle in where the particle meets it changes its direction smoothly but strongly. This is a deterministic, smooth bending, not chaos: each far detector is hit by a very thin range of launch offsets, about 10⁻⁴ of the handle size. On a fine grid, a single tiny handle near the emitter sends the particle to **every one of the 21 detectors**, and off the array, for every gluing and twist tried.
 - **Withdrawn from the first (void) run:** "an ordinary tiny handle only shifts the particle", "it needs a twist", and "the detector index is about θR/Δ". All three came from the invalid gluing.
 - **What decides it.** Within one world, only the sub-tiny launch data. Across worlds, Geometry's reading is that the lock allows different handles only through the symmetries of the shared unrolled geometry: none in a generic curved world, any twist in a flat one.
 - **Scope.** Flat host, test particle, 2D. This shows the question is not empty in this toy. It says nothing about *how often* each detector fires.
@@ -30,7 +30,7 @@
 - Rec₀ fixes the direction to τ/R; the sub-ℓ offset y₀ ∈ [−ℓ/2, ℓ/2] is free.
 - 21 apertures of width Δ = 50ℓ sit at x = R = 10⁴ℓ. τ = 10ℓ.
 
-**Output.** Only **the set of indices reached** on a finite grid (a lower bound; resolution-dependent near fractal boundaries). Up to 200 passages; no ray was trapped.
+**Output.** Only **the set of indices reached** on a finite grid (a lower bound; resolution-dependent because each j ≠ 0 is reached on a thin sliver of offsets, about 10⁻⁴ℓ wide here). Up to 200 passages; no ray was trapped.
 
 ## Results
 
@@ -42,7 +42,7 @@ The rest of the coarse grid also matches Geometry's table.
 
 **Fine grid** (10001 offsets × 11 directions, `s5b_out.txt`). For G1 and mirror, at every θ ∈ {0, 0.005, 0.02, 0.1, 0.5, π/2}, the reached set is **all of {−10, …, 10} plus None**.
 
-Literature's check (201 × 5, normal flip) found subsets of these, for example {0, 5, None} at θ = 0. The growth with resolution is what a sub-ℓ → O(1) sensitive map looks like.
+Literature's check (201 × 5, normal flip) found subsets of these, for example {0, 5, None} at θ = 0. The growth with resolution is what a sub-ℓ → O(1) sensitive map looks like. For one handle the map is piecewise smooth and deterministic (every j ≠ 0 is reached after 1–2 passes, at non-grazing incidence except j = ±10; Geometry box diagnostic). All detectors are reached by continuity of the exit angle over an O(1) range that contains the about 0.1 rad array. It is not chaotic randomisation, and it is not a count.
 
 ## Finding (S5)
 
@@ -53,7 +53,7 @@ Literature's check (201 × 5, normal flip) found subsets of these, for example {
 - **Prior art (bibliographic only, unread).**
   - Closest analogue: Visser, PRD 39 (1989) 3182, flat-interior polyhedral wormholes with curvature on the edges.
   - Also Visser, NPB 328 (1989) 203, and Wielgus–Horák–Vincent–Abramowicz, PRD 102 (2020) 084044, for rays traced through a thin shell.
-  - Sub-scale sensitivity (chaotic scattering):
+  - Sub-scale sensitivity (chaotic scattering; relevant to dense foam, not to the single-handle toy, which is a non-chaotic dispersing map):
     - Gaspard–Rice, J. Chem. Phys. 90 (1989) 2225;
     - Ott–Tél, Chaos 3 (1993) 417;
     - Bleher–Grebogi–Ott, Physica D 46 (1990) 87;
@@ -78,7 +78,7 @@ Literature's check (201 × 5, normal flip) found subsets of these, for example {
   - a flat cover admits any θ.
 - **Where a mouth can be.** A mouth within ρ of the observer is excluded by #399's tube injection. A mouth near the emitter (a test body) is allowed (note #410's remark that tube injection fails in micro-foam).
 - **Within one fixed world,** variation comes only from sub-ℓ launch data.
-- **Scope:** test-field and flat-host only. Under the lock, a flat seam handle exists only in an exactly flat host (#410 G2; Cheeger–Gromov–Taylor).
+- **Scope:** test-field and flat-host only. The seam handle is flat off the seam, with its curvature concentrated on the seam (a thin shell, as in Visser 1989). Under the lock, a handle that is flat off its seam can occur only in an exactly flat host (identity theorem: analytic and flat on an open set means flat everywhere; #410 G2). Smooth, non-collapsed handles instead carry curvature beside them (Cheeger–Gromov–Taylor).
 
 ## Unchecked steps
 
@@ -86,7 +86,7 @@ Literature's check (201 × 5, normal flip) found subsets of these, for example {
 2. **Dimension.** 2D, not 3+1D; time is ignored.
 3. **Rec₀** is modelled only as "direction to τ/R, offset free below ℓ". Its full definition (#410 R4) is open. If Rec₀, or the particle model (λ_E, R5), fixes the launch below ℓ, the finding changes.
 4. **One handle.** Dense foam (diffusion versus ballistic; exponential sensitivity, ~(2·spacing/a) per passage [unchecked]) is not computed.
-5. **Finite grid.** Reached sets are lower bounds. The fractal structure of the exit map is not measured.
+5. **Finite grid.** Reached sets are lower bounds. With one handle (two disks) there is no fractal repeller, only one unstable periodic orbit; fractal exit structure would need three or more handles (dense foam, item 4).
 6. **No measure.** Nothing here says how large any W_i is.
 7. **Geometry's lock reading** is not independently checked: it was not checked against #398 and #399 here.
 
@@ -98,4 +98,6 @@ Literature's check (201 × 5, normal flip) found subsets of these, for example {
 | `s5_out.txt` (void) | `f2bdbb9de3072dbc0adcfe42303bb571aa585ee74893408af99ded6d9b072d1a` |
 | `s5b.py` | `a6f30f6685ddf80eaf6950665a9a141c909da9cee36cd4e0477cfc38fe541635` |
 | `s5b_out.txt` (`python3 s5b.py`, 10001 × 11) | `a5278391bc16f37ef9d0d80e644cfb4c8eaef8054c5cfcb9e1adcd29a4ca1b0f` |
+| off-repo on the box (Geometry): `/workspace/geom/s5fix.py` | `3301fa8ffdac7c0c8c1ae210e40ff86f7e412872e497632ae3a58d9ec4e5f04f` |
+| off-repo on the box (Geometry): `/workspace/geom/s5bdiag.py` | `8e64aec947aff154ade96874d9c8bdc5f15aa9d902a9c9eed1cbf713c4bb8d42` |
 | `s5b_coarse_out.txt` (`python3 s5b.py 2001 5`) | `ae3cc9a163c8b00e7bcbf51021baa4f5d888649d701318e8afd3fb071a6d6d18` |
