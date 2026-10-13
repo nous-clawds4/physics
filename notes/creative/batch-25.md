@@ -94,12 +94,12 @@ Script: `notes/creative/batch-25/extsrc.py` (sha256 `512bbec55d4d01de7687c0b6ebf
 **Results [N].**
 - **Overlap now exists in every case:** 14–288 overlap bins (table in `extsrc.txt`).
 - **Dark bins (z > 3): 0 in all 24 cases.** The largest z in every case is *negative*, between −5.0 and −2.0: I_both lies above min(I₁, I₂) by 2–5σ in every overlap bin.
-- **The deviation from additivity is within noise.** max |I_both − I₁ − I₂|/σ is 0.00–1.27, so the smooth wall shift is invisible at these statistics.
-- **Periodicity:** 0 dev minima beyond 3σ in every case. The FFT peak-to-mean ratios (0–5.7) are what noise gives for spectra of this length (no threshold was set in advance, and dev itself is < 1.3σ). There is no periodic structure.
+- **The deviation from additivity is small.** max |I_both − I₁ − I₂|/σ is 0.00–1.27 (1.97 at N = 800). The counts come from a deterministic launch grid, so σ = √count is a granularity scale, not sampling noise. The contextual deformation is nonzero but below one count-scale per bin; exact additivity is not expected and is not claimed.
+- **Periodicity:** 0 dev minima beyond 3σ in every case. The FFT peak-to-mean ratios (0–5.7) are reported without a null or a preset threshold, so they are not evidence either way; the absence of dev minima beyond 3σ, with dev < 2σ everywhere, is the operative result.
 - **Spot check** (N = 800; a = 2, w = 1, f = 1.5, κ = 0.1): 68 overlap bins (58 at N = 400), 0 dark bins, max z −3.99, max |dev|/σ 1.97, 0 minima. The conclusion is mesh-independent.
-- **Side observation:** at κ = 0.1 with a = 4, the wide sources lose more transmitted launches with two slits (e.g. 3309 at f = 3 for w = 0.5). That is wall capture of oblique launches, a smooth exclusion. In those cases it does not create dark bins.
+- **Side observation:** at κ = 0.1 with a = 4, two-slit transmission drops (e.g. 3309 at f = 3 for w = 0.5, against 5125 at κ = 0.001). This is likely wall capture of oblique launches. The one-slit transmission is not printed, so whether the loss depends on slit 2 is unverified. No dark bins result.
 
-**Verdict.** No dark bins beyond noise, and no periodic structure, with overlapping one-slit patterns in all 24 cases. **Set 7 is confirmed at L0** within the limits below: 2D line charges, a quasi-static grounded plate (R0 = 1), κ ≤ 0.1, an absorbing rim of 0.02, and source margins of 1.5× and 3×.
+**Verdict.** No dark bins (z > 3 on the count-scale), and no dev minima beyond 3σ, with overlapping one-slit patterns in all 24 cases. **Set 7 is confirmed at L0** within the limits below: 2D line charges, a quasi-static grounded plate (R0 = 1), κ ≤ 0.1, an absorbing rim of 0.02, and source margins of 1.5× and 3×.
 
 ## Which-route kill condition
 
