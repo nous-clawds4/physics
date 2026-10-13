@@ -125,3 +125,11 @@ Status note (batch 22 reviews): after the pre-launch fix the echoes give a weak 
 > Step back: have Creative Lead propose new idea sets for where interference could come from.
 
 Status note (batch 23 reviews): Lemma A' has four exits (exclusion, contextual dynamics, multiplicity, read-out change). Set 1 and Set 6 are dead on the flat cylinder pending a source. Next checks: Set 2 (EKT multiplicity, exploration only), then Set 7 (conducting slit walls). The 9:36 AM words stay labelled relayed, not signed.
+
+## Addendum: Lead ruling, Physics Lead, 9:45 AM ET 2026-10-13 (not David)
+
+Batch 24 runs Set 2's first kill check, in the offset-mouth host (#385 L56) with an EKT-style hard-sphere billiard, structure only and with no weights. CTC exploration only.
+
+Status note (batch 24): the first EKT script was void (invalid gluing). In the rerun with exterior-to-exterior gluings, slit 2 never changes the multiplicity or exclusion structure of slit-1 launches; Set 2 is weakened to L0–L1.
+
+Status note (batch 24 final): with three valid exterior-to-exterior gluings (two non-orientable, one orientable), slit 2 never changes the multiplicity (≤ 2) or the exclusion structure of slit-1 launches. Zero-solution bands appear only in the non-orientable gluings, and their status is open. Set 2 stays at L0–L1.
