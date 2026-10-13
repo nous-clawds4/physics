@@ -1,0 +1,20 @@
+L=2.5 v=0.5 tau=0.2 slit_kick=none M=12
+   dx_hit/eps: min -107.7 max 229.3;  delta/eps: min -67.81 max -60.4; sign changes 3; mean theta-period 1.25 deg
+   theta(deg), dx/eps, delta/eps: (-10.0,-108,-61.3) (-7.0,-74.6,-61.3) (-4.0,-42.4,-60.7) (-1.0,-10.6,-60.4) (2.0,21.1,-60.6) (5.0,53,-60.7) (8.0,85.6,-62) (11.0,119,-63.2) (14.0,154,-64.6) (17.0,190,-66.1) (20.0,229,-66.2)
+   eps at which delta first reaches -1 (caustic, bands; out of first-order validity): 0.0147
+L=2.5 v=0.3 tau=0.2 slit_kick=none M=17
+   dx_hit/eps: min -193 max 407.3;  delta/eps: min -117.4 max -108.6; sign changes 4; mean theta-period 13.7 deg
+   theta(deg), dx/eps, delta/eps: (-10.0,-193,-112) (-7.0,-134,-110) (-4.0,-76,-109) (-1.0,-19,-109) (2.0,37.9,-109) (5.0,95.2,-109) (8.0,153,-110) (11.0,213,-112) (14.0,275,-114) (17.0,339,-115) (20.0,407,-115)
+   eps at which delta first reaches -1 (caustic, bands; out of first-order validity): 0.00851
+L=1.25 v=0.5 tau=0.2 slit_kick=none M=22
+   dx_hit/eps: min -209.9 max 445.9;  delta/eps: min -131.2 max -117.8; sign changes 3; mean theta-period 1.25 deg
+   theta(deg), dx/eps, delta/eps: (-10.0,-210,-119) (-7.0,-145,-119) (-4.0,-82.6,-118) (-1.0,-20.6,-118) (2.0,41.2,-118) (5.0,103,-118) (8.0,167,-121) (11.0,232,-123) (14.0,300,-125) (17.0,371,-128) (20.0,446,-128)
+   eps at which delta first reaches -1 (caustic, bands; out of first-order validity): 0.00762
+L=5.0 v=0.5 tau=0.2 slit_kick=none M=7
+   dx_hit/eps: min -55.87 max 119.3;  delta/eps: min -35.59 max -31.31; sign changes 3; mean theta-period 1.25 deg
+   theta(deg), dx/eps, delta/eps: (-10.0,-55.9,-31.8) (-7.0,-38.7,-31.8) (-4.0,-22,-31.5) (-1.0,-5.47,-31.3) (2.0,10.9,-31.4) (5.0,27.5,-31.5) (8.0,44.4,-32.2) (11.0,61.7,-32.8) (14.0,79.9,-33.7) (17.0,99,-34.6) (20.0,119,-34.7)
+   eps at which delta first reaches -1 (caustic, bands; out of first-order validity): 0.0281
+L=2.5 v=0.5 tau=0.2 slit_kick=y_s=5.0,dv=0.05 M=12
+   dx_hit/eps: min -163.6 max 166.4;  delta/eps: min -67.38 max -58.6; sign changes 3; mean theta-period 1.25 deg
+   theta(deg), dx/eps, delta/eps: (-10.0,-164,-67.4) (-7.0,-128,-65.2) (-4.0,-94.1,-64) (-1.0,-61.3,-61.7) (2.0,-29.3,-60.5) (5.0,2.34,-59.7) (8.0,33.9,-59.4) (11.0,65.7,-59.2) (14.0,98.2,-58.6) (17.0,132,-59.8) (20.0,166,-60.2)
+   eps at which delta first reaches -1 (caustic, bands; out of first-order validity): 0.0148

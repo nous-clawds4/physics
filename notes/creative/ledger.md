@@ -91,6 +91,11 @@
 | L82 | self-field on the cylinder | **Batch 21 Set B:** for a uniformly moving test charge, image forces from ±m cancel exactly (Heaviside field; numeric ~1e-16); straight paths are self-consistent; hits are monotone in θ (density ~ launch weighting × D sec²θ): no bands | batch-21 [A, N] | **closed for eternal uniform motion** | wrapped radiation after launch/slit crossing (path memory, returns ~mL) open |
 | L83 | droplet comparison | **Batch 21 Set B:** droplet patterns need a driven, persistent guiding wave with memory (Pucci et al. 2018; Andersen et al. 2015 non-replications; bibliographic); path memory: Fort et al. PNAS 2010, Eddi et al. JFM 2011 (bibliographic); for eternal uniform motion the image field gives no path memory; wrapped radiation memory after launch/slit crossing open | batch-21; #403; Claude 017 | **noted** | open |
 | L84 | David 8:46 AM | "Explore both escapes side by side in step 2." (widget answer; relayed by Physics Lead, Physics Lead chat, not signed; verbatim) | David 8:46 AM | **ruling** | |
+| L85 | echo model | **Batch 22:** charged test particle on a flat cylinder; retarded LW image fields (m≠0) at O(ε); Landau–Lifshitz reduced order for the local part (absorbed into the prescribed launch); first-order deflection at the screen | batch-22 [N] | **computed** | weak coupling ε ≲ 1e-3 |
+| L86 | echoes → bands? | **Batch 22:** Δx_hit ≈ linear in θ (weak diverging lens) plus a smooth trend; 3–4 sign changes over 30°; no periodic bands; caustic only at ε ≳ 0.01 (outside validity) | batch-22 [N] | **no bands (first order)** | τ not scanned; first order only |
+| L87 | scaling | **Batch 22:** \|δ\| ∝ ~1/L and ~1/v, linear in ε; no natural wavelength | batch-22 [N] | **noted** | |
+| L88 | two-slit / records | **Batch 22:** neutral apertures leave per-world weights unchanged → Lemma A (L80): no point below both one-slit patterns; passive record changes nothing; active record adds smooth deflection; no bands to kill | batch-22 [A, N] | **noted** | conducting slits not computed |
+| L89 | David 9:10 AM | "Let's have creative lead model the returning echoes." (relayed by Physics Lead, Physics Lead chat, not signed; verbatim) | David 9:10 AM | **ruling** | |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -261,6 +266,10 @@ Lead rulings: a fork is the discovery of which world one is in (per 3:19 PM); at
 
 > This is all very encouraging. Let's proceed with the 2-slit work.
 
+## Returning echoes (David, 9:10 AM ET 2026-10-13, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> Let's have creative lead model the returning echoes.
+
 ## Two-slit step 2 (David, 8:46 AM ET 2026-10-13, widget answer, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
 
 > Explore both escapes side by side in step 2.
@@ -324,3 +333,4 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-13: Claude job 017 applied to batch 20 (R1–R4, S1–S4, N1–N6; Lead ruling).
 - 2026-10-13: David's 8:46 AM widget answer recorded verbatim (ledger, charter); batch 21 (L80–L84).
 - 2026-10-13: Geometry M1–M4 and Literature M1 applied to batch 21; Literature M2 merged with Geometry (no 'memoryless'; Set B closed for eternal uniform motion only; wrapped radiation memory open); L80, L82, L83 updated.
+- 2026-10-13: David's 9:10 AM words recorded verbatim (ledger, charter); batch 22 (L85–L89).
