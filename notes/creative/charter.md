@@ -129,3 +129,5 @@ Status note (batch 23 reviews): Lemma A' has four exits (exclusion, contextual d
 ## Addendum: Lead ruling, Physics Lead, 9:45 AM ET 2026-10-13 (not David)
 
 Batch 24 runs Set 2's first kill check, in the offset-mouth host (#385 L56) with an EKT-style hard-sphere billiard, structure only and with no weights. CTC exploration only.
+
+Status note (batch 24): the first EKT script was void (invalid gluing). In the rerun with exterior-to-exterior gluings, slit 2 never changes the multiplicity or exclusion structure of slit-1 launches; Set 2 is weakened to L0–L1.

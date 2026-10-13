@@ -9,12 +9,13 @@
 ## For David (plain summary)
 
 - **The question.** In a world with a time-shifted wormhole, a ball can come back and knock its own younger self. Some launches then have more than one self-consistent story. Does opening the second slit change how many stories a launch *through the first slit* has?
-- **What we did.** We built a simple 2D model: hard balls, an idealised wormhole, and a barrier with two slits. For each launch direction, we listed every consistent story with at most one trip through the wormhole, once with one slit open and once with two. We tried ten wormhole placements and time shifts.
+- **First try: void.** Our first model wormhole was glued wrongly: balls came out *into* the far mouth instead of out of it. Geometry caught this, so those results don't count. They are kept below only as a record.
+- **Rerun with a correctly glued wormhole**, in two versions. We found every consistent story with at most one trip and one knock, using a root-finder, for launches through slit 1, with slit 2 closed and then open. We used nine wormhole setups that really allow time travel, and dropped one that doesn't.
 - **What we found.**
-  - (Void, see Verdict.) Extra stories seemed to exist. Some launches have the plain story *and* a whole family of self-knock stories, which is EKT's multiplicity.
-  - No launch ever lost all its stories, matching EKT.
-  - For launches through slit 1, opening slit 2 never changed anything in any of the ten setups. The only changes were for launches through slit 2 itself, which closing it simply blocks. That is trivial.
-- **Verdict.** This first check is void: the model wormhole sent balls into the wrong side of the far mouth. It must be rerun with a correctly glued mouth before it says anything about Set 2. It is not proven impossible, but the geometry makes it hard. The returning ball's path runs roughly along the line between the two mouths, so to reach a slit-1 launch it would have to pass through slit 2 by coincidence of placement. No scanned host had that.
+  - Extra stories exist: some launches have two, the plain one and one self-knock story.
+  - In one setup, a narrow band of launches about 0.16° wide had *no* story within our search. That would be a forbidden launch, but it is probably a gap in our search, which doesn't include stories with more trips.
+  - **Opening slit 2 never changed anything for a slit-1 launch.** That held in all setups and both wormhole versions.
+- **Verdict.** In this check, Set 2 does not give the needed effect. Slit 2 could only matter if one of the ball's straight pieces of path happened to cross the barrier at slit 2, and none did.
 
 ---
 
@@ -57,16 +58,58 @@
 - That fixes a narrow relation between A, B, T and the slit positions. It is possible in principle, but only for specially placed mouths, and none of the ten scanned hosts had it.
 - This is not a proof of impossibility, and it assumes w ≈ d/T, which fails under a valid gluing (w_old = S_e w_post). Redo it after the rerun. A dense host scan is the next check, and root-count edges should be refined (bisection in θ).
 
+
+## Rerun (valid gluing): `ekt2.py`
+
+Script: `notes/creative/batch-24/ekt2.py` (sha256 `eb6d28cb57f6b09b317f58a209e8f3bdfed5acd2c1384b3743fe5d95a9434591`); output: `results2.txt` (sha256 `97dc9d767b68eaa403b4ec15a1c681c6c4403e85e5aa0468b6a33545e6cc66ea`). `ekt.py` and `results.txt` are kept as the void record.
+
+**Gluings.** Both are exterior-to-exterior, and both were run because it was cheap (about 70 s).
+- **G1 reflect:** B + s e ↦ A + s e, w ↦ w − 2(w·e)e. This is the minimal fix to the translation rule: same point label, normal reversed, tangent kept.
+- **G2 invert:** B + s e ↦ A − s e, w ↦ −w (point inversion).
+- In 2D both are orientation-reversing handles, as noted; an orientable mirror gluing was not run.
+
+**Solver.** An H1 history has unknowns t_c, the contact angle α, and q = w_old·n. Equal-mass elastic contact gives the young ball the outgoing velocity w_p = (v0·t)t + q n.
+- **Equations:** w_em·n = q, and Q + w_em(t_c − t_e) = v0 t_c + 2rn. That is 3 equations in 3 unknowns, so roots are discrete (the continuum was the translation artefact, F5).
+- **Root-finding:** scipy `root` (hybr) from 288 starts per launch, then deduplicated.
+- **Checks on each root:**
+  - approach, and t_e < t_c;
+  - the young ball's path before and after the collision, against both mouth discs and the barrier;
+  - the older ball's path **before and after** the collision, against both discs;
+  - no earlier contact and no second contact.
+
+  An older post-collision path that re-enters a mouth makes the history "multi": reported, not counted.
+- **Slits:** roots don't depend on the slits, since the barrier only filters, so roots are computed once per launch.
+- **Scan:** 33 launches across the slit-1 window (−20.56° to −12.68°, width 7.88°). Edges in the root count were refined by 8 bisections in θ.
+
+**Hosts.** As before. The non-CTC host A = (−1.8, −3), T = 8 (|d| = 9 ≥ T) is **dropped**. Its T = 15 version is a CTC host and was run; it had no H1. Host (4, 0.5), T = 8 is marginal (|d| = 7.99).
+
+**Results [N].**
+- **Multiplicity: yes, small.** The root-finder found 266 valid H1 histories across the hosts (counting one and two slits together). No launch has more than one valid H1, so the multiplicity is at most 2 (H0 + H1).
+  - Under G1 most hosts have H1 for part of the window.
+  - Under G2, only host (−4.2, 10), T = 8 has H1 (3 launches), and there H0 fails, so the multiplicity is 1 (H1 only).
+  - Several hosts have zero raw roots from the start grid. A miss is possible, since the start grid does not guarantee completeness.
+- **Exclusion: one candidate.** In G1, host (3, 8), T = 8, launches with θ between −19.20° and −19.04° (refined edges) have H0 failing and no valid one-collision H1. That is a zero-solution launch *within the enumeration*. Since histories with several traversals or collisions are not enumerated, this is **not** evidence against EKT, who report no initial trajectory without a consistent solution (not a quotation; per #407). It is most likely truncation.
+- **Dependence on slit 2 for slit-1 launches: none.** The total over all CTC hosts and both gluings is **0**. Every refined edge, including the candidate exclusion band, sits at the same θ with one slit or two.
+
+**Slit-2 argument, redone (no w ≈ d/T) [A].**
+- Each history is four straight segments: the young ball before and after the collision, and the older ball before and after.
+- The slits enter *only* through the barrier filter on those segments: the roots themselves are slit-independent. So for a slit-1 launch, slit 2 matters iff some valid segment crosses y = 2 inside slit 2, or a segment blocked at slit 2 when it is closed becomes a needed path when it is open.
+- In every root found, no counted segment crossed at slit 2. The young ball's paths go through slit 1 or stay above the barrier, and the older ball's paths stay above it or are absorbed after the collision, which changes nothing.
+- This is a statement about the scanned hosts. A host where the older ball's pre-collision path threads slit 2 would need A and the emergent direction to line up with slit 2, and none of ours does.
+
 ## Which-route kill condition
 
 - **What a record would be.** A which-route record at the slits is part of the world and of the consistency map.
 - **Passive record.** One that does not change any ball's motion, such as a pointer flipped without recoil in the test limit, leaves every consistency equation and so every multiplicity unchanged. It only labels histories.
 - **Active record.** One that exerts a force, or is a hard body, enters the collision geometry. It can create or destroy H1 families.
-- **Kill condition:** a slit-2-dependent multiplicity, if one were found, would be removed by any record that blocks or deflects the older ball's slit-2 passage. A record that only labels it would not remove it. Whether that labelling changes a *pattern* depends on a counting rule over multiple histories (#399), which this batch does not supply.
+- **Kill condition:** a slit-2-dependent multiplicity (none found in the rerun), if one were found, would be removed by any record that blocks or deflects the older ball's slit-2 passage. A record that only labels it would not remove it. Whether that labelling changes a *pattern* depends on a counting rule over multiple histories (#399), which this batch does not supply.
 
 ## Answer to the kill check
 
-Set 2's lever (multiplicity) exists in the host. But in a first scan, its dependence on the second slit appears only trivially, for launches through that slit. **No verdict on Set 2 from this batch: the host gluing is invalid. The level stays as before, pending a rerun with an exterior-to-exterior gluing.** Revival needs a host where the older ball's path threads the other slit, and then a counting rule over histories, which is also needed before any dark spot could be claimed.
+- **First run:** void (gluing defect), with no verdict from it.
+- **Rerun:** Set 2's lever, multiplicity, exists, at most 2 here. One exclusion candidate turned up, but it is probably an artefact of truncating the enumeration.
+- **Neither multiplicity nor exclusion depends on slit 2 for any slit-1 launch** in 9 CTC hosts × 2 gluings.
+- **Set 2 is weakened: L1 → L0–L1.** Reopen only if a host is found whose older-ball path threads slit 2, together with a counting rule over histories (#399).
 
 ## Weak points
 
@@ -76,4 +119,6 @@ Set 2's lever (multiplicity) exists in the host. But in a first scan, its depend
 4. Ten hosts and 0.5° launches; the t_c grid has 600 steps up to 40. The structural argument suggests special hosts exist, so a dense scan is the next check.
 5. 2D and nonrelativistic.
 
-Ledger: L98–L101 (L101 records the Lead ruling).
+6. The rerun enumerates only one traversal and one collision. Root-finding from a start grid is not guaranteed to be complete. No orientable mirror gluing was run.
+
+Ledger: L98–L102 (L101 records the Lead ruling).

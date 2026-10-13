@@ -1,0 +1,45 @@
+slit-1 launch window -20.56..-12.68 deg (width 7.88); r=0.1 s=0.5; B=[-1.8, 6.0]
+[reflect] host A=[-4.2, 10.0] T=8.0 (|d|=4.66): raw roots 66; valid H1 one/two slits 18/18; multi(one slit) 0; H0 fails 0; zero-solution cases 0; slit-1 launches with structure differing 0
+      edge at theta=-16.3432 deg: {(1,): ('ok', 1, 0), (1, 2): ('ok', 1, 0)} -> {(1,): ('multi', 0, 0), (1, 2): ('multi', 0, 0)}
+      edge at theta=-15.8065 deg: {(1,): ('multi', 0, 0), (1, 2): ('multi', 0, 0)} -> {(1,): ('ok', 0, 0), (1, 2): ('ok', 0, 0)}
+[reflect] host A=[-4.2, 10.0] T=15.0 (|d|=4.66): raw roots 66; valid H1 one/two slits 16/16; multi(one slit) 0; H0 fails 0; zero-solution cases 0; slit-1 launches with structure differing 0
+      edge at theta=-16.4152 deg: {(1,): ('ok', 0, 0), (1, 2): ('ok', 0, 0)} -> {(1,): ('ok', 1, 0), (1, 2): ('ok', 1, 0)}
+      edge at theta=-16.3422 deg: {(1,): ('ok', 1, 0), (1, 2): ('ok', 1, 0)} -> {(1,): ('multi', 1, 0), (1, 2): ('multi', 1, 0)}
+      edge at theta=-15.8065 deg: {(1,): ('multi', 1, 0), (1, 2): ('multi', 1, 0)} -> {(1,): ('ok', 1, 0), (1, 2): ('ok', 1, 0)}
+[reflect] host A=[3.0, 8.0] T=8.0 (|d|=5.20): raw roots 68; valid H1 one/two slits 32/32; multi(one slit) 0; H0 fails 2; zero-solution cases 2; slit-1 launches with structure differing 0
+      edge at theta=-20.1313 deg: {(1,): ('ok', 1, 0), (1, 2): ('ok', 1, 0)} -> {(1,): ('multi', 1, 0), (1, 2): ('multi', 1, 0)}
+      edge at theta=-19.8020 deg: {(1,): ('multi', 1, 0), (1, 2): ('multi', 1, 0)} -> {(1,): ('ok', 1, 0), (1, 2): ('ok', 1, 0)}
+      edge at theta=-19.2011 deg: {(1,): ('ok', 1, 0), (1, 2): ('ok', 1, 0)} -> {(1,): ('fails', 0, 0), (1, 2): ('fails', 0, 0)}
+      edge at theta=-19.0398 deg: {(1,): ('fails', 0, 0), (1, 2): ('fails', 0, 0)} -> {(1,): ('ok', 1, 0), (1, 2): ('ok', 1, 0)}
+[reflect] host A=[3.0, 8.0] T=15.0 (|d|=5.20): raw roots 0; valid H1 one/two slits 0/0; multi(one slit) 0; H0 fails 0; zero-solution cases 0; slit-1 launches with structure differing 0
+      edge at theta=-20.1313 deg: {(1,): ('ok', 0, 0), (1, 2): ('ok', 0, 0)} -> {(1,): ('multi', 0, 0), (1, 2): ('multi', 0, 0)}
+      edge at theta=-19.8020 deg: {(1,): ('multi', 0, 0), (1, 2): ('multi', 0, 0)} -> {(1,): ('ok', 0, 0), (1, 2): ('ok', 0, 0)}
+[reflect] host A=[1.0, 12.0] T=8.0 (|d|=6.62): raw roots 60; valid H1 one/two slits 23/23; multi(one slit) 0; H0 fails 0; zero-solution cases 0; slit-1 launches with structure differing 0
+      edge at theta=-18.6251 deg: {(1,): ('ok', 0, 0), (1, 2): ('ok', 0, 0)} -> {(1,): ('multi', 0, 0), (1, 2): ('multi', 0, 0)}
+      edge at theta=-18.2900 deg: {(1,): ('multi', 0, 0), (1, 2): ('multi', 0, 0)} -> {(1,): ('ok', 1, 0), (1, 2): ('ok', 1, 0)}
+[reflect] host A=[1.0, 12.0] T=15.0 (|d|=6.62): raw roots 66; valid H1 one/two slits 12/12; multi(one slit) 0; H0 fails 0; zero-solution cases 0; slit-1 launches with structure differing 0
+      edge at theta=-18.6251 deg: {(1,): ('ok', 1, 0), (1, 2): ('ok', 1, 0)} -> {(1,): ('multi', 1, 0), (1, 2): ('multi', 1, 0)}
+      edge at theta=-18.2814 deg: {(1,): ('multi', 1, 0), (1, 2): ('multi', 1, 0)} -> {(1,): ('ok', 1, 0), (1, 2): ('ok', 1, 0)}
+      edge at theta=-17.8436 deg: {(1,): ('ok', 1, 0), (1, 2): ('ok', 1, 0)} -> {(1,): ('ok', 0, 0), (1, 2): ('ok', 0, 0)}
+[reflect] host A=[-1.8, -3.0] T=8.0: |d|=9.000 >= T: no CTC, dropped
+[reflect] host A=[-1.8, -3.0] T=15.0 (|d|=9.00): raw roots 0; valid H1 one/two slits 0/0; multi(one slit) 0; H0 fails 0; zero-solution cases 0; slit-1 launches with structure differing 0
+[reflect] host A=[4.0, 0.5] T=8.0 (|d|=7.99): raw roots 64; valid H1 one/two slits 29/29; multi(one slit) 0; H0 fails 0; zero-solution cases 0; slit-1 launches with structure differing 0
+      edge at theta=-20.2119 deg: {(1,): ('ok', 0, 0), (1, 2): ('ok', 0, 0)} -> {(1,): ('ok', 1, 0), (1, 2): ('ok', 1, 0)}
+      edge at theta=-14.0815 deg: {(1,): ('ok', 1, 0), (1, 2): ('ok', 1, 0)} -> {(1,): ('ok', 0, 0), (1, 2): ('ok', 0, 0)}
+      edge at theta=-13.8463 deg: {(1,): ('ok', 0, 0), (1, 2): ('ok', 0, 0)} -> {(1,): ('ok', 1, 0), (1, 2): ('ok', 1, 0)}
+      edge at theta=-12.8469 deg: {(1,): ('ok', 1, 0), (1, 2): ('ok', 1, 0)} -> {(1,): ('ok', 0, 0), (1, 2): ('ok', 0, 0)}
+[reflect] host A=[4.0, 0.5] T=15.0 (|d|=7.99): raw roots 0; valid H1 one/two slits 0/0; multi(one slit) 0; H0 fails 0; zero-solution cases 0; slit-1 launches with structure differing 0
+[invert] host A=[-4.2, 10.0] T=8.0 (|d|=4.66): raw roots 66; valid H1 one/two slits 3/3; multi(one slit) 0; H0 fails 6; zero-solution cases 0; slit-1 launches with structure differing 0
+      edge at theta=-19.8855 deg: {(1,): ('fails', 1, 0), (1, 2): ('fails', 1, 0)} -> {(1,): ('ok', 0, 0), (1, 2): ('ok', 0, 0)}
+[invert] host A=[-4.2, 10.0] T=15.0 (|d|=4.66): raw roots 66; valid H1 one/two slits 0/0; multi(one slit) 0; H0 fails 0; zero-solution cases 0; slit-1 launches with structure differing 0
+      edge at theta=-20.1399 deg: {(1,): ('multi', 0, 0), (1, 2): ('multi', 0, 0)} -> {(1,): ('ok', 0, 0), (1, 2): ('ok', 0, 0)}
+[invert] host A=[3.0, 8.0] T=8.0 (|d|=5.20): raw roots 0; valid H1 one/two slits 0/0; multi(one slit) 0; H0 fails 0; zero-solution cases 0; slit-1 launches with structure differing 0
+[invert] host A=[3.0, 8.0] T=15.0 (|d|=5.20): raw roots 0; valid H1 one/two slits 0/0; multi(one slit) 0; H0 fails 0; zero-solution cases 0; slit-1 launches with structure differing 0
+[invert] host A=[1.0, 12.0] T=8.0 (|d|=6.62): raw roots 0; valid H1 one/two slits 0/0; multi(one slit) 0; H0 fails 0; zero-solution cases 0; slit-1 launches with structure differing 0
+[invert] host A=[1.0, 12.0] T=15.0 (|d|=6.62): raw roots 0; valid H1 one/two slits 0/0; multi(one slit) 0; H0 fails 0; zero-solution cases 0; slit-1 launches with structure differing 0
+[invert] host A=[-1.8, -3.0] T=8.0: |d|=9.000 >= T: no CTC, dropped
+[invert] host A=[-1.8, -3.0] T=15.0 (|d|=9.00): raw roots 0; valid H1 one/two slits 0/0; multi(one slit) 0; H0 fails 0; zero-solution cases 0; slit-1 launches with structure differing 0
+[invert] host A=[4.0, 0.5] T=8.0 (|d|=7.99): raw roots 0; valid H1 one/two slits 0/0; multi(one slit) 0; H0 fails 0; zero-solution cases 0; slit-1 launches with structure differing 0
+[invert] host A=[4.0, 0.5] T=15.0 (|d|=7.99): raw roots 0; valid H1 one/two slits 0/0; multi(one slit) 0; H0 fails 0; zero-solution cases 0; slit-1 launches with structure differing 0
+
+TOTAL slit-1 launches (all CTC hosts, both gluings) whose structure depends on slit 2: 0; valid H1 found: 266; zero-solution cases: 2
