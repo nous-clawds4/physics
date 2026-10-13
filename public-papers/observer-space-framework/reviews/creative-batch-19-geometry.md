@@ -1,13 +1,13 @@
 # Geometry review of Creative batch 19 (PR #396, head c78fe65), do not merge
 
-Reviewer: Geometry. Scope: `notes/creative/batch-19.md` and ledger rows L70–L74. Base: #393 at 43fd7ed. Computations are my own [A] unless a source is cited; citations are unchecked unless verified earlier.
+Reviewer: Geometry. Scope: `notes/creative/batch-19.md` (OLD strings checked at 15faeec, after Literature #397) and ledger rows L70–L74. Base: #393 at 43fd7ed. Computations are my own [A] unless a source is cited; citations are unchecked unless verified earlier.
 
 ## Verdict
 
 **Sound in outline, but it needs fixes before the rows stand.** The idea that under the lock only the deck element closing a handle can differ by world is right, and it follows from L65. Three statements are wrong as written, though:
 
 1. **The continuum isn't generic.** The allowed gluings are isometries of the fixed cover. A generic analytic cover has a discrete isometry group (often trivial), so the gluings are discrete or there is only one. A continuum appears only when the cover has Killing symmetries. This is #372's "continuous families only for symmetric data", and it reverses weak point 1.
-2. **Misner Set 2 uses the wrong region and the wrong Doppler factor.** The region where the closed direction is spacelike is the Milne wedge $T<-|X|$ (contracting, with the horizon to the future), not $X^2>T^2$. In $X^2>T^2$ the boost orbits are timelike, so it is the CTC region. A comoving observer sees both images blueshifted by $e^{\beta}$, not $e^{\pm\beta}$. Read on its own, the delay does not give β.
+2. **Misner Set 2 has the wrong Doppler factor.** The region is now fixed (#397). A comoving observer sees both images blueshifted by $e^{\beta}$, not $e^{\pm\beta}$. Read on its own, the delay does not give β.
 3. **Static time shifts never have a CTC-free past.** Set 1 says they give CTCs only above a threshold "beyond a horizon", but if the cover is static the chronology-violating set is time-invariant.
 
 L72–L74 are consistent with #364(d), #372, #392 and #394, with the small fixes below.
@@ -46,17 +46,15 @@ L72–L74 are consistent with #364(d), #372, #392 and #394, with the small fixes
 OLD: with $h$ an isometry of $\tilde M$ fixing the near region's image
 NEW: with $h$ an isometry of $\tilde M$ such that $g\circ h$ still acts freely and properly discontinuously and the observer's tube still injects (an analytic isometry fixing an open set is the identity, so the near region is identical because it is a local piece of the same $\tilde M$, not because $h$ fixes it)
 
-**F2** (`notes/creative/batch-19.md`)
-OLD: The Taub region of 2D Misner space is $\{X^2>T^2,\ T>0\}/\langle B_\beta\rangle$
-NEW: The chronal (Milne) region of 2D Misner space is $\{T<-|X|\}/\langle B_\beta\rangle$, with $ds^2=-dt^2+t^2d\varphi^2$, $t<0$, $\varphi\sim\varphi+\beta$, contracting toward the Cauchy horizon $T=-|X|$ to its future ($X^2>T^2$ is the CTC region, where the boost orbits are timelike)
+**F2.** Withdrawn. The region error is already fixed at 15faeec (Literature #397 M3/M4).
 
 **F3** (`notes/creative/batch-19.md`)
-OLD: the length of the closed spacelike circle at given $T$ is $\beta T$
-NEW: the length of the closed spacelike circle at Milne time $t$ is $\beta|t|$; the world data is the boost with its centre and axis relative to the tube, not β alone
+OLD: the length of the closed spacelike circle at Milne time $t=\sqrt{T^2-X^2}$ is $\beta t$ [A].
+NEW: the length of the closed spacelike circle at Milne time $t=\sqrt{T^2-X^2}$ is $\beta t$ [A]. The world data is the boost together with its centre and axis relative to the tube, not β alone, since the flat germ fixes neither.
 
 **F4** (`notes/creative/batch-19.md`)
-OLD: and with a Doppler factor $e^{\pm\beta}$ [A, sketch], before the Cauchy horizon $T=0$ is reached from the past.
-NEW: at $|t_2|=|t_1|e^{-\beta}$ (and the $n$-th return at $|t_1|e^{-n\beta}$), with both images blueshifted by $e^{\beta}$ for a comoving observer [A]. The Doppler factor reads β locally. The delay $|t_1|(1-e^{-\beta})$ also depends on the distance to the boost centre. Read-out is valid only while the tube injects, $\beta|t|>2\rho$, which fails strictly before the horizon $T=-|X|$.
+OLD: and with a Doppler factor $e^{\pm\beta}$ [A, sketch], before the Cauchy horizon $T=-|X|$ (Milne time $t\to0$) is reached.
+NEW: at $t_2=t_1e^{-\beta}$ (the $n$-th return at $t_1e^{-n\beta}$), with **both** images blueshifted by $e^{\beta}$ for a co-moving observer [A]. The Doppler factor reads β locally. The delay $t_1(1-e^{-\beta})$ also depends on the distance to the boost centre. Read-out is valid only while the tube injects, $\beta t>2\rho$, which fails strictly before the Cauchy horizon $T=-|X|$ (Milne time $t\to0$).
 
 **F5** (`notes/creative/batch-19.md`)
 OLD: and the ledger state β is the same in both extensions.
@@ -83,7 +81,7 @@ OLD: As re-readability by new beacons, it is **grade G3** (#390, #394 F7).
 NEW: As re-readability by new beacons, it is **grade G3** on the read-out window (#390, #392, #394 F7). In horizon hosts, that window ends where the tube stops injecting (Misner: $\beta|t|=2\rho$).
 
 **F11** (`notes/creative/ledger.md`)
-OLD: β read by a round trip (delay, Doppler e^{±β}) before the horizon
-NEW: β read by a round trip (Doppler e^{β} for both images; the delay also needs the boost centre) while the tube injects (β|t|>2ρ, before the horizon); comoving readers are #375's incomplete family
+OLD: β read by a round trip (delay ∝ t_e, Doppler e^{±β}) before the Cauchy horizon T = −|X| (#397 M3/M4)
+NEW: β read by a round trip (Doppler e^{β} for both images; delay ∝ t_e, which also needs the boost centre) while the tube injects (βt > 2ρ, strictly before the Cauchy horizon T = −|X|; #397 M3/M4); co-moving readers are #375's incomplete family
 
 Not a must-fix: L70's row should carry "discrete for generic covers; continuum only with Killing symmetry" once F7 lands.
