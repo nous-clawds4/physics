@@ -30,7 +30,7 @@ def image_force(t,R,V,A,L,M):
         mid=0.5*(lo+hi); rr=R[:,None,:]-(interp(mid,R)+shift)
         g=tt-mid-np.linalg.norm(rr,axis=-1); lo=np.where(g>0,mid,lo); hi=np.where(g>0,hi,mid)
     tr=0.5*(lo+hi); rr=R[:,None,:]-(interp(tr,R)+shift); Rn=np.linalg.norm(rr,axis=-1)
-    nvec=rr/Rn[...,None]; b=interp(tr,V); bd=interp(tr,A)
+    nvec=rr/Rn[...,None]; b=interp(tr,V); bd=np.where((tr<t[0])[...,None],0.0,interp(tr,A))  # at rest, unaccelerated before launch
     # 3-vectors (z=0)
     z=lambda X: np.concatenate([X,np.zeros(X.shape[:-1]+(1,))],-1)
     n3,b3,bd3=z(nvec),z(b),z(bd); k=1-np.sum(n3*b3,-1)
@@ -55,4 +55,8 @@ if __name__=="__main__":
         print(f"L={L} v={v} tau={tau} slit_kick={'none' if ys is None else f'y_s={ys},dv={dvs}'} M={M}")
         print(f"   dx_hit/eps: min {dx.min():.4g} max {dx.max():.4g};  delta/eps: min {dens.min():.4g} max {dens.max():.4g}; sign changes {len(zc)}; mean theta-period {per:.3g} deg")
         print("   theta(deg), dx/eps, delta/eps:", " ".join(f"({np.degrees(a):.1f},{b:.3g},{c:.3g})" for a,b,c in list(zip(th,dx,dens))[::12]))
+        print(f"   mean delta/eps {dens.mean():.4g}; slope d(dx/eps)/dtheta at 0 = {np.interp(0,th,np.gradient(dx,th)):.4g} per rad")
         print(f"   eps at which delta first reaches -1 (caustic, bands; out of first-order validity): {1/abs(dens.min()):.3g}")
+    print("M-doubling convergence (L=2.5, v=0.5, no kick): dx_hit/eps")
+    for a in [-10,-1,8,20]:
+        print(f"   theta={a}: "+"  ".join(f"M={M}: {deflection(np.radians(a),0.5,tau,2.5,D,dt,M):.4g}" for M in (12,24,48)))
