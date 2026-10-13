@@ -56,4 +56,4 @@ Persistence of the ledger, a separate step per David 8:13 PM. Listed only:
 - orbit decay toward the throat (Dent et al., per #383);
 - integrality of the flux record, which needs identical carrier charges (#385, L58);
 - the exotic-matter cost of the handles (#382, #385);
-- threading-orbit instability in the flat handle (one-period trace 2(1+L/a)); whether mouth gravity stabilises it is open (#385, #387).
+- threading-orbit instability in the flat handle (trace 2(1+L/a) per passage, 4(1+L/a)²−2 over one full period of two passages); whether mouth gravity stabilises it is open (#385, #387).
