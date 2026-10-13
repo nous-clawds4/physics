@@ -12,8 +12,8 @@
 - **Setup.** We use the fixed-wrap two-slit case from step 1: one world shape, and a hit that could have come by either of two routes (the direct one, n = 0, or round the wrap the other way, n = −1). Nothing records the route.
 - **Baseline, stated first.** Adding a passive which-route counter changes no hit. It only splits the group of compatible worlds by route.
 - **Escape A, weights on whole worlds.** Could a rule that weights each world by its full set of possible routes make dark bands? We prove it can't, as long as each world's weight doesn't depend on which slits are open: the pattern with both open is then just a blend of the one-slit patterns, so no spot is darker than both. If the weight *does* depend on which slits are open, dark bands are possible in principle, but only by building the answer into the weight. We found no independent reason for such a weight, so it fails your no-tuning test (LT2).
-- **Escape B, the particle's own field.** Give the particle a small charge, so its field goes round the wrap and pushes back on it. We computed it. For a particle moving steadily, the pushes from all the wrapped-around copies cancel exactly, so the path stays straight and the hits spread evenly with no bunching. The bouncing-droplet experiments, which do get patterns, rely on a wave that the droplet keeps re-exciting and that remembers its past. Our field has no such memory.
-- **Verdict.** A: no fringes without tuning. B: no fringes in this test model. Both escapes are honestly closed here; the open door is a field with memory, which is a different model.
+- **Escape B, the particle's own field.** Give the particle a small charge, so its field goes round the wrap and pushes back on it. We computed it. For a particle moving steadily, the pushes from all the wrapped-around copies cancel exactly, so the path stays straight and the hits move smoothly and monotonically with launch angle, with no bands (their density follows the launch weighting and $D\sec^2\theta$, not uniform). That holds only if the particle has always moved steadily: a real launch or slit crossing sends out radiation that wraps round and comes back later, a kind of memory of the path. We have not computed whether that could make bands. The bouncing-droplet experiments, which do get patterns, rely on exactly such a remembering wave.
+- **Verdict.** A: no fringes without tuning. B: no fringes for eternal steady motion; the wrapped radiation after a launch or slit crossing (path memory) is open and not computed.
 
 ---
 
@@ -32,7 +32,7 @@
 
 **Lemma A (no cross term without configuration dependence) [A].** Suppose $p^{\{0,-1\}}(w)=\lambda\,p^{\{n_w\}}(w)$ for every world $w$, with one constant $\lambda>0$. That is, a world's weight with both open is its one-route weight, up to a single normalisation factor. Then
 $$I_{\{0,-1\}}=\lambda\,(I_{\{0\}}+I_{\{-1\}}),$$
-and with per-configuration normalisation ($\lambda=\tfrac12$ for equal total weights), $\min(I_{\{0\}},I_{\{-1\}})\le I_{\{0,-1\}}\le\max(I_{\{0\}},I_{\{-1\}})$ pointwise. In particular, there is no point $x$ where both one-slit patterns are positive and the two-slit pattern vanishes.
+and, normalising each pattern ($\hat I_C=I_C/M_C$, $M_C$ its total weight), $\hat I_{\{0,-1\}}=(M_{\{0\}}\hat I_{\{0\}}+M_{\{-1\}}\hat I_{\{-1\}})/(M_{\{0\}}+M_{\{-1\}})$, a convex combination weighted by the one-slit total masses, so $\min(\hat I_{\{0\}},\hat I_{\{-1\}})\le\hat I_{\{0,-1\}}\le\max(\hat I_{\{0\}},\hat I_{\{-1\}})$ pointwise. In particular, there is no point $x$ where both one-slit patterns are positive and the two-slit pattern vanishes.
 *Proof.* Each world contributes to exactly one route's sum, because one launch gives one route (#401). So the two-route sum splits into the one-route sums. ∎
 
 **Corollary (what a fringe requires).** A dark spot at $x$, with $I_{\{0,-1\}}(x)<\min(I_{\{0\}}(x),I_{\{-1\}}(x))$, requires $p^{\{0,-1\}}(w)<\lambda\,p^{\{n_w\}}(w)$ for some world landing at $x$. So the weight of a world must depend on **which other routes are open**, and, to give bands, on the hit point. Concretely, it must vary with the path difference between θ₀ and θ₋₁ for the same $x$.
@@ -48,7 +48,7 @@ and with per-configuration normalisation ($\lambda=\tfrac12$ for equal total wei
 
 ## Set B: self-field of a test charge
 
-**Plain summary.** The charge's field comes round the wrap from both sides and cancels. A steadily moving charge feels no net push, so its path is straight and nothing bunches.
+**Plain summary.** The charge's field comes round the wrap from both sides and cancels. A charge that has always moved steadily feels no net push, so its path is straight and nothing bunches. Radiation from a launch or slit crossing that wraps round and returns later is open.
 
 **Model.** A test charge $q$ on the flat cylinder $\mathbb R^3$ with $x\sim x+L$ (not gravity: under the lock the self-field must be a test field, #399 §4 item 2). Its field in the quotient is the field of its images at $r+mL\hat x$. No radiation reaction (test model).
 
@@ -57,25 +57,26 @@ and with per-configuration normalisation ($\lambda=\tfrac12$ for equal total wei
 - Images $m$ and $-m$ give equal and opposite forces: $\sin^2\psi$ is the same for $R$ and $-R$, and $\hat R$ flips. So **the net self-force vanishes exactly**.
 - Numerically, the sum over $|m|\le2000$ gives zero to machine precision for v = 0, (0.3,0,0), (0,0.5,0), (0.4,0.4,0) and (0.2,0.5,0.3) (`results.txt`).
 - So straight lines are self-consistent. The hit $x=D\tan\theta \bmod L$ is strictly monotone in θ within each route (table in `results.txt`): **no bunching into bands.**
-- **Where a self-force could act:** only during acceleration (the launch or aperture transit), which is radiation-reaction territory and outside the test model. Charged aperture walls would deflect via their own induced charges. That is a smooth, single-world, configuration-dependent deflection, not bands.
+- **Where a self-force could act:** only during acceleration (the launch or aperture transit), where the wrapped radiation returning at times ~mL gives path memory (open, not computed). Charged aperture walls would deflect via their own induced charges. That is a smooth, single-world, configuration-dependent deflection, not bands.
 
 **Comparison with the droplets** (bibliographic only, per #403 and Claude 017).
 - Couder–Fort 2006 patterns came from a **driven, persistent guiding wave** that the droplet keeps re-exciting, with path memory: "the droplet is influenced by both slits by virtue of the spatial extent of its guiding wave field" (Pucci et al. 2018, abstract per external review).
 - Andersen et al. 2015 and Pucci et al. 2018 did not reproduce single-particle interference.
-- Our field is conservative, instantaneous-image and memoryless, so it lacks exactly the ingredient the droplets need.
+- For eternal uniform motion our field exerts no net force. But any launch or aperture acceleration radiates, and on the cylinder that radiation wraps round and returns at times of order $mL$: a retarded self-field with path memory. Whether it can bunch hits is not computed (open).
+- Merged with Literature M2: for eternal uniform motion the image field gives no path memory, while radiation-induced wrapped memory after launch or a slit crossing is open. Path memory is the droplets' ingredient (Fort et al., PNAS 107 (2010) 17515; Eddi et al., JFM 674 (2011) 433; bibliographic only, per Literature).
 
 **With a passive which-route record.** A passive (uncharged, non-interacting) counter changes nothing: same straight paths, same hits. A charged counter is not passive; it deflects smoothly, without bands.
 
-- **Status: closed in this test model** (L82, L83). The open door is a field with memory, a driven or dissipative medium, which is a different, non-test model.
+- **Status: closed for eternal uniform motion** (L82, L83). Open: wrapped radiation after launch or a slit crossing (path memory), not computed.
 
 ---
 
 ## Weak points
 
 1. **Lemma A is for weights fixed per world.** A weighting over *sets* of worlds that is not a sum over worlds (non-additive) is outside it, and is not defined in our framework.
-2. **Uniform motion only** in Set B. A transient self-force at launch is not computed (radiation reaction excluded).
-3. **Flat cylinder, one handle direction, static.** A curved handle or Misner boost gluing could make image forces non-cancelling. Not computed.
-4. **No memory field** was tried. That is the real analogue of the droplets, and a new model would be needed.
+2. **Eternal uniform motion only** in Set B. Wrapped-around radiation from the launch or aperture transit (a memory effect native to the cylinder) is not computed, so Set B's status is "closed for eternal uniform motion", not "closed in the test model". The $|m|\le2000$ check cancels pair by pair and confirms only the symmetry argument.
+3. **Flat cylinder, one handle direction, static.** A curved handle or Misner boost gluing could make image forces non-cancelling. Not computed. Prior art: a static charge feels a nonzero self-force outside a Schwarzschild black hole (Smith & Will, PRD 22 (1980) 1276) and in the locally flat, conical cosmic-string space (Linet, PRD 33 (1986) 1833); bibliographic only, per Literature.
+4. **Wrapped radiation memory not computed.** Retarded fields returning at times ~mL after launch or a slit crossing give the cylinder its own path memory, the droplet ingredient; open.
 5. **The aperture is idealised** (a launch-angle set). Real slits with walls bring image charges and diffraction-free smooth deflection only.
 
 Ledger: L80–L84 (L84 records David's 8:46 AM words).

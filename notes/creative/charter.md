@@ -111,3 +111,5 @@ Widget answer (same relay, verbatim):
 ## Addendum: two-slit step 2 (David, 8:46 AM ET 2026-10-13, widget answer, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
 
 > Explore both escapes side by side in step 2.
+
+Status note (batch 21 reviews): Set A Lemma A stands (normalised min/max bound); Set B is closed for eternal uniform motion only, with wrapped radiation memory after launch or slit crossing open.
