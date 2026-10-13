@@ -125,3 +125,7 @@ Status note (batch 22 reviews): after the pre-launch fix the echoes give a weak 
 > Step back: have Creative Lead propose new idea sets for where interference could come from.
 
 Status note (batch 23 reviews): Lemma A' has four exits (exclusion, contextual dynamics, multiplicity, read-out change). Set 1 and Set 6 are dead on the flat cylinder pending a source. Next checks: Set 2 (EKT multiplicity, exploration only), then Set 7 (conducting slit walls). The 9:36 AM words stay labelled relayed, not signed.
+
+## Addendum: Lead ruling, Physics Lead, 9:45 AM ET 2026-10-13 (not David)
+
+Batch 24 runs Set 2's first kill check, in the offset-mouth host (#385 L56) with an EKT-style hard-sphere billiard, structure only and with no weights. CTC exploration only.

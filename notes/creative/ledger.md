@@ -104,6 +104,10 @@
 | L95 | Set 5: count observer histories | **Batch 23:** 1/\|class\| weights are reweighting; without exclusion, no dips | batch-23 | **proposed, rank 5, L0–L1** | expected dead |
 | L96 | Set 6 / Set 7 / Set R | **Batch 23:** Set 6 (loosened lock) reduces to Set 1, ill-posed as counting (dead pending a source). Set 7: conducting slit walls, contextual dynamics (a legitimate failure of Lemma A' (iii), not exclusion; dips need the map to fold or exclude; hit map uncomputed), rank 2, L0–L1. Rejected: "both routes"; negative weights (LT2; prior art Wigner 1932, Feynman 1987, not endorsed) | batch-23; #407 | **6 dead; 7 proposed; R rejected** | |
 | L97 | David 9:36 AM | "Step back: have Creative Lead propose new idea sets for where interference could come from." (widget answer; relayed by Physics Lead, Physics Lead chat, not signed; verbatim) | David 9:36 AM | **ruling** | |
+| L98 | EKT host model | **Batch 24:** 2D hard-sphere billiard; idealised translation mouth (d = B − A, time shift T); H1 closure forces n ∥ v0 − d/T, \|u\| > 2r/T, t_c free (continuum families, artefact) | batch-24 [A, N] | **computed** | EKT verified (Crossref); Friedman et al. 1990 abstract only |
+| L99 | multiplicity vs slit 2 | **Batch 24:** 10 hosts × 161 launches: multiplicity exists (host (3,8): 20 launches with H0 + one H1 interval); H0 never fails (no exclusion); no slit-1 launch's structure depends on slit 2; every difference is a slit-2 launch (trivially blocked) | batch-24 [N] | **Set 2 weakened, L0–L1** | dense host scan next |
+| L100 | which-route kill | **Batch 24:** a passive record leaves the consistency map and multiplicity unchanged (labels only); an active or hard record blocking the older ball's slit-2 passage removes any slit-2-dependent family; the pattern effect needs a counting rule (#399) | batch-24 [A] | **noted** | |
+| L101 | Lead ruling 9:45 AM | Batch 24 = Set 2 first kill check in the offset-mouth host (#385 L56), EKT-style hard spheres, structure only, no weights | Lead ruling, Physics Lead, 9:45 AM ET 2026-10-13 (not David) | **Lead ruling** | |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -350,3 +354,4 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-13: David's 9:36 AM words recorded verbatim (ledger, charter); batch 23 brainstorm (L90–L97).
 - 2026-10-13: batch 23 Geometry M1–M9 and Literature M1–M4 applied (Geometry M7 and Literature M3 merged); Set 1/6 dead pending a source; Set 2 and new Set 7 (conducting walls) ranked up; L90–L92, L96 updated; __pycache__ removed.
 - 2026-10-13: batch 23 Geometry final fixes F1–F6 and weak point 5 applied; L92, L96 aligned.
+- 2026-10-13: batch 24 (L98–L101): Set 2 first kill check, Lead ruling 9:45 AM recorded.
