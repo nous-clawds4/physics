@@ -87,3 +87,7 @@ Caveat: no in/out S-matrix is assumed; the model is classical. Where the geon fo
 ## Addendum: signal and record (David, 7:45 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
 
 > Should we delve into the details of what constitutes the signal and how it gets recorded? If the observer is going to record data, then it needs to be physical, which means encoded into spacetime itself. Perhaps some sort of ledger composed of particles of nontrivial topology that is distinct from the observer but travels in close proximity?
+
+## Addendum: persistence (David, 10:37 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> On the topic of persistence, we might adopt the position that some pieces of matter are highly effective ledgers, other pieces of matter might be less effective, where more effective means that the matter keeps a record of many of its observations, and less effective means it keeps a record of fewer of them. So the fact that some observations don't persist should not be considered fatal to our endeavor. At this point, all we need is a clear model for what persistence means, how it happens, and that it can happen and is sufficiently well defined. Persistence doesn't need to happen all the time, everywhere; it merely needs to happen more than never.
