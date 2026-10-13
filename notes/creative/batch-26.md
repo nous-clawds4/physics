@@ -31,6 +31,12 @@ Prior art for the picture (bibliographic only, per Literature): Wheeler's foam, 
   - the emitter's surroundings differ between worlds.
 - **The question, stated cleanly.** Among the worlds compatible with what the observer knows, consider those in which the particle sets off detector d_i. We want the relative size of that set for each d_i. *How* to measure the size of a set of worlds is left open on purpose: no probability rule is put in.
 
+- **David's germ-order idea (5:00 PM).** Look at how many derivatives of the geometry matter at a given scale. At human scale only the flat part should matter; at the microscopic scale, ever-higher derivatives keep mattering.
+  - Taken literally at one point, that runs into a snag: if the geometry twists at the tiny scale, its Taylor series at a lab point stops converging at about that tiny distance, so it can't describe the lab at all.
+  - The way through is to use two germs: the *smoothed* geometry for "flat at human scale" and the raw geometry for "twisted at tiny scales".
+  - Two limits: this picture is blind to twists that are perfectly flat (like a tiny wrapped-up direction), and the germ never fixes the global topology.
+  - The smoothed germ gives a natural flat map from one anchor. But matching detectors across worlds still needs the lab-wide best fit and a comparison against one shared reference.
+
 ---
 
 ## (1) The projection: candidates and choice
@@ -70,7 +76,7 @@ Prior art for the picture (bibliographic only, per Literature): Wheeler's foam, 
 
 ## (2) Uniqueness and anchoring
 
-- **Freedom.** If f satisfies (C1)–(C4), so does P∘f for every P in ISO(3) × time translations (7 parameters; boosts only up to O(ε), see below). In addition, any two admissible maps differ by a map within O(εR + ℓ) of some Poincaré P. This is modelled on rigidity of approximate isometries between Euclidean spaces: Hyers–Ulam 1945 (Bull. AMS 51, 288) and Gruber 1978 (Trans. AMS 245, 263) [V-meta] treat additive error only, and the multiplicative ε·d_h term needs (1+ε)-bi-Lipschitz rigidity such as John 1961 (CPAM 14, 391) [V-meta]; see also Alestalo–Trotsenko–Väisälä 2001 [unchecked]. Neither applies directly, since (U, d_h) is not a normed space; the transfer to U is assumed, not proved. Given h, the bounded-domain rigidity is essentially of this known type, and (C3) reduces E(4) to time-axis-preserving motions. With the fixed-frame norm of (C1), the exact freedom is ISO(3) × time translations; boosts enter only at O(ε). What is not known is a coarse rigidity in terms of causal order alone: the exact results (Hawking–King–McCarthy 1976; Malament 1977; Zeeman 1964 [unchecked]) need bijections or homeomorphisms, and Zeeman's dilations show that causal order alone does not fix scale. So each world's f is fixed **modulo Poincaré, up to a residual coarse error δ_f ~ εR + ℓ**.
+- **Freedom.** If f satisfies (C1)–(C4), so does P∘f for every P in ISO(3) × time translations (7 parameters; boosts only up to O(ε), see below). In addition, any two admissible maps differ by a map within O(εR + ℓ) of some such motion. This is modelled on rigidity of approximate isometries between Euclidean spaces: Hyers–Ulam 1945 (Bull. AMS 51, 288) and Gruber 1978 (Trans. AMS 245, 263) [V-meta] treat additive error only, and the multiplicative ε·d_h term needs (1+ε)-bi-Lipschitz rigidity such as John 1961 (CPAM 14, 391) [V-meta]; see also Alestalo–Trotsenko–Väisälä 2001 [unchecked]. Neither applies directly, since (U, d_h) is not a normed space; the transfer to U is assumed, not proved. Given h, the bounded-domain rigidity is essentially of this known type, and (C3) reduces E(4) to time-axis-preserving motions. With the fixed-frame norm of (C1), the exact freedom is ISO(3) × time translations; boosts enter only at O(ε). What is not known is a coarse rigidity in terms of causal order alone: the exact results (Hawking–King–McCarthy 1976; Malament 1977; Zeeman 1964 [unchecked]) need bijections or homeomorphisms, and Zeeman's dilations show that causal order alone does not fix scale. So each world's f is fixed **modulo ISO(3) × time translations (boosts at O(ε)), up to a residual coarse error δ_f ~ εR + ℓ**.
 - **Fixing across worlds** needs a cross-world gauge: a rule choosing P_w in each world.
 - **Emitter anchoring** sets f_w(e) = 0 and maps an emitter frame to the standard frame. Two problems:
   - It needs the emitter's frame to be identified across worlds. Worse, E_w has h-diameter < ℓ, below the chart's additive resolution ℓ, so f_w(E_w) fixes translation to within ℓ and no frame at all. The emitter is "arbitrarily small", so its worldline gives a time direction but its spatial axes need apparatus orientation.
@@ -141,6 +147,101 @@ Consequences for the LEA:
 - Two worlds can agree near the emitter, and so share the anchor (§2), while differing in their microstructure elsewhere in U. This is exactly the case in which the optional criteria (M-a)/(M-b) matter.
 - (M-a) must be evaluated on each world's global data in U, not inferred from a germ.
 
+
+## Germ-order formulation (David, 5:00 PM)
+
+**David, 5:00 PM ET 2026-10-13, relayed by Physics Lead, Physics Lead chat, not signed (verbatim):**
+> One idea I have for formulating the LEA in a mathematically rigorous manner is in terms of the order k of the derivatives of the germ. We might say that flat at human scale means that k should be uniformly 0 (or below some very low number) within some interval that defines that scale; but violently twisted microscopically would be equivalent to k not being uniformly low within some other interval of k that corresponds to the microscopic scale.
+
+**Physics Lead's reading** (a Lead reading, not David's):
+- The order-k term contributes ~|a_k| ℓ^k at scale ℓ.
+- Human-scale flatness means terms of order ≥ 2 are negligible at ℓ_H.
+- Microscopic twisting means a_k grows ~ℓ_P^{−k}, with radius of convergence near ℓ_P.
+- Caveat: π₁ is global, and the germ reaches it only through analytic continuation under the lock.
+
+### (a) Definition
+
+- **Coefficients.**
+  - Fix an anchor p, the lab field u, and an h-orthonormal frame at p.
+  - In Riemann normal coordinates, g_ab(x) = η_ab − ⅓R_acbd x^c x^d − ⅙∇_e R_acbd x^c x^d x^e + …
+  - The order-k coefficient a_k(p) (k ≥ 2) is a universal polynomial in ∇^j R, j ≤ k − 2, including products of lower orders [standard; unchecked].
+  - Its size is |a_k|, the h-norm of the coefficient tensor. a_0 = η and a_1 = 0, so "order 0 or 1" means flat.
+- **Scale profile.** c_k(p; λ) = |a_k(p)| λ^k, which is dimensionless.
+- **Effective order at scale λ.** K(p; λ) = max{k : c_k(p; λ) > ε}.
+- **Curvature length of order k.** λ_k(p) = |a_k(p)|^{−1/k}.
+- **Radius of convergence.** ρ(p) = 1/limsup |a_k|^{1/k} (Cauchy–Hadamard).
+
+**Readings of "k uniformly low within an interval".** The text admits three:
+- **(R1) Scale interval, effective order.** On I_H = [ℓ₁, ℓ₂] (human scale), K(p; λ) ≤ k₀ for all λ ∈ I_H and all p ∈ U, with k₀ = 1 (or "very low"). Microscopic twisting: K(p; λ) is large or unbounded for λ in a micro interval I_μ.
+- **(R2) Tail norm.** Σ_{k > k₀} c_k(p; λ) ≤ ε on I_H, and the tail is ≥ 1 on I_μ.
+- **(R3) An interval of k, as David's last clause suggests** ("some other interval of k that corresponds to the microscopic scale"). Orders map to scales via λ_k. Flat at human scale: λ_k ≥ ℓ_H for k ∈ [2, k_H]. Twisted: λ_k ≲ ℓ_μ for k in a high-order interval [k₁, k₂].
+
+**Ambiguity flag.** R1 and R2 index the interval by *scale*; R3 indexes it by *order*. David's sentence uses both ("an interval that defines that scale"; "an interval of k"). They agree only if λ_k is monotone in k, which is not guaranteed. The program should choose. This note uses R1 for statements and R3 for intuition.
+
+### (b) The convergence tension
+
+If |a_k| ~ ℓ_P^{−k} (Lead reading), then ρ ~ ℓ_P, and at λ = ℓ_H ≫ ρ the terms c_k = (ℓ_H/ℓ_P)^k grow without bound. **The series of the germ of g at a lab point diverges at human scale**, so R1–R3 cannot all be stated for the germ of g. Under the lock, ρ(p) is at most the distance to the nearest complex singularity of the continuation, presumably the nearest microstructure, so with dense foam ρ ~ ℓ_P everywhere [A, heuristic].
+
+**Options.**
+1. **Asymptotic or truncated use** of the germ of g: valid only for λ ≪ ρ ~ ℓ_P. "Flat at human scale" is then inexpressible, so this fails.
+2. **Two-regime profile:** small low orders and large high orders. The tail still dominates at ℓ_H, so it fails pointwise for the same reason.
+3. **Exactly flat between handles:** impossible under the lock. An analytic metric that is flat on an open set is flat on the whole connected manifold (identity theorem), so curved micro-handles make the germ non-flat at every point.
+4. **Smoothing: chosen.** Use the germ of the coarse-grained metric ḡ_L (§1) for the macro statement, and the germ of g for the micro statement:
+   - **flat at human scale:** R1 for ḡ_L on I_H;
+   - **violently twisted:** R1 or R3 for g on I_μ (λ ≲ ρ).
+
+   This is consistent with the lock, which constrains g, the world. ḡ_L is a derived description; it is analytic if a heat-kernel or Gaussian smoothing is used, and it need not be. It also matches (C4).
+
+### (c) What the germ-order picture can and cannot detect
+
+This is consistent with "Germ and global data" (Literature M3): the germ fixes the local metric, not the topology.
+
+**Can detect:**
+- curvature microstructure, through a_k for g;
+- under the lock, the holonomy along a *given* loop, when analytic continuation of the germ (and of a frame) along it exists. The monodromy of the frame is the Levi-Civita holonomy.
+
+**Cannot detect:**
+- π₁ itself;
+- which analytic extension is realised (Misner, Taub–NUT, #371);
+- **flat micro-topology.** A flat wrap or flat handle has a_k = 0 for all k ≥ 2 at every point, the same germ as Minkowski space. So "k uniformly 0" can hold at *every* scale in a world that is "violently twisted, with nontrivial fundamental group". The germ-order criterion for twisting captures curvature twisting only; flat topology needs the global data (M-a).
+
+### (d) Does it fix the flat projection?
+
+- **Exponential chart.** f_o = exp_{ḡ_L, o}^{−1}, in an h-orthonormal frame at the anchor o, with the germ truncated at k ≤ 1. This gives a flat chart on the normal neighbourhood of o for ḡ_L.
+  - (C1) holds with ε ~ R²/𝓡² from a_2 of ḡ_L. Using g instead fails, because its injectivity radius and ρ are ~ℓ_P.
+  - **Residual freedom:** the frame at o, i.e. a Lorentz transformation (6 parameters, reduced to ISO(3) by u).
+  - The translation is fixed by o, but o is defined only to ℓ within its anchor body.
+- **Comparison with the best-fit (Procrustes) projection** (§2, F5):
+
+  | | anchors needed | residual freedom | error growth |
+  |---|---|---|---|
+  | exponential chart | 1, plus a frame | that frame | frame error × R |
+  | Procrustes | ≥ 4 non-coplanar, one with temporal extent | none beyond O(εR + ℓ) | none |
+
+  The two agree to O(R²/𝓡² + εR + ℓ) once the exponential chart's frame is taken from the Procrustes fit.
+- **Verdict:** the germ-order picture gives a *canonical member* of the admissible family, the exponential chart of ḡ_L. It does not remove the need for a frame-fixing rule. The hybrid (exponential chart with its frame from the Procrustes fit) is recommended.
+
+### (e) Does it fix the identification of d_i?
+
+- **Truncated jets at a shared anchor.** At the anchors, the jets j^{k_H} of ḡ_L agree with flat to within ε in every compatible world. That says the worlds are all nearly flat. **It does not identify d_i.** Identification still goes through the images of D_i in the charts, compared to the shared reference (§3, F7): reference, not pairwise.
+- **Is the shared anchor well-defined?** Only coarsely. The anchor is a lab body in the record, so its location in each world is defined to ℓ and its frame to the apparatus orientation. A "point o" with a micro-jet is not shared across worlds.
+- **Micro-jets as a refinement criterion** (the jets of g at the anchor):
+  - Pairwise comparison within a tolerance is not transitive.
+  - There is no natural reference micro-jet to compare to (the flat one is the macro reference).
+  - Exact equality is transitive, but under the lock equal germs mean identical local metrics, and micro-jets vary over the ℓ-ball anyway.
+  - So micro-jets can serve only as a **scale-averaged** criterion, e.g. the profile λ_k(·) over the ℓ-ball compared to a reference profile. They are not a pointwise one.
+
+### (f) Well-posedness audit (new terms)
+
+- **Defined:** a_k, c_k, K, λ_k and ρ (frame-dependent through u; use the scalar invariants |∇^j R|_h, or fix u); I_H, I_μ, k₀, ε; the germ of g and of ḡ_L.
+- **Ill-posed when:**
+  1. it is applied to the germ of g at human scale (divergence, (b));
+  2. **flat micro-topology** is present: invisible to the criterion, (c), so the twisting has to be stated via (M-a);
+  3. the dependence on the averaging convention exceeds the tolerance (inherits §4 condition 4);
+  4. a_k depends on the frame (u) above the tolerance (inherits §4 condition 9);
+  5. a micro-criterion at "the anchor point" is used (o is defined only to ℓ, (e)), instead of a scale-averaged one;
+  6. the reading is not fixed: R1/R2 versus R3, (a).
+
 ## (6) The emitter–detector question, stated
 
 **Data.**
@@ -173,4 +274,4 @@ Consequences for the LEA:
 4. Which microstructure criterion (M-a/b/c) the program adopts. (M-b) ties the LEA to the ledger.
 5. The measure μ on W, which is outside the LEA.
 
-Ledger: L108–L114 (L108 records the paraphrase of David's direction).
+Ledger: L108–L118 (L108 records the paraphrase of David's 4:55 PM direction; L115 records David's 5:00 PM words verbatim).

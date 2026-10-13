@@ -145,3 +145,9 @@ Status note (batch 25): the extended-source scan confirms Set 7 at L0: no dark b
 Paraphrase (not verbatim): the target is generic, a particle from an arbitrarily small emitter region and the relative probability of detection at d_i. First settle how d_i is identified across worlds, via a "low (but not too low!) energy approximation". Spacetime is nearly flat at human scale but "violently twisted, with nontrivial fundamental group, at the microscopic scale". Worlds are projected into one flat, simply connected spacetime, and the same spot (plus optional microstructure criteria) means the same d_i. No deep justification of the LEA yet.
 
 Program state: two-slit is paused; Set 2 and Sets 3/5 are on hold.
+
+## Addendum: germ-order formulation (David, 5:00 PM ET 2026-10-13, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> One idea I have for formulating the LEA in a mathematically rigorous manner is in terms of the order k of the derivatives of the germ. We might say that flat at human scale means that k should be uniformly 0 (or below some very low number) within some interval that defines that scale; but violently twisted microscopically would be equivalent to k not being uniformly low within some other interval of k that corresponds to the microscopic scale.
+
+Physics Lead's reading (Lead reading, not David's): the order-k term ~|a_k| ℓ^k; human-scale flatness means orders ≥ 2 are negligible at ℓ_H; microscopic twisting means a_k ~ ℓ_P^(−k), with radius of convergence ~ℓ_P; π₁ is global and is reached by the germ only via analytic continuation under the lock.
