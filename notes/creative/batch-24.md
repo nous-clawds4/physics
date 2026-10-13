@@ -121,4 +121,4 @@ Script: `notes/creative/batch-24/ekt2.py` (sha256 `eb6d28cb57f6b09b317f58a209e8f
 
 6. The rerun enumerates only one traversal and one collision. Root-finding from a start grid is not guaranteed to be complete. No orientable mirror gluing was run.
 
-Ledger: L98–L102 (L101 records the Lead ruling).
+Ledger: L98–L101 (L101 records the Lead ruling).
