@@ -67,6 +67,10 @@
 | L58 | flux discreteness | **Batch 16 Set 3:** integer only as a difference from the reference, Φ − Φ_ref = n q₀, given one carrier species; Misner–Wheeler: "unquantized" (#386); no prior art; Dirac quantisation is quantum and excluded (5:00 PM) | batch-16 | **conditional** | an assumption about matter, near a law of R by fiat if chosen for the purpose |
 | L59 | GW memory record | **Batch 16 Set 3:** permanent continuum record (Christodoulou 1991, V-meta per #380); mouth masses are not dissipation-proof (parked) | batch-16; #380 | **live** (continuum) | supplement only |
 | L60 | ledger counts as "encoded in spacetime" | **David 9:28 PM ET 2026-10-12** (relayed by Physics Lead, Physics Lead chat, not signed; verbatim): "Yes, matter and flux next to fixed handles counts as encoded in spacetime for now." The analytic lock stays; the append-only matter-and-flux ledger next to fixed topological handles is the main line | David 9:28 PM; #388 | **ruling** | answers job 015's strongest reason to drop (#388) |
+| L61 | persistence (definition) | **Batch 17 Set 1:** entry i persists from t_i to t′ iff a read-out map r_i (fixed in advance, same in all worlds) applied to the observer's later germ+record state (gauge classes, #324; reference and slot labels stored in the record) is correct on all of [t_i, t′] and witnessed to separate the alternatives written at t_i; append-only diary (#388), test-field limit | batch-17 | **live** | per entry; no weights; no tuning (no law of R by fiat) |
+| L62 | ledger effectiveness | **Batch 17 Set 2:** preorder by inclusion of persistence sets (partial order on classes; same writes and exterior data) P(t′); grades G0 (never) to G3 (all permanent); no fractions or measures | batch-17; David 10:37 | **live** | graded without probability |
+| L63 | existence: flux slot | **Batch 17 Set 3:** a charged passage changes the handle flux by ±q₀; read by a Gauss surface around one mouth with no charge between it and the throat; permanent (G2, over the observer's proper-time domain) with no later throat crossing (d⋆F = J; Misner–Wheeler V-text per #386) | batch-17; #385; #386; #387 | **live** (test-field limit) | "more than never" shown |
+| L64 | losses as grades | **Batch 17 Set 4:** orbit decay and Claude 015 P1–P6 each downgrade affected slots (G2 → G1/G0) or are cost flags; none forces G0 everywhere | batch-17; #383; #388 (job 015) | **live** | persistence is graded, not all-or-nothing |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -215,6 +219,10 @@ Caveat: no in/out S-matrix is assumed; the model is classical. Where the geon fo
 
 The analytic lock stays; the append-only matter-and-flux ledger next to fixed topological handles is the main line.
 
+## Persistence (David, 10:37 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> On the topic of persistence, we might adopt the position that some pieces of matter are highly effective ledgers, other pieces of matter might be less effective, where more effective means that the matter keeps a record of many of its observations, and less effective means it keeps a record of fewer of them. So the fact that some observations don't persist should not be considered fatal to our endeavor. At this point, all we need is a clear model for what persistence means, how it happens, and that it can happen and is sufficiently well defined. Persistence doesn't need to happen all the time, everywhere; it merely needs to happen more than never.
+
 ## Taub–NUT/Misner union (resolution, Literature via Physics Lead)
 
 Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, geodesics through the boost's fixed point are incomplete in both extensions and in every union (as a set of geodesics: closed, nowhere dense, Lebesgue-null in the covering chart's initial data (no measure on observer space adopted); every point of the Taub region still lies on one). The two-extension non-Hausdorff union is not complete: generic geodesics entering a CTC region hit its second horizon. Among unions of the four half-plane pieces, only the full quotient (R^2\{0})/B is complete modulo the fixed-point geodesics; helicoidal coverings give further non-Hausdorff maximal extensions with the same exception (Rieger, arXiv:2402.09312). Taub-NUT has no boost fixed point, but its comoving (zero-momentum) geodesics continue in neither extension (Misner–Taub 1969, §II C, relayed from external review, V-meta; confirmed by computation, #377), so no union of the two is complete. (PR #375; "measure zero" replaced by Lead ruling; Misner "only" and Taub–NUT clause edited per external review.) Reported Taub–NUT completeness: Hájíček 1971 (unchecked). Resolves the #367 vs #371 conflict (measurement-model-v0 open problem 13).
@@ -257,6 +265,8 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-12: Geometry #384 applied to batch 15 (boost threshold 0.268; Simpson–Visser NEC; energy bands, not winding; p∥ conserved; L52 OK).
 - 2026-10-12: Lead ruling: SV described as a geometry chosen first, source identified afterwards (batch 15, L50).
 - 2026-10-12: batch 16 (L54–L59): one-universe winding (integer, parked), threading orbit unstable (numeric), MTY CTC tie-back, flux-through-handle record (dissipation-proof).
-- 2026-10-12: Geometry #387 and Literature #386 applied to batch 16 (signed winding; one-period trace 2(1+L/a); one-mouth Gauss surface; weak point 7 rewritten; citation upgrades).
+- 2026-10-12: Geometry #387 and Literature #386 applied to batch 16 (signed winding; trace 2(1+L/a) per passage, 4(1+L/a)²−2 per period; one-mouth Gauss surface; weak point 7 rewritten; citation upgrades).
 - 2026-10-12: David's 9:28 PM ruling recorded verbatim (L60).
 - 2026-10-12: Lead ruling (Physics Lead): trace convention is 2(1+L/a) per passage, 4(1+L/a)²−2 over one full period of two passages; batch 16 and L55 aligned.
+- 2026-10-12: David's 10:37 PM persistence words recorded verbatim (ledger, charter); batch 17 (L61–L64).
+- 2026-10-12: Geometry #392 applied to batch 17 (F1–F7; F2 merged with Literature M2; interval persistence; gauge-invariant read-out; preorder; G-nesting).
