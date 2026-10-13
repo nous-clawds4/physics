@@ -82,9 +82,9 @@
 | L73 | non-Hausdorff / inequivalent extensions | **Batch 19 Set 4:** exact but read by survival only; non-Hausdorff mechanism circular | batch-19; #379 | **parked** | |
 | L74 | read-out, branching, persistence | **Batch 19:** branch = record class of gluings, refining with replies (fork = discovery, David 3:19/11:42); persistence G3 as re-readability within the read-out window (#398 F10) | batch-19; #390; #394; #398 | **live** | strongest weakness: exact examples are all symmetric, and then uncountable |
 | L75 | which route without a record | **Batch 20 Set 1:** on a flat cylinder W_L, the route (deck class rel a declared reference) is fixed by (L, launch) in each world; it is a world fact, not a reception-history datum; asked of the record alone it is ill-posed unless constant on the record class | batch-20 [A, N]; #381; #399 | **live** | no fork within a world |
-| L76 | record class of a hit | **Batch 20 Set 2:** with the launch known, a hit at x fits L_n = (X − x)/n (discrete, indexed by route; e.g. {5.0, 2.5}); arrival time carries no information | batch-20 [N] | **live** | a hit splits worlds by route |
-| L77 | pattern from grouping | **Batch 20 Set 3:** sawtooth x(L), harmonic family Δ/n, periodicity in x; no density or fringes without a measure | batch-20 | **live (skeleton only)** | |
-| L78 | two-slit obstacle | **Batch 20 Set 4:** classical point hits; fringes need waves by hand (excluded) or a weighting of worlds (parked; (M1) untouched) | batch-20 | **open** | strongest obstacle |
+| L76 | record class of a hit | **Batch 20 Set 2:** with the launch known, a hit at x fits L_n = (X − x)/n (indexed by route; e.g. {5.0, 2.5}; finite for x > 0; continuum if x = X); arrival time carries no information | batch-20 [N] | **live** | a hit splits worlds by route |
+| L77 | pattern from grouping | **Batch 20 Set 3:** x(L) piecewise linear with jumps at L = X/n (a periodic sawtooth only in X at fixed L), finite harmonic family Δ/n, periodicity in x; no density or fringes without a measure | batch-20 | **live (skeleton only)** | |
+| L78 | two-slit obstacle | **Batch 20 Set 4:** classical point hits; fringes need waves by hand (excluded) or a weighting of worlds (parked; (M1) untouched; counting by route is the labelled conjecture; a weighting gives weighted points, not bands, #402) | batch-20 | **open** | strongest obstacle |
 | L79 | David 1:17 AM | "This is all very encouraging. Let's proceed with the 2-slit work." (relayed by Physics Lead, Physics Lead chat, not signed; verbatim) | David 1:17 AM | **ruling** | starts the two-slit line |
 
 ## Lesson L15 (after batches 01–02)
@@ -311,3 +311,4 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-12: Geometry #398 applied to batch 19 (F1, F3–F11; F2 withdrawn).
 - 2026-10-13: 3:19 PM entry relabelled as paraphrase (confirmed by Physics Lead as paraphrase only; Physics Lead ruling).
 - 2026-10-13: David's 1:17 AM words recorded verbatim (ledger, charter); batch 20 (L75–L79).
+- 2026-10-13: Geometry #402 applied to batch 20 (F1–F7).
