@@ -76,6 +76,11 @@
 | L67 | read-out as world revelation | **Batch 18 Set 3:** round trips through the topology return after time |g| with deck label g (Type O, no CTC needed); record classes nest; Γ certified in finite time for cocompact Λ (#370) | batch-18; #372 §2.6, R2; #370 | **live** | branch = record class (many worlds); one world per branch only after certification (cocompact Γ); nested |
 | L68 | persistence of a pre-existing state | **Batch 18 Set 4:** Γ is constant (no topology change for reasonable sources in a CTC-free, time-orientable host; Tipler, Borde, Geroch per #380), so the ledger state is grade G3 (#390); the append-only diary (#388) only holds replies | batch-18; #380; #390; #394 F7 | **live** | G3 as re-readability by new flashes, not storage |
 | L69 | batch 18 weak points | the strongest is that this is #370's Γ/extension freedom renamed; the lattice moduli are a continuum (uncountable; 6–9 real parameters, #394 F8) unless Γ ⊂ a fixed discrete group; the ledger is global, not nearby | batch-18 | **open** | |
+| L70 | nearby-handle gluing as ledger state | **Batch 19 Set 1:** under the lock the handle's far side is fixed (L65); what can differ is the deck element closing the handle, an isometry of the fixed cover (twist R, time shift T, boost; a generic handle has only isolated choices, a continuum needs Killing symmetry; #398 F1/F7/F8); a static time shift gives CTCs at all times (F6); near region identical; read by Type O replies (rotation, delay); PT gluing gives Type F (unreadable); thin shells are outside the lock | batch-19 [A] | **live (conditional on an exact symmetric host)** | T above the light time gives CTCs (MTY), exploration only |
+| L71 | Misner boost as ledger state | **Batch 19 Set 2:** Misner Taub region = Milne wedge {T < −|X|}/⟨B_β⟩ (the wedges X² > T² have CTCs); flat, so same germ for all β; β read by a round trip (Doppler e^{β} for both images; delay ∝ t_e, which also needs the boost centre) while the tube injects (βt > 2ρ, strictly before the Cauchy horizon T = −|X|; #397 M3/M4); co-moving readers are #375's incomplete family; exact | batch-19 [A, sketch] | **live** (exact, low-dimensional) | geon time-loop model |
+| L72 | Γ beyond the forming geon's horizon | **Batch 19 Set 3:** replies beyond H⁺(S) depend on Γ (#367 (d)); the extension is read by survival only | batch-19; #364; #381; #398 F9 | **live** | Γ is present on S and readable before H⁺(S) if a round trip fits in D(S) |
+| L73 | non-Hausdorff / inequivalent extensions | **Batch 19 Set 4:** exact but read by survival only; non-Hausdorff mechanism circular | batch-19; #379 | **parked** | |
+| L74 | read-out, branching, persistence | **Batch 19:** branch = record class of gluings, refining with replies (fork = discovery, David 3:19/11:42); persistence G3 as re-readability within the read-out window (#398 F10) | batch-19; #390; #394; #398 | **live** | strongest weakness: exact examples are all symmetric, and then uncountable |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -95,7 +100,7 @@ Recorded in `notes/creative/charter.md` (addendum). Batch 04 is the first batch 
 
 No set survived the rules once the lock was relaxed (see `batch-04.md`). Two failure modes recur. (i) When ODE uniqueness breaks for a physical reason, the alternatives form a continuum (Peano-type non-uniqueness, free data on a null surface, extensions past a Cauchy horizon in $C^\infty$). (ii) Where the alternatives are discrete (sheets, eigen-frames, branch counts), the branch locus has codimension ≥2 and is rarely hit (#336, #341), or the alternatives disappear rather than fork. The analytic/geodesic lock was not the only barrier.
 
-## Reframing (David Strayhorn, 2026-10-12 3:19 PM ET, relayed via Physics Lead, not signed; verbatim)
+## Reframing (David Strayhorn, 2026-10-12 3:19 PM ET, relayed via Physics Lead, not signed; paraphrase, confirmed by Physics Lead as paraphrase only)
 
 > I want to see if I understand. You say that an observer in free fall has exactly one way to continue, so anything that branches turns out to be uncertainty about which world we’re in, not a fork in the observer’s own path. Are you saying this is a good thing or a bad thing? The best case scenario is that exactly what you describe. Within any one world, there is deterministic free fall without branching. Within observer space, branching happens due to uncertainty over which world we’re in. Branch A means the observer is in world A; branch B means the observer is in world B. Within world A or world B, branching doesn’t occur.
 
@@ -122,7 +127,7 @@ A fork that's real in the geometry but invisible in the states is the nested-pre
 
 Batch 07 is held pending David's measure answer: whether a continuum of worlds with (M1) weights is acceptable, versus requiring countable branches. L26 makes that answer decisive.
 
-## David on (M1) and branches as geometries (2026-10-12 3:43 PM ET, relayed via Physics Lead, not signed; verbatim)
+## David on (M1) and branches as geometries (2026-10-12 3:43 PM ET, relayed via Physics Lead, not signed; paraphrase, confirmed by Physics Lead as paraphrase only)
 
 > Can you explain in simple terms what M1 means? Are we saying the weight is proportional to the number of worlds? If so, that is acceptable. I do not consider that to be circular reasoning. Also, if branching coincides with different geometries in each branch, that has always been my intuition: branch A means geometry (fundamental group) A, B means B, and so on. Somehow, the local state teaches the observer something about the global state. Which seems impossible, but only because we haven’t yet figured out how to make it possible.
 
@@ -293,3 +298,6 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-12: Geometry #394 applied to batch 18 (F1–F9).
 - 2026-10-12: Literature #395 applied to batch 18 (M1–M3; ghost-image prior art).
 - 2026-10-12: David's 11:42 PM words recorded verbatim; Lead rulings on #393 (fork = discovery; flat example as proof of concept).
+- 2026-10-12: batch 19 (L70–L74): world-dependent gluing of a nearby handle; Misner boost; Γ beyond the horizon.
+- 2026-10-12: Geometry #398 applied to batch 19 (F1, F3–F11; F2 withdrawn).
+- 2026-10-13: 3:19 PM entry relabelled as paraphrase (confirmed by Physics Lead as paraphrase only; Physics Lead ruling).
