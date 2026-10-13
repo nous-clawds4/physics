@@ -139,3 +139,9 @@ Status note (batch 24 final): with three valid exterior-to-exterior gluings (two
 Batch 25 runs the Set 7 kill check: conducting slit walls, structure only, test-particle dynamics. Set 2 stays at L0–L1, with the non-orientable zero-solution bands open.
 
 Status note (batch 25): the extended-source scan confirms Set 7 at L0: no dark bins beyond noise, with overlapping one-slit patterns in all 24 cases.
+
+## Addendum: low-energy approximation (David, 4:55 PM ET 2026-10-13, relayed by Physics Lead (Physics Lead chat, not signed); PARAPHRASE by Physics Lead, not verbatim; quoted phrases are David's words as relayed)
+
+Paraphrase (not verbatim): the target is generic, a particle from an arbitrarily small emitter region and the relative probability of detection at d_i. First settle how d_i is identified across worlds, via a "low (but not too low!) energy approximation". Spacetime is nearly flat at human scale but "violently twisted, with nontrivial fundamental group, at the microscopic scale". Worlds are projected into one flat, simply connected spacetime, and the same spot (plus optional microstructure criteria) means the same d_i. No deep justification of the LEA yet.
+
+Program state: two-slit is paused; Set 2 and Sets 3/5 are on hold.
