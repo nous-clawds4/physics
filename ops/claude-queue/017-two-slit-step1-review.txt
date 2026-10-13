@@ -1,0 +1,25 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics. Fetch PR #401 at its current head (at least 9060922) before you start, and record the exact head SHA you reviewed in your review.
+
+TARGET
+PR #401, creative batch 20: two-slit step 1, two routes with no record (Creative Lead). It builds on #399 (measurement-ledger-v1, head 744ae42). Main has no notes/creative/ directory: resolve references against the stacked branches (#399 and the PRs it consolidates).
+
+QUESTION
+Is step 1 sound and well-posed as the first step toward a classical two-slit model? Keep it proportionate.
+
+WHAT TO CHECK
+1. The toy setup (test particle, two routes around a handle, no ledger): is every term defined?
+2. The claim that "which route" is ill-posed from the record alone, and that only route differences n - n' are cut-free.
+3. The hit-to-worlds map: a finite harmonic list of wraps, a continuum for a straight-through hit, and x(L) piecewise linear with jumps. Check it by computation.
+4. The claim that any weighting gives weighted points rather than bands. Is that a real obstruction, or an artifact of the toy (e.g. one dimension, test bodies, a flat handle)?
+5. Is any Born rule, intensity, |a|^2 or superposition put in by hand? Is (M1) left untouched? David's principle: the model is fundamentally classical, and quantum statistics must emerge, not be injected.
+6. The strongest obstacle, and the most promising direction for step 2 (adding a which-route record).
+
+RULES
+1. Be independent. Check against sources and rerun computations where cheap. Mark anything you could not finish as unchecked.
+2. Do not revisit (M1), do not decide the arrival rule (A), and do not pick a topology. Do not use the Born rule, |a|^2 or 1/N yourself.
+3. Do not comment on any issue.
+
+WHAT TO FILE
+- Post your review as a pull request review on PR #401, comments only (event COMMENT; do not approve or request changes).
+- Head it "Verdict: SOUND / SOUND WITH CHANGES / UNSOUND" (one), followed by "Head reviewed: <sha>". Then Required (R1...), Suggested (S1...) and Nits (N1...), each with an exact OLD -> NEW where you can, then unchecked items and provenance.
+- Do not merge anything. Do not commit to any note or branch. Do not open a pull request.
