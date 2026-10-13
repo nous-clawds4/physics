@@ -133,3 +133,9 @@ Batch 24 runs Set 2's first kill check, in the offset-mouth host (#385 L56) with
 Status note (batch 24): the first EKT script was void (invalid gluing). In the rerun with exterior-to-exterior gluings, slit 2 never changes the multiplicity or exclusion structure of slit-1 launches; Set 2 is weakened to L0–L1.
 
 Status note (batch 24 final): with three valid exterior-to-exterior gluings (two non-orientable, one orientable), slit 2 never changes the multiplicity (≤ 2) or the exclusion structure of slit-1 launches. Zero-solution bands appear only in the non-orientable gluings, and their status is open. Set 2 stays at L0–L1.
+
+## Addendum: Lead ruling (Physics Lead), not David's, 10:12 AM ET 2026-10-13
+
+Batch 25 runs the Set 7 kill check: conducting slit walls, structure only, test-particle dynamics. Set 2 stays at L0–L1, with the non-orientable zero-solution bands open.
+
+Status note (batch 25): the extended-source scan confirms Set 7 at L0: no dark bins beyond noise, with overlapping one-slit patterns in all 24 cases.
