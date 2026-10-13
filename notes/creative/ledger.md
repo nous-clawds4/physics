@@ -96,6 +96,14 @@
 | L87 | scaling | **Batch 22:** \|δ\| ∝ ~L^−1.3 (2.91, 1.24, 0.50 for L=1.25, 2.5, 5), weak v dependence (1.38 vs 1.24 for v=0.3, 0.5), linear in ε; no natural wavelength | batch-22 [N] | **noted** | |
 | L88 | two-slit / records | **Batch 22:** neutral, kick-only apertures (modelling choice) leave per-world weights unchanged → Lemma A (L80); conducting walls need Lemma A re-proved (open): no point below both one-slit patterns; passive record changes nothing; active record adds smooth deflection; no bands to kill | batch-22 [A, N] | **noted** | conducting slits not computed |
 | L89 | David 9:10 AM | "Let's have creative lead model the returning echoes." (relayed by Physics Lead, Physics Lead chat, not signed; verbatim) | David 9:10 AM | **ruling** | |
+| L90 | Lemma A' | **Batch 23:** with one route per world, non-negative weights, and the two-route world set = union of the one-route sets, no dark spot (unnormalised: I_both ≥ each I_i). Exits: exclusion, contextual dynamics (conducting walls), multiplicity (several histories per launch), changed read-out map | batch-23 [A]; Geometry #407 | **live (lemma)** | exclusion is not the only door |
+| L91 | Set 1: loop regularity | **Batch 23:** a condition around the two-route curve; on the flat cylinder there is no x-dependent holonomy, and the curve is the handle's own cycle, present with either slit open; Misner 8πN is a time period (Misner 1963); a period supplied by hand is tuning; no ħ-free aperture-cycle condition is known (Berry et al. 1980 needs a wave; Keller 1958 needs ħ) | batch-23; Geometry/Literature #407 | **dead pending a source, L0** | |
+| L92 | Set 2: EKT multiplicity | **Batch 23:** EKT 1991 (verified, Crossref): infinitely many solutions for dangerous launches, none reported zero; lever = multiplicity (breaks (i)), reopens counting; needs offset-mouth host (#385 L56) and a self-interacting particle; Friedman et al. 1990 abstract only | batch-23; #407 | **proposed, rank 1, L1** | CTC exploration only |
+| L93 | Set 3: screen as ledger | **Batch 23:** a hit = persistent readable entry (#399); readout ambiguity with both routes open might exclude hits | batch-23 | **proposed, rank 3, L1** | likely dead if persistence is local; dips at overlap, not periodic |
+| L94 | Set 4: richer hit record | **Batch 23:** counting distinct full observer states is subadditive, max-type; no dips | batch-23 [A] | **dead for dips, L0** | record-dependent non-additivity noted |
+| L95 | Set 5: count observer histories | **Batch 23:** 1/\|class\| weights are reweighting; without exclusion, no dips | batch-23 | **proposed, rank 5, L0–L1** | expected dead |
+| L96 | Set 6 / Set 7 / Set R | **Batch 23:** Set 6 (loosened lock) reduces to Set 1, ill-posed as counting (dead pending a source). Set 7: conducting slit walls, contextual dynamics (a legitimate failure of Lemma A' (iii), not exclusion; dips need the map to fold or exclude; hit map uncomputed), rank 2, L0–L1. Rejected: "both routes"; negative weights (LT2; prior art Wigner 1932, Feynman 1987, not endorsed) | batch-23; #407 | **6 dead; 7 proposed; R rejected** | |
+| L97 | David 9:36 AM | "Step back: have Creative Lead propose new idea sets for where interference could come from." (widget answer; relayed by Physics Lead, Physics Lead chat, not signed; verbatim) | David 9:36 AM | **ruling** | |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -266,6 +274,10 @@ Lead rulings: a fork is the discovery of which world one is in (per 3:19 PM); at
 
 > This is all very encouraging. Let's proceed with the 2-slit work.
 
+## Step back (David, 9:36 AM ET 2026-10-13, relayed by Physics Lead, Physics Lead chat, not signed (widget answer); verbatim)
+
+> Step back: have Creative Lead propose new idea sets for where interference could come from.
+
 ## Returning echoes (David, 9:10 AM ET 2026-10-13, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
 
 > Let's have creative lead model the returning echoes.
@@ -335,3 +347,6 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-13: Geometry M1–M4 and Literature M1 applied to batch 21; Literature M2 merged with Geometry (no 'memoryless'; Set B closed for eternal uniform motion only; wrapped radiation memory open); L80, L82, L83 updated.
 - 2026-10-13: David's 9:10 AM words recorded verbatim (ledger, charter); batch 22 (L85–L89).
 - 2026-10-13: batch 22 Geometry M1–M8 (pre-launch acceleration bug fixed, rerun, M-doubling) and Literature M1–M2 applied; L85–L88 updated (converging lens, ~L^−1.3, weak v, caustic at ε ~ 1).
+- 2026-10-13: David's 9:36 AM words recorded verbatim (ledger, charter); batch 23 brainstorm (L90–L97).
+- 2026-10-13: batch 23 Geometry M1–M9 and Literature M1–M4 applied (Geometry M7 and Literature M3 merged); Set 1/6 dead pending a source; Set 2 and new Set 7 (conducting walls) ranked up; L90–L92, L96 updated; __pycache__ removed.
+- 2026-10-13: batch 23 Geometry final fixes F1–F6 and weak point 5 applied; L92, L96 aligned.
