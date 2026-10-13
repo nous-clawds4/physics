@@ -91,3 +91,15 @@ Caveat: no in/out S-matrix is assumed; the model is classical. Where the geon fo
 ## Addendum: persistence (David, 10:37 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
 
 > On the topic of persistence, we might adopt the position that some pieces of matter are highly effective ledgers, other pieces of matter might be less effective, where more effective means that the matter keeps a record of many of its observations, and less effective means it keeps a record of fewer of them. So the fact that some observations don't persist should not be considered fatal to our endeavor. At this point, all we need is a clear model for what persistence means, how it happens, and that it can happen and is sufficiently well defined. Persistence doesn't need to happen all the time, everywhere; it merely needs to happen more than never.
+
+## Addendum: ledger states that differ by world (David, 10:43 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> Perhaps we need to consider whether it is possible for more than one ledger-state to be consistent with any given observer-state. I am imagining some topological detail inside the ledger, with World A containing Ledger state A, B containing B, etc.
+
+Widget answer (same relay, verbatim):
+
+> Yes, have Creative Lead build a batch on pre-existing topological ledger states that differ by world.
+
+## Addendum: fork and discovery (David, 11:42 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> Completely flat universes with the universe as the ledger is quite the different picture than the one we have been dealing with. Are we so eager to abandon our previous line of thought? Also, you say that it's a discovery, not a fork. What exactly is the difference? In my mind, a fork and a discovery are the same thing. If an observer travels down path B but not A of a fork, the observer discovers he is compatible with world B but not A.
