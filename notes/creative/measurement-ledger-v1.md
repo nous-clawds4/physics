@@ -6,7 +6,7 @@
 
 ## 1. For David (one page)
 
-**The picture.** Inside any one world, free fall is deterministic and never forks. The observer can't tell at first which world it's in, because many worlds look exactly alike near it. It sends out a signal (the beacon). The signal goes round a nearby handle or geon and comes back. What comes back depends on the world, so each reply rules some worlds out. **That narrowing is the fork**, and a fork is the discovery of which world you're in (your 3:19 PM and 11:42 PM points).
+**The picture.** Inside any one world, free fall is deterministic and never forks. The observer can't tell at first which world it's in, because many worlds look exactly alike near it. It sends out a signal (the beacon). The signal goes round a nearby handle or geon and comes back. What comes back depends on the world, so each reply rules some worlds out. **That narrowing is the fork**, and a fork is the discovery of which world you're in (your 3:19 PM and 11:42 PM points, in paraphrase).
 
 **Where the difference sits.** Under the "analytic world" rule that we keep, everything near the observer, and everything you reach by following space outward, is the same in every compatible world, including the far side of a nearby handle. The only thing that can differ is **how the handle is glued back on itself**: with a twist, or with a boost. That gluing is the ledger state. It was there from the start; nothing has to write it.
 
@@ -22,8 +22,6 @@
 
 | Time (ET) | Topic | David's words (verbatim) | Attribution |
 |---|---|---|---|
-| 3:19 PM | Reframing: branch A = world A | I want to see if I understand. You say that an observer in free fall has exactly one way to continue, so anything that branches turns out to be uncertainty about which world we’re in, not a fork in the observer’s own path. Are you saying this is a good thing or a bad thing? The best case scenario is that exactly what you describe. Within any one world, there is deterministic free fall without branching. Within observer space, branching happens due to uncertainty over which world we’re in. Branch A means the observer is in world A; branch B means the observer is in world B. Within world A or world B, branching doesn’t occur. | as recorded: relayed via Physics Lead, not signed |
-| 3:43 PM | (M1); branches as geometries | Can you explain in simple terms what M1 means? Are we saying the weight is proportional to the number of worlds? If so, that is acceptable. I do not consider that to be circular reasoning. Also, if branching coincides with different geometries in each branch, that has always been my intuition: branch A means geometry (fundamental group) A, B means B, and so on. Somehow, the local state teaches the observer something about the global state. Which seems impossible, but only because we haven’t yet figured out how to make it possible. | as recorded: relayed via Physics Lead, not signed; the "which handle structure are we in" link is a paraphrase, not his words (#397 M2) |
 | 4:16 PM | CTCs and non-time-orientability in geon hosts | Yes, allow CTCs and non-time-orientability in geon hosts, as exploration only. | relayed by Physics Lead, Physics Lead chat, not signed |
 | 4:17 PM | Central hypothesis: signal round trip | Hmm, maybe that’s what it means to observe a particle? A signal goes from the observer to the particle’s CTC and comes back to the observer, communicating information about the particle’s state? | relayed by Physics Lead, Physics Lead chat, not signed |
 | 4:28 PM | Signal sent by the observer; fork is the target | No, I like the original idea of the signal sent out by the observer. I can wrap my head around that. / a fork in the observer's future (a branch in observer space) is exactly what we are looking for. | relayed by Physics Lead, Physics Lead chat, not signed |
@@ -37,6 +35,15 @@
 | 11:42 PM | Fork = discovery? | Completely flat universes with the universe as the ledger is quite the different picture than the one we have been dealing with. Are we so eager to abandon our previous line of thought? Also, you say that it's a discovery, not a fork. What exactly is the difference? In my mind, a fork and a discovery are the same thing. If an observer travels down path B but not A of a fork, the observer discovers he is compatible with world B but not A. | relayed by Physics Lead, Physics Lead chat, not signed |
 | 12:02 AM 10/13 | Ready for review | The Claude reset has happened. If we're ready to put something together for Claude to review, let's go ahead and do that. | relayed by Physics Lead, Physics Lead chat, not signed |
 
+*4:17, 4:28, 4:37, 5:00 PM and 12:02 AM were relayed verbatim to Creative Lead by Physics Lead.*
+
+**Paraphrase group (confirmed by Physics Lead as paraphrase only).** These are kept as recorded in `ledger.md`; treat them as paraphrase, not David's exact words.
+
+| Time (ET) | Topic | As recorded | Attribution |
+|---|---|---|---|
+| 3:19 PM | Reframing: branch A = world A | I want to see if I understand. You say that an observer in free fall has exactly one way to continue, so anything that branches turns out to be uncertainty about which world we’re in, not a fork in the observer’s own path. Are you saying this is a good thing or a bad thing? The best case scenario is that exactly what you describe. Within any one world, there is deterministic free fall without branching. Within observer space, branching happens due to uncertainty over which world we’re in. Branch A means the observer is in world A; branch B means the observer is in world B. Within world A or world B, branching doesn’t occur. | as recorded: relayed via Physics Lead, not signed |
+| 3:43 PM | (M1); branches as geometries | Can you explain in simple terms what M1 means? Are we saying the weight is proportional to the number of worlds? If so, that is acceptable. I do not consider that to be circular reasoning. Also, if branching coincides with different geometries in each branch, that has always been my intuition: branch A means geometry (fundamental group) A, B means B, and so on. Somehow, the local state teaches the observer something about the global state. Which seems impossible, but only because we haven’t yet figured out how to make it possible. | as recorded: relayed via Physics Lead, not signed; the "which handle structure are we in" link is a paraphrase, not his words (#397 M2) |
+
 **Lead rulings (Physics Lead; not David's words).**
 - A fork is the discovery of which world one is in. At finite time a branch is a record class of many worlds, refining with replies (on #393, after 11:42 PM).
 - The flat-quotient example is an exact proof of concept only; the main line stays geon/handle hosts (#393).
@@ -47,8 +54,8 @@
 
 ## 3. The main line
 
-- **Analytic lock** (kept, David 9:28 PM). The germ fixes the simply connected analytic development along every path (#393 L65). Compatible worlds differ only by the deck group Γ and the extension past Cauchy horizons (#370).
-- **Host.** Geon/handle hosts (David 4:06, 4:16 PM). World-dependence sits in the **gluing isometry of a nearby handle**: the deck element closing it, an isometry of the fixed cover such that the quotient is free and the tube injects (#396 L70, #398 F1).
+- **Analytic lock** (kept; Lead ruling after David's 9:28 PM answer, #388). The germ fixes the simply connected analytic development along every path (#393 L65). Compatible worlds differ only by the deck group Γ and the extension past Cauchy horizons (#370).
+- **Host.** Geon/handle hosts (David 4:06 PM on geons; 4:16 PM allows CTCs and non-time-orientability there as exploration only; "main line stays geon/handle hosts" is a Lead ruling, #393). World-dependence sits in the **gluing isometry of a nearby handle**: the deck element closing it, an isometry of the fixed cover such that the quotient is free and the tube injects (#396 L70, #398 F1).
 - **Measurement = beacon round trip** (David 4:17, 4:28, 4:37 PM; #372 §2.2). Only Type O returns read or write (#364, #381). A time-reversing gluing gives Type F, a correlation only (#396).
 - **Read-out.** Misner: in the Milne wedge $\{T<-|X|\}/\langle B_\beta\rangle$, returns arrive at $t_1e^{-n\beta}$, blueshifted by $e^{\beta}$. The world data is the boost with its centre and axis; Doppler is the clean read-out. Valid while $\beta t>2\rho$ (#396 L71; #397 M3/M4; #398 F3/F4).
 - **Branching.** The record grows (#372 §2.1). A branch is the record class among worlds reaching τ: many worlds per class, refining as replies arrive, nested and never crossing (#372 §2.6; #393 L67). Under the lock the observer's worldline germ is shared, and the fork is in the record (#372 R2). **Fork = discovery.**
