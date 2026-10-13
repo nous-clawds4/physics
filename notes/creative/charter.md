@@ -131,3 +131,5 @@ Status note (batch 23 reviews): Lemma A' has four exits (exclusion, contextual d
 Batch 24 runs Set 2's first kill check, in the offset-mouth host (#385 L56) with an EKT-style hard-sphere billiard, structure only and with no weights. CTC exploration only.
 
 Status note (batch 24): the first EKT script was void (invalid gluing). In the rerun with exterior-to-exterior gluings, slit 2 never changes the multiplicity or exclusion structure of slit-1 launches; Set 2 is weakened to L0–L1.
+
+Status note (batch 24 final): with three valid exterior-to-exterior gluings (two non-orientable, one orientable), slit 2 never changes the multiplicity (≤ 2) or the exclusion structure of slit-1 launches. Zero-solution bands appear only in the non-orientable gluings, and their status is open. Set 2 stays at L0–L1.

@@ -3,8 +3,11 @@ CTC exploration only. 2D, nonrelativistic, equal-mass hard discs (radius r), ela
 slits (point-like crossing test). Mouths: circles radius s centred A, B; ball centre reaching B+s e at time t with
 velocity w (w.e<0) emerges at time t-T as:
   G1 'reflect' : position A+s e,  velocity w - 2(w.e)e         (normal reversed, tangent kept)
-  G2 'invert'  : position A-s e,  velocity -w                  (point inversion)
-(Both identify exterior with exterior; in 2D both are orientation-reversing handles, noted, not used.)
+  G2 'rot'     : position A-s e,  velocity -w + 2(w.e)e        (rotation by pi, normal reversed)
+  G3 'mirror'  : position A+s Me, velocity Mw then normal flip   (M = reflection x -> x - 2(x.dh)dh, dh = d/|d|)
+All three are exterior-to-exterior (asserted: outward speed >= 0 at emergence). Orientability: a handle is
+orientable iff the circle map reverses the boundary orientation: G1 (e->e) and G2 (e->-e) are non-orientable;
+G3 (mirror) is orientable. (The earlier 'A-s e, -w' rule emerged into disc A and is void.)
 Hosts with T <= |d| (no CTC) are dropped and listed.
 Histories (at most one traversal):
  H0: launch ray, no self-collision; consistent unless the emerging older ball touches the younger one, and it is
@@ -35,7 +38,13 @@ def first_mouth(p,v,A,tmax=np.inf):
     return min(hits) if hits else None
 def emerge(P,w,A,g):
     e=(P-B)/s
-    return (A+s*e, w-2*(w@e)*e) if g=="reflect" else (A-s*e, -w)
+    if g=="reflect": Q,we,nout=A+s*e, w-2*(w@e)*e, e                      # translation e->e, normal flip
+    elif g=="rot": Q,we,nout=A-s*e, -w+2*(w@e)*e, -e                       # rotation by pi e->-e, normal flip
+    else:                                                                    # orientable mirror along d-hat
+        dh=(B-A)/np.linalg.norm(B-A); M=lambda x: x-2*(x@dh)*dh
+        e2=M(e); w1=M(w); Q,we,nout=A+s*e2, w1-2*(w1@e2)*e2, e2
+    assert we@nout>=-1e-12, "emergence into the mouth disc"               # exterior-to-exterior guard
+    return Q,we
 def mindist(p1,v1,p2,v2,t0,t1):
     if t1<=t0: return np.inf
     dp=p1-p2; dv=v1-v2; tt=t0 if dv@dv==0 else np.clip(-(dp@dv)/(dv@dv),t0,t1); return np.linalg.norm(dp+dv*tt)
@@ -98,7 +107,7 @@ if __name__=="__main__":
     lo,hi=np.arctan((SL[1]-hw)/yb),np.arctan((SL[1]+hw)/yb)
     print(f"slit-1 launch window {np.degrees(lo):.2f}..{np.degrees(hi):.2f} deg (width {np.degrees(hi-lo):.2f}); r={r} s={s}; B={B.tolist()}")
     th=np.linspace(lo+1e-4,hi-1e-4,33); total=0; anyH1=0; excl=0
-    for g in ("reflect","invert"):
+    for g in ("reflect","rot","mirror"):
         for A,T in hosts:
             dn=np.linalg.norm(B-A)
             if T<=dn: print(f"[{g}] host A={A.tolist()} T={T}: |d|={dn:.3f} >= T: no CTC, dropped"); continue
@@ -119,4 +128,4 @@ if __name__=="__main__":
                     print(f"      edge at theta={np.degrees(0.5*(a+b)):.4f} deg: {S[i][0]} -> {S[i+1][0]}")
             for i in diff: print(f"      DIFF theta={np.degrees(th[i]):.3f}: {S[i][0]}")
             total+=len(diff); anyH1+=v1+v2; excl+=ex
-    print(f"\nTOTAL slit-1 launches (all CTC hosts, both gluings) whose structure depends on slit 2: {total}; valid H1 found: {anyH1}; zero-solution cases: {excl}")
+    print(f"\nTOTAL slit-1 launches (all CTC hosts, all gluings) whose structure depends on slit 2: {total}; valid H1 found: {anyH1}; zero-solution cases: {excl}")
