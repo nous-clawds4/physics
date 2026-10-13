@@ -25,7 +25,7 @@
 - **Reading it is just a round trip.** Send a light pulse out in some direction. In a wrapped universe it comes back from the other side after a delay equal to the length of that wrap. The arrival times and directions spell out the pattern. Before the first pulse returns, all patterns are still possible. As replies come in, the possibilities narrow. Before enough replies are in, one branch holds many worlds (all patterns agreeing on the wraps shorter than the elapsed time); in a closed wrapped universe, after a finite certification time each branch is one world. Branches only split, never merge.
 - **Persistence is free.** With ordinary matter, Einstein's equations forbid topology change outright, even at the price of singularities (Tipler, Borde), and without time loops or time-flips it cannot happen at all (Geroch); so the ledger state is permanent: every entry is kept forever.
 - **The honest catches.**
-  1. This is the "which handle structure are we in" idea you had at 3:43 PM, and batches 08–09 and Geometry's #370 already found it. It is the same ledger seen from a new angle.
+  1. This is, in paraphrase (not your words), the "which handle structure are we in" idea from your 3:43 PM message, and batches 08–09 and Geometry's #370 already found it. It is the same ledger seen from a new angle.
   2. The ledger is the whole world's shape, not an object travelling next to the observer.
   3. Without a further assumption, the set of possible patterns is a continuum, not a list.
 
