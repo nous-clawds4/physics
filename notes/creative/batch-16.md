@@ -33,8 +33,8 @@ Two mouths in one space are also how wormhole time machines are built (offset th
   - For a body parked on a trajectory that misses the mouths (e.g. bound to some other mass), $w$ is **constant**: no crossings, so the raw count does not advance [A].
   - For a body on the threading orbit, the raw count advances every pass (all passes enter through A, so `threading.py`'s unsigned count equals the signed count, #387), and that orbit is unstable in the flat model (next bullet).
 - **The closed threading geodesic is unstable [N].**
-  - Equatorial 2D model. One period is one traversal, with M = [[1,L],[2/a,1+2L/a]] and tr M = 2(1+L/a) > 2 (derived, Geometry #387, §2). The script reports M² (two traversals).
-  - Trace = 14, 62 and 322 for gaps $L=D-2a=1,3,8$ (with $a=1$), equal to $\operatorname{tr}M^2=4(1+L/a)^2-2$ [A, derived]. Eigenvalues are real, with one $>1$: hyperbolic.
+  - Equatorial 2D model. Convention (Lead ruling): trace 2(1+L/a) per passage, 4(1+L/a)²−2 over one full period of two passages. The per-passage map is M = [[1,L],[2/a,1+2L/a]], with tr M = 2(1+L/a) > 2 (derived, Geometry #387, §2). The script reports M², the full period of two passages.
+  - Trace = 14, 62 and 322 for gaps $L=D-2a=1,3,8$ (with $a=1$), equal to the full-period (two-passage) trace $\operatorname{tr}M^2=4(1+L/a)^2-2$ [A, derived]. Eigenvalues are real, with one $>1$: hyperbolic.
   - Each traversal acts like reflection off a convex mirror (power $2/a$), i.e. defocusing in this flat thin-shell model (the classic two-disc dispersing billiard; mirror equivalence is [A], per #386 and #387).
   - A $10^{-4}$ offset leaves the threading orbit after 5 traversals [N].
   - **With mouth mass: open.** A Schwarzschild exterior (Visser–Poisson-type shell) adds focusing in the gap, but the throat still defocuses (NEC violation at the throat); which wins is not computed (#387). Batch 15's Simpson–Visser throat class shows threading orbits *can* be stable with mouth gravity (#386).
