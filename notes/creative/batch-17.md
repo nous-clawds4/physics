@@ -11,7 +11,7 @@
 
 - **What persistence means.** An entry written at time *t* persists until a later time *t′* if, at *t′*, the observer can still read it off from what it has then: it can tell "this was written" apart from "this was not written". That's the whole definition. It's a yes/no fact about each entry and each pair of times.
 - **Better and worse ledgers.** A ledger is "more effective" than another if the set of entries it keeps contains the other's. This is a comparison of sets, not a percentage: no probabilities, no counting weights. Two ledgers can also be incomparable, and that's fine.
-- **It happens more than never.** The electric flux through a wormhole handle is a clean example. A charged pulse that passes through the handle changes the flux by its charge, and nothing classical can undo that: radiation carries no net charge. Read with a Gauss surface around one mouth, that entry persists **forever** in the idealised limit we work in.
+- **It happens more than never.** The electric flux through a wormhole handle is a clean example. A charged pulse that passes through the handle changes the flux by its charge, and radiation cannot undo that, since it carries no net charge; only another charge crossing the same mouth can change it. Read with a Gauss surface around one mouth, that entry persists **forever** in the idealised limit we work in.
 - **Losses are grades, not failures.** Orbits that decay, handles that wobble, stray charges: each one makes some entries unreadable, which lowers the ledger's grade. None of them stops *some* entries from persisting. That is your "more than never".
 - **Scope.** All of this is in the limit where the diary's own weight doesn't bend spacetime (the test-field limit). Hadley-type handles (time-flipping) need extra care.
 
@@ -27,7 +27,7 @@
 - **Definition.** Entry $i$ **persists from $t_i$ to $t'$** in world $W$ iff $r_i(\hat O_W(t'))=d_i^W$, and the same holds in every world $W'$ that agrees with $W$ up to $t_i$ but wrote a different $d_i^{W'}$.
   - In other words, the read-out separates the alternatives written at $t_i$.
   - It is a property of (entry, $t'$, world), with no weights.
-  - Monotone: if it persists to $t'$, it persists to every earlier $t''\in[t_i,t']$, by the append-only property and continuity of the read-out (sketch).
+  - Persistence to $t'$ means the separation holds at every $t''\in[t_i,t']$ (a later opposite crossing can restore a corrupted read-out, so a single-time condition would not be monotone); with this interval definition, persistence to $t'$ implies persistence to every earlier $t''$.
 - **Persistence set.** $P_W(t')=\{i:\ \text{entry } i \text{ persists to } t'\text{ in } W\}$.
 - **Why append-only matters.** With one slot per write, losing slot $j$ cannot corrupt slot $i$. Persistence is entry-by-entry, and branches stay nested (#388 R1).
 - **Status: live** (L61).
@@ -38,7 +38,7 @@
 
 - **Order.** For two ledger designs $\mathcal L,\mathcal L'$ run on the same writes in the same world: $\mathcal L\succeq\mathcal L'$ at $t'$ iff $P^{\mathcal L}_W(t')\supseteq P^{\mathcal L'}_W(t')$. This is a partial order (set inclusion), and incomparable designs are allowed.
 - **Across worlds.** $\mathcal L\succeq\mathcal L'$ **uniformly** iff the inclusion holds in every world reaching $t'$. Nothing is averaged.
-- **Over time.** $\tau\mapsto P_W(\tau)$ is non-increasing among already-written entries. A ledger's **persistence profile** is the family of these sets.
+- **Over time.** $\tau\mapsto P_W(\tau)$ is non-increasing among already-written entries (by the interval definition in Set 1). A ledger's **persistence profile** is the family of these sets.
 - **Grades** (used in Set 4). G0: $P=\varnothing$ for all $t'>t_i$ (never persists). G1: some entry persists for a finite time. G2: some entry persists for all later $t'$ (permanent). G3: every entry persists permanently. These are ordered by inclusion of what they guarantee, **not** by fractions.
 - **Explicitly excluded:** fractions of persisting entries, rates, likelihoods, typicality. Any of these needs a measure, which is parked (#383 guardrails).
 - **Status: live** (L62).
@@ -66,7 +66,7 @@
 | Loss mechanism | Affects | Effect on grade | Why not fatal |
 |---|---|---|---|
 | Orbit decay toward the throat (Dent et al., 2007.09135, per #383) | passage/orbit records (#382, #385 Set 1) | G2 → G1: entries readable until decay; a falling body may add a stray passage | flux slots (Set 3) do not depend on orbits |
-| **P1** exotic matter, no Hadley escape (Hochberg–Visser 1997 abstract, per Claude 015) | all handle slots | a cost, not a loss: grade unchanged in the test-field limit | a cost flag; persistence still holds |
+| **P1** exotic matter, no Hadley escape (Hochberg–Visser 1997, relayed from external review, Claude 015; not verified by us) | all handle slots | a cost, not a loss: grade unchanged in the test-field limit | a cost flag; persistence still holds |
 | **P2** clock drift to a time machine (Frolov–Novikov 1990, per #386) | handles beside other masses | may make the diary's own motion non-unique (EKT setting); affected entries drop to G1 or become unreadable | isolated, well-separated flux slots keep G2 for as long as there is no drift |
 | **P3** a write may destroy its handle (Shinkai–Hayward, per #383; thin shells unknown) | the written slot | that slot → G0 or G1 | append-only: other slots unaffected; an unwritten slot can't be harmed |
 | **P4** radiation and decay; stray charges | orbits (G1); flux slots hit by a stray charge | per-slot downgrade | flux survives radiation (#386, #387) |

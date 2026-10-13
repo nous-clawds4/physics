@@ -265,7 +265,7 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-12: Geometry #384 applied to batch 15 (boost threshold 0.268; Simpson–Visser NEC; energy bands, not winding; p∥ conserved; L52 OK).
 - 2026-10-12: Lead ruling: SV described as a geometry chosen first, source identified afterwards (batch 15, L50).
 - 2026-10-12: batch 16 (L54–L59): one-universe winding (integer, parked), threading orbit unstable (numeric), MTY CTC tie-back, flux-through-handle record (dissipation-proof).
-- 2026-10-12: Geometry #387 and Literature #386 applied to batch 16 (signed winding; one-period trace 2(1+L/a); one-mouth Gauss surface; weak point 7 rewritten; citation upgrades).
+- 2026-10-12: Geometry #387 and Literature #386 applied to batch 16 (signed winding; trace 2(1+L/a) per passage, 4(1+L/a)²−2 per period; one-mouth Gauss surface; weak point 7 rewritten; citation upgrades).
 - 2026-10-12: David's 9:28 PM ruling recorded verbatim (L60).
 - 2026-10-12: Lead ruling (Physics Lead): trace convention is 2(1+L/a) per passage, 4(1+L/a)²−2 over one full period of two passages; batch 16 and L55 aligned.
 - 2026-10-12: David's 10:37 PM persistence words recorded verbatim (ledger, charter); batch 17 (L61–L64).
