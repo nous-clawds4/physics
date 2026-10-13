@@ -86,6 +86,11 @@
 | L77 | pattern from grouping | **Batch 20 Set 3:** x(L) piecewise linear with jumps at L = X/n (a periodic sawtooth only in X at fixed L), finite harmonic family Δ/n, periodicity in x; no density or fringes without a measure | batch-20 | **live (skeleton only)** | |
 | L78 | two-slit obstacle | **Batch 20 Set 4:** one route per hit; under non-negative weights that ignore the routes not taken, the routes add, and no band is darker than a single route makes it; fringes need waves by hand (excluded), a self-field round the other routes (beyond the free test particle), or a weighting that depends on the whole set of routes, fixed in advance (parked; (M1) untouched; counting by route is the labelled conjecture; LT2); step-2 baseline stated in advance: a passive which-route record leaves hits unchanged and splits only the record class (S4) | batch-20 | **open** | strongest obstacle |
 | L79 | David 1:17 AM | "This is all very encouraging. Let's proceed with the 2-slit work." (relayed by Physics Lead, Physics Lead chat, not signed; verbatim) | David 1:17 AM | **ruling** | starts the two-slit line |
+| L80 | Lemma A (two-slit, weights) | **Batch 21 Set A:** if p^{both}(w) = λ p^{n_w}(w) (configuration-independent up to normalisation), then I_both = λ(I_0 + I_−1) and lies between the one-slit patterns pointwise: no dark spot | batch-21 [A] | **live (lemma)** | one launch, one route makes the sum split |
+| L81 | configuration-dependent weights | **Batch 21 Set A:** dark spots need weights that depend on the open-aperture set and on the hit point (route-length difference); topology-only and route-counting weights are configuration-independent; no independent motivation found | batch-21 | **closed (LT2 fail if tuned)** | a phase-like profile is \|a\|² in disguise |
+| L82 | self-field on the cylinder | **Batch 21 Set B:** for a uniformly moving test charge, image forces from ±m cancel exactly (Heaviside field; numeric ~1e-16); straight paths are self-consistent; hits are monotone in θ: no bunching | batch-21 [A, N] | **closed (test model)** | |
+| L83 | droplet comparison | **Batch 21 Set B:** droplet patterns need a driven, persistent guiding wave with memory (Pucci et al. 2018; Andersen et al. 2015 non-replications; bibliographic); our memoryless field lacks it | batch-21; #403; Claude 017 | **noted** | open door: a memory field (non-test model) |
+| L84 | David 8:46 AM | "Explore both escapes side by side in step 2." (widget answer; relayed by Physics Lead, Physics Lead chat, not signed; verbatim) | David 8:46 AM | **ruling** | |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -256,6 +261,10 @@ Lead rulings: a fork is the discovery of which world one is in (per 3:19 PM); at
 
 > This is all very encouraging. Let's proceed with the 2-slit work.
 
+## Two-slit step 2 (David, 8:46 AM ET 2026-10-13, widget answer, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> Explore both escapes side by side in step 2.
+
 ## Taub–NUT/Misner union (resolution, Literature via Physics Lead)
 
 Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, geodesics through the boost's fixed point are incomplete in both extensions and in every union (as a set of geodesics: closed, nowhere dense, Lebesgue-null in the covering chart's initial data (no measure on observer space adopted); every point of the Taub region still lies on one). The two-extension non-Hausdorff union is not complete: generic geodesics entering a CTC region hit its second horizon. Among unions of the four half-plane pieces, only the full quotient (R^2\{0})/B is complete modulo the fixed-point geodesics; helicoidal coverings give further non-Hausdorff maximal extensions with the same exception (Rieger, arXiv:2402.09312). Taub-NUT has no boost fixed point, but its comoving (zero-momentum) geodesics continue in neither extension (Misner–Taub 1969, §II C, relayed from external review, V-meta; confirmed by computation, #377), so no union of the two is complete. (PR #375; "measure zero" replaced by Lead ruling; Misner "only" and Taub–NUT clause edited per external review.) Reported Taub–NUT completeness: Hájíček 1971 (unchecked). Resolves the #367 vs #371 conflict (measurement-model-v0 open problem 13).
@@ -313,3 +322,4 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-13: David's 1:17 AM words recorded verbatim (ledger, charter); batch 20 (L75–L79).
 - 2026-10-13: Geometry #402 applied to batch 20 (F1–F7); Literature #403 applied (M1: the principle marked as paraphrase; prior art added).
 - 2026-10-13: Claude job 017 applied to batch 20 (R1–R4, S1–S4, N1–N6; Lead ruling).
+- 2026-10-13: David's 8:46 AM widget answer recorded verbatim (ledger, charter); batch 21 (L80–L84).

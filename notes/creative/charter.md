@@ -107,3 +107,7 @@ Widget answer (same relay, verbatim):
 ## Addendum: two-slit work (David, 1:17 AM ET 2026-10-13, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
 
 > This is all very encouraging. Let's proceed with the 2-slit work.
+
+## Addendum: two-slit step 2 (David, 8:46 AM ET 2026-10-13, widget answer, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> Explore both escapes side by side in step 2.
