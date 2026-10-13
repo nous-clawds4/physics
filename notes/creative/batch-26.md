@@ -32,9 +32,10 @@ Prior art for the picture (bibliographic only, per Literature): Wheeler's foam, 
 - **The question, stated cleanly.** Among the worlds compatible with what the observer knows, consider those in which the particle sets off detector d_i. We want the relative size of that set for each d_i. *How* to measure the size of a set of worlds is left open on purpose: no probability rule is put in.
 
 - **David's germ-order idea (5:00 PM).** Look at how many derivatives of the geometry matter at a given scale. At human scale only the flat part should matter; at the microscopic scale, ever-higher derivatives keep mattering.
-  - Taken literally at one point, that runs into a snag: if the geometry twists at the tiny scale, its Taylor series at a lab point stops converging at about that tiny distance, so it can't describe the lab at all.
+  - Taken literally at one point, that runs into a snag: if the geometry twists at the tiny scale, its Taylor series at a lab point may stop converging at about that tiny distance, so it can't describe the lab. (That is a statement about convergence, not about flatness: far below the tiny scale the geometry is flat again.)
   - The way through is to use two germs: the *smoothed* geometry for "flat at human scale" and the raw geometry for "twisted at tiny scales".
   - Two limits: this picture is blind to twists that are perfectly flat (like a tiny wrapped-up direction), and the germ never fixes the global topology.
+  - **Three regimes (David, 5:03 PM).** Flat again far below the tiny scale (as any manifold is), twisted at the tiny scale, and flat at lab scales. Nothing is claimed about cosmic scales: the flat picture is needed only in a bounded window around the emitter and detectors, and everything used to match detectors lives inside that window.
   - The smoothed germ gives a natural flat map from one anchor. But matching detectors across worlds still needs the lab-wide best fit and a comparison against one shared reference.
 
 ---
@@ -45,7 +46,7 @@ Prior art for the picture (bibliographic only, per Literature): Wheeler's foam, 
 - ℓ: the microscopic topology scale (handle size, wrap length).
 - L: the coarse-graining scale.
 - R: the size of the lab region U (emitter plus detectors).
-- 𝓡: the radius of curvature of the coarse-grained geometry.
+- 𝓡: the radius of curvature of the coarse-grained geometry **on U only**. No claim is made about curvature or flatness beyond U, at cosmic scales in particular (David, 5:03 PM).
 - The LEA requires ℓ ≪ L ≪ R ≪ 𝓡.
 - **"Not too low" energy** is recorded as a window, not justified. The particle's dynamical resolution scale λ_E satisfies ℓ ≲ λ_E ≪ L. "Low" makes the coarse, flat description apply to the apparatus. "Not too low" keeps the particle coupled to the microstructure, so the twisting can matter.
 
@@ -156,7 +157,7 @@ Consequences for the LEA:
 **Physics Lead's reading** (a Lead reading, not David's):
 - The order-k term contributes ~|a_k| ℓ^k at scale ℓ.
 - Human-scale flatness means terms of order ≥ 2 are negligible at ℓ_H.
-- Microscopic twisting means a_k grows ~ℓ_P^{−k}, with radius of convergence near ℓ_P.
+- Microscopic twisting means a_k grows ~ℓ_P^{−k}, with radius of convergence near ℓ_P. *(Qualified by the 5:03 PM Lead notes: a radius of convergence near ℓ_P does not by itself mean non-flatness below ℓ_P; see (a′).)*
 - Caveat: π₁ is global, and the germ reaches it only through analytic continuation under the lock.
 
 ### (a) Definition
@@ -178,9 +179,46 @@ Consequences for the LEA:
 
 **Ambiguity flag.** R1 and R2 index the interval by *scale*; R3 indexes it by *order*. David's sentence uses both ("an interval that defines that scale"; "an interval of k"). They agree only if λ_k is monotone in k, which is not guaranteed. The program should choose. This note uses R1 for statements and R3 for intuition.
 
+
+### (a′) Three regimes (David, 5:03 PM)
+
+**David, 5:03 PM ET 2026-10-13, relayed by Physics Lead, Physics Lead chat, not signed (verbatim):**
+> when we get smaller than microscopic, it needs to get flat again, because that's one of the defining features of a manifold... at the cosmic scale, we don't know whether it's flat or not, so we should be careful not to assert that it must necessarily be flat.
+
+**Lead notes** (Physics Lead; not David's):
+- The LEA has three regimes: locally flat for ℓ ≪ ℓ_P (the manifold property, since (ℓ/ℓ_P)^k → 0), twisted near ℓ_P, and flat across a bounded human-scale window [ℓ_low, ℓ_high].
+- The radius of convergence near ℓ_P is not the same thing as non-flatness below ℓ_P, so the regimes should be stated in terms of the curvature scale.
+- No claim about cosmic scales. The flat projection is needed only over a bounded window containing the emitter and detectors.
+
+**Restatement in curvature-scale language.** Let ℓ_curv(p) = min_{k ≥ 2} λ_k(p) be the curvature length of g at p, with ℓ_curv ~ ℓ_P in the foam picture.
+1. **Locally flat, ℓ ≪ ℓ_curv.** c_k(p; ℓ) ≤ (ℓ/ℓ_curv)^k → 0 for every k ≥ 2, so g is η plus vanishing corrections on ℓ-balls. This is the manifold property (the tangent-space limit). It holds at every point, curved or not, and it is *not* "exactly flat on an open set", which the lock would forbid (identity theorem, (b)).
+2. **Twisted, ℓ ~ ℓ_curv ~ ℓ_P.** c_k(p; ℓ) = O(1) for many k: R1/R3 for g on I_μ ∋ ℓ_P.
+3. **Flat on a bounded window, ℓ ∈ [ℓ_low, ℓ_high] = I_H** (with ℓ_P ≪ ℓ_low and ℓ_high ≲ R). R1 for the **smoothed** metric ḡ_L on I_H only. Nothing is asserted for ℓ > ℓ_high.
+
+**Radius of convergence vs flatness.** ρ ~ ℓ_P is compatible with regime 1. For ℓ ≪ ρ the series converges and its terms go to zero, which *is* local flatness. ρ only says where the series stops converging, not where the geometry stops being flat. The earlier wording that tied ρ ~ ℓ_P to twisting is corrected accordingly: twisting is c_k = O(1) at ℓ ~ ℓ_curv, not ρ ~ ℓ_P alone.
+
+### (b′) Window check for the identification of d_i
+
+Window W = U, a bounded region containing the emitter, the detectors and the anchors, of size R, at scales up to ℓ_high.
+
+| ingredient | defined within the window? |
+|---|---|
+| projection f_w and (C1)–(C4) | yes: defined on U; ḡ_L needs a margin of width L around U |
+| u, h | yes: the lab field on U |
+| Procrustes anchors | yes: lab bodies in U |
+| reference configuration | yes: a fixed configuration of lab bodies in ℝ^{1,3} (an abstract copy, not a region of the world) |
+| tolerance τ, Δ, ε, ℓ, L | yes: numbers fixed by the lab |
+| exponential chart of ḡ_L | yes, if its normal neighbourhood covers U (R below the injectivity radius of ḡ_L on U) |
+| (M-b) ledger criterion | yes: diary entries in the detector body |
+| (M-c) coarse matter | yes |
+| **(M-a) microtopology** | **reaches outside if stated as "same π₁".** π₁(M_w) is global. Localise it to the image of π₁(B) → π₁(U), or simply to the classes of loops contained in a neighbourhood B of D_i inside U (with holonomy along those loops, (c)). Loops that leave U are not used. |
+| **"compatible with the record" (#399)** | the record may refer to the world outside U. For the identification only its lab part (the macroscopic lab configuration) is used; the rest enters W, not the identification. |
+
+**Conclusion.** With (M-a) localised to loops in U, the identification of d_i needs nothing beyond the bounded window, so no cosmic-scale assumption is required.
+
 ### (b) The convergence tension
 
-If |a_k| ~ ℓ_P^{−k} (Lead reading), then ρ ~ ℓ_P, and at λ = ℓ_H ≫ ρ the terms c_k = (ℓ_H/ℓ_P)^k grow without bound. **The series of the germ of g at a lab point diverges at human scale**, so R1–R3 cannot all be stated for the germ of g. Under the lock, ρ(p) is at most the distance to the nearest complex singularity of the continuation, presumably the nearest microstructure, so with dense foam ρ ~ ℓ_P everywhere [A, heuristic].
+If |a_k| ~ ℓ_P^{−k} (Lead reading), then ρ ~ ℓ_P, and at λ = ℓ_H ≫ ρ the terms c_k = (ℓ_H/ℓ_P)^k grow without bound. **The series of the germ of g at a lab point diverges at human scale**, so R1–R3 cannot all be stated for the germ of g. (This is about convergence only. For λ ≪ ρ the same series converges with vanishing terms, so it is locally flat; see (a′).) Under the lock, ρ(p) is at most the distance to the nearest complex singularity of the continuation, presumably the nearest microstructure, so with dense foam ρ ~ ℓ_P everywhere [A, heuristic].
 
 **Options.**
 1. **Asymptotic or truncated use** of the germ of g: valid only for λ ≪ ρ ~ ℓ_P. "Flat at human scale" is then inexpressible, so this fails.
@@ -188,7 +226,7 @@ If |a_k| ~ ℓ_P^{−k} (Lead reading), then ρ ~ ℓ_P, and at λ = ℓ_H ≫ �
 3. **Exactly flat between handles:** impossible under the lock. An analytic metric that is flat on an open set is flat on the whole connected manifold (identity theorem), so curved micro-handles make the germ non-flat at every point.
 4. **Smoothing: chosen.** Use the germ of the coarse-grained metric ḡ_L (§1) for the macro statement, and the germ of g for the micro statement:
    - **flat at human scale:** R1 for ḡ_L on I_H;
-   - **violently twisted:** R1 or R3 for g on I_μ (λ ≲ ρ).
+   - **violently twisted:** R1 or R3 for g on I_μ around ℓ_curv ~ ℓ_P (c_k = O(1) there); for λ ≪ ℓ_curv, g is locally flat again (regime 1, (a′)).
 
    This is consistent with the lock, which constrains g, the world. ḡ_L is a derived description; it is analytic if a heat-kernel or Gaussian smoothing is used, and it need not be. It also matches (C4).
 
@@ -208,7 +246,7 @@ This is consistent with "Germ and global data" (Literature M3): the germ fixes t
 ### (d) Does it fix the flat projection?
 
 - **Exponential chart.** f_o = exp_{ḡ_L, o}^{−1}, in an h-orthonormal frame at the anchor o, with the germ truncated at k ≤ 1. This gives a flat chart on the normal neighbourhood of o for ḡ_L.
-  - (C1) holds with ε ~ R²/𝓡² from a_2 of ḡ_L. Using g instead fails, because its injectivity radius and ρ are ~ℓ_P.
+  - (C1) holds with ε ~ R²/𝓡² from a_2 of ḡ_L. Using g instead fails, because its injectivity radius and ρ are ~ℓ_P (g is locally flat only far below ℓ_P, not at lab scale).
   - **Residual freedom:** the frame at o, i.e. a Lorentz transformation (6 parameters, reduced to ISO(3) by u).
   - The translation is fixed by o, but o is defined only to ℓ within its anchor body.
 - **Comparison with the best-fit (Procrustes) projection** (§2, F5):
@@ -274,4 +312,4 @@ This is consistent with "Germ and global data" (Literature M3): the germ fixes t
 4. Which microstructure criterion (M-a/b/c) the program adopts. (M-b) ties the LEA to the ledger.
 5. The measure μ on W, which is outside the LEA.
 
-Ledger: L108–L118 (L108 records the paraphrase of David's 4:55 PM direction; L115 records David's 5:00 PM words verbatim).
+Ledger: L108–L121 (L108 records the paraphrase of David's 4:55 PM direction; L115 records David's 5:00 PM words verbatim; L119 records his 5:03 PM words verbatim).
