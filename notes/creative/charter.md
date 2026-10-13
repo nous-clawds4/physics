@@ -103,3 +103,7 @@ Widget answer (same relay, verbatim):
 ## Addendum: fork and discovery (David, 11:42 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
 
 > Completely flat universes with the universe as the ledger is quite the different picture than the one we have been dealing with. Are we so eager to abandon our previous line of thought? Also, you say that it's a discovery, not a fork. What exactly is the difference? In my mind, a fork and a discovery are the same thing. If an observer travels down path B but not A of a fork, the observer discovers he is compatible with world B but not A.
+
+## Addendum: two-slit work (David, 1:17 AM ET 2026-10-13, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> This is all very encouraging. Let's proceed with the 2-slit work.
