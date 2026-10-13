@@ -5,6 +5,7 @@
 **David's words (verbatim; relayed by Physics Lead, Physics Lead chat, not signed).**
 - 7:45 PM: "Should we delve into the details of what constitutes the signal and how it gets recorded? If the observer is going to record data, then it needs to be physical, which means encoded into spacetime itself. Perhaps some sort of ledger composed of particles of nontrivial topology that is distinct from the observer but travels in close proximity?"
 - 8:13 PM: "Perhaps we should take baby steps. The first question is whether the notion of the ledger is worth pursuing. Persistence of the ledger can be a separate baby step."
+- 9:28 PM: "Yes, matter and flux next to fixed handles counts as encoded in spacetime for now." (The analytic lock stays; the append-only matter-and-flux ledger next to fixed topological handles is the main line.)
 
 ---
 
