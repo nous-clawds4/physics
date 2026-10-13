@@ -34,7 +34,7 @@ Prior art for the picture (bibliographic only, per Literature): Wheeler's foam, 
 - **David's germ-order idea (5:00 PM).** Look at how many derivatives of the geometry matter at a given scale. At human scale only the flat part should matter; at the microscopic scale, ever-higher derivatives keep mattering.
   - Taken literally at one point, that runs into a snag: if the geometry twists at the tiny scale, its Taylor series at a lab point may stop converging at about that tiny distance, so it can't describe the lab. (That is a statement about convergence, not about flatness: far below the tiny scale the geometry is flat again.)
   - The way through is to use two germs: the *smoothed* geometry for "flat at human scale" and the raw geometry for "twisted at tiny scales".
-  - Two limits: this picture is blind to twists that are perfectly flat (like a tiny wrapped-up direction), and the germ never fixes the global topology.
+  - Two limits: this picture is blind to twists that are perfectly flat (like a tiny wrapped-up direction; under the analytic lock that can only happen in a world that is flat everywhere), and the germ never fixes the global topology. Matching detectors uses only the lab window, so it fixes no global topology either.
   - **Three regimes (David, 5:03 PM).** Flat again far below the tiny scale (as any manifold is), twisted at the tiny scale, and flat at lab scales. Nothing is claimed about cosmic scales: the flat picture is needed only in a bounded window around the emitter and detectors, and everything used to match detectors lives inside that window.
   - The smoothed germ gives a natural flat map from one anchor. But matching detectors across worlds still needs the lab-wide best fit and a comparison against one shared reference.
 
@@ -77,7 +77,7 @@ Prior art for the picture (bibliographic only, per Literature): Wheeler's foam, 
 
 ## (2) Uniqueness and anchoring
 
-- **Freedom.** If f satisfies (C1)–(C4), so does P∘f for every P in ISO(3) × time translations (7 parameters; boosts only up to O(ε), see below). In addition, any two admissible maps differ by a map within O(εR + ℓ) of some such motion. This is modelled on rigidity of approximate isometries between Euclidean spaces: Hyers–Ulam 1945 (Bull. AMS 51, 288) and Gruber 1978 (Trans. AMS 245, 263) [V-meta] treat additive error only, and the multiplicative ε·d_h term needs (1+ε)-bi-Lipschitz rigidity such as John 1961 (CPAM 14, 391) [V-meta]; see also Alestalo–Trotsenko–Väisälä 2001 [unchecked]. Neither applies directly, since (U, d_h) is not a normed space; the transfer to U is assumed, not proved. Given h, the bounded-domain rigidity is essentially of this known type, and (C3) reduces E(4) to time-axis-preserving motions. With the fixed-frame norm of (C1), the exact freedom is ISO(3) × time translations; boosts enter only at O(ε). What is not known is a coarse rigidity in terms of causal order alone: the exact results (Hawking–King–McCarthy 1976; Malament 1977; Zeeman 1964 [unchecked]) need bijections or homeomorphisms, and Zeeman's dilations show that causal order alone does not fix scale. So each world's f is fixed **modulo ISO(3) × time translations (boosts at O(ε)), up to a residual coarse error δ_f ~ εR + ℓ**.
+- **Freedom.** If f satisfies (C1)–(C4), so does P∘f for every P in ISO(3) × time translations (7 parameters; boosts only up to O(ε), see below). In addition, any two admissible maps differ by a map within O(εR + ℓ) of some such motion. This is modelled on rigidity of approximate isometries between Euclidean spaces: Hyers–Ulam 1945 (Bull. AMS 51, 288) and Gruber 1978 (Trans. AMS 245, 263) [V-meta] treat additive error only, and the multiplicative ε·d_h term needs (1+ε)-bi-Lipschitz rigidity such as John 1961 (CPAM 14, 391) [V-meta]; see also Alestalo–Trotsenko–Väisälä, Israel J. Math. 125 (2001) 61 [V-meta]. Neither applies directly, since (U, d_h) is not a normed space; the transfer to U is assumed, not proved. Given h, the bounded-domain rigidity is essentially of this known type, and (C3) reduces E(4) to time-axis-preserving motions. With the fixed-frame norm of (C1), the exact freedom is ISO(3) × time translations; boosts enter only at O(ε). What is not known is a coarse rigidity in terms of causal order alone: the exact results (Hawking–King–McCarthy 1976; Malament 1977; Zeeman 1964 [unchecked]) need bijections or homeomorphisms, and Zeeman's dilations show that causal order alone does not fix scale. So each world's f is fixed **modulo ISO(3) × time translations (boosts at O(ε)), up to a residual coarse error δ_f ~ εR + ℓ**.
 - **Fixing across worlds** needs a cross-world gauge: a rule choosing P_w in each world.
 - **Emitter anchoring** sets f_w(e) = 0 and maps an emitter frame to the standard frame. Two problems:
   - It needs the emitter's frame to be identified across worlds. Worse, E_w has h-diameter < ℓ, below the chart's additive resolution ℓ, so f_w(E_w) fixes translation to within ℓ and no frame at all. The emitter is "arbitrarily small", so its worldline gives a time direction but its spatial axes need apparatus orientation.
@@ -165,11 +165,12 @@ Consequences for the LEA:
 - **Coefficients.**
   - Fix an anchor p, the lab field u, and an h-orthonormal frame at p.
   - In Riemann normal coordinates, g_ab(x) = η_ab − ⅓R_acbd x^c x^d − ⅙∇_e R_acbd x^c x^d x^e + …
-  - The order-k coefficient a_k(p) (k ≥ 2) is a universal polynomial in ∇^j R, j ≤ k − 2, including products of lower orders [standard; unchecked].
+  - The order-k coefficient a_k(p) (k ≥ 2) is a universal polynomial in ∇^j R, j ≤ k − 2, including products of lower orders (normal-coordinate expansion: Manasse & Misner, J. Math. Phys. 4 (1963) 735 [V-meta, per Literature]; jets in the sense of Ehresmann [unverified]).
   - Its size is |a_k|, the h-norm of the coefficient tensor. a_0 = η and a_1 = 0, so "order 0 or 1" means flat.
 - **Scale profile.** c_k(p; λ) = |a_k(p)| λ^k, which is dimensionless.
 - **Effective order at scale λ.** K(p; λ) = max{k : c_k(p; λ) > ε}.
-- **Curvature length of order k.** λ_k(p) = |a_k(p)|^{−1/k}.
+- **Curvature length of order k.** λ_k(p) = |a_k(p)|^{−1/k}. For k = 2 this is of the order of the usual curvature length from the Kretschmann scalar K = R_abcd R^abcd (Kretschmann 1918), namely |K|^{−1/4} (Literature correction).
+- **Closest prior art** (bibliographic only, per Literature): the Cartan–Karlhede algorithm (Karlhede, GRG 12 (1980) 693; Cartan 1928) classifies metrics locally by ∇^j R up to a finite order. It decides *equivalence*; c_k here measures *size at a scale*. The finite-order bound is not checked here.
 - **Radius of convergence.** ρ(p) = 1/limsup |a_k|^{1/k} (Cauchy–Hadamard).
 
 **Readings of "k uniformly low within an interval".** The text admits three:
@@ -190,10 +191,10 @@ Consequences for the LEA:
 - The radius of convergence near ℓ_P is not the same thing as non-flatness below ℓ_P, so the regimes should be stated in terms of the curvature scale.
 - No claim about cosmic scales. The flat projection is needed only over a bounded window containing the emitter and detectors.
 
-**Restatement in curvature-scale language.** Let ℓ_curv(p) = min_{k ≥ 2} λ_k(p) be the curvature length of g at p, with ℓ_curv ~ ℓ_P in the foam picture.
-1. **Locally flat, ℓ ≪ ℓ_curv.** c_k(p; ℓ) ≤ (ℓ/ℓ_curv)^k → 0 for every k ≥ 2, so g is η plus vanishing corrections on ℓ-balls. This is the manifold property (the tangent-space limit). It holds at every point, curved or not, and it is *not* "exactly flat on an open set", which the lock would forbid (identity theorem, (b)).
+**Restatement in curvature-scale language.** Let ℓ_curv(p) = inf_{k ≥ 2} λ_k(p) be the curvature length of g at p (ℓ_curv ≤ ρ, and > 0 by analyticity), with ℓ_curv ~ ℓ_P in the foam picture. Below, λ denotes the running scale; ℓ stays the micro-topology constant of (C1).
+1. **Locally flat, λ ≤ √ε·ℓ_curv.** c_k(p; λ) ≤ (λ/ℓ_curv)^k ≤ ε for every k ≥ 2, so g is η plus vanishing corrections on ℓ-balls. This is the manifold property (the tangent-space limit). It holds at every point, curved or not, and it is *not* "exactly flat on an open set", which the lock would forbid (identity theorem, (b)).
 2. **Twisted, ℓ ~ ℓ_curv ~ ℓ_P.** c_k(p; ℓ) = O(1) for many k: R1/R3 for g on I_μ ∋ ℓ_P.
-3. **Flat on a bounded window, ℓ ∈ [ℓ_low, ℓ_high] = I_H** (with ℓ_P ≪ ℓ_low and ℓ_high ≲ R). R1 for the **smoothed** metric ḡ_L on I_H only. Nothing is asserted for ℓ > ℓ_high.
+3. **Flat on a bounded window, λ ∈ [ℓ_low, ℓ_high] = I_H** (with L ≤ ℓ_low, since ḡ_L carries no information below L, and ℓ_high ≤ min(R, √ε·𝓡)). R1 for the **smoothed** metric ḡ_L on I_H only. Nothing is asserted for ℓ > ℓ_high.
 
 **Radius of convergence vs flatness.** ρ ~ ℓ_P is compatible with regime 1. For ℓ ≪ ρ the series converges and its terms go to zero, which *is* local flatness. ρ only says where the series stops converging, not where the geometry stops being flat. The earlier wording that tied ρ ~ ℓ_P to twisting is corrected accordingly: twisting is c_k = O(1) at ℓ ~ ℓ_curv, not ρ ~ ℓ_P alone.
 
@@ -208,17 +209,17 @@ Window W = U, a bounded region containing the emitter, the detectors and the anc
 | Procrustes anchors | yes: lab bodies in U |
 | reference configuration | yes: a fixed configuration of lab bodies in ℝ^{1,3} (an abstract copy, not a region of the world) |
 | tolerance τ, Δ, ε, ℓ, L | yes: numbers fixed by the lab |
-| exponential chart of ḡ_L | yes, if its normal neighbourhood covers U (R below the injectivity radius of ḡ_L on U) |
+| exponential chart of ḡ_L | only as the nearest-preimage selection: smoothing keeps the micro-handles as topology, so the injectivity radius of ḡ_L is ~ℓ, not ≥ R; exp_o is not injective on U, and the least-h-norm preimage has O(ℓ) jumps, which (C1) absorbs |
 | (M-b) ledger criterion | yes: diary entries in the detector body |
 | (M-c) coarse matter | yes |
-| **(M-a) microtopology** | **reaches outside if stated as "same π₁".** π₁(M_w) is global. Localise it to the image of π₁(B) → π₁(U), or simply to the classes of loops contained in a neighbourhood B of D_i inside U (with holonomy along those loops, (c)). Loops that leave U are not used. |
+| **(M-a) microtopology** | **reaches outside if stated as "same π₁".** π₁(M_w) is global. Localise it as S_B(Λ): the free homotopy classes of U that have a representative of h-length ≤ Λ inside B, an h-ball about D_i of radius ≥ Cℓ within U (with holonomy along those representatives, (c)). Free classes have no location, so "near" means "has a short representative in B". Across worlds, compare an invariant (the length spectrum of S_B(Λ) to within τ, or the conjugacy class of the image of π₁(B) → π₁(U) up to isomorphism, with holonomies), not "the same classes": different worlds' π₁ are different groups. Loops that leave U are not used. |
 | **"compatible with the record" (#399)** | the record may refer to the world outside U. For the identification only its lab part (the macroscopic lab configuration) is used; the rest enters W, not the identification. |
 
-**Conclusion.** With (M-a) localised to loops in U, the identification of d_i needs nothing beyond the bounded window, so no cosmic-scale assumption is required.
+**Conclusion.** With (M-a) localised to loops in U, the identification of d_i needs nothing beyond the bounded window, so no cosmic-scale assumption is required. The localised (M-a) is weaker than "same π₁": π₁(B) → π₁(M_w) need be neither injective nor surjective, so worlds that agree on U can differ in global topology. Agreement in the window fixes no global topology, and none is picked.
 
 ### (b) The convergence tension
 
-If |a_k| ~ ℓ_P^{−k} (Lead reading), then ρ ~ ℓ_P, and at λ = ℓ_H ≫ ρ the terms c_k = (ℓ_H/ℓ_P)^k grow without bound. **The series of the germ of g at a lab point diverges at human scale**, so R1–R3 cannot all be stated for the germ of g. (This is about convergence only. For λ ≪ ρ the same series converges with vanishing terms, so it is locally flat; see (a′).) Under the lock, ρ(p) is at most the distance to the nearest complex singularity of the continuation, presumably the nearest microstructure, so with dense foam ρ ~ ℓ_P everywhere [A, heuristic].
+If |a_k| ~ ℓ_P^{−k} (Lead reading), then ρ ~ ℓ_P, and at λ = ℓ_H ≫ ρ the terms c_k = (ℓ_H/ℓ_P)^k grow without bound. **The series of the germ of g at a lab point diverges at human scale**, so R1–R3 cannot all be stated for the germ of g. (This is about convergence only. For λ ≪ ρ the same series converges with vanishing terms, so it is locally flat; see (a′).) Under the lock, ρ(p) is set by the distance to the nearest complex singularity of the continuation (equal to it in one variable), presumably the nearest microstructure, so with dense foam ρ ~ ℓ_P everywhere [A, heuristic].
 
 **Options.**
 1. **Asymptotic or truncated use** of the germ of g: valid only for λ ≪ ρ ~ ℓ_P. "Flat at human scale" is then inexpressible, so this fails.
@@ -228,7 +229,8 @@ If |a_k| ~ ℓ_P^{−k} (Lead reading), then ρ ~ ℓ_P, and at λ = ℓ_H ≫ �
    - **flat at human scale:** R1 for ḡ_L on I_H;
    - **violently twisted:** R1 or R3 for g on I_μ around ℓ_curv ~ ℓ_P (c_k = O(1) there); for λ ≪ ℓ_curv, g is locally flat again (regime 1, (a′)).
 
-   This is consistent with the lock, which constrains g, the world. ḡ_L is a derived description; it is analytic if a heat-kernel or Gaussian smoothing is used, and it need not be. It also matches (C4).
+   Smoothing prior art (bibliographic only): Korzyński, CQG 27 (2010) 105015; Buchert, GRG 32 (2000) 105. Hamilton's Ricci flow (JDG 17 (1982)) is Riemannian and can change topology (through surgery), so it is not a ready-made ḡ_L.
+   This is consistent with the lock, which constrains g, the world. ḡ_L is a derived description; it need not be analytic (whether a given smoothing yields an analytic ḡ_L is [unchecked]); R1 on I_H is therefore read through the finite-order Taylor expansion of ḡ_L with remainder (k ≤ k_H), not through a convergent series. It also matches (C4).
 
 ### (c) What the germ-order picture can and cannot detect
 
@@ -241,13 +243,13 @@ This is consistent with "Germ and global data" (Literature M3): the germ fixes t
 **Cannot detect:**
 - π₁ itself;
 - which analytic extension is realised (Misner, Taub–NUT, #371);
-- **flat micro-topology.** A flat wrap or flat handle has a_k = 0 for all k ≥ 2 at every point, the same germ as Minkowski space. So "k uniformly 0" can hold at *every* scale in a world that is "violently twisted, with nontrivial fundamental group". The germ-order criterion for twisting captures curvature twisting only; flat topology needs the global data (M-a).
+- **flat micro-topology.** A flat wrap or flat handle has a_k = 0 for all k ≥ 2 at every point, the same germ as Minkowski space. Under the lock this can occur only in an exactly (locally) flat host: an analytic metric flat on an open set is flat on its whole connected component, so in a world with any curvature every micro-handle is curved and is seen by a_k. With the lab as test fields (test-field limit), flat hosts are allowed; beyond that limit the blindness case is excluded. So "k uniformly 0" can hold at *every* scale in a world that is "violently twisted, with nontrivial fundamental group". The germ-order criterion for twisting captures curvature twisting only; flat topology needs the global data (M-a). Outside the lock (smooth metrics) the jet does not fix the germ: smooth germs can agree to all orders and differ (flat functions such as e^{−1/x²}), so a_k-statements constrain g only through finite-order Taylor remainders. Under the lock (analytic), the ∞-jet determines the germ.
 
 ### (d) Does it fix the flat projection?
 
 - **Exponential chart.** f_o = exp_{ḡ_L, o}^{−1}, in an h-orthonormal frame at the anchor o, with the germ truncated at k ≤ 1. This gives a flat chart on the normal neighbourhood of o for ḡ_L.
-  - (C1) holds with ε ~ R²/𝓡² from a_2 of ḡ_L. Using g instead fails, because its injectivity radius and ρ are ~ℓ_P (g is locally flat only far below ℓ_P, not at lab scale).
-  - **Residual freedom:** the frame at o, i.e. a Lorentz transformation (6 parameters, reduced to ISO(3) by u).
+  - (C1) holds with ε ~ R²/𝓡² from a_2 of ḡ_L, for the nearest-preimage selection of exp_o⁻¹ (least h-norm preimage). Its O(ℓ) jumps across the cut locus are allowed by the additive ℓ. The injectivity radius of ḡ_L itself is ~ℓ, because the micro-handles survive smoothing as topology. Using g instead fails, because its injectivity radius and ρ are ~ℓ_P (g is locally flat only far below ℓ_P, not at lab scale).
+  - **Residual freedom:** the frame at o, i.e. a Lorentz transformation (6 parameters, reduced to SO(3) by u; translations are fixed by o).
   - The translation is fixed by o, but o is defined only to ℓ within its anchor body.
 - **Comparison with the best-fit (Procrustes) projection** (§2, F5):
 
@@ -267,11 +269,11 @@ This is consistent with "Germ and global data" (Literature M3): the germ fixes t
   - Pairwise comparison within a tolerance is not transitive.
   - There is no natural reference micro-jet to compare to (the flat one is the macro reference).
   - Exact equality is transitive, but under the lock equal germs mean identical local metrics, and micro-jets vary over the ℓ-ball anyway.
-  - So micro-jets can serve only as a **scale-averaged** criterion, e.g. the profile λ_k(·) over the ℓ-ball compared to a reference profile. They are not a pointwise one.
+  - So micro-jets can serve only as a **scale-averaged** criterion, e.g. the profile λ_k(·) over the ℓ-ball (h-volume average, u fixed) compared to a reference profile. They are not a pointwise one. The criterion is u-dependent, and replacing the h-norms by Lorentzian scalar invariants is unsafe, because VSI spacetimes (e.g. pp-waves) are curved with all invariants zero [unchecked].
 
 ### (f) Well-posedness audit (new terms)
 
-- **Defined:** a_k, c_k, K, λ_k and ρ (frame-dependent through u; use the scalar invariants |∇^j R|_h, or fix u); I_H, I_μ, k₀, ε; the germ of g and of ḡ_L.
+- **Defined:** a_k, c_k, K, λ_k and ρ (frame-dependent through u; fix u. h-norms are u-dependent, and Lorentzian scalar invariants are unsafe: VSI spacetimes such as pp-waves are curved with all invariants zero [unchecked]); I_H, I_μ, k₀, ε; the germ of g and of ḡ_L.
 - **Ill-posed when:**
   1. it is applied to the germ of g at human scale (divergence, (b));
   2. **flat micro-topology** is present: invisible to the criterion, (c), so the twisting has to be stated via (M-a);
