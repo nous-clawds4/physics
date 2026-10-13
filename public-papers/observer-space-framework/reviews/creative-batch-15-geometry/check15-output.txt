@@ -1,0 +1,10 @@
+symmetric toy: 8pi(rho+p_r) = -2*k**2*(k**4 + 12*k**2*m**2 - 6*k**2*m*sqrt(k**2 + x**2) + 2*k**2*x**2 - 8*m**3*sqrt(k**2 + x**2) + 12*m**2*x**2 - 6*m*x**2*sqrt(k**2 + x**2) + x**4)/((k**2 + x**2)**3*(k**2 + 4*m**2 - 4*m*sqrt(k**2 + x**2) + x**2))
+ at throat: 2*(-k + 2*m)/k**3 ; m=1,k=3: -0.0740740740740741
+ large-x 8pi(rho+p_r) ~ 36/x**5 - 18/x**4 + O(x**(-6), (x, oo))
+ 8pi rho = -k**2*(k**4 + 20*k**2*m**2 - 8*k**2*m*sqrt(k**2 + x**2) + 2*k**2*x**2 - 16*m**3*sqrt(k**2 + x**2) + 20*m**2*x**2 - 8*m*x**2*sqrt(k**2 + x**2) + x**4)/((k**2 + x**2)**3*(k**2 + 4*m**2 - 4*m*sqrt(k**2 + x**2) + x**2))
+ integral (rho+p_r) 4pi R^2 dx = -k**2*Integral((k**4 + 12*k**2*m**2 - 6*k**2*m*sqrt(k**2 + x**2) + 2*k**2*x**2 - 8*m**3*sqrt(k**2 + x**2) + 12*m**2*x**2 - 6*m*x**2*sqrt(k**2 + x**2) + x**4)/((k**2 + x**2)**2*(k**2 + 4*m**2 - 4*m*sqrt(k**2 + x**2) + x**2)), (x, -oo, oo)) ; m=1,k=3: -5.42477796076938
+pure Ellis: 8pi(rho+p_r) = -2*k**2/(k**2 + x**2)**2 ; integral 4piR^2 dx = -pi*k
+L=3.8: well x=9.7361801 V=0.91549999; barrier x=3.0133699 V=0.95264816; throat V=0.86814815
+  thresholds (fixed L, xdot=dx/dtau): 0.1927386 0.29068885
+  physical boost (proper speed in orbit frame) thresholds: 0.26774487 0.29068885
+L=5: well x=21.303684 V=0.95602901; barrier x=1.7756816 V=1.3032302; throat V=1.2592593
