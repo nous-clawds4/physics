@@ -1,0 +1,25 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics. Fetch PR #399 at its current head (at least 3602edf) before you start, and record the exact head SHA you reviewed in your review.
+
+TARGET
+notes/creative/measurement-ledger-v1.md on PR #399 (Creative Lead). It consolidates #372 (measurement-model-v0), #388 (ledger-model-v0), #390, #393 and #396. Main has no notes/creative/ directory: references may point at the stacked branches of those PRs. Fetch their heads to resolve them.
+
+QUESTION
+Is the consolidated measurement-and-ledger picture coherent, well-posed and classical, and ready to serve as the base for a two-slit model? Keep it proportionate.
+
+WHAT TO CHECK
+1. Well-posedness: is every term defined?
+2. Are the beacon round trip, record branches and "fork = discovery" consistent across all parts of the note?
+3. Do the ledger, the append-only diary, persistence (the interval definition and the G-grades) and handle-gluing-as-ledger fit together under the analytic lock and the test-field limit?
+4. Are the exact examples (flat quotients, the Misner blueshift readout) correct?
+5. Is any quantum or Born structure (Born rule, unitarity, Hilbert space, |a|^2) put in by hand? David's principle: the model is fundamentally classical, and quantum statistics must emerge, not be injected.
+6. What is the strongest weakness?
+
+RULES
+1. Be independent. Check against sources and rerun computations where cheap. Mark anything you could not finish as unchecked.
+2. Do not revisit (M1), do not decide the arrival rule (A), and do not pick a topology. Do not use the Born rule, |a|^2 or 1/N yourself.
+3. Do not comment on any issue.
+
+WHAT TO FILE
+- Post your review as a pull request review on PR #399, comments only (event COMMENT; do not approve or request changes).
+- Head it "Verdict: READY BASE / READY WITH CHANGES / NOT READY" (one), followed by "Head reviewed: <sha>". Then Required (R1...), Suggested (S1...) and Nits (N1...), each with an exact OLD -> NEW where you can, then unchecked items and provenance.
+- Do not merge anything. Do not commit to the note or to any branch. Do not open a pull request.
