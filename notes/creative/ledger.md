@@ -100,7 +100,7 @@ Recorded in `notes/creative/charter.md` (addendum). Batch 04 is the first batch 
 
 No set survived the rules once the lock was relaxed (see `batch-04.md`). Two failure modes recur. (i) When ODE uniqueness breaks for a physical reason, the alternatives form a continuum (Peano-type non-uniqueness, free data on a null surface, extensions past a Cauchy horizon in $C^\infty$). (ii) Where the alternatives are discrete (sheets, eigen-frames, branch counts), the branch locus has codimension ≥2 and is rarely hit (#336, #341), or the alternatives disappear rather than fork. The analytic/geodesic lock was not the only barrier.
 
-## Reframing (David Strayhorn, 2026-10-12 3:19 PM ET, relayed via Physics Lead, not signed; verbatim)
+## Reframing (David Strayhorn, 2026-10-12 3:19 PM ET, relayed via Physics Lead, not signed; paraphrase, confirmed by Physics Lead as paraphrase only)
 
 > I want to see if I understand. You say that an observer in free fall has exactly one way to continue, so anything that branches turns out to be uncertainty about which world we’re in, not a fork in the observer’s own path. Are you saying this is a good thing or a bad thing? The best case scenario is that exactly what you describe. Within any one world, there is deterministic free fall without branching. Within observer space, branching happens due to uncertainty over which world we’re in. Branch A means the observer is in world A; branch B means the observer is in world B. Within world A or world B, branching doesn’t occur.
 
@@ -300,3 +300,4 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-12: David's 11:42 PM words recorded verbatim; Lead rulings on #393 (fork = discovery; flat example as proof of concept).
 - 2026-10-12: batch 19 (L70–L74): world-dependent gluing of a nearby handle; Misner boost; Γ beyond the horizon.
 - 2026-10-12: Geometry #398 applied to batch 19 (F1, F3–F11; F2 withdrawn).
+- 2026-10-13: 3:19 PM entry relabelled as paraphrase (confirmed by Physics Lead as paraphrase only; Physics Lead ruling).
