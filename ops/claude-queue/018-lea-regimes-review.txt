@@ -1,0 +1,25 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics. Fetch PR #410 (head at least 2e348dc) and PR #411 (head at least 35fcd3e, stacked on #410) at their current heads before you start, and record both exact head SHAs in your review.
+
+TARGET
+PR #410, creative batch 26: the low-energy approximation (LEA) stated rigorously, and PR #411, creative batch 27: choice of regime variable (Creative Lead). Context: two-slit work is paused. The new target is a generic emitter-detector question: the relative probability that a particle emitted from a small spacetime region is detected at detector d_i. First we need to identify d_i across worlds. David's LEA: spacetime is nearly flat at human scale and twisted (nontrivial fundamental group) at the microscopic scale, flat again below that, with no claim at cosmic scale. Each world is projected to flat spacetime, and detectors are identified by where they land. Main has no notes/creative/ directory: resolve references against the stacked branches.
+
+QUESTION
+Do #410 and #411 together make the emitter-detector question well-posed, with the cross-world identification of d_i rigorously defined? Keep it proportionate.
+
+WHAT TO CHECK
+1. The projection: coarse causal chart from the lab window to Minkowski, the frame fixed by a Procrustes fit to at least 4 non-coplanar anchors, residual SO(3). Is it well-defined and unique enough?
+2. The convergence-tension resolution in #410 (smoothed germ for the macro scale, raw germ for the micro scale): is it sound and compatible with the analytic lock?
+3. #411's regime variable: GH-distance flatness eps(lambda) with a density clause, k as a bound of order |Riem| lambda^2, the isotropy/stable-norm assumption for regime 3, local systole. Is it the right choice versus derivative order k?
+4. (C1) in additive form (eps R + l_low): is it enough to identify d_i? How serious is the open multiplicative/Reifenberg step?
+5. The stated question mu(W_i)/mu(W_j) with mu open: is every term defined? Is anything (Born rule, |a|^2, a measure) put in by hand? Is (M1) left untouched? David's principle: the model is fundamentally classical, and quantum statistics must emerge, not be injected.
+6. The strongest obstacle, and the most useful next step.
+
+RULES
+1. Be independent. Check against sources and rerun computations where cheap. Mark anything you could not finish as unchecked.
+2. Do not revisit (M1), do not decide the arrival rule (A), and do not pick a topology. Do not use the Born rule, |a|^2 or 1/N yourself.
+3. Do not comment on any issue.
+
+WHAT TO FILE
+- Post your review as a pull request review on PR #411, comments only (event COMMENT; do not approve or request changes), covering both PRs.
+- Head it "Verdict: SOUND / SOUND WITH CHANGES / UNSOUND" (one), followed by "Heads reviewed: #410 <sha>, #411 <sha>". Then Required (R1...), Suggested (S1...) and Nits (N1...), each tagged with the PR, with an exact OLD -> NEW where you can, then unchecked items and provenance.
+- Do not merge anything. Do not commit to any note or branch. Do not open a pull request.
