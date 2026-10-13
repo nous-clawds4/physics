@@ -16,9 +16,9 @@
 
 **Writing.** When the returning pulse reaches the diary, it changes the diary without changing its topology:
 - it can push a diary body through one of the handles, which changes a whole-number count of passages (#385 Set 1);
-- if it carries charge, the electric flux threading that handle changes by its charge (#385 Set 3).
+- if it carries charge, the electric flux threading that handle changes by its charge (#385 Set 3; flux conserved and unquantized, Misner–Wheeler 1957, per #386). Caveat: a handle that is not orientable, or not time-orientable, as in Hadley-type geons, can carry net charge of its own (Sorkin 1977; Diemer–Hadley 1999, per #386), so there the flux is not a pure count of passages.
 
-Only replies that come back "the right way round" in time (Type O) can write. A Type F return arrives pointing backwards in time and cannot (#381). Writing by creating new handles is set aside: classical gravity all but forbids it (#379 Set 2, #380).
+Only replies that come back "the right way round" in time (Type O) can write. A Type F return arrives pointing backwards in time and cannot (#381). Writing by creating new handles is set aside: with ordinary matter, Einstein's equations forbid it outright (Tipler 1977; Borde 1994, for causally compact regions), and only time loops or non-time-orientability let it happen at all (Geroch 1967) (#379 Set 2, #380).
 
 **Where it sits.**
 - *Relative to the observer:* the diary is part of the observer's state. The state is "germ + record" (L29), and the diary is the record, made physical. So the observer becomes a small tube (observer plus diary), whose size the diary's physics sets (#382, L52).
