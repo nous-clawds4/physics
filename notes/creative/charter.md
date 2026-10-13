@@ -157,3 +157,9 @@ Physics Lead's reading (Lead reading, not David's): the order-k term ~|a_k| ℓ^
 > when we get smaller than microscopic, it needs to get flat again, because that's one of the defining features of a manifold... at the cosmic scale, we don't know whether it's flat or not, so we should be careful not to assert that it must necessarily be flat.
 
 Lead notes (Physics Lead, not David's): (a) the LEA has three regimes: locally flat for ℓ ≪ ℓ_P (the manifold property), twisted near ℓ_P, and flat across a bounded human-scale window [ℓ_low, ℓ_high]; a radius of convergence near ℓ_P is not non-flatness below ℓ_P. (b) No claim about cosmic scales; the flat projection is needed only over a bounded window containing the emitter and detectors.
+
+## Addendum: regime variable (David, 5:17 PM ET 2026-10-13, direct in Creative Lead chat, not signed; verbatim)
+
+> Intuitively, it makes sense to think in terms of regimes. Whether k is the most sensible variable to use in defining these regimes is a question about which I am much less certain. I am inclined to rely upon you more than me for the details of what exactly we should do with k, or whether k is even the right variable for our purposes.
+
+David delegates the choice of variable. Batch 27 proposes the flat-distortion profile ε(p; λ), with k as a derived diagnostic. This is a Creative Lead proposal pending review, not David's ruling.
