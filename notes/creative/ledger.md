@@ -66,6 +66,7 @@
 | L57 | flux record | **Batch 16 Set 3:** the electric flux through the handle (charge without charge) changes by ±q per signed passage of any charge and is dissipation-proof (d⋆F = J; radiation carries no net charge); readable by a Gauss surface enclosing exactly one mouth (#387); transcribes the carrier's winding (ΔΦ = qΔw) | batch-16 [A]; Misner–Wheeler 1957 (V-text per #386); non-co-orientable handles carry intrinsic charge (Sorkin 1977, Diemer–Hadley 1999) | **live** (exact-real) | survives radiation, unlike orbit classes |
 | L58 | flux discreteness | **Batch 16 Set 3:** integer only as a difference from the reference, Φ − Φ_ref = n q₀, given one carrier species; Misner–Wheeler: "unquantized" (#386); no prior art; Dirac quantisation is quantum and excluded (5:00 PM) | batch-16 | **conditional** | an assumption about matter, near a law of R by fiat if chosen for the purpose |
 | L59 | GW memory record | **Batch 16 Set 3:** permanent continuum record (Christodoulou 1991, V-meta per #380); mouth masses are not dissipation-proof (parked) | batch-16; #380 | **live** (continuum) | supplement only |
+| L60 | ledger counts as "encoded in spacetime" | **David 9:28 PM ET 2026-10-12** (relayed by Physics Lead, Physics Lead chat, not signed; verbatim): "Yes, matter and flux next to fixed handles counts as encoded in spacetime for now." The analytic lock stays; the append-only matter-and-flux ledger next to fixed topological handles is the main line | David 9:28 PM; #388 | **ruling** | answers job 015's strongest reason to drop (#388) |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -208,6 +209,12 @@ Caveat: no in/out S-matrix is assumed; the model is classical. Where the geon fo
 
 > Should we delve into the details of what constitutes the signal and how it gets recorded? If the observer is going to record data, then it needs to be physical, which means encoded into spacetime itself. Perhaps some sort of ledger composed of particles of nontrivial topology that is distinct from the observer but travels in close proximity?
 
+## Ledger encoded in spacetime (David, 9:28 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> Yes, matter and flux next to fixed handles counts as encoded in spacetime for now.
+
+The analytic lock stays; the append-only matter-and-flux ledger next to fixed topological handles is the main line.
+
 ## Taub–NUT/Misner union (resolution, Literature via Physics Lead)
 
 Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, geodesics through the boost's fixed point are incomplete in both extensions and in every union (as a set of geodesics: closed, nowhere dense, Lebesgue-null in the covering chart's initial data (no measure on observer space adopted); every point of the Taub region still lies on one). The two-extension non-Hausdorff union is not complete: generic geodesics entering a CTC region hit its second horizon. Among unions of the four half-plane pieces, only the full quotient (R^2\{0})/B is complete modulo the fixed-point geodesics; helicoidal coverings give further non-Hausdorff maximal extensions with the same exception (Rieger, arXiv:2402.09312). Taub-NUT has no boost fixed point, but its comoving (zero-momentum) geodesics continue in neither extension (Misner–Taub 1969, §II C, relayed from external review, V-meta; confirmed by computation, #377), so no union of the two is complete. (PR #375; "measure zero" replaced by Lead ruling; Misner "only" and Taub–NUT clause edited per external review.) Reported Taub–NUT completeness: Hájíček 1971 (unchecked). Resolves the #367 vs #371 conflict (measurement-model-v0 open problem 13).
@@ -251,3 +258,4 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-12: Lead ruling: SV described as a geometry chosen first, source identified afterwards (batch 15, L50).
 - 2026-10-12: batch 16 (L54–L59): one-universe winding (integer, parked), threading orbit unstable (numeric), MTY CTC tie-back, flux-through-handle record (dissipation-proof).
 - 2026-10-12: Geometry #387 and Literature #386 applied to batch 16 (signed winding; one-period trace 2(1+L/a); one-mouth Gauss surface; weak point 7 rewritten; citation upgrades).
+- 2026-10-12: David's 9:28 PM ruling recorded verbatim (L60).
