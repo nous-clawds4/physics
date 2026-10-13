@@ -81,6 +81,11 @@
 | L72 | Γ beyond the forming geon's horizon | **Batch 19 Set 3:** replies beyond H⁺(S) depend on Γ (#367 (d)); the extension is read by survival only | batch-19; #364; #381; #398 F9 | **live** | Γ is present on S and readable before H⁺(S) if a round trip fits in D(S) |
 | L73 | non-Hausdorff / inequivalent extensions | **Batch 19 Set 4:** exact but read by survival only; non-Hausdorff mechanism circular | batch-19; #379 | **parked** | |
 | L74 | read-out, branching, persistence | **Batch 19:** branch = record class of gluings, refining with replies (fork = discovery, David 3:19/11:42); persistence G3 as re-readability within the read-out window (#398 F10) | batch-19; #390; #394; #398 | **live** | strongest weakness: exact examples are all symmetric, and then uncountable |
+| L75 | which route without a record | **Batch 20 Set 1:** on a flat cylinder W_L, the route (deck class rel a declared reference) is fixed by (L, launch) in each world; it is a world fact, not a reception-history datum; asked of the record alone it is ill-posed unless constant on the record class | batch-20 [A, N]; #381; #399 | **live** | no fork within a world |
+| L76 | record class of a hit | **Batch 20 Set 2:** with the launch known, a hit at x fits L_n = (X − x)/n (indexed by route; e.g. {5.0, 2.5}; finite for x > 0; continuum if x = X); arrival time carries no information | batch-20 [N]; Claude 017 | **live** | a hit narrows the worlds to one class; routes label worlds inside it, not branches; fixed-wrap two-slit case: two launches, n = 0 and n = −1 (11.32°, −2.85°), S1 |
+| L77 | pattern from grouping | **Batch 20 Set 3:** x(L) piecewise linear with jumps at L = X/n (a periodic sawtooth only in X at fixed L), finite harmonic family Δ/n, periodicity in x; no density or fringes without a measure | batch-20 | **live (skeleton only)** | |
+| L78 | two-slit obstacle | **Batch 20 Set 4:** one route per hit; under non-negative weights that ignore the routes not taken, the routes add, and no band is darker than a single route makes it; fringes need waves by hand (excluded), a self-field round the other routes (beyond the free test particle), or a weighting that depends on the whole set of routes, fixed in advance (parked; (M1) untouched; counting by route is the labelled conjecture; LT2); step-2 baseline stated in advance: a passive which-route record leaves hits unchanged and splits only the record class (S4) | batch-20 | **open** | strongest obstacle |
+| L79 | David 1:17 AM | "This is all very encouraging. Let's proceed with the 2-slit work." (relayed by Physics Lead, Physics Lead chat, not signed; verbatim) | David 1:17 AM | **ruling** | starts the two-slit line |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -247,6 +252,10 @@ Widget answer (same relay, verbatim):
 
 Lead rulings: a fork is the discovery of which world one is in (per 3:19 PM); at finite time a branch is a record class of many worlds, refining with replies. The flat-quotient example (batch 18) is an exact proof of concept only; the main line stays geon/handle hosts.
 
+## Two-slit work (David, 1:17 AM ET 2026-10-13, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> This is all very encouraging. Let's proceed with the 2-slit work.
+
 ## Taub–NUT/Misner union (resolution, Literature via Physics Lead)
 
 Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, geodesics through the boost's fixed point are incomplete in both extensions and in every union (as a set of geodesics: closed, nowhere dense, Lebesgue-null in the covering chart's initial data (no measure on observer space adopted); every point of the Taub region still lies on one). The two-extension non-Hausdorff union is not complete: generic geodesics entering a CTC region hit its second horizon. Among unions of the four half-plane pieces, only the full quotient (R^2\{0})/B is complete modulo the fixed-point geodesics; helicoidal coverings give further non-Hausdorff maximal extensions with the same exception (Rieger, arXiv:2402.09312). Taub-NUT has no boost fixed point, but its comoving (zero-momentum) geodesics continue in neither extension (Misner–Taub 1969, §II C, relayed from external review, V-meta; confirmed by computation, #377), so no union of the two is complete. (PR #375; "measure zero" replaced by Lead ruling; Misner "only" and Taub–NUT clause edited per external review.) Reported Taub–NUT completeness: Hájíček 1971 (unchecked). Resolves the #367 vs #371 conflict (measurement-model-v0 open problem 13).
@@ -301,3 +310,6 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-12: batch 19 (L70–L74): world-dependent gluing of a nearby handle; Misner boost; Γ beyond the horizon.
 - 2026-10-12: Geometry #398 applied to batch 19 (F1, F3–F11; F2 withdrawn).
 - 2026-10-13: 3:19 PM entry relabelled as paraphrase (confirmed by Physics Lead as paraphrase only; Physics Lead ruling).
+- 2026-10-13: David's 1:17 AM words recorded verbatim (ledger, charter); batch 20 (L75–L79).
+- 2026-10-13: Geometry #402 applied to batch 20 (F1–F7); Literature #403 applied (M1: the principle marked as paraphrase; prior art added).
+- 2026-10-13: Claude job 017 applied to batch 20 (R1–R4, S1–S4, N1–N6; Lead ruling).
