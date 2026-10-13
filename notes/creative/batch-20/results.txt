@@ -15,3 +15,5 @@ launch theta=35 deg, D=10: cover hit X=7.002075
     [5.0, 2.5, 1.6667, 1.25, 1.0, 0.8333, 0.7143, 0.625] ... (and L must exceed x; n=0 needs x=X)
     all with x < L: [(1, 5.0), (2, 2.5)]
 (3) arrival time D/(v cos th) is L-independent: timing carries no world information here.
+(4) fixed L=2.5, hit x=2.0021: launches per route n: [(-3, -28.8), (-2, -16.69), (-1, -2.85), (0, 11.32), (1, 24.24), (2, 35.0), (3, 43.54)]
+    within aperture |D tan th| < L: [(-1, -2.85), (0, 11.32)]
