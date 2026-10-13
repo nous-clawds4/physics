@@ -8,12 +8,18 @@
 **Widget answer (same relay, verbatim):**
 > Yes, have Creative Lead build a batch on pre-existing topological ledger states that differ by world.
 
+**David (11:42 PM, 11:42 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim):**
+> Completely flat universes with the universe as the ledger is quite the different picture than the one we have been dealing with. Are we so eager to abandon our previous line of thought? Also, you say that it's a discovery, not a fork. What exactly is the difference? In my mind, a fork and a discovery are the same thing. If an observer travels down path B but not A of a fork, the observer discovers he is compatible with world B but not A.
+
+**Framing (Lead ruling).** The flat-quotient example below is an **exact proof of concept only**: it shows that several exact ledger states can fit one observer state. The main line stays geon/handle hosts (#388, batch 19).
+
 **Motivation.** Geometry's exactness objection (#388): under the analytic lock, two worlds that agree near the observer agree on the whole connected tube, metric and $T_{ab}=G_{ab}/8\pi$ included. So an exact *write* cannot change anything near the observer. The idea here: **nothing is written.** The ledger states differ by world from the start, and the returning signal *reveals* which world.
 
 ---
 
 ## For David (plain summary)
 
+- **This is a proof of concept, not a change of direction.** The main line stays with geons and handles next to the observer; the flat example only shows that the idea can work exactly. Batch 19 moves it back to handles.
 - **Yes, several ledger states can fit one observer state, exactly.** Picture a universe that is flat everywhere but wraps around, like a video-game screen where leaving one edge brings you back at the other, in three directions. Different wrap-around patterns are different worlds. Near the observer they look **exactly** the same: same geometry, same (zero) matter. No approximation is needed.
 - **The wrap pattern is the ledger state.** It is topological, it was there from the start, and nothing has to write it. World A has pattern A, world B has pattern B.
 - **Reading it is just a round trip.** Send a light pulse out in some direction. In a wrapped universe it comes back from the other side after a delay equal to the length of that wrap. The arrival times and directions spell out the pattern. Before the first pulse returns, all patterns are still possible. As replies come in, the possibilities narrow. Before enough replies are in, one branch holds many worlds (all patterns agreeing on the wraps shorter than the elapsed time); in a closed wrapped universe, after a finite certification time each branch is one world. Branches only split, never merge.
@@ -76,7 +82,7 @@
   - "Branch A = world A" holds in the limit: Γ is fixed, and certifiably so, once τ exceeds a generating set's lengths and about twice the quotient diameter (#370, sketch). For cocompact Λ that is a finite time.
 - **Prior art (per Literature, not verified by us):** wrap-around read-out by ghost images in a multiply connected universe: Lachièze-Rey & Luminet, Phys. Rep. 1995; Cornish, Spergel & Starkman, CQG 1998.
 - **No write, so no $T_{ab}$ problem.** Γ is topological, and no carrier energy can change it. The signal is a null geodesic; its own energy is a test quantity, but that does not touch the ledger state.
-- **Discovery, not fork.** Each world is fixed whole from the start and nothing in it splits. What branches is the observer-plus-record state, whose compatible world set shrinks as replies arrive (#372 R2). This fits well-posedness: every world's evolution is unique.
+- **A fork is the discovery of which world you're in** (David 3:19 PM: "Branch A means the observer is in world A; branch B means the observer is in world B"; 11:42 PM). Each world evolves uniquely. At finite time each branch is a record class containing many worlds, and it refines as replies arrive (#372 R2, §2.6).
 - **Status: live** (L67).
 
 ## Set 4: relation to persistence (#390) and to the append-only diary (#388)
