@@ -76,6 +76,11 @@
 | L67 | read-out as world revelation | **Batch 18 Set 3:** round trips through the topology return after time |g| with deck label g (Type O, no CTC needed); record classes nest; Γ certified in finite time for cocompact Λ (#370) | batch-18; #372 §2.6, R2; #370 | **live** | branch = record class (many worlds); one world per branch only after certification (cocompact Γ); nested |
 | L68 | persistence of a pre-existing state | **Batch 18 Set 4:** Γ is constant (no topology change for reasonable sources in a CTC-free, time-orientable host; Tipler, Borde, Geroch per #380), so the ledger state is grade G3 (#390); the append-only diary (#388) only holds replies | batch-18; #380; #390; #394 F7 | **live** | G3 as re-readability by new flashes, not storage |
 | L69 | batch 18 weak points | the strongest is that this is #370's Γ/extension freedom renamed; the lattice moduli are a continuum (uncountable; 6–9 real parameters, #394 F8) unless Γ ⊂ a fixed discrete group; the ledger is global, not nearby | batch-18 | **open** | |
+| L70 | nearby-handle gluing as ledger state | **Batch 19 Set 1:** under the lock the handle's far side is fixed (L65); what can differ is the deck element closing the handle (twist R, time shift T, boost); near region identical; read by Type O replies (rotation, delay); PT gluing gives Type F (unreadable); thin shells are outside the lock | batch-19 [A] | **live (conditional on an exact symmetric host)** | T above the light time gives CTCs (MTY), exploration only |
+| L71 | Misner boost as ledger state | **Batch 19 Set 2:** Misner Taub region /⟨B_β⟩; flat, so same germ for all β; β read by a round trip (delay, Doppler e^{±β}) before the horizon; exact | batch-19 [A, sketch] | **live** (exact, low-dimensional) | geon time-loop model |
+| L72 | Γ beyond the forming geon's horizon | **Batch 19 Set 3:** replies beyond H⁺(S) depend on Γ (#367 (d)); the extension is read by survival only | batch-19; #364; #381 | **live** | #372's picture with Γ as the ledger state |
+| L73 | non-Hausdorff / inequivalent extensions | **Batch 19 Set 4:** exact but read by survival only; non-Hausdorff mechanism circular | batch-19; #379 | **parked** | |
+| L74 | read-out, branching, persistence | **Batch 19:** branch = record class of gluings, refining with replies (fork = discovery, David 3:19/11:42); persistence G3 as re-readability | batch-19; #390; #394 | **live** | strongest weakness: a continuum of gluings |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -293,3 +298,4 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-12: Geometry #394 applied to batch 18 (F1–F9).
 - 2026-10-12: Literature #395 applied to batch 18 (M1–M3; ghost-image prior art).
 - 2026-10-12: David's 11:42 PM words recorded verbatim; Lead rulings on #393 (fork = discovery; flat example as proof of concept).
+- 2026-10-12: batch 19 (L70–L74): world-dependent gluing of a nearby handle; Misner boost; Γ beyond the horizon.
