@@ -71,6 +71,11 @@
 | L62 | ledger effectiveness | **Batch 17 Set 2:** preorder by inclusion of persistence sets (partial order on classes; same writes and exterior data) P(t′); grades G0 (never) to G3 (all permanent); no fractions or measures | batch-17; David 10:37 | **live** | graded without probability |
 | L63 | existence: flux slot | **Batch 17 Set 3:** a charged passage changes the handle flux by ±q₀; read by a Gauss surface around one mouth with no charge between it and the throat; permanent (G2, over the observer's proper-time domain) with no later throat crossing (d⋆F = J; Misner–Wheeler V-text per #386) | batch-17; #385; #386; #387 | **live** (test-field limit) | "more than never" shown |
 | L64 | losses as grades | **Batch 17 Set 4:** orbit decay and Claude 015 P1–P6 each downgrade affected slots (G2 → G1/G0) or are cost flags; none forces G0 everywhere | batch-17; #383; #388 (job 015) | **live** | persistence is graded, not all-or-nothing |
+| L65 | where a world-dependent ledger can sit | **Batch 18 Set 1:** under the lock the germ fixes the simply connected analytic development; compatible worlds differ only by the deck group Γ and the extension (#370 (A)); the far side of a handle and connected regions outside the tube are fixed | batch-18 [A, sketch]; #370 | **live** | honest about what analyticity forbids |
+| L66 | exact multiple ledger states | **Batch 18 Set 2:** flat lattice quotients R^{1,3}/Λ with ℓ_min > 2ρ give the same observer state, exact vacuum (no test limit), CTC-free; distinct Λ mod isotropy = distinct ledger states. Far-handle flux excluded (F cannot vanish on the tube under analyticity); flat Wilson-loop holonomy classically unreadable (excluded); Misner/Taub–NUT parked (read by survival only) | batch-18 [A] | **live** | answers Geometry's exactness objection (#388) |
+| L67 | read-out as world revelation | **Batch 18 Set 3:** round trips through the topology return after time |g| with deck label g (Type O, no CTC needed); record classes nest; Γ certified in finite time for cocompact Λ (#370) | batch-18; #372 §2.6, R2; #370 | **live** | branch A = world A, with nesting |
+| L68 | persistence of a pre-existing state | **Batch 18 Set 4:** Γ is constant (no classical topology change), so the ledger state is grade G3 (#390); the append-only diary (#388) only holds replies | batch-18; #380; #390 | **live** | nothing written, nothing fades |
+| L69 | batch 18 weak points | the strongest is that this is #370's Γ/extension freedom renamed; the lattice moduli are a continuum unless Γ ⊂ a fixed discrete group; the ledger is global, not nearby | batch-18 | **open** | |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -223,6 +228,14 @@ The analytic lock stays; the append-only matter-and-flux ledger next to fixed to
 
 > On the topic of persistence, we might adopt the position that some pieces of matter are highly effective ledgers, other pieces of matter might be less effective, where more effective means that the matter keeps a record of many of its observations, and less effective means it keeps a record of fewer of them. So the fact that some observations don't persist should not be considered fatal to our endeavor. At this point, all we need is a clear model for what persistence means, how it happens, and that it can happen and is sufficiently well defined. Persistence doesn't need to happen all the time, everywhere; it merely needs to happen more than never.
 
+## Ledger states that differ by world (David, 10:43 PM ET 2026-10-12, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> Perhaps we need to consider whether it is possible for more than one ledger-state to be consistent with any given observer-state. I am imagining some topological detail inside the ledger, with World A containing Ledger state A, B containing B, etc.
+
+Widget answer (same relay, verbatim):
+
+> Yes, have Creative Lead build a batch on pre-existing topological ledger states that differ by world.
+
 ## Taub–NUT/Misner union (resolution, Literature via Physics Lead)
 
 Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, geodesics through the boost's fixed point are incomplete in both extensions and in every union (as a set of geodesics: closed, nowhere dense, Lebesgue-null in the covering chart's initial data (no measure on observer space adopted); every point of the Taub region still lies on one). The two-extension non-Hausdorff union is not complete: generic geodesics entering a CTC region hit its second horizon. Among unions of the four half-plane pieces, only the full quotient (R^2\{0})/B is complete modulo the fixed-point geodesics; helicoidal coverings give further non-Hausdorff maximal extensions with the same exception (Rieger, arXiv:2402.09312). Taub-NUT has no boost fixed point, but its comoving (zero-momentum) geodesics continue in neither extension (Misner–Taub 1969, §II C, relayed from external review, V-meta; confirmed by computation, #377), so no union of the two is complete. (PR #375; "measure zero" replaced by Lead ruling; Misner "only" and Taub–NUT clause edited per external review.) Reported Taub–NUT completeness: Hájíček 1971 (unchecked). Resolves the #367 vs #371 conflict (measurement-model-v0 open problem 13).
@@ -270,3 +283,4 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-12: Lead ruling (Physics Lead): trace convention is 2(1+L/a) per passage, 4(1+L/a)²−2 over one full period of two passages; batch 16 and L55 aligned.
 - 2026-10-12: David's 10:37 PM persistence words recorded verbatim (ledger, charter); batch 17 (L61–L64).
 - 2026-10-12: Geometry #392 applied to batch 17 (F1–F7; F2 merged with Literature M2; interval persistence; gauge-invariant read-out; preorder; G-nesting).
+- 2026-10-12: David's 10:43 PM words and widget answer recorded verbatim (ledger, charter); batch 18 (L65–L69).
