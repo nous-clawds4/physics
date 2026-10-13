@@ -10,7 +10,7 @@
 ## For David (plain summary)
 
 - **The toy.** A small classical particle goes from a source to a screen in a world that wraps around once, like a cylinder. It can reach a screen point "directly" or "by going round" the wrap one or more times. Those are the two (or more) routes. In one world with one launch only one of them is taken; reaching the same screen point by a different route needs a different launch angle. Nothing records which route it took.
-- **"Which route?" without a record.** In any one world, the route is fixed: the launch and the wrap size settle it. So it isn't a fork, and it isn't undefined; it is a fact about the world. But a route number only means something relative to a declared reference route. Asked of the observer's records alone, "which route" is not a well-posed question (your ill-posed-question principle): the hit point fits more than one (world, route) pair.
+- **"Which route?" without a record.** In any one world, the route is fixed: the launch and the wrap size settle it. So it isn't a fork, and it isn't undefined; it is a fact about the world. But a route number only means something relative to a declared reference route. Asked of the observer's records alone, "which route" is not a well-posed question (your ill-posed-question principle, 2026-10-11 10:33 AM, in paraphrase; relayed via Physics Lead, not signed): the hit point fits more than one (world, route) pair.
 - **What differs at the screen.** Across compatible worlds, which differ in how wide the wrap is, the same launch lands at different screen points. Conversely, one observed hit fits a short **list** of wrap sizes (finite, except at the straight-through point), one per route: the wrap could be 5.0 (one wind) or 2.5 (two winds) in our example. That list is the hit's record class. It is finite for a hit off the straight-through point; a hit exactly at the straight-through point fits every wide-enough wrap (a continuum). So a hit splits the worlds into separate groups, indexed by how many times the particle went round.
 - **A pattern?** Yes, a structural one. Hit position against wrap size is piecewise linear with jumps (teeth crowding toward small wraps), and the compatible wrap sizes for a hit form a harmonic list (Δ, Δ/2, Δ/3, …), stopping before the wrap gets smaller than the hit's offset, so it is finite. The exception is a hit at the undeflected point, which fits every wide-enough wrap. But **no fringes**: in each world the particle makes one point hit. Turning "many worlds per hit" into brighter and darker bands would need a way to weight worlds, which we have deliberately not chosen.
 - **The obstacle.** Classical particles give point hits. Fringes need either waves added together (excluded) or a weighting of worlds (parked). What we do get is the discrete skeleton a pattern would sit on.
@@ -62,6 +62,12 @@
 - **Status: open** (L78).
 
 ---
+
+## Prior art (per Literature, bibliographic only, not read by us)
+
+- Schulman 1968; Laidlaw–DeWitt 1971: path classes on multiply connected spaces. Cited for the set of routes (deck classes) only.
+- Aharonov–Bohm 1959.
+- Couder–Fort 2006 (walking droplets), with the non-replications by Andersen et al. 2015 and Pucci et al. 2018. Their patterns needed a real guiding wave, which is consistent with "no wave, no fringes" here.
 
 ## Weak points
 
