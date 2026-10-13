@@ -102,7 +102,7 @@
 | L93 | Set 3: screen as ledger | **Batch 23:** a hit = persistent readable entry (#399); readout ambiguity with both routes open might exclude hits | batch-23 | **proposed, rank 3, L1** | likely dead if persistence is local; dips at overlap, not periodic |
 | L94 | Set 4: richer hit record | **Batch 23:** counting distinct full observer states is subadditive, max-type; no dips | batch-23 [A] | **dead for dips, L0** | record-dependent non-additivity noted |
 | L95 | Set 5: count observer histories | **Batch 23:** 1/\|class\| weights are reweighting; without exclusion, no dips | batch-23 | **proposed, rank 5, L0–L1** | expected dead |
-| L96 | Set 6 / Set 7 / Set R | **Batch 23:** Set 6 (loosened lock) reduces to Set 1, ill-posed as counting (dead pending a source). Set 7: conducting slit walls, contextual dynamics, rank 2, L0–L1. Rejected: "both routes"; negative weights (LT2; prior art Wigner 1932, Feynman 1987, not endorsed) | batch-23; #407 | **6 dead; 7 proposed; R rejected** | |
+| L96 | Set 6 / Set 7 / Set R | **Batch 23:** Set 6 (loosened lock) reduces to Set 1, ill-posed as counting (dead pending a source). Set 7: conducting slit walls, contextual dynamics (a legitimate failure of Lemma A' (iii), not exclusion; dips need the map to fold or exclude; hit map uncomputed), rank 2, L0–L1. Rejected: "both routes"; negative weights (LT2; prior art Wigner 1932, Feynman 1987, not endorsed) | batch-23; #407 | **6 dead; 7 proposed; R rejected** | |
 | L97 | David 9:36 AM | "Step back: have Creative Lead propose new idea sets for where interference could come from." (widget answer; relayed by Physics Lead, Physics Lead chat, not signed; verbatim) | David 9:36 AM | **ruling** | |
 
 ## Lesson L15 (after batches 01–02)
@@ -349,3 +349,4 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-13: batch 22 Geometry M1–M8 (pre-launch acceleration bug fixed, rerun, M-doubling) and Literature M1–M2 applied; L85–L88 updated (converging lens, ~L^−1.3, weak v, caustic at ε ~ 1).
 - 2026-10-13: David's 9:36 AM words recorded verbatim (ledger, charter); batch 23 brainstorm (L90–L97).
 - 2026-10-13: batch 23 Geometry M1–M9 and Literature M1–M4 applied (Geometry M7 and Literature M3 merged); Set 1/6 dead pending a source; Set 2 and new Set 7 (conducting walls) ranked up; L90–L92, L96 updated; __pycache__ removed.
+- 2026-10-13: batch 23 Geometry final fixes F1–F6 and weak point 5 applied; L92, L96 aligned.

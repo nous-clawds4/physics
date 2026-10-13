@@ -10,8 +10,8 @@
 ## For David (plain summary)
 
 - **What is dead.** Three things can't make dark spots: weights on single routes, weights on whole worlds, and the particle's own weak echoes. The reason is simple. If every world counts with a non-negative weight, and opening a slit only *adds* worlds, then the two-slit pattern is a blend of the one-slit patterns. A blend is never darker than both of its ingredients.
-- **The way out.** For a spot to go darker when the second slit opens, something in the assumptions must fail: opening it removes worlds that used to land there, changes where launches land (the slit changes the fields or walls), lets one launch have several histories, or changes what counts as a hit. Classically, the natural way for that to happen is a **consistency condition**: a world with both routes open must satisfy a condition, around the loop the two routes make, that a one-route world never faces.
-- **Six idea sets (one rejected), each tweaking one concept.**
+- **The way out.** For a spot to go darker when the second slit opens, something in the assumptions must fail: opening it removes worlds that used to land there, changes where launches land (the slit changes the fields or walls), lets one launch have several histories, or changes what counts as a hit. The first candidate, a condition around the loop the two routes make, turned out to have no source on the flat cylinder (see "After review").
+- **Seven idea sets (plus rejected ideas), each tweaking one concept.**
   1. A condition around the two-route loop.
   2. Self-consistency of the whole history.
   3. The screen hit has to be a lasting record.
@@ -33,7 +33,7 @@
 
 Then the normalised pattern satisfies $\min(\hat I_0,\hat I_{-1})\le\hat I_{\rm both}\le\max$ (#405, M1 form). So a dark spot needs one of these to fail. Dropping (ii) is rejected (Set R). Dropping (i) by "the particle takes both routes" is not a classical world (Set R), but (i) also fails legitimately when the dynamics has several solutions per launch (EKT multiplicity, Set 2; non-Hausdorff extensions, Set 6). The remaining exits are: (iii) fails: **opening a route must exclude, or re-weight in an x-dependent way, worlds that existed with one route open.**
 - Re-weighting chosen to fit is the LT2 failure of #405.
-- So the independently motivated candidates are: **exclusion mechanisms** (opening a route removes worlds); **contextual dynamics** (the open slit changes boundary conditions or fields, e.g. conducting walls (#406), so the launch-to-hit map changes); **multiplicity** (several self-consistent histories per launch, which breaks (i)); and **a change of the read-out map**. All four are exhaustive negations of (i)–(iii) plus the fixed record map: a condition a world must satisfy that depends on the *set* of open routes.
+- So the independently motivated candidates are: **exclusion mechanisms** (opening a route removes worlds); **contextual dynamics** (the open slit changes boundary conditions or fields, e.g. conducting walls (#406), so the launch-to-hit map changes); **multiplicity** (several self-consistent histories per launch, which breaks (i)); and **a change of the read-out map**. All four are exhaustive negations of (i)–(iii) plus the fixed record map. Only the first is a condition a world must satisfy that depends on the *set* of open routes.
 
 The **dead list** is: route-local weights (#401, additivity), whole-world configuration-independent weights (#405 A), and weak self-field echoes (#406: smooth lens, Lemma A for kick-only slits).
 
@@ -73,11 +73,11 @@ The **dead list** is: route-local weights (#401, additivity), whole-world config
 
 ## Set 2: global self-consistency (EKT-type), with open routes constraining launches
 
-**Plain summary.** With a time-shifted handle, a particle can meet its own past. Only self-consistent histories are allowed. Opening a second route can make some launches inconsistent, and those launches then simply don't happen.
+**Plain summary.** With a time-shifted handle, a particle can meet its own past. Only self-consistent histories are allowed. Opening a second route can change how many self-consistent histories one launch has. The documented effect is more histories, not forbidden launches.
 
 - **Concept tweaked.** "World" means a globally self-consistent solution, as in the Echeverria–Klinkhammer–Thorne billiard ball (PRD 44 (1991) 1077; verified, Crossref; readings per #365).
 - **Independent motivation.** This is the standard classical treatment of CTC spacetimes. Consistency is not chosen for fringes. Exploration only (CTC).
-- **Mechanism.** EKT found infinitely many consistent solutions for a wide class of "dangerous" initial trajectories, and exactly one for a ball starting at rest far from the wormhole (V-text abstract, per #365); in the standard account they found no initial trajectory without a solution [abstract-level; zero-solution launches are not reported]. Uniqueness results are for linear fields (Friedman–Morris), not EKT. So the documented lever is multiplicity, which breaks Lemma A' (i) and needs a counting rule (#399), not exclusion. Interaction (self-collision) is required for any non-uniqueness (Friedman et al. 1990, PRD 42, 1915, abstract only). If the slit configuration enters as boundary data for the consistency equations, then opening a route changes which launches have solutions. That is exclusion, and also multiplicity (non-uniqueness).
+- **Mechanism.** EKT found infinitely many consistent solutions for a wide class of "dangerous" initial trajectories, and exactly one for a ball starting at rest far from the wormhole (V-text abstract, per #365); in the standard account they found no initial trajectory without a solution [abstract-level; zero-solution launches are not reported]. Uniqueness results are for linear fields (Friedman–Morris), not EKT. So the documented lever is multiplicity, which breaks Lemma A' (i) and needs a counting rule (#399), not exclusion. Interaction (self-collision) is required for any non-uniqueness (Friedman et al. 1990, PRD 42, 1915, abstract only). If the slit configuration enters as boundary data for the consistency equations, then opening a route can change how many consistent histories a launch has. Exclusion (a launch with zero solutions) would need a host where that is shown; EKT did not report one.
 - **What a which-route record does.** The record is part of the world and enters the consistency conditions. It can restore solutions that had been excluded.
 - **First killing check.**
   - Use a time-shifted wormhole host (offset mouths, #385 L56; note per #398 that a fixed time-shift gluing has CTCs at every time, so this is a new host, not the cylinder toy), with a self-interacting particle: is the set of consistent launches through slit A different with slit B open versus closed?
@@ -145,7 +145,7 @@ The **dead list** is: route-local weights (#401, additivity), whole-world config
 
 - **Concept tweaked.** The slit is no longer a kick-only test aperture. The barrier is a conductor whose image charges depend on which slits are open.
 - **Independent motivation.** This is ordinary electrostatics of real barriers. The #406 weak point and the Geometry review flag it.
-- **Mechanism.** The launch-to-hit map depends on the configuration (the contextual-dynamics exit of Lemma A'). Batch 22 suggests that at first order this is a smooth deformation, so no repeated dips are expected at that order. Nonlinear focusing could fold the map, giving caustics but not periodic bands.
+- **Mechanism.** The launch-to-hit map depends on the configuration (the contextual-dynamics exit of Lemma A'). Batch 22 suggests that at first order this is a smooth deformation, so no repeated dips are expected at that order. Nonlinear focusing could fold the map, giving caustics but not periodic bands. A spot darker than both one-slit patterns needs the two-slit map to fold or exclude launches there; a smooth, roughly monotone deflection only reshapes the blend. Wall spacing and slit separation give a length scale independent of the particle (T2-admissible), but nothing ties a band spacing to momentum. Test-field limit (#392): the walls and the particle don't bend the geometry. This is a legitimate failure of Lemma A' (iii) by contextual dynamics, not an exclusion.
 - **What a which-route record does.** A conducting record body adds its own images. A passive, uncharged one does nothing.
 - **First killing check.** Compute the first-order image force with a conducting plane carrying one or two slits (for example a thin-slot Green's function), and compare the hit maps.
 - **Confidence: L0–L1, rank 2 (up).**
@@ -172,5 +172,6 @@ The **dead list** is: route-local weights (#401, additivity), whole-world config
 2. Set 1 has the highest LT2 risk: any condition chosen *because* it is periodic in Δ is tuning. Only an existing regularity rule is admissible.
 3. No set gives the quantum fringe spacing (λ = h/p). Nothing here predicts it, and matching it would need a new scale.
 4. CTC-dependent sets (2, possibly 1 via Misner) are exploration only.
+5. Set 7 is classical electrostatics; the batch-22 smoothness is only an analogy (self-echo, not walls), so the hit map with walls is uncomputed.
 
 Ledger: L90–L97 (L97 records David's 9:36 AM words).
