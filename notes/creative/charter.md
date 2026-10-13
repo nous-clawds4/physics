@@ -113,3 +113,9 @@ Widget answer (same relay, verbatim):
 > Explore both escapes side by side in step 2.
 
 Status note (batch 21 reviews): Set A Lemma A stands (normalised min/max bound); Set B is closed for eternal uniform motion only, with wrapped radiation memory after launch or slit crossing open.
+
+## Addendum: returning echoes (David, 9:10 AM ET 2026-10-13, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> Let's have creative lead model the returning echoes.
+
+Status note (batch 22 reviews): after the pre-launch fix the echoes give a weak converging lens (~L^−1.3, weak v dependence), no bands; Lemma A holds for kick-only slits, and conducting walls are open. The 9:10 AM words stay labelled relayed, not signed.
