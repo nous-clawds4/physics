@@ -23,11 +23,11 @@
 
 - **Setting** (#388 working design). An append-only diary with capacity $N$ fixed at the start: slots $i=1,\dots,N$, each a fresh, pre-placed body or handle, in the test-field limit. A write at $t_i$ sets slot $i$ to datum $d_i\in D_i$, measured relative to its reference: a passage count or a flux step relative to a reference rule fixed once, before the horizon (#388 S5). $d_i=0$ means "not written".
 - **Observer's later data.** $\hat O(t')$: the germ + record state (L29), i.e. the germ of the observer+ledger tube at $t'$ (L47).
-- **Read-out map.** A map $r_i:\ \hat O(t')\mapsto D_i$, fixed **in advance** and the same in every world. It must not be tuned to a world after the fact, or it would be a law of R by fiat.
-- **Definition.** Entry $i$ **persists from $t_i$ to $t'$** in world $W$ iff $r_i(\hat O_W(t'))=d_i^W$, and the same holds in every world $W'$ that agrees with $W$ up to $t_i$ but wrote a different $d_i^{W'}$.
+- **Read-out map.** A map $r_i:\ \hat O(t')\mapsto D_i$, fixed **in advance** and the same in every world, defined on gauge classes (#324), and taking every input it needs from $\hat O(t')$ itself: the declared reference (e.g. $\Phi^{\rm ref}_i$), the slot label and the mouth label must be stored in the record, not supplied by the world. It must not be tuned to a world after the fact, or it would be a law of R by fiat.
+- **Definition.** Entry $i$ **persists from $t_i$ to $t'$** in world $W$ iff $r_i(\hat O_W(t'))=d_i^W$, and the read-out is witnessed to separate: for each alternative $d\in D_i$ writable from $W$'s past at $t_i$, some world agreeing with $W$ (mod gauge, #324) up to $t_i$ wrote $d$ and is read correctly at $t'$. Persistence in $W$ depends only on $W$ and the fixed $r_i$; corruption in other worlds does not remove it.
   - In other words, the read-out separates the alternatives written at $t_i$.
   - It is a property of (entry, $t'$, world), with no weights.
-  - Persistence to $t'$ means the separation holds at every $t''\in[t_i,t']$ (a later opposite crossing can restore a corrupted read-out, so a single-time condition would not be monotone); with this interval definition, persistence to $t'$ implies persistence to every earlier $t''$.
+  - Persistence is over the interval: entry $i$ persists to $t'$ only if the read-out is correct, and separates, at every $t''\in[t_i,t']$. Correctness at a single later time is not monotone: a stray charge can pass through the throat and a second one pass back, restoring a corrupted read-out (#391, #392). With this interval definition, persistence to $t'$ implies persistence to every earlier $t''$, by definition.
 - **Persistence set.** $P_W(t')=\{i:\ \text{entry } i \text{ persists to } t'\text{ in } W\}$.
 - **Why append-only matters.** With one slot per write, losing slot $j$ cannot corrupt slot $i$. Persistence is entry-by-entry, and branches stay nested (#388 R1).
 - **Status: live** (L61).
@@ -36,10 +36,10 @@
 
 **Plain summary.** Compare ledgers by which entries they keep. If ledger A keeps every entry that B keeps (and maybe more), A is at least as effective. No numbers needed.
 
-- **Order.** For two ledger designs $\mathcal L,\mathcal L'$ run on the same writes in the same world: $\mathcal L\succeq\mathcal L'$ at $t'$ iff $P^{\mathcal L}_W(t')\supseteq P^{\mathcal L'}_W(t')$. This is a partial order (set inclusion), and incomparable designs are allowed.
+- **Order.** For two ledger designs $\mathcal L,\mathcal L'$ run on the same writes in the same world: $\mathcal L\succeq\mathcal L'$ at $t'$ iff $P^{\mathcal L}_W(t')\supseteq P^{\mathcal L'}_W(t')$. This is a preorder on designs (distinct designs can keep the same set) and a partial order on its equivalence classes; incomparable designs are allowed. Two designs are compared on the same write sequence and the same exterior data, with a fixed matching of slot labels, not in "the same world", since each design's matter is part of its world.
 - **Across worlds.** $\mathcal L\succeq\mathcal L'$ **uniformly** iff the inclusion holds in every world reaching $t'$. Nothing is averaged.
 - **Over time.** $\tau\mapsto P_W(\tau)$ is non-increasing among already-written entries (by the interval definition in Set 1). A ledger's **persistence profile** is the family of these sets.
-- **Grades** (used in Set 4). G0: $P=\varnothing$ for all $t'>t_i$ (never persists). G1: some entry persists for a finite time. G2: some entry persists for all later $t'$ (permanent). G3: every entry persists permanently. These are ordered by inclusion of what they guarantee, **not** by fractions.
+- **Grades** (used in Set 4). G0: $P=\varnothing$ for all $t'>t_i$ (never persists). G1: some entry persists on some interval $[t_i,t_i+\epsilon]$, $\epsilon>0$. G2: some entry persists for all later $t'$ in the observer's proper-time domain (permanent; the domain may be finite, #375). Nesting: G3 ⊂ G2 ⊂ G1, and G0 is the complement of G1, for ledgers with at least one write. G3: every entry persists permanently. These are ordered by inclusion of what they guarantee, **not** by fractions.
 - **Explicitly excluded:** fractions of persisting entries, rates, likelihoods, typicality. Any of these needs a measure, which is parked (#383 guardrails).
 - **Status: live** (L62).
 
@@ -49,8 +49,8 @@
 
 - **Slot.** One pre-placed one-universe handle per slot (#385 Set 1; append-only, #388), with flux reference $\Phi^{\rm ref}_i$ declared before the horizon.
 - **Write.** A charged carrier of the single species $q_0$ passes through slot $i$'s mouth A. Then $\Phi_i-\Phi^{\rm ref}_i$ changes by $+q_0$ (or $-q_0$ through B; a graze gives 0) (#385 Set 3, #387).
-- **Read-out.** $r_i=(\Phi_i-\Phi^{\rm ref}_i)/q_0\in\mathbb Z$, measured by a Gauss surface enclosing **exactly one** mouth, with no charge between the surface and the throat (#387). The surface lies inside the observer+ledger tube (L47).
-- **Persistence [A, sketch].** $d\star F=J$. Off charges, the flux through any sphere homologous to the throat is constant. Radiation is sourceless and carries no net charge. So $r_i$ is unchanged for all $t'>t_i$ unless another charge crosses that mouth. **With no later crossing, the entry persists for all $t'$: grade G2.** Misner–Wheeler 1957 (V-text per #386): "the wormhole flux remains invariant. This constant of the motion represents the charge."
+- **Read-out.** $r_i=(\Phi_i-\Phi^{\rm ref}_i)/q_0\in\mathbb Z$, measured by a Gauss surface enclosing **exactly one** mouth, with no charge between the surface and the throat (#387). The surface lies inside the observer+ledger tube (L47) and is specified from the later state: the read-out must re-identify slot $i$'s mouth A at $t'$ from $\hat O(t')$. If slot or mouth labels are lost, only the multiset of values is readable (a downgrade). Flux through the surface changes only by charge passing through the throat; charge that crosses the surface and leaves again has no effect.
+- **Persistence [A, sketch].** $d\star F=J$. Off charges, the flux through any sphere homologous to the throat is constant. Radiation is sourceless and carries no net charge. So $r_i$ is unchanged for all later $t'$ in the observer's proper-time domain unless another charge passes through that mouth's throat (charge that crosses the Gauss surface and leaves again has no effect, #392). **With no later crossing, the entry persists for all $t'$: grade G2.** Misner–Wheeler 1957 (V-text per #386): "the wormhole flux remains invariant. This constant of the motion represents the charge."
 - **Separation.** Written ($r_i=\pm1$) and not written ($r_i=0$) give different read-outs, so the Set 1 condition holds.
 - **Caveats.**
   - **Test-field scope.** Under the lock, the metric and total $T_{ab}$ on the tube are fixed, and a charge passage changes the current. So this is a test-field statement only (#388, Geometry's second pass).
@@ -68,7 +68,7 @@
 | Orbit decay toward the throat (Dent et al., 2007.09135, per #383) | passage/orbit records (#382, #385 Set 1) | G2 → G1: entries readable until decay; a falling body may add a stray passage | flux slots (Set 3) do not depend on orbits |
 | **P1** exotic matter, no Hadley escape (Hochberg–Visser 1997, relayed from external review, Claude 015; not verified by us) | all handle slots | a cost, not a loss: grade unchanged in the test-field limit | a cost flag; persistence still holds |
 | **P2** clock drift to a time machine (Frolov–Novikov 1990, per #386) | handles beside other masses | may make the diary's own motion non-unique (EKT setting); affected entries drop to G1 or become unreadable | isolated, well-separated flux slots keep G2 for as long as there is no drift |
-| **P3** a write may destroy its handle (Shinkai–Hayward, per #383; thin shells unknown) | the written slot | that slot → G0 or G1 | append-only: other slots unaffected; an unwritten slot can't be harmed |
+| **P3** a write may destroy its handle (Shinkai–Hayward, per #383; thin shells unknown) | the written slot | that slot → G0 or G1; but if the handle pinches off, its flux may be left as ordinary enclosed charge, still readable by a Gauss surface around the former mouth, so possibly still G2 (#392, minor) | append-only: other slots unaffected; an unwritten slot can't be harmed |
 | **P4** radiation and decay; stray charges | orbits (G1); flux slots hit by a stray charge | per-slot downgrade | flux survives radiation (#386, #387) |
 | **P5** integrality needs one species (L58) | flux read-out values | integer → exact-real; persistence grade unchanged | the definition (Set 1) needs separation, not integers |
 | **P6** co-moving drift (nothing holds mouths and bodies in place) | read-out geometry (Gauss surface placement, L52) | entries readable while the mouth stays in the tube: G1 | a slot whose mouth stays inside the tube keeps its grade |
@@ -81,7 +81,7 @@
 ## Weak points
 
 1. **The test-field limit is essential.** Beyond it, a write must leave $T_{ab}$ unchanged, and a charge passage does not (#388).
-2. **The read-out map's continuity** (for monotonicity) is a sketch.
+2. **Interval persistence** (F2) must be checked for each slot over the whole interval, not at the end point.
 3. **"No later crossing"** is a condition on the world, not a theorem. Grades are per world.
 4. **The Gauss surface must stay in the tube**, which needs the co-moving problem (P6) solved for at least one slot.
 5. **Hadley-type hosts** need a per-slot reference that absorbs the handle's intrinsic charge, which has no worked example.
