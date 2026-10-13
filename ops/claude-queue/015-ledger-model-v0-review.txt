@@ -1,0 +1,31 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics. Fetch PR #388 at its current head (at least 1fddd0a) before you start, and record the exact head SHA you reviewed in your review.
+
+TARGET
+notes/creative/ledger-model-v0.md on PR #388 (ledger-model-v0, Creative Lead). Main has no notes/creative/ directory: the note's references point at the stacked branches of PRs #372 (measurement-model-v0) and #379-#385. Fetch those PR heads to resolve them.
+
+This is a baby-step review. David's question is: is the ledger concept worth pursuing? Keep it proportionate.
+
+WHAT TO CHECK
+1. Well-posedness: is the ledger well-posed, with every term defined?
+2. Physical coherence as a classical record:
+   a. the carrier as an interacting matter pulse;
+   b. pre-existing ledger geons or handles co-moving with the observer;
+   c. a write that changes a passage count or the handle flux;
+   d. Type O only;
+   e. the ledger crossing the Cauchy horizon.
+3. Does it fit the record-branch picture of #372?
+4. Does it inject any quantum or Born structure (Born rule, unitarity, Hilbert space, |a|^2) by hand? David's principle: the model is fundamentally classical, and quantum statistics must emerge, not be injected.
+5. What is the strongest reason to drop it?
+
+OUT OF SCOPE FOR GRADING
+Persistence (radiation, orbit decay, integrality of identical charges, exotic matter) is explicitly a later step. You may list concerns there in a separate section, but do not grade the concept on them.
+
+RULES
+1. Be independent. Check against sources where cheap. Mark anything you could not finish as unchecked.
+2. Do not revisit (M1), do not decide the arrival rule (A), and do not pick a topology. Do not use the Born rule, |a|^2 or 1/N yourself.
+3. Do not comment on any issue.
+
+WHAT TO FILE
+- Post your review as a pull request review on PR #388, comments only (event COMMENT; do not approve or request changes).
+- Head it "Verdict: PURSUE / PURSUE WITH CHANGES / DROP" (one), followed by "Head reviewed: <sha>". Then Required (R1...), Suggested (S1...) and Nits (N1...), each with an exact OLD -> NEW where you can, then persistence concerns (ungraded), unchecked items and provenance.
+- Do not merge anything. Do not commit to the note or to any branch. Do not open a pull request.
