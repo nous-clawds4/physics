@@ -11,7 +11,7 @@ Source at (0,-Ds), screen at y=D. E(p) is tabulated on a grid and interpolated (
 A launch crossing y=0 on metal, or coming within rmin of the plate, is absorbed.
 Output per (a, w, kappa): slit-1 launches absorbed (one / two slits), max |dx_hit| between one and two slits for
 slit-1 launches, fold (sign change of dx_hit/dtheta), and the screen histogram test: bins where
-I_both < min(I_1, I_2) with both positive (unnormalised counts; uniform launch weighting in theta), and the
+I_both < min(I_1, I_2) with both positive (unnormalised counts; uniform launch weighting in theta; vacuous where the one-slit patterns do not overlap, see the overlap-bins column), and the
 number of local minima of I_both - I_1 - I_2 (periodicity check). Convergence: N = 200, 400, 800 panels."""
 import numpy as np, sys
 from scipy.ndimage import map_coordinates
