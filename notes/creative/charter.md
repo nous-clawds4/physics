@@ -137,3 +137,5 @@ Status note (batch 24 final): with three valid exterior-to-exterior gluings (two
 ## Addendum: Lead ruling (Physics Lead), not David's, 10:12 AM ET 2026-10-13
 
 Batch 25 runs the Set 7 kill check: conducting slit walls, structure only, test-particle dynamics. Set 2 stays at L0–L1, with the non-orientable zero-solution bands open.
+
+Status note (batch 25): the extended-source scan confirms Set 7 at L0: no dark bins beyond noise, with overlapping one-slit patterns in all 24 cases.
