@@ -139,3 +139,21 @@ Status note (batch 24 final): with three valid exterior-to-exterior gluings (two
 Batch 25 runs the Set 7 kill check: conducting slit walls, structure only, test-particle dynamics. Set 2 stays at L0–L1, with the non-orientable zero-solution bands open.
 
 Status note (batch 25): the extended-source scan confirms Set 7 at L0: no dark bins beyond noise, with overlapping one-slit patterns in all 24 cases.
+
+## Addendum: low-energy approximation (David, 4:55 PM ET 2026-10-13, relayed by Physics Lead (Physics Lead chat, not signed); PARAPHRASE by Physics Lead, not verbatim; quoted phrases are David's words as relayed)
+
+Paraphrase (not verbatim): the target is generic, a particle from an arbitrarily small emitter region and the relative probability of detection at d_i. First settle how d_i is identified across worlds, via a "low (but not too low!) energy approximation". Spacetime is nearly flat at human scale but "violently twisted, with nontrivial fundamental group, at the microscopic scale". Worlds are projected into one flat, simply connected spacetime, and the same spot (plus optional microstructure criteria) means the same d_i. No deep justification of the LEA yet.
+
+Program state: two-slit is paused; Set 2 and Sets 3/5 are on hold.
+
+## Addendum: germ-order formulation (David, 5:00 PM ET 2026-10-13, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> One idea I have for formulating the LEA in a mathematically rigorous manner is in terms of the order k of the derivatives of the germ. We might say that flat at human scale means that k should be uniformly 0 (or below some very low number) within some interval that defines that scale; but violently twisted microscopically would be equivalent to k not being uniformly low within some other interval of k that corresponds to the microscopic scale.
+
+Physics Lead's reading (Lead reading, not David's): the order-k term ~|a_k| ℓ^k; human-scale flatness means orders ≥ 2 are negligible at ℓ_H; microscopic twisting means a_k ~ ℓ_P^(−k), with radius of convergence ~ℓ_P; π₁ is global and is reached by the germ only via analytic continuation under the lock.
+
+## Addendum: three regimes (David, 5:03 PM ET 2026-10-13, relayed by Physics Lead, Physics Lead chat, not signed; verbatim)
+
+> when we get smaller than microscopic, it needs to get flat again, because that's one of the defining features of a manifold... at the cosmic scale, we don't know whether it's flat or not, so we should be careful not to assert that it must necessarily be flat.
+
+Lead notes (Physics Lead, not David's): (a) the LEA has three regimes: locally flat for ℓ ≪ ℓ_P (the manifold property), twisted near ℓ_P, and flat across a bounded human-scale window [ℓ_low, ℓ_high]; a radius of convergence near ℓ_P is not non-flatness below ℓ_P. (b) No claim about cosmic scales; the flat projection is needed only over a bounded window containing the emitter and detectors.
