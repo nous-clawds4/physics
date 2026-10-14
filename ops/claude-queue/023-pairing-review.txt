@@ -1,0 +1,25 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics. Fetch PR #424 at its current head (at least 9695d0b) before you start, and record the exact head SHA you reviewed in your review.
+
+TARGET
+PR #424, creative batch S9: David's pairing picture (paired virtual geons annihilate when phases close; the leftover count). It is stacked on #423 (S8, spin-structure fixers: no independent fixer found; the pi1=Z cap leaves a Z2 spin sign as world data) and #421 (S7, revised after your job 022). Read those as context. Section 4a records David's rulings (3:58 PM and 4:05 PM ET 2026-10-14, relayed, not signed, hold level unspecified): exact phase closure is required within each world only, never in shadow spacetime, and an inexact pair rules the world out entirely, like a near-solution of Einstein's equations ("an inexact pair is simply not capped" is not adopted). A topology recommendation (pi1=Z cap, route loop crossing A's S2 an odd number of times, both spin structures kept as worlds, mu open) is pending David's ruling. Main has no notes/creative/ directory: resolve references against the stacked branches. David asked for this review without any claim of a Born rule.
+
+QUESTION
+Is #424's analysis of the pairing picture sound, and is its conclusion correctly stated (cancellation occurs, but the leftover count scales like |sum e^{i phi}|, with a floor at least linear in R')? Keep it proportionate.
+
+WHAT TO CHECK
+1. Is every term defined (pairing, exact closure, leftover count, R', the floor, shadow spacetime)? Flag ill-posed questions.
+2. The scaling of the leftover count and Geometry's floor (surviving projection, at least linear in R'). Check by hand or a quick computation where cheap.
+3. Whether "exact closure or the world is excluded" is well-defined and non-tuned (LT2), whether it leaves any worlds, and whether it escapes Lemma A or only reaches cancellation.
+4. Consistency with #421's negative outcome and #423's findings, and whether the topology recommendation follows from them (do not pick a topology yourself).
+5. Is anything (Born rule, |a|^2, hbar, a measure, a quantum phase rule) put in by hand? Is (M1) untouched? Do not frame any result as Born-shaped or not; just state scalings. David's principle: the model is fundamentally classical, and quantum statistics must emerge, not be injected.
+6. The strongest obstacle, and the most useful next step.
+
+RULES
+1. Be independent. Check against sources and rerun computations where cheap. Mark anything you could not finish as unchecked.
+2. Do not revisit (M1), do not decide the arrival rule (A), do not pick a topology, do not revisit the CTC adoption or the exact-closure rulings, and do not choose lambda_E (David's call). Do not use the Born rule, |a|^2 or 1/N yourself.
+3. Do not comment on any issue.
+
+WHAT TO FILE
+- Post your review as a pull request review on PR #424, comments only (event COMMENT; do not approve or request changes).
+- Head it "Verdict: SOUND / SOUND WITH CHANGES / UNSOUND" (one), followed by "Head reviewed: <sha>". Then Required (R1...), Suggested (S1...) and Nits (N1...), each with an exact OLD -> NEW where you can, then unchecked items and provenance.
+- Do not merge anything. Do not commit to any note or branch. Do not open a pull request.
