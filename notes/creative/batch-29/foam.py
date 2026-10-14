@@ -1,6 +1,6 @@
 """Batch 29: several seam handles along the path (2D, structure only). Reachability of detectors; no counts of worlds,
 no measure, no Born input. Widths/encounter numbers are diagnostics in the launch-offset coordinate, not sizes of W_i.
-Host: flat plane tiled by square cells of side s (0 < x < R, all y). Cell (i,j) holds one handle: mouths are disks of
+Host: flat plane tiled by square cells of side s (x > 5 - s/2, all y; for s > 10 the foam also lies behind the emitter). Cell (i,j) holds one handle: mouths are disks of
 radius a at c1 = cell centre + u, c2 = c1 + (0, 1.6), with u a fixed pseudo-random offset (hash of i, j) keeping both
 disks inside the cell. Cell (0,0) is overridden to the batch-28 handle (M1 = (5,0)); no foam at x < x0 = 5 - s/2. Needs s >= 4
 (the override must fit cell (0,0)). Gluing G1 (non-orientable, theta = 0) or mirror (orientable, theta = 0), each with the normal flip;
@@ -72,7 +72,7 @@ def trace(y0,phi,s,mode,cap):
         assert ((w*e2).sum(1)>=-1e-6).all(), "inward exit"   # tolerance for grazing incidence
         p[ih]=dst+a*e2+1e-9*w; d[ih]=w; enc[ih]+=1
         steps[idx]+=1
-    out[act]=-1                                   # cap: no arrival within the step cap
+    out[act]=-999                                   # cap: no arrival within the step cap
     return out,enc
 if __name__=='__main__':
     mode=sys.argv[1] if len(sys.argv)>1 else 'g1'; NY=int(sys.argv[2]) if len(sys.argv)>2 else 4001
@@ -82,10 +82,10 @@ if __name__=='__main__':
         S=set(); E={}; capped=False
         for phi in np.linspace(-0.4*tau/R,0.4*tau/R,3):
             o,e=trace(np.linspace(-0.5,0.5,NY),phi,s,mode,cap)
-            S|=set(o.tolist()); capped|=(o==-1).any()
+            S|=set(o.tolist()); capped|=(o==-999).any()
             for k in set(o.tolist()):
-                if k not in (99,-1): E.setdefault(k,set()).update(e[o==k].tolist())
-        det=sorted(k for k in S if k not in (99,-1))
+                if k not in (99,-999): E.setdefault(k,set()).update(e[o==k].tolist())
+        det=sorted(k for k in S if k not in (99,-999))
         encs=sorted(set().union(*E.values())) if E else []
         lam=s*s/(4*a)
         print(f"s={s:7.1f} l_free~s^2/(4a)={lam:9.1f} (R={R:.0f}): detectors reached {len(det)}/21 {det}; None={99 in S}; "

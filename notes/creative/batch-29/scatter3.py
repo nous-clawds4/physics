@@ -1,7 +1,7 @@
 """Batch 29: is a multi-handle cluster a chaotic scatterer? (2D, structure only.)
 Cluster: K x K seam handles (G1 or mirror, theta = 0, normal flip, outward exit asserted) on a square lattice of
 spacing s0 in an otherwise flat plane. Rays come in from x = -20 along +x with offset y0. Outcome: exit-direction
-sector (8 sectors) once the ray leaves the disk of radius 3*K*s0 about the cluster. Diagnostic (offset coordinate only,
+sector (8 sectors) once its straight line meets no further mouth (Rout and mid are unused). Diagnostic (offset coordinate only,
 not a measure): number of outcome changes C(n) on n equally spaced offsets in a fixed window, for n = 10^3..10^6.
 Piecewise-smooth map: C(n) saturates. Fractal boundary (chaotic scattering): C(n) ~ n^D with 0 < D < 1, and the
 passage number is unbounded near boundaries."""
