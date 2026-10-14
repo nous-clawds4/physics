@@ -224,7 +224,7 @@ The full hashes are in each batch's provenance table. The foam pins hold on Linu
 
 ## 10. Creative Lead reading: is this a model of superposition?
 
-Prompted by David's question (11:59 PM ET 2026-10-13, direct in Creative Lead chat, not signed): "would it be fair to say that we have a model for superposition, with World A and World B being identical except for a particle that is in different topological states im each World, with our model for backscattering triggering a measurement of the superposed state?"
+Prompted by David's question (11:59 PM ET 2026-10-13, direct in Creative Lead chat, not signed; unverified by Literature, no original seen): "would it be fair to say that we have a model for superposition, with World A and World B being identical except for a particle that is in different topological states im each World, with our model for backscattering triggering a measurement of the superposed state?"
 
 **Creative Lead reading (not a ruling):**
 - **Not yet.** The model is a classical ensemble of record-compatible worlds. They differ in micro-geometry and in sub-ℓ launch data, not in a particle's topological state.
