@@ -4,7 +4,7 @@
 
 ## Plain summary (for David)
 
-Claude 023 (R1) pointed out that, once "exact" is defined, worlds with an exactly matched closed pair are a thin, measure-zero set. Our answer: that is the same kind of thinness that GR solutions have among all metrics, and by itself it does not make them rare. "Rare" only means something relative to a measure on things that are not worlds. The measure that counts, μ (still open; (M1) is the per-vertex rule, not this measure), would live on the worlds themselves. This answers "rare means invalid". It does not by itself answer "rare means negligible": worlds with no closure are the bulk of the set of worlds, so a measure smooth across all worlds again gives closure worlds zero weight, and giving them weight needs its own reason (LT2). No measure on worlds is canonical either. It also does not show that the measure on worlds is well defined, that worlds with closures exist in enough number, or that the exclusion rule follows from the geometry. Those stay open.
+Claude 023 (R1) pointed out that, once "exact" is defined, worlds with an exactly matched closed pair are a thin, measure-zero set. Our answer: that is the same kind of thinness that GR solutions have among all metrics, and by itself it does not make them rare. "Rare" only means something relative to a measure on things that are not worlds. The measure that counts, μ (still open; (M1) is the per-vertex rule, not this measure), would live on the worlds themselves. This answers "rare means invalid". It does not by itself answer "rare means negligible": worlds with no closure are the bulk of the set of worlds, so a measure smooth across all worlds again gives closure worlds zero weight, and giving them weight needs its own reason (LT2). No measure on worlds is canonical either. Your 5:14 PM definition, adopted at 5:17 PM, makes this explicit: a virtual pair appears and disappears together, so every virtual pair is exact by definition, and a mismatched "pair" is just two single particles. The gap then reads: how much weight do worlds with virtual pairs carry, versus pair-free worlds? We will ask Geometry whether the low-energy (not too low) condition can justify enough, but not too many, virtual pairs (§3a). It also does not show that the measure on worlds is well defined, that worlds with closures exist in enough number, or that the exclusion rule follows from the geometry. Those stay open.
 
 ## 1. Plain explanation David can reuse [Creative Lead reading. David, 4:59 PM (relayed via Physics Lead, not signed), called the answer he and Creative discussed "a good one": an endorsement of the reading, not a ruling, and not of this wording]
 
@@ -65,7 +65,28 @@ All: direct in Creative Lead chat unless stated, not signed; verbatim as reporte
 
 > "Creative and I discussed an answer to the 'exact matches are rare' critique, and our answer is a good one, but we are going to need to make sure we provide an eloquent explanation that will not get lost, so that the critique does not reemerge later."
 
+## 3a. David's definition of a virtual pair (5:14 PM)
+
+**Status:** definition adopted by David at 5:17 PM ("Yes, let's record this definition."). Both quotes: direct in Creative Lead chat, not signed; verbatim as reported by Creative Lead; unverified by Literature, no original seen.
+
+**David, 5:14 PM ET 2026-10-14:**
+
+> "Let's review what it means to be a pair of virtual particles. One way to define a pair of virtual particles is that they appear together and then disappear together. Which means that it is impossible to have a pair of virtual particles whose phases are imperfectly matched. They do not exist, by definition."
+
+**David, 5:17 PM ET 2026-10-14:**
+
+> "Yes, let's record this definition. And let's ask geometry whether the low energy (but not too low) condition is capable of justifying the existence of enough (but not too many) virtual particles."
+
+**Creative Lead reading:**
+- Under this definition, a mismatched "pair" is not a virtual pair. Its members are single particles, which end at a detector or elsewhere.
+- Every virtual pair is exact by definition.
+- The T4 gap (§1, §2) is restated as: what weight do worlds containing virtual pairs carry, compared with pair-free worlds? That question is unchanged in substance and still open; μ is open and (M1) untouched.
+
+**Open question for Geometry (from David, 5:17 PM):** can the low-energy (but not too low) condition, the LEA of #410/#417, justify independently the existence of enough, but not too many, virtual pairs? It must do so without being tuned to a target (T2/LT2). No claim is made here.
+
 ## 4. What remains open
+
+- Whether the LEA (low energy, not too low; #410/#417) justifies enough, but not too many, virtual pairs, independently (T2/LT2); question for Geometry (§3a).
 
 - μ on W: definition and non-degeneracy; (M1) untouched.
 - Existence and number of worlds with exact closures (does Hol(γ) reach the cancelling value for any admissible routes?).
