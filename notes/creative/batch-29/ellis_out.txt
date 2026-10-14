@@ -1,0 +1,6 @@
+a=0.3 rE=60.0 rout=60.0 R=10000.0 Delta=50.0
+b=a(1+0.1): numerical sweep(+finite-r corr)=4.643848  closed 2K(a/b)=4.643848
+b=a(1+0.01): numerical sweep(+finite-r corr)=6.722916  closed 2K(a/b)=6.722916
+b=a(1+0.0001): numerical sweep(+finite-r corr)=11.290396  closed 2K(a/b)=11.290396
+b=a(1+1e-06): numerical sweep(+finite-r corr)=15.894963  closed 2K(a/b)=15.894961
+reflected rays (sheet 1): detectors reached [-10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] None | transmitted rays exist: True

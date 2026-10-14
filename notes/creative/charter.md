@@ -167,3 +167,7 @@ David delegates the choice of variable. Batch 27 proposes the flat-distortion pr
 ## Addendum: S5 (Lead ruling, Physics Lead, 2026-10-13)
 
 Run S5 from Claude review 018, structure-only: which W_i are non-empty. No outcome counts, no measure, no Born input; (M1) untouched. Batch 28.
+
+## Addendum: batch 29 (Lead ruling, Physics Lead, 2026-10-13)
+
+Claude 019's next step: several handles along the path; for which spacings is the flight ballistic while several W_i stay non-empty. Structure-only; point particle; λ_E left to David; 2D.
