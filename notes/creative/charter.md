@@ -176,7 +176,7 @@ Claude 019's next step: several handles along the path; for which spacings is th
 
 > Pause the runs and have Creative Lead consolidate #410–#415 into one note first.
 
-## Addendum: particle and action (David, 12:25 AM and 12:40 AM ET 2026-10-14, direct in Creative Lead chat, not signed; verbatim)
+## Addendum: particle and action (David, 12:25 AM and 12:40 AM ET 2026-10-14, direct in Creative Lead chat, not signed; verbatim as reported by Creative Lead, unverified by Literature, no original seen)
 
 > One puzzle piece that comes to my mind is whether it will be possible for us to define a quantity that plays the role of the “action” in the Born rule.
 
