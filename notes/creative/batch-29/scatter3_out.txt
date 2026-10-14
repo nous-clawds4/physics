@@ -1,0 +1,9 @@
+cluster scattering; outcome = exit sector (8); window y0 in [-1, 1+(K-1)*s0+1.6+1]; counts are offset-coordinate diagnostics
+g1     K=1 s0=4.0: n=1000: C=27, max passes=2, unexited=False; n=10000: C=28, max passes=2, unexited=False; n=100000: C=28, max passes=2, unexited=False; n=1000000: C=28, max passes=2, unexited=False
+g1     K=2 s0=4.0: n=1000: C=64, max passes=3, unexited=False; n=10000: C=168, max passes=4, unexited=False; n=100000: C=500, max passes=6, unexited=False; n=1000000: C=1550, max passes=7, unexited=False
+g1     K=3 s0=4.0: n=1000: C=86, max passes=5, unexited=False; n=10000: C=329, max passes=8, unexited=False; n=100000: C=1497, max passes=8, unexited=False; n=1000000: C=6822, max passes=10, unexited=False
+g1     K=3 s0=2.5: n=1000: C=114, max passes=10, unexited=False; n=10000: C=498, max passes=11, unexited=False; n=100000: C=2708, max passes=16, unexited=False; n=1000000: C=15218, max passes=17, unexited=False
+mirror K=1 s0=4.0: n=1000: C=31, max passes=4, unexited=False; n=10000: C=46, max passes=4, unexited=False; n=100000: C=65, max passes=5, unexited=False; n=1000000: C=78, max passes=6, unexited=False
+mirror K=2 s0=4.0: n=1000: C=59, max passes=4, unexited=False; n=10000: C=183, max passes=4, unexited=False; n=100000: C=523, max passes=7, unexited=False; n=1000000: C=1694, max passes=8, unexited=False
+mirror K=3 s0=4.0: n=1000: C=90, max passes=4, unexited=False; n=10000: C=343, max passes=7, unexited=False; n=100000: C=1376, max passes=11, unexited=False; n=1000000: C=6112, max passes=10, unexited=False
+mirror K=3 s0=2.5: n=1000: C=113, max passes=6, unexited=False; n=10000: C=468, max passes=11, unexited=False; n=100000: C=2157, max passes=11, unexited=False; n=1000000: C=11094, max passes=13, unexited=False
