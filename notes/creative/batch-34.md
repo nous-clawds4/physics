@@ -60,6 +60,8 @@ You described a circle of dots, one per path. Dots that "line up" pair off as vi
 
 ## 4a. David's exact-closure reading (3:33 and 3:40 PM)
 
+**Pointer:** the canonical answer to the 'exact matches are rare' critique is notes/creative/exact-closure-answer.md (branch creative/exact-closure-answer, PR #427).
+
 **David, 3:33 PM ET 2026-10-14** (direct in Creative Lead chat, not signed; unverified by Literature, no original seen; verbatim as reported by Creative Lead):
 
 > "I would imagine that alignment needs to be exact within an individual world, but approximate in shadow space, which is ok because shadow space is by definition created via an approximation method involving projections of many Worlds onto the shadow space.
