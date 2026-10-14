@@ -10,11 +10,11 @@ We list five candidates for a particle. For each we give its natural size (λ_E,
 
 - **Point test body.** The action is proper time. This is clean and already used in our runs, but it has no size, so λ_E is undefined. A single real number per world cannot cancel anything (Lemma A).
 - **Extended lump (a geon).** It has a real size and could pick up phase-like quantities, but it is hard to model.
-- **A carried handle or defect.** Its action is topological: a twist or holonomy around handles, or a winding number. This is the most interesting candidate for T1, because these quantities are circle- or integer-valued, and circle values are what cancellation needs. But circle values are necessary, not sufficient: cancellation also needs a rule for adding phases, and the only known rule (Schulman 1968; Laidlaw–DeWitt 1971) is the quantum path integral. In our 2D G1 toy the holonomy is a ℤ₂ reflection, not a circle.
+- **A carried handle or defect (a *topological geon*, in our classical sense: a localized defect that looks like a point once the world is projected onto the *shadow spacetime*, the simply connected coarse spacetime of the LEA chart).** Its action is topological: a twist or holonomy around handles, or a winding number. This is the most interesting candidate for T1, because these quantities are circle- or integer-valued, and circle values are what cancellation needs. But circle values are necessary, not sufficient: cancellation also needs a rule for adding phases, and the only known rule (Schulman 1968; Laidlaw–DeWitt 1971) is the quantum path integral. In our 2D G1 toy the holonomy is a ℤ₂ reflection, not a circle.
 - **A pattern in the ledger.** It gives identity and repeatability for free, but its action is not geometric yet.
 - **A world-tube identified across worlds by record class.** This defines the particle the way we defined the detectors d_i. It fits the LEA best, but it is a definition of identity, not an action.
 
-**Most promising (Creative Lead proposal):** the handle/defect candidate (c), with action = proper time + a holonomy/twist phase, and identity across worlds via the record-class world-tube (e). This is the one combination where a circle-valued, geometry-fixed quantity could open Lemma A's exit (ii). Circle values are necessary for that but not sufficient: the phase-addition rule is the open Born-side step, and the known rule is quantum. The holonomy is fixed by germ, Γ and route, and depends on the actual loop (enclosed curvature), not only its class. Nothing here is computed.
+**Most promising (Creative Lead proposal):** the topological-geon candidate (c), which matches your 12:59 AM framing of a localized defect that is a point in the shadow spacetime, with action = proper time + a holonomy/twist phase, and identity across worlds via the record-class world-tube (e). This is the one combination where a circle-valued, geometry-fixed quantity could open Lemma A's exit (ii). Circle values are necessary for that but not sufficient: the phase-addition rule is the open Born-side step, and the known rule is quantum. The holonomy is fixed by germ, Γ and route, and depends on the actual loop (enclosed curvature), not only its class. Nothing here is computed.
 
 ## 1. David's words (verbatim as reported by Creative Lead, direct in Creative Lead chat, not signed; unverified by Literature, no original seen)
 
@@ -22,6 +22,20 @@ We list five candidates for a particle. For each we give its natural size (λ_E,
 - David, 12:40 AM ET 2026-10-14: "Let’s think about what a particle is; it needs to be done, and it might shed some light on our understanding of action. The action is intimately connected to the path of the particle through spacetime, so it may be difficult to think of one without the other. Does that make sense?"
 
 Creative Lead reading: yes. In the path-integral picture the action is a functional of the path, S[γ], so a particle definition (what γ is, and what S[γ] the particle carries) comes first. Strictly, the action enters the path-integral amplitude through e^{iS/ħ} (Feynman 1948); the Born rule then maps amplitudes to probabilities and contains no action itself. We read "the action in the Born rule" as this amplitude-level S. Here we look only for a classical, geometry-fixed S that *could* later play that role. We do not put e^{iS/ħ} in.
+
+## 1a. Terminology (David's choices)
+
+**Shadow spacetime.** David, 1:04 AM ET 2026-10-14, direct in Creative Lead chat, not signed; unverified by Literature, no original seen; verbatim: "Let’s try shadow spacetime and see if it sticks."
+- Meaning: the simply connected coarse spacetime that a multiply connected world projects onto, i.e. the target of the LEA chart f: U → ℝ^{1,3} (#410/#411, additive (C1)).
+- It replaces "reference spacetime", which would clash with the "shared reference" (the labelled-anchor reference configuration) used to identify the d_i.
+
+**Framing of the particle.** David, 12:59 AM ET 2026-10-14, direct in Creative Lead chat, not signed; unverified by Literature, no original seen; verbatim: "I like the idea of a defect in spacetime, which is sufficiently localized that it can be approximated as a point after projecting the multiply connected world onto the simply connected reference spacetime." (His "reference spacetime" here is what we now call the shadow spacetime.) This favours candidate (c), read through (a) after projection: a localized defect that is a point in the shadow spacetime.
+
+**The particle's name: topological geon (with a caveat).**
+- *Rejected:* Hadley's "4-geon". David, 1:08 AM ET 2026-10-14, direct in Creative Lead chat, not signed; unverified by Literature, no original seen; verbatim: "If hadley strictly requires CTCs as part of the definition, let’s not abuse his terminology." Literature verified that CTCs are part of Hadley's definition (Found. Phys. Lett. 10 (1997) 43, quant-ph/9706018: "a topologically non-trivial 4-manifold with closed timelike curves - a 4-geon"). Our defects need no CTCs, so the term is not used.
+- *Adopted:* "topological geon". David's widget answer, 1:20 AM ET 2026-10-14, direct in Creative Lead chat, not signed; unverified by Literature, no original seen; verbatim: "Topological geon, with a caveat".
+- *Caveat:* in Sorkin–Surya (gr-qc/9605050; hep-th/9704081) and Dowker–Sorkin (gr-qc/9609064), a topological geon is a quantized, irreducible prime summand of a spatial 3-manifold, and handles (S¹×S² summands) are explicitly excluded. Our use is classical, allows handle summands (our G1 and mirror gluings), and refers to a localized spacetime defect, not a spatial prime summand.
+- Giulini (math-ph/0606066) is cited for a classical use of the term. Friedman–Sorkin 1980 and Sorkin 1986 are metadata-only (texts unread).
 
 ## 2. Tests
 
