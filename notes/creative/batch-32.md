@@ -77,3 +77,5 @@ Geroch, J. Math. Phys. 8, 782 (1967) (abstract read); Tipler, Ann. Phys. 108, 1 
 **Next step [CL]:**
 
 On paper: construct K₁₂ (step 5.1) for the simplest pair cap, and find the holonomies of its CTCs and whether they depend on how the members arrive (§4). Homotopy to γ is not enough (§4), and in a time-oriented M γ is not itself a CTC. Bring that to Geometry before any script (runs stay paused). Two prior questions decide whether that construction can matter: what, if anything, couples the frame at v_a (§4: a passive frame gives (N1)), and what curvature or topology lies between the routes (§5 item 5). They are scope choices for the Lead and David, as is whether to look at Geroch's other alternative (time orientation reversing inside the vertex regions, Hadley's setting), where γ could itself be timelike; the conditions in (Y) and §5 item 5 would still apply there.
+
+**Pointer:** the canonical answer to the 'exact matches are rare' critique is notes/creative/exact-closure-answer.md (branch creative/exact-closure-answer, PR #427).
