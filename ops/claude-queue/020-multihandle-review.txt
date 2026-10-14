@@ -1,0 +1,26 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics. Fetch PR #415 at its current head (at least 9927a6f) before you start, and record the exact head SHA you reviewed in your review.
+
+TARGET
+PR #415, creative batch 29: several micro-handles along the path (the next step you proposed in job 019). It is stacked on #413 (S5, revised after job 019), #411 and #410. Main has no notes/creative/ directory: resolve references against the stacked branches.
+
+QUESTION
+Does #415 soundly map for which handle spacings the flight stays ballistic while several W_i remain non-empty? Keep it proportionate.
+
+WHAT TO CHECK
+1. Setup (2D, point particle, handle spacing s, both gluings, smooth Ellis-neck two-sheet variant): is every term defined? Rerun the scripts or an independent check where cheap.
+2. The ballistic threshold s >~ sqrt(4aR) ~ 110 l and the 10-16 of 21 detectors reachable there (lower bounds).
+3. The dense regime (s <~ 20 l): wandering, with reachability reduced but non-zero (G1: 4, mirror: 2). Is "diffusive" correctly kept as analogy only?
+4. The boundary-growth estimates D ~ 0.4-0.75 for clusters of 4+ handles: are they meaningful, or grid/step-cap artifacts?
+5. The Ellis-neck result (all 21 reached): is it correct, and how far does it bring the result inside the analytic lock?
+6. Is anything (Born rule, |a|^2, a measure, hbar, lambda_E as a de Broglie wavelength) put in by hand? Is (M1) untouched? Confirm this is reachability only, not against Lemma A. David's principle: the model is fundamentally classical, and quantum statistics must emerge, not be injected.
+7. The strongest obstacle, and the most useful next step.
+
+RULES
+1. Be independent. Check against sources and rerun computations where cheap. Mark anything you could not finish as unchecked.
+2. Do not revisit (M1), do not decide the arrival rule (A), do not pick a topology, and do not choose lambda_E (David's call). Do not use the Born rule, |a|^2 or 1/N yourself.
+3. Do not comment on any issue.
+
+WHAT TO FILE
+- Post your review as a pull request review on PR #415, comments only (event COMMENT; do not approve or request changes).
+- Head it "Verdict: SOUND / SOUND WITH CHANGES / UNSOUND" (one), followed by "Head reviewed: <sha>". Then Required (R1...), Suggested (S1...) and Nits (N1...), each with an exact OLD -> NEW where you can, then unchecked items and provenance.
+- Do not merge anything. Do not commit to any note or branch. Do not open a pull request.
