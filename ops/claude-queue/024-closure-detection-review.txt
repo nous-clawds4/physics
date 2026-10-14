@@ -1,0 +1,28 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics. This job covers two PRs. Fetch PR #427 at its current head (at least a75d444) and PR #428 at its current head (at least 7174321) before you start, and record the exact head SHA of each that you reviewed.
+
+TARGET
+(1) PR #427, the answer to the "exact matches are rare" critique. It responds directly to R1 of your job 023 review on #424 ("exact closures are non-generic") and to S4 (frame coupling at v_a that would make alignment generic, which is David's scope call). Its claim is that rarity does not make a world invalid, but under a smooth measure the closure worlds get zero weight, so giving them weight would need independent motivation (LT2). Section 3a records David's virtual-pair definition (5:14 PM ET 2026-10-14, adopted 5:17 PM, relayed, not signed). Section 3b records Geometry's LEA assessment as a reviewer reading: an upper bound is plausible but rests on an unproved lemma, there is no lower bound, and mu is still open.
+(2) PR #428, detection as indirect pairing. This is David's proposal, adopted 7:07-7:13 PM ET 2026-10-14 (relayed, not signed, no hold level stated). A detection is two routes from the source paired indirectly through the detector's matter: their phases needn't match and the pairing leaves a record. A virtual pair is glued directly, needs an exact phase match and leaves no record. The detector's gluing mechanism is still undefined. David said explicitly that this is not a probability rule. Its citations are verified, except the Stueckelberg page numbers, which come from secondary sources.
+Read #424, #423 and #421 as context. Main has no notes/creative/ directory, so resolve references against the PR branches. David asked for this review without any claim of a Born rule.
+
+QUESTION
+(a) Does #427 actually answer job 023 R1, and are its two distinctions ("rare means invalid" versus "rare means negligible") correctly drawn and correctly scoped? (b) Is #428's detection-as-indirect-pairing proposal well-posed, consistent with #427 and the exact-closure rulings, and honestly scoped (not a probability rule)? Keep it proportionate.
+
+WHAT TO CHECK
+1. Is every term defined (exact closure, virtual pair, indirect pairing, record, detector gluing, smooth mu, the LEA upper bound)? Flag ill-posed questions.
+2. #427: whether "zero weight under a smooth mu" is correctly argued, whether 3b's upper bound and its unproved lemma are stated accurately, and whether S4 is posed as a clean scope question. Check by hand or with a quick computation where that's cheap.
+3. #428: whether "phases needn't match" for detections is consistent with "exact closure within each world or the world is excluded", and whether the record/no-record distinction is well-defined. Also whether leaving the gluing mechanism undefined blocks any of the stated conclusions.
+4. Whether either note escapes Lemma A, or only restates cancellation or outcome variety.
+5. Is anything (Born rule, |a|^2, hbar, a measure, a quantum phase rule) put in by hand? Is (M1) untouched? Do not frame any result as Born-shaped or not. David's principle: the model is fundamentally classical, and quantum statistics must emerge, not be injected.
+6. Citations in #428, where cheap to check.
+7. The strongest obstacle, and the most useful next step.
+
+RULES
+1. Be independent. Check against sources and rerun computations where cheap. Mark anything you could not finish as unchecked.
+2. Do not revisit (M1), do not decide the arrival rule (A), do not pick a topology, do not revisit the CTC adoption, the exact-closure rulings, the virtual-pair definition or the detection adoption, do not decide S4, and do not choose lambda_E (David's call). Do not use the Born rule, |a|^2 or 1/N yourself.
+3. Do not comment on any issue.
+
+WHAT TO FILE
+- Post one pull request review on PR #427 and one on PR #428, comments only (event COMMENT; do not approve or request changes).
+- Head each "Verdict: SOUND / SOUND WITH CHANGES / UNSOUND" (one), followed by "Head reviewed: <sha>". Then Required (R1...), Suggested (S1...) and Nits (N1...), each with an exact OLD -> NEW where you can, then unchecked items and provenance.
+- Do not merge anything. Do not commit to any note or branch. Do not open a pull request.
