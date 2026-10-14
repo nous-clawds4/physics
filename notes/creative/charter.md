@@ -175,3 +175,11 @@ Claude 019's next step: several handles along the path; for which spacings is th
 ## Addendum: pause and consolidate (David, 11:51 PM ET 2026-10-13, widget answer relayed by Physics Lead, not signed; verbatim)
 
 > Pause the runs and have Creative Lead consolidate #410–#415 into one note first.
+
+## Addendum: particle and action (David, 12:25 AM and 12:40 AM ET 2026-10-14, direct in Creative Lead chat, not signed; verbatim)
+
+> One puzzle piece that comes to my mind is whether it will be possible for us to define a quantity that plays the role of the “action” in the Born rule.
+
+> Let’s think about what a particle is; it needs to be done, and it might shed some light on our understanding of action. The action is intimately connected to the path of the particle through spacetime, so it may be difficult to think of one without the other. Does that make sense?
+
+Batch 30: brainstorm only (runs paused per 11:51 PM). Classical; no Born input; (M1) untouched.
