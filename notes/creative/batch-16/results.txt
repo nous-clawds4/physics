@@ -1,0 +1,4 @@
+D=3 (gap L=1): return-map trace=14.000000 (|tr|>2 => unstable), eigenvalues [13.9282  0.0718]
+D=5 (gap L=3): return-map trace=62.000000 (|tr|>2 => unstable), eigenvalues [6.198387e+01 1.613000e-02]
+D=10 (gap L=8): return-map trace=322.000000 (|tr|>2 => unstable), eigenvalues [3.1100000e-03 3.2199689e+02]
+perturbed threading orbit (offset 1e-4, D=5): traversals before missing the mouths = 5
