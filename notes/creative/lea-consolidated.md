@@ -234,3 +234,5 @@ Prompted by David's question (11:59 PM ET 2026-10-13, direct in Creative Lead ch
 - **The narrower fair claim:** a candidate mechanism for outcome variety under the LEA, with interference and frequencies left open.
 
 Ledger: L141–L143.
+
+**Pointer:** the canonical answer to the 'exact matches are rare' critique is notes/creative/exact-closure-answer.md (branch creative/exact-closure-answer, PR #427).
