@@ -1,0 +1,9 @@
+mode=mirror a=0.3 R=10000.0 Delta=50.0 grid=1001x3 offsets in [-0.5,0.5]; reached sets are lower bounds
+s=    5.0 l_free~s^2/(4a)=     20.8 (R=10000): detectors reached 0/21 []; None=True; no-arrival-within-cap=True; encounter numbers on arriving paths: min - max -
+s=   10.0 l_free~s^2/(4a)=     83.3 (R=10000): detectors reached 0/21 []; None=True; no-arrival-within-cap=True; encounter numbers on arriving paths: min - max -
+s=   20.0 l_free~s^2/(4a)=    333.3 (R=10000): detectors reached 2/21 [-7, 4]; None=True; no-arrival-within-cap=True; encounter numbers on arriving paths: min 136 max 178
+s=   50.0 l_free~s^2/(4a)=   2083.3 (R=10000): detectors reached 8/21 [-10, -9, -8, -5, 0, 3, 4, 8]; None=True; no-arrival-within-cap=False; encounter numbers on arriving paths: min 3 max 26
+s=  110.0 l_free~s^2/(4a)=  10083.3 (R=10000): detectors reached 11/21 [-9, -5, -2, 0, 1, 2, 3, 4, 6, 7, 10]; None=True; no-arrival-within-cap=False; encounter numbers on arriving paths: min 1 max 6
+s=  200.0 l_free~s^2/(4a)=  33333.3 (R=10000): detectors reached 10/21 [-9, -7, -5, -4, -3, 0, 1, 2, 3, 9]; None=True; no-arrival-within-cap=True; encounter numbers on arriving paths: min 0 max 4
+s=  500.0 l_free~s^2/(4a)= 208333.3 (R=10000): detectors reached 4/21 [-5, -4, -3, 0]; None=True; no-arrival-within-cap=False; encounter numbers on arriving paths: min 0 max 2
+s= 2000.0 l_free~s^2/(4a)=3333333.3 (R=10000): detectors reached 4/21 [-5, -4, -3, 0]; None=True; no-arrival-within-cap=False; encounter numbers on arriving paths: min 0 max 2
