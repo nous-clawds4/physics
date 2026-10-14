@@ -1,0 +1,21 @@
+2D grounded thin plate y=0, |x|<=10; source (0,-5); screen y=10; v0=1; absorbed within 0.02 of metal
+
+Convergence (a=2, w=0.5, kappa=0.01; 50 launches): errors against N=800 for slit-1 launches
+   N=200: x_hit error max 1.612e-01 median 3.423e-02; error of the one-vs-two-slit shift max 5.883e-04 median 1.168e-04; absorbed 33 vs 33
+   N=400: x_hit error max 6.656e-02 median 1.605e-03; error of the one-vs-two-slit shift max 2.168e-04 median 2.484e-05; absorbed 33 vs 33
+   N=800 one-vs-two-slit shift itself: max 1.316e-03 median 8.059e-04
+
+Scan (N=400, 1500 slit-1 launches per case, window 2.5x the slit's angular width):
+ a    w    kappa   absorbed 1slit/2slit  max|dx_hit|(2-1)  folds 1slit/2slit  overlap bins  bins I_both<min(I1,I2)  local minima of I_both-I1-I2
+ 2.0  0.5  0.001     978/978              9.377e-04          0/0                0           0                  0
+ 2.0  0.5  0.01      976/975              2.138e-03          0/0                0           0                  0
+ 2.0  0.5  0.1       965/965              2.856e-02          0/0                0           0                  0
+ 2.0  1.0  0.001     950/950              1.456e-03          0/0                0           0                  0
+ 2.0  1.0  0.01      950/949              6.137e-03          0/0                0           0                  0
+ 2.0  1.0  0.1       938/937              1.188e-01          0/0               12           0                  0
+ 4.0  0.5  0.001    1039/1039             2.504e-05          0/0                0           0                  0
+ 4.0  0.5  0.01     1036/1036             2.317e-03          0/0                0           0                  0
+ 4.0  0.5  0.1      1023/1024             1.430e-02          0/0                0           0                  0
+ 4.0  1.0  0.001    1010/1010             2.284e-03          0/0                0           0                  0
+ 4.0  1.0  0.01     1008/1008             3.169e-03          0/0                0           0                  0
+ 4.0  1.0  0.1       996/996              4.808e-02          0/0                0           0                  0
