@@ -1,0 +1,25 @@
+m=1 k=3  A(throat)=0.3333
+ L=0: [(0.0, np.float64(0.333333), 'stable'), (0.0, np.float64(0.333333), 'stable')]
+ L=2: [(0.0, np.float64(0.481481), 'stable'), (0.0, np.float64(0.481481), 'stable')]
+ L=3: [(0.0, np.float64(0.666667), 'stable'), (0.0, np.float64(0.666667), 'stable')]
+ L=4: [(-11.619, np.float64(0.925926), 'stable'), (-2.6458, np.float64(1.0), 'unstable'), (0.0, np.float64(0.925926), 'stable'), (0.0, np.float64(0.925926), 'stable'), (2.6458, np.float64(1.0), 'unstable'), (11.619, np.float64(0.925926), 'stable')]
+ L=5: [(-21.3037, np.float64(0.956029), 'stable'), (-1.7757, np.float64(1.30323), 'unstable'), (0.0, np.float64(1.259259), 'stable'), (0.0, np.float64(1.259259), 'stable'), (1.7757, np.float64(1.30323), 'unstable'), (21.3037, np.float64(0.956029), 'stable')]
+ L=6: [(-32.559, np.float64(0.970446), 'stable'), (-1.3821, np.float64(1.696221), 'unstable'), (0.0, np.float64(1.666667), 'stable'), (0.0, np.float64(1.666667), 'stable'), (1.3821, np.float64(1.696221), 'unstable'), (32.559, np.float64(0.970446), 'stable')]
+
+L=3.8 wells (x,V): [(-9.7362, np.float64(0.9155)), (0.0, np.float64(0.868148)), (9.7362, np.float64(0.9155))]  barriers: [(-3.0134, np.float64(0.952648)), (3.0134, np.float64(0.952648))]
+ outer well x=9.736 V=0.915500; barrier V=0.952648; escape V=1
+ radial kick from outer circular orbit: thread threshold 0.192738, escape threshold 0.290689
+  kick 0.9 thr : x in [4.10, 27.78], throat crossings=0
+  kick 1.1 thr : x in [-42.25, 42.25], throat crossings=5
+  kick mid     : x in [-68.83, 68.83], throat crossings=3
+  kick 1.1 esc : x in [-648.30, 9.74], throat crossings=1
+  threading orbit perturbed -0.001: crossings=3
+  threading orbit perturbed +0.001: crossings=3
+  reference (tiny kick): crossings=0, x in [9.69,9.78]
+
+L=5 wells (x,V): [(-21.3037, np.float64(0.956029)), (0.0, np.float64(1.259259)), (21.3037, np.float64(0.956029))]  barriers: [(-1.7757, np.float64(1.30323)), (1.7757, np.float64(1.30323))]
+ outer well x=21.304 V=0.956029; barrier V=1.303230; escape V=1
+ barrier above 1: outer wells and throat well are separated for all bound energies; escape threshold 0.209693
+  throat-trapped orbit (x0=0, xdot=0.05): x in [-0.263,0.263], crossings=242
+  inward kick 0.1887 from outer: x in [10.18,225.92], crossings=0
+  inward kick 0.2307 from outer: x in [8.95,535.81], crossings=0
