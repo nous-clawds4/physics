@@ -200,4 +200,4 @@ David's ruling: CTCs are allowed tentatively, i.e. not disallowed, and not used 
 
 > The work of EKT and Hadley is why CTCs came to my attention initially; now, Geometry, referencing Geroch, has provided an argument that we will in fact need CTCs to enable topology change for virtual particles. Taken together, these are enough reasons for us to adopt CTCs.
 
-Status: CTCs adopted (David, 2:27 AM, hold level unspecified). This supersedes the 1:56 AM "allowed tentatively" ruling (kept above as history). Hold level unspecified (not L3). All other guardrails stay: classical; no Born input, no |a|², no superposition by hand; (M1) untouched at L3; nothing in versions/ or papers/.
+Status: CTCs adopted (David, 2:27 AM, hold level unspecified). This supersedes the 1:56 AM "allowed tentatively" ruling (kept above as history). Hold level unspecified. All other guardrails stay: classical; no Born input, no |a|², no superposition by hand; (M1) untouched at L3; nothing in versions/ or papers/.
