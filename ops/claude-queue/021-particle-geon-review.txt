@@ -1,0 +1,26 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics. Fetch PR #418 (head at least 32da3fa) and PR #419 (head at least d45886a) at their current heads before you start, and record both exact head SHAs in your review.
+
+TARGET
+PR #418, creative batch 30 (ideas only): what a particle is and what action it carries; five candidates, lead (c)+(e), a carried handle or defect with world-fixed holonomy identified across worlds by record class. PR #419, creative batch 31 (ideas only): David's virtual-geon closures; phase from holonomy, annihilation as a compact cobordism capping off, negative interference read as route-dependent exclusion, goal a derived path integral. Background: #417 (consolidated LEA and reachability note). David adopted CTCs at 2:27 AM ET 2026-10-14 (relayed, not signed), citing EKT, Hadley, and Geometry's Geroch-based argument that topology change for virtual particles needs CTCs. Main has no notes/creative/ directory: resolve references against the stacked branches.
+
+QUESTION
+Are #418 and #419 well-posed, internally consistent, and a sound direction toward an interference mechanism that is classical at root? Keep it proportionate; there are no computations to rerun.
+
+WHAT TO CHECK
+1. Is every term defined (holonomy, record class, world-fixed, virtual geon, closure, capping off)? Flag ill-posed questions.
+2. The holonomy claims: circle values necessary but not sufficient; 2D G1 holonomy is Z2 (a reflection, not 180 degrees); phase addition (Schulman, Laidlaw-DeWitt) is quantum.
+3. The Geroch argument: does topology change for virtual geons really need CTCs (Geroch 1967, and Tipler / Borde where relevant)? Is the compact-cobordism reading of annihilation sound?
+4. Does "negative interference as route-dependent exclusion" actually escape Lemma A (no dark bands from fixed non-negative weights)? Is the "derived path integral" goal coherent without putting quantum structure in?
+5. Prior art: Friedman-Sorkin 1980 and anything else that pre-empts or undercuts this.
+6. Is anything (Born rule, |a|^2, hbar, a measure, a quantum phase rule) put in by hand? Is (M1) untouched? David's principle: the model is fundamentally classical, and quantum statistics must emerge, not be injected.
+7. The strongest obstacle, and the most useful next step.
+
+RULES
+1. Be independent. Check against sources. Mark anything you could not finish as unchecked.
+2. Do not revisit (M1), do not decide the arrival rule (A), do not pick a topology, do not revisit the CTC adoption, and do not choose lambda_E (David's call). Do not use the Born rule, |a|^2 or 1/N yourself.
+3. Do not comment on any issue.
+
+WHAT TO FILE
+- Post your review as a pull request review on PR #419, comments only (event COMMENT; do not approve or request changes), covering both PRs.
+- Head it "Verdict: SOUND / SOUND WITH CHANGES / UNSOUND" (one), followed by "Heads reviewed: #418 <sha>, #419 <sha>". Then Required (R1...), Suggested (S1...) and Nits (N1...), each tagged with the PR, with an exact OLD -> NEW where you can, then unchecked items and provenance.
+- Do not merge anything. Do not commit to any note or branch. Do not open a pull request.
