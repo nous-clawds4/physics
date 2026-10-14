@@ -14,7 +14,7 @@ We list five candidates for a particle. For each we give its natural size (λ_E,
 - **A pattern in the ledger.** It gives identity and repeatability for free, but its action is not geometric yet.
 - **A world-tube identified across worlds by record class.** This defines the particle the way we defined the detectors d_i. It fits the LEA best, but it is a definition of identity, not an action.
 
-**Most promising (Creative Lead proposal):** the topological-geon candidate (c), which matches your 12:59 AM framing of a localized defect that is a point in the shadow spacetime, with action = proper time + a holonomy/twist phase, and identity across worlds via the record-class world-tube (e). This is the one combination where a circle-valued, geometry-fixed quantity could open Lemma A's exit (ii). Circle values are necessary for that but not sufficient: the phase-addition rule is the open Born-side step, and the known rule is quantum. The holonomy is fixed by germ, Γ and route, and depends on the actual loop (enclosed curvature), not only its class. Nothing here is computed.
+**Most promising (Creative Lead proposal):** the topological-geon candidate (c), which matches your 12:59 AM framing of a localized defect that is a point in the shadow spacetime, with action = proper time + a holonomy/twist phase, and identity across worlds via the record-class world-tube (e). This is the one combination where a circle-valued, geometry-fixed quantity could open Lemma A's exit (ii). Circle values are necessary for that but not sufficient: the phase-addition rule is the open Born-side step, and the known rule is quantum. The holonomy is fixed by germ, Γ and route, and depends on the actual loop (enclosed curvature), not only its class. Batch 31 replaces this phase route with the exclusion exit (#419 C5). Nothing here is computed.
 
 ## 1. David's words (verbatim as reported by Creative Lead, direct in Creative Lead chat, not signed; unverified by Literature, no original seen)
 
@@ -39,7 +39,7 @@ Creative Lead reading: yes. In the path-integral picture the action is a functio
 
 ## 2. Tests
 
-- **T1 (superpose/interfere):** does S take values in a group where contributions can cancel (a circle U(1), or a ℤ_n), rather than only in ℝ≥0? Lemma A (batch 21): one route per world with non-negative fixed weights gives no dark spot. Its exits are (i) more than one route per world contributing, (ii) signed or phase-valued per-route quantities, or (iii) weights that are not fixed per world. A particle's action is useful only if it opens one of these exits *classically*.
+- **T1 (superpose/interfere):** does S take values in a group where contributions can cancel (a circle U(1), or a ℤ_n), rather than only in ℝ≥0? Lemma A (batch 21): one route per world with non-negative fixed weights gives no dark spot. Its exits are (i) more than one route per world contributing, (ii) signed or phase-valued per-route quantities, or (iii) weights that are not fixed per world. A particle's action is useful only if it opens one of these exits *classically*. (This (i)–(iii) is this batch's own, batch-21-style numbering. It is not batch 23's: Lemma A′ (batch 23 L29–L36) has *assumptions* (i) one route per world, (ii) non-negative weights, (iii) union with unchanged weights, and *named* exits exclusion, contextual dynamics, multiplicity, read-out change. Exit (ii) here amounts to dropping batch 23's assumption (ii), which batch 23 rejects (Set R); batch 31 replaces this route with exclusion. Geometry, #419 C5.)
 - **T2 (fixed independently):** is S fixed by the germ, Γ and the launch alone, with no outcome count or fit to frequencies?
 - **Repeatability:** does a second detection agree with the first (the same d_i on a repeated measurement)?
 - **Which-path:** does the particle write a which-route record (#401 R2: routes are branches only if recorded)? If it does, a route-phase should not be able to interfere.
@@ -121,4 +121,4 @@ Wheeler, Phys. Rev. 97, 511 (1955) (geons); Misner–Wheeler, Ann. Phys. 2, 525 
 
 1. Ask David to choose λ_E and the particle candidate (suggest (c) with (e) for identity).
 2. In the batch-28 toy, write down (on paper) the route holonomy θ_route for the G1 vs mirror gluings, and check whether two routes to one hit exist in one world.
-3. State Lemma A's exit (ii) precisely for circle-valued route data, with no combination rule yet.
+3. State this batch's exit (ii) precisely for circle-valued route data, with no combination rule yet; note that it drops batch 23's assumption (ii), rejected there (Set R), and that batch 31 pursues the exclusion exit instead (#419 C5).
