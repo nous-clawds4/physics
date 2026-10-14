@@ -171,3 +171,7 @@ Run S5 from Claude review 018, structure-only: which W_i are non-empty. No outco
 ## Addendum: batch 29 (Lead ruling, Physics Lead, 2026-10-13)
 
 Claude 019's next step: several handles along the path; for which spacings is the flight ballistic while several W_i stay non-empty. Structure-only; point particle; λ_E left to David; 2D.
+
+## Addendum: pause and consolidate (David, 11:51 PM ET 2026-10-13, widget answer relayed by Physics Lead, not signed; verbatim)
+
+> Pause the runs and have Creative Lead consolidate #410–#415 into one note first.
