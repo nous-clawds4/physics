@@ -7,7 +7,7 @@ Paper only, plus one short committed check script (point 3). Classical; no Born 
 You described a circle of dots, one per path. Dots that "line up" pair off as virtual particles and vanish; leftover dots must be absorbed by the detector. Evenly spread dots mostly pair, while a clump leaves many unpaired, and that would make the pattern. We checked three things.
 
 1. **What "line up" means.** For two paths to cancel, their dots must sit *opposite* each other on the circle, half a turn apart. Equal dots reinforce. For a clock hand, "opposite" breaks the alignment you asked for (#419). With spin-½, a relative full turn shows up as a sign flip, so aligned paths can still cancel. That sign depends on the spin structure, and on a loop that goes round a surviving handle it is a two-way choice (#423). So the clean version of your rule is: **two paths cancel when the spinor sign round the loop they form is −1, under the spin-½ reading. That sign is the product of the spin-structure value on the loop's class (a two-way choice only if the loop goes round a surviving handle an odd number of times) and the sign from its relative full turns; only the product is defined, so the same loop cancels in one spin structure and reinforces in the other.**
-2. **Exact or approximate.** If the dots move continuously, exactly opposite pairs are rare (measure zero; Geometry's #421 dilemma). A tolerance would be a number we put in by hand. Discrete phases (signs set by which handles a loop goes round) avoid this. Among the options we listed, they are the only one that can be fixed without tuning (other discrete data, such as non-abelian handle classes, finite holonomy groups, or an isometry exchanging routes, would also qualify), and that again points to handles between the routes.
+2. **Exact or approximate.** If the dots move continuously, exactly opposite pairs are rare (measure zero; Geometry's #421 dilemma). A tolerance would be a number we put in by hand. Discrete phases (signs set by which handles a loop goes round) avoid this. Among the options we listed, they are the only one that can be fixed without tuning (other discrete data, such as non-abelian handle classes, finite holonomy groups, or an isometry exchanging routes, would also qualify), and that again points to handles between the routes. **Update (your 3:33/3:40 PM ruling):** matching is exact inside each world, and worlds with inexact pairs are simply not allowed (self-consistency). Any apparent tolerance comes only from projecting many worlds onto the shadow spacetime. So discrete phases are no longer needed, and the tolerance objection is superseded (§4a). Open: why unpaired paths must end at a detector; how rare exact closures are within a world; whether point 3's floor changes. No claim about the Born rule is made.
 3. **How many are left over.** With "remove opposite pairs" as the rule, the leftover count is at least the **length** of the arrow sum |Σ e^{iφ}| (for exactly opposite pairs; approximately, with a tolerance), so near dark fringes it cannot fall below that length. This is a negative result for this pairing rule as posed, not a refutation of every rule. The triangle inequality gives a floor: at least that many dots are left. In our toy (greedy matching within a tolerance, N = 400) the log-log slopes are 0.5–0.9. **That does not match quantum-mechanical frequencies**, and we do not adjust the rule to make it match. This is the biggest obstacle found so far for the pairing picture as stated.
 
 **Bearing on the topology choice** (recommendation, for you to rule on): only the cap that leaves one handle (π₁ = ℤ), with the closed route loop crossing the 1-handle summand A's S² an odd number of times (in 3D space a loop has no "sides"), gives the discrete sign that point 1 needs and point 2 allows. The cancelling cap leaves no sign. We recommend the π₁ = ℤ cap, keeping the remaining ℤ₂ spin choice as world data (both spin structures kept as separate worlds, each with its own fixed sign, neither picked; comparing them would need the measure μ, which stays open). It is your call. But point 3 means this alone does not give quantum-mechanical frequencies.
@@ -31,6 +31,8 @@ You described a circle of dots, one per path. Dots that "line up" pair off as vi
 
 ## 3. Point (2): exact versus tolerance [CL]
 
+*Superseded in part (history kept): the 'discrete phases needed' and 'tolerance fails T2' readings below are superseded by David's 3:33/3:40 PM ruling (§4a).*
+
 | Option | Fixed independently (T2)? | Notes |
 |---|---|---|
 | **Exact** match of continuous phases | Yes, but empty | Measure zero: holds only on isolated points or lines (#421 X3, assuming real-analytic dependence) |
@@ -38,7 +40,7 @@ You described a circle of dots, one per path. Dots that "line up" pair off as vi
 | **Discrete phases** (signs from H₁ class and spin structure) | **Yes**, if the class is set by which handles the routes thread and s is world data | Locally constant, so it gives bands. Needs handles between the routes or the π₁ = ℤ cap |
 | **Deterministic matching rule** (e.g. pair each path with its "mirror" route) | Only if the rule comes from the geometry (e.g. an isometry exchanging routes) | Otherwise it is chosen, so LT2 |
 
-**Reading:** among the options listed, only discrete phases pass T2 without a free scale. Other locally constant data (the class of γ in π₁ for non-abelian deck groups, finite holonomy ℤ_n, or a geometric route-exchanging isometry) would also pass, as would a δ set by a geometric length once λ_E is defined.
+**Reading (superseded by §4a; history):** among the options listed, only discrete phases pass T2 without a free scale. Other locally constant data (the class of γ in π₁ for non-abelian deck groups, finite holonomy ℤ_n, or a geometric route-exchanging isometry) would also pass, as would a δ set by a geometric length once λ_E is defined.
 
 ## 4. Point (3): the leftover count [CL]
 
@@ -55,6 +57,35 @@ You described a circle of dots, one per path. Dots that "line up" pair off as vi
   For small δ there is a noise floor of unmatched dots; as δ grows, leftover → R (slope → 1). Toy conditions: greedy antipodal matching in random order, von Mises phases, N = 400, 20 reps × 8 concentrations, fit over R > 5; reproduced by Literature (#424). The bound does not cap the leftover from above (three dots at 120°: R = 0, leftover 3). The "slope" is one log-log fit pooled across concentrations at fixed N = 400 (R > 5 only; leftover ≤ N), so it describes this family, not a scaling law; the bound above is the general statement.
 - **Plain statement:** under pairwise annihilation of exactly opposite dots the leftover at d_i is at least |Σ e^{iφ}| (proved above), and in the toy it grows at most about linearly with it. This is a statement about this rule as posed, not about every pairing rule. **This does not match quantum-mechanical frequencies.** We do not adjust the rule to match them: a rule designed to reproduce them would be aiming at the answer (LT2). Any other rule must be motivated independently and fixed before frequencies are compared.
 - **Pinned:** `pairing.py` sha256 0386d7bbf32feb88501becb6e4319aedff9508d8e202332dcc756f6a5cb2cc04; `pairing_out.txt` sha256 318c92c943b8abbec75f3abb41b13cc367b5fd98a040702ab910933c38e8ed0c. Run: `cd notes/creative/batch-34 && python3 pairing.py` (Linux x86_64, Python 3.13.5, numpy 2.2.4, seeded RNG 34); output byte-identical to `pairing_out.txt` (reproduced by Geometry and Literature, #424).
+
+## 4a. David's exact-closure reading (3:33 and 3:40 PM)
+
+**David, 3:33 PM ET 2026-10-14** (direct in Creative Lead chat, not signed; unverified by Literature, no original seen; hold level unspecified; verbatim):
+
+> "I would imagine that alignment needs to be exact within an individual world, but approximate in shadow space, which is ok because shadow space is by definition created via an approximation method involving projections of many Worlds onto the shadow space.
+>
+> And cancellation of two (or more) virtual particles happens in a manner such that both of those particle paths need to be inside the same World. Self-consistency of the geometry of any given world is why inexact cancellations are impossible.
+>
+> Is this your understanding of things?"
+
+**David, 3:40 PM ET 2026-10-14** (direct in Creative Lead chat, not signed; unverified by Literature, no original seen; hold level unspecified; verbatim):
+
+> "I don't understand the need to make phases discrete. I would argue that the geometry does force the phase matching to be exact (in the non-shadow Worlds) using the same argument I just made: internal self-consistency. We can state it more strongly: it is simply a violation of the geometry to have a pair of virtual particles whose phases do not align exactly. Virtual particle paths with inexact phase matching cannot exist inside a World (unless we are talking about the shadow spacetime, of course)."
+
+**Status:** David's ruling on point (2), hold level unspecified. It supersedes §3's "discrete phases needed" and "tolerance fails T2" readings, which are kept above as history.
+
+**Creative Lead reading:**
+- **Exact closure is a world-exclusion condition.** A world containing a closed virtual pair whose phases do not match exactly is not geometrically self-consistent, so it is not in the ensemble W. Within each world in W, every closed pair matches exactly.
+- **Tolerance is only apparent, and only in the shadow spacetime.** The shadow spacetime is built by projecting many worlds through the LEA chart (to within εR + ℓ), so phase data seen there are smeared across worlds. No tolerance δ is put in by hand, and none acts inside a world.
+- **Consistent with Geometry's #421 point** (E2; L167): self-consistency excludes worlds, or restricts data, rather than forcing Hol. Here it excludes worlds with inexact closures.
+- **What it supersedes:** the need for discrete phases (§3 table and Reading) and the T2 objection to a tolerance. Discrete data (#423, §5) remain one way exact matching can hold on an open set of routes, but they are no longer required.
+
+**Open items:**
+- **(a)** Show that every unclosed path must end at a detector, as a consequence of the geometry rather than an added rule (David 1:58 PM: "self-consistent means the only other option is that they wire up with a particle in the detector").
+- **(b)** Within one world, exact closure of continuous phases is non-generic (#421 X3, under its real-analytic assumption). What does that imply for how many worlds contain closures, and for the measure? μ stays open, and (M1) is untouched at L3.
+- **(c)** Recheck point 3's leftover floor (§4) under exact closure within worlds plus projection to the shadow spacetime. The floor was derived for pairs removed within one phase set; with exact closure per world and smearing by projection, it may change.
+
+**No claim about the Born rule is made.**
 
 ## 5. Bearing on the topology choice (for David)
 
