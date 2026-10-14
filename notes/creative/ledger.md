@@ -167,6 +167,7 @@
 | L158 | CTC ruling | "Let’s consider the CTCs to be allowed, but tentatively; we will not disallow them, but we will also not use them just for the sake of using them." (David, 1:56 AM ET 2026-10-14, direct in Creative Lead chat, not signed; unverified by Literature, no original seen; verbatim) | David 1:56 AM | **ruling (verbatim)** | CTCs allowed tentatively (not disallowed; not used for their own sake) |
 | L159 | clock-hand refinement | David, 1:54 AM ET 2026-10-14, direct in Creative Lead chat, not signed; unverified by Literature, no original seen: winding hand aligned everywhere, integer multiple of 2π; path 1 phase π, path 2 phase −π, "which interfere negatively"; need a geometric source for the spinning thing; spin-½ (MTW) later (Creative Lead paraphrase; verbatim in batch-31 §1b) | David 1:54 AM | **idea (paraphrase; verbatim in batch-31 §1b)** | open |
 | L160 | clock-hand note (Creative Lead note) | e^{iπ} = e^{−iπ}, so ±π add, not cancel; under closure windings φ, −φ differ by 2φ and cancel at φ = π/2; open: what geometry sets each half's winding; spin-½ (4π) a follow-up that changes which windings are closed | batch 31 | proposal | open |
+| L161 | spin-½ 4π candidate | "Yes, add the spin-1/2, 4 pi idea from MTW as something that might add the extra structure that we need." (David, 2:03 AM ET 2026-10-14, direct in Creative Lead chat, not signed; unverified by Literature, no original seen; verbatim). Candidate: the 4π rotation property of spin-½ (MTW belt/orientation-entanglement illustration; citation unchecked) as possible extra structure beyond circle-valued holonomy (necessary, not sufficient). Classical only; no Born input | David 2:03 AM | **open candidate (not adopted)** | open |
 
 ## Lesson L15 (after batches 01–02)
 
@@ -450,3 +451,4 @@ Resolved (reviews/misner-union-completeness-geometry-literature.md): in Misner, 
 - 2026-10-14: batch 30 exit numbering clarified per Geometry #419 C5: its exit (ii) is its own numbering, = dropping batch 23's assumption (ii) (rejected, Set R); batch 31 uses the exclusion exit.
 - 2026-10-14: #419 Geometry C1–C5 + Literature N1–N9 applied (L157); L152–L153 relabelled paraphrase; CTC status pending David's explicit confirmation (asked 1:40 AM).
 - 2026-10-14: L158–L160: David's 1:56 AM CTC ruling (allowed tentatively) replaces the pending mark; 1:54 AM clock-hand refinement; Creative Lead note (±π add; cancel at φ = π/2).
+- 2026-10-14: L161: spin-½ 4π (MTW) recorded as an open candidate at David's 2:03 AM request; 1:36 AM charter heading retitled as superseded.
