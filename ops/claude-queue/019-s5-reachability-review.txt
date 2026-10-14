@@ -1,0 +1,25 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics. Fetch PR #413 at its current head (at least 8be7585) before you start, and record the exact head SHA you reviewed in your review.
+
+TARGET
+PR #413, creative batch 28 (S5 from Claude job 018): which detector-world sets W_i are non-empty in a structure-only toy. It is stacked on #410 (LEA) and #411 (regime variable), which were revised after job 018. Main has no notes/creative/ directory: resolve references against the stacked branches. The first run (s5.py) is void because of a wrong-side gluing. The valid run is s5b.py.
+
+QUESTION
+Does #413 soundly show that micro-scale, unrecordable differences (a single seam-glued micro-handle near the emitter, plus sub-l launch offset) can change which macroscopic detector fires, i.e. that several W_i are non-empty? Keep it proportionate.
+
+WHAT TO CHECK
+1. The toy (2D flat plane, one seam-glued micro-handle, Rec0 fixing direction to tau/R and leaving the sub-l offset free): is every term defined, and is the gluing now correct? Rerun s5b.py or an independent check where cheap.
+2. The claim that all 21 detectors (plus None) are reached even at theta=0, for orientable and non-orientable gluings, via throat defocusing; the piecewise-smooth (not chaotic) map; the ~1e-4 l slivers; the claim that the sets are lower bounds.
+3. Geometry's lock reading (L135): the germ fixes the simply connected development but not the twist theta, which is world data chosen with Gamma (#399 sec. 3), with continuum theta needing a rotational Killing field. Is it correct?
+4. Does the result survive real curved handles and exterior lensing, 3D, and dense foam? Mark this as heuristic if not computed.
+5. Is anything (Born rule, |a|^2, a measure, hbar, e.g. via lambda_E read as a de Broglie wavelength) put in by hand? Is (M1) untouched? Lemma A (no darkness from fixed weights) is not claimed to be overcome: confirm this is reachability only. David's principle: the model is fundamentally classical, and quantum statistics must emerge, not be injected.
+6. The strongest obstacle, and the most useful next step.
+
+RULES
+1. Be independent. Check against sources and rerun computations where cheap. Mark anything you could not finish as unchecked.
+2. Do not revisit (M1), do not decide the arrival rule (A), do not pick a topology, and do not choose lambda_E (David's call). Do not use the Born rule, |a|^2 or 1/N yourself.
+3. Do not comment on any issue.
+
+WHAT TO FILE
+- Post your review as a pull request review on PR #413, comments only (event COMMENT; do not approve or request changes).
+- Head it "Verdict: SOUND / SOUND WITH CHANGES / UNSOUND" (one), followed by "Head reviewed: <sha>". Then Required (R1...), Suggested (S1...) and Nits (N1...), each with an exact OLD -> NEW where you can, then unchecked items and provenance.
+- Do not merge anything. Do not commit to any note or branch. Do not open a pull request.
