@@ -1,0 +1,26 @@
+== pure Ellis m=0: V = 1 + L^2/(x^2+k^2) ==
+ L=0.5 extrema: [(0.0, np.float64(1.25), 'unstable'), (0.0, np.float64(1.25), 'unstable')]
+ L=1 extrema: [(0.0, np.float64(2.0), 'unstable'), (0.0, np.float64(2.0), 'unstable')]
+ L=2 extrema: [(0.0, np.float64(5.0), 'unstable'), (0.0, np.float64(5.0), 'unstable')]
+ L=4 extrema: [(0.0, np.float64(17.0), 'unstable'), (0.0, np.float64(17.0), 'unstable')]
+== Ellis-Bronnikov m=0.1 k=1;  A(+inf)=1, A(-inf)=0.5335 ==
+ first L with a stable circular orbit: 0.6 [(2.7495, np.float64(0.96919))]
+ L=2 extrema: [(0.234, np.float64(2.98278), 'unstable'), (39.572, np.float64(0.99749), 'stable')]
+ L=4 extrema: [(0.209, np.float64(9.64227), 'unstable'), (159.591, np.float64(0.99937), 'stable'), (159.591, np.float64(0.99937), 'stable'), (159.594, np.float64(0.99937), 'stable')]
+ L=6 extrema: [(0.204, np.float64(20.74421), 'unstable')]
+ L=8 extrema: [(0.202, np.float64(36.28729), 'unstable')]
+== Ellis-Bronnikov m=0.3 k=1;  A(+inf)=1, A(-inf)=0.1518 ==
+ first L with a stable circular orbit: 1.2 [(2.5143, np.float64(0.92169))]
+ L=2 extrema: [(0.812, np.float64(1.41641), 'unstable'), (11.963, np.float64(0.97631), 'stable')]
+ L=4 extrema: [(0.648, np.float64(3.96119), 'unstable'), (52.096, np.float64(0.99431), 'stable')]
+ L=6 extrema: [(0.621, np.float64(8.2288), 'unstable'), (118.784, np.float64(0.99749), 'stable')]
+ L=8 extrema: [(0.612, np.float64(14.20679), 'unstable')]
+
+== m=0.3, L=6 classes == [(0.6212335350173884, np.float64(8.228803108543627), np.float64(-10.98068516114381)), (118.78385416666666, np.float64(0.9974872922000034), np.float64(3.9968028886505635e-07))]
+ stable circular x=118.7839 V=0.997487; barrier x=0.6212335350173884 V=8.228803108543627; V(-inf)=0.151836
+ perturb xdot=0.001: x range [118.7839, 121.2143]
+ perturb xdot=0.01: x range [118.7839, 147.2514]
+ radial-kick threshold xdot0 = sqrt(Vbar - Vcirc) = 2.689111
+  kick 0.98*thr inward: final x=7781.02, min x=0.87
+  kick 1.02*thr inward: final x=-8548.69, min x=-8548.69
+ throat crossings ref (no kick):  0
