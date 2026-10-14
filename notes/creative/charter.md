@@ -184,14 +184,20 @@ Claude 019's next step: several handles along the path; for which spacings is th
 
 Batch 30: brainstorm only (runs paused per 11:51 PM). Classical; no Born input; (M1) untouched.
 
-## Addendum: CTCs in the virtual-closure line (superseded by David's 1:56 AM CTC ruling) (David, 1:36 AM ET 2026-10-14, direct in Creative Lead chat, not signed; verbatim as reported by Creative Lead, unverified by Literature, no original seen)
+## Addendum: CTCs in the virtual-closure line (superseded by David's 1:56 AM CTC ruling, itself superseded by the 2:27 AM adoption) (David, 1:36 AM ET 2026-10-14, direct in Creative Lead chat, not signed; verbatim as reported by Creative Lead, unverified by Literature, no original seen)
 
 > Yes, let’s make this the next brainstorm batch. Let’s not worry about CTCs; in fact, I suspect that Hadley is right, and we’re going to need CTCs sooner or later. In the topic of “topology change”, there’s no actual change if you take a single 4-manifold (a single World) and take the bird’s eye view of it. Let’s not worry yet about the dark fringe test. Let’s focus first on negative interference; I suspect the 2-slit will fall out as a consequence. One thing to add: the virtual particle pair could be a triple rather than a pair; or it could be any number of topological geons that pop into existence together, then annihilate each other all at once. Or an even more complicated arrangement of virtual particles: a pair appears, one of the pair splits into 3 which coalesce back into one, then the original pair coalesce. In shadow space, each of these virtual particle trajectories is a path (one element in the set of “all possible paths”) from the source to the detector; and in case that phrase didn’t already ring a bell, I’m hoping eventually to invoke Feynman’s path integral technique for our derivation of the Born rule.
 
 Superseded by David's ruling below (1:56 AM). The earlier Creative Lead reading of these words (CTCs as exploration, pending confirmation) no longer applies. All other guardrails stay: classical; no Born input, no |a|², no superposition by hand; (M1) untouched at L3; nothing in versions/ or papers/.
 
-## Ruling: CTCs allowed tentatively (David, 1:56 AM ET 2026-10-14, direct in Creative Lead chat, not signed; unverified by Literature, no original seen; verbatim)
+## Ruling (superseded by the 2:27 AM adoption): CTCs allowed tentatively (David, 1:56 AM ET 2026-10-14, direct in Creative Lead chat, not signed; unverified by Literature, no original seen; verbatim)
 
 > Let’s consider the CTCs to be allowed, but tentatively; we will not disallow them, but we will also not use them just for the sake of using them.
 
 David's ruling: CTCs are allowed tentatively, i.e. not disallowed, and not used for their own sake. All other guardrails stay: classical; no Born input, no |a|², no superposition by hand; (M1) untouched at L3; nothing in versions/ or papers/.
+
+## Adoption: CTCs adopted (David, 2:27 AM ET 2026-10-14, in Physics Lead chat, relayed via Physics Lead, not signed, unverified by Literature, no original seen; verbatim as relayed)
+
+> The work of EKT and Hadley is why CTCs came to my attention initially; now, Geometry, referencing Geroch, has provided an argument that we will in fact need CTCs to enable topology change for virtual particles. Taken together, these are enough reasons for us to adopt CTCs.
+
+Status: CTCs adopted (David, 2:27 AM, hold level unspecified). This supersedes the 1:56 AM "allowed tentatively" ruling (kept above as history). Hold level unspecified (not L3). All other guardrails stay: classical; no Born input, no |a|², no superposition by hand; (M1) untouched at L3; nothing in versions/ or papers/.
