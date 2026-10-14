@@ -163,3 +163,7 @@ Lead notes (Physics Lead, not David's): (a) the LEA has three regimes: locally f
 > Intuitively, it makes sense to think in terms of regimes. Whether k is the most sensible variable to use in defining these regimes is a question about which I am much less certain. I am inclined to rely upon you more than me for the details of what exactly we should do with k, or whether k is even the right variable for our purposes.
 
 David delegates the choice of variable. Batch 27 proposes the flat-distortion profile ε(p; λ), with k as a derived diagnostic. This is a Creative Lead proposal pending review, not David's ruling.
+
+## Addendum: S5 (Lead ruling, Physics Lead, 2026-10-13)
+
+Run S5 from Claude review 018, structure-only: which W_i are non-empty. No outcome counts, no measure, no Born input; (M1) untouched. Batch 28.
