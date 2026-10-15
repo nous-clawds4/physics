@@ -1,10 +1,12 @@
 # Note: detection as indirect pairing (David's adopted proposal, 7:07–7:13 PM)
 
-*DO NOT MERGE. Paper only, exploration (notes/creative/, as #426; nothing in versions/ or papers/). Classical; no Born input or claim; no squaring by hand (a square the geometry forces is allowed: David, 4:35 PM, relayed). μ is open; (M1) untouched at L3. Based on main. Ledger row L177 is recorded in §7 below, because main has no `notes/creative/ledger.md`.*
+*DO NOT MERGE. Paper only, exploration (notes/creative/, as #426; nothing in versions/ or papers/). Classical; no Born input or claim; no squaring by hand (a square the geometry forces is allowed: David, 4:35 PM, relayed). μ is open; (M1) untouched at L3. Based on main. Ledger rows L177–L178 are recorded in §8 below, because main has no `notes/creative/ledger.md`.*
 
 ## Plain summary (for David)
 
 You proposed that a detection is itself a pairing. Two routes run from the source to detector i and are joined, but through the detector's matter rather than directly at a vertex. A virtual pair is joined directly, must match exactly (your exclusion rule), and leaves no record. A detection pair is joined through the detector, so its phases need not match, and it leaves a record there. The observer learns only that detector i fired, not which route, and branches so that every route compatible with the record occurs in some world. **This is not a probability rule. Nothing has been chosen to count, if anything is counted at all, and no Born claim is made.** Batch 34's leftover floor still applies, now to the routes that pair through the detector: at detector i at least as many of them remain as the length of the arrow sum (Claude 024, correcting Geometry's first reading). The main open item is to describe the detector joining in geometry, fixed by the detector's own physics and not tuned.
+
+**Update (11:48 PM, §6):** you stated the next problem: the two routes in a world arrive nearly parallel, so the detector must supply the extra turn that closes the loop. Geometry agrees with the statement and says the needed thing is a relative −1, which for a spin-½ particle is a 2π frame rotation. The first candidate, the spin factor picked up at the turnaround, was tested and does not supply it: it marks every loop, not just detections, and in 3+1 it is −1 only by accident. No fixed −1 from the detector is identified yet.
 
 ## 1. Attribution
 
@@ -39,21 +41,67 @@ You proposed that a detection is itself a pairing. Two routes run from the sourc
 
 ## 5. Open items
 
+- The record-writing step (§6): where the detector's relative −1 (a 2π frame rotation under spin-½) comes from, fixed by the detector's own dynamics. No fixed mechanism identified yet; the turnaround spin factor was tested and does not supply it.
 - The detector-gluing mechanism (§4 item 2). Until it is given, "phases need not match", "leaves a record" and "no which-way" are part of the proposal, not consequences. Under the lock a passive carried frame meets no self-consistency condition (#421 (N1)), and the detector's matter enters a loop's holonomy only as part of the geometry, like any other curvature. So "need not match" is the scope of the exclusion rule (it covers direct gluing only), not something the detector does to the phases. For the detector to act on the phases, the frame must couple to its matter: the same open question as #421 open item 1 at v_a (Claude 024).
 - Consistency with exact closure within a world: the detector-glued pair is a different object from a virtual pair under David's 5:14 PM definition (#427 §3a; a virtual pair appears and disappears together), so the exclusion rule need not apply to it; Geometry's reading. Read loosely, the 5:14 PM words fit a detection pair too: both its routes leave the source together and end together, in the detector. What separates the two in §2 is the gluing, directly at a vertex or through the detector's matter, and that criterion has to be fixed by the geometry before any phases are compared. Location alone does not settle it: a capping vertex region lying inside the detector's matter is topologically the same object as a virtual pair's vertex. So the criterion must be the #388 ledger write (§4 item 2: a virtual pair writes no entry anywhere), and whether a write occurs must be fixed by the detector's dynamics, independently of the phases. If a pair counted as a detection because its phases do not match, no world would ever be excluded, and the exclusion rule would be empty (LT2). The criterion must also place routes that end in matter that records nothing, such as slit walls or the barrier (Claude 024). Whether the two fit together in one world is to be checked.
 - Whether μ is affected. μ is still open, and (M1) is untouched at L3.
 - Time direction of the return route (§4 item 4).
 - What a which-route record does to pairing (batch 23's kill rule; #421 §4, "Which-path"): for example, whether routes recorded at one slit are thereby removed from cross-slit virtual pairs. Any dark spot must be lifted by such a record (Claude 024).
 
-## 6. Prior art (bibliographic data checked; texts not read)
+## 6. The record-writing step: David's problem statement and Geometry's analysis (11:48 PM)
+
+### (a) David's words
+
+**11:48 PM ET 2026-10-14** (direct in Creative Lead chat, not signed; verbatim as reported by Creative Lead; unverified by Literature, no original seen):
+
+> "In the most straightforward case, the shadow spacetime reveals N paths, whose phases are all approximately parallel. Any specific World in the ensemble does not, of course, manifest all N of those paths, but only two of them. Because the phases are approximately parallel, those two cannot wire together in the fashion of a virtual pair; one or both particles would need to rotate for a total of another pi for them to wire together. We presume that instead of wiring directly together, one or both of the two particles interacts with some particle that is part of the detector; that interaction, somehow, supplies the additional rotation by pi that is needed for the particle loop to close. Our challenge is to consider where that pi comes from, and how the detector supplies it. Have I stated the problem correctly so far? (It might not be pi, but 2pi, because of the peculiarities of the spin-1/2 particle that needs two full rotations, not just one; I am unsure of the math)."
+
+**11:49 PM ET, handoff** (same labels):
+
+> "Yes, let's hand this to geometry. I am eager to see what we come up with!"
+
+### (b) Creative Lead reading
+
+What is needed is a relative sign of −1 round the loop, from either a π clock phase or a 2π frame rotation under spin-½. It must be fixed by the detector's own dynamics, whatever the incoming phases; otherwise it is chosen to close the loop (LT2).
+
+### (c) Geometry's analysis (reviewer reading, not a ruling)
+
+- **The wording is correct.** The requirement is a relative −1; for spin-½ that is a 2π frame rotation. A π clock phase is not a closure condition, because it breaks alignment (#419 R1).
+- **Candidate tested; does not supply it: the turnaround spin factor.**
+  - In an exactly planar loop the factor is (−1)^{rotation index}, and a simple loop has index ±1 (Hopf), giving −1. But it marks every closed loop, virtual pairs included, so it does not single out the detector.
+  - In 3+1 it is e^{iΩ/2} (Ω the solid angle swept by the tangent), which is continuous and exactly −1 only on a measure-zero set.
+  - In Lorentzian signature, Fermi–Walker transport is undefined at null turnarounds, so the angle must be measured in h, which depends on u.
+  - The Gibbons–Hawking kink number is an analogy only.
+- **Answers to the four questions:**
+  1. No fixed 2π or π is supplied in 3+1.
+  2. The record and the −1 are not shown to be one event. V1 stands: the record (#388 ledger write) is the dividing line.
+  3. The floor is independent of the sign mechanism. At a bright fringe, R ≈ N gives about N detection-paired routes. This is a check, not a Born claim.
+  4. For [γ] = 0 in H₁(M; ℤ₂), the sign is set by the turn alone (#423 H6), with no spin-structure ℤ₂. The costs: it is continuous in 3+1, it needs the spin-½ candidate (L161, not adopted), and it needs Fermi–Walker carriage.
+
+### (d) Citations (unchecked unless the source was read)
+
+- H. Gies and H. Hämmerling, hep-th/0505072: text read by Geometry.
+- J. Pawełczyk, hep-th/9212042: text read by Geometry.
+- R. P. Feynman, 1986 Dirac Memorial lecture: excerpt read by Geometry.
+- M. V. Berry (1984); R. Y. Chiao and Y.-S. Wu (1986); A. Tomita and R. Y. Chiao (1986): abstracts read by Geometry.
+- D. Finkelstein and G. McCollum, "Kinks and extensions", J. Math. Phys. 16, 2250 (1975): unchecked.
+- D. Finkelstein and J. Rubinstein, J. Math. Phys. 9, 1762 (1968): unchecked; quantum, analogy only.
+- Unchecked: H. Hopf (1935); MTW on Fermi–Walker transport; A. M. Polyakov, Mod. Phys. Lett. A 3 (1988).
+
+### Open item
+
+No fixed −1 mechanism supplied by the detector is identified yet. No Born claim is made; μ is open; (M1) is untouched at L3.
+
+## 7. Prior art (bibliographic data checked; texts not read)
 
 - J. G. Cramer, "The transactional interpretation of quantum mechanics", Rev. Mod. Phys. 58, 647–687 (1986), doi:10.1103/RevModPhys.58.647 (Crossref-verified). Lineage: J. A. Wheeler and R. P. Feynman, Rev. Mod. Phys. 17, 157 (1945), doi:10.1103/RevModPhys.17.157; 21, 425 (1949), doi:10.1103/RevModPhys.21.425. See also R. E. Kastner, The Transactional Interpretation of Quantum Mechanics: The Reality of Possibility (Cambridge UP, 2012), doi:10.1017/CBO9780511675768 (Crossref-checked by Claude 024). Analogy and prior art only.
 - Feynman–Stueckelberg reading of backward-running worldlines as antiparticles: E. C. G. Stueckelberg, "Remarque à propos de la création de paires de particules en théorie de relativité", Helv. Phys. Acta 14, 588–594 (1941) (title verified via DataCite doi:10.5169/seals-111201; pages 588–594 checked by Claude 024 against the e-periodica scan's table of contents and page labels, where the next article starts at p. 595); R. P. Feynman, "The Theory of Positrons", Phys. Rev. 76, 749 (1949), doi:10.1103/PhysRev.76.749 (Crossref-verified); see also Phys. Rev. 76, 769 (1949), doi:10.1103/PhysRev.76.769 (Crossref-verified).
 - #388 (ledger model of records), #424, #427, #426.
 
-## 7. Ledger row and change log
+## 8. Ledger rows and change log
 
 | L177 | Detection as indirect pairing (David's adopted proposal, 7:07–7:13 PM, Geometry chat; raised 6:46 PM, adopted 7:07, 'unpaired' corrected 7:11, framing 7:13; relayed via Geometry, Geometry's paraphrase, not signed, no hold level) | Detection = two source-to-detector routes glued through the detector's matter: phases need not match, leaves a record (#388); virtual pair = glued directly at a vertex, exact (exclusion rule), no record. No which-way; observer branches so every record-compatible route occurs in some world. 'Unpaired' corrected to 'paired through the detector'. Not a probability rule; nothing counted; no Born claim. Geometry: #424 floor still applies, to the detection-paired routes (as corrected by Claude 024); Cramer TI lineage (analogy only; RMP 58, 647 verified; no Born echo imported); backward route unrecorded or antiparticle | David (adopted proposal, relayed via Geometry) | proposal (adopted) | detector-gluing mechanism (frame must couple to the detector's matter); gluing criterion fixed before phases are compared, and it is the #388 ledger write, not location (Claude 024 R2; Geometry V1); kill rule; fit with exact closure; μ (open; M1 untouched) |
+| L178 | The record-writing step (§6; David 11:48 PM problem statement, 11:49 PM handoff, direct in Creative Lead chat, not signed) | Needed: a relative −1 (for spin-½ a 2π frame rotation; a π clock phase breaks alignment, #419 R1), fixed by the detector's own dynamics (else LT2). Turnaround spin factor tested; does not supply it (marks every loop; e^{iΩ/2} continuous in 3+1; Fermi–Walker undefined at null turnarounds). Record and −1 not shown to be one event; V1 stands. Floor independent of mechanism (bright-fringe check, no Born claim). [γ] = 0: sign from the turn alone (#423 H6), continuous, needs L161 spin-½ and Fermi–Walker carriage | David (problem statement); Geometry (reviewer reading) | open problem | fixed −1 mechanism from the detector; μ open; M1 untouched |
 
 L177 was checked against every `creative/*` branch; L170–L176 are in use, L177 is free. On merge into the stack's `notes/creative/ledger.md`, move this row there.
 
@@ -62,3 +110,4 @@ L177 was checked against every `creative/*` branch; L170–L176 are in use, L177
 - 2026-10-14: Literature M1–M7 (M4 via the simpler alternative) and H1 (removed four tracked __pycache__ .pyc files; added .gitignore); citations verified (Cramer, Feynman 1949 ×2, Wheeler–Feynman added as lineage; Stueckelberg pages from secondary sources); Geometry nits: timeline in §1 and L177, 3:58 PM marked as from Creative Lead's record.
 - 2026-10-14: Claude 024 (#428) R1–R3, S1–S3, N1–N4 applied as-is (Physics Lead ruling: editorial/corrective). R1: the #424 floor still applies, to the detection-paired routes (Geometry's first reading kept, marked superseded); R2: the virtual/detection line must be fixed by the gluing before phases are compared; R3: 'need not match', 'record' and 'no which-way' are parts of the proposal until the mechanism is given. David's quoted words unchanged; the §2 paraphrase unchanged apart from the editorial 3:58 PM provenance note in item 2 (Geometry nit), which the second pass moves out of §2 into a bracketed editorial note after it (Literature Q1a). S4 stays David's call.
 - 2026-10-14: second pass: Geometry V1 (location cannot be the criterion; it is the #388 ledger write, fixed by the detector's dynamics) and Literature Q1a, Q1b, Q2, Q3 applied. Q1a: the 3:58 PM provenance note moved out of §2 into a bracketed editorial note after it, so §2 is byte-identical to d1bcf49; Q3: quote time 7:13 PM, as confirmed by Geometry at 7:18 PM. L177 noted.
+- 2026-10-14: §6 added (record-writing step: David 11:48/11:49 PM, Creative Lead reading, Geometry's analysis, citations); Prior art and Ledger renumbered §7 and §8; L178 added (checked free on all creative branches).
