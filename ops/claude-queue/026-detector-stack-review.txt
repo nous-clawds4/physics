@@ -1,0 +1,29 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics. This job covers three stacked PRs. Fetch each at its current head before you start, and record the exact head SHA of each that you reviewed: PR #428 (at least 6e5a32f), PR #431 (at least 3353d33, based on #428's branch) and PR #432 (at least 27eb3eb, stacked on #431).
+
+TARGET
+(1) PR #428, detection as indirect pairing, after your job 025 items and Geometry's Y1-Y4 (Y1 withdraws the abelian intermediate-value claim) and Literature's U1-U4. Check only that your job 025 items landed correctly and that the later changes are sound; do not re-review settled sections.
+(2) PR #431, the smallest detector (one fixed #388 ledger handle, one virtual loop L wired at a and b; L180). It records David's 10:48 AM ET 2026-10-15 ruling (section 3a: exact closure on all loops within a world, detector loops included; approximate only in shadow space), his 11:17 AM ruling on what 'exact' means (section 3b, verbatim: "Exact does not mean every loop picks up -1. Exact does mean that if we already expect a loop to pick up -1, then something like -0.999989 (just as one example) is not good enough, unless of course we're in shadow space, where it is good enough."), and his 11:24 AM adoption of spin-1/2 for fermions for now (section 3c). All are relayed, not signed, with no hold level stated. Geometry's analysis: the handle gives detector-fixed data, but not both a detector-fixed -1 and a record; a write needs a new rule, named but not adopted; at most two of the three theta-graph cycles can close exactly (Z1); under frame-level exactness (reading 1(a), a Creative Lead reading, not adopted) the signs multiply to +1, so with L at -1 one detector cycle is -1 and the other +1, set per world by the routes or the spin structure; under 'every cycle -1' there is no solution.
+(3) PR #432, particle topology as the detector record. It records David's 12:02 PM ET 2026-10-15 proposal that particle-specific internal topology is the detector record, as a conjecture, not a ruling. Geometry's reading (section 3a): closure does not force the match, which needs a species-conservation postulate; a record is possible via an outgoing edge, but L then stops being a virtual pair; literal handles are boson-like.
+Read #427, #424, #423, #421, #418/#419 and #388 as context. Main has no notes/creative/ directory, so resolve references against the PR branches. David asked for this review without any claim of a Born rule.
+
+QUESTION
+Are #431's and #432's analyses sound and correctly scoped, and did #428's revisions land correctly? In particular: is the sign pattern in #431 correct and correctly hedged; is "at most two of three cycles exact" right; is the claim that the handle cannot give both a detector-fixed -1 and a record correct; and does #432's proposal escape the job 025 R4 obstacle (the -1 and the record cannot both come from L), or only move it? Keep it proportionate.
+
+WHAT TO CHECK
+1. Is every term defined (exact as ruled at 11:17 AM, frame-level exactness, the three cycles, the write rule, particle-specific internal topology, species conservation, outgoing edge, boson-like)? Flag ill-posed questions.
+2. #431: the theta-graph sign and holonomy algebra, Z1, and the "no solution if every cycle is -1" claim. Check by hand or with a quick computation where that's cheap. Whether the 10:48 and 11:17 AM rulings are consistent with each other and with the exclusion rulings of 2026-10-14.
+3. #431: whether the "new write rule" is named honestly and not tuned (LT2), and whether the handle's detector-fixed data are fixed by the detector's own physics.
+4. #432: whether closure fails to force the match, whether a species-conservation postulate would be independently motivated or tuned, whether the outgoing-edge record and its cost to L's virtual status are correctly stated, and whether "literal handles are boson-like" is right given spin-1/2 for fermions (#423 spin structure, Geroch, Finkelstein-Rubinstein if relevant; mark texts not read).
+5. Consistency with job 024/025 items (the floor, the ledger-write criterion fixed before phases are compared, passive frame (N1), "record forgets the attachment"), with #427's honest gap, and with batch 23's kill rule. Whether anything escapes Lemma A'.
+6. Is anything (Born rule, |a|^2, hbar, a measure, a quantum phase rule, a spin structure chosen to fit) put in by hand? Is (M1) untouched? Do not frame any result as Born-shaped or not. David's principle: the model is fundamentally classical, and quantum statistics must emerge, not be injected.
+7. The strongest obstacle, and the most useful next step.
+
+RULES
+1. Be independent. Check against sources and rerun computations where cheap. Mark anything you could not finish as unchecked.
+2. Do not revisit (M1), do not decide the arrival rule (A), do not pick a topology, do not revisit the CTC adoption, the exact-closure rulings (including 10:48 and 11:17 AM), the virtual-pair definition, the detection adoption or the spin-1/2 adoption, do not adopt reading 1(a) or the write rule, do not decide S4, and do not choose lambda_E (David's call). Do not edit David's quoted words or #428's section 2 paraphrase. Do not use the Born rule, |a|^2 or 1/N yourself.
+3. Do not comment on any issue.
+
+WHAT TO FILE
+- Post one pull request review on each of PR #428, PR #431 and PR #432, comments only (event COMMENT; do not approve or request changes). If #428 needs nothing, post a short review saying so.
+- Head each "Verdict: SOUND / SOUND WITH CHANGES / UNSOUND" (one), followed by "Head reviewed: <sha>". Then Required (R1...), Suggested (S1...) and Nits (N1...), each with an exact OLD -> NEW where you can, then unchecked items and provenance.
+- Do not merge anything. Do not commit to any note or branch. Do not open a pull request.
