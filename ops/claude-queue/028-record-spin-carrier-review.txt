@@ -1,0 +1,29 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics. This job covers three stacked PRs. Fetch each at its current head before you start, and record the exact head SHA of each that you reviewed: PR #436 (at least f761000, stacked on #432 at b236247), PR #437 (at least 1fab1e9, stacked on #436) and PR #438 (at least e05cfbd, stacked on #437). If job 027's review of #434 has posted, read it as context.
+
+TARGET
+(1) PR #436, the detector loop becoming real as the record (L183 area). It records David's 3:39 PM ET 2026-10-15 proposal, worded as a question (relayed, not signed): the detector loop L ceasing to be virtual is the record. Geometry's reading (section 4a): 'becomes real' is ill-posed as a change within a world; the proposed restatement 'pair-created at c, not mutually annihilated' is pending David's confirmation, not adopted; the books balance as one Feynman-Stueckelberg zigzag route -> arrival -> c -> X, with no CTCs; the survivor is #432's outgoing edge; L's -1 is gone; under carried-loops-only no detector cycle remains (open for David re batch 23); no which-way only if c and X are detector-fixed.
+(2) PR #437, worlds versus shadow space for spin carriers (L184). It records David's 5:09 PM observation and 5:26 PM proposal (relayed via Geometry) and his 5:37 PM naming (direct, not signed, no hold level): "FS geon names the world object, and Dirac box names its shadow-space stand-in." It sets out two readings, R-geon and R-frame, without picking one, checks each against the #434 parity rule, and lists the clock rate as open.
+(3) PR #438, a fermion is an FS geon plus features (L185). It builds on David's 6:32 PM inclination and his 6:40 PM neutrino speculation, held very weakly; both direct, not signed, and not rulings. At 6:43 PM he asked to replace 'ground state' with 'empty'. Geometry's Q-a to Q-e readings and Literature's E1-E8 are applied.
+Read #434, #432, #431, #428, #427, #423 and #388, and your job 026 reviews, as context. Main has no notes/creative/ directory, so resolve references against the PR branches. David asked for this review without any claim of a Born rule.
+
+QUESTION
+Are the three notes' analyses sound and correctly scoped? In particular: is Geometry's restatement of 'becomes real' well-posed and does the zigzag accounting balance; does #436 escape or only move the job 025 R4 / job 026 obstacle (the -1 and the record); are R-geon and R-frame both well-posed and correctly checked against the parity rule (as corrected by Geometry G1: only the total count of odd-dim-H1(Z2) primes is conserved mod 2); and is "a fermion is an FS geon plus features" consistent with the spin-1/2 adoption and #434? Keep it proportionate.
+
+WHAT TO CHECK
+1. Is every term defined (becomes real, pair-created at c, zigzag, carried-loops-only, FS geon, Dirac box, R-geon, R-frame, clock rate, features, empty)? Flag ill-posed questions.
+2. #436: the conservation bookkeeping, whether no CTCs are needed, the loss of L's -1, and the which-way condition. Consistency with batch 23's kill rule and the ledger-write criterion fixed before phases are compared.
+3. #437: the two readings against #434's rule and #423's spin-structure findings; whether the clock rate is honestly left open (a rate put in by hand would inject hbar).
+4. #438: the topology claims. Specifically check (a) S3/Q8 has dim H1(Z2) = 2 and Matveev complexity 2 (Martelli), (b) the Giulini/Hendriks connected-sum citation (spinoriality of connected sums), and (c) the MTW section 41.5 figure citation in #437. Mark texts not read.
+5. Whether anything escapes Lemma A', or only restates outcome variety.
+6. Is anything (Born rule, |a|^2, hbar, a measure, a quantum phase rule, a spin structure chosen to fit) put in by hand? Is (M1) untouched? Do not frame any result as Born-shaped or not. David's principle: the model is fundamentally classical, and quantum statistics must emerge, not be injected.
+7. The strongest obstacle, and the most useful next step.
+
+RULES
+1. Be independent. Check against sources and rerun computations where cheap. Mark anything you could not finish as unchecked.
+2. Do not revisit (M1), do not decide the arrival rule (A), do not pick a topology, do not revisit the CTC adoption, the exact-closure rulings, the virtual-pair definition, the detection adoption or the spin-1/2 adoption. Do not adopt Geometry's restatement, R-geon or R-frame, reading 1(a), the write rule or a species-conservation postulate; do not treat David's inclinations or speculations as rulings; do not decide S4; do not choose lambda_E (David's call). Do not edit David's quoted words. Do not use the Born rule, |a|^2 or 1/N yourself.
+3. Do not comment on any issue.
+
+WHAT TO FILE
+- Post one pull request review on each of PR #436, PR #437 and PR #438, comments only (event COMMENT; do not approve or request changes).
+- Head each "Verdict: SOUND / SOUND WITH CHANGES / UNSOUND" (one), followed by "Head reviewed: <sha>". Then Required (R1...), Suggested (S1...) and Nits (N1...), each with an exact OLD -> NEW where you can, then unchecked items and provenance.
+- Do not merge anything. Do not commit to any note or branch. Do not open a pull request.
