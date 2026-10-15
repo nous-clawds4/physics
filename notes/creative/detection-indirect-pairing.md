@@ -6,7 +6,7 @@
 
 You proposed that a detection is itself a pairing. Two routes run from the source to detector i and are joined, but through the detector's matter rather than directly at a vertex. A virtual pair is joined directly, must match exactly (your exclusion rule), and leaves no record. A detection pair is joined through the detector, so its phases need not match, and it leaves a record there. The observer learns only that detector i fired, not which route, and branches so that every route compatible with the record occurs in some world. **This is not a probability rule. Nothing has been chosen to count, if anything is counted at all, and no Born claim is made.** Batch 34's leftover floor still applies, now to the routes that pair through the detector: at detector i at least as many of them remain as the length of the arrow sum (Claude 024, correcting Geometry's first reading). The main open item is to describe the detector joining in geometry, fixed by the detector's own physics and not tuned.
 
-**Update (11:48 PM, §6):** you stated the next problem: the two routes in a world arrive nearly parallel, so the detector must supply the extra turn that closes the loop. Geometry agrees with the statement and says the needed thing is a relative −1, which for a spin-½ particle is a 2π frame rotation. The first candidate, the spin factor picked up at the turnaround, was tested and does not supply it: it marks every loop, not just detections, and in 3+1 it is −1 only by accident. No fixed −1 from the detector is identified yet.
+**Update (11:48 PM, §6):** you stated the next problem: the two routes in a world arrive nearly parallel, so the detector must supply the extra turn that closes the loop. Geometry agrees with the statement and says the needed thing is a relative −1, which for a spin-½ particle is a 2π frame rotation. The first candidate, the spin factor picked up at the turnaround, was tested and does not supply it: it marks every loop, not just detections, and in 3+1 it is a continuous angle set by the loop's shape, exactly −1 only for perfectly flat loops. No fixed −1 from the detector is identified yet.
 
 ## 1. Attribution
 
@@ -52,7 +52,7 @@ You proposed that a detection is itself a pairing. Two routes run from the sourc
 
 ### (a) David's words
 
-**11:48 PM ET 2026-10-14** (direct in Creative Lead chat, not signed; verbatim as reported by Creative Lead; unverified by Literature, no original seen):
+**11:48 PM ET 2026-10-14** (problem statement and question, not a ruling; direct in Creative Lead chat, not signed; verbatim as reported by Creative Lead; unverified by Literature, no original seen):
 
 > "In the most straightforward case, the shadow spacetime reveals N paths, whose phases are all approximately parallel. Any specific World in the ensemble does not, of course, manifest all N of those paths, but only two of them. Because the phases are approximately parallel, those two cannot wire together in the fashion of a virtual pair; one or both particles would need to rotate for a total of another pi for them to wire together. We presume that instead of wiring directly together, one or both of the two particles interacts with some particle that is part of the detector; that interaction, somehow, supplies the additional rotation by pi that is needed for the particle loop to close. Our challenge is to consider where that pi comes from, and how the detector supplies it. Have I stated the problem correctly so far? (It might not be pi, but 2pi, because of the peculiarities of the spin-1/2 particle that needs two full rotations, not just one; I am unsure of the math)."
 
@@ -69,24 +69,26 @@ What is needed is a relative sign of −1 round the loop, from either a π clock
 - **The wording is correct.** The requirement is a relative −1; for spin-½ that is a 2π frame rotation. A π clock phase is not a closure condition, because it breaks alignment (#419 R1).
 - **Candidate tested; does not supply it: the turnaround spin factor.**
   - In an exactly planar loop the factor is (−1)^{rotation index}, and a simple loop has index ±1 (Hopf), giving −1. But it marks every closed loop, virtual pairs included, so it does not single out the detector.
-  - In 3+1 it is e^{iΩ/2} (Ω the solid angle swept by the tangent), which is continuous and exactly −1 only on a measure-zero set.
+  - In 3+1 it is e^{iΩ/2} (Ω the solid angle swept by the tangent), which is continuous and exactly −1 only on a nowhere-dense set of routes (codimension 1; no measure implied).
   - In Lorentzian signature, Fermi–Walker transport is undefined at null turnarounds, so the angle must be measured in h, which depends on u.
+  - Carrying the frame Fermi–Walker is independently motivated away from the turnarounds, as the standard transport for a massive spinning body (MTW, unchecked).
   - The Gibbons–Hawking kink number is an analogy only.
 - **Answers to the four questions:**
   1. No fixed 2π or π is supplied in 3+1.
   2. The record and the −1 are not shown to be one event. V1 stands: the record (#388 ledger write) is the dividing line.
-  3. The floor is independent of the sign mechanism. At a bright fringe, R ≈ N gives about N detection-paired routes. This is a check, not a Born claim.
+  3. The floor is independent of the sign mechanism. Where the N phases are nearly parallel, R ≈ N, so at least about N routes are left to pair through the detector: a floor, not a count, and no fringe pattern is derived. This is a check, not a Born claim.
   4. For [γ] = 0 in H₁(M; ℤ₂), the sign is set by the turn alone (#423 H6), with no spin-structure ℤ₂. The costs: it is continuous in 3+1, it needs the spin-½ candidate (L161, not adopted), and it needs Fermi–Walker carriage.
 
 ### (d) Citations (unchecked unless the source was read)
 
-- H. Gies and H. Hämmerling, hep-th/0505072: text read by Geometry.
+- H. Gies and H. Hämmerling, "Geometry of spin-field coupling on the worldline", Phys. Rev. D 72, 065018 (2005), doi:10.1103/PhysRevD.72.065018, hep-th/0505072: text read by Geometry.
 - J. Pawełczyk, hep-th/9212042: text read by Geometry.
-- R. P. Feynman, 1986 Dirac Memorial lecture: excerpt read by Geometry.
-- M. V. Berry (1984); R. Y. Chiao and Y.-S. Wu (1986); A. Tomita and R. Y. Chiao (1986): abstracts read by Geometry.
-- D. Finkelstein and G. McCollum, "Kinks and extensions", J. Math. Phys. 16, 2250 (1975): unchecked.
-- D. Finkelstein and J. Rubinstein, J. Math. Phys. 9, 1762 (1968): unchecked; quantum, analogy only.
-- Unchecked: H. Hopf (1935); MTW on Fermi–Walker transport; A. M. Polyakov, Mod. Phys. Lett. A 3 (1988).
+- R. P. Feynman, "The reason for antiparticles", in R. P. Feynman and S. Weinberg, Elementary Particles and the Laws of Physics: The 1986 Dirac Memorial Lectures (Cambridge UP, 1987), doi:10.1017/CBO9781107590076: excerpt read by Geometry.
+- M. V. Berry, Proc. R. Soc. Lond. A 392, 45 (1984), doi:10.1098/rspa.1984.0023; R. Y. Chiao and Y.-S. Wu, Phys. Rev. Lett. 57, 933 (1986), doi:10.1103/PhysRevLett.57.933; A. Tomita and R. Y. Chiao, Phys. Rev. Lett. 57, 937 (1986), doi:10.1103/PhysRevLett.57.937 (Crossref-checked; abstracts read by Geometry; photon helicity, so the spin-½ factor is by analogy).
+- D. Finkelstein and G. McCollum, "Kinks and extensions", J. Math. Phys. 16, 2250 (1975), doi:10.1063/1.522475 (Crossref-checked): abstract read by Geometry.
+- D. Finkelstein and J. Rubinstein, "Connection between Spin, Statistics, and Kinks", J. Math. Phys. 9, 1762 (1968), doi:10.1063/1.1664510 (Crossref-checked): abstract read by Geometry; quantum, analogy only.
+- G. W. Gibbons and S. W. Hawking, "Kinks and topology change", Phys. Rev. Lett. 69, 1719 (1992), doi:10.1103/PhysRevLett.69.1719 (Crossref-checked): abstract read by Geometry (kink number counts light-cone tip-overs on a boundary hypersurface; analogy only).
+- H. Hopf, "Über die Drehung der Tangenten und Sehnen ebener Kurven", Compositio Math. 2, 50–62 (1935) (rotation index of a simple closed plane curve; not Fund. Math. 25, 427, which is the Hopf-map paper); C. W. Misner, K. S. Thorne and J. A. Wheeler, Gravitation (Freeman, 1973), §6.5 and §13.6 (Fermi–Walker transport; needs a timelike tangent; text not read by Literature); A. M. Polyakov, "Fermi–Bose transmutations induced by gauge fields", Mod. Phys. Lett. A 3, 325 (1988), doi:10.1142/S0217732388000398 (2+1 spin factor; analogy for the planar case only). Bibliographic data Crossref- or numdam-checked by Literature (Gibbons–Hawking is listed once, above).
 
 ### Open item
 
@@ -109,5 +111,6 @@ L177 was checked against every `creative/*` branch; L170–L176 are in use, L177
 - 2026-10-14: note opened; L177 added.
 - 2026-10-14: Literature M1–M7 (M4 via the simpler alternative) and H1 (removed four tracked __pycache__ .pyc files; added .gitignore); citations verified (Cramer, Feynman 1949 ×2, Wheeler–Feynman added as lineage; Stueckelberg pages from secondary sources); Geometry nits: timeline in §1 and L177, 3:58 PM marked as from Creative Lead's record.
 - 2026-10-14: Claude 024 (#428) R1–R3, S1–S3, N1–N4 applied as-is (Physics Lead ruling: editorial/corrective). R1: the #424 floor still applies, to the detection-paired routes (Geometry's first reading kept, marked superseded); R2: the virtual/detection line must be fixed by the gluing before phases are compared; R3: 'need not match', 'record' and 'no which-way' are parts of the proposal until the mechanism is given. David's quoted words unchanged; the §2 paraphrase unchanged apart from the editorial 3:58 PM provenance note in item 2 (Geometry nit), which the second pass moves out of §2 into a bracketed editorial note after it (Literature Q1a). S4 stays David's call.
-- 2026-10-14: second pass: Geometry V1 (location cannot be the criterion; it is the #388 ledger write, fixed by the detector's dynamics) and Literature Q1a, Q1b, Q2, Q3 applied. Q1a: the 3:58 PM provenance note moved out of §2 into a bracketed editorial note after it, so §2 is byte-identical to d1bcf49; Q3: quote time 7:13 PM, as confirmed by Geometry at 7:18 PM. L177 noted.
+- 2026-10-14: second pass: Geometry V1 (location cannot be the criterion; it is the #388 ledger write, fixed by the detector's dynamics) and Literature Q1a, Q1b, Q2, Q3 applied. Q1a: the 3:58 PM provenance note moved out of §2 into a bracketed editorial note after it, so §2's paraphrase (items 1–6) is byte-identical to d1bcf49, with the note after it; Q3: quote time 7:13 PM, as confirmed by Geometry at 7:18 PM. L177 noted.
 - 2026-10-14: §6 added (record-writing step: David 11:48/11:49 PM, Creative Lead reading, Geometry's analysis, citations); Prior art and Ledger renumbered §7 and §8; L178 added (checked free on all creative branches).
+- 2026-10-14: §6 reviewer passes: Geometry W1–W3 and Literature S1–S5 applied. Merged: W1+S4b and W1+S4c (same OLDs; DOI and 'abstract read by Geometry' kept); Gibbons–Hawking listed once (W1's line with S4a's title and DOI; removed from S4a's line); W2 in the plain summary, S3 'nowhere-dense' in §6(c).
