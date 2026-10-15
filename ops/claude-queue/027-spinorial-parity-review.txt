@@ -1,0 +1,25 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics. Fetch PR #434 at its current head (at least 92ea429) before you start, and record the exact head SHA you reviewed in your review.
+
+TARGET
+PR #434, Geometry's note answering #432 (T-a): spinorial primes (fermion-type geons) are not conserved mod 2 under any allowed class of topology change. The Gibbons-Hawking spin-Lorentz rule conserves the Kervaire semi-characteristic mod 2, which is unrelated to spinoriality, and the Poincare-sphere counterexamples start from a geon-free S^3. So species or fermion-parity conservation stays a postulate. David approved recording it at 3:09 PM ET 2026-10-15 (relayed via Geometry, not signed). It is stacked on #432 (particle topology as the detector record, a conjecture), #431 and #428; read those, and your job 026 reviews of them, as context. Spin-1/2 for fermions was adopted at 11:24 AM ET 2026-10-15 (relayed, not signed). Main has no notes/creative/ directory, so resolve references against the PR branches. David asked for this review without any claim of a Born rule.
+
+QUESTION
+Is #434's negative result correct and correctly scoped: that no allowed class of topology change conserves the number of spinorial primes mod 2, that the Gibbons-Hawking rule conserves something unrelated, and that the counterexamples are valid within the program's allowed cobordisms (Lorentzian, spin-Lorentz, with CTCs adopted)? Keep it proportionate.
+
+WHAT TO CHECK
+1. Is every term defined (spinorial prime, allowed class of topology change, spin-Lorentz cobordism, Kervaire semi-characteristic, fermion parity)? Flag ill-posed questions.
+2. The mathematics: spinoriality of prime 3-manifolds (Friedman-Sorkin, Hendriks), the Gibbons-Hawking spin-Lorentz condition and what it conserves, and the Poincare-sphere counterexamples. Check against sources where cheap; mark texts not read.
+3. Whether "allowed" matches the program's actual rules (CTCs adopted, time-orientability, the exact-closure rulings, #418's capping), or whether a narrower class the program already uses would conserve parity.
+4. Whether the conclusion (species conservation stays a postulate) follows, and what it does to #432's conjecture and to job 025 R4 / job 026 findings.
+5. Is anything (Born rule, |a|^2, hbar, a measure, a quantum phase rule, a spin structure chosen to fit) put in by hand? Is (M1) untouched? Do not frame any result as Born-shaped or not. David's principle: the model is fundamentally classical, and quantum statistics must emerge, not be injected.
+6. The strongest obstacle, and the most useful next step.
+
+RULES
+1. Be independent. Check against sources and rerun computations where cheap. Mark anything you could not finish as unchecked.
+2. Do not revisit (M1), do not decide the arrival rule (A), do not pick a topology, do not revisit the CTC adoption, the exact-closure rulings, the virtual-pair definition, the detection adoption or the spin-1/2 adoption, do not adopt a species-conservation postulate, do not decide S4, and do not choose lambda_E (David's call). Do not edit David's quoted words. Do not use the Born rule, |a|^2 or 1/N yourself.
+3. Do not comment on any issue.
+
+WHAT TO FILE
+- Post your review as a pull request review on PR #434, comments only (event COMMENT; do not approve or request changes).
+- Head it "Verdict: SOUND / SOUND WITH CHANGES / UNSOUND" (one), followed by "Head reviewed: <sha>". Then Required (R1...), Suggested (S1...) and Nits (N1...), each with an exact OLD -> NEW where you can, then unchecked items and provenance.
+- Do not merge anything. Do not commit to any note or branch. Do not open a pull request.
