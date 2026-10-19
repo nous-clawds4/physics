@@ -25,7 +25,7 @@ As #427 states it, the question of what weight exact-closure worlds get is ill-p
 - **Reading:** Step 1 uses neither (F) nor (W). Under (F) the detector restricts C(S) (#444 funnel). Under (W) the detector constrains nothing (Reading A) and C(S) is larger. The problem has the same form in both readings.
 
 ### 2. Candidates (Step 2), judged against T1–T4
-**2.1 Counting / uniform on a countable C(S).** Under the lock, W(S) is countable, so counting is canonical up to an overall scale (T2 passes on its inputs). It fails if C(S) is infinite: then the closure-versus-pair-free ratio is ∞/∞. Choosing a cutoff (by size, by order or by vertex count) is an input put in by hand. **Verdict:** canonical only for a finite S. Applies to both (F) and (W).
+**2.1 Counting / uniform on a countable C(S).** If W(S) is countable (assumed here; whether the lock supplies it is open), counting is canonical up to an overall scale (T2 passes on its inputs). It fails if C(S) is infinite: then the closure-versus-pair-free ratio is ∞/∞. Choosing a cutoff (by size, by order or by vertex count) is an input put in by hand. **Verdict:** canonical only for a finite S. Applies to both (F) and (W).
 
 **2.2 Automorphism-symmetric (1/|Aut|, groupoid counting).** This is fixed by the combinatorial structure of a world, so no tuning is involved. It is a refinement of 2.1 and inherits the same normalization failure. It also shifts weight toward asymmetric worlds, with no independent reason that this matters for T3/T4. **Verdict:** same as 2.1. Applies to both readings.
 
@@ -44,7 +44,7 @@ As #427 states it, the question of what weight exact-closure worlds get is ill-p
 
 ### 3. Well-posedness (David's principle)
 - **Ill-posed form (#427):** "a measure smooth in route data gives C(S) zero weight; what fixes a nonzero weight?" This presupposes a continuum of route data and a smooth reference measure, and neither is fixed.
-- **Well-posed form:** take W(S) countable (from the lock) and S finite, or fix one exhaustion for an independent reason. Then (M1) weight × counting on C(S) is determined up to the unspecified per-vertex values, and C(S) has positive weight whenever it is non-empty. Whether C(S) is non-empty for a given S is still "not established" (#427).
+- **Well-posed form:** assume W(S) countable (a hypothesis; whether the lock supplies it is open) and S finite, or fix one exhaustion for an independent reason. Then (M1) weight × counting on C(S) is determined up to the unspecified per-vertex values, and C(S) has positive weight whenever it is non-empty. Whether C(S) is non-empty for a given S is still "not established" (#427).
 - **Inputs that remain free:** the exhaustion (or the finiteness of S), the (M1) values, and μ beyond (M1). These are David's calls. No recommendation is made here.
 
 ### 4. Honest costs / flags
@@ -67,3 +67,4 @@ Classical only. No Born claim, no probability rule. μ open; (M1) untouched at L
 ### Change log
 
 - 2026-10-19: note created by Creative Lead from Geometry's workstream (C) draft (comment 6272908761 on #444); ledger row L189. Geometry's own edit to its draft applied in the result paragraph: the parenthetical saying the lock gives countability replaced with "(countability of worlds is assumed here; whether the lock supplies it is open)", because jets with real coefficients are uncountable.
+- 2026-10-19: Geometry's wording applied to its draft in §2.1 and §3 (countability of W(S) stated as a hypothesis; whether the lock supplies it is open). Geometry passes #447 with these. Literature's pass is still pending; no Literature fixes applied.
