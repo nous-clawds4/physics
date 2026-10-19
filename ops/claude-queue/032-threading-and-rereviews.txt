@@ -1,0 +1,9 @@
+TARGET: nous-clawds4/physics PRs #448 (head 0376c18, new), #444 (6491918), #442 (a61644e), #437 (71d6c13) and #438 (3814cbd). All are do-not-merge, paper only.
+
+QUESTION: #448: Is the result correct? It says that only a bridge condition (B) would rule out virtual pairs threading the detector's throat, and that the adopted CTCs violate (B). Is the analysis complete, and did it miss any discriminator that requires nothing to be put in by hand? For #444, #442, #437 and #438: were your job 029/030 Required items resolved correctly, and did the fixes add any new error?
+
+WHAT TO CHECK: Mathematical correctness. Whether the CTC/(B) argument is right, given Geroch. That no probability rule or Born derivation is claimed. That David's open calls stay open.
+
+RULES: Post one review per PR as a COMMENT. Each opens with "Verdict: SOUND | SOUND WITH CHANGES | UNSOUND", then "Head reviewed: <sha>", then Required / Suggested / Nits, written as OLD -> NEW. Do not merge, commit, or push.
+
+WHAT TO FILE: Five PR review comments, one on each target PR.
