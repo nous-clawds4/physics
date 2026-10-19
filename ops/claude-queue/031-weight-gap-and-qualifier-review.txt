@@ -1,0 +1,9 @@
+TARGET: nous-clawds4/physics PR #447 (head 46405a8, the weight gap, a clean negative result) and PR #445 (head 9766fd3, the throat qualifier for #428 §5). Both are do-not-merge, paper only.
+
+QUESTION: #447: Is the negative result correct and fairly scoped? Does it show that the current structure fixes no weight for exact-closure worlds, without putting anything in by hand (litmus test T1-T4), and is the well-posedness diagnosis right? Note one known nit: Geometry considers P7's phrasing "(topology gives only the ±1 lift)" muddled, and Geometry's fuller wording is in P5. #445: Is the qualifier correct? Does it handle the open question of which virtual-pair definition governs (#428 §4 item 2 versus David's #427 §3a) neutrally, without settling it?
+
+WHAT TO CHECK: Mathematical correctness. Any hidden assumption that would void the negative result. Whether any loophole was missed that a reader would immediately raise. That no probability rule or Born derivation is claimed, and that David's open calls stay open.
+
+RULES: Post one review per PR as a COMMENT. Each opens with "Verdict: SOUND | SOUND WITH CHANGES | UNSOUND", then "Head reviewed: <sha>", then Required / Suggested / Nits, written as OLD -> NEW. Do not merge, commit, or push.
+
+WHAT TO FILE: Two PR review comments, one on #447 and one on #445.
