@@ -4,7 +4,7 @@
 
 ## Plain summary (for David)
 
-As #427 states it, the question of what weight exact-closure worlds get is ill-posed, because it needs a reference measure on route data and nothing fixes one. Each candidate tested (counting, 1/|Aut|, frame-lift signs, MERW, Euler characteristic e(W), entropy-max) fails T2 on at least one input: a cutoff, a coupling constant, a fixed ambient graph, or the unspecified (M1) values. The question becomes well-posed if the set of worlds is countable and the setup is finite; exact closure is then a combinatorial constraint, not a measure-zero event. The cutoff, the (M1) values and μ stay free, and countability is a hypothesis.
+As #427 states it, the question of what weight exact-closure worlds get is ill-posed, because it needs a reference measure on route data and nothing fixes one. Each candidate tested (counting, 1/|Aut|, frame-lift signs, MERW, Euler characteristic e(W), entropy-max) fails T2 on at least one input: a cutoff, a coupling constant, a fixed ambient graph, or the unspecified (M1) values. The question becomes well-posed if the set of worlds is countable and the setup is finite; exact closure is then a combinatorial constraint, not an event confined to a nowhere-dense set. The cutoff, the (M1) values and μ stay free, and countability is a hypothesis.
 
 ## Geometry's draft (verbatim from https://github.com/nous-clawds4/physics/pull/444#issuecomment-6272908761)
 
@@ -20,7 +20,7 @@ As #427 states it, the question of what weight exact-closure worlds get is ill-p
 - **Domain:** C(S) ⊂ W(S), the worlds compatible with S. Under the 5:14 PM definition (adopted 5:17 PM, #427 §3a), every virtual pair is exact, so C(S) is the set of worlds containing at least one virtual pair.
 - **Codomain:** [0, ∞) for a weight, or ℝ if signs are allowed (§2.3). A probability needs normalization, and none is available yet (§2.1).
 - **Fixed by the framework:** the lock (real-analytic jet observers); exact closure (a law, #427); CTCs adopted; spin-½ for fermions; species conservation not adopted, so C(S) includes worlds where species change; the frame lift ±1 on every loop (#434).
-- **Chosen but not specified:** (M1) per-vertex weights at L3 (David's choice, strong opinion weakly held; the values are not given).
+- **Chosen but not specified:** (M1) per-vertex weights at L3 (David's L3 choice; hold level "strong opinion weakly held" as recorded by Geometry, source not given here and unverified by Literature, no original seen; the values are not given).
 - **Free:** μ; any reference measure on route data; any exhaustion or order on W(S); 1(a) and the write rule (not adopted); R-geon vs R-frame; (F) vs (W).
 - **Reading:** Step 1 uses neither (F) nor (W). Under (F) the detector restricts C(S) (#444 funnel). Under (W) the detector constrains nothing (Reading A) and C(S) is larger. The problem has the same form in both readings.
 
@@ -54,9 +54,13 @@ As #427 states it, the question of what weight exact-closure worlds get is ill-p
 - 2.3 depends on #434 §7 under R-geon. Under R-frame the sign is the frame type and the same verdict holds.
 - #427 and #444 are not edited. Nothing in versions/ or papers/.
 
+## Literature prior art; no adoption
+
+Bibliographic pointers only (Literature; full sweep: https://github.com/nous-clawds4/physics/pull/444#issuecomment-6272936091). MERW: Burda, Duda, Luck, Waclaw, PRL 102, 160602 (2009), doi:10.1103/PhysRevLett.102.160602. Structure-fixed classical weights: Lee–Wald, J. Math. Phys. 31, 725 (1990) (covariant phase space); Gibbons–Hawking–Stewart, Nucl. Phys. B 281, 736 (1987), with Hawking–Page, Nucl. Phys. B 298, 789 (1988) and Schiffrin–Wald, Phys. Rev. D 86, 023521 (2012) on its cutoff dependence; Rideout–Sorkin, Phys. Rev. D 61, 024002 (2000) (sequential growth, free couplings). Contrast (quantum): Dürr–Goldstein–Zanghì, J. Stat. Phys. 67, 843 (1992), where equivariance forces |ψ|² given ψ. No published structure-fixed weight giving a lower-dimensional set of classical worlds positive weight without a hand-chosen input was found. Nothing here is adopted.
+
 ## Guardrails
 
-Classical only. No Born claim, no probability rule. μ open; (M1) untouched at L3. 1(a) and the write rule not adopted. CTCs adopted (David, 2:27 AM ET 2026-10-14, relayed via Physics Lead, not signed). Spin-½ adopted for fermions only (#431 §3c). Species conservation not adopted. R-geon/R-frame and (F)/(W) open. No ħ, no measure, no phase rule put in. Countability of worlds is a hypothesis. Nothing adopted. Nothing in versions/ or papers/.
+Classical only. No Born claim, no probability rule. μ open; (M1) untouched at L3. 1(a) and the write rule not adopted. CTCs adopted (David, 2:27 AM ET 2026-10-14, relayed via Physics Lead, not signed). Spin-½ adopted for fermions only (David, 11:24 and 11:26 AM ET 2026-10-15, #431 §3c). Topology gives only the ±1 lift. Species conservation not adopted. R-geon/R-frame and (F)/(W) open. No ħ, no measure, no phase rule put in. Countability of worlds is a hypothesis. Nothing adopted. Nothing in versions/ or papers/.
 
 ## Ledger row and change log
 
@@ -68,3 +72,4 @@ Classical only. No Born claim, no probability rule. μ open; (M1) untouched at L
 
 - 2026-10-19: note created by Creative Lead from Geometry's workstream (C) draft (comment 6272908761 on #444); ledger row L189. Geometry's own edit to its draft applied in the result paragraph: the parenthetical saying the lock gives countability replaced with "(countability of worlds is assumed here; whether the lock supplies it is open)", because jets with real coefficients are uncountable.
 - 2026-10-19: Geometry's wording applied to its draft in §2.1 and §3 (countability of W(S) stated as a hypothesis; whether the lock supplies it is open). Geometry passes #447 with these. Literature's pass is still pending; no Literature fixes applied.
+- 2026-10-19: Literature fixes applied (comment 6273010962 on #447, written against d7e5c0a, applied on 0461625): P1 ('measure-zero' becomes 'nowhere-dense' in the plain summary), P6 ((M1) hold-level labels), P7 (spin-½ dated; topology gives only the ±1 lift), P8 (Literature prior-art section). P3 and P4 superseded by Geometry's §2.1/§3 edits at 0461625 (their OLD strings no longer occur). P2 and P5 edit Geometry's verbatim text and are pending Geometry's approval; not applied. §3's 'C(S) has positive weight whenever it is non-empty' is accepted only as a conditional on a counting reference that is not adopted, not as a result.
