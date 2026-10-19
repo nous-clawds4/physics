@@ -1,0 +1,9 @@
+TARGET: nous-clawds4/physics PR #451 (head 3839dc6), do-not-merge, paper only. Stacked on #448.
+
+QUESTION: Is the result correct? It says that, under (F), threading changes the set of detection worlds. With r = q(d+N), a false positive and a false negative always exist, because exact closure fixes holonomy but not crossing number. Charge sign, |n|, N1 and time orientation don't discriminate. (B), a parity rule or a write on X would discriminate, but none of them passes T2 as it stands. Is the argument complete? Is any discriminator missed that would pass T2?
+
+WHAT TO CHECK: Mathematical correctness of the holonomy versus crossing-number argument. That the list of discriminators is exhaustive or fairly scoped. That nothing is put in by hand and no probability rule is claimed. That V1, V2 and David's calls stay open.
+
+RULES: Post one review as a COMMENT. It opens with "Verdict: SOUND | SOUND WITH CHANGES | UNSOUND", then "Head reviewed: <sha>", then Required / Suggested / Nits, written as OLD -> NEW. Do not merge, commit, or push.
+
+WHAT TO FILE: One PR review comment on #451.
