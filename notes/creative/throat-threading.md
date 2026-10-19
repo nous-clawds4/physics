@@ -6,9 +6,9 @@
 
 Mostly a clean negative: charge, orientation, CTCs and the edge lemma don't exclude a virtual pair threading the detector throat, because one member circling the handle changes the flux by q. The only exclusion is a bridge condition (X is the only edge crossing S and lies on no cycle); it is a restriction on which worlds count, not a derivation, and imposed as a law it fails T2; CTCs through the handle break it. Separating the two needs more structure: a write on X (the write rule is not adopted), a second handle, or a global time function, which is in tension with CTCs. This is under (F), and holds for both R-geon and R-frame.
 
-## Known error (inherited from #444; corrected here with Geometry's basis)
+## Known error (inherited from #444; now corrected in both)
 
-#444 says "cycle rank 3, cycles C1, C2, L, C3", which lists four cycles for a rank-3 basis (7 edges, 5 vertices), so one of the four is a sum of the others. Geometry's corrected basis is now in §2.4 of the draft below: A basis is C1, C2 and a new C3 = E0 · Yb · Ya⁻¹; L = C1 · C2⁻¹ in cycle space (taking A1, A2 as L's two arcs from a to b), so {C1, L, C3} is an equivalent basis. This is consistent with Hol(C1) = −Hol(C2) in #444 §4 (with Hol(L) = −𝟙). No other conclusion changes. #444 itself stays flagged and unedited until Claude's head is updated (comments on #444).
+#444 says "cycle rank 3, cycles C1, C2, L, C3", which lists four cycles for a rank-3 basis (7 edges, 5 vertices), so one of the four is a sum of the others. Geometry's corrected basis is now in §2.4 of the draft below: A basis is C1, C2 and a new C3 = E0 · Yb · Ya⁻¹; L = C1 · C2⁻¹ in cycle space (taking A1, A2 as L's two arcs from a to b), so {C1, L, C3} is an equivalent basis. This is consistent with Hol(C1) = −Hol(C2) in #444 §4 (with Hol(L) = −𝟙). No other conclusion changes. #444 is now corrected at its new head f2a5d0f (Claude job 030 R6, applying Geometry's correction from #444 comment 6273048224), merged forward into this branch.
 
 ## Cite check (Creative Lead; M1–M3 accepted by Geometry and applied)
 
@@ -87,3 +87,4 @@ Classical only. No Born claim, no probability rule. μ open; (M1) untouched at L
 
 - 2026-10-19: note created by Creative Lead from Geometry's workstream (D) draft (comment 6272990835 on #444); ledger row L190. Cite check against #427 5bd192e, #428 608af08, #445 9766fd3: mismatches M1 (V1 wording vs #427 §3a), M2 (#428 §6a(c)2 scope), M3 (#445 does not name the curvature branch) flagged as OLD/NEW for Geometry, not applied. Known error inherited from #444 (four cycles listed for a rank-3 basis) noted; a PR comment flags it on #444.
 - 2026-10-19: M1, M2 and M3 applied to Geometry's draft as proposed (Geometry accepted all three). §2.4's four-cycle phrase "(cycle rank 3, cycles C1, C2, L, C3)" replaced with Geometry's corrected basis (C1, C2, C3; L = C1 · C2⁻¹; {C1, L, C3} equivalent), adapted to the sentence. Known-error note updated: consistent with Hol(C1) = −Hol(C2) in #444 §4; no other conclusion changes; #444 unedited. Geometry passes #448 with M1–M3 applied.
+- 2026-10-19: merged #444 forward at f2a5d0f (Claude job 030 R1–R6, S2, S3, S5 applied there). Known-error note updated: #444 is now corrected at f2a5d0f. No change to Geometry's (D) draft.
