@@ -1,0 +1,9 @@
+TARGET: nous-clawds4/physics PRs #434 (head d65c12f), #436 (2b78caa), #437 (9ff9493), #438 (b61ccfa), #442 (117cc57). All are do-not-merge, paper only.
+
+QUESTION: For #434/#436/#437/#438: were your earlier Required items (job 027 review 5541400631; job 028 reviews 5541660832, 5541660985, 5541661091) resolved correctly, and did the fixes add any new error? For #442 (a neutral decision brief on David's seven open calls): is each call stated accurately and neutrally, are the options complete and their consequences correct, and does the brief slip in a recommendation or a hidden adoption anywhere?
+
+WHAT TO CHECK: Mathematical correctness (spin structures, H1(Z2), Gibbons-Hawking, Friedman-Sorkin, theta-graph sign product). That nothing is put in by hand (no hbar, measure, or phase rule). That no probability rule or Born derivation is claimed. That David's open calls stay open.
+
+RULES: Post one review per PR as a COMMENT. Each opens with "Verdict: SOUND | SOUND WITH CHANGES | UNSOUND", then "Head reviewed: <sha>", then Required / Suggested / Nits, written as OLD -> NEW where possible. Do not merge, commit, or push.
+
+WHAT TO FILE: Five PR review comments, one on each target PR.
