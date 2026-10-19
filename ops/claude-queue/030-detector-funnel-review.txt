@@ -1,0 +1,9 @@
+TARGET: nous-clawds4/physics PR #444 (head 8e8000e), do-not-merge, paper only. Stacked on #438.
+
+QUESTION: Is the lemma correct? It says that with a conserved unit charge and at most one particle per edge, no virtual loop shares an edge with the route chain. Does the detector-fixed funnel (a->x, b->x, exit X through the handle throat) give a route-independent, presence-only Gauss-flux record while L stays virtual and keeps its expected -1? This would resolve the job 025 R4 obstacle under (F) only.
+
+WHAT TO CHECK: The lemma's hypotheses and proof. Whether the flux write really is independent of the route. Whether the which-way conditions (job 026 S2, job 028 #436 S2) are met. The stated costs: the new cycle C3 has no expected value, the funnel is a design and not a law, #427's weight gap is untouched, and under (W) the result reduces to Reading A. Also check whether #428 §5 ("a virtual pair writes none") needs a qualifier for pairs that thread the throat. Confirm that nothing is put in by hand and that no probability rule is claimed.
+
+RULES: Post one review as a COMMENT. It opens with "Verdict: SOUND | SOUND WITH CHANGES | UNSOUND", then "Head reviewed: <sha>", then Required / Suggested / Nits, written as OLD -> NEW. Do not merge, commit, or push.
+
+WHAT TO FILE: One PR review comment on #444.
